@@ -61,7 +61,7 @@ Unlike traditional BI, which often requires coding or SQL expertise, self-servic
 
 With features such as **role-based access controls**, **data dictionaries**, and **audit logs**, modern self-service analytics platforms strike the right balance: **freedom for users** while maintaining **governance and trust**.
 
-> **Quick Fact:** According to a [_**Gartner survey**_](https://www.gartner.com/en/newsroom/press-releases/2022-05-10-gartner-says-nearly-half-of-finance-executives-see-self-service-data-and-analytics-as-a-driver-of-employee-productitivity) of 400 finance executives, **49%** said that _self-service data and analytics_ is seen as a driver of **employee productivity**.
+> **Quick Fact:** According to a [_\**Gartner survey*\*_](https://www.gartner.com/en/newsroom/press-releases/2022-05-10-gartner-says-nearly-half-of-finance-executives-see-self-service-data-and-analytics-as-a-driver-of-employee-productitivity) of 400 finance executives, **49%** said that _self-service data and analytics_ is seen as a driver of **employee productivity**.
 
 <!-- section:content-2 -->
 
@@ -149,7 +149,7 @@ Self-service analytics **democratizes data access** across the organization. Eve
 -   Gain confidence in decisions with **trusted, certified datasets**
     
 
-_**Example:**_ A marketing team adopted a governed self-service analytics platform. Within six months, they reported a **40% drop in ad-hoc data requests** to the central analytics team. This freed resources, accelerated campaign optimizations, and boosted ROI.
+_\**Example:*\*_ A marketing team adopted a governed self-service analytics platform. Within six months, they reported a **40% drop in ad-hoc data requests** to the central analytics team. This freed resources, accelerated campaign optimizations, and boosted ROI.
 
 ### Self-Service Analytics: Departmental Use Cases Across Regions
 

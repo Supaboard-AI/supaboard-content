@@ -555,7 +555,7 @@ At the core of business activity monitoring are real-time monitoring and [KPIs](
 
 Without clear KPIs, BAM can become overwhelming. With the right KPIs, it becomes a focused and powerful decision-making tool.
 
-_**Know**_ [_**More About KPI**_](/blog/what-is-a-kpi-guide)_**.**_
+_\**Know*\*_ [_\**More About KPI*\*_](/blog/what-is-a-kpi-guide)_\**.*\*_
 
 <!-- section:content-6 -->
 

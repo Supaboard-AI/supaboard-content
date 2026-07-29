@@ -55,19 +55,15 @@ You can use these two visualization types to compare values or understand how da
 
 Choosing the wrong chart can lead to unclear insights or incorrect interpretation. This article shows you how to understand the difference between [bar graphs and histograms](https://www.geeksforgeeks.org/maths/bar-graphs-and-histograms/), when to use each, and how to avoid common mistakes in data visualization.
 
-_**Bar Graph vs Histogram (Quick Answer)**_
+_\**Bar Graph vs Histogram (Quick Answer)*\*_
 
-_**Bar Graph → Used to compare categorical data  
-Histogram → Used to show distribution of continuous data**_
+_\**Bar Graph → Used to compare categorical data Histogram → Used to show distribution of continuous data*\*_
 
-_**Bar graph bars are separated  
-Histogram bars touch each other**_
+_\**Bar graph bars are separated Histogram bars touch each other*\*_
 
-_**Bar graphs show comparison  
-Histograms show patterns and distribution**_
+_\**Bar graphs show comparison Histograms show patterns and distribution*\*_
 
-_**Bar graph order can change  
-Histogram order is fixed**_
+_\**Bar graph order can change Histogram order is fixed*\*_
 
 **Here’s a Quick Glance at What a Bar Diagram and What is Histogram Are**
 

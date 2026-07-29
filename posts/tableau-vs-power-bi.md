@@ -386,4 +386,4 @@ In the Tableau vs Power BI comparison, there is no universal winner, only the ri
 
 However, both Power BI vs Tableau solutions follow a traditional BI model centered on analyst-built dashboards. As businesses demand faster, AI-driven, self-serve insights, leaders must evaluate whether traditional BI tools are enough, or if it’s time to adopt a more modern approach to analytics.
 
-> _Start your free_ [_**Supaboard**_](https://auth.supaboard.ai/onboard/register) _trial today and see how AI-native analytics eliminates dashboard bottlenecks — no analysts required._
+> _Start your free_ [_\**Supaboard*\*_](https://auth.supaboard.ai/onboard/register) _trial today and see how AI-native analytics eliminates dashboard bottlenecks — no analysts required._

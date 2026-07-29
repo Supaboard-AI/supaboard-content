@@ -63,14 +63,14 @@ As a result, teams are searching for “Looker-like” tools, modern analytics p
 
 A Looker-like analytics tool balances governance, flexibility, and ease of use, ensuring data stays consistent while teams can explore insights independently. In practice, this means delivering the following core capabilities:
 
--   **Centralized semantic or metrics layer  
-    **KPIs such as revenue, churn, or conversion rate are defined once and reused consistently across dashboards for marketing, finance, and leadership, preventing metric mismatches.
+-   **Centralized semantic or metrics layer**  
+    KPIs such as revenue, churn, or conversion rate are defined once and reused consistently across dashboards for marketing, finance, and leadership, preventing metric mismatches.
     
--   **Drag and drop exploration with minimal technical dependency  
-    **Business users can build and adjust dashboards visually, without writing SQL or waiting on engineers for every change.
+-   **Drag and drop exploration with minimal technical dependency**  
+    Business users can build and adjust dashboards visually, without writing SQL or waiting on engineers for every change.
     
--   **Real-time dashboards for faster decision-making  
-    **Teams can monitor performance as it happens, tracking campaigns, sales, or operations in near real time instead of relying on static reports.
+-   **Real-time dashboards for faster decision-making**  
+    Teams can monitor performance as it happens, tracking campaigns, sales, or operations in near real time instead of relying on static reports.
     
 -   [**Natural language**](/blog/natural-language-query-analytics) **“Ask” features for instant insights**Users can ask questions (for example, _“How did signups perform last week by channel?”_) and get immediate, data-backed answers.
 
@@ -80,8 +80,8 @@ A Looker-like analytics tool balances governance, flexibility, and ease of use, 
 
 Many teams are moving away from Looker due to high costs, complex learning languages, and limited flexibility. They hate the visualization options, and it fails to connect data, analysts, and business users within a single unified tool, reducing overall efficiency.
 
--   **High Costs & Poor ROI  
-    **After Google’s acquisition, pricing has increased significantly. Many organizations struggle to justify the cost compared to modern BI tools that offer similar or better capabilities at a lower price point.
+-   **High Costs & Poor ROI**  
+    After Google’s acquisition, pricing has increased significantly. Many organizations struggle to justify the cost compared to modern BI tools that offer similar or better capabilities at a lower price point.
     
 -   **Steep Learning Curve & Dependency on LookML**  
     Looker relies heavily on LookML, a proprietary modeling language. This creates dependency on analysts or engineers, making it harder for business users to explore data independently and slowing down workflows.

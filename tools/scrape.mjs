@@ -144,6 +144,51 @@ turndown.addRule("breakInsideTableCell", {
   replacement: () => "<br>",
 });
 
+/**
+ * Emphasis delimiters have to hug their content, and must not collide with a
+ * literal asterisk at the edge of it.
+ *
+ * Framer puts `<br>` and trailing whitespace inside `<strong>`, which turndown
+ * renders faithfully as `**Heading \n**Body` — and CommonMark does not read
+ * that as bold at all, so the asterisks show up on the page. Separately,
+ * `<strong>SELECT *</strong>` becomes `**SELECT ***`, where the third asterisk
+ * is ambiguous and the run fails to parse.
+ */
+/** Markdown code spans are literal, so emphasis inside one is just noise. */
+function insideCode(node) {
+  for (let el = node.parentNode; el; el = el.parentNode) {
+    if (el.nodeName === "CODE" || el.nodeName === "PRE") return true;
+  }
+  return false;
+}
+
+function emphasis(delimiter) {
+  return (content, node) => {
+    if (insideCode(node)) return content;
+
+    const [, lead, inner, trail] = content.match(/^(\s*)([\s\S]*?)(\s*)$/);
+    if (!inner) return content;
+
+    const text = inner
+      // A line break inside emphasis cannot survive; outside it, it can.
+      .replace(/\s*\n\s*/g, " ")
+      .replace(/^\*/, "\\*")
+      .replace(/\*$/, "\\*");
+
+    return `${lead}${delimiter}${text}${delimiter}${trail}`;
+  };
+}
+
+turndown.addRule("strongHuggingDelimiters", {
+  filter: ["strong", "b"],
+  replacement: emphasis("**"),
+});
+
+turndown.addRule("emHuggingDelimiters", {
+  filter: ["em", "i"],
+  replacement: emphasis("_"),
+});
+
 // Tables `markTables` flagged as inexpressible in GFM pass through as the
 // cleaned HTML. Without this, turndown's own fallback would emit the original
 // Framer markup — class attributes and all.

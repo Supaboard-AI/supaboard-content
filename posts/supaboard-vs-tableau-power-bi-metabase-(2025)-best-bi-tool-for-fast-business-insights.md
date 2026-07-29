@@ -98,8 +98,7 @@ And the best part? Your whole team can use it - not just the data folks.
 
 ### Real Stories from Real Teams
 
-_“It feels like I finally have visibility without bugging anyone. I can check on campaigns, product performance anything without a single dashboard request.”  
-— Sarah M., Ops Manager_
+_“It feels like I finally have visibility without bugging anyone. I can check on campaigns, product performance anything without a single dashboard request.” — Sarah M., Ops Manager_
 
 _“We dropped two other tools after switching. Our reports take 10 minutes now, not 3 days. That alone saved us dozens of hours a month.”_
 
@@ -107,17 +106,17 @@ _“We dropped two other tools after switching. Our reports take 10 minutes now,
 
 ### Frequently Asked Questions
 
-**Do I need to be technical to use it?  
-**Nope. If you can type a question, you can use Supaboard.
+**Do I need to be technical to use it?**  
+Nope. If you can type a question, you can use Supaboard.
 
-**Is my data safe?  
-**Yes, we use secure encryption and follow the same data handling standards as major platforms.
+**Is my data safe?**  
+Yes, we use secure encryption and follow the same data handling standards as major platforms.
 
-**Can it replace other BI tools?  
-**For many teams, yes. Especially if you're using a few different platforms just to get a clear view of your business.
+**Can it replace other BI tools?**  
+For many teams, yes. Especially if you're using a few different platforms just to get a clear view of your business.
 
-**How long does it take to get started?  
-**Usually under 15 minutes. Seriously.
+**How long does it take to get started?**  
+Usually under 15 minutes. Seriously.
 
 <!-- section:content-4 -->
 

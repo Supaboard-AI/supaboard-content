@@ -52,7 +52,7 @@ faq:
     answer: "SQL, Excel, BI tools, statistics, reporting, and business understanding."
   - question: "7\\. What are the skills required for data science?"
     answer: "Programming (Python/R), machine learning, big data tools, model building, and advanced analytics."
-  - question: "Conclusion"
+  - question: Conclusion
     answer: "Understanding data science vs data analytics helps you choose the right career path. Data analytics focuses on insights and reporting, while data science focuses on predictive modeling and machine learning. Both roles are future-proof, in-demand, and offer strong career opportunities in the US and India."
 source:
   url: https://supaboard.ai/blog/data-science-vs-data-analytics-what-you-need-to-know
@@ -67,11 +67,9 @@ source:
 
 ##### **What Data Analytics Focuses On**
 
--   Understanding **past performance  
-    **
+-   Understanding **past performance**  
     
--   Monitoring **current trends  
-    **
+-   Monitoring **current trends**  
     
 -   Supporting **business decisions** using data
     
@@ -84,8 +82,8 @@ Many people confuse **data analytics** with **data analysis**, but they are diff
 
 <table><tbody><tr><td><strong>Term</strong></td><td><strong>What It Does</strong></td><td><strong>Nike Example</strong></td></tr><tr><td><strong>Data Analysis</strong></td><td>Examines existing data to answer specific questions</td><td>“Which shoe size sold the most last month?”</td></tr><tr><td><strong>Data Analytics</strong></td><td>Full data process including insights and prediction</td><td>“How much stock should Nike send next month?”</td></tr></tbody></table>
 
-**Data analysis is a subset of data analytics.  
-**Data analytics also includes **data science** and **data engineering**, making it a broader field.
+**Data analysis is a subset of data analytics.**  
+Data analytics also includes **data science** and **data engineering**, making it a broader field.
 
 <!-- section:content-3 -->
 
@@ -97,14 +95,11 @@ In simple words, **data science uses data to build intelligent systems that can 
 
 ##### **What Data Science Includes**
 
--   **Machine learning and AI  
-    **
+-   **Machine learning and AI**  
     
--   **Predictive modeling  
-    **
+-   **Predictive modeling**  
     
--   Working with **large and complex datasets  
-    **
+-   Working with **large and complex datasets**  
     
 -   **Experimentation and optimization**
     
@@ -120,16 +115,13 @@ Data scientists work with stakeholders to understand business goals, build model
 -   Identifying the **business problem**
     
 
--   Collecting and **cleaning data  
-    **
+-   Collecting and **cleaning data**  
     
 -   Exploring patterns and trends
     
--   Selecting **models and algorithms  
-    **
+-   Selecting **models and algorithms**  
     
--   Applying **machine learning techniques  
-    **
+-   Applying **machine learning techniques**  
     
 -   Evaluating model performance
     
@@ -179,13 +171,11 @@ Instead of replacing these roles, AI is **augmenting** them, making analysts fas
 
 ##### **Key skills required for** [**data analytics include:**](/blog/will-data-analysts-be-replaced-by-ai-the-truth-behind-the-fear)
 
--   **SQL and Excel  
-    **
+-   **SQL and Excel**  
     
 -   **Data visualization tools** (Tableau, Power BI)
     
--   **Statistics and reporting  
-    **
+-   **Statistics and reporting**  
     
 -   **Business understanding**
     
@@ -194,11 +184,9 @@ Instead of replacing these roles, AI is **augmenting** them, making analysts fas
 
 ##### **Key skills required for data science include:**
 
--   **Python or R  
-    **
+-   **Python or R**  
     
--   **Machine learning  
-    **
+-   **Machine learning**  
     
 -   **Big data tools** (Spark, Hadoop)
     
@@ -207,20 +195,16 @@ Instead of replacing these roles, AI is **augmenting** them, making analysts fas
 
 ### How to Become a Data Analyst Step by Step (Roadmap)
 
-1.  Learn **statistics and business metrics  
-    **
+1.  Learn **statistics and business metrics**  
     
-2.  Master **SQL and** [**BI tools  
-    **](https://www.supaboard.ai/)
+2.  Master **SQL and** [**BI tools**  
+    ](https://www.supaboard.ai/)
     
-3.  Practice **data cleaning  
-    **
+3.  Practice **data cleaning**  
     
-4.  Work on **real projects  
-    **
+4.  Work on **real projects**  
     
-5.  Build a **portfolio  
-    **
+5.  Build a **portfolio**  
     
 6.  Get certified (optional)
     
@@ -231,17 +215,13 @@ Instead of replacing these roles, AI is **augmenting** them, making analysts fas
 
 1.  Learn Programming
     
-2.  Build **math and statistics fundamentals  
-    **
+2.  Build **math and statistics fundamentals**  
     
-3.  Learn **machine learning  
-    **
+3.  Learn **machine learning**  
     
-4.  Work with **big data  
-    **
+4.  Work with **big data**  
     
-5.  Build **end-to-end ML projects  
-    **
+5.  Build **end-to-end ML projects**  
     
 6.  Apply for **data science roles**
 

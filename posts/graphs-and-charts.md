@@ -52,7 +52,7 @@ faq:
     answer: "Charts and graphs are similar but not exactly the same. Graphs usually focus on showing relationships using axes and scales, while charts are broader visual tools used for presenting data. In practice, both terms are often used interchangeably."
   - question: "How Do I Choose the Best Type of Graph for My Data?"
     answer: "To choose the best graph, first understand your data type and goal. Use line graphs for trends, bar charts for comparisons, pie charts for proportions, and scatter plots for relationships. Always select a graph that makes your data clear and easy to interpret."
-  - question: "Conclusion"
+  - question: Conclusion
     answer: "Graphs are not just for decoration, but are crucial tools to evaluate data and to make smarter decisions. Used properly they point out trends, make patterns visible and help to make difficult subject easier to absorb. Getting to know the numerous sorts of graphs and when to use them will make your reports, presentations and analyses more clear and impactful. Learning data visualization may help you turn raw statistics into meaningful insights that enable smarter and more confident decision-making whether you work in education, research or business intelligence."
 source:
   url: https://supaboard.ai/blog/graphs-and-charts

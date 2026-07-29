@@ -69,7 +69,7 @@ source:
 
 In this guide, we compare the best **Tableau alternatives and competitors in 2026**, helping you choose the right BI platform based on features, pricing, and use cases..
 
-> _**Read on to discover the real reasons teams are moving away from Tableau and what tools are replacing it.**_
+> _\**Read on to discover the real reasons teams are moving away from Tableau and what tools are replacing it.*\*_
 
 <!-- section:content-2 -->
 

@@ -265,7 +265,7 @@ In several cases, introducing:
 
 …stabilized performance without changing queries or scaling infrastructure.
 
-_To better understand where optimization fits in modern systems, explore the_ [_**data warehouse vs data lake vs database**_](/blog/database-vs-data-warehouse-vs-data-lake-guide) _comparison._
+_To better understand where optimization fits in modern systems, explore the_ [_\**data warehouse vs data lake vs database*\*_](/blog/database-vs-data-warehouse-vs-data-lake-guide) _comparison._
 
 <!-- section:content-3 -->
 
@@ -314,7 +314,7 @@ This is the first place to look because inefficient queries create unnecessary l
 -   **Filter early (reduce data scanned)**  
     Apply `WHERE` conditions as early as possible so the database processes fewer rows. The less data scanned, the faster the query execution.
     
--   **Avoid** `**SELECT ***` **(control data retrieval)**  
+-   **Avoid** `SELECT *` **(control data retrieval)**  
     Fetch only required columns. Retrieving extra data increases memory usage, disk I/O, and network transfer, especially in large tables.
     
 -   **Use efficient joins (minimize data expansion)**  
@@ -375,7 +375,7 @@ Performance issues are sometimes caused by too many concurrent requests rather t
 
 **When to use:** When performance drops under high traffic or during spikes in concurrent usage.
 
-_Optimized databases are critical for powering insights in modern_ [_**business intelligence tools**_](/blog/bi-tools)_._
+_Optimized databases are critical for powering insights in modern_ [_\**business intelligence tools*\*_](/blog/bi-tools)_._
 
 <!-- section:content-5 -->
 
@@ -395,7 +395,7 @@ Instead of fixing queries, teams upgrade instances or move to distributed setups
 **No monitoring**  
 Many teams don’t track slow queries until users complain. No visibility into query time, locks, or spikes. One production issue we worked on was caused by a single unoptimized query running repeatedly, no alerts, no logs. Monitoring should be in place before problems show up.
 
-> _Performance optimization becomes even more important when working with_ [_**AI-powered business intelligence systems**_](/blog/best-ai-powered-business-intelligence)_**.**_
+> _Performance optimization becomes even more important when working with_ [_\**AI-powered business intelligence systems*\*_](/blog/best-ai-powered-business-intelligence)_\**.*\*_
 
 <!-- section:content-6 -->
 

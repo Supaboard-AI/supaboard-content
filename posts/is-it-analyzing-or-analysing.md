@@ -168,7 +168,7 @@ That said, if your audience is primarily from the UK, India, or other Commonweal
 
 In simple terms, **analyzing is the American English spelling, while analysing is the British English spelling**. Both have the same meaning, and the right choice depends on your audience, region, and content strategy.
 
-_In real-world scenarios, especially when **analyzing data in**_ [_**business intelligence tools**_](/blog/best-business-intelligence-tools)_, clarity in language becomes important, as teams across different regions rely on consistent terminology to understand insights correctly._
+_In real-world scenarios, especially when **analyzing data in*\*_ [_\**business intelligence tools*\*_](/blog/best-business-intelligence-tools)_, clarity in language becomes important, as teams across different regions rely on consistent terminology to understand insights correctly._
 
 <!-- section:content-8 -->
 

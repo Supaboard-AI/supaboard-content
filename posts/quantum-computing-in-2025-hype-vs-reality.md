@@ -182,11 +182,11 @@ However, the foundational research and engineering happening now are laying the 
 
 [HSBC worked](https://www.hsbc.bank.in/) with [**IBM Quantum**](https://www.ibm.com/case-studies/hsbc-quantum-computing) to test whether quantum computing could improve **financial prediction models**. They used **quantum machine-learning algorithms** to analyze market and bond-trading data and compared the results with traditional AI models.
 
-**Result:  
-**The quantum-based model reduced prediction errors and improved accuracy compared to classical methods in certain scenarios.
+**Result:**  
+The quantum-based model reduced prediction errors and improved accuracy compared to classical methods in certain scenarios.
 
-**Why this matters:  
-**This shows that quantum computing can already **support real AI and machine-learning tasks**, especially where data is complex and patterns are hard to detect. It is not just experimental; banks are actively testing it today.
+**Why this matters:**  
+This shows that quantum computing can already **support real AI and machine-learning tasks**, especially where data is complex and patterns are hard to detect. It is not just experimental; banks are actively testing it today.
 
 <!-- section:content-6 -->
 

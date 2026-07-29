@@ -350,7 +350,7 @@ A financial institution used risk-adjusted dashboards to monitor credit and mark
 
 A retail enterprise faced severe cash shortages after delayed customer payments went unnoticed for months. Without real-time financial dashboards, leadership reacted late. Emergency loans increased interest costs by 25 percent and disrupted long-term investment and expansion plans.
 
-_**Not sure which chart fits your data? This**_ [_**bar graph vs histogram**_](/blog/bar-graph-vs-histogram) _**guide explains it clearly.**_
+_\**Not sure which chart fits your data? This*\*_ [_\**bar graph vs histogram*\*_](/blog/bar-graph-vs-histogram) _\**guide explains it clearly.*\*_
 
 #### Before vs After: Financial Dashboard Transformation
 

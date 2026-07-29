@@ -176,7 +176,7 @@ They will be systems that:
 -   Improve themselves over time
     
 
-In 2026, the most valuable startups won’t ask _“What features should we build?”  
-_They’ll ask _“What decisions should our product make on behalf of our users?”_
+In 2026, the most valuable startups won’t ask _“What features should we build?”_  
+They’ll ask _“What decisions should our product make on behalf of our users?”_
 
 That is the real promise of AI-native software and the foundation of the [next generation of SaaS.](https://www.supaboard.ai/)
