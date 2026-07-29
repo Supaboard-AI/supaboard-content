@@ -81,23 +81,40 @@ export function storagePrefix(kind, slug) {
  */
 const MAX_EDGE = 2048;
 
-function sourceAssetUrl(src) {
+/**
+ * Framer declares an image's real size in two different places depending on
+ * where it sits: covers carry `?width=&height=` on the src, body images carry
+ * `width`/`height` attributes on the element and a bare src. Both have to be
+ * consulted — reading only the query string let a 6.4 MB body image through.
+ */
+function sourceAssetUrl(src, hint = {}) {
   const url = new URL(src, ORIGIN);
-  const width = Number(url.searchParams.get("width") ?? 0);
-  const height = Number(url.searchParams.get("height") ?? 0);
-  const oversized = Math.max(width, height) > MAX_EDGE;
+  const cap = hint.maxEdge ?? MAX_EDGE;
+  const longest = Math.max(
+    Number(url.searchParams.get("width") ?? 0),
+    Number(url.searchParams.get("height") ?? 0),
+    Number(hint.width ?? 0),
+    Number(hint.height ?? 0),
+  );
 
   url.search = "";
-  // Without the declared dimensions there is nothing to judge by, so the
-  // original stands — those are the small ones in practice.
-  if (oversized) url.searchParams.set("scale-down-to", String(MAX_EDGE));
+  // A caller that knows the render size caps harder; otherwise the declared
+  // dimensions decide, and with none the original stands — those are the small
+  // ones in practice.
+  if (hint.maxEdge || longest > cap) url.searchParams.set("scale-down-to", String(cap));
 
   return url.toString();
 }
 
-export async function mirrorImage(src, prefix) {
+/**
+ * Largest edge an avatar is ever rendered at. Framer serves the full upload —
+ * up to 2.8 MB — for a circle drawn at 42px.
+ */
+export const AVATAR_EDGE = 512;
+
+export async function mirrorImage(src, prefix, hint) {
   if (!src) return null;
-  const source = sourceAssetUrl(src);
+  const source = sourceAssetUrl(src, hint);
   if (imageCache.has(source)) return imageCache.get(source);
 
   const res = await fetchWithRetry(source);
@@ -295,12 +312,12 @@ export async function blockToMarkdown($, block, { pageUrl, label, prefix }) {
   const images = $block.find("img").toArray();
   for (const img of images) {
     const $img = $(img);
-    const mirrored = await mirrorImage($img.attr("src"), prefix);
-    const alt = ($img.attr("alt") ?? "").trim();
     // Markdown has nowhere to put intrinsic dimensions, and the renderer needs
     // them to reserve space. Spaces ignores the extra query params.
     const width = $img.attr("width");
     const height = $img.attr("height");
+    const mirrored = await mirrorImage($img.attr("src"), prefix, { width, height });
+    const alt = ($img.attr("alt") ?? "").trim();
     const src = width && height ? `${mirrored}?w=${width}&h=${height}` : mirrored;
     $img.replaceWith(`<img src="${src}" alt="${escapeAttr(alt)}">`);
   }

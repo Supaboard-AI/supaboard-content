@@ -106,6 +106,9 @@ node tools/rails.mjs
 
 # migrate the /comparison pages into the site repo as typed TS
 node tools/comparisons.mjs [--out <dir>]
+
+# report Spaces objects nothing references; --delete removes them
+node tools/prune-assets.mjs [--delete]
 ```
 
 `convert.mjs` holds the Framer-HTML-to-markdown rules and the Spaces mirroring

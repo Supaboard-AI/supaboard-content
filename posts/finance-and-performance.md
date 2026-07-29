@@ -13,7 +13,7 @@ readLabel: "7 Min Read"
 author:
   name: "Sriyanshu Mishra"
   role: "Data Analyst"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/e49b413a552bd235.png
+  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
 cover:
   url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/finance-and-performance/78a9f00da9092890.png
   alt: "Data analytics dashboards with charts and graphs"

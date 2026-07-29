@@ -9,7 +9,8 @@
     "comparisons": "node tools/comparisons.mjs",
     "discover": "node tools/discover.mjs",
     "rails": "node tools/rails.mjs",
-    "refresh-faq": "node tools/refresh-faq.mjs"
+    "refresh-faq": "node tools/refresh-faq.mjs",
+    "prune-assets": "node tools/prune-assets.mjs"
   },
   "repository": {
     "type": "git",

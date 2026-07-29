@@ -21,6 +21,7 @@ import { join } from "node:path";
 import * as cheerio from "cheerio";
 
 import {
+  AVATAR_EDGE,
   ORIGIN,
   blockToMarkdown,
   decode,
@@ -98,6 +99,7 @@ async function scrapeComparison(slug) {
   const authorAvatar = await mirrorImage(
     $('div[data-framer-name="Profile Image"]').first().find("img").attr("src"),
     "comparison/authors",
+    { maxEdge: AVATAR_EDGE },
   );
 
   /* ---- pills ----------------------------------------------------------- */
@@ -132,8 +134,11 @@ async function scrapeComparison(slug) {
   const coverSrc =
     $('div[data-framer-name="Banner"]').first().find("img").first().attr("src") ?? "";
   if (!coverSrc) throw new Error("no banner image found");
-  const cover = await mirrorImage(coverSrc, prefix);
   const size = coverSrc.match(/width=(\d+)&(?:amp;)?height=(\d+)/);
+  const cover = await mirrorImage(coverSrc, prefix, {
+    width: size?.[1],
+    height: size?.[2],
+  });
 
   return {
     slug,

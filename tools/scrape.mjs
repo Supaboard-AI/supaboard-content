@@ -18,6 +18,7 @@ import { dirname, join } from "node:path";
 import * as cheerio from "cheerio";
 
 import {
+  AVATAR_EDGE,
   ORIGIN,
   blockToMarkdown,
   decode,
@@ -117,6 +118,7 @@ async function scrapePost(slug) {
   const authorAvatar = await mirrorImage(
     authorImg.attr("src") ?? person.image,
     "blog/authors",
+    { maxEdge: AVATAR_EDGE },
   );
 
   /* ---- dates + read time ----------------------------------------------- */

@@ -83,7 +83,7 @@ Supaboard: Complete control of data, so it will not be sent to external large la
 
 ## 7\. Performance and Speed: Getting to the Answer Faster
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/supaboard-vs-oracle-analytics-new-age-vs-enterprise-legacy-in-an-era-of-war/0f75c46e18e57e63.jpg?w=3950&h=2633)
+![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/supaboard-vs-oracle-analytics-new-age-vs-enterprise-legacy-in-an-era-of-war/39784e6bf9df58d1.jpg?w=3950&h=2633)
 
 Oracle Analytics: Usually stable when deployed, but large data sets and heavy queries cause latency or necessitate backend optimization.  
   

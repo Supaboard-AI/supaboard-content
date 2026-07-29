@@ -13,7 +13,7 @@ readLabel: "7 Min Read"
 author:
   name: "Sriyanshu Mishra"
   role: "Data Analyst"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/e49b413a552bd235.png
+  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
 cover:
   url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/dbt-guide/c17bdacc5a9e9c50.png
   alt: "dbt data transformation workflow with models, testing, and documentation"

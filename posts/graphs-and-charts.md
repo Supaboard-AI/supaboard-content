@@ -13,7 +13,7 @@ readLabel: "9 Min Read"
 author:
   name: "Sriyanshu Mishra"
   role: "Data Analyst"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/e49b413a552bd235.png
+  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
 cover:
   url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/graphs-and-charts/68af67a98c10af10.png
   alt: "easiest example of types of graph and charts"

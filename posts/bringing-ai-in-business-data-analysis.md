@@ -85,7 +85,7 @@ Classification models help understand customer purchasing habits, while unsuperv
 
 Data Analytics and AI tools are different but work well together. Data Analysis is used to describe data, while AI is great for predicting and prescribing solutions. Data Analytics tools help sort, analyze, and picture structured and semi-structured data. On the other hand, AI is crucial for dealing with unstructured or large data from places like social media.
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bringing-ai-in-business-data-analysis/a3cb331f7383f621.jpg?w=3000&h=1570)
+![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bringing-ai-in-business-data-analysis/f143a2bae5b887df.jpg?w=3000&h=1570)
 
 ### Bringing AI in Business Data Analysis
 
@@ -97,7 +97,7 @@ AI helps businesses work better in many ways, like managing work and setting pri
 
 ## The Development of Analytics: Merging Data Analytics and AI
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bringing-ai-in-business-data-analysis/b3e01a5491284098.jpg?w=3000&h=1411)
+![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bringing-ai-in-business-data-analysis/c50bbc1450c4c29c.jpg?w=3000&h=1411)
 
 AI and Data Analytics tools are becoming more connected, which we can see in how analytics platforms are changing. Today, [Business Intelligence](/blog/business-intelligence) (BI) tools are smoothly integrating Artificial Intelligence (AI). For instance, Qlik's AutoML feature improves its software with predictions and easy-to-understand AI. AutoML makes creating models easier, offering predictions and hypothetical situations without needing to code. Other BI companies are doing the same, adding AI features to their tools to keep up with the competition.
 

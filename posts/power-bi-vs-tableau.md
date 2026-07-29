@@ -13,7 +13,7 @@ readLabel: "6 Min Read"
 author:
   name: "Sriyanshu Mishra"
   role: "Data Analyst"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/e49b413a552bd235.png
+  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
 cover:
   url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/power-bi-vs-tableau/9a44bba9dd138bdc.png
   alt: "Which is Better in 2026? Power BI vs Tableau"

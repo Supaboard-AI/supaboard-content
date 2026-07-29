@@ -13,9 +13,9 @@ readLabel: "4 Min Read"
 author:
   name: "Aritra Ghosh"
   role: "Co- Founder"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0c79c297f2e5af36.jpeg
+  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/107bb25c87aac9fb.jpeg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/looking-ahead-how-ai-is-changing-business-understanding/522df6b4e2de6ba1.jpg
+  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/looking-ahead-how-ai-is-changing-business-understanding/0b51a3c11d5462da.jpg
   alt: "Looking Ahead: How AI is Changing Business Understanding"
   width: 4000
   height: 2667

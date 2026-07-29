@@ -13,7 +13,7 @@ readLabel: "7 Min Read"
 author:
   name: "Sriyanshu Mishra"
   role: "Data Analyst"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/77387574d2168695.png
+  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/b15b63d460d26a89.png
 cover:
   url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/data-querying/f6dbf98745b5d997.png
   alt: "Visual representation of data querying meaning, types of database queries, real-world query examples, and how data querying works in analytics."
