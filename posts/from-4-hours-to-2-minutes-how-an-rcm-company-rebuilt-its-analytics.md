@@ -1,5 +1,6 @@
 ---
 slug: from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics
+status: published
 title: "From 4 Hours to 2 Minutes: How an RCM Company Rebuilt Its Analytics"
 description: "A revenue cycle management company cut per-client analysis from four hours to two minutes and 90% of analytics cost using Supaboard's AI-native BI."
 category: Business
@@ -32,6 +33,9 @@ sections:
     heading: "The number, and what it freed up"
   - id: content-7
     heading: "What this means if you run analytics for more than one client"
+featured:
+  choice: null
+  trending: 2
 related:
   - "ai-data-analyst-how-it-works-and-best-tools-(2026)"
   - spend-analytics
@@ -55,7 +59,7 @@ This is the quiet tax on a revenue cycle management business. Jindal Healthcare 
 
 ## At a glance
 
-<table class="framer-text framer-styles-preset-1b1ng6y"><tbody class="framer-text"><tr class="framer-text"><th class="framer-text"><strong class="framer-text">Company</strong></th><td class="framer-text">Jindal Healthcare, a revenue cycle management (RCM) provider serving a roster of healthcare clients</td></tr><tr class="framer-text"><th class="framer-text"><strong class="framer-text">Industry</strong></th><td class="framer-text">Healthcare, revenue cycle management</td></tr><tr class="framer-text"><th class="framer-text"><strong class="framer-text">Before</strong></th><td class="framer-text">One client analysis took about four hours of senior-analyst time, spread across multiple SQL queries and manual reconciliation between disconnected systems</td></tr><tr class="framer-text"><th class="framer-text"><strong class="framer-text">After</strong></th><td class="framer-text">The same analysis takes about two minutes, run on demand by any operator, with analytics cost down 90 percent</td></tr><tr class="framer-text"><th class="framer-text"><strong class="framer-text">What they use it for</strong></th><td class="framer-text">Client reviews, denial root-cause analysis, and performance benchmarking, all run from one source of truth across every client</td></tr><tr class="framer-text"><th class="framer-text"><strong class="framer-text">Data and compliance</strong></th><td class="framer-text">Jindal masks all PHI before it leaves its environment. Supaboard cleans the masked data into a warehouse and never touches PHI or the EHR</td></tr></tbody></table>
+<table><tbody><tr><th scope="row"><strong>Company</strong></th><td>Jindal Healthcare, a revenue cycle management (RCM) provider serving a roster of healthcare clients</td></tr><tr><th scope="row"><strong>Industry</strong></th><td>Healthcare, revenue cycle management</td></tr><tr><th scope="row"><strong>Before</strong></th><td>One client analysis took about four hours of senior-analyst time, spread across multiple SQL queries and manual reconciliation between disconnected systems</td></tr><tr><th scope="row"><strong>After</strong></th><td>The same analysis takes about two minutes, run on demand by any operator, with analytics cost down 90 percent</td></tr><tr><th scope="row"><strong>What they use it for</strong></th><td>Client reviews, denial root-cause analysis, and performance benchmarking, all run from one source of truth across every client</td></tr><tr><th scope="row"><strong>Data and compliance</strong></th><td>Jindal masks all PHI before it leaves its environment. Supaboard cleans the masked data into a warehouse and never touches PHI or the EHR</td></tr></tbody></table>
 
 <!-- section:content-3 -->
 

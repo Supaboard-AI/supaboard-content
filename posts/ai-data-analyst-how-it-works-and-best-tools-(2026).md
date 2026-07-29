@@ -1,5 +1,6 @@
 ---
 slug: "ai-data-analyst-how-it-works-and-best-tools-(2026)"
+status: published
 title: "AI Data Analyst: How It Works and Best Tools (2026)"
 description: "An AI data analyst is software that connects to your databases, learns your business definitions, and answers data questions in plain English with charts, SQL, and dashboards. It's built for founders, ops leads, and analytics teams tired of waiting on a report queue. It assists people; it doesn't replace judgment."
 category: "BI Tools"
@@ -36,6 +37,9 @@ sections:
     heading: "AI data analyst FAQ"
   - id: content-8
     heading: "Try it on your own data"
+featured:
+  choice: null
+  trending: 1
 related:
   - from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics
   - spend-analytics

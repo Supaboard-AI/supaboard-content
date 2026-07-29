@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Blog content for supaboard.ai",
   "scripts": {
-    "scrape": "node tools/scrape.mjs"
+    "scrape": "node tools/scrape.mjs",
+    "scrape:all": "node tools/scrape.mjs --all",
+    "verify": "node tools/verify.mjs"
   },
   "repository": {
     "type": "git",

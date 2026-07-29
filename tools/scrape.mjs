@@ -13,13 +13,14 @@
  *     image it references is mirrored to Spaces so nothing points at
  *     framerusercontent.com once we cut over.
  */
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 
 import * as cheerio from "cheerio";
 import TurndownService from "turndown";
 import { gfm } from "turndown-plugin-gfm";
 
+import { extractFaq } from "./faq.mjs";
 import { extensionFor, uploadOnce } from "./spaces.mjs";
 
 const ORIGIN = "https://supaboard.ai";
@@ -32,10 +33,39 @@ const POSTS_DIR = join(REPO_ROOT, "posts");
 /* fetching                                                                   */
 /* -------------------------------------------------------------------------- */
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+/**
+ * A full migration is ~150 pages and several hundred assets, so a single
+ * flaky response should not sink the run.
+ */
+async function fetchWithRetry(url, attempts = 4) {
+  let lastError;
+
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const res = await fetch(url, {
+        headers: { "user-agent": "supaboard-content-migration" },
+      });
+      // 4xx other than 429 will not fix themselves — fail fast.
+      if (!res.ok && res.status !== 429 && res.status < 500) {
+        throw new Error(`GET ${url} -> ${res.status}`);
+      }
+      if (res.ok) return res;
+      lastError = new Error(`GET ${url} -> ${res.status}`);
+    } catch (error) {
+      lastError = error;
+      if (/-> 4\d\d$/.test(error.message)) throw error;
+    }
+
+    if (attempt < attempts) await sleep(attempt * 1000);
+  }
+
+  throw lastError;
+}
+
 async function getText(url) {
-  const res = await fetch(url, { headers: { "user-agent": "supaboard-content-migration" } });
-  if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
-  return res.text();
+  return (await fetchWithRetry(url)).text();
 }
 
 async function listSitemapSlugs() {
@@ -72,8 +102,7 @@ async function mirrorImage(src, prefix) {
   const source = originalAssetUrl(src);
   if (imageCache.has(source)) return imageCache.get(source);
 
-  const res = await fetch(source);
-  if (!res.ok) throw new Error(`image ${source} -> ${res.status}`);
+  const res = await fetchWithRetry(source);
   const contentType = res.headers.get("content-type") ?? "image/png";
   const buffer = Buffer.from(await res.arrayBuffer());
 
@@ -115,6 +144,17 @@ turndown.addRule("breakInsideTableCell", {
   replacement: () => "<br>",
 });
 
+// Tables `markTables` flagged as inexpressible in GFM pass through as the
+// cleaned HTML. Without this, turndown's own fallback would emit the original
+// Framer markup — class attributes and all.
+turndown.addRule("rowHeaderTable", {
+  filter: (node) => node.nodeName === "TABLE" && node.getAttribute("data-raw") === "true",
+  replacement: (_content, node) => {
+    node.removeAttribute("data-raw");
+    return `\n\n${node.outerHTML}\n\n`;
+  },
+});
+
 /** `./other-post` -> `/blog/other-post`, `../pricing` -> `/pricing`. */
 function normaliseHref(href, pageUrl) {
   if (!href) return href;
@@ -140,6 +180,7 @@ async function blockToMarkdown($, block, { pageUrl, slug }) {
   });
 
   flattenTableCells($, $block);
+  markTables($, $block, slug);
 
   // Framer paints images as CSS backgrounds behind an <img>; the surrounding
   // absolutely-positioned wrapper carries no meaning once we are in markdown.
@@ -188,6 +229,41 @@ function flattenTableCells($, $scope) {
       .trim();
 
     $cell.html(inline);
+  });
+}
+
+/** Structural attributes worth keeping when a table stays as HTML. */
+const TABLE_KEEP_ATTRS = new Set(["colspan", "rowspan", "scope", "href"]);
+
+/**
+ * GFM can only describe a table whose first row is entirely header cells.
+ * Several posts use row headers instead — a key/value layout where each row is
+ * `<th>Company</th><td>…</td>` — which has no markdown equivalent at all.
+ *
+ * Rather than fabricate a header row and misstate the structure, those tables
+ * stay as HTML inside the markdown. They are stripped down to plain structural
+ * markup first, and the `th` cells get `scope="row"` so the relationship the
+ * layout implies is actually announced.
+ */
+function markTables($, $scope, slug) {
+  $scope.find("table").each((_, table) => {
+    const $table = $(table);
+    const cells = $table.find("tr").first().children().toArray();
+    const gfmCompatible = cells.length > 0 && cells.every((cell) => cell.tagName === "th");
+    if (gfmCompatible) return;
+
+    $table
+      .find("*")
+      .addBack()
+      .each((_, node) => {
+        for (const name of Object.keys(node.attribs ?? {})) {
+          if (!TABLE_KEEP_ATTRS.has(name)) $(node).removeAttr(name);
+        }
+      });
+
+    $table.find("th").attr("scope", "row");
+    $table.attr("data-raw", "true");
+    console.log(`    table kept as html (row headers) in ${slug}`);
   });
 }
 
@@ -240,37 +316,37 @@ function contentBlocks($) {
   return { blocks, root };
 }
 
-/**
- * The FAQ block is authored as `<strong>Question?</strong> Answer` paragraphs.
- * Framer's own FAQPage schema ships unrendered `{{section1}}` placeholders, so
- * we rebuild it here from the real prose.
- */
-function parseFaq(markdown) {
-  const entries = [];
-  for (const line of markdown.split("\n")) {
-    const match = line.match(/^\*\*(.+?)\*\*\s*(.+)$/);
-    if (!match) continue;
-    const question = match[1].trim();
-    const answer = match[2].trim();
-    if (!question.endsWith("?") || answer.length < 20) continue;
-    entries.push({ question, answer: stripInlineMarkdown(answer) });
-  }
-  return entries;
-}
-
-function stripInlineMarkdown(value) {
-  return value
-    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
-    .replace(/\*\*([^*]+)\*\*/g, "$1")
-    .replace(/_([^_]+)_/g, "$1")
-    .replace(/`([^`]+)`/g, "$1")
-    .trim();
-}
-
 function toIsoDate(value) {
   if (!value) return null;
   const date = new Date(value);
   return Number.isNaN(date.valueOf()) ? null : date.toISOString().slice(0, 10);
+}
+
+/**
+ * `status` and `featured` are editorial, not scraped. Re-running the migration
+ * over a post an editor has since unpublished or promoted must not silently
+ * undo that, so both are read back off the existing file.
+ */
+async function existingEditorialState(slug) {
+  let raw;
+  try {
+    raw = await readFile(join(POSTS_DIR, `${slug}.md`), "utf8");
+  } catch {
+    return { status: "published", featured: { choice: false, trending: false } };
+  }
+
+  const frontmatter = raw.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? "";
+  const status = frontmatter.match(/^status:\s*"?(\w+)"?/m)?.[1];
+  const featured = frontmatter.match(/^featured:\n((?: {2}\w+: \S+\n)+)/m)?.[1] ?? "";
+  const rank = (rail) => {
+    const value = featured.match(new RegExp(`${rail}:\\s*(\\d+)`))?.[1];
+    return value ? Number(value) : null;
+  };
+
+  return {
+    status: ["published", "draft", "scheduled"].includes(status) ? status : "published",
+    featured: { choice: rank("choice"), trending: rank("trending") },
+  };
 }
 
 async function scrapePost(slug) {
@@ -346,9 +422,6 @@ async function scrapePost(slug) {
   }
 
   const body = parts.join("\n\n");
-  const faqBlock = blocks.length
-    ? parts.find((part) => /^#{2}\s*FAQ/im.test(part))
-    : null;
 
   /* ---- relations ------------------------------------------------------- */
   const related = [];
@@ -361,9 +434,14 @@ async function scrapePost(slug) {
     if (!related.includes(target)) related.push(target);
   });
 
+  const editorial = await existingEditorialState(slug);
+
   return {
     frontmatter: {
       slug,
+      // Everything migrated is already live. A future admin console flips this
+      // to "draft" or "scheduled"; the site only renders "published".
+      status: editorial.status,
       title,
       description,
       category: decode(posting.articleSection ?? "General"),
@@ -384,8 +462,9 @@ async function scrapePost(slug) {
       },
       ogImage,
       sections,
+      featured: editorial.featured,
       related: related.slice(0, 4),
-      faq: faqBlock ? parseFaq(faqBlock) : [],
+      faq: extractFaq(body),
       source: { url: pageUrl, migratedAt: new Date().toISOString().slice(0, 10) },
     },
     body,
@@ -464,15 +543,27 @@ if (!slugs.length) {
 
 await mkdir(POSTS_DIR, { recursive: true });
 
-for (const slug of slugs) {
+const failures = [];
+
+for (const [index, slug] of slugs.entries()) {
+  console.log(`\n[${index + 1}/${slugs.length}] ${slug}`);
   try {
     const post = await scrapePost(slug);
+    // The filename is the URL. Never normalise it — `…-best-tools-(2026)` is a
+    // live, ranking path and the parentheses are part of it.
     const file = join(POSTS_DIR, `${slug}.md`);
     await mkdir(dirname(file), { recursive: true });
     await writeFile(file, renderFile(post), "utf8");
     console.log(`  ✓ posts/${slug}.md (${post.frontmatter.sections.length} sections)`);
   } catch (error) {
     console.error(`  ✗ ${slug}: ${error.message}`);
-    process.exitCode = 1;
+    failures.push({ slug, message: error.message });
   }
+}
+
+console.log(`\n─── ${slugs.length - failures.length}/${slugs.length} migrated ───`);
+if (failures.length) {
+  console.error("failed:");
+  for (const failure of failures) console.error(`  ${failure.slug}: ${failure.message}`);
+  process.exitCode = 1;
 }

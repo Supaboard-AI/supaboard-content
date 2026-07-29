@@ -24,6 +24,7 @@ anchors the Framer build shipped, so existing deep links keep resolving.
 
 ```yaml
 slug:        must equal the filename
+status:      published | draft | scheduled
 title:       <h1> and the base of the <title> tag
 description: meta description + og:description
 category:    BI Tools | General | Business | Tech
@@ -36,6 +37,7 @@ author:      { name, role, avatar }
 cover:       { url, alt, width, height }
 ogImage:     absolute URL, 1200×630
 sections:    [ { id: content-1, heading: … } ]   # builds the table of contents
+featured:    { choice: N|null, trending: N|null } # 1-based slot in each /blog rail
 related:     [ slug, … ]                          # "Related Blogs" rail
 faq:         [ { question, answer } ]             # becomes FAQPage JSON-LD
 source:      { url, migratedAt }                  # provenance, not rendered
@@ -43,6 +45,33 @@ source:      { url, migratedAt }                  # provenance, not rendered
 
 `sections`, `faq` and `related` are derived data — regenerating a post
 overwrites them. Everything else is safe to hand-edit.
+
+### featured
+
+Position in each index rail, or `null`. `choice: 1` is the large lead card in
+"Supaboard Choice"; `trending: 3` is third in the Trending list. A rank rather
+than a flag, because which post leads a rail is an editorial decision and the
+lead card renders at twice the size.
+
+Set by `tools/rails.mjs`, which reads the live index — but safe to hand-edit,
+and preserved across a re-scrape.
+
+### status
+
+Only `published` renders. `draft` is hidden outright; `scheduled` appears once
+`publishedAt` arrives. A `published` post is never date-gated, so a typo'd year
+cannot take a live URL off the site.
+
+## Verifying
+
+```bash
+node tools/verify.mjs
+```
+
+Asserts that the set of `posts/*.md` filenames equals the set of `/blog/<slug>`
+URLs in the live sitemap — exactly — and then checks required frontmatter, that
+no asset still points at `framerusercontent.com`, that section markers exist,
+and that every `related` slug resolves. Run it after any bulk change.
 
 ## Images
 
