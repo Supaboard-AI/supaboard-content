@@ -91,7 +91,27 @@ node tools/scrape.mjs <slug> [<slug> …]
 
 # migrate everything in supaboard.ai/sitemap.xml
 node tools/scrape.mjs --all
+
+# assert URL parity with the live sitemap, plus content hygiene
+node tools/verify.mjs
+
+# find live posts the sitemap does not list (currently: none)
+node tools/discover.mjs
+
+# re-derive the faq: block after changing the parser in faq.mjs
+node tools/refresh-faq.mjs
+
+# re-read the Supaboard Choice / Trending rails off the live index
+node tools/rails.mjs
+
+# migrate the /comparison pages into the site repo as typed TS
+node tools/comparisons.mjs [--out <dir>]
 ```
+
+`convert.mjs` holds the Framer-HTML-to-markdown rules and the Spaces mirroring
+shared by `scrape.mjs` and `comparisons.mjs`. Comparison pages land in the site
+repo rather than here because they are engineer-edited typed data — the split
+`docs/ARCHITECTURE.md` describes.
 
 Spaces credentials come from `SPACES_KEY` / `SPACES_SECRET`, falling back to
 the landing repo's `.env` (see `tools/env.mjs`). Nothing secret is committed

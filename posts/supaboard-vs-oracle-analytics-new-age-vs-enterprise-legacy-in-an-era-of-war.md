@@ -15,7 +15,7 @@ author:
   role: "SEO & Content Writer"
   avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/4499c43747cd8632.jpg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/supaboard-vs-oracle-analytics-new-age-vs-enterprise-legacy-in-an-era-of-war/aa2bf6137d9863ba.jpg
+  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/supaboard-vs-oracle-analytics-new-age-vs-enterprise-legacy-in-an-era-of-war/03977386cf135ce5.jpg
   alt: "Supaboard vs. Oracle Analytics: New Age vs. Enterprise Legacy in an Era of War"
   width: 3000
   height: 2146

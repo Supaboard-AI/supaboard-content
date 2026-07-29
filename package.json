@@ -5,7 +5,11 @@
   "scripts": {
     "scrape": "node tools/scrape.mjs",
     "scrape:all": "node tools/scrape.mjs --all",
-    "verify": "node tools/verify.mjs"
+    "verify": "node tools/verify.mjs",
+    "comparisons": "node tools/comparisons.mjs",
+    "discover": "node tools/discover.mjs",
+    "rails": "node tools/rails.mjs",
+    "refresh-faq": "node tools/refresh-faq.mjs"
   },
   "repository": {
     "type": "git",

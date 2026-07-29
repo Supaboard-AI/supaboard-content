@@ -9,64 +9,30 @@
  *  1. URLs are sacred. The output filename is the slug exactly as it appears
  *     in the sitemap, and the in-page section anchors keep Framer's
  *     `#content-1 … #content-8` ids so existing deep links survive.
- *  2. Prose is markdown. Framer's rich text is converted with turndown; every
- *     image it references is mirrored to Spaces so nothing points at
- *     framerusercontent.com once we cut over.
+ *  2. Prose is markdown. The HTML -> markdown conversion and the asset
+ *     mirroring both live in convert.mjs, shared with comparisons.mjs.
  */
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 
 import * as cheerio from "cheerio";
-import TurndownService from "turndown";
-import { gfm } from "turndown-plugin-gfm";
 
+import {
+  ORIGIN,
+  blockToMarkdown,
+  decode,
+  getText,
+  mirrorImage,
+  readJsonLd,
+  storagePrefix,
+  toIsoDate,
+} from "./convert.mjs";
 import { extractFaq } from "./faq.mjs";
-import { extensionFor, uploadOnce } from "./spaces.mjs";
 
-const ORIGIN = "https://supaboard.ai";
 /** Left over from one post and never updated; see `coverAlt` below. */
 const STALE_COVER_ALT = "Visual guide showing when to use tables versus charts";
 const REPO_ROOT = new URL("..", import.meta.url).pathname;
 const POSTS_DIR = join(REPO_ROOT, "posts");
-
-/* -------------------------------------------------------------------------- */
-/* fetching                                                                   */
-/* -------------------------------------------------------------------------- */
-
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
-/**
- * A full migration is ~150 pages and several hundred assets, so a single
- * flaky response should not sink the run.
- */
-async function fetchWithRetry(url, attempts = 4) {
-  let lastError;
-
-  for (let attempt = 1; attempt <= attempts; attempt += 1) {
-    try {
-      const res = await fetch(url, {
-        headers: { "user-agent": "supaboard-content-migration" },
-      });
-      // 4xx other than 429 will not fix themselves — fail fast.
-      if (!res.ok && res.status !== 429 && res.status < 500) {
-        throw new Error(`GET ${url} -> ${res.status}`);
-      }
-      if (res.ok) return res;
-      lastError = new Error(`GET ${url} -> ${res.status}`);
-    } catch (error) {
-      lastError = error;
-      if (/-> 4\d\d$/.test(error.message)) throw error;
-    }
-
-    if (attempt < attempts) await sleep(attempt * 1000);
-  }
-
-  throw lastError;
-}
-
-async function getText(url) {
-  return (await fetchWithRetry(url)).text();
-}
 
 async function listSitemapSlugs() {
   const xml = await getText(`${ORIGIN}/sitemap.xml`);
@@ -76,267 +42,8 @@ async function listSitemapSlugs() {
 }
 
 /* -------------------------------------------------------------------------- */
-/* images                                                                      */
-/* -------------------------------------------------------------------------- */
-
-const imageCache = new Map();
-
-/**
- * Object keys stay in a conservative alphabet. Slugs may contain characters —
- * `(2026)` is the live one — that are legal in a URL but terminate a markdown
- * image target early.
- */
-function storagePrefix(slug) {
-  return `blog/${slug.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
-}
-
-/** Framer serves resized variants; we want the untouched original. */
-function originalAssetUrl(src) {
-  const url = new URL(src, ORIGIN);
-  url.search = "";
-  return url.toString();
-}
-
-async function mirrorImage(src, prefix) {
-  if (!src) return null;
-  const source = originalAssetUrl(src);
-  if (imageCache.has(source)) return imageCache.get(source);
-
-  const res = await fetchWithRetry(source);
-  const contentType = res.headers.get("content-type") ?? "image/png";
-  const buffer = Buffer.from(await res.arrayBuffer());
-
-  const { url, skipped } = await uploadOnce(prefix, buffer, {
-    ext: extensionFor(source, contentType),
-    contentType,
-  });
-  console.log(`    ${skipped ? "cached" : "upload"} ${url}`);
-
-  imageCache.set(source, url);
-  return url;
-}
-
-/* -------------------------------------------------------------------------- */
-/* html -> markdown                                                            */
-/* -------------------------------------------------------------------------- */
-
-const turndown = new TurndownService({
-  headingStyle: "atx",
-  bulletListMarker: "-",
-  codeBlockStyle: "fenced",
-  emDelimiter: "_",
-  linkStyle: "inlined",
-});
-turndown.use(gfm);
-
-// Framer emits `<br class="trailing-break">` as a spacer inside otherwise empty
-// paragraphs. In markdown that is just noise.
-turndown.addRule("dropTrailingBreak", {
-  filter: (node) => node.nodeName === "BR" && node.className.includes("trailing-break"),
-  replacement: () => "",
-});
-
-// A hard break inside a table cell has to stay HTML: a real newline would end
-// the row and break the table.
-turndown.addRule("breakInsideTableCell", {
-  filter: (node) =>
-    node.nodeName === "BR" && ["TD", "TH"].includes(node.parentNode?.nodeName),
-  replacement: () => "<br>",
-});
-
-/**
- * Emphasis delimiters have to hug their content, and must not collide with a
- * literal asterisk at the edge of it.
- *
- * Framer puts `<br>` and trailing whitespace inside `<strong>`, which turndown
- * renders faithfully as `**Heading \n**Body` — and CommonMark does not read
- * that as bold at all, so the asterisks show up on the page. Separately,
- * `<strong>SELECT *</strong>` becomes `**SELECT ***`, where the third asterisk
- * is ambiguous and the run fails to parse.
- */
-/** Markdown code spans are literal, so emphasis inside one is just noise. */
-function insideCode(node) {
-  for (let el = node.parentNode; el; el = el.parentNode) {
-    if (el.nodeName === "CODE" || el.nodeName === "PRE") return true;
-  }
-  return false;
-}
-
-function emphasis(delimiter) {
-  return (content, node) => {
-    if (insideCode(node)) return content;
-
-    const [, lead, inner, trail] = content.match(/^(\s*)([\s\S]*?)(\s*)$/);
-    if (!inner) return content;
-
-    const text = inner
-      // A line break inside emphasis cannot survive; outside it, it can.
-      .replace(/\s*\n\s*/g, " ")
-      .replace(/^\*/, "\\*")
-      .replace(/\*$/, "\\*");
-
-    return `${lead}${delimiter}${text}${delimiter}${trail}`;
-  };
-}
-
-turndown.addRule("strongHuggingDelimiters", {
-  filter: ["strong", "b"],
-  replacement: emphasis("**"),
-});
-
-turndown.addRule("emHuggingDelimiters", {
-  filter: ["em", "i"],
-  replacement: emphasis("_"),
-});
-
-// Tables `markTables` flagged as inexpressible in GFM pass through as the
-// cleaned HTML. Without this, turndown's own fallback would emit the original
-// Framer markup — class attributes and all.
-turndown.addRule("rowHeaderTable", {
-  filter: (node) => node.nodeName === "TABLE" && node.getAttribute("data-raw") === "true",
-  replacement: (_content, node) => {
-    node.removeAttribute("data-raw");
-    return `\n\n${node.outerHTML}\n\n`;
-  },
-});
-
-/** `./other-post` -> `/blog/other-post`, `../pricing` -> `/pricing`. */
-function normaliseHref(href, pageUrl) {
-  if (!href) return href;
-  if (/^(mailto:|tel:|#)/.test(href)) return href;
-  let resolved;
-  try {
-    resolved = new URL(href, pageUrl);
-  } catch {
-    return href;
-  }
-  return resolved.origin === ORIGIN ? resolved.pathname + resolved.search + resolved.hash : resolved.toString();
-}
-
-/**
- * Turns one Framer "Content N" block into markdown, mirroring any images it
- * contains along the way.
- */
-async function blockToMarkdown($, block, { pageUrl, slug }) {
-  const $block = $(block);
-
-  $block.find("a[href]").each((_, el) => {
-    $(el).attr("href", normaliseHref($(el).attr("href"), pageUrl));
-  });
-
-  flattenTableCells($, $block);
-  markTables($, $block, slug);
-
-  // Framer paints images as CSS backgrounds behind an <img>; the surrounding
-  // absolutely-positioned wrapper carries no meaning once we are in markdown.
-  const images = $block.find("img").toArray();
-  for (const img of images) {
-    const $img = $(img);
-    const mirrored = await mirrorImage($img.attr("src"), storagePrefix(slug));
-    const alt = ($img.attr("alt") ?? "").trim();
-    // Markdown has nowhere to put intrinsic dimensions, and the renderer needs
-    // them to reserve space. Spaces ignores the extra query params.
-    const width = $img.attr("width");
-    const height = $img.attr("height");
-    const src = width && height ? `${mirrored}?w=${width}&h=${height}` : mirrored;
-    $img.replaceWith(`<img src="${src}" alt="${escapeAttr(alt)}">`);
-  }
-
-  // `srcset`/`sizes` would survive into the markdown as stray attributes.
-  $block.find("img").removeAttr("srcset").removeAttr("sizes").removeAttr("style");
-
-  return turndown
-    .turndown($block.html() ?? "")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
-}
-
-function escapeAttr(value) {
-  return value.replace(/"/g, "&quot;");
-}
-
-/**
- * Framer nests every table cell's text in its own paragraph. Left alone those
- * become block-level newlines inside a GFM row, which shreds the table — so
- * collapse each cell down to a single line of inline content first.
- */
-function flattenTableCells($, $scope) {
-  $scope.find("th, td").each((_, cell) => {
-    const $cell = $(cell);
-    const paragraphs = $cell
-      .find("p")
-      .toArray()
-      .map((p) => ($(p).html() ?? "").trim())
-      .filter(Boolean);
-
-    const inline = (paragraphs.length ? paragraphs.join("<br>") : $cell.html() ?? "")
-      .replace(/\s*\n\s*/g, " ")
-      .trim();
-
-    $cell.html(inline);
-  });
-}
-
-/** Structural attributes worth keeping when a table stays as HTML. */
-const TABLE_KEEP_ATTRS = new Set(["colspan", "rowspan", "scope", "href"]);
-
-/**
- * GFM can only describe a table whose first row is entirely header cells.
- * Several posts use row headers instead — a key/value layout where each row is
- * `<th>Company</th><td>…</td>` — which has no markdown equivalent at all.
- *
- * Rather than fabricate a header row and misstate the structure, those tables
- * stay as HTML inside the markdown. They are stripped down to plain structural
- * markup first, and the `th` cells get `scope="row"` so the relationship the
- * layout implies is actually announced.
- */
-function markTables($, $scope, slug) {
-  $scope.find("table").each((_, table) => {
-    const $table = $(table);
-    const cells = $table.find("tr").first().children().toArray();
-    const gfmCompatible = cells.length > 0 && cells.every((cell) => cell.tagName === "th");
-    if (gfmCompatible) return;
-
-    $table
-      .find("*")
-      .addBack()
-      .each((_, node) => {
-        for (const name of Object.keys(node.attribs ?? {})) {
-          if (!TABLE_KEEP_ATTRS.has(name)) $(node).removeAttr(name);
-        }
-      });
-
-    $table.find("th").attr("scope", "row");
-    $table.attr("data-raw", "true");
-    console.log(`    table kept as html (row headers) in ${slug}`);
-  });
-}
-
-/* -------------------------------------------------------------------------- */
 /* extraction                                                                  */
 /* -------------------------------------------------------------------------- */
-
-function readJsonLd($) {
-  const nodes = [];
-  $('script[type="application/ld+json"]').each((_, el) => {
-    try {
-      const parsed = JSON.parse($(el).text());
-      nodes.push(...(parsed["@graph"] ?? [parsed]));
-    } catch {
-      // A malformed block is not worth failing the whole migration over.
-    }
-  });
-  return nodes;
-}
-
-const decode = (value) =>
-  (value ?? "")
-    .replace(/&#39;/g, "'")
-    .replace(/&quot;/g, '"')
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&nbsp;/g, " ");
 
 /** The eight rich-text blocks that make up a post body, in document order. */
 function contentBlocks($) {
@@ -359,12 +66,6 @@ function contentBlocks($) {
     .filter((el) => $(el).find(selector).length > 0);
 
   return { blocks, root };
-}
-
-function toIsoDate(value) {
-  if (!value) return null;
-  const date = new Date(value);
-  return Number.isNaN(date.valueOf()) ? null : date.toISOString().slice(0, 10);
 }
 
 /**
@@ -446,7 +147,7 @@ async function scrapePost(slug) {
   const coverAlt =
     !sourceCoverAlt || sourceCoverAlt === STALE_COVER_ALT ? title : sourceCoverAlt;
   const coverSize = coverSource.match(/width=(\d+)&(?:amp;)?height=(\d+)/);
-  const cover = await mirrorImage(coverSource, storagePrefix(slug));
+  const cover = await mirrorImage(coverSource, storagePrefix("blog", slug));
   const ogImage = await mirrorImage(
     $('meta[property="og:image"]').attr("content"),
     "blog/og",
@@ -459,7 +160,11 @@ async function scrapePost(slug) {
 
   for (const [index, block] of blocks.entries()) {
     const id = `content-${index + 1}`;
-    const markdown = await blockToMarkdown($, block, { pageUrl, slug });
+    const markdown = await blockToMarkdown($, block, {
+      pageUrl,
+      label: slug,
+      prefix: storagePrefix("blog", slug),
+    });
     if (!markdown) continue;
     const heading = $(block).find("h2").first().text().trim();
     if (heading) sections.push({ id, heading });
