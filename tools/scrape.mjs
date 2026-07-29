@@ -148,7 +148,12 @@ async function blockToMarkdown($, block, { pageUrl, slug }) {
     const $img = $(img);
     const mirrored = await mirrorImage($img.attr("src"), storagePrefix(slug));
     const alt = ($img.attr("alt") ?? "").trim();
-    $img.replaceWith(`<img src="${mirrored}" alt="${escapeAttr(alt)}">`);
+    // Markdown has nowhere to put intrinsic dimensions, and the renderer needs
+    // them to reserve space. Spaces ignores the extra query params.
+    const width = $img.attr("width");
+    const height = $img.attr("height");
+    const src = width && height ? `${mirrored}?w=${width}&h=${height}` : mirrored;
+    $img.replaceWith(`<img src="${src}" alt="${escapeAttr(alt)}">`);
   }
 
   // `srcset`/`sizes` would survive into the markdown as stray attributes.
