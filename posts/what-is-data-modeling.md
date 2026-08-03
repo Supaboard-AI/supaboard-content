@@ -1,11 +1,10 @@
 ---
 slug: what-is-data-modeling
 status: published
-title: 'What Is Data Modeling? Types,Tools, Best Practices, and Real-World Examples'
+title: 'What Is Data Modeling? Types, Tools and Examples'
 description: >-
-  Learn what data modeling is, its types, benefits, tools, and real-world
-  examples. A beginner-friendly, SEO-optimized guide to building scalable data
-  models.
+  Data modeling defines the entities and relationships a business runs on. The
+  types, the tools, and how the model decides what you are able to ask.
 category: engineering
 tags:
   - Tech

@@ -3,8 +3,8 @@ slug: dbt
 status: published
 title: 'DBT Explained: What It Is, How It Works, and Why Teams Use It'
 description: >-
-  Understand DBT, what it means, how it works, and why modern data teams use it
-  to build reliable, tested, and scalable analytics pipelines.
+  dbt brings version control, testing and documentation to SQL transformations.
+  What it does, where MetricFlow fits in, and when it is simply overkill.
 category: engineering
 tags:
   - Tech

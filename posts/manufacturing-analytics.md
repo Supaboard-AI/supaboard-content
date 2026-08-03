@@ -3,10 +3,8 @@ slug: manufacturing-analytics
 status: published
 title: 'Manufacturing Analytics: Why It Matters More Than Ever in 2026'
 description: >-
-  Discover why manufacturing analytics is critical in 2026. Learn how it reduces
-  downtime, improves OEE, quality, and supply chain efficiency. Market growing
-  at 24.1% CAGR with real-world use cases in predictive maintenance, real-time
-  monitoring & more.
+  Manufacturing analytics joins machine telemetry to commercial outcomes. Where
+  predictive maintenance pays back, and where it quietly does not at all.
 category: data
 tags:
   - Analytics

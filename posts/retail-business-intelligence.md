@@ -1,13 +1,10 @@
 ---
 slug: retail-business-intelligence
 status: published
-title: >-
-  Retail Business Intelligence: How AI Is Transforming Retail Analytics (2026
-  Guide)
+title: 'Retail Business Intelligence: KPIs, Tools and Pitfalls'
 description: >-
-  Discover how AI-powered retail business intelligence is transforming sales,
-  inventory, and customer insights. Explore real use cases, tools, and
-  implementation strategies.
+  Retail KPIs work in four layers: sales, inventory, customer, margin. How to
+  read them together so that a revenue drop always gets the right response.
 category: data
 tags:
   - Business Intelligence

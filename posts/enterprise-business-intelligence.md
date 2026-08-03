@@ -1,10 +1,10 @@
 ---
 slug: enterprise-business-intelligence
 status: published
-title: 'What Is Enterprise Business Intelligence? Benefits, Use Cases & Tools (2026)'
+title: 'Enterprise Business Intelligence: Use Cases and Tools'
 description: >-
-  A simple guide to enterprise business intelligence covering use cases,
-  benefits, tools, and how AI is changing BI in 2026.
+  Enterprise BI is defined by governance as much as by analysis. The use cases,
+  the tools, and why definitions matter far more than the dashboards do.
 category: data
 tags:
   - Business Intelligence

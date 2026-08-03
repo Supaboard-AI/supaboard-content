@@ -1,12 +1,10 @@
 ---
 slug: database-optimization
 status: published
-title: >-
-  What Is Database Optimization? Everything You Need to Know About Performance &
-  Scaling
+title: 'Database Optimization: Performance and Scaling'
 description: >-
-  Database optimization improves how data is stored, retrieved, and processed to
-  ensure fast, predictable performance. Learn queries, indexing, and scaling.
+  Most database performance problems are query plans, not hardware. How to find
+  them, what indexing really costs you, and when to scale up instead.
 category: engineering
 tags:
   - Tech

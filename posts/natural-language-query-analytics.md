@@ -1,10 +1,10 @@
 ---
 slug: natural-language-query-analytics
 status: published
-title: What Is Natural Language Query Analytics? 2026 Guide with Examples & Tools
+title: 'Natural Language Query Analytics: A 2026 Guide'
 description: >-
-  Learn what natural language query is, how it works in modern BI tools, and
-  when it’s worth using for faster, self-service business analytics.
+  Ask a data question in plain English and get a real answer back. How NLQ
+  works, where it earns its keep, and the prerequisite that vendors gloss over.
 category: data
 tags:
   - Saas

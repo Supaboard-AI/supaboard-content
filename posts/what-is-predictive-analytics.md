@@ -3,9 +3,8 @@ slug: what-is-predictive-analytics
 status: published
 title: What Is Predictive Analytics? Simple Guide
 description: >-
-  Predictive analytics helps businesses forecast trends, reduce risk, and make
-  smarter decisions using data and AI. Learn how to turn insights into
-  future-ready strategies.
+  Predictive analytics estimates outcomes from historical patterns. How it
+  works, what bounds its accuracy, and when a forecast is worth trusting.
 category: data
 tags:
   - Analytics

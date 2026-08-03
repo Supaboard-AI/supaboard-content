@@ -1,10 +1,10 @@
 ---
 slug: logistics-analytics
 status: published
-title: 'Logistics Analytics: How Businesses Use Data to Improve Supply Chain Decisions'
+title: 'Logistics Analytics: Turning Supply Chain Data Into Action'
 description: >-
-  Learn how logistics analytics helps businesses optimize routes, reduce costs,
-  predict disruptions, and make better supply chain decisions using data.
+  Logistics analytics is about exceptions, not averages. Which signals matter,
+  why aggregate on-time rates mislead, and how to join the systems.
 category: data
 tags:
   - Saas

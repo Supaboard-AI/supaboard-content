@@ -1,11 +1,10 @@
 ---
 slug: positive-vs-negative-correlation
 status: published
-title: Positive vs Negative Correlation Explained with Real-Life Examples
+title: 'Positive vs Negative Correlation, With Examples'
 description: >-
-  Learn the difference between positive and negative correlation with simple
-  explanations, real-world examples, graphs, and practical applications in
-  business, finance, health, and daily life.
+  Positive correlation means variables move together, negative means apart. How
+  to read strength and direction, and how to avoid the dual-axis trap.
 category: data
 tags:
   - Tech

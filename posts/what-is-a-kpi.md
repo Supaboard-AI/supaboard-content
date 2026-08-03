@@ -3,8 +3,8 @@ slug: what-is-a-kpi
 status: published
 title: What is a KPI? Real Examples for SaaS & Business Teams
 description: >-
-  Learn what KPIs really mean, see 15 real-world examples, and discover how to
-  choose the right metrics for your business growth.
+  A KPI is a measure tied to a decision somebody makes. How to choose them,
+  define them so teams agree, and tell them from ordinary statistics.
 category: data
 tags:
   - Analytics

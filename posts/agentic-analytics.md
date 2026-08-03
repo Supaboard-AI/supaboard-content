@@ -1,11 +1,10 @@
 ---
 slug: agentic-analytics
 status: published
-title: 'Agentic Analytics vs Traditional BI: Rethinking Decision Intelligence'
+title: 'Agentic Analytics vs Traditional BI: What Changes'
 description: >-
-  Agentic analytics vs. traditional BI tools: one helps you understand past
-  performance, the other helps you decide what should happen next. Here’s how
-  the gap between insight and action is closing.
+  Traditional BI tells you what happened. Agentic analytics runs the
+  investigation. How the two differ, and three demo tests that separate them.
 category: product
 tags:
   - Business Intelligence

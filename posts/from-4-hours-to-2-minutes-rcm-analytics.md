@@ -1,10 +1,10 @@
 ---
 slug: from-4-hours-to-2-minutes-rcm-analytics
 status: published
-title: 'From 4 Hours to 2 Minutes: How an RCM Company Rebuilt Its Analytics'
+title: 'From 4 Hours to 2 Minutes: An RCM Analytics Rebuild'
 description: >-
   A revenue cycle management company cut per-client analysis from four hours to
-  two minutes and 90% of analytics cost using Supaboard's AI-native BI.
+  two minutes, with every piece of patient data masked before it ever moved.
 category: company
 tags:
   - Analytics

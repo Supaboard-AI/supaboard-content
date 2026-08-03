@@ -4,25 +4,18 @@
   "failing": 47,
   "byField": {
     "faq": 150,
-    "statsCount": 45,
-    "description": 26,
-    "title": 20
+    "statsCount": 45
   },
   "posts": {
     "agentic-analytics": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "ai-analytics-governance": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "ai-data-analyst": [
-      "description: meta descriptions must be 140–160 characters",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
@@ -31,7 +24,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "apache-superset-alternatives": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 27 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
@@ -41,8 +33,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "bar-graph-vs-histogram": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "faq.3.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
       "faq.5.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.6.a: answer is 29 words, must be 40–80 (the extraction unit models quote)",
@@ -50,7 +40,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "best-ai-bi-tools": [
-      "title: titles must be 65 characters or fewer",
       "faq.4.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.5.a: answer is 33 words, must be 40–80 (the extraction unit models quote)"
     ],
@@ -63,7 +52,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "business-intelligence": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 18 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 13 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 12 words, must be 40–80 (the extraction unit models quote)",
@@ -73,7 +61,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-connectivity": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.6.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
       "faq.8.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
@@ -81,7 +68,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-engineering": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
@@ -92,7 +78,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-science-vs-data-analytics": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 21 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 22 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 26 words, must be 40–80 (the extraction unit models quote)",
@@ -103,12 +88,10 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-visualization-tools": [
-      "title: titles must be 65 characters or fewer",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "database-optimization": [
-      "title: titles must be 65 characters or fewer",
       "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
@@ -118,18 +101,15 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "database-vs-data-warehouse-vs-data-lake": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.4.a: answer is 87 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "dbt": [
-      "description: meta descriptions must be 140–160 characters",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "ecommerce-analytics": [
-      "title: titles must be 65 characters or fewer",
       "faq.0.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
@@ -139,8 +119,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "embedded-analytics": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 27 words, must be 40–80 (the extraction unit models quote)",
@@ -150,8 +128,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "enterprise-business-intelligence": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
@@ -165,7 +141,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "from-4-hours-to-2-minutes-rcm-analytics": [
-      "title: titles must be 65 characters or fewer",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
@@ -178,8 +153,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "healthcare-analytics": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 18 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 20 words, must be 40–80 (the extraction unit models quote)",
@@ -189,8 +162,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "how-to-evaluate-ai-bi-tools": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "statsCount: at least 4 verifiable statistics"
     ],
     "is-ai-bi-just-text-to-sql": [
@@ -198,7 +169,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "logistics-analytics": [
-      "title: titles must be 65 characters or fewer",
       "faq.0.a: answer is 32 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
@@ -210,7 +180,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "manufacturing-analytics": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
@@ -220,18 +189,13 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "metabase-alternatives": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "natural-language-query-analytics": [
-      "title: titles must be 65 characters or fewer",
       "statsCount: at least 4 verifiable statistics"
     ],
     "positive-vs-negative-correlation": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
@@ -240,7 +204,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "real-time-analytics": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 32 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 23 words, must be 40–80 (the extraction unit models quote)",
@@ -250,12 +213,9 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "retail-business-intelligence": [
-      "title: titles must be 65 characters or fewer",
-      "description: meta descriptions must be 140–160 characters",
       "faq.5.a: answer is 37 words, must be 40–80 (the extraction unit models quote)"
     ],
     "saas-business-intelligence": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 21 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 26 words, must be 40–80 (the extraction unit models quote)",
@@ -265,7 +225,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "self-service-bi": [
-      "description: meta descriptions must be 140–160 characters",
       "statsCount: at least 4 verifiable statistics"
     ],
     "sisense-alternatives": [
@@ -279,7 +238,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "tableau-alternatives": [
-      "title: titles must be 65 characters or fewer",
       "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
@@ -289,19 +247,16 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "thoughtspot-alternatives": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 100 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "types-of-analytics": [
-      "title: titles must be 65 characters or fewer",
       "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-a-kpi": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
@@ -316,14 +271,12 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-an-ad-hoc-query": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-data-modeling": [
-      "title: titles must be 65 characters or fewer",
       "faq.0.a: answer is 22 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 21 words, must be 40–80 (the extraction unit models quote)",
@@ -332,7 +285,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-predictive-analytics": [
-      "description: meta descriptions must be 140–160 characters",
       "faq.1.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",

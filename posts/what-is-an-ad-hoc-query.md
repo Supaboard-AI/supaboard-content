@@ -3,8 +3,8 @@ slug: what-is-an-ad-hoc-query
 status: published
 title: 'What Is an Ad Hoc Query? Definition, Examples & Use'
 description: >-
-  Learn what an ad hoc query is, how it works, real examples, and why businesses
-  use ad hoc analysis to make faster, smarter decisions.
+  An ad hoc query answers a specific unplanned question. What makes one ad hoc,
+  how teams use them, and how to cut the requests reaching your analysts.
 category: data
 tags:
   - Saas

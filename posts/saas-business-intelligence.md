@@ -3,8 +3,8 @@ slug: saas-business-intelligence
 status: published
 title: 15 SaaS Metrics That Actually Drive Growth (With Examples)
 description: >-
-  Track the right SaaS metrics like MRR, churn, and CAC. Learn formulas,
-  benchmarks, and real use cases.
+  SaaS metrics only ever mean something together. How to join product, billing
+  and CRM data, and where cohort logic most quietly goes wrong on you.
 category: data
 tags:
   - Saas

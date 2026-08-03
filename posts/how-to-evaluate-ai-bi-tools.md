@@ -1,10 +1,10 @@
 ---
 slug: how-to-evaluate-ai-bi-tools
 status: published
-title: 'How to Evaluate AI BI Tools: The 12 Questions Most Demos Can''t Survive'
+title: 'How to Evaluate AI BI Tools: 12 Questions for Demos'
 description: >-
-  12 questions to ask any AI BI vendor before you buy. The ones that break a
-  rigged demo and reveal real AI from a text-to-SQL wrapper.
+  Most AI BI demos are rehearsed against prepared data. Twelve questions that
+  separate a working product from a well-practised sales presentation.
 category: product
 tags:
   - Product

@@ -1,11 +1,10 @@
 ---
 slug: bar-graph-vs-histogram
 status: published
-title: 'Bar Graph vs Histogram: Key Differences, Examples & When to Use Each'
+title: 'Bar Graph vs Histogram: Differences and When to Use'
 description: >-
-  Confused between bar graphs and histograms? Learn the main differences
-  (categorical vs continuous data, gaps vs touching bars), real examples, and
-  when to use each for better data visualizations.
+  Bar graphs compare categories, histograms show distribution. The differences,
+  worked examples, and the reorder test that settles which you need.
 category: data
 tags:
   - Building Supaboard

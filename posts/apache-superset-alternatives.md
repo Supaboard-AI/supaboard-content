@@ -3,9 +3,8 @@ slug: apache-superset-alternatives
 status: published
 title: Best Omni Alternative to Apache Superset
 description: >-
-  Looking for an omni alternative to Apache Superset? Compare embedded analytics
-  platforms, limitations of Superset, and modern BI options for SaaS and
-  enterprises.
+  Apache Superset is free to license and costs real engineering time to run. How
+  the alternatives compare on governance, support and total cost of ownership.
 category: product
 tags:
   - Saas

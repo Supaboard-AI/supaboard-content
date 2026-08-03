@@ -1,10 +1,10 @@
 ---
 slug: ecommerce-analytics
 status: published
-title: 'What Is an Ecommerce Dashboard? Metrics, Benefits & Best Practices'
+title: 'Ecommerce Analytics: Metrics That Change Decisions'
 description: >-
-  Understand ecommerce dashboards, key metrics, and benefits. Learn how to build
-  one, overcome challenges, and choose the best tools for smarter decisions.
+  Cart abandonment is several problems, not one. How to instrument the funnel,
+  segment before concluding, and find failed payments hiding in it.
 category: data
 tags:
   - Saas

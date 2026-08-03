@@ -3,9 +3,8 @@ slug: real-time-analytics
 status: published
 title: What Is a Real-Time Analytics Platform? Complete Guide (2026)
 description: >-
-  What is a real-time analytics platform? Learn how it works, key features,
-  benefits, comparisons, and real-world use cases in this complete 2026 guide
-  for modern businesses.
+  Real-time analytics narrows the gap between what happens and what you know.
+  How it differs from business activity monitoring, and when to buy.
 category: data
 tags:
   - Analytics

@@ -3,8 +3,8 @@ slug: data-engineering
 status: published
 title: 'Data Engineering in 2027: What Skills Will Still Matter?'
 description: >-
-  Will AI replace data engineers? Discover the top data engineering skills for
-  2027 and how to stay relevant in the AI-driven data era.
+  What data engineers actually do now that pipelines became a commodity, which
+  parts of the job automate away, and which judgement calls never will.
 category: engineering
 tags:
   - Tech

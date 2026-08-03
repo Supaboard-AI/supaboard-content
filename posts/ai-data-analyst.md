@@ -3,11 +3,8 @@ slug: ai-data-analyst
 status: published
 title: 'AI Data Analyst: How It Works and Best Tools (2026)'
 description: >-
-  An AI data analyst is software that connects to your databases, learns your
-  business definitions, and answers data questions in plain English with charts,
-  SQL, and dashboards. It's built for founders, ops leads, and analytics teams
-  tired of waiting on a report queue. It assists people; it doesn't replace
-  judgment.
+  An AI data analyst answers questions against governed definitions instead of
+  raw schema. How it works, what it automates, and what it cannot.
 category: engineering
 tags:
   - Analytics

@@ -3,8 +3,9 @@ slug: business-intelligence
 status: published
 title: What Is Business Intelligence? Complete Guide for Businesses
 description: >-
-  Learn what business intelligence is, how it works, key benefits, real-world
-  examples, and why it matters for modern businesses.
+  Business intelligence turns operational data into decisions people actually
+  make. What it covers, how it evolved, and why most BI failures are
+  definitional.
 category: data
 tags:
   - Business Intelligence

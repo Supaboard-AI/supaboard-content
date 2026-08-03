@@ -1,14 +1,10 @@
 ---
 slug: embedded-analytics
 status: published
-title: >-
-  Embedded Analytics in 2025 – How It Works, Benefits, AI Role, and Business
-  Impact
+title: 'Embedded Analytics: How It Works and What It Costs'
 description: >-
-  Discover what embedded analytics is, how it works, and why it’s transforming
-  business applications in 2025. Learn key features, benefits, AI-powered
-  insights, and monetization strategies to drive real-time, data-driven
-  decisions.
+  Embedded analytics puts insight inside your own product. How it works, what
+  white labelling adds, and why per-seat pricing breaks down badly at scale.
 category: product
 tags:
   - Saas

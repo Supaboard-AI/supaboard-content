@@ -3,8 +3,8 @@ slug: bi-dashboards
 status: published
 title: 'BI Dashboard: What It Is, Why It Matters & How It Helps.'
 description: >-
-  Discover what a BI dashboard is, why it matters for business growth, and how
-  it helps teams analyze data and make faster, smarter decisions.
+  A dashboard exists to trigger a decision by a named person. How to build one
+  that does, which metrics belong on it, and when you should delete it again.
 category: data
 tags:
   - Dashboard

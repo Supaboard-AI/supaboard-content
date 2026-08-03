@@ -1,16 +1,10 @@
 ---
 slug: healthcare-analytics
 status: published
-title: 'AI Predictive Analytics in Healthcare: How Data Is Transforming Patient Care'
+title: 'AI Predictive Analytics in Healthcare: A Practical Guide'
 description: >-
-  Predictive analytics is no longer a concept of the future; it is
-  revolutionizing decision-making for hospitals, doctors, and care teams.
-  Healthcare systems are evolving, transitioning from addressing issues
-  post-occurrence to preventing them. This transformation is driven by AI,
-  machine learning, and real-time patient data, with an emphasis now placed on
-  delivering personalized care.  Today, AI predictive analytics in healthcare
-  can spot risks earlier. They help reduce readmissions, prevent complications,
-  and provide safer, more efficient patient care.
+  Healthcare analytics is constrained first by what data may legally move. How
+  masking, prediction and explainability fit together in practice.
 category: data
 tags:
   - AI
