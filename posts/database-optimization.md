@@ -194,7 +194,7 @@ Your schema is the foundation of performance. It decides how data is stored, rel
 **What to focus on:**
 
 -   **Normalize for integrity, denormalize for performance**  
-    Use normalization to avoid duplication and keep [data](/blog/what-is-data-modeling-guide) consistent. But when queries become too complex or slow, selectively denormalize (e.g., storing computed or repeated values) to reduce joins and speed up access.
+    Use normalization to avoid duplication and keep [data](/blog/what-is-data-modeling) consistent. But when queries become too complex or slow, selectively denormalize (e.g., storing computed or repeated values) to reduce joins and speed up access.
     
 -   **Design around query patterns, not just data structure**  
     Don’t design tables only based on how data is stored, design them based on how data will be _read_. Identify your most frequent queries and structure tables to support them efficiently.
@@ -298,7 +298,7 @@ In several cases, introducing:
 
 …stabilized performance without changing queries or scaling infrastructure.
 
-_To better understand where optimization fits in modern systems, explore the_ [_\**data warehouse vs data lake vs database*\*_](/blog/database-vs-data-warehouse-vs-data-lake-guide) _comparison._
+_To better understand where optimization fits in modern systems, explore the_ [_\**data warehouse vs data lake vs database*\*_](/blog/database-vs-data-warehouse-vs-data-lake) _comparison._
 
 <!-- section:content-3 -->
 
@@ -314,7 +314,7 @@ Start by finding the queries that actually cause performance issues. Use logs, s
 
 ### Step 2: Analyze Execution Plans
 
-Once identified, understand how those queries run. Execution plans reveal whether the [database](/blog/database-vs-data-warehouse-vs-data-lake-guide) is scanning too much data, using inefficient joins, or ignoring indexes.
+Once identified, understand how those queries run. Execution plans reveal whether the [database](/blog/database-vs-data-warehouse-vs-data-lake) is scanning too much data, using inefficient joins, or ignoring indexes.
 
 ### Step 3: Fix Query + Index Layer First
 
@@ -332,7 +332,7 @@ Only after optimizing the lower layers should you scale infrastructure. Improve 
 
 Finally, set up continuous monitoring to track performance and detect issues early. Alerts help you respond quickly and keep your database optimized as workloads evolve.
 
-As systems scale, these challenges become even more relevant in the [**future of data engineering**](/blog/future-of-data-engineering).
+As systems scale, these challenges become even more relevant in the [**future of data engineering**](/blog/data-engineering).
 
 <!-- section:content-4 -->
 
@@ -408,7 +408,7 @@ Performance issues are sometimes caused by too many concurrent requests rather t
 
 **When to use:** When performance drops under high traffic or during spikes in concurrent usage.
 
-_Optimized databases are critical for powering insights in modern_ [_\**business intelligence tools*\*_](/blog/bi-tools)_._
+_Optimized databases are critical for powering insights in modern_ [_\**business intelligence tools*\*_](/blog/best-ai-bi-tools)_._
 
 <!-- section:content-5 -->
 
@@ -428,7 +428,7 @@ Instead of fixing queries, teams upgrade instances or move to distributed setups
 **No monitoring**  
 Many teams don’t track slow queries until users complain. No visibility into query time, locks, or spikes. One production issue we worked on was caused by a single unoptimized query running repeatedly, no alerts, no logs. Monitoring should be in place before problems show up.
 
-> _Performance optimization becomes even more important when working with_ [_\**AI-powered business intelligence systems*\*_](/blog/best-ai-powered-business-intelligence)_\**.*\*_
+> _Performance optimization becomes even more important when working with_ [_\**AI-powered business intelligence systems*\*_](/blog/best-ai-bi-tools)_\**.*\*_
 
 <!-- section:content-6 -->
 

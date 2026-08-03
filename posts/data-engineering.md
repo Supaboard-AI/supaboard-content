@@ -101,7 +101,7 @@ internalLinks:
 
 ## Introduction
 
-[Data engineering](/blog/will-we-still-need-data-engineers-in-2026) is changing fast. With AI copilots, serverless systems, and automated data platforms becoming common, it’s easy to think many core skills are losing relevance.
+[Data engineering](/blog/data-engineering) is changing fast. With AI copilots, serverless systems, and automated data platforms becoming common, it’s easy to think many core skills are losing relevance.
 
 But that’s not what’s actually happening.
 
@@ -125,7 +125,7 @@ Teams are still dealing with:
     
 -   Inefficient data modeling that creates confusion across teams
     
--   [Governance](/blog/ai-transformation-problem-of-governance) gaps that reduce trust in data
+-   [Governance](/blog/ai-analytics-governance) gaps that reduce trust in data
     
 -   Rising cloud costs due to poorly optimized pipelines
     
@@ -142,7 +142,7 @@ In 2027, the real value is no longer in just building pipelines. It’s in under
 
 ### I. Data Modeling - Evolving, Not Fading
 
-Even with LLMs generating queries and dashboards, [data modeling](/blog/what-is-data-modeling-guide) is still the foundation of everything. If your data is not structured properly, no AI tool can fix the confusion it creates across teams.
+Even with LLMs generating queries and dashboards, [data modeling](/blog/what-is-data-modeling) is still the foundation of everything. If your data is not structured properly, no AI tool can fix the confusion it creates across teams.
 
 The difference in 2027 is not _whether_ modeling matters, but _how_ we approach it.
 

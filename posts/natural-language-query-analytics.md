@@ -132,7 +132,7 @@ In this guide, we will discuss what natural language querying is, how it works i
 
 A natural language query (NLQ) enables users to interact with complex databases, including knowledge graphs and graph data, using everyday language instead of writing [SQL](https://aws.amazon.com/what-is/sql/) or finding the perfect dashboard. Users can directly ask questions like “What were our total sales last month?” or “Which customers stopped buying after the price increase?”
 
-Powered by natural language processing ([NLP](https://www.geeksforgeeks.org/nlp/introduction-to-natural-language-processing-nlp/)) and machine learning, NLQ instantly returns results as [charts, tables](/blog/what-is-a-kpi-guide), or insights, making data exploration faster and more accessible.
+Powered by natural language processing ([NLP](https://www.geeksforgeeks.org/nlp/introduction-to-natural-language-processing-nlp/)) and machine learning, NLQ instantly returns results as [charts, tables](/blog/what-is-a-kpi), or insights, making data exploration faster and more accessible.
 
 <!-- section:content-3 -->
 
@@ -176,12 +176,12 @@ The process works as follows:
     
 -   Allows users to ask follow-up questions in a natural, conversational way
     
--   Reduces dependency on [data analysts](/blog/will-data-analysts-be-replaced-by-ai-the-truth-behind-the-fear)
+-   Reduces dependency on [data analysts](/blog/will-ai-replace-data-analysts)
     
 -   Significantly improves speed and accessibility of self-service analytics
     
 
-In short, natural language query makes [data-driven decisions](/blog/what-is-a-decision-making-dashboard-importance-benefits-and-how-to-build-one) faster by removing the barriers between asking a question and getting an actionable answer.
+In short, natural language query makes [data-driven decisions](/blog/bi-dashboards) faster by removing the barriers between asking a question and getting an actionable answer.
 
 <!-- section:content-4 -->
 
@@ -274,7 +274,7 @@ It trades some technical precision for **speed, accessibility, and broader adopt
 | Interaction | Click, filter, navigate | Ask questions in plain language |
 | Flexibility | Limited to built reports | Open-ended, supports follow-up questions |
 | Speed of insight | Fast for known metrics | Fast for new or unexpected queries |
-| Use case | Monitoring performance ([KPIs](/blog/what-is-a-kpi-guide), trends) | Ad-hoc analysis and exploration |
+| Use case | Monitoring performance ([KPIs](/blog/what-is-a-kpi), trends) | Ad-hoc analysis and exploration |
 | Dependency on analysts | Moderate (setup required) | Low (self-service for users) |
 | Learning curve | Requires understanding dashboards | Easy for non-technical users |
 
@@ -282,7 +282,7 @@ It trades some technical precision for **speed, accessibility, and broader adopt
 
 ## AI and Agentic Analytics: Where Natural Language Query Is Heading
 
-[Modern AI](/blog/ai-tools-for-business-that-actually-work) is pushing **natural language query (NLQ)** beyond simple question-and-answer. It’s no longer just about getting faster responses, it’s about getting **smarter, more contextual insights**. With **agentic analytics**, NLQ systems can understand intent more deeply, ask follow-up questions, and guide users toward better decisions instead of just returning data.
+Modern AI is pushing **natural language query (NLQ)** beyond simple question-and-answer. It’s no longer just about getting faster responses, it’s about getting **smarter, more contextual insights**. With **agentic analytics**, NLQ systems can understand intent more deeply, ask follow-up questions, and guide users toward better decisions instead of just returning data.
 
 AI agents can now monitor data continuously, flag unusual changes, and even run multi-step analysis without manual input. This shift moves analytics from reactive reporting to **proactive decision support**, where teams don’t just analyze what happened, they understand why it happened and what to do next.
 
@@ -356,7 +356,7 @@ Natural language querying is transforming how organizations use data in practice
 -   Embedded analytics allow users to ask questions directly inside business applications and workflows
     
 
-[**Supaboard**](/) is one example of an AI-native platform that delivers a seamless natural language query experience designed specifically for fast, governed [self-service analytics](/blog/self-service-bi-vs-traditional-business-intelligence).
+[**Supaboard**](/) is one example of an AI-native platform that delivers a seamless natural language query experience designed specifically for fast, governed [self-service analytics](/blog/self-service-bi).
 
 ## Limitations of Natural Language Querying
 

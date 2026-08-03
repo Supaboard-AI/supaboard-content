@@ -65,7 +65,7 @@ The world of statistics and investment strategies is a complex one, which requir
 
 ## What Is Correlation?
 
-Correlation is a statistical measure that describes the association between two distinct variables. It shows whether the variables have a tendency to move together and, if so, in which direction, either the same direction or opposite directions. In simple terms, correlation is a [powerful tool](/blog/ai-tools-for-business-that-actually-work) that helps us study and understand the relationship between two variables. It is widely used to analyze patterns in data and provides valuable insights into economic, business, and real-world behavior.
+Correlation is a statistical measure that describes the association between two distinct variables. It shows whether the variables have a tendency to move together and, if so, in which direction, either the same direction or opposite directions. In simple terms, correlation is a powerful tool that helps us study and understand the relationship between two variables. It is widely used to analyze patterns in data and provides valuable insights into economic, business, and real-world behavior.
 
 For example, you may find that the more hours a person studies, the higher his or her test scores tend to be. Or the higher the price of a product , the less units are usually sold . Correlation picks up on such patterns, without saying that one thing causes the other.
 

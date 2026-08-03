@@ -118,7 +118,7 @@ An ecommerce dashboard lets online firms analyze performance, review KPIs and ma
 
 ## What Is an Ecommerce Dashboard?
 
-An ecommerce dashboard is a visual analytics tool that brings together data from a variety of sources, ecommerce systems, [analytics tools](/blog/what-is-real-time-analytics-definition-benefits-examples), CRMs, and advertising platforms, into a single, unified interface. Teams don’t have to manually sift through disparate information, they can leverage dashboards to get a comprehensive view of performance and find actionable insights quickly and efficiently.  
+An ecommerce dashboard is a visual analytics tool that brings together data from a variety of sources, ecommerce systems, [analytics tools](/blog/real-time-analytics), CRMs, and advertising platforms, into a single, unified interface. Teams don’t have to manually sift through disparate information, they can leverage dashboards to get a comprehensive view of performance and find actionable insights quickly and efficiently.  
   
 Traditional analytics tools tend to look more at past data whereas current dashboards are more about real-time monitoring and insights that look forward. A good dashboard for an ecommerce site user would include revenue performance, customer trends, marketing efficacy, and operational indicators in a way that makes it easy to analyze and make business decisions.
 

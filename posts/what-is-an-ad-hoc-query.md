@@ -110,7 +110,7 @@ Most business intelligence systems are built around predefined dashboards and re
 
 In reality, teams often face unexpected situations. A sudden drop in conversions. A spike in support tickets. A campaign that performed well in one region but poorly in another. These moments demand immediate answers.
 
-This is where [**ad hoc analysis**](/blog/how-to-reduce-ad-hoc-data-requests-to-the-analytics-team-a-practical-guide) becomes critical.
+This is where [**ad hoc analysis**](/blog/what-is-an-ad-hoc-query) becomes critical.
 
 Instead of waiting for a new report to be created, users can directly explore data and shape it around the question they are trying to answer. Ad hoc queries allow teams to move faster, think deeper, and make informed decisions without being limited by fixed dashboards.
 
@@ -417,7 +417,7 @@ A common example of ad hoc analysis is investigating why churn suddenly increase
 
 Yes. Most modern BI platforms support self-service ad hoc querying, allowing both technical and non-technical users to explore data using simple interfaces. Users can filter, group, and compare data without writing code or relying on analysts.
 
-Know more [about top BI tools.](/blog/top-10-business-intelligence-bi-tools-in-2026-an-overview)
+Know more [about top BI tools.](/blog/best-ai-bi-tools)
 
 <!-- section:content-8 -->
 

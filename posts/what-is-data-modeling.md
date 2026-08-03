@@ -178,7 +178,7 @@ Different tools support different stages of data modeling, from early design to 
 
 #### Hierarchical Data Models
 
-**Hierarchical** [**data models organize**](/blog/what-is-data-modeling-guide) **d**ata in a tree-like structure, where each record has a single parent and can have multiple child records. This model works well for one-to-many relationships, such as organizational structures or file systems.
+**Hierarchical** [**data models organize**](/blog/what-is-data-modeling) **d**ata in a tree-like structure, where each record has a single parent and can have multiple child records. This model works well for one-to-many relationships, such as organizational structures or file systems.
 
 #### Relational Data Models
 

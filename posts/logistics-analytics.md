@@ -102,7 +102,7 @@ By connecting data across transportation, warehousing, and inventory systems, lo
 
 **Logistics analytics** is the practice of analyzing logistics data to improve **transportation, inventory, warehousing, and delivery operations**. It helps businesses understand what is happening across the supply chain and why issues occur, rather than relying on static reports.
 
-By combining **historical and real-time data**, **logistics analytics** supports better decisions such as **route optimization**, **cost control**, and **service-level improvement**. As logistics operations grow more complex, [**data-driven logistics analytics**](/blog/revolutionizing-small-business-analytics-how-ai-tools-save-time-simplify-data-and-drive-growth) reduces inefficiencies, lowers costs, and improves overall **supply chain performance**.
+By combining **historical and real-time data**, **logistics analytics** supports better decisions such as **route optimization**, **cost control**, and **service-level improvement**. As logistics operations grow more complex, [**data-driven logistics analytics**](/blog/analytics-without-a-data-team) reduces inefficiencies, lowers costs, and improves overall **supply chain performance**.
 
 <!-- section:content-3 -->
 
@@ -124,7 +124,7 @@ Modern logistics analytics uses different types of analytics to help teams make 
 
 ### Descriptive Analytics in Logistics
 
-[Descriptive analytics](/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know) in logistics focuses on understanding what has already happened. It summarizes historical logistics data into **KPIs, dashboards, and reports** covering delivery performance, freight costs, inventory levels, and warehouse efficiency, providing foundational operational visibility.
+[Descriptive analytics](/blog/types-of-analytics) in logistics focuses on understanding what has already happened. It summarizes historical logistics data into **KPIs, dashboards, and reports** covering delivery performance, freight costs, inventory levels, and warehouse efficiency, providing foundational operational visibility.
 
 **Example**  
 A logistics team reviews last quarter’s on-time delivery rates by carrier to understand performance trends before renegotiating transportation contracts.
@@ -138,7 +138,7 @@ After repeated shipment delays, analysts trace the issue to a specific lane wher
 
 ### Predictive Analytics in Logistics
 
-Predictive analytics in logistics uses historical patterns and machine learning models to forecast future outcomes such as demand spikes, shipment delays, capacity shortages, and service risks. This allows logistics leaders to plan ahead, allocate resources proactively, and reduce operational surprises before [they impact customers or costs.](/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know)
+Predictive analytics in logistics uses historical patterns and machine learning models to forecast future outcomes such as demand spikes, shipment delays, capacity shortages, and service risks. This allows logistics leaders to plan ahead, allocate resources proactively, and reduce operational surprises before [they impact customers or costs.](/blog/types-of-analytics)
 
 **Example:**  
 Based on seasonal trends and weather data, a shipper predicts increased delays next month and pre-allocates additional carriers to maintain service levels.
@@ -280,7 +280,7 @@ Effective logistics analytics starts with **decisions, not dashboards**. The goa
 
 **The future of logistics analytics** is moving toward AI-driven, decision-first systems that prioritize answers over dashboards, automate responses, and embed intelligence directly into daily logistics workflows.
 
--   [**Predictive and prescriptive analytics**](/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know) will become standard, helping teams anticipate disruptions, optimize routes, and act before delays or cost overruns occur.
+-   [**Predictive and prescriptive analytics**](/blog/types-of-analytics) will become standard, helping teams anticipate disruptions, optimize routes, and act before delays or cost overruns occur.
     
 -   **AI-assisted decision support** will guide planners by evaluating trade-offs across cost, speed, risk, and service in real time, reducing manual analysis.
     

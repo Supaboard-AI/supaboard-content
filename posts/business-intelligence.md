@@ -191,7 +191,7 @@ According to [Gartner’s](https://www.gartner.com/en/information-technology/glo
 | User Access | Technical queries | [Natural language](/blog/natural-language-query-analytics) interaction |
 | Reporting | Periodic updates | Real-time dashboards |
 | Forecasting | Limited | Advanced machine learning models |
-| Decision Support | [Descriptive](/blog/descriptive-analytics-guide) | Intelligent recommendations |
+| Decision Support | [Descriptive](/blog/types-of-analytics) | Intelligent recommendations |
 
 AI-powered BI transforms analytics from a reporting function into a strategic intelligence system.
 
@@ -257,7 +257,7 @@ Cultural resistance also limits adoption. Employees may distrust analytics or fe
 
 Selecting business intelligence software requires balancing technical capability with organizational readiness. Decision makers should begin by evaluating integration compatibility with existing systems.
 
-Usability is equally important. [Self-service BI](/blog/self-service-bi-vs-traditional-business-intelligence) tools increase adoption by allowing non-technical users to explore data independently. However, governance mechanisms must remain strong.
+Usability is equally important. [Self-service BI](/blog/self-service-bi) tools increase adoption by allowing non-technical users to explore data independently. However, governance mechanisms must remain strong.
 
 Organizations should also assess long-term scalability, vendor support, and total cost of ownership. A poorly aligned platform can limit growth and reduce ROI.
 

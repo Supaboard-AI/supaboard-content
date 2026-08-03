@@ -20,7 +20,10 @@
     "validate": "node tools/validate.ts",
     "content:check": "node tools/ci.ts",
     "content:report": "node tools/report.ts",
-    "sitemap": "node tools/sitemap.mjs"
+    "sitemap": "node tools/sitemap.mjs",
+    "test:guardrails": "node tools/test-guardrails.ts",
+    "stats:audit": "node tools/stats-audit.mjs",
+    "relink": "node tools/relink.mjs"
   },
   "repository": {
     "type": "git",

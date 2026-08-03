@@ -123,7 +123,7 @@ Here are the key challenges:
     
 -   They enable users to ask questions in plain language and get instant insights, reducing delays in decision-making across teams.
     
--   Most alternatives offer [no-code dashboards](/blog/5-ways-saas-startups-use-no-code-dashboards-to-win-investors), making it easy to build reports without understanding complex data structures or workflows.
+-   Most alternatives offer [no-code dashboards](/blog/bi-dashboards), making it easy to build reports without understanding complex data structures or workflows.
     
 -   These platforms reduce dependency on engineering teams, allowing business users to independently access and analyze important data quickly.
     
@@ -154,7 +154,7 @@ Yes, Metabase is free to use through its open-source, self-hosted edition, which
 
 [Supaboard](/) is an AI-native business intelligence platform built for non-technical teams. Instead of building dashboards or writing queries, users can ask questions in plain English and instantly get answers, visualizations, and explanations. No SQL, no query builder, no dependency on analysts.
 
-Unlike [traditional BI](/blog/self-service-bi-vs-traditional-business-intelligence) tools that focus on dashboards, Supaboard focuses on answers. It brings your data, metrics, and business logic into one unified layer, so every insight is consistent and aligned with how your business actually works.
+Unlike [traditional BI](/blog/self-service-bi) tools that focus on dashboards, Supaboard focuses on answers. It brings your data, metrics, and business logic into one unified layer, so every insight is consistent and aligned with how your business actually works.
 
 ### Key Features
 
@@ -284,7 +284,7 @@ Everything starts with a defined data model, ensuring dashboards are consistent 
 **Reusable metrics and definitions**  
 Define metrics once and reuse them everywhere, so teams don’t end up with different numbers for the same KPI.
 
-[**SQL**](/blog/unlocking-cross-database-analysis-without-sql-a-complete-guide)**\-based data modeling**  
+[**SQL**](/blog/natural-language-query-analytics)**\-based data modeling**  
 Gives full control over data structure, but requires technical knowledge to set up and maintain.
 
 **Automated reporting and scheduling**  

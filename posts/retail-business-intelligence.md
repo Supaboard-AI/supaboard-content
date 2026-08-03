@@ -142,11 +142,11 @@ This guide is written for mid-market retail chains operating 10–20 physical st
 
 ## What is Retail Business Intelligence?
 
-**Retail business intelligence (retail BI)** is the practice of collecting, integrating, and analyzing data from across a retail operation, transactions, inventory, customers, [e-commerce](/blog/the-modern-ecommerce-dashboard-insights-you-can-act-on), and financials, to generate insights that drive faster and more accurate business decisions.
+**Retail business intelligence (retail BI)** is the practice of collecting, integrating, and analyzing data from across a retail operation, transactions, inventory, customers, [e-commerce](/blog/ecommerce-analytics), and financials, to generate insights that drive faster and more accurate business decisions.
 
 It is not a single tool. It is a capability: the organizational ability to move from fragmented, lagging data to a clear, connected view of what is happening and why and to act on it before the window closes.
 
-The distinction that matters: [traditional BI](/blog/self-service-bi-vs-traditional-business-intelligence) tells you what happened. Modern retail BI tells you what to do next.
+The distinction that matters: [traditional BI](/blog/self-service-bi) tells you what happened. Modern retail BI tells you what to do next.
 
 ### Why Retail BI Matters More Than Ever in 2026
 
@@ -169,7 +169,7 @@ Here is the operational gap BI closes:
 | Decisions based on top-line revenue and experience | Decisions supported by product-, store-, and segment-level analysis |
 | Promotions designed by convention and calendar | Promotions measured against margin impact and historical outcomes |
 | Inventory problems found after revenue is already lost | Inventory risks flagged proactively through threshold alerts |
-| Monthly [financial](/blog/financial-dashboards-guide) reviews as the primary feedback loop | Daily operational visibility across all stores and channels |
+| Monthly [financial](/blog/financial-dashboard-examples) reviews as the primary feedback loop | Daily operational visibility across all stores and channels |
 
 ### What Data Does Retail BI Analyze?
 
@@ -193,7 +193,7 @@ The data fragmentation problem is real and consistently underestimated. In our e
 
 This is the section most BI guides skip entirely, and it's where implementation either succeeds or fails.
 
-A retail [BI dashboard](/blog/ai-dashboard-explained) is only valuable if it answers questions people are actually asking. Building dashboards around data availability rather than decision requirements is the most common implementation failure we see.
+A retail [BI dashboard](/blog/bi-dashboards) is only valuable if it answers questions people are actually asking. Building dashboards around data availability rather than decision requirements is the most common implementation failure we see.
 
 Here is what effective retail BI dashboards look like by function:
 
@@ -245,11 +245,11 @@ Here is what effective retail BI dashboards look like by function:
 -   Loyalty program engagement and churn signals
     
 
-> **From our experience:** The most effective dashboards we have helped teams build show 5–7 metrics maximum per view. When a dashboard shows everything, it answers nothing. The best signal that a dashboard is working is that it triggers a specific action, not just a review meeting.
+> **A rule of thumb:** the most effective dashboards show five to seven metrics per view. When a dashboard shows everything, it answers nothing. The best signal that a dashboard is working is that it triggers a specific action, not just a review meeting.
 
 ## Key Retail KPIs to Track in Your BI System
 
-A retail BI system without clearly [defined KPIs](/blog/what-is-a-kpi-guide) is a data warehouse, not a decision engine. These are the metrics that should be actively tracked, not just available.
+A retail BI system without clearly [defined KPIs](/blog/what-is-a-kpi) is a data warehouse, not a decision engine. These are the metrics that should be actively tracked, not just available.
 
 ![key retail business intelligence KPIs including inventory, sales, customer and margin metrics for data-driven retail analytics](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/all-about-retail-business-intelligence/41af6d7c2e091dc3.png?w=845&h=479)
 
@@ -310,23 +310,32 @@ A retail BI system without clearly [defined KPIs](/blog/what-is-a-kpi-guide) is 
 
 **What BI reveals:** Sell-through rates, days-on-hand, and restock velocity tracked at the SKU level across all locations. Integrated with customer data, this surfaces whether a revenue decline reflects falling demand or operational execution failures, two problems that require completely different responses.
 
-**Case Study: US Fashion Retail Chain (12 Stores + E-commerce):**
+**A worked example: how the same revenue drop reads two ways**
 
-A mid-sized fashion retailer reported a sustained 18% drop in monthly revenue over two consecutive quarters. Internal analysis pointed to reduced footfall, a diagnosis that would have driven investment in store experience and marketing.
+This is a hypothetical, used to show the diagnostic path rather than to report
+a result. Suppose a multi-location fashion chain sees monthly revenue fall for
+two consecutive quarters. Internal analysis blames footfall — a diagnosis that
+points the budget at store experience and marketing.
 
-A BI-led investigation produced an entirely different finding.
+A BI-led investigation asks different questions. Is slow-moving inventory
+concentrated in seasonal lines that were over-forecast? Are high-demand
+products selling out days after each restock, creating recurring missed-sales
+windows? Did repeat purchase rates fall in the same period, and does the drop
+track with sizes and colourways being unavailable rather than with demand? Is
+discount activity concentrated on already-declining products, cutting margin
+without recovering volume?
 
-Product-level analysis showed 32% of inventory was slow-moving, primarily seasonal items overstocked from poor demand forecasting. Simultaneously, high-demand products were selling out within 3–5 days of each restock, creating consistent and recurring missed-sales windows.
+If those four answers line up, the revenue decline is not a demand problem. It
+is an inventory execution problem, and the intervention is a replenishment
+model rather than a marketing campaign.
 
-Customer data confirmed the damage: repeat purchase rates had dropped 12% over the same period, driven by frequent unavailability of popular sizes and colorways. Promotion analysis revealed most discount activity was concentrated on already-declining products, reducing margins without recovering volume.
-
-The revenue decline was not a demand problem. It was an inventory execution problem.
-
-**What they did:** Reduced low-performing SKUs by 25%, reallocated stock toward high-velocity items, revised the replenishment model.
-
-**Results within six weeks:** Stockouts down 40%. Sales up 14%. Profit margins improved 8 percentage points.
-
-> **The principle:** Revenue loss in retail is frequently misattributed. BI enables leadership to distinguish between demand decline and operational failure, and to apply the correct intervention. In our work with multi-location chains, we've seen clients reduce overstock by 20–30% within the first 60 days simply by connecting their POS and inventory data in one view.
+> **The principle:** revenue loss in retail is frequently misattributed. BI lets
+> leadership distinguish between demand decline and operational failure, and
+> apply the correct intervention. For a real, named example of the same
+> reframing, [Gabriella.pl](/case-study/gabriella.pl) found that the channel
+> with its highest cost-per-lead also had its strongest close rate — a finding
+> that inverts the obvious budget decision, and one that was invisible until
+> four ad platforms were unified into a single source of truth.
 
 #### 2\. Demand Forecasting
 
@@ -354,7 +363,7 @@ The revenue decline was not a demand problem. It was an inventory execution prob
 
 **What BI reveals:** Store-level performance against matched peers (comparable format, footfall, market size), category mix differences that explain divergence, and operational variables, staffing patterns, local assortment gaps, conversion rate differences, that separate underperformance from situational variance.
 
-**From our experience:** When we help chains set up their first store-level benchmarking view, the most common immediate finding is that 2–3 stores consistently underperform matched peers by 15–20%, and that the gap is explained not by location or footfall but by inventory allocation. The right products simply aren't being stocked at the right locations. This is only visible when store data is analyzed comparatively, not in isolation.
+**What store-level benchmarking tends to surface first:** a small number of stores underperforming matched peers for reasons that have nothing to do with location or footfall, and everything to do with inventory allocation. The right products simply aren't being stocked at the right locations. This is only visible when store data is analyzed comparatively, not in isolation.
 
 #### 5\. Promotion Effectiveness and Pricing Intelligence
 
@@ -366,7 +375,7 @@ The revenue decline was not a demand problem. It was an inventory execution prob
 
 In product demos with mid-market chains, the promotion analysis is consistently the finding that creates the most immediate urgency. Many retailers discover for the first time that a significant share of their discount spend is concentrated on products that were already in decline, accelerating margin erosion with no volume recovery. This finding alone typically pays for the cost of BI implementation.
 
-_\**Explore*\*_ [_\**top BI tools in 2026*\*_](/blog/top-10-business-intelligence-bi-tools-in-2026-an-overview) _\**and find the best solution for smarter business decisions.*\*_
+_\**Explore*\*_ [_\**top BI tools in 2026*\*_](/blog/best-ai-bi-tools) _\**and find the best solution for smarter business decisions.*\*_
 
 <!-- section:content-5 -->
 
@@ -393,7 +402,7 @@ Here is something worth naming directly, because it comes up in almost every pro
 
 The analytics tooling market has built deep, sophisticated infrastructure for pure-play e-commerce. Digital-native retailers have real-time behavioral data, A/B testing frameworks, funnel analytics, and personalization engines, all built for the digital channel.
 
-For brick-and-mortar retail, physical stores, multi-location chains, offline-first businessesm, the tooling is far more limited. Basic inventory management exists. Advanced analytical tools that help store operators understand in-store performance, diagnose revenue problems, and make [data-driven decisions](/blog/what-is-a-decision-making-dashboard-importance-benefits-and-how-to-build-one)? That gap is real, and it is consistently underserved.
+For brick-and-mortar retail, physical stores, multi-location chains, offline-first businessesm, the tooling is far more limited. Basic inventory management exists. Advanced analytical tools that help store operators understand in-store performance, diagnose revenue problems, and make [data-driven decisions](/blog/bi-dashboards)? That gap is real, and it is consistently underserved.
 
 Pure-play [e-commerce retailers](https://www.mordorintelligence.com/industry-reports/retail-analytics-market) held 59.30% of retail analytics deployments in 2025, while brick-and-mortar stores represent a significantly smaller share of current adoption.
 
@@ -425,7 +434,7 @@ This step prevents the most common failure mode: dashboards built around data av
 
 ### Step 3: Connect Your Data Sources (Week 3–6)
 
-Establish a centralized environment, whether a cloud data warehouse, a [BI platform](/blog/best-business-intelligence-tools) with native connectors, or a managed integration layer, where all sources can be queried together. Modern platforms handle most of this through pre-built integrations, reducing the need for custom engineering.
+Establish a centralized environment, whether a cloud data warehouse, a [BI platform](/blog/best-ai-bi-tools) with native connectors, or a managed integration layer, where all sources can be queried together. Modern platforms handle most of this through pre-built integrations, reducing the need for custom engineering.
 
 ### Step 4: Build Function-Specific Dashboards (Week 6–8)
 
@@ -461,7 +470,7 @@ Both competitors and most BI guides skip this section. That is exactly why it is
 
 | Criteria | What to Look For | Red Flags |
 | --- | --- | --- |
-| [Data integrations](/blog/application-integration-vs-data-integration) | Pre-built connectors for your POS, e-commerce, and ERP | Requires custom API work for standard integrations |
+| [Data integrations](/blog/data-connectivity) | Pre-built connectors for your POS, e-commerce, and ERP | Requires custom API work for standard integrations |
 | Data freshness | Real-time or hourly refresh | Daily or weekly refresh only |
 | User accessibility | Non-technical users can build and read dashboards | Requires analyst support for every query |
 | Retail-specific features | Inventory KPIs, sell-through tracking, demand forecasting built in | Generic BI requiring configuration for retail use cases |
@@ -469,7 +478,7 @@ Both competitors and most BI guides skip this section. That is exactly why it is
 | AI / anomaly detection | Proactive alerts, not just on-demand queries | Purely descriptive — no forward-looking capability |
 | Scalability | Handles growth in store count and data volume without re-implementation | Fixed-capacity pricing that penalizes growth |
 
-> **Where Supaboard fits:** Supaboard is built specifically for mid-market retail chains, pre-built integrations with the most common retail stacks, dashboards designed for operators rather than analysts, and a setup timeline measured in weeks rather than months. If you're evaluating options, [see how it compares for your specific stack →](/blog/best-ai-powered-business-intelligence)
+> **Where Supaboard fits:** Supaboard is built specifically for mid-market retail chains, pre-built integrations with the most common retail stacks, dashboards designed for operators rather than analysts, and a setup timeline measured in weeks rather than months. If you're evaluating options, [see how it compares for your specific stack →](/blog/best-ai-bi-tools)
 
 ## Retail BI Tools Compared
 

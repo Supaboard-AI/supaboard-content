@@ -85,7 +85,7 @@ Only a human analyst can connect the dots:
 -   Customer sentiment fell after a product update introduced friction and increased support complaints.
     
 
-AI can show **what** happened. The analyst explains **why** it happened, **how** it happened, and [**what the company should do next**](/blog/top-self-service-bi-tools-for-2025). That bridge from raw data to real decisions still requires human judgment.
+AI can show **what** happened. The analyst explains **why** it happened, **how** it happened, and [**what the company should do next**](/blog/best-ai-bi-tools). That bridge from raw data to real decisions still requires human judgment.
 
 <!-- section:content-2 -->
 
@@ -97,7 +97,7 @@ Data analysts still play a critical role in **asking the right questions**, vali
 
 In reality, AI is acting as a **force multiplier**. Analysts who learn to work with AI, using it for speed while applying human reasoning are becoming more valuable, not less.
 
-**Bottom line:** AI replaces tasks, not data analysts. [not replacing it.](/blog/will-ai-automate-bi-reporting-in-2026)
+**Bottom line:** AI replaces tasks, not data analysts. [not replacing it.](/blog/will-ai-replace-data-analysts)
 
 ### What AI Can Do Today
 

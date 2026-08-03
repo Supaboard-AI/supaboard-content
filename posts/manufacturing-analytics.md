@@ -112,11 +112,11 @@ It is much more than basic reports or spreadsheets. Good manufacturing analytics
 
 ### Four Types of Manufacturing [Analytics](/blog/types-of-analytics)
 
--   [**Descriptive**](/blog/descriptive-analytics-guide): What happened?
+-   [**Descriptive**](/blog/types-of-analytics): What happened?
     
 -   **Diagnostic**: Why did it happen?
     
--   [**Predictive**](/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know): What is likely to happen?
+-   [**Predictive**](/blog/types-of-analytics): What is likely to happen?
     
 -   **Prescriptive**: What should we do about it?
     
@@ -169,7 +169,7 @@ Connecting shop floor data with demand signals helps avoid both stockouts and ov
 
 Analytics improves demand predictions and uses production plus field data to refine future designs. This helps reduce manufacturing complexity in new product versions.
 
-These use cases have moved from pilot projects to mainstream practice. From 2025 to 2026, adoption of manufacturing analytics has accelerated, especially through better IoT integration, cloud tools, and AI capabilities. Companies making good progress are seeing faster decisions, lower costs, [higher productivity,](/blog/top-ai-tools-to-boost-your-productivity-in-2026) and greater resilience.
+These use cases have moved from pilot projects to mainstream practice. From 2025 to 2026, adoption of manufacturing analytics has accelerated, especially through better IoT integration, cloud tools, and AI capabilities. Companies making good progress are seeing faster decisions, lower costs, higher productivity, and greater resilience.
 
 <!-- section:content-4 -->
 
@@ -204,7 +204,7 @@ Manufacturing analytics is the process of collecting, analyzing, and turning dat
 
 #### How does predictive analytics in manufacturing work?
 
-[Predictive analytics](/blog/what-is-predictive-analytics-simple-guide) in manufacturing uses sensor data and machine learning to forecast equipment failures, quality issues, and demand changes before they occur. This shifts operations from reactive to proactive, helping reduce unplanned downtime and maintenance costs.
+[Predictive analytics](/blog/what-is-predictive-analytics) in manufacturing uses sensor data and machine learning to forecast equipment failures, quality issues, and demand changes before they occur. This shifts operations from reactive to proactive, helping reduce unplanned downtime and maintenance costs.
 
 #### What are the key benefits of manufacturing data analytics?
 

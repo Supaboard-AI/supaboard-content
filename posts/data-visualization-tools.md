@@ -113,19 +113,19 @@ In this guide, we’ve taken a close look at the **best data visualization tools
 
 AI is powering the way modern businesses collect, understand, analyse and use data more than ever before. AI tools for data visualisation and data analysis will not be optional in 2026, they will be essential to stay competitive in today’s data-rich environment.
 
-[AI dashboards](/blog/ai-dashboard-explained) are powerful, automated data visualisation and fast insights that were never possible before are revolutionising data exploration and presentation. Things that would have taken days of manual work can now be done in a matter of minutes.
+[AI dashboards](/blog/bi-dashboards) are powerful, automated data visualisation and fast insights that were never possible before are revolutionising data exploration and presentation. Things that would have taken days of manual work can now be done in a matter of minutes.
 
 #### Major Trends Driving This Revolution
 
 There are a number of big advances that are making this possible:
 
--   [**Generative AI**](/blog/generative-ai-guide): Now you can generate entire charts, dashboards and reports just by telling us what you want in plain English “show me sales trends by region last quarter” for example.
+-   [**Generative AI**](/blog/generative-business-intelligence): Now you can generate entire charts, dashboards and reports just by telling us what you want in plain English “show me sales trends by region last quarter” for example.
     
 -   [**Natural Language Querying**](/blog/natural-language-query-analytics): Ask questions in a conversational manner and get instant visualisations – no complicated filters, SQL or scripting required.
     
 -   **Automated Insights**: AI automatically identifies anomalies, extracts hidden patterns, and writes clear narrative summaries.
     
--   [**Predictive Analytics**](/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know): Build forecasts and scenario planning directly in your interactive dashboards.
+-   [**Predictive Analytics**](/blog/types-of-analytics): Build forecasts and scenario planning directly in your interactive dashboards.
     
 
 These capabilities make **AI for data visualisation** ultra-powerful in terms of speed and answers. Teams can explore large data sets, get instant summaries, and perform deep analysis faster than ever before.

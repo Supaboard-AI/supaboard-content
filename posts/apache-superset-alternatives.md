@@ -137,7 +137,7 @@ An **omni alternative to Apache Superset** refers to analytics platforms that go
 
 A true omni analytics platform typically combines:
 
--   [BI dashboards](/blog/ai-dashboard-explained) and data exploration
+-   [BI dashboards](/blog/bi-dashboards) and data exploration
     
 -   Embedded analytics for products and customer portals
     
@@ -421,7 +421,7 @@ Superset may not be the right fit if you:
 In these scenarios, omni analytics platforms typically deliver **faster time-to-value** and **lower operational overhead**.
 
 Explore more perspectives on embedded analytics on the  
-[Supaboard blog](/blog/omni-alternative-to-apache-superset).
+[Supaboard blog](/blog/apache-superset-alternatives).
 
 <!-- section:content-8 -->
 
@@ -437,7 +437,7 @@ Ultimately, the right choice depends on **who your users are**, **how analytics 
 
 #### What is an omni alternative to Apache Superset?
 
-An omni alternative to Apache Superset is an analytics platform that combines BI, embedded analytics, multi-tenant security, [self-service BI,](/blog/top-self-service-bi-tools-for-2025) and AI-powered insights in a single, scalable system.
+An omni alternative to Apache Superset is an analytics platform that combines BI, embedded analytics, multi-tenant security, [self-service BI,](/blog/best-ai-bi-tools) and AI-powered insights in a single, scalable system.
 
 #### Is Apache Superset suitable for embedded analytics?
 

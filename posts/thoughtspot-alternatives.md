@@ -154,7 +154,7 @@ Here is a balanced look at each option with equal context on their approach, str
 
 ### 1\. Supaboard
 
-[Supaboard](/) is an AI-powered [business intelligence](/blog/bi-tools) platform designed for fast, self-service analytics. It emphasizes natural language queries via its “Ask AI” feature, automated insight generation, drag-and-drop dashboards, and business logic agents. It connects to 600+ data sources including databases, CRMs, and apps, making it accessible for non-technical teams.
+[Supaboard](/) is an AI-powered [business intelligence](/blog/best-ai-bi-tools) platform designed for fast, self-service analytics. It emphasizes natural language queries via its “Ask AI” feature, automated insight generation, drag-and-drop dashboards, and business logic agents. It connects to 600+ data sources including databases, CRMs, and apps, making it accessible for non-technical teams.
 
 -   **Strengths vs. ThoughtSpot**: Often faster setup with reduced modeling needs, more transparent and affordable pricing tiers (starting around $71–$85/month for individual plans, scaling to Business/Enterprise), and strong automation for quick dashboard creation.
     
@@ -187,7 +187,7 @@ Lightdash is a modern, dbt-native BI tool with open-source roots and cloud-hoste
 
 ### 4\. Basedash
 
-Basedash is an [AI-native business intelligence](/blog/ai-native-business-intelligence-tools) platform focused on conversational analytics, data exploration, dashboard generation from prompts, and building internal tools. It emphasizes governance, query transparency, and usability across 700+ data sources.
+Basedash is an [AI-native business intelligence](/blog/agentic-analytics) platform focused on conversational analytics, data exploration, dashboard generation from prompts, and building internal tools. It emphasizes governance, query transparency, and usability across 700+ data sources.
 
 -   **Strengths vs. ThoughtSpot**: Agentic AI that generates results with visible/editable logic, strong support for blending analytics with operational internal tools, and tiered flat-rate pricing that supports broader team access without per-user penalties.
     

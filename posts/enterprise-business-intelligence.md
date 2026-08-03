@@ -72,7 +72,7 @@ In 2026, the biggest shift in enterprise BI is not just better charts. The real 
 
 Today, platforms like Microsoft, Oracle, Tableau, ThoughtSpot, Domo, and Appian position modern BI around AI, self-service analytics, governance, and cross-functional accessibility, not reporting alone.
 
-For enterprise teams, this shift matters. [Traditional BI](/blog/self-service-bi-vs-traditional-business-intelligence) often leaves business users waiting on analysts, switching between tools, and interpreting disconnected dashboards. AI is changing enterprise BI by making data easier to ask, faster to analyze, and more useful at the exact moment decisions need to be made.
+For enterprise teams, this shift matters. [Traditional BI](/blog/self-service-bi) often leaves business users waiting on analysts, switching between tools, and interpreting disconnected dashboards. AI is changing enterprise BI by making data easier to ask, faster to analyze, and more useful at the exact moment decisions need to be made.
 
 This article explains what that shift looks like, where it delivers the most value, and what enterprises should prioritize when evaluating BI solutions in 2026.
 
@@ -84,7 +84,7 @@ This article explains what that shift looks like, where it delivers the most val
     
 -   How AI is reshaping reporting, self-service, and insights
     
--   The role of semantic models, [governance](/blog/ai-transformation-problem-of-governance), and data trust
+-   The role of semantic models, [governance](/blog/ai-analytics-governance), and data trust
     
 -   Differences between modern enterprise BI and legacy BI software
     

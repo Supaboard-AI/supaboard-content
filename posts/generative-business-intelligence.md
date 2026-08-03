@@ -123,7 +123,7 @@ The main problem is not data availability. The problem is **speed and understand
 
 ## What Is Generative AI and Why It Matters in Analytics
 
-[Generative AI](/blog/generative-ai-guide) is a form of artificial intelligence that can create original content such as text, summaries, explanations, and visual outputs based on learned patterns from data.
+[Generative AI](/blog/generative-business-intelligence) is a form of artificial intelligence that can create original content such as text, summaries, explanations, and visual outputs based on learned patterns from data.
 
 Instead of following fixed instructions, it understands context and intent.
 
@@ -192,7 +192,7 @@ This example shows how Generative BI makes data analysis faster, simpler, and ea
 
 ## Limitations of Traditional Business Intelligence Platforms
 
-[Traditional BI](/blog/self-service-bi-vs-traditional-business-intelligence) tools have supported businesses for many years, but they struggle to meet the needs of modern, fast-changing environments. As companies generate more data and require quicker insights, these platforms often become slow, complex, and difficult for non-technical users to rely on.
+[Traditional BI](/blog/self-service-bi) tools have supported businesses for many years, but they struggle to meet the needs of modern, fast-changing environments. As companies generate more data and require quicker insights, these platforms often become slow, complex, and difficult for non-technical users to rely on.
 
 **Key Limitations**
 
@@ -303,7 +303,7 @@ Future systems will:
 -   Support voice-based analytics
     
 
-[BI platforms](/blog/top-10-\(business-intelligence\)-bi-tools-in-2026-an-overview) will evolve from reporting tools into intelligent decision systems.
+[BI platforms](/blog/best-ai-bi-tools) will evolve from reporting tools into intelligent decision systems.
 
 #### How Supaboard Helps You Turn Questions Into Business Decisions
 

@@ -197,7 +197,7 @@ In 2025, [**Walmart** used](https://corporate.walmart.com/news/2025/10/29/walmar
 
 ![Will AI Replace Data Analysts or  Data Scientists](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/data-science-vs-data-analytics-what-you-need-to-know/cf10425971fd19b4.png?w=683&h=384)
 
-AI will **not fully replace** data analysts or data scientists, but it [**will change how they work**.](/blog/will-data-analysts-be-replaced-by-ai-the-truth-behind-the-fear)
+AI will **not fully replace** data analysts or data scientists, but it [**will change how they work**.](/blog/will-ai-replace-data-analysts)
 
 AI tools can automate repetitive tasks like data cleaning, basic analysis, and report generation. However, **human judgment, business understanding, and problem framing** are still essential. Data professionals are needed to ask the right questions, validate results, and turn insights into decisions.
 
@@ -207,7 +207,7 @@ Instead of replacing these roles, AI is **augmenting** them, making analysts fas
 
 ### Skills Required for Data Analytics
 
-##### **Key skills required for** [**data analytics include:**](/blog/will-data-analysts-be-replaced-by-ai-the-truth-behind-the-fear)
+##### **Key skills required for** [**data analytics include:**](/blog/will-ai-replace-data-analysts)
 
 -   **SQL and Excel**  
     
@@ -281,7 +281,7 @@ Instead of replacing these roles, AI is **augmenting** them, making analysts fas
 
 ##### **4\. How to become a data analyst step by step?**
 
-Start with SQL and BI dashboards, [learn statistics, practice data cleaning](/blog/the-ai-advantage-7-tools-powering-the-fastest-growing-startups-in-2026), work on projects, build a portfolio, get certified, and apply for analyst roles.
+Start with SQL and BI dashboards, learn statistics, practice data cleaning, work on projects, build a portfolio, get certified, and apply for analyst roles.
 
 ##### **5\. How to become a data scientist from scratch?**
 

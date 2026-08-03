@@ -104,7 +104,7 @@ A human analyst is irreplaceable for framing a messy problem, designing an exper
 
 An AI analyst covers exactly that boring middle. It's fast on the long tail, available at 11pm, and consistent. Its limit is sharp: it answers the question you asked, not the question you should have asked, and it can be confidently wrong. It won't tell you that your "conversion rate" went up only because tracking broke. A person catches that.
 
-It isn't analyst versus AI. The AI absorbs the repetitive ad-hoc load so your analyst spends time on the work that needs a brain, the practical version of the [agentic analytics versus traditional BI](/blog/agentic-analytics-vs-traditional-bi-tools) argument.
+It isn't analyst versus AI. The AI absorbs the repetitive ad-hoc load so your analyst spends time on the work that needs a brain, the practical version of the [agentic analytics versus traditional BI](/blog/agentic-analytics) argument.
 
 <!-- section:content-4 -->
 

@@ -234,7 +234,7 @@ SaaS BI platforms unify these metrics into **real-time dashboards** for faster a
 
 | **Team** | **How They Use SaaS BI** | **Business Impact** |
 | --- | --- | --- |
-| **Data & Analytics** | Define metrics, manage data models | [Single source of truth](/blog/how-do-we-create-a-single-source-of-truth-for-our-business-data) |
+| **Data & Analytics** | Define metrics, manage data models | [Single source of truth](/blog/analytics-without-a-data-team) |
 | **Product** | Track adoption, funnels, cohorts | Better roadmap decisions |
 | **Sales & RevOps** | Monitor pipeline, quotas, forecasting | Predictable revenue |
 | **Marketing** | Analyze ROI, attribution, funnel efficiency | Higher conversion rates |
@@ -300,7 +300,7 @@ Many SaaS businesses package advanced analytics as premium plans, enterprise add
 Enterprise SaaS products embed dashboards that show feature adoption, active usage, and account health, helping customers measure ROI in real time.
 
 **Healthcare and Compliance Reporting**  
-[Healthcare SaaS platforms](/blog/ai-predictive-analytics-in-healthcare-how-data-is-transforming-patient-care) use embedded BI to deliver audit-ready insights, patient performance tracking, and operational reporting inside regulated environments.
+[Healthcare SaaS platforms](/blog/healthcare-analytics) use embedded BI to deliver audit-ready insights, patient performance tracking, and operational reporting inside regulated environments.
 
 **Financial and Subscription Analytics**  
 Customer portals surface revenue trends, billing usage, and forecast views, reducing manual reporting and support requests.
@@ -406,7 +406,7 @@ Beyond 2026, SaaS business intelligence will continue to evolve from reporting t
     [Natural language interfaces](https://www.supaboard.ai/) and guided analytics will reduce the learning curve for non-technical teams.
     
 -   **Predictive**  
-    BI will move from describing past performance to forecasting churn, revenue, and usage trends through [predictive analytics.](/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know)
+    BI will move from describing past performance to forecasting churn, revenue, and usage trends through [predictive analytics.](/blog/types-of-analytics)
     
 -   **Embedded**  
     Analytics will become a native part of the SaaS product experience through embedded and customer-facing dashboards.
@@ -416,7 +416,7 @@ Business intelligence in SaaS is shifting from passive reporting to **real-time 
 
 ### Frequently Asked Questions (FAQs)
 
-**What is SaaS** [**business intelligence?**](/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know)  
+**What is SaaS** [**business intelligence?**](/blog/types-of-analytics)  
 Cloud-based BI designed for SaaS companies, focused on subscription revenue, product usage, and customer lifecycle metrics.
 
 **What are SaaS business intelligence solutions?**  
