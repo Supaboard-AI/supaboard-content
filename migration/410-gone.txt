@@ -1,0 +1,26 @@
+# URLs that must return 410 Gone. Generated from disposition.csv.
+# Do not 301 these — a 301 to an irrelevant destination is a soft-404 signal.
+https://supaboard.ai/blog/ai-in-the-workplace-how-ai-is-transforming-jobs-teams-leadership-in-2026
+https://supaboard.ai/blog/ai-native-apps-the-future-every-startup-must-prepare-for-in-2025
+https://supaboard.ai/blog/ai-tools-for-business-that-actually-work
+https://supaboard.ai/blog/beyond-chatbots-real-use-cases-of-llms-in-enterprise-software
+https://supaboard.ai/blog/bringing-ai-in-business-data-analysis
+https://supaboard.ai/blog/build-vs-buy-in-the-age-of-ai-how-ctos-are-making-platform-decisions-in-2025
+https://supaboard.ai/blog/building-a-7-figure-startup-in-2025-7-ai-tools-you-can-t-ignore
+https://supaboard.ai/blog/cloud-wars-2025-shocking-new-moves-from-aws-azure-google-cloud
+https://supaboard.ai/blog/is-it-analyzing-or-analysing
+https://supaboard.ai/blog/learning-and-development-trends
+https://supaboard.ai/blog/looking-ahead-how-ai-is-changing-business-understanding
+https://supaboard.ai/blog/quantum-computing-in-2025-hype-vs-reality
+https://supaboard.ai/blog/quantum-computing-playbook-how-it-works-and-why-it-matters-now
+https://supaboard.ai/blog/revenge-of-the-backend-why-infrastructure-matters-more-in-the-age-of-ai
+https://supaboard.ai/blog/server-based-computing-guide
+https://supaboard.ai/blog/supaboard-ai-3
+https://supaboard.ai/blog/the-ai-advantage-7-tools-powering-the-fastest-growing-startups-in-2026
+https://supaboard.ai/blog/the-end-of-traditional-coding-low-code-s-takeover-in-2025
+https://supaboard.ai/blog/the-hidden-costs-of-adding-ai-to-your-saas-product
+https://supaboard.ai/blog/the-rise-of-ai-coworkers-designing-interfaces-for-human-ai-collaboration
+https://supaboard.ai/blog/tms-software-guide
+https://supaboard.ai/blog/top-ai-tools-to-boost-your-productivity-in-2026
+https://supaboard.ai/blog/top-white-label-ride-hailing-platform-providers
+https://supaboard.ai/blog/what-is-quantum-computing-a-beginner-s-guide-to-the-future-of-tech
