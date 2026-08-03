@@ -36,9 +36,9 @@ sections:
   - id: content-4
     heading: Where Traditional BI Still Dominates
   - id: content-5
-    heading: Best Self-Service BI Tools (2026)
-  - id: content-6
-    heading: 'Final Perspective: From BI Tools to Decision Systems'
+    heading: Frequently Asked Questions (FAQ)
+  - id: content-11
+    heading: What are the disadvantages of self-service BI?
 featured:
   choice: null
   trending: null
@@ -259,6 +259,20 @@ You can try it with your own data and experience how modern BI should work.
 Start now and get a [**14-day free trial**.](https://auth.supaboard.ai/onboard/register)
 
 <!-- section:content-6 -->
+
+<!-- section:content-11 -->
+
+## What are the disadvantages of self-service BI?
+
+Three, and the first one is the reason self-service programmes usually stall.
+
+**Metric sprawl.** When everyone can build their own view, everyone builds their own definition. Six months in, four teams have four churn numbers and no way to tell which is right — the tool did exactly what it promised, and the organisation lost the ability to agree on a fact. This is not an argument against self-service; it is an argument that self-service without a [semantic layer](/blog/what-is-a-semantic-layer) trades a bottleneck for an ambiguity, and the ambiguity is harder to notice.
+
+**Dashboard accumulation.** Nothing in a self-service tool encourages deletion. Views multiply until finding the right one is its own problem, and a large share of them are never opened again after the week they were built. Someone has to own retirement, or the surface area grows monotonically.
+
+**Confident misreading.** Self-service removes the analyst from the loop, and the analyst was doing something other than writing SQL — they were noticing that the join dropped rows, that the date range spans a pricing change, that the segment is too small to conclude anything from. A business user with a fast tool and no statistical instinct can reach a wrong conclusion faster than they previously reached any conclusion.
+
+None of these are reasons to keep data gatekept. They are reasons the governance work has to happen alongside the access work rather than after it. The failure pattern is the same each time: the tool ships, adoption climbs, and nobody owns definitions until the first meeting where two numbers disagree in front of a customer.
 
 ## Final Perspective: From BI Tools to Decision Systems
 

@@ -44,10 +44,10 @@ sections:
     heading: 'Predictive Analytics: Seeing the Future Before It Happens'
   - id: content-6
     heading: 'Prescriptive Analytics: Telling You What to Do'
-  - id: content-7
-    heading: Common Mistakes When Using Analytics
+  - id: content-11
+    heading: 'Descriptive or predictive: which should you build first?'
   - id: content-8
-    heading: Conclusion
+    heading: What is the Analytics as a Service (AaaS) business model?
 featured:
   choice: null
   trending: null
@@ -243,6 +243,28 @@ These systems can evaluate thousands of options in seconds.
 **Best Practices:** Start small, test recommendations, keep humans in the loop, and monitor ethical impact.
 
 <!-- section:content-7 -->
+
+<!-- section:content-11 -->
+
+## Descriptive or predictive: which should you build first?
+
+Descriptive, almost always — and the companies that skip it are the ones whose predictions nobody trusts.
+
+**Descriptive analytics** establishes what happened. Revenue by segment last quarter, conversion by channel, which SKUs moved. It sounds unambitious next to forecasting, and it is the foundation everything else stands on, for a mechanical reason: a predictive model is trained on historical data, and if your historical revenue figure is ambiguous then your forecast inherits that ambiguity and hides it behind a confidence interval.
+
+The sequence that works:
+
+**1. Descriptive — agree what happened.** The output is not a dashboard, it is a set of definitions that finance, marketing and product all accept. Most of the difficulty here is organisational, not technical.
+
+**2. Diagnostic — understand why.** Segment, compare, isolate. This is where most business value actually sits, and it is routinely skipped in the rush from reporting to prediction. "Revenue fell 8%" is descriptive; "revenue fell because one channel's close rate halved after a pricing change" is what someone can act on.
+
+**3. Predictive — estimate what happens next.** Now worth doing, because the inputs mean something.
+
+**4. Prescriptive — recommend an action.** Requires the previous three plus an understanding of what levers exist.
+
+The common failure is a company buying a forecasting capability while three teams still disagree about what a customer is. The forecast will be precise, delivered on schedule, and built on a definition nobody validated — which is worse than no forecast, because it carries authority the underlying data has not earned.
+
+If you can only do one thing this quarter, make the descriptive layer unambiguous. Prediction is cheap to add later and expensive to retrofit onto contested definitions.
 
 ## Common Mistakes When Using Analytics
 

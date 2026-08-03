@@ -42,8 +42,6 @@ sections:
     heading: How AI Is Changing Business Intelligence Dashboards
   - id: content-10
     heading: How do you build a decision-making dashboard?
-  - id: content-8
-    heading: Frequently Asked Questions
 featured:
   choice: null
   trending: null

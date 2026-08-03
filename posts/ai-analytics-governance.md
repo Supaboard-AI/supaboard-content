@@ -30,6 +30,10 @@ ogImage: >-
 sections:
   - id: content-1
     heading: Introduction
+  - id: content-2
+    heading: 'AI Contextual Governance in Business Evolution: A Real-World Example'
+  - id: content-3
+    heading: What is AI Contextual Governance?
   - id: content-4
     heading: Why Traditional AI Governance Limits Business Evolution and Adoption
   - id: content-5

@@ -1,7 +1,7 @@
 ---
 slug: spend-analytics
 status: published
-title: "Spend Analytics: Tools, Use Cases and Best Practices"
+title: 'Spend Analytics: Tools, Use Cases and Best Practices'
 description: >-
   Spend analytics turns scattered procurement data into savings you can act on.
   How it works, which tools compare best, and where AI analysis actually helps.
@@ -41,7 +41,7 @@ sections:
       Top spend analytics tools and software in 2026 (comparison table, targets
       tools/software queries)
   - id: content-8
-    heading: The Bottom Line
+    heading: Frequently Asked Questions
 featured:
   choice: null
   trending: null

@@ -24,7 +24,8 @@
     "test:guardrails": "node tools/test-guardrails.ts",
     "stats:audit": "node tools/stats-audit.mjs",
     "relink": "node tools/relink.mjs",
-    "cluster": "node tools/cluster.mjs"
+    "cluster": "node tools/cluster.mjs",
+    "toc": "node tools/toc.mjs"
   },
   "repository": {
     "type": "git",

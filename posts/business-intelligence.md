@@ -28,6 +28,8 @@ cover:
 ogImage: >-
   https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
+  - id: content-1
+    heading: Cloud BI vs Traditional BI
   - id: content-2
     heading: What Is Business Intelligence
   - id: content-3

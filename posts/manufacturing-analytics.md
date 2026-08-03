@@ -38,6 +38,10 @@ sections:
     heading: What Is Manufacturing Analytics?
   - id: content-3
     heading: Why It Matters More Than Ever in 2026
+  - id: content-4
+    heading: Choosing the Right Approach
+  - id: content-5
+    heading: Frequently Asked Questions
   - id: content-6
     heading: The Road Ahead
 featured:

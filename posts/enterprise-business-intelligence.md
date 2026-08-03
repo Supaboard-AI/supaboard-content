@@ -36,6 +36,8 @@ sections:
     heading: Key Benefits of AI-Powered Enterprise BI
   - id: content-5
     heading: Common Mistakes Teams Make
+  - id: content-6
+    heading: Frequently Asked Questions
   - id: content-7
     heading: Conclusion
 featured:

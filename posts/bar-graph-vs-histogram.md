@@ -36,11 +36,11 @@ sections:
   - id: content-4
     heading: 'Histogram vs Bar Graph: Key Differences'
   - id: content-5
-    heading: Common Mistakes to Avoid When Choosing Between Bar Graph and Histogram
+    heading: Real Business Use Cases
   - id: content-7
     heading: Best Tools to Create Bar Graphs and Histograms
   - id: content-8
-    heading: Conclusion
+    heading: Frequently Asked Questions (FAQ)
 featured:
   choice: null
   trending: 4

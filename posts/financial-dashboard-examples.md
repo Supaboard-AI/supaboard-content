@@ -37,6 +37,8 @@ sections:
     heading: Core Features of a Financial Dashboards
   - id: content-4
     heading: Financial Dashboard Examples
+  - id: content-5
+    heading: Frequently Asked Questions (FAQs)
   - id: content-6
     heading: Conclusion
 featured:

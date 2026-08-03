@@ -36,12 +36,18 @@ ogImage: >-
 sections:
   - id: content-1
     heading: What Is AI Predictive Analytics in Healthcare?
+  - id: content-2
+    heading: How Predictive Analytics Works in Modern Healthcare Systems
   - id: content-3
     heading: Key Benefits of Predictive Analytics in Healthcare
+  - id: content-4
+    heading: Major Challenges and Limitations
   - id: content-5
     heading: Future Trends in AI Predictive Analytics for 2026 and Beyond
   - id: content-6
     heading: Frequently Asked Questions (FAQ)
+  - id: content-7
+    heading: Conclusion
 featured:
   choice: null
   trending: null

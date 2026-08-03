@@ -37,10 +37,6 @@ sections:
     heading: 'AI-Powered BI Tools Comparison: Features, Pricing, and Strengths (2026)'
   - id: content-6
     heading: What should you actually judge a BI tool on?
-  - id: content-7
-    heading: 'Cloud, on-premise or hybrid: which deployment fits?'
-  - id: content-8
-    heading: What does "agentic analytics" actually mean?
   - id: content-4
     heading: Frequently Asked Questions (FAQs)
   - id: content-5

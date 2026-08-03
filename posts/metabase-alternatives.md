@@ -32,11 +32,9 @@ sections:
   - id: content-2
     heading: 'What is Metabase? Overview, Limitations, and Pricing Explained'
   - id: content-3
-    heading: 1. Supaboard
+    heading: 1\. Supaboard
   - id: content-10
     heading: Which Metabase alternative is best for embedded analytics?
-  - id: content-4
-    heading: How to Choose the Right Metabase Alternative
   - id: content-5
     heading: Conclusion
 featured:

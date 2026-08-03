@@ -31,10 +31,14 @@ cover:
 ogImage: >-
   https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
+  - id: content-1
+    heading: Key Takeaways
   - id: content-2
     heading: What is Retail Business Intelligence?
   - id: content-3
     heading: 'Retail BI Dashboards: What They Should Actually Show'
+  - id: content-4
+    heading: 'Retail BI Use Cases: Problem, Insight, Impact'
   - id: content-5
     heading: 'Traditional BI vs. Modern Retail BI: What''s the Difference?'
   - id: content-6

@@ -41,6 +41,8 @@ sections:
       Lake?
   - id: content-7
     heading: FAQs
+  - id: content-8
+    heading: Conclusion
 featured:
   choice: null
   trending: null

@@ -29,17 +29,19 @@ sections:
   - id: content-1
     heading: Introduction
   - id: content-2
-    heading: 1. The 2027 Data Engineering Landscape
+    heading: 1\. The 2027 Data Engineering Landscape
   - id: content-3
-    heading: 2. Core Skills That Still Matter
+    heading: 2\. Core Skills That Still Matter
   - id: content-4
-    heading: 3. The Emerging Skills to Watch
+    heading: 3\. The Emerging Skills to Watch
   - id: content-5
-    heading: '4. The Human Edge: Problem Solving and Business Context'
+    heading: '4\. The Human Edge: Problem Solving and Business Context'
   - id: content-6
     heading: How the Data Engineer Role Is Changing (2020 → 2027)
-  - id: content-8
-    heading: Final Thoughts
+  - id: content-7
+    heading: FAQs (Future of Data Engineering in 2027)
+  - id: content-11
+    heading: Will AI replace data engineers?
 featured:
   choice: null
   trending: null
@@ -414,6 +416,26 @@ A future-proof data engineer focuses on fundamentals like system design, underst
 Today’s data engineers focus mainly on pipelines and storage. In 2027, they will act more like data product architects, responsible for building systems that directly support decision-making and AI applications
 
 <!-- section:content-8 -->
+
+<!-- section:content-11 -->
+
+## Will AI replace data engineers?
+
+No, and the reason is that the hard part of data engineering was never writing the code.
+
+AI is genuinely good at the parts that look like data engineering from outside: generating a transformation, scaffolding a pipeline, writing tests against a schema, translating between SQL dialects. Those tasks compress substantially, and an engineer who refuses to use that assistance will be slower than one who does.
+
+What does not compress is everything that involves knowing why the data is the way it is.
+
+**Deciding what the pipeline should produce.** Whether a refunded order counts, when a subscription is recognised, which of two conflicting source systems is authoritative. These are business decisions surfacing as schema decisions, and getting them wrong produces a pipeline that runs perfectly and reports the wrong thing.
+
+**Diagnosing failures that are not errors.** The job succeeded, the row count looks normal, and the number is wrong because an upstream team changed a field's meaning without changing its name. Finding that requires knowing the systems and the people.
+
+**Owning the trade-offs.** Latency against cost, normalisation against query speed, strictness against ingest reliability. Every one of these has a defensible answer in both directions depending on what the business needs, and no model knows what the business needs.
+
+The role does change. Less hand-writing of boilerplate transformations, more designing contracts between systems and more defining what the numbers mean — which is [semantic layer](/blog/what-is-a-semantic-layer) work, and it grows in value as more people query the data, because a wrong definition now reaches everyone at once.
+
+The engineers at risk are the ones whose job is genuinely just translating a ticket into SQL. That was always the least durable part of the role, and it is the part being automated first.
 
 ## Final Thoughts
 

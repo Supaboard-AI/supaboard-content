@@ -44,7 +44,9 @@ sections:
   - id: content-7
     heading: Best Practices for Building KPI Dashboards in Ecommerce
   - id: content-8
-    heading: Conclusion
+    heading: FAQs
+  - id: content-11
+    heading: How do you use analytics to reduce cart abandonment?
 featured:
   choice: null
   trending: null
@@ -293,6 +295,26 @@ Popular ecommerce dashboard tools include Google Analytics, Shopify Analytics, T
 #### How can small ecommerce businesses use dashboards to scale faster?
 
 Small ecommerce businesses can use dashboards to monitor traffic sources, track conversions, optimize marketing spend, and forecast demand. Research shows analytics-driven strategies improve targeting, increase ROI, and support sustainable growth across customer lifecycle stages.
+
+<!-- section:content-11 -->
+
+## How do you use analytics to reduce cart abandonment?
+
+By finding where in the funnel people leave, not by assuming it is the price.
+
+Cart abandonment is usually treated as one problem with one cause. It is several, and they need different responses. The analytical job is separating them before spending anything on a fix.
+
+**Instrument the steps, not just the outcome.** Cart viewed, checkout started, address entered, shipping selected, payment attempted, payment succeeded. An aggregate abandonment rate tells you nothing actionable; a drop concentrated between shipping selection and payment tells you the shipping cost is the problem, and a drop at payment attempt tells you something is failing technically.
+
+**Segment before concluding.** Abandonment differs sharply by device, by new versus returning, by traffic source and by basket value. A mobile-only collapse at the address step is a form usability problem. A high-value-basket collapse is a trust or payment-method problem. Averaged together, both disappear.
+
+**Check the payment layer specifically.** A meaningful share of what looks like abandonment is failed authorisation — the customer tried, the payment declined, and no one told anyone. This shows up as intent-to-pay without completion, and it is the cheapest thing on this list to fix because the customer already decided to buy.
+
+**Watch for stock-driven abandonment.** If an item is unavailable at the size or variant the customer wants, they leave, and the funnel records it identically to a price objection. Joining basket data to inventory separates them.
+
+**Then personalise, in that order.** Recovery emails and targeted offers work, but they are a way to recapture demand you are losing for a reason you have already identified. Deployed before diagnosis, they discount customers who would have converted anyway.
+
+The reason to join these sources rather than read them separately is that the answer usually lives in the join. [Gabriella.pl](/case-study/gabriella.pl) found the channel with its highest cost-per-lead also had its strongest close rate — a conclusion that was invisible in any single platform's own reporting, and that reverses the obvious budget decision.
 
 ## Conclusion
 

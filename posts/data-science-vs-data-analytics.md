@@ -37,14 +37,20 @@ ogImage: >-
 sections:
   - id: content-1
     heading: What Is Data Analytics?
+  - id: content-2
+    heading: Data Analytics vs Data Analysis (Simple Difference)
   - id: content-3
     heading: What Is Data Science?
   - id: content-4
     heading: 'Data Analyst vs Data Scientist: Key Difference'
   - id: content-5
     heading: Will AI Replace Data Analysts and Data Scientists?
+  - id: content-6
+    heading: Skills Required for Data Analytics
   - id: content-7
     heading: FAQ
+  - id: content-8
+    heading: Conclusion
 featured:
   choice: null
   trending: null

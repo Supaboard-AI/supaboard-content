@@ -40,6 +40,10 @@ sections:
     heading: Database Optimization Techniques
   - id: content-5
     heading: Common Database Optimization Mistakes
+  - id: content-6
+    heading: Frequently Asked Questions (FAQs)
+  - id: content-7
+    heading: Frequently Asked Questions
   - id: content-8
     heading: Conclusion
 featured:

@@ -27,6 +27,8 @@ cover:
 ogImage: >-
   https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
+  - id: content-1
+    heading: What breaks when nobody owns the data
   - id: content-2
     heading: 'New Visual Query Builder: Powerful Queries Without SQL'
   - id: content-3

@@ -27,12 +27,22 @@ cover:
 ogImage: >-
   https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
+  - id: content-1
+    heading: Introduction
+  - id: content-2
+    heading: Why Is Data Modeling Important?
+  - id: content-3
+    heading: Types of Data Models
   - id: content-4
     heading: Common Data Modeling Approaches
   - id: content-5
     heading: Benefits of Data Modeling
   - id: content-6
     heading: Data Modeling Tools and Technologies
+  - id: content-7
+    heading: Frequently Asked Questions (FAQ)
+  - id: content-8
+    heading: Conclusion
 featured:
   choice: null
   trending: null

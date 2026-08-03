@@ -39,6 +39,8 @@ sections:
     heading: What "understanding the business" actually requires
   - id: content-7
     heading: 'Text-to-SQL vs AI-native BI: the contrasts that matter'
+  - id: content-8
+    heading: FAQ
 featured:
   choice: null
   trending: null

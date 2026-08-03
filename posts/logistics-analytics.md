@@ -40,6 +40,8 @@ sections:
     heading: Why Traditional Analytics Approaches Fall Short
   - id: content-6
     heading: What to Look for in a Logistics Analytics Platform
+  - id: content-7
+    heading: Frequently Asked Questions(FAQs)
   - id: content-8
     heading: 'Conclusion: Turning Logistics Data Into Better Decisions'
 featured:

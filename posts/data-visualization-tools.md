@@ -38,6 +38,8 @@ sections:
     heading: 'Best Data Visualization Tools 2026: Comprehensive Review'
   - id: content-6
     heading: How we tested these tools
+  - id: content-7
+    heading: Frequently Asked Questions (FAQ)
   - id: content-8
     heading: Conclusion
 featured:

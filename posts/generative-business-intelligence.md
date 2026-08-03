@@ -42,8 +42,8 @@ sections:
     heading: How Generative AI Is Transforming Business Intelligence
   - id: content-7
     heading: Traditional BI vs Generative BI Comparison
-  - id: content-8
-    heading: Frequently Asked Questions (FAQs)
+  - id: content-11
+    heading: How does generative AI change data storytelling?
 featured:
   choice: null
   trending: null
@@ -345,6 +345,28 @@ A key responsibility is **ensuring ethical practices**, which includes avoiding 
 Another critical responsibility is **maintaining transparency in AI outputs**. Users should be aware when content is AI-generated and understand its limitations. In addition, developers are responsible for protecting user data, following compliance standards, and keeping human oversight in place for important decisions.
 
 <!-- section:content-8 -->
+
+<!-- section:content-11 -->
+
+## How does generative AI change data storytelling?
+
+It automates the narration and leaves the judgement, which is a bigger change than it sounds.
+
+Data storytelling is the work of turning a chart into something a decision-maker acts on: what moved, whether it matters, what to do. Historically an analyst did this by hand, and it was the slowest part of the reporting cycle — not the query, the write-up.
+
+Generative models are genuinely good at three parts of it:
+
+**Describing what changed.** Summarising movement across a set of metrics in fluent prose, with the comparisons stated, is a task models do reliably and fast.
+
+**Adapting the register.** The same result written for an operations lead and for a board deck are different documents. Regenerating for audience is close to free.
+
+**Suggesting the visual.** Proposing that a distribution wants a histogram rather than a bar chart is pattern-matching against a well-documented convention.
+
+What it does not do is decide whether the story is true or whether it matters. A model asked to explain a movement will produce an explanation, because that is the shape of the response — and a fluent causal claim with no evidence behind it is more dangerous than a chart with no caption, precisely because it reads as authoritative. The failure is invisible: nothing about a fabricated narrative looks different from a sound one.
+
+So the practical division is that generation handles the draft and a human owns the claim. The controls that make this workable are the ability to see which query produced a number and which definition resolved the metric — without those, you have a system producing confident prose that nobody can check, which is the opposite of what analytics is for.
+
+Used this way, the gain is real: the write-up stops being the bottleneck, and the analyst's time moves to deciding what is worth saying.
 
 ## Frequently Asked Questions (FAQs)
 

@@ -34,6 +34,8 @@ sections:
     heading: What’s Actually Different in Practice
   - id: content-5
     heading: When to Use Power BI vs Tableau
+  - id: content-6
+    heading: Frequently Asked Questions FAQs
   - id: content-7
     heading: 'Final Verdict: Power BI vs Tableau'
 featured:

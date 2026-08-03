@@ -39,6 +39,10 @@ sections:
     heading: Quick Comparison Table
   - id: content-6
     heading: 'FAQ: Common Questions About ThoughtSpot and Alternatives'
+  - id: content-7
+    heading: How to Choose the Right ThoughtSpot Alternative
+  - id: content-8
+    heading: Final Thoughts
 featured:
   choice: null
   trending: null
