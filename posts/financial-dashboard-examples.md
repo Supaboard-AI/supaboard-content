@@ -420,6 +420,6 @@ Try [Supaboard](https://auth.supaboard.ai/onboard/register) and get real-time fi
 
 ## Conclusion
 
-Modern finance leaders no longer rely on static reports. They rely on **financial dashboards** and **fin dash systems** that provide real-time visibility, accountability, and strategic insight. A well-designed [**financial dashboard**](/blog/financial-dashboard-examples) is not just a reporting tool. It is a management system that supports forecasting, risk management, and capital planning.
+Modern finance leaders no longer rely on static reports. They rely on **financial dashboards** and **fin dash systems** that provide real-time visibility, accountability, and strategic insight. A well-designed **financial dashboard** is not just a reporting tool. It is a management system that supports forecasting, risk management, and capital planning.
 
 Organizations that invest in accurate data, thoughtful design, and disciplined governance turn financial dashboards into long-term competitive advantages and strengthen their financial decision-making capabilities.

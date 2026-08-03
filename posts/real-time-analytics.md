@@ -100,7 +100,7 @@ A real-time analytics platform helps businesses collect, process, and analyze da
 
 For companies in SaaS, ecommerce, finance, healthcare, logistics, and manufacturing, that speed can make a real difference. It can mean catching fraud before it spreads, fixing operational issues before they impact customers, or identifying trends while there is still time to act on them.
 
-In this guide, you will learn what a [real-time analytics](/blog/real-time-analytics) platform is, how it works, how it compares with traditional analytics, what benefits it offers, and which platforms businesses should consider.
+In this guide, you will learn what a real-time analytics platform is, how it works, how it compares with traditional analytics, what benefits it offers, and which platforms businesses should consider.
 
 <!-- section:content-2 -->
 

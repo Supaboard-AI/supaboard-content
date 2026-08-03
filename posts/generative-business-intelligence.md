@@ -123,7 +123,7 @@ The main problem is not data availability. The problem is **speed and understand
 
 ## What Is Generative AI and Why It Matters in Analytics
 
-[Generative AI](/blog/generative-business-intelligence) is a form of artificial intelligence that can create original content such as text, summaries, explanations, and visual outputs based on learned patterns from data.
+Generative AI is a form of artificial intelligence that can create original content such as text, summaries, explanations, and visual outputs based on learned patterns from data.
 
 Instead of following fixed instructions, it understands context and intent.
 

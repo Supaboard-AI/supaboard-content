@@ -110,7 +110,7 @@ Most business intelligence systems are built around predefined dashboards and re
 
 In reality, teams often face unexpected situations. A sudden drop in conversions. A spike in support tickets. A campaign that performed well in one region but poorly in another. These moments demand immediate answers.
 
-This is where [**ad hoc analysis**](/blog/what-is-an-ad-hoc-query) becomes critical.
+This is where **ad hoc analysis** becomes critical.
 
 Instead of waiting for a new report to be created, users can directly explore data and shape it around the question they are trying to answer. Ad hoc queries allow teams to move faster, think deeper, and make informed decisions without being limited by fixed dashboards.
 

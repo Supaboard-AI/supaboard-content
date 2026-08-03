@@ -101,7 +101,7 @@ internalLinks:
 
 ## Introduction
 
-[Data engineering](/blog/data-engineering) is changing fast. With AI copilots, serverless systems, and automated data platforms becoming common, it’s easy to think many core skills are losing relevance.
+Data engineering is changing fast. With AI copilots, serverless systems, and automated data platforms becoming common, it’s easy to think many core skills are losing relevance.
 
 But that’s not what’s actually happening.
 

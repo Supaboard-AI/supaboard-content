@@ -421,7 +421,7 @@ Superset may not be the right fit if you:
 In these scenarios, omni analytics platforms typically deliver **faster time-to-value** and **lower operational overhead**.
 
 Explore more perspectives on embedded analytics on the  
-[Supaboard blog](/blog/apache-superset-alternatives).
+Supaboard blog.
 
 <!-- section:content-8 -->
 

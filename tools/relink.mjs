@@ -19,6 +19,7 @@ const live = new Set(readdirSync(POSTS).filter((f) => f.endsWith(".md")).map((f)
 
 let rewritten = 0;
 const dead = [];
+const selfLinks = [];
 
 for (const file of readdirSync(POSTS).filter((f) => f.endsWith(".md")).sort()) {
   const slug = basename(file, ".md");
@@ -37,7 +38,17 @@ for (const file of readdirSync(POSTS).filter((f) => f.endsWith(".md")).sort()) {
       const candidates = [raw, unescaped, unescaped.replace(/[()]/g, "")];
 
       for (const c of candidates) {
-        if (live.has(c)) return c === raw ? whole : `[${anchor}](/blog/${c}${hash})`;
+        if (!live.has(c)) continue;
+        // Following a merge, a link to an absorbed member can resolve to the
+        // very post containing it. A page linking to itself is dead weight at
+        // best and nonsense at worst ("not replacing it." pointing at the
+        // article you are reading), so unwrap it to plain prose. An in-page
+        // anchor is kept — that is a real jump.
+        if (c === slug && !hash) {
+          selfLinks.push({ from: slug, anchor });
+          return anchor;
+        }
+        return c === raw ? whole : `[${anchor}](/blog/${c}${hash})`;
       }
       for (const c of candidates) {
         const dest = map.get(`/blog/${c}`);
@@ -61,6 +72,11 @@ for (const file of readdirSync(POSTS).filter((f) => f.endsWith(".md")).sort()) {
 }
 
 console.log(apply ? `rewrote ${rewritten} body links` : `${rewritten} body links would be rewritten (dry run)`);
+if (selfLinks.length) {
+  console.log(`
+${selfLinks.length} self-link(s) unwrapped to plain text:`);
+  for (const s of selfLinks) console.log(`  [${s.from}] "${s.anchor}"`);
+}
 if (dead.length) {
   console.log(`\n${dead.length} link(s) that cannot be rewritten — they point at deleted content:`);
   for (const d of dead) console.log(`  [${d.from}] -> /blog/${d.to} (${d.why})`);
