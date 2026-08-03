@@ -1,0 +1,90 @@
+{
+  "sitemap": {
+    "url": "https://supaboard.ai/sitemap.xml",
+    "totalUrls": 174,
+    "blogUrls": 145,
+    "nonBlogUrls": 29,
+    "hasLastmod": false,
+    "nonBlogUrlList": [
+      "https://supaboard.ai/",
+      "https://supaboard.ai/blog",
+      "https://supaboard.ai/comparison",
+      "https://supaboard.ai/pricing",
+      "https://supaboard.ai/privacy-policy",
+      "https://supaboard.ai/terms-and-conditions",
+      "https://supaboard.ai/integrations",
+      "https://supaboard.ai/case-study",
+      "https://supaboard.ai/case-study/objection.ai",
+      "https://supaboard.ai/case-study/legend-ehr",
+      "https://supaboard.ai/case-study/jindal-healthcare",
+      "https://supaboard.ai/case-study/gabriella.pl",
+      "https://supaboard.ai/comparison/supaboard-vs-thoughtspot",
+      "https://supaboard.ai/comparison/supaboard-vs-basedash",
+      "https://supaboard.ai/comparison/supaboard-vs-qlik-business-intelligence",
+      "https://supaboard.ai/comparison/supaboard-vs-domo",
+      "https://supaboard.ai/comparison/supaboard-vs-apache-superset",
+      "https://supaboard.ai/comparison/supaboard-vs-metabase",
+      "https://supaboard.ai/comparison/supaboard-vs-power-bi",
+      "https://supaboard.ai/comparison/supaboard-vs-tableau",
+      "https://supaboard.ai/comparison/sustaining-success-advanced-ai-data-management-tips",
+      "https://supaboard.ai/comparison/turning-insights-into-impact-actionable-recommendations",
+      "https://supaboard.ai/comparison/ai-powered-business-dashboards-transforming-data-into-visual-stories",
+      "https://supaboard.ai/comparison/conversational-ai-for-business-simplifying-data-insights-with-natural-language-queries",
+      "https://supaboard.ai/comparison/escape-the-data-trap-how-ai-data-automation-unifies-your-business",
+      "https://supaboard.ai/comparison/why-waiting-for-data-is-costing-your-business-money",
+      "https://supaboard.ai/comparison/decision-making-dashboards-why-managers-need-a-data-cockpit",
+      "https://supaboard.ai/comparison/from-spreadsheet-hell-to-dashboard-heaven-boost-business-accuracy-and-speed",
+      "https://supaboard.ai/comparison/the-death-of-the-data-request-ticket-how-self-service-bi-empowers-faster-decisions"
+    ],
+    "parenthesisedUrls": [
+      "https://supaboard.ai/blog/ai-data-analyst-how-it-works-and-best-tools-(2026)",
+      "https://supaboard.ai/blog/supaboard-vs-tableau-power-bi-metabase-(2025)-best-bi-tool-for-fast-business-insights"
+    ],
+    "listsOldHome2": false,
+    "lists404": false,
+    "listsSeriesRoutes": false
+  },
+  "repo": {
+    "postCount": 145
+  },
+  "list1_liveNotInRepo": [],
+  "list2_repoNotLive": [],
+  "list3_slugMismatches": [],
+  "namedRoutes": [
+    {
+      "url": "https://supaboard.ai/case-studies",
+      "status": 404,
+      "location": null
+    },
+    {
+      "url": "https://supaboard.ai/case-study",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://supaboard.ai/comparison",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://supaboard.ai/comparison/:qOhqaUNS9",
+      "status": 404,
+      "location": null
+    },
+    {
+      "url": "https://supaboard.ai/old-home-2",
+      "status": 404,
+      "location": null
+    },
+    {
+      "url": "https://supaboard.ai/series/supaboard-vs-metabase",
+      "status": 308,
+      "location": "/comparison/supaboard-vs-metabase"
+    },
+    {
+      "url": "https://supaboard.ai/blog/page/2",
+      "status": 404,
+      "location": null
+    }
+  ]
+}
