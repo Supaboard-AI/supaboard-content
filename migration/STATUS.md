@@ -35,44 +35,49 @@ routes, rather than written into an app.
 
 Measured, not estimated — `migration/spec-compliance.json` has the per-post table.
 
-**The editorial spec is not met corpus-wide.** Three thresholds are far off, and
-closing them is content work, not configuration:
+**The corpus now fails on exactly one field: `statsCount`.** 45 of 47 posts
+carry fewer than four sourced statistics; the average is 0.5 per post. Every
+other schema rule passes — title, description, slug, category, pillar, cluster,
+targetQuery, intent, audience, funnel, author, dates, tldr, faq, internalLinks,
+citations, caseStudies.
+
+Closing it means finding roughly 180 real, verifiable statistics and citing them
+inline. That is research, not configuration. `statsCount` is measured from each
+body rather than declared, precisely so this gap cannot be closed by editing a
+number — which is the failure mode the whole exercise exists to prevent.
+
+**Two further editorial thresholds are unmet corpus-wide:**
 
 | Threshold | Posts failing |
 |---|---|
 | 4+ sourced statistics | **45 / 47** |
 | 1+ named attributed quotation | **47 / 47** |
-| ~12 sections | 37 / 47 |
-| 6–10 FAQ answers of 40–80 words | 29 / 47 |
 | Readability grade 9–10 | 44 / 47 (median 13.8) |
-| 3+ external citations | 0 / 47 — met |
-| 3+ internal links | 0 / 47 — met |
+| ~12 sections | 37 / 47 |
+| 6–10 FAQ answers at 40–80 words | **0 / 47 — met** |
+| 3+ external citations | **0 / 47 — met** |
+| 3+ internal links | **0 / 47 — met** |
 
-`statsCount` is measured from each body rather than declared, so these numbers
-are what the posts can actually support. Raising them means finding ~180 real,
-sourceable statistics and real named quotations — not editing a config. The
-corpus is dense expert prose (grade 13.8 against a 9–10 target), which is a
-rewrite of every post, not a pass.
+Named quotations need real people saying real things; the case studies supply
+quotable material but attributing it to a named individual requires knowing who
+said it, and inventing an attribution would be the same failure as inventing a
+statistic. Readability at grade 13.8 against a 9–10 target is a rewrite of every
+post, not a pass.
 
-**Schema state: 195 issues, all in two fields.** `faq` (150 — 29 posts have
-fewer than six questions, and 121 answers sit outside the 40–80 word band) and
-`statsCount` (45). Everything else validates.
-
-**Phase 5b/5c/5d.** No top-15 retrofit pass. Case studies are cited from 20
-posts via `caseStudies` frontmatter and woven into the prose of seven, but there
-was no systematic sweep. No mid-article CTAs. The "Rigged Demo Checklist"
-promised by `how-to-evaluate-ai-bi-tools` still does not exist and the promise
-is still in the text.
+**Phase 5b/5c/5d.** No top-15 retrofit pass. Case studies are cited from all 20
+commercial-intent posts via `caseStudies` and woven into the prose of nine, but
+there was no systematic sweep. No mid-article CTAs. The "Rigged Demo Checklist"
+promised by `how-to-evaluate-ai-bi-tools` still does not exist and the promise is
+still in the text.
 
 **App-repo work**, deferred by decision and emitted as portable artifacts here:
-category hubs, `/blog/page/N` pagination, pillar pages, the 14 `/compare/`
-routes the redirects point at, Article/FAQPage/BreadcrumbList/Organization
-schema, RSS, canonical tags, and the `nosnippet`/`max-snippet` audit.
+category hubs, `/blog/page/N` pagination, pillar pages, the 14 `/compare/` routes
+the redirects point at, Article/FAQPage/BreadcrumbList/Organization schema, RSS,
+canonical tags, and the `nosnippet`/`max-snippet` audit.
 
-**43 numeric claims** remain typed but unadjudicated in `stats-audit.csv`,
-including 18 competitor prices that need verifying against vendor pages with an
-as-of date. CI fails on every unsourced one, so none can ship silently.
-
+**66 unsourced numeric claims** remain in bodies, typed in `stats-audit.csv`,
+including 18 competitor prices needing verification against vendor pages with an
+as-of date. CI fails on each, so none can ship silently.
 
 ## The unadjudicated statistics
 
