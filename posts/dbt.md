@@ -1,52 +1,61 @@
 ---
-slug: dbt-guide
+slug: dbt
 status: published
-title: "DBT Explained: What It Is, How It Works, and Why Teams Use It"
-description: "Understand DBT, what it means, how it works, and why modern data teams use it to build reliable, tested, and scalable analytics pipelines."
-category: Tech
+title: 'DBT Explained: What It Is, How It Works, and Why Teams Use It'
+description: >-
+  Understand DBT, what it means, how it works, and why modern data teams use it
+  to build reliable, tested, and scalable analytics pipelines.
+category: engineering
 tags:
   - Tech
-publishedAt: "2026-01-31"
-updatedAt: "2026-01-31"
+publishedAt: '2026-01-31'
+updatedAt: '2026-01-31'
 readMinutes: 7
-readLabel: "7 Min Read"
+readLabel: 7 Min Read
 author:
-  name: "Sriyanshu Mishra"
-  role: "Data Analyst"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
+  name: Sriyanshu Mishra
+  title: Data Analyst
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/dbt-guide/c17bdacc5a9e9c50.png
-  alt: "dbt data transformation workflow with models, testing, and documentation"
+  url: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/dbt-guide/c17bdacc5a9e9c50.png
+  alt: 'dbt data transformation workflow with models, testing, and documentation'
   width: 1536
   height: 1024
-ogImage: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+ogImage: >-
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
   - id: content-1
     heading: Introduction
   - id: content-2
-    heading: "What Is DBT?"
+    heading: What Is DBT?
   - id: content-3
-    heading: "How Is DBT Different Than Other Tools?"
+    heading: How Is DBT Different Than Other Tools?
   - id: content-4
-    heading: "What Can DBT Do for My Data Pipeline?"
+    heading: What Can DBT Do for My Data Pipeline?
   - id: content-5
-    heading: "DBT Documentation: Helpful, But Not the Whole Story"
+    heading: 'DBT Documentation: Helpful, But Not the Whole Story'
   - id: content-6
-    heading: "Real-World DBT Usage: What It Looks Like in Practice"
+    heading: 'Real-World DBT Usage: What It Looks Like in Practice'
   - id: content-7
-    heading: "What DBT Does Not Solve (And Why That’s Okay)"
+    heading: What DBT Does Not Solve (And Why That’s Okay)
   - id: content-8
-    heading: "When DBT Feels Like Too Much: Why Some Teams Turn to AI BI Tools"
+    heading: 'When DBT Feels Like Too Much: Why Some Teams Turn to AI BI Tools'
 featured:
   choice: null
   trending: null
 related:
-  - what-is-a-semantic-layer-the-2026-field-guide
+  - what-is-a-semantic-layer
   - positive-vs-negative-correlation
 faq: []
 source:
-  url: https://supaboard.ai/blog/dbt-guide
-  migratedAt: "2026-07-29"
+  url: 'https://supaboard.ai/blog/dbt-guide'
+  migratedAt: '2026-07-29'
+legacyCategory: Tech
+internalLinks:
+  - positive-vs-negative-correlation
+  - what-is-a-semantic-layer
 ---
 
 <!-- section:content-1 -->

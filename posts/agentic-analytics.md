@@ -1,44 +1,58 @@
 ---
-slug: agentic-analytics-vs-traditional-bi-tools
+slug: agentic-analytics
 status: published
-title: "Agentic Analytics vs Traditional BI: Rethinking Decision Intelligence"
-description: "Agentic analytics vs. traditional BI tools: one helps you understand past performance, the other helps you decide what should happen next. Here’s how the gap between insight and action is closing."
-category: Tech
+title: 'Agentic Analytics vs Traditional BI: Rethinking Decision Intelligence'
+description: >-
+  Agentic analytics vs. traditional BI tools: one helps you understand past
+  performance, the other helps you decide what should happen next. Here’s how
+  the gap between insight and action is closing.
+category: engineering
 tags:
-  - "Business Intelligence"
-publishedAt: "2026-04-20"
-updatedAt: "2026-04-20"
+  - Business Intelligence
+publishedAt: '2026-04-20'
+updatedAt: '2026-04-20'
 readMinutes: 6
-readLabel: "6 Min Read"
+readLabel: 6 Min Read
 author:
-  name: "Deepak Singh"
-  role: "SEO & Content Writer"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
+  name: Deepak Singh
+  title: SEO & Content Writer
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/agentic-analytics-vs-traditional-bi-tools/0b97b250fbaa407a.png
-  alt: "Traditional BI vs agentic analytics workflows with delayed steps compared to faster AI-driven decision flow"
+  url: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/agentic-analytics-vs-traditional-bi-tools/0b97b250fbaa407a.png
+  alt: >-
+    Traditional BI vs agentic analytics workflows with delayed steps compared to
+    faster AI-driven decision flow
   width: 1536
   height: 1024
-ogImage: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+ogImage: >-
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
   - id: content-2
-    heading: "What Traditional BI Solves (and Where It Slows You Down)"
+    heading: What Traditional BI Solves (and Where It Slows You Down)
   - id: content-3
-    heading: "What Teams Are Actually Saying About BI Tools"
+    heading: What Teams Are Actually Saying About BI Tools
   - id: content-4
-    heading: "Why Most Teams Are Moving Toward a Hybrid Approach"
+    heading: Why Most Teams Are Moving Toward a Hybrid Approach
   - id: content-5
-    heading: "Final Thoughts"
+    heading: Final Thoughts
 featured:
   choice: null
   trending: null
 related:
-  - is-ai-bi-just-text-to-sql-the-honest-difference-with-examples
+  - is-ai-bi-just-text-to-sql
   - data-visualization-tools
 faq: []
 source:
-  url: https://supaboard.ai/blog/agentic-analytics-vs-traditional-bi-tools
-  migratedAt: "2026-07-29"
+  url: 'https://supaboard.ai/blog/agentic-analytics-vs-traditional-bi-tools'
+  migratedAt: '2026-07-29'
+legacyCategory: Tech
+absorbed:
+  - 'https://supaboard.ai/blog/ai-native-business-intelligence-tools'
+internalLinks:
+  - data-visualization-tools
+  - is-ai-bi-just-text-to-sql
 ---
 
 <!-- section:content-1 -->

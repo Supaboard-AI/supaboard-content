@@ -1,48 +1,58 @@
 ---
-slug: from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics
+slug: from-4-hours-to-2-minutes-rcm-analytics
 status: published
-title: "From 4 Hours to 2 Minutes: How an RCM Company Rebuilt Its Analytics"
-description: "A revenue cycle management company cut per-client analysis from four hours to two minutes and 90% of analytics cost using Supaboard's AI-native BI."
-category: Business
+title: 'From 4 Hours to 2 Minutes: How an RCM Company Rebuilt Its Analytics'
+description: >-
+  A revenue cycle management company cut per-client analysis from four hours to
+  two minutes and 90% of analytics cost using Supaboard's AI-native BI.
+category: data
 tags:
   - Analytics
-publishedAt: "2026-06-25"
-updatedAt: "2026-06-25"
+publishedAt: '2026-06-25'
+updatedAt: '2026-06-25'
 readMinutes: 4
-readLabel: "4 min"
+readLabel: 4 min
 author:
-  name: "Subhrajyoti Modak"
-  role: "Co-Founder and CTO"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
+  name: Subhrajyoti Modak
+  title: Co-Founder and CTO
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics/0713eff0c6c6bdc4.png
-  alt: "From 4 Hours to 2 Minutes: How an RCM Company Rebuilt Its Analytics"
+  url: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics/0713eff0c6c6bdc4.png
+  alt: 'From 4 Hours to 2 Minutes: How an RCM Company Rebuilt Its Analytics'
   width: 1744
   height: 608
-ogImage: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+ogImage: >-
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
   - id: content-2
-    heading: "At a glance"
+    heading: At a glance
   - id: content-3
-    heading: "When answering a question costs as much as the work"
+    heading: When answering a question costs as much as the work
   - id: content-4
-    heading: "One source of truth, trained on the actual domain"
+    heading: 'One source of truth, trained on the actual domain'
   - id: content-5
-    heading: "The part nobody expected"
+    heading: The part nobody expected
   - id: content-6
-    heading: "The number, and what it freed up"
+    heading: 'The number, and what it freed up'
   - id: content-7
-    heading: "What this means if you run analytics for more than one client"
+    heading: What this means if you run analytics for more than one client
 featured:
   choice: null
   trending: 2
 related:
-  - "ai-data-analyst-how-it-works-and-best-tools-(2026)"
+  - ai-data-analyst
   - spend-analytics
 faq: []
 source:
-  url: https://supaboard.ai/blog/from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics
-  migratedAt: "2026-07-29"
+  url: >-
+    https://supaboard.ai/blog/from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics
+  migratedAt: '2026-07-29'
+legacyCategory: Business
+internalLinks:
+  - ai-data-analyst
+  - spend-analytics
 ---
 
 <!-- section:content-1 -->
@@ -81,7 +91,7 @@ That is the sentence that makes a company go looking for something new. Not a so
 
 The fix was not a faster way to write the same SQL. It was removing the SQL from the critical path entirely, and doing it without letting protected health information anywhere near the analytics layer.
 
-The pipeline was built with a hard boundary. Jindal collated the raw data from across its sources, the clearinghouse claim and remittance feeds (the 837s going out and the 835 ERAs coming back), the practice management and EHR systems each client billed from, and the payer remittance and denial data, and masked every piece of PHI into a single database before any of it moved. Supaboard never connected to an EHR and never saw a patient. Using one of its [600+ connectors](https://claude.ai/integrations), it pulled from that masked database, cleaned the data, and moved it into a data warehouse that became the one source of truth the agent ran on. The compliance line and the analytics line were the same line, and PHI stayed behind it.
+The pipeline was built with a hard boundary. Jindal collated the raw data from across its sources, the clearinghouse claim and remittance feeds (the 837s going out and the 835 ERAs coming back), the practice management and EHR systems each client billed from, and the payer remittance and denial data, and masked every piece of PHI into a single database before any of it moved. Supaboard never connected to an EHR and never saw a patient. Using one of its [700+ connectors](https://supaboard.ai/integrations), it pulled from that masked database, cleaned the data, and moved it into a data warehouse that became the one source of truth the agent ran on. The compliance line and the analytics line were the same line, and PHI stayed behind it.
 
 Moving the data was the easy half. The harder half was teaching the tool what the data meant. RCM is full of numbers that look identical and mean opposite things. Aging is the classic trap: a claim sitting at sixty days can be a process failure your team needs to fix, or it can be nothing at all, just the unremarkable rhythm of a payer who always pays on that cadence. A naive dashboard flags both as red. An analyst who knows the account knows the difference. Jindal trained Supaboard's trainable agent on exactly that kind of judgment: claim lifecycles, denial categories, and the behavior of specific payers, including when aging signals a problem and when it is just how a payer pays.
 

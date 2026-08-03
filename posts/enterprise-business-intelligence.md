@@ -1,50 +1,65 @@
 ---
 slug: enterprise-business-intelligence
 status: published
-title: "What Is Enterprise Business Intelligence? Benefits, Use Cases & Tools (2026)"
-description: "A simple guide to enterprise business intelligence covering use cases, benefits, tools, and how AI is changing BI in 2026."
-category: "BI Tools"
+title: 'What Is Enterprise Business Intelligence? Benefits, Use Cases & Tools (2026)'
+description: >-
+  A simple guide to enterprise business intelligence covering use cases,
+  benefits, tools, and how AI is changing BI in 2026.
+category: product
 tags:
-  - "Business Intelligence"
-publishedAt: "2026-03-12"
-updatedAt: "2026-03-12"
+  - Business Intelligence
+publishedAt: '2026-03-12'
+updatedAt: '2026-03-12'
 readMinutes: 6
-readLabel: "6 Min Read"
+readLabel: 6 Min Read
 author:
-  name: "Deepak Singh"
-  role: "SEO & Content Writer"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
+  name: Deepak Singh
+  title: SEO & Content Writer
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/enterprise-business-intelligence/ebfede82cfd631f0.png
-  alt: "What Is Enterprise Business Intelligence? Benefits, Use Cases & Tools (2026)"
+  url: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/enterprise-business-intelligence/ebfede82cfd631f0.png
+  alt: 'What Is Enterprise Business Intelligence? Benefits, Use Cases & Tools (2026)'
   width: 1536
   height: 1024
-ogImage: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+ogImage: >-
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
   - id: content-1
     heading: Introduction
   - id: content-2
-    heading: "What Is Enterprise Business Intelligence?"
+    heading: What Is Enterprise Business Intelligence?
   - id: content-3
-    heading: "How AI Is Changing Enterprise BI (Business Intelligence) in 2026"
+    heading: How AI Is Changing Enterprise BI (Business Intelligence) in 2026
   - id: content-4
-    heading: "Key Benefits of AI-Powered Enterprise BI"
+    heading: Key Benefits of AI-Powered Enterprise BI
   - id: content-5
-    heading: "Common Mistakes Teams Make"
+    heading: Common Mistakes Teams Make
   - id: content-7
     heading: Conclusion
 featured:
   choice: null
   trending: null
 related:
-  - is-ai-bi-just-text-to-sql-the-honest-difference-with-examples
+  - is-ai-bi-just-text-to-sql
   - data-visualization-tools
 faq:
-  - question: "1\\. What is the main difference between data integration and application integration?"
-    answer: "Application integration connects systems so they work together in real time. Meanwhile, data integration combines information into one dataset for reporting and analysis. One supports workflows, while the other supports decision-making."
+  - q: >-
+      1\. What is the main difference between data integration and application
+      integration?
+    a: >-
+      Application integration connects systems so they work together in real
+      time. Meanwhile, data integration combines information into one dataset
+      for reporting and analysis. One supports workflows, while the other
+      supports decision-making.
 source:
-  url: https://supaboard.ai/blog/enterprise-business-intelligence
-  migratedAt: "2026-07-29"
+  url: 'https://supaboard.ai/blog/enterprise-business-intelligence'
+  migratedAt: '2026-07-29'
+legacyCategory: BI Tools
+internalLinks:
+  - data-visualization-tools
+  - is-ai-bi-just-text-to-sql
 ---
 
 <!-- section:content-1 -->

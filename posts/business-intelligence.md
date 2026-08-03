@@ -1,60 +1,81 @@
 ---
 slug: business-intelligence
 status: published
-title: "What Is Business Intelligence? Complete Guide for Businesses"
-description: "Learn what business intelligence is, how it works, key benefits, real-world examples, and why it matters for modern businesses."
-category: "BI Tools"
+title: What Is Business Intelligence? Complete Guide for Businesses
+description: >-
+  Learn what business intelligence is, how it works, key benefits, real-world
+  examples, and why it matters for modern businesses.
+category: product
 tags:
-  - "Business Intelligence"
-publishedAt: "2026-02-20"
-updatedAt: "2026-02-20"
+  - Business Intelligence
+publishedAt: '2026-02-20'
+updatedAt: '2026-02-20'
 readMinutes: 8
-readLabel: "8 Min Read"
+readLabel: 8 Min Read
 author:
-  name: "Deepak Singh"
-  role: "SEO & Content Writer"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
+  name: Deepak Singh
+  title: SEO & Content Writer
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/business-intelligence/ac0834b6abb5434d.png
-  alt: "AI powered business intelligence tools dashboard showing data analytics, charts, and performance insights"
+  url: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/business-intelligence/ac0834b6abb5434d.png
+  alt: >-
+    AI powered business intelligence tools dashboard showing data analytics,
+    charts, and performance insights
   width: 1536
   height: 1024
-ogImage: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+ogImage: >-
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
   - id: content-2
-    heading: "What Is Business Intelligence"
+    heading: What Is Business Intelligence
   - id: content-3
-    heading: "What Are Business Intelligence Tools"
+    heading: What Are Business Intelligence Tools
   - id: content-4
-    heading: "Why Business Intelligence Is Essential for Competitive Advantage"
+    heading: Why Business Intelligence Is Essential for Competitive Advantage
   - id: content-5
-    heading: "Traditional BI vs AI-Powered BI"
+    heading: Traditional BI vs AI-Powered BI
   - id: content-6
-    heading: "How to Choose the Right Business Intelligence Platform"
+    heading: How to Choose the Right Business Intelligence Platform
   - id: content-7
-    heading: "Frequently Asked Questions"
+    heading: Frequently Asked Questions
   - id: content-8
     heading: Conclusion
 featured:
   choice: null
   trending: null
 related:
-  - is-ai-bi-just-text-to-sql-the-honest-difference-with-examples
+  - is-ai-bi-just-text-to-sql
   - data-visualization-tools
 faq:
-  - question: "What is business intelligence in simple terms?"
-    answer: "Business intelligence is the use of data and analytics tools to understand business performance and support better decisions."
-  - question: "What are business intelligence tools used for?"
-    answer: "They are used for reporting, forecasting, customer analysis, operational monitoring, and strategic planning."
-  - question: "Is business intelligence only for large companies?"
-    answer: "No. Cloud-based BI platforms make analytics accessible to small and medium businesses."
-  - question: "Why is AI important in business intelligence?"
-    answer: "AI enables predictive analytics, automation, and intelligent recommendations that improve speed and accuracy."
-  - question: "How long does BI implementation take?"
-    answer: "Depending on complexity, implementation may take from several weeks to several months."
+  - q: What is business intelligence in simple terms?
+    a: >-
+      Business intelligence is the use of data and analytics tools to understand
+      business performance and support better decisions.
+  - q: What are business intelligence tools used for?
+    a: >-
+      They are used for reporting, forecasting, customer analysis, operational
+      monitoring, and strategic planning.
+  - q: Is business intelligence only for large companies?
+    a: >-
+      No. Cloud-based BI platforms make analytics accessible to small and medium
+      businesses.
+  - q: Why is AI important in business intelligence?
+    a: >-
+      AI enables predictive analytics, automation, and intelligent
+      recommendations that improve speed and accuracy.
+  - q: How long does BI implementation take?
+    a: >-
+      Depending on complexity, implementation may take from several weeks to
+      several months.
 source:
-  url: https://supaboard.ai/blog/business-intelligence
-  migratedAt: "2026-07-29"
+  url: 'https://supaboard.ai/blog/business-intelligence'
+  migratedAt: '2026-07-29'
+legacyCategory: BI Tools
+internalLinks:
+  - data-visualization-tools
+  - is-ai-bi-just-text-to-sql
 ---
 
 <!-- section:content-1 -->

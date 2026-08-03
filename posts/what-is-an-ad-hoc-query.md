@@ -1,64 +1,105 @@
 ---
 slug: what-is-an-ad-hoc-query
 status: published
-title: "What Is an Ad Hoc Query? Definition, Examples & Use"
-description: "Learn what an ad hoc query is, how it works, real examples, and why businesses use ad hoc analysis to make faster, smarter decisions."
-category: General
+title: 'What Is an Ad Hoc Query? Definition, Examples & Use'
+description: >-
+  Learn what an ad hoc query is, how it works, real examples, and why businesses
+  use ad hoc analysis to make faster, smarter decisions.
+category: data
 tags:
   - Saas
-publishedAt: "2026-01-09"
-updatedAt: "2026-01-09"
+publishedAt: '2026-01-09'
+updatedAt: '2026-01-09'
 readMinutes: 5
-readLabel: "5 Min Read"
+readLabel: 5 Min Read
 author:
-  name: "Deepak Singh"
-  role: "SEO & Content Writer"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
+  name: Deepak Singh
+  title: SEO & Content Writer
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-an-ad-hoc-query/11e12f0a2028b5d7.png
-  alt: "Ad hoc query explained with modern BI dashboard"
+  url: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-an-ad-hoc-query/11e12f0a2028b5d7.png
+  alt: Ad hoc query explained with modern BI dashboard
   width: 1536
   height: 1024
-ogImage: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+ogImage: >-
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
   - id: content-1
     heading: Introduction
   - id: content-2
-    heading: "What Is an Ad Hoc Query? A Better Way to Explore and Understand Your Data"
+    heading: What Is an Ad Hoc Query? A Better Way to Explore and Understand Your Data
   - id: content-3
-    heading: "Meaning of Ad Hoc in Business and Data"
+    heading: Meaning of Ad Hoc in Business and Data
   - id: content-4
-    heading: "How Ad Hoc Queries Work"
+    heading: How Ad Hoc Queries Work
   - id: content-5
-    heading: "Ad Hoc Query vs Reports and Analysis"
+    heading: Ad Hoc Query vs Reports and Analysis
   - id: content-6
-    heading: "Benefits and Limitations of Ad Hoc Queries"
+    heading: Benefits and Limitations of Ad Hoc Queries
   - id: content-7
-    heading: "FAQs About Ad Hoc Queries"
+    heading: FAQs About Ad Hoc Queries
   - id: content-8
     heading: Conclusion
 featured:
   choice: null
   trending: null
 related:
-  - sisense-alternatives-7-bi-tools-compared-in-2026
-  - what-is-a-semantic-data-model
+  - sisense-alternatives
+  - what-is-a-semantic-layer
 faq:
-  - question: "What is an ad hoc query in simple terms?"
-    answer: "An ad hoc query is a custom data question created on the spot to solve a specific problem. Unlike regular reports, it is not pre-built or scheduled. It helps users explore data immediately when something unexpected or unclear needs explanation."
-  - question: "What are ad hoc queries used for?"
-    answer: "Ad hoc queries are used for quick investigation, validation, and exploration. Teams rely on them when they notice unusual trends, sudden drops, or spikes in performance and need fast answers without waiting for new dashboards or reports."
-  - question: "Are ad hoc queries the same as SQL queries?"
-    answer: "No. SQL is just one way to create ad hoc queries. Many modern BI tools let users build them visually using filters, charts, and drag-and-drop interfaces. SQL is optional and mostly used by advanced or technical users."
-  - question: "What is an example of ad hoc analysis?"
-    answer: "A common example of ad hoc analysis is investigating why churn suddenly increased for one customer segment after a pricing update. This type of analysis is temporary, exploratory, and focused on understanding a specific situation."
-  - question: "What are ad hoc queries?"
-    answer: "Ad hoc queries are on-demand data queries created to answer specific, unplanned questions that are not covered by predefined reports or dashboards. They allow users to explore data freely by applying filters, grouping dimensions, and comparing metrics in real time. Ad hoc queries are commonly used in business intelligence to investigate unexpected trends, validate assumptions, and uncover insights quickly without waiting for new reports to be built."
-  - question: "Can non-technical users run ad hoc queries?"
-    answer: "Yes. Most modern BI platforms support self-service ad hoc querying, allowing both technical and non-technical users to explore data using simple interfaces. Users can filter, group, and compare data without writing code or relying on analysts. Know more about top BI tools."
+  - q: What is an ad hoc query in simple terms?
+    a: >-
+      An ad hoc query is a custom data question created on the spot to solve a
+      specific problem. Unlike regular reports, it is not pre-built or
+      scheduled. It helps users explore data immediately when something
+      unexpected or unclear needs explanation.
+  - q: What are ad hoc queries used for?
+    a: >-
+      Ad hoc queries are used for quick investigation, validation, and
+      exploration. Teams rely on them when they notice unusual trends, sudden
+      drops, or spikes in performance and need fast answers without waiting for
+      new dashboards or reports.
+  - q: Are ad hoc queries the same as SQL queries?
+    a: >-
+      No. SQL is just one way to create ad hoc queries. Many modern BI tools let
+      users build them visually using filters, charts, and drag-and-drop
+      interfaces. SQL is optional and mostly used by advanced or technical
+      users.
+  - q: What is an example of ad hoc analysis?
+    a: >-
+      A common example of ad hoc analysis is investigating why churn suddenly
+      increased for one customer segment after a pricing update. This type of
+      analysis is temporary, exploratory, and focused on understanding a
+      specific situation.
+  - q: What are ad hoc queries?
+    a: >-
+      Ad hoc queries are on-demand data queries created to answer specific,
+      unplanned questions that are not covered by predefined reports or
+      dashboards. They allow users to explore data freely by applying filters,
+      grouping dimensions, and comparing metrics in real time. Ad hoc queries
+      are commonly used in business intelligence to investigate unexpected
+      trends, validate assumptions, and uncover insights quickly without waiting
+      for new reports to be built.
+  - q: Can non-technical users run ad hoc queries?
+    a: >-
+      Yes. Most modern BI platforms support self-service ad hoc querying,
+      allowing both technical and non-technical users to explore data using
+      simple interfaces. Users can filter, group, and compare data without
+      writing code or relying on analysts. Know more about top BI tools.
 source:
-  url: https://supaboard.ai/blog/what-is-an-ad-hoc-query
-  migratedAt: "2026-07-29"
+  url: 'https://supaboard.ai/blog/what-is-an-ad-hoc-query'
+  migratedAt: '2026-07-29'
+legacyCategory: General
+absorbed:
+  - 'https://supaboard.ai/blog/ad-hoc-query'
+  - 'https://supaboard.ai/blog/data-querying'
+  - >-
+    https://supaboard.ai/blog/how-to-reduce-ad-hoc-data-requests-to-the-analytics-team-a-practical-guide
+internalLinks:
+  - sisense-alternatives
+  - what-is-a-semantic-layer
 ---
 
 <!-- section:content-1 -->

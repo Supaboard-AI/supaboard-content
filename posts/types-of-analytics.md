@@ -1,52 +1,71 @@
 ---
 slug: types-of-analytics
 status: published
-title: "Types of Analytics Explained: Descriptive, Diagnostic, Predictive & Prescriptive"
-description: "Learn the four types of analytics; descriptive, diagnostic, predictive, and prescriptive, with real examples and practical use cases for smarter decisions."
-category: General
+title: >-
+  Types of Analytics Explained: Descriptive, Diagnostic, Predictive &
+  Prescriptive
+description: >-
+  Learn the four types of analytics; descriptive, diagnostic, predictive, and
+  prescriptive, with real examples and practical use cases for smarter
+  decisions.
+category: data
 tags:
   - Analytics
-publishedAt: "2026-01-11"
-updatedAt: "2026-01-11"
+publishedAt: '2026-01-11'
+updatedAt: '2026-01-11'
 readMinutes: 8
-readLabel: "8 Min Read"
+readLabel: 8 Min Read
 author:
-  name: "Deepak Singh"
-  role: "SEO & Content Writer"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
+  name: Deepak Singh
+  title: SEO & Content Writer
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/types-of-analytics/bc786c4ec303c8d1.png
-  alt: "Sleek dark-themed illustration showing data analytics dashboards, abstract charts, and decision-making visuals representing the types of analytics framework."
+  url: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/types-of-analytics/bc786c4ec303c8d1.png
+  alt: >-
+    Sleek dark-themed illustration showing data analytics dashboards, abstract
+    charts, and decision-making visuals representing the types of analytics
+    framework.
   width: 1536
   height: 1024
-ogImage: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+ogImage: >-
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
   - id: content-1
-    heading: "Introduction: Why Analytics Fails More Often Than It Succeeds"
+    heading: 'Introduction: Why Analytics Fails More Often Than It Succeeds'
   - id: content-2
-    heading: "The Four Types of Analytics: A Practical Framework"
+    heading: 'The Four Types of Analytics: A Practical Framework'
   - id: content-3
-    heading: "Descriptive Analytics: Telling the Story of the Past"
+    heading: 'Descriptive Analytics: Telling the Story of the Past'
   - id: content-4
-    heading: "Diagnostic Analytics: Finding the Root Cause"
+    heading: 'Diagnostic Analytics: Finding the Root Cause'
   - id: content-5
-    heading: "Predictive Analytics: Seeing the Future Before It Happens"
+    heading: 'Predictive Analytics: Seeing the Future Before It Happens'
   - id: content-6
-    heading: "Prescriptive Analytics: Telling You What to Do"
+    heading: 'Prescriptive Analytics: Telling You What to Do'
   - id: content-7
-    heading: "Common Mistakes When Using Analytics"
+    heading: Common Mistakes When Using Analytics
   - id: content-8
     heading: Conclusion
 featured:
   choice: null
   trending: null
 related:
-  - "ai-data-analyst-how-it-works-and-best-tools-(2026)"
-  - from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics
+  - ai-data-analyst
+  - from-4-hours-to-2-minutes-rcm-analytics
 faq: []
 source:
-  url: https://supaboard.ai/blog/types-of-analytics
-  migratedAt: "2026-07-29"
+  url: 'https://supaboard.ai/blog/types-of-analytics'
+  migratedAt: '2026-07-29'
+legacyCategory: General
+absorbed:
+  - 'https://supaboard.ai/blog/descriptive-analytics-guide'
+  - >-
+    https://supaboard.ai/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know
+internalLinks:
+  - ai-data-analyst
+  - from-4-hours-to-2-minutes-rcm-analytics
 ---
 
 <!-- section:content-1 -->

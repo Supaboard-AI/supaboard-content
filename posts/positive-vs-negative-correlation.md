@@ -1,50 +1,60 @@
 ---
 slug: positive-vs-negative-correlation
 status: published
-title: "Positive vs Negative Correlation Explained with Real-Life Examples"
-description: "Learn the difference between positive and negative correlation with simple explanations, real-world examples, graphs, and practical applications in business, finance, health, and daily life."
-category: Tech
+title: Positive vs Negative Correlation Explained with Real-Life Examples
+description: >-
+  Learn the difference between positive and negative correlation with simple
+  explanations, real-world examples, graphs, and practical applications in
+  business, finance, health, and daily life.
+category: engineering
 tags:
   - Tech
-publishedAt: "2026-05-20"
-updatedAt: "2026-05-20"
+publishedAt: '2026-05-20'
+updatedAt: '2026-05-20'
 readMinutes: 5
-readLabel: "5 Min Read"
+readLabel: 5 Min Read
 author:
-  name: "Deepak Singh"
-  role: "SEO & Content Writer"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
+  name: Deepak Singh
+  title: SEO & Content Writer
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/positive-vs-negative-correlation/a4905f0a74118c10.png
-  alt: "Positive vs Negative Correlation Explained with Real-Life Examples"
+  url: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/positive-vs-negative-correlation/a4905f0a74118c10.png
+  alt: Positive vs Negative Correlation Explained with Real-Life Examples
   width: 1672
   height: 941
-ogImage: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+ogImage: >-
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
   - id: content-2
-    heading: "What Is Correlation?"
+    heading: What Is Correlation?
   - id: content-3
-    heading: "Understanding the Correlation Coefficient"
+    heading: Understanding the Correlation Coefficient
   - id: content-4
-    heading: "Positive Correlation: When Variables Move in the Same Direction"
+    heading: 'Positive Correlation: When Variables Move in the Same Direction'
   - id: content-5
-    heading: "Positive vs Negative Correlation: Side-by-Side Comparison"
+    heading: 'Positive vs Negative Correlation: Side-by-Side Comparison'
   - id: content-6
-    heading: "How to Visualize Correlation Effectively"
+    heading: How to Visualize Correlation Effectively
   - id: content-7
-    heading: "How to Calculate Correlation in Practice"
+    heading: How to Calculate Correlation in Practice
   - id: content-8
     heading: Conclusion
 featured:
   choice: null
   trending: null
 related:
-  - what-is-a-semantic-layer-the-2026-field-guide
-  - ai-contextual-governance-framework
+  - what-is-a-semantic-layer
+  - ai-analytics-governance
 faq: []
 source:
-  url: https://supaboard.ai/blog/positive-vs-negative-correlation
-  migratedAt: "2026-07-29"
+  url: 'https://supaboard.ai/blog/positive-vs-negative-correlation'
+  migratedAt: '2026-07-29'
+legacyCategory: Tech
+internalLinks:
+  - ai-analytics-governance
+  - what-is-a-semantic-layer
 ---
 
 <!-- section:content-1 -->

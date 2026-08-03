@@ -1,58 +1,87 @@
 ---
 slug: logistics-analytics
 status: published
-title: "Logistics Analytics: How Businesses Use Data to Improve Supply Chain Decisions"
-description: "Learn how logistics analytics helps businesses optimize routes, reduce costs, predict disruptions, and make better supply chain decisions using data."
-category: General
+title: 'Logistics Analytics: How Businesses Use Data to Improve Supply Chain Decisions'
+description: >-
+  Learn how logistics analytics helps businesses optimize routes, reduce costs,
+  predict disruptions, and make better supply chain decisions using data.
+category: data
 tags:
   - Saas
-publishedAt: "2026-01-05"
-updatedAt: "2026-01-05"
+publishedAt: '2026-01-05'
+updatedAt: '2026-01-05'
 readMinutes: 6
-readLabel: "6 Min Read"
+readLabel: 6 Min Read
 author:
-  name: "Deepak Singh"
-  role: "SEO & Content Writer"
-  avatar: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
+  name: Deepak Singh
+  title: SEO & Content Writer
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
-  url: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/logistics-analytics/1ae5eca4dcc655aa.png
-  alt: "Logistics analytics dashboard illustration showing KPIs, route optimization paths, and real-time shipment tracking across global supply chains."
+  url: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/logistics-analytics/1ae5eca4dcc655aa.png
+  alt: >-
+    Logistics analytics dashboard illustration showing KPIs, route optimization
+    paths, and real-time shipment tracking across global supply chains.
   width: 1536
   height: 1024
-ogImage: https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+ogImage: >-
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
 sections:
   - id: content-1
-    heading: "Introduction: Why Logistics Analytics Has Become a Business Priority"
+    heading: 'Introduction: Why Logistics Analytics Has Become a Business Priority'
   - id: content-2
-    heading: "What Is Logistics Analytics?"
+    heading: What Is Logistics Analytics?
   - id: content-3
-    heading: "How Data Analytics Is Used in Logistics?"
+    heading: How Data Analytics Is Used in Logistics?
   - id: content-4
-    heading: "Types of Analytics Used in Logistics"
+    heading: Types of Analytics Used in Logistics
   - id: content-5
-    heading: "Why Traditional Analytics Approaches Fall Short"
+    heading: Why Traditional Analytics Approaches Fall Short
   - id: content-6
-    heading: "What to Look for in a Logistics Analytics Platform"
+    heading: What to Look for in a Logistics Analytics Platform
   - id: content-8
-    heading: "Conclusion: Turning Logistics Data Into Better Decisions"
+    heading: 'Conclusion: Turning Logistics Data Into Better Decisions'
 featured:
   choice: null
   trending: null
 related:
-  - sisense-alternatives-7-bi-tools-compared-in-2026
-  - what-is-a-semantic-data-model
+  - sisense-alternatives
+  - what-is-a-semantic-layer
 faq:
-  - question: "How can data analytics improve supply chain performance?"
-    answer: "Data analytics improves supply chain performance by increasing visibility, identifying inefficiencies, predicting disruptions, and enabling faster decision-making. It helps optimize inventory, transportation, and supplier performance while reducing costs and improving service reliability."
-  - question: "How is data analytics used in logistics?"
-    answer: "Data analytics is used in logistics to optimize routes, monitor shipments in real time, forecast demand, improve warehouse operations, and evaluate carrier performance. It turns operational data into actionable insights for daily execution."
-  - question: "What are the main benefits of logistics analytics for businesses?"
-    answer: "Logistics analytics helps businesses reduce transportation costs, improve delivery reliability, increase operational efficiency, minimize risks, and enhance customer satisfaction by supporting proactive, data-driven logistics decisions."
-  - question: "What is the difference between logistics analytics and supply chain analytics?"
-    answer: "Logistics analytics focuses on transportation, warehousing, and delivery execution, while supply chain analytics covers the broader network, including sourcing, production, inventory planning, and end-to-end demand and supply coordination."
+  - q: How can data analytics improve supply chain performance?
+    a: >-
+      Data analytics improves supply chain performance by increasing visibility,
+      identifying inefficiencies, predicting disruptions, and enabling faster
+      decision-making. It helps optimize inventory, transportation, and supplier
+      performance while reducing costs and improving service reliability.
+  - q: How is data analytics used in logistics?
+    a: >-
+      Data analytics is used in logistics to optimize routes, monitor shipments
+      in real time, forecast demand, improve warehouse operations, and evaluate
+      carrier performance. It turns operational data into actionable insights
+      for daily execution.
+  - q: What are the main benefits of logistics analytics for businesses?
+    a: >-
+      Logistics analytics helps businesses reduce transportation costs, improve
+      delivery reliability, increase operational efficiency, minimize risks, and
+      enhance customer satisfaction by supporting proactive, data-driven
+      logistics decisions.
+  - q: >-
+      What is the difference between logistics analytics and supply chain
+      analytics?
+    a: >-
+      Logistics analytics focuses on transportation, warehousing, and delivery
+      execution, while supply chain analytics covers the broader network,
+      including sourcing, production, inventory planning, and end-to-end demand
+      and supply coordination.
 source:
-  url: https://supaboard.ai/blog/logistics-analytics
-  migratedAt: "2026-07-29"
+  url: 'https://supaboard.ai/blog/logistics-analytics'
+  migratedAt: '2026-07-29'
+legacyCategory: General
+internalLinks:
+  - sisense-alternatives
+  - what-is-a-semantic-layer
 ---
 
 <!-- section:content-1 -->

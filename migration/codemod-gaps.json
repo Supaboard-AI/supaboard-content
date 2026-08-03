@@ -1,0 +1,602 @@
+{
+  "note": "Fields the codemod could not fill. These are editorial claims, not data — a post that cannot supply them belongs in KILL or MERGE, not KEEP.",
+  "postsWithGaps": 47,
+  "byField": [
+    [
+      "internalLinks",
+      47
+    ],
+    [
+      "targetQuery",
+      47
+    ],
+    [
+      "intent",
+      47
+    ],
+    [
+      "audience",
+      47
+    ],
+    [
+      "funnel",
+      47
+    ],
+    [
+      "tldr",
+      47
+    ],
+    [
+      "citations",
+      47
+    ],
+    [
+      "statsCount",
+      47
+    ],
+    [
+      "description",
+      29
+    ],
+    [
+      "faq",
+      29
+    ],
+    [
+      "title",
+      22
+    ]
+  ],
+  "posts": {
+    "agentic-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (69 chars, max 65)",
+      "description (196 chars, need 140-160)",
+      "faq (have 0, need 6-10)"
+    ],
+    "ai-analytics-governance": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (73 chars, max 65)",
+      "description (138 chars, need 140-160)",
+      "faq (have 0, need 6-10)"
+    ],
+    "ai-data-analyst": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (315 chars, need 140-160)",
+      "faq (have 0, need 6-10)"
+    ],
+    "analytics-without-a-data-team": [
+      "internalLinks (have 1, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (79 chars, max 65)",
+      "description (222 chars, need 140-160)",
+      "faq (have 0, need 6-10)"
+    ],
+    "apache-superset-alternatives": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (162 chars, need 140-160)",
+      "faq (have 5, need 6-10)"
+    ],
+    "bar-graph-vs-histogram": [
+      "internalLinks (have 1, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (68 chars, max 65)",
+      "description (195 chars, need 140-160)"
+    ],
+    "best-ai-bi-tools": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (69 chars, max 65)"
+    ],
+    "bi-dashboards": [
+      "internalLinks (have 1, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "faq (have 4, need 6-10)"
+    ],
+    "business-intelligence": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (127 chars, need 140-160)",
+      "faq (have 5, need 6-10)"
+    ],
+    "data-connectivity": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (134 chars, need 140-160)"
+    ],
+    "data-engineering": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (133 chars, need 140-160)"
+    ],
+    "data-science-vs-data-analytics": [
+      "internalLinks (have 1, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (768 chars, need 140-160)"
+    ],
+    "data-visualization-tools": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (74 chars, max 65)",
+      "faq (have 5, need 6-10)"
+    ],
+    "database-optimization": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (86 chars, max 65)",
+      "faq (have 5, need 6-10)"
+    ],
+    "database-vs-data-warehouse-vs-data-lake": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (162 chars, need 140-160)",
+      "faq (have 5, need 6-10)"
+    ],
+    "dbt": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (138 chars, need 140-160)",
+      "faq (have 0, need 6-10)"
+    ],
+    "ecommerce-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (66 chars, max 65)",
+      "faq (have 5, need 6-10)"
+    ],
+    "embedded-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (81 chars, max 65)",
+      "description (229 chars, need 140-160)",
+      "faq (have 5, need 6-10)"
+    ],
+    "enterprise-business-intelligence": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (76 chars, max 65)",
+      "description (122 chars, need 140-160)",
+      "faq (have 1, need 6-10)"
+    ],
+    "financial-dashboard-examples": [
+      "internalLinks (have 1, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount"
+    ],
+    "from-4-hours-to-2-minutes-rcm-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (67 chars, max 65)",
+      "faq (have 0, need 6-10)"
+    ],
+    "generative-business-intelligence": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount"
+    ],
+    "healthcare-analytics": [
+      "internalLinks (have 0, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (76 chars, max 65)",
+      "description (558 chars, need 140-160)"
+    ],
+    "how-to-evaluate-ai-bi-tools": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (70 chars, max 65)",
+      "description (133 chars, need 140-160)"
+    ],
+    "is-ai-bi-just-text-to-sql": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "faq (have 5, need 6-10)"
+    ],
+    "logistics-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (78 chars, max 65)",
+      "faq (have 4, need 6-10)"
+    ],
+    "looker-alternatives": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount"
+    ],
+    "manufacturing-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (251 chars, need 140-160)",
+      "faq (have 5, need 6-10)"
+    ],
+    "metabase-alternatives": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (71 chars, max 65)",
+      "description (199 chars, need 140-160)",
+      "faq (have 0, need 6-10)"
+    ],
+    "natural-language-query-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (74 chars, max 65)"
+    ],
+    "positive-vs-negative-correlation": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (66 chars, max 65)",
+      "description (190 chars, need 140-160)",
+      "faq (have 0, need 6-10)"
+    ],
+    "power-bi-vs-tableau": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "faq (have 5, need 6-10)"
+    ],
+    "real-time-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (172 chars, need 140-160)",
+      "faq (have 5, need 6-10)"
+    ],
+    "retail-business-intelligence": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (82 chars, max 65)",
+      "description (171 chars, need 140-160)"
+    ],
+    "saas-business-intelligence": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (102 chars, need 140-160)",
+      "faq (have 5, need 6-10)"
+    ],
+    "self-service-bi": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (200 chars, need 140-160)"
+    ],
+    "sisense-alternatives": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount"
+    ],
+    "spend-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (88 chars, max 65)",
+      "description (188 chars, need 140-160)"
+    ],
+    "tableau-alternatives": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (71 chars, max 65)"
+    ],
+    "thoughtspot-alternatives": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (203 chars, need 140-160)"
+    ],
+    "types-of-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (80 chars, max 65)",
+      "faq (have 0, need 6-10)"
+    ],
+    "what-is-a-kpi": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (127 chars, need 140-160)",
+      "faq (have 5, need 6-10)"
+    ],
+    "what-is-a-semantic-layer": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "faq (have 1, need 6-10)"
+    ],
+    "what-is-an-ad-hoc-query": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (133 chars, need 140-160)"
+    ],
+    "what-is-data-modeling": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "title (75 chars, max 65)",
+      "faq (have 4, need 6-10)"
+    ],
+    "what-is-predictive-analytics": [
+      "internalLinks (have 2, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (170 chars, need 140-160)",
+      "faq (have 5, need 6-10)"
+    ],
+    "will-ai-replace-data-analysts": [
+      "internalLinks (have 1, need 3)",
+      "targetQuery",
+      "intent",
+      "audience",
+      "funnel",
+      "tldr",
+      "citations",
+      "statsCount",
+      "description (629 chars, need 140-160)",
+      "faq (have 0, need 6-10)"
+    ]
+  }
+}
