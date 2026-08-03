@@ -35,6 +35,12 @@ sections:
     heading: Quick Comparison (Real-World View)
   - id: content-3
     heading: 'AI-Powered BI Tools Comparison: Features, Pricing, and Strengths (2026)'
+  - id: content-6
+    heading: What should you actually judge a BI tool on?
+  - id: content-7
+    heading: 'Cloud, on-premise or hybrid: which deployment fits?'
+  - id: content-8
+    heading: What does "agentic analytics" actually mean?
   - id: content-4
     heading: Frequently Asked Questions (FAQs)
   - id: content-5
@@ -289,6 +295,40 @@ Its biggest strength is flexibility and customization. It allows deep integratio
 ## AI-Powered BI Tools Comparison Table (2026)
 
 <table><tbody><tr><td><strong>Tool</strong></td><td><strong>Key Features</strong></td><td><strong>Weaknesses</strong></td><td><strong>Pricing</strong></td><td><strong>Ideal User</strong></td><td><strong>Best For</strong></td></tr><tr><td><strong>Supaboard</strong></td><td>AI-driven insights, visuals &amp; analysis, self-service BI, natural language queries, fast dashboard creation</td><td>Newer platform, smaller ecosystem</td><td>~$71/month</td><td>Startups, product teams, non-technical users</td><td>Fast insights, self-service analytics</td></tr><tr><td><strong>Power BI</strong></td><td>Dashboards, data modeling, Microsoft integration, AI features (Copilot), real-time reporting</td><td>Requires DAX for advanced use, performance issues with large data</td><td>~$14/user/month</td><td>Microsoft-based teams, analysts</td><td>Reporting, enterprise dashboards</td></tr><tr><td><strong>Tableau</strong></td><td>Advanced visualizations, interactive dashboards, strong analytics, large community</td><td>Expensive, steep learning curve</td><td>~$70/user/month</td><td>Data analysts, enterprises</td><td>Visual analytics, storytelling</td></tr><tr><td><strong>Qlik Sense</strong></td><td>Associative data engine, self-service analytics, predictive modeling</td><td>Complex pricing, setup heavy</td><td>~$200/month (varies)</td><td>Data teams, enterprises</td><td>Deep data exploration</td></tr><tr><td><strong>ThoughtSpot</strong></td><td>Search-based analytics, natural language queries, real-time insights</td><td>Expensive, needs clean data</td><td>~$100K/year</td><td>Business users, large enterprises</td><td>Search-driven analytics</td></tr><tr><td><strong>Looker</strong></td><td>Semantic layer (LookML), strong governance, Google Cloud integration</td><td>Requires technical setup, slower iteration</td><td>Custom pricing</td><td>Data engineers, enterprises</td><td>Data governance, modeling</td></tr><tr><td><strong>Domo</strong></td><td>All-in-one BI, data pipelines, mobile-first dashboards</td><td>Cost increases with users</td><td>~$750/user/year</td><td>Mid-large teams</td><td>End-to-end BI workflows</td></tr><tr><td><strong>Sisense</strong></td><td>Embedded analytics, APIs, customizable dashboards, AI analytics</td><td>Technical setup, high cost</td><td>~$40K+/year</td><td>Developers, SaaS companies</td><td>Embedded BI, custom analytics</td></tr></tbody></table>
+
+<!-- section:content-6 -->
+
+## What should you actually judge a BI tool on?
+
+Four things, and price is not the first of them.
+
+**Can the people who have the questions use it themselves?** This is the factor that decides adoption, and it is the one most demos are designed to obscure. If every question still routes through an analyst, you have bought a reporting tool with a chat box on it. Test it by having a non-technical colleague ask something the vendor did not rehearse.
+
+**Does it connect to what you already run?** CRM, product database, warehouse, ad platforms, spreadsheets. Integration breadth is what decides whether the tool answers cross-system questions or becomes a fifth silo. Gabriella.pl's whole problem was four ad platforms that did not talk to each other — not a shortage of dashboards.
+
+**Are the AI features load-bearing or decorative?** Natural-language querying and automated insight are the two that change who can work; everything else is packaging. The distinction that matters is whether the tool resolves your business definitions or guesses at them, which is the difference between a semantic layer and text-to-SQL.
+
+**What does it cost at the size you will be, not the size you are?** Per-seat pricing that looks fine for five people can be the largest line in the analytics budget at fifty. Ask for the number at 3x your current headcount, and ask what is metered besides seats.
+
+## Cloud, on-premise or hybrid: which deployment fits?
+
+Deployment is a data-governance decision wearing an infrastructure costume.
+
+**Cloud** is the default for most teams: nothing to install, accessible anywhere, and no one on staff maintaining it. If you have no specific reason to choose otherwise, this is the reason-free option.
+
+**On-premise** means the data never leaves your servers. This is the right call under strict regulatory constraints, and it costs you a dedicated IT function to handle updates, security and performance. Choose it because compliance requires it, not because it feels safer.
+
+**Hybrid** keeps sensitive data on your own systems while using cloud features for everything else. It suits organisations that cannot move wholesale but do not want to run their entire analytics stack in a rack. Jindal Healthcare is effectively this pattern: every piece of PHI was masked into a separate database before analytics ever touched it, so the analytics platform never connected to an EHR at all.
+
+## What does "agentic analytics" actually mean?
+
+It means the tool can carry out a multi-step investigation rather than answer one question at a time.
+
+A conventional BI tool, including most that market themselves as AI-powered, maps your question to a query and returns the result. An agentic system decomposes the question, runs several queries, checks the results against each other, notices when an answer implies a further question, and follows it. The practical difference shows up on "why" questions. "What was revenue last month" is a query. "Why did revenue fall in the North region" is an investigation, and it is where the two categories separate.
+
+The reason this matters commercially is cost of curiosity. When a deep look costs four hours of an analyst's time, you only spend it on problems you already know are problems. When it costs two minutes, chasing a hunch becomes free — and most of the value in analytics is in the hunches nobody previously had budget to check.
+
+Treat any vendor's "agentic" claim as a testable one. Ask it a question whose answer requires two joins and a comparison, and watch whether it asks itself the follow-up.
 
 <!-- section:content-4 -->
 

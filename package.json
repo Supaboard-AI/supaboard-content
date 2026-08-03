@@ -23,7 +23,8 @@
     "sitemap": "node tools/sitemap.mjs",
     "test:guardrails": "node tools/test-guardrails.ts",
     "stats:audit": "node tools/stats-audit.mjs",
-    "relink": "node tools/relink.mjs"
+    "relink": "node tools/relink.mjs",
+    "cluster": "node tools/cluster.mjs"
   },
   "repository": {
     "type": "git",

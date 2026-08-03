@@ -4,19 +4,16 @@ Branch `blog-cleanup-migration`. Eight commits, each independently revertible.
 
 ## Where the work landed
 
+All work is in **this** repo, `supaboard-content`. No other repository was
+modified.
+
 The brief assumed "a Next.js app where posts are authored as MDX in this
-repository." Neither half held:
-
-- Posts are `.md` in **this** repo (`supaboard-content`), consumed by a separate
-  site repo. There is no MDX.
-- **`supaboard-landing` has no blog.** Four files in `src/app`; its
-  `next.config.ts` rewrites `/resources` to `supaboard.ai/blog`, deferring the
-  blog to the Framer site. The live blog is still Framer-served.
-
-So Phase 4's routing and Phase 6's CI were never cleanup — they are a greenfield
-build in a repo that has never rendered a post. Per the decision taken, the
-content repo was done first and every app-side output is emitted as a portable
-artifact for whoever builds those routes.
+repository." Posts are `.md` here and are consumed by a separate site repo;
+there is no MDX and no blog routing in this repo to change. Everything Phase 4
+and Phase 6 produce for the app side is therefore emitted as a **portable
+artifact** — `migration/redirects.next.mjs`, `migration/sitemap.ts`,
+`migration/redirects.json`, `migration/410-gone.txt` — for whoever wires up the
+routes, rather than written into an app.
 
 ## Acceptance criteria
 
@@ -43,10 +40,20 @@ links. Seven fields per post cannot be derived and are unwritten across all 47:
 `statsCount` — plus `pillar`/`cluster`. 29 descriptions are outside 140–160
 chars and 22 titles exceed 65. `npm run validate` reports 577 issues.
 
-**Merged bodies.** The 74 MERGE members were deleted and their URLs redirected,
-but the 27 canonicals still contain only their original text — they have not yet
-absorbed the strongest sections from the posts they replaced. The members are in
-git history (`git show 7ce3cf0^:posts/<slug>.md`).
+**Merged bodies — 2 of 27 done.** The 74 MERGE members were deleted and their
+URLs redirected; the canonicals are now being rewritten to absorb them.
+
+- `what-is-a-semantic-layer` — absorbed `what-is-a-semantic-data-model` with a
+  new section distinguishing the model (the artefact) from the layer (the system
+  that governs it), which is the query those 38 inbound links were pointing at.
+- `best-ai-bi-tools` — absorbed selection criteria, deployment trade-offs and an
+  agentic-analytics definition from the 7 listicles it replaced; 2,296 → 2,886
+  words.
+
+The remaining 25 still contain only their original text. Use
+`node tools/cluster.mjs <id>` to see a cluster's canonical against every member
+it absorbed (pulled from git), and `--section "heading"` to read one section's
+full text. `node tools/cluster.mjs --list` names all 27.
 
 **Phase 5b/5c/5d.** No retrofits, no systematic case-study wiring (three were
 added opportunistically while removing invented stats), no mid-article CTAs. The

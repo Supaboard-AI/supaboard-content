@@ -29,6 +29,8 @@ ogImage: >-
 sections:
   - id: content-1
     heading: What a semantic layer actually is
+  - id: content-9
+    heading: Is a semantic data model the same thing as a semantic layer?
   - id: content-2
     heading: Why 2026 is the year it stops being optional
   - id: content-3
@@ -128,6 +130,38 @@ A raw warehouse table knows that a column called `amt` contains numbers. It does
 There are two honest ways to build that governed meaning, and the rest of this post depends on you holding both at once. One way is to **author** it up front: an engineer writes metric and dimension definitions in a modeling language before anyone asks a question, and the tool compiles those definitions into queries. dbt, Cube, AtScale, and Looker all work this way. The other way is to let it **emerge**: the layer assembles itself from curated rules, verified examples, and human corrections captured as people actually use the system. Both produce a governed body of meaning. They differ in who writes it, when, and how. A great deal of confused vendor marketing in 2026 comes from one camp pretending the other is not doing the real thing.
 
 For the canonical framings, read the primary sources directly: [dbt on the Semantic Layer and MetricFlow](https://docs.getdbt.com/blog/semantic-layer-vs-text-to-sql-2026), [Cube's universal semantic layer](https://cube.dev/), [Google's description of LookML as a semantic modeling layer](https://cloud.google.com/blog/products/business-intelligence/looker-updates-for-agentic-bi-at-next26/), and [AtScale's framing of the semantic layer as governed business context](https://www.atscale.com/use-cases/universal-semantic-layer/). Reading four vendors describe the same concept in four vocabularies is the fastest way to see what is essential versus what is branding.
+
+<!-- section:content-9 -->
+
+## Is a semantic data model the same thing as a semantic layer?
+
+No. A semantic data model is the artefact; the semantic layer is the system that governs and serves it. People use the two interchangeably and it causes real confusion in tool evaluations, so it is worth ten paragraphs of precision.
+
+A **semantic data model** is a representation of data that captures meaning, not just structure. It names three things explicitly:
+
+-   **Entities** — the real-world objects: Customer, Product, Patient, Claim
+-   **Attributes** — their properties: Name, Net Revenue, Diagnosis Date
+-   **Relationships** — stated in business language: Customer _places_ Order, Patient _receives_ Treatment
+
+Written out, those become triples — subject, predicate, object — which is what makes them legible to a human reading a glossary and to a machine planning a query. [Wikipedia's semantic data model entry](https://en.wikipedia.org/wiki/Semantic_data_model) is a decent primer on the formal lineage, which runs from the U.S. Air Force's ICAM programme and IDEF1X in the 1970s through RDF and OWL to what analytics vendors ship today.
+
+The useful analogy: a semantic data model is a company org chart merged with a business glossary. It shows what exists and how things connect, without anyone writing a JOIN.
+
+Here is the distinction that matters when you are comparing tools:
+
+| | Relational data model | Semantic data model |
+| --- | --- | --- |
+| Optimises for | Storage efficiency and integrity | Meaning and business context |
+| Relationships | Foreign keys, expressed as JOINs | Named business relationships |
+| Who can use it | People who write SQL | People who ask questions |
+| Built for | Transactions (OLTP) | Analytics, reporting, AI agents |
+| Where semantics live | In documentation, if anywhere | Embedded in the model itself |
+
+So why does the terminology drift? Because Microsoft made a naming decision that stuck: what Power BI calls a **semantic model** is the dataset-plus-definitions artefact, not a governed layer serving many tools. A semantic model in that sense can live inside one BI product and never be reusable outside it.
+
+That is the whole difference. A semantic data model can exist in a notebook, a spreadsheet, or a single dashboard tool, and be forgotten a quarter later. A semantic layer is what happens when that model is written down, owned, versioned, access-controlled, and served to every query — human or agent — from one place. The model is the content; the layer is the governance, distribution and lifecycle around it.
+
+Which means the question to ask a vendor is not "do you have a semantic model." Almost everyone does. It is "who can change a definition, what happens to every downstream answer when they do, and can anything outside your product read it."
 
 <!-- section:content-2 -->
 
