@@ -1,0 +1,751 @@
+{
+  "redirects": [
+    {
+      "source": "/blog/5-ways-saas-startups-use-no-code-dashboards-to-win-investors",
+      "destination": "/blog/bi-dashboards",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/ad-hoc-query",
+      "destination": "/blog/what-is-an-ad-hoc-query",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/agentic-analytics-vs-traditional-bi-tools",
+      "destination": "/blog/agentic-analytics",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/ai-agents-in-ecommerce-automate-campaign-analysis-budgeting-insights",
+      "destination": "/blog/ecommerce-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/ai-contextual-governance-framework",
+      "destination": "/blog/ai-analytics-governance",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/ai-dashboard-explained",
+      "destination": "/blog/bi-dashboards",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/ai-data-analyst-how-it-works-and-best-tools-(2026)",
+      "destination": "/blog/ai-data-analyst",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/ai-meets-data-viz-how-generative-ai-tools-are-transforming-data-storytelling",
+      "destination": "/blog/generative-business-intelligence",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/ai-native-business-intelligence-tools",
+      "destination": "/blog/agentic-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/ai-predictive-analytics-in-healthcare-how-data-is-transforming-patient-care",
+      "destination": "/blog/healthcare-analytics",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/ai-transformation-problem-of-governance",
+      "destination": "/blog/ai-analytics-governance",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/all-about-retail-business-intelligence",
+      "destination": "/blog/retail-business-intelligence",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/application-integration-vs-data-integration",
+      "destination": "/blog/data-connectivity",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/automl-for-analysts-what-you-can-automate-and-what-you-can-t",
+      "destination": "/blog/ai-data-analyst",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/best-ai-powered-business-intelligence",
+      "destination": "/blog/best-ai-bi-tools",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/best-business-intelligence-tools",
+      "destination": "/blog/best-ai-bi-tools",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/best-data-analytics-tools-for-business",
+      "destination": "/blog/best-ai-bi-tools",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/best-looker-alternatives",
+      "destination": "/blog/looker-alternatives",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/best-tableau-alternative",
+      "destination": "/blog/tableau-alternatives",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/bi-dashboard-guide",
+      "destination": "/blog/bi-dashboards",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/bi-tools",
+      "destination": "/blog/best-ai-bi-tools",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/bridging-data-warehousing-and-ai-from-snowflake-to-gpt",
+      "destination": "/blog/data-connectivity",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/business-activity-monitoring",
+      "destination": "/blog/real-time-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/can-ai-replace-the-data-dashboard-new-approaches-to-business-intelligence",
+      "destination": "/blog/will-ai-replace-data-analysts",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/data-querying",
+      "destination": "/blog/what-is-an-ad-hoc-query",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/data-science-vs-data-analytics-what-you-need-to-know",
+      "destination": "/blog/data-science-vs-data-analytics",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/database-vs-data-warehouse-vs-data-lake-guide",
+      "destination": "/blog/database-vs-data-warehouse-vs-data-lake",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/dbt-guide",
+      "destination": "/blog/dbt",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/descriptive-analytics-guide",
+      "destination": "/blog/types-of-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/embedded-analytics-in-2025-how-it-works-benefits-ai-role-and-business-impact",
+      "destination": "/blog/embedded-analytics",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/explainable-ai-xai-in-analytics-building-trust-in-business-intelligence",
+      "destination": "/blog/ai-analytics-governance",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/finance-and-performance",
+      "destination": "/blog/financial-dashboard-examples",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/financial-dashboards-guide",
+      "destination": "/blog/financial-dashboard-examples",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics",
+      "destination": "/blog/from-4-hours-to-2-minutes-rcm-analytics",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/future-of-data-engineering",
+      "destination": "/blog/data-engineering",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/generative-ai-guide",
+      "destination": "/blog/generative-business-intelligence",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/generative-business-intelligence-guide",
+      "destination": "/blog/generative-business-intelligence",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/gpt-snowflake-conversational-analytics",
+      "destination": "/blog/natural-language-query-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/graphs-and-charts",
+      "destination": "/blog/data-visualization-tools",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/histogram-vs-bar-graph",
+      "destination": "/blog/bar-graph-vs-histogram",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/how-ai-query-assistants-are-redefining-data-analytics-in-2025",
+      "destination": "/blog/natural-language-query-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/how-can-ai-chatbots-help-you-analyze-company-data-faster",
+      "destination": "/blog/natural-language-query-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/how-do-we-create-a-single-source-of-truth-for-our-business-data",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/how-e-commerce-businesses-can-use-analytics-to-improve-customer-experience",
+      "destination": "/blog/ecommerce-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/how-generative-ai-is-changing-the-role-of-the-data-analyst",
+      "destination": "/blog/will-ai-replace-data-analysts",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/how-supaboard-democratizes-data-analytics-no-more-tech-team-dependence",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/how-to-evaluate-ai-bi-tools-the-12-questions-most-demos-can-t-survive",
+      "destination": "/blog/how-to-evaluate-ai-bi-tools",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/how-to-reduce-ad-hoc-data-requests-to-the-analytics-team-a-practical-guide",
+      "destination": "/blog/what-is-an-ad-hoc-query",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/how-to-use-marketing-insights-to-boost-your-ecommerce-sales",
+      "destination": "/blog/ecommerce-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/human-in-the-loop-ai",
+      "destination": "/blog/ai-analytics-governance",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/is-ai-bi-just-text-to-sql-the-honest-difference-with-examples",
+      "destination": "/blog/is-ai-bi-just-text-to-sql",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/manual-reporting-data-teams",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/omni-alternative-to-apache-superset",
+      "destination": "/blog/apache-superset-alternatives",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know",
+      "destination": "/blog/types-of-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/real-time-analytics-platform",
+      "destination": "/blog/real-time-analytics",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/real-time-profitability-tracking-why-it-matters-more-than-ever",
+      "destination": "/blog/real-time-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/retail-metrics-kpis-store-performance",
+      "destination": "/blog/retail-business-intelligence",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/revolutionizing-communication-the-rise-of-conversational-ai-and-nlp-interfaces",
+      "destination": "/blog/natural-language-query-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/revolutionizing-small-business-analytics-how-ai-tools-save-time-simplify-data-and-drive-growth",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/self-service-analytics-empowering-business-with-easy-data-exploration-and-trusted-insights",
+      "destination": "/blog/self-service-bi",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/self-service-bi-explained",
+      "destination": "/blog/self-service-bi",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/self-service-bi-vs-traditional-business-intelligence",
+      "destination": "/blog/self-service-bi",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/sisense-alternatives-7-bi-tools-compared-in-2026",
+      "destination": "/blog/sisense-alternatives",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/spend-analytics-guide",
+      "destination": "/blog/spend-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-alteryx-a-new-business-intelligence-chapter",
+      "destination": "/compare/alteryx",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-amazon-quicksight-the-new-bi-battle",
+      "destination": "/compare/amazon-quicksight",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-domo-smarter-business-intelligence-redefined-for-today-s-times",
+      "destination": "/compare/domo",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-looker-a-smarter-choice-for-the-future-of-data-intelligence",
+      "destination": "/compare/looker",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-metabase-in-2025-which-bi-tool-is-best-for-your-team",
+      "destination": "/blog/metabase-alternatives",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-oracle-analytics-new-age-vs-enterprise-legacy-in-an-era-of-war",
+      "destination": "/compare/oracle-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-power-bi-a-2025-modern-business-intelligence-showdown",
+      "destination": "/compare/power-bi",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-sas-viya-the-future-of-data-analytics-name-has-come",
+      "destination": "/compare/sas-viya",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-sisense-the-smarter-business-intelligence-war",
+      "destination": "/compare/sisense",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-tableau-power-bi-metabase-(2025)-best-bi-tool-for-fast-business-insights",
+      "destination": "/blog/best-ai-bi-tools",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-tableau-the-easier-road-to-smarter-analytics",
+      "destination": "/compare/tableau",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/supaboard-vs-thoughtspot-rethinking-smart-insights-for-today-s-business-enterprise",
+      "destination": "/compare/thoughtspot",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/tableau-vs-power-bi",
+      "destination": "/blog/power-bi-vs-tableau",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/the-best-metabase-alternative-a-smarter-bi-option-to-supercharge-supaboard-dashboards",
+      "destination": "/blog/metabase-alternatives",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/the-ethics-of-generative-bi-when-insights-are-fabricated",
+      "destination": "/blog/ai-analytics-governance",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/the-modern-ecommerce-dashboard-insights-you-can-act-on",
+      "destination": "/blog/ecommerce-analytics",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/thoughtspot-alternative",
+      "destination": "/blog/thoughtspot-alternatives",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/top-10-business-intelligence-bi-tools-in-2026-an-overview",
+      "destination": "/blog/best-ai-bi-tools",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/top-5-metabase-alternatives-for-seamless-embedded-analytics-in-2025",
+      "destination": "/blog/metabase-alternatives",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/top-ai-analytics-tools-transforming-data-analysis-in-2025-2026",
+      "destination": "/blog/best-ai-bi-tools",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/top-self-service-bi-tools-for-2025",
+      "destination": "/blog/best-ai-bi-tools",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/unlock-the-power-of-data-meet-supaboard",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/unlocking-business-success-with-ai-data-analytics",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/unlocking-cross-database-analysis-without-sql-a-complete-guide",
+      "destination": "/blog/natural-language-query-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/unlocking-faster-decisions-ai-powered-bi-supaboard",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/what-is-a-decision-making-dashboard-importance-benefits-and-how-to-build-one",
+      "destination": "/blog/bi-dashboards",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/what-is-a-kpi-guide",
+      "destination": "/blog/what-is-a-kpi",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/what-is-a-semantic-data-model",
+      "destination": "/blog/what-is-a-semantic-layer",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/what-is-a-semantic-layer-the-2026-field-guide",
+      "destination": "/blog/what-is-a-semantic-layer",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/what-is-data-modeling-guide",
+      "destination": "/blog/what-is-data-modeling",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/what-is-predictive-analytics-simple-guide",
+      "destination": "/blog/what-is-predictive-analytics",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/what-is-real-time-analytics-definition-benefits-examples",
+      "destination": "/blog/real-time-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/white-label-analytics",
+      "destination": "/blog/embedded-analytics",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/why-consider-a-metabase-alternative-exploring-the-best-bi-tools-compared",
+      "destination": "/blog/metabase-alternatives",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/why-more-data-isn-t-always-better-how-simple-workspaces-bring-real-clarity",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/will-ai-automate-bi-reporting-in-2026",
+      "destination": "/blog/will-ai-replace-data-analysts",
+      "why": "merged"
+    },
+    {
+      "source": "/blog/will-data-analysts-be-replaced-by-ai-the-truth-behind-the-fear",
+      "destination": "/blog/will-ai-replace-data-analysts",
+      "why": "renamed"
+    },
+    {
+      "source": "/blog/will-we-still-need-data-engineers-in-2026",
+      "destination": "/blog/data-engineering",
+      "why": "merged"
+    },
+    {
+      "source": "/case-studies",
+      "destination": "/case-study",
+      "why": "named in brief"
+    },
+    {
+      "source": "/case-studies/:slug",
+      "destination": "/case-study/:slug",
+      "why": "named in brief"
+    },
+    {
+      "source": "/comparison/ai-powered-business-dashboards-transforming-data-into-visual-stories",
+      "destination": "/blog/bi-dashboards",
+      "why": "article misfiled under /comparison"
+    },
+    {
+      "source": "/comparison/conversational-ai-for-business-simplifying-data-insights-with-natural-language-queries",
+      "destination": "/blog/natural-language-query-analytics",
+      "why": "article misfiled under /comparison"
+    },
+    {
+      "source": "/comparison/decision-making-dashboards-why-managers-need-a-data-cockpit",
+      "destination": "/blog/bi-dashboards",
+      "why": "article misfiled under /comparison"
+    },
+    {
+      "source": "/comparison/escape-the-data-trap-how-ai-data-automation-unifies-your-business",
+      "destination": "/blog/data-connectivity",
+      "why": "article misfiled under /comparison"
+    },
+    {
+      "source": "/comparison/from-spreadsheet-hell-to-dashboard-heaven-boost-business-accuracy-and-speed",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "article misfiled under /comparison"
+    },
+    {
+      "source": "/comparison/supaboard-vs-apache-superset",
+      "destination": "/compare/apache-superset",
+      "why": "comparison system consolidated"
+    },
+    {
+      "source": "/comparison/supaboard-vs-basedash",
+      "destination": "/compare/basedash",
+      "why": "comparison system consolidated"
+    },
+    {
+      "source": "/comparison/supaboard-vs-domo",
+      "destination": "/compare/domo",
+      "why": "comparison system consolidated"
+    },
+    {
+      "source": "/comparison/supaboard-vs-metabase",
+      "destination": "/compare/metabase",
+      "why": "comparison system consolidated"
+    },
+    {
+      "source": "/comparison/supaboard-vs-power-bi",
+      "destination": "/compare/power-bi",
+      "why": "comparison system consolidated"
+    },
+    {
+      "source": "/comparison/supaboard-vs-qlik-business-intelligence",
+      "destination": "/compare/qlik",
+      "why": "comparison system consolidated"
+    },
+    {
+      "source": "/comparison/supaboard-vs-tableau",
+      "destination": "/compare/tableau",
+      "why": "comparison system consolidated"
+    },
+    {
+      "source": "/comparison/supaboard-vs-thoughtspot",
+      "destination": "/compare/thoughtspot",
+      "why": "comparison system consolidated"
+    },
+    {
+      "source": "/comparison/sustaining-success-advanced-ai-data-management-tips",
+      "destination": "/blog/data-connectivity",
+      "why": "article misfiled under /comparison"
+    },
+    {
+      "source": "/comparison/the-death-of-the-data-request-ticket-how-self-service-bi-empowers-faster-decisions",
+      "destination": "/blog/self-service-bi",
+      "why": "article misfiled under /comparison"
+    },
+    {
+      "source": "/comparison/turning-insights-into-impact-actionable-recommendations",
+      "destination": "/blog/bi-dashboards",
+      "why": "article misfiled under /comparison"
+    },
+    {
+      "source": "/comparison/why-waiting-for-data-is-costing-your-business-money",
+      "destination": "/blog/analytics-without-a-data-team",
+      "why": "article misfiled under /comparison"
+    },
+    {
+      "source": "/series/supaboard-vs-apache-superset",
+      "destination": "/compare/apache-superset",
+      "why": "series system consolidated (flattened, was chaining via /comparison)"
+    },
+    {
+      "source": "/series/supaboard-vs-basedash",
+      "destination": "/compare/basedash",
+      "why": "series system consolidated (flattened, was chaining via /comparison)"
+    },
+    {
+      "source": "/series/supaboard-vs-domo",
+      "destination": "/compare/domo",
+      "why": "series system consolidated (flattened, was chaining via /comparison)"
+    },
+    {
+      "source": "/series/supaboard-vs-metabase",
+      "destination": "/compare/metabase",
+      "why": "series system consolidated (flattened, was chaining via /comparison)"
+    },
+    {
+      "source": "/series/supaboard-vs-power-bi",
+      "destination": "/compare/power-bi",
+      "why": "series system consolidated (flattened, was chaining via /comparison)"
+    },
+    {
+      "source": "/series/supaboard-vs-qlik-business-intelligence",
+      "destination": "/compare/qlik",
+      "why": "series system consolidated (flattened, was chaining via /comparison)"
+    },
+    {
+      "source": "/series/supaboard-vs-tableau",
+      "destination": "/compare/tableau",
+      "why": "series system consolidated (flattened, was chaining via /comparison)"
+    },
+    {
+      "source": "/series/supaboard-vs-thoughtspot",
+      "destination": "/compare/thoughtspot",
+      "why": "series system consolidated (flattened, was chaining via /comparison)"
+    }
+  ],
+  "gone": [
+    {
+      "source": "/blog/ai-in-the-workplace-how-ai-is-transforming-jobs-teams-leadership-in-2026",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/ai-native-apps-the-future-every-startup-must-prepare-for-in-2025",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/ai-tools-for-business-that-actually-work",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/beyond-chatbots-real-use-cases-of-llms-in-enterprise-software",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/bringing-ai-in-business-data-analysis",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/build-vs-buy-in-the-age-of-ai-how-ctos-are-making-platform-decisions-in-2025",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/building-a-7-figure-startup-in-2025-7-ai-tools-you-can-t-ignore",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/cloud-wars-2025-shocking-new-moves-from-aws-azure-google-cloud",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/is-it-analyzing-or-analysing",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/learning-and-development-trends",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/looking-ahead-how-ai-is-changing-business-understanding",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/quantum-computing-in-2025-hype-vs-reality",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/quantum-computing-playbook-how-it-works-and-why-it-matters-now",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/revenge-of-the-backend-why-infrastructure-matters-more-in-the-age-of-ai",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/server-based-computing-guide",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/supaboard-ai-3",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/the-ai-advantage-7-tools-powering-the-fastest-growing-startups-in-2026",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/the-end-of-traditional-coding-low-code-s-takeover-in-2025",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/the-hidden-costs-of-adding-ai-to-your-saas-product",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/the-rise-of-ai-coworkers-designing-interfaces-for-human-ai-collaboration",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/tms-software-guide",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/top-ai-tools-to-boost-your-productivity-in-2026",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/top-white-label-ride-hailing-platform-providers",
+      "why": "KILL"
+    },
+    {
+      "source": "/blog/what-is-quantum-computing-a-beginner-s-guide-to-the-future-of-tech",
+      "why": "KILL"
+    },
+    {
+      "source": "/comparison/:qOhqaUNS9",
+      "why": "never a real page"
+    }
+  ]
+}
