@@ -47,53 +47,45 @@ featured:
 related:
   - bi-dashboards
 faq:
-  - q: 1\. What are financial dashboard examples?
+  - q: What should a financial dashboard show?
     a: >-
-      Financial dashboard examples are real-world templates or layouts that show
-      how companies track revenue, expenses, cash flow, and profitability. These
-      examples help finance teams understand how to structure dashboards for
-      reporting, forecasting, and performance monitoring across different
-      business functions.
-  - q: >-
-      2\. What is the difference between a financial dashboard and financial
-      reports?
+      The measures that change a decision somebody makes on a known cadence:
+      cash position, profit and loss summary, receivables ageing and budget
+      variance for most finance functions. Anything that would not alter a
+      decision regardless of its value belongs in a report rather than on the
+      dashboard.
+  - q: Should I use a template or build a custom dashboard?
     a: >-
-      A financial dashboard provides real-time or regularly updated insights
-      using visual charts and KPIs. Financial reports are static documents
-      created periodically, such as monthly or quarterly statements. Dashboards
-      support ongoing monitoring, while reports focus on historical analysis and
-      compliance.
-  - q: 3\. Which KPIs should be included in a CFO dashboard?
+      Start with a template and replace it once you know which numbers you argue
+      about. Standard views cover most of what a finance team looks at weekly
+      and can be running in days. Building bespoke first usually means
+      specifying in advance what you would learn faster by observing.
+  - q: When is a custom financial dashboard justified?
     a: >-
-      A CFO dashboard should include total revenue, net profit, operating
-      margin, cash runway, and budget vs. actual spending. These KPIs provide a
-      balanced view of profitability, liquidity, and financial discipline,
-      helping leaders make informed strategic decisions.
-  - q: 4\. How often should financial dashboards be updated?
+      When your unit economics do not fit standard shapes: usage-based revenue,
+      multi-entity consolidation, per-location profit and loss, or any business
+      where the meaningful denominator is unusual. A template that cannot
+      express your actual margin driver is worse than nothing, because people
+      will trust it anyway.
+  - q: How do I know the dashboard is failing?
     a: >-
-      Most financial dashboards should update daily or in real time, depending
-      on data availability. Cash flow and revenue dashboards often require
-      frequent updates, while reporting dashboards may refresh weekly or monthly
-      to ensure accuracy and consistency.
-  - q: 5\. What is the best financial dashboard software for enterprises?
+      Watch for spreadsheet exports. Every export marks a question the dashboard
+      could not answer, and it is the highest-signal indicator available because
+      it costs nothing to observe. Build custom views for exactly those
+      questions rather than guessing at what might be missing.
+  - q: How often should a financial dashboard refresh?
     a: >-
-      The best financial dashboard software depends on data complexity, security
-      requirements, and integration needs. Enterprises should look for platforms
-      that support ERP integration, automation, customization, and strong
-      governance. Tools like Supaboard and similar platforms focus on
-      simplifying dashboard creation while maintaining analytical depth.
-  - q: What is a financial dashboard?
+      At the cadence of the decision it informs. A monthly close view refreshed
+      hourly creates noise and invites people to react to incomplete data. A
+      cash position refreshed weekly is not a cash position. Mismatching refresh
+      to decision is a common cause of dashboards being ignored.
+  - q: What has to be agreed before building anything?
     a: >-
-      A financial dashboard is a centralized analytics tool that consolidates
-      financial data from multiple sources and presents it through charts,
-      tables, and KPIs. It enables finance teams to monitor business
-      performance, compare actuals vs forecasts, and make informed decisions
-      based on real-time insights rather than fragmented reports.
-  - q: Still relying on manual reports?
-    a: >-
-      Try Supaboard and get real-time financial dashboards with instant
-      insights. Connect your data and see what actually drives your numbers.
-      Start your free 14-day trial.
+      The definitions. If finance and operations compute gross margin
+      differently, a dashboard does not resolve that, it publishes the
+      disagreement faster and to more people. Settling the formula is slow,
+      contested and unglamorous, and it is the step that determines whether
+      anybody trusts the result.
 source:
   url: 'https://supaboard.ai/blog/financial-dashboard-examples'
   migratedAt: '2026-07-29'

@@ -49,54 +49,43 @@ related:
   - analytics-without-a-data-team
   - analytics-without-a-data-team
 faq:
-  - q: What is the difference between a histogram and a bar graph?
+  - q: What is the difference between a bar graph and a histogram?
     a: >-
-      The main difference between a histogram and a bar graph lies in the type
-      of data and purpose. A bar graph compares distinct categories (like sales
-      by region) with gaps between bars. A histogram shows the distribution of
-      continuous numerical data (like customer age) with bars that touch each
-      other. Bar graphs are for comparison, while histograms reveal patterns,
-      spread, and outliers.
-  - q: When should I use a bar graph vs a histogram?
+      A bar graph compares values across distinct categories, such as sales by
+      region. A histogram shows how a continuous variable is distributed, such
+      as the spread of order values. The difference is the data type, and it
+      determines which questions each chart can honestly answer.
+  - q: Why do histogram bars touch?
     a: >-
-      Use a bar graph when comparing categorical data such as products, regions,
-      teams, or departments. Use a histogram when analyzing how continuous data
-      is distributed across ranges, such as age, revenue, order value, or
-      response time. The choice depends on whether your goal is comparison or
-      distribution analysis.
-  - q: Is a histogram the same as a bar chart?
+      Because the horizontal axis is continuous. Each bar covers a range of
+      values, and those ranges are adjacent with nothing between them, so gaps
+      would imply values that cannot occur. Bar graphs use gaps for the opposite
+      reason: to signal that the categories are independent of one another.
+  - q: Which is better for comparing data?
     a: >-
-      No. Although they look similar, a histogram and a bar chart (bar graph)
-      are different. Histograms are for continuous data with touching bars,
-      while bar charts are for categorical data with gaps between bars. Using
-      them interchangeably can lead to misleading interpretations.
-  - q: Why do the bars in a histogram touch while bar graph bars have gaps?
+      The bar graph, because comparing almost always means comparing categories,
+      which is not what a histogram does. Histogram bars represent ranges in a
+      fixed order, so comparing one to another the way you would compare two
+      product lines is a category error rather than merely a suboptimal choice.
+  - q: How do I know which one I need?
     a: >-
-      Histogram bars touch because they represent continuous data ranges. Each
-      bin connects to the next, showing that values flow continuously. Bar graph
-      bars have gaps to clearly separate independent categories.
-  - q: How do I choose the right bin size for a histogram?
+      Ask whether reordering the bars would destroy the meaning. If you can sort
+      categories by value without losing anything, you want a bar graph. If
+      reordering makes the chart nonsense because the sequence is the point, it
+      is a histogram and comparison was never what you were doing.
+  - q: Can I use a bar graph for continuous data?
     a: >-
-      There is no single ideal bin size. Start with your tool’s automatic
-      binning, then adjust based on the data. Too few bins can hide important
-      patterns, while too many bins create noise. The goal is to clearly reveal
-      the shape and distribution of the data without distortion.
-  - q: Can I use a bar graph to show frequency distribution?
+      Only after grouping it into categories deliberately, and you should be
+      aware that you have changed the question. Binning continuous data and
+      plotting it with gaps hides skew and outliers, which are usually the most
+      informative features of a distribution and the reason you were looking at
+      it.
+  - q: What is a common mistake with these charts?
     a: >-
-      A bar graph can show frequency only for categorical data. It should not be
-      used for continuous numerical ranges because it cannot properly show
-      distribution patterns like skewness, clusters, or outliers, a histogram is
-      better for that.
-  - q: What chart should I use to show data distribution?
-    a: >-
-      A histogram is the best chart for showing data distribution. It groups
-      continuous values into ranges and displays frequency, making it easy to
-      spot patterns, variability, clusters, and outliers.
-  - q: Why use a histogram instead of a bar graph?
-    a: >-
-      Use a histogram when you need to understand the shape and spread of
-      continuous data. It reveals insights such as skewness, peaks, and outliers
-      that a bar graph cannot show effectively.
+      Using a histogram to compare groups, because it looks like a bar chart.
+      The result is a chart that appears to rank things but actually shows a
+      distribution in fixed order. Readers draw comparative conclusions from it,
+      and those conclusions have no basis in what the chart depicts.
 source:
   url: 'https://supaboard.ai/blog/bar-graph-vs-histogram'
   migratedAt: '2026-07-29'

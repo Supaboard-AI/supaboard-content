@@ -54,45 +54,47 @@ related:
   - sisense-alternatives
   - what-is-a-semantic-layer
 faq:
-  - q: >-
-      What is an ecommerce dashboard and why is it important for online store
-      growth?
+  - q: What is ecommerce analytics?
     a: >-
-      An ecommerce dashboard is a centralized analytics hub that combines sales,
-      marketing, and operational data into one interface. Research shows
-      dashboards help businesses track KPIs, improve efficiency, and increase
-      profitability by enabling faster data-driven decisions across teams.
-  - q: >-
-      What metrics should an ecommerce dashboard track for better performance
-      insights?
+      Ecommerce analytics joins storefront behaviour, order data, inventory and
+      marketing spend to explain what is driving revenue and what is holding it
+      back. The distinguishing difficulty is that the answer usually lives in
+      the join between systems rather than in any single platform's own
+      reporting.
+  - q: How do you reduce cart abandonment?
     a: >-
-      A strong ecommerce dashboard should track revenue, conversion rate, AOV,
-      CAC, CLV, cart abandonment, and campaign performance. These metrics help
-      businesses evaluate marketing effectiveness, monitor growth trends, and
-      optimize strategies using actionable, data-driven insights.
-  - q: >-
-      How do ecommerce dashboards improve decision-making and operational
-      efficiency?
+      By finding where in the funnel people leave rather than assuming it is
+      price. Instrument each step from cart viewed through payment succeeded. A
+      drop between shipping selection and payment indicates delivery cost; a
+      drop at payment attempt indicates something failing technically, and those
+      need entirely different responses.
+  - q: Why does segmenting matter before drawing conclusions?
     a: >-
-      Ecommerce dashboards provide real-time visibility into performance,
-      allowing teams to identify trends, resolve bottlenecks, and optimize
-      campaigns quickly. Studies show unified analytics improves planning,
-      customer experience, and operational efficiency across growing ecommerce
-      businesses.
-  - q: >-
-      Which tools are best for building ecommerce dashboards for growing
-      businesses?
+      Because abandonment differs sharply by device, by new versus returning
+      customer, by traffic source and by basket value. A mobile-only collapse at
+      the address step is a form usability problem. A high-value-basket collapse
+      is a trust or payment-method problem. Averaged together, both disappear
+      entirely.
+  - q: How much abandonment is actually failed payment?
     a: >-
-      Popular ecommerce dashboard tools include Google Analytics, Shopify
-      Analytics, Tableau, Power BI, and Looker Studio. These platforms integrate
-      multiple data sources, automate reporting workflows, and support scalable
-      analytics strategies for growing ecommerce teams.
-  - q: How can small ecommerce businesses use dashboards to scale faster?
+      A meaningful share in most stores, and it is the cheapest thing to fix
+      because the customer already decided to buy. It appears in the data as
+      intent to pay without completion. Stores that never separate declines from
+      abandonment spend on winning back customers who were trying to pay.
+  - q: Which ecommerce metrics matter most?
     a: >-
-      Small ecommerce businesses can use dashboards to monitor traffic sources,
-      track conversions, optimize marketing spend, and forecast demand. Research
-      shows analytics-driven strategies improve targeting, increase ROI, and
-      support sustainable growth across customer lifecycle stages.
+      Conversion rate by step rather than overall, average order value, repeat
+      purchase rate, contribution margin after fulfilment and acquisition cost,
+      and stockout rate on fast-moving items. The common gap is measuring
+      outcomes without measuring the intermediate steps that would explain why
+      an outcome moved.
+  - q: Why join marketing data to order data?
+    a: >-
+      Because channel performance judged inside each ad platform is judged on
+      that platform's own attribution. Gabriella.pl found the channel with its
+      highest cost per lead also had its strongest close rate, a conclusion
+      invisible in any single platform's reporting and one that reverses the
+      obvious budget decision.
 source:
   url: >-
     https://supaboard.ai/blog/the-modern-ecommerce-dashboard-insights-you-can-act-on

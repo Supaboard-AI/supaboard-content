@@ -49,29 +49,47 @@ related:
   - sisense-alternatives
   - what-is-a-semantic-layer
 faq:
-  - q: What are SaaS business intelligence solutions?
+  - q: What is SaaS business intelligence?
     a: >-
-      SaaS business intelligence solutions are cloud-based analytics platforms
-      that track subscription revenue, product usage, customer behavior, and
-      performance metrics to support faster, data-driven decisions.
-  - q: How is SaaS BI different from traditional BI?
+      SaaS business intelligence analyses the interlocking metrics a
+      subscription business runs on: acquisition cost, activation, retention,
+      expansion and churn. What makes it distinct is that no single metric means
+      anything alone, so the analytical work is mostly about joining product,
+      billing and CRM data correctly.
+  - q: Which SaaS metrics matter most?
     a: >-
-      SaaS BI is real time, cloud native, and built for SaaS metrics.
-      Traditional BI is batch based and slower to scale.
-  - q: Who uses SaaS BI solutions?
+      Net revenue retention, customer acquisition cost payback, activation rate
+      and gross churn, read together rather than separately. Growth that looks
+      healthy on new bookings can conceal deteriorating retention for two
+      quarters, which is why retention metrics deserve more attention than
+      acquisition metrics at most stages.
+  - q: Why is cohort analysis so important for SaaS?
     a: >-
-      Product managers, sales teams, marketers, customer success managers,
-      finance leaders, and executives use SaaS BI solutions to monitor
-      performance, identify trends, and align decisions across teams.
-  - q: Are SaaS BI solutions suitable for enterprise companies?
+      Because aggregate churn mixes customers acquired under different
+      conditions, products and pricing. A cohort view shows whether recent
+      customers behave differently from older ones, which is the earliest signal
+      that something has changed. Aggregate figures move slowly enough to hide a
+      problem for months.
+  - q: Where does SaaS reporting most often go wrong?
     a: >-
-      Yes, enterprise-ready SaaS BI solutions offer scalability, governance,
-      role-based security, and high-performance analytics for large teams and
-      customer-facing reporting environments.
-  - q: Are SaaS BI tools suitable for enterprise scale?
+      In cohort logic and in defining the denominator. Whether trials,
+      downgrades and reactivations count changes churn substantially, and teams
+      frequently make those choices implicitly inside a dashboard rather than
+      deliberately as a definition. Two dashboards then disagree and nobody can
+      say which is correct.
+  - q: What data has to be joined for SaaS analytics?
     a: >-
-      Yes, leading platforms offer governance, scalability, and security
-      features for large teams.
+      Product usage, billing and CRM at minimum, reconciled on a shared account
+      identifier. The reconciliation is the work: the same customer commonly
+      exists as different records in each system, and until those are matched,
+      any metric spanning behaviour and revenue is approximate at best.
+  - q: Does a SaaS company need a dedicated analyst?
+    a: >-
+      Not necessarily, but it does need somebody owning metric definitions. The
+      retrieval bottleneck is removable with modern tooling; the definitional
+      one is not. A company where nobody is accountable for what churn means
+      will produce several churn numbers regardless of how capable its analytics
+      platform is.
 source:
   url: 'https://supaboard.ai/blog/saas-business-intelligence'
   migratedAt: '2026-07-29'

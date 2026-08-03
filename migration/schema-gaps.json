@@ -3,9 +3,8 @@
   "passing": 0,
   "failing": 47,
   "byField": {
-    "faq": 57,
     "statsCount": 45,
-    "internalLinks": 3
+    "internalLinks": 6
   },
   "posts": {
     "agentic-analytics": [
@@ -24,10 +23,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "bar-graph-vs-histogram": [
-      "faq.3.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
-      "faq.5.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.6.a: answer is 29 words, must be 40–80 (the extraction unit models quote)",
-      "faq.7.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "bi-dashboards": [
@@ -37,30 +32,12 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-connectivity": [
-      "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
-      "faq.6.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
-      "faq.8.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
-      "faq.9.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-engineering": [
-      "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 32 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
-      "faq.5.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
-      "faq.6.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-science-vs-data-analytics": [
-      "faq.0.a: answer is 21 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 22 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 26 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 22 words, must be 40–80 (the extraction unit models quote)",
-      "faq.5.a: answer is 9 words, must be 40–80 (the extraction unit models quote)",
-      "faq.6.a: answer is 12 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-visualization-tools": [
@@ -70,20 +47,12 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "database-vs-data-warehouse-vs-data-lake": [
-      "faq.4.a: answer is 87 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "dbt": [
       "statsCount: at least 4 verifiable statistics"
     ],
     "ecommerce-analytics": [
-      "faq.0.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "embedded-analytics": [
@@ -93,11 +62,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "financial-dashboard-examples": [
-      "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq.6.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "from-4-hours-to-2-minutes-rcm-analytics": [
@@ -107,12 +71,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "healthcare-analytics": [
-      "faq.0.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 18 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 20 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 20 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
-      "faq.5.a: answer is 82 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "how-to-evaluate-ai-bi-tools": [
@@ -128,12 +86,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "manufacturing-analytics": [
-      "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "metabase-alternatives": [
@@ -151,16 +103,7 @@
     "real-time-analytics": [
       "statsCount: at least 4 verifiable statistics"
     ],
-    "retail-business-intelligence": [
-      "faq.5.a: answer is 37 words, must be 40–80 (the extraction unit models quote)"
-    ],
     "saas-business-intelligence": [
-      "faq.0.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 21 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 26 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 20 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 12 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "self-service-bi": [
@@ -188,9 +131,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-an-ad-hoc-query": [
-      "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-data-modeling": [
@@ -205,6 +145,11 @@
     "best-ai-bi-tools": [
       "internalLinks: internal link \"data-visualization-tools\" resolves to no post",
       "internalLinks: internal link \"how-to-evaluate-ai-bi-tools\" resolves to no post",
+      "internalLinks: internal link \"is-ai-bi-just-text-to-sql\" resolves to no post"
+    ],
+    "retail-business-intelligence": [
+      "internalLinks: internal link \"data-visualization-tools\" resolves to no post",
+      "internalLinks: internal link \"ecommerce-analytics\" resolves to no post",
       "internalLinks: internal link \"is-ai-bi-just-text-to-sql\" resolves to no post"
     ]
   }

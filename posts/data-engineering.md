@@ -49,44 +49,46 @@ related:
   - what-is-a-semantic-layer
   - positive-vs-negative-correlation
 faq:
-  - q: 1\. What will data engineering look like in 2027?
+  - q: What is data engineering?
     a: >-
-      Data engineering in 2027 will focus less on building pipelines and more on
-      designing intelligent systems. Engineers will work closely with AI,
-      real-time data, and business teams to deliver faster, more reliable
-      insights instead of just managing data flow.
-  - q: 2\. Will AI replace data engineers in the future?
+      Data engineering builds and maintains the systems that move data from
+      source systems into a form analysts and applications can use: ingestion,
+      transformation, storage, orchestration and quality monitoring. It is the
+      plumbing everything else depends on, and it becomes visible mainly when
+      something breaks.
+  - q: Will AI replace data engineers?
     a: >-
-      AI will automate repetitive tasks like query writing and pipeline setup,
-      but it won’t replace engineers who understand systems, data logic, and
-      business context. The role will evolve, but skilled data engineers will
-      remain essential.
-  - q: 3\. What skills will be most valuable for data engineers in 2027?
+      No, because the hard part was never writing the code. AI generates
+      transformations and scaffolds pipelines well. It cannot decide whether a
+      refunded order counts, which of two conflicting source systems is
+      authoritative, or why a job that succeeded produced a wrong number. Those
+      are business decisions surfacing as schema decisions.
+  - q: What skills matter most for data engineers now?
     a: >-
-      Skills like system design, data modeling, real-time processing, and AI
-      integration will be the most valuable. Engineers who can connect data with
-      real business outcomes will stand out more than those focused only on
-      tools.
-  - q: 4\. Is data engineering still a good career choice in 2027?
+      SQL and data modelling remain foundational. Beyond those, the
+      differentiating skills are designing contracts between systems, reasoning
+      about cost as well as correctness, and defining what measures mean. The
+      work has shifted from writing boilerplate transformations toward deciding
+      what the pipeline should produce.
+  - q: How is data engineering different from analytics engineering?
     a: >-
-      Yes, data engineering will continue to be a strong career. As companies
-      rely more on data and AI, the demand for engineers who can build scalable
-      and reliable systems will keep growing.
-  - q: 5\. How will AI change the day-to-day work of data engineers?
+      Data engineering owns the platform: ingestion, infrastructure, reliability
+      and cost. Analytics engineering owns the transformation and modelling of
+      data already in the warehouse, usually in SQL. The split emerged because
+      warehouse tooling made transformation accessible to people who do not
+      maintain infrastructure.
+  - q: Do small companies need a data engineer?
     a: >-
-      AI will reduce manual work like writing queries or debugging pipelines,
-      allowing engineers to focus more on system design, data quality, and
-      improving how data is used across the organization.
-  - q: 6\. What makes a data engineer future-proof?
+      Often not initially. Managed connectors and cloud warehouses handle much
+      of what previously required one, and a capable analyst can go a long way.
+      The need appears when pipelines break in ways nobody can diagnose, or when
+      cost grows faster than usage and nobody can explain why.
+  - q: What is the most underestimated part of the job?
     a: >-
-      A future-proof data engineer focuses on fundamentals like system design,
-      understands business context, and adapts to new technologies like AI and
-      real-time systems instead of relying only on specific tools.
-  - q: 7\. What is the difference between data engineers today vs in 2027?
-    a: >-
-      Today’s data engineers focus mainly on pipelines and storage. In 2027,
-      they will act more like data product architects, responsible for building
-      systems that directly support decision-making and AI applications
+      Diagnosing failures that are not errors. The job ran, the row count looks
+      normal, and the number is wrong because an upstream team changed a field's
+      meaning without changing its name. No alert fires, and finding it requires
+      knowing both the systems and the people who own them.
 source:
   url: 'https://supaboard.ai/blog/future-of-data-engineering'
   migratedAt: '2026-07-29'

@@ -51,36 +51,45 @@ related:
 faq:
   - q: What is manufacturing analytics?
     a: >-
-      Manufacturing analytics is the process of collecting, analyzing, and
-      turning data from factory machines, sensors, production lines, ERP
-      systems, and supply chains into clear, actionable insights. It helps
-      manufacturers reduce downtime, improve quality, and make faster, better
-      decisions.
-  - q: How does predictive analytics in manufacturing work?
+      Manufacturing analytics joins machine telemetry, production records and
+      quality data to commercial outcomes, so decisions about maintenance,
+      scheduling and quality are made on evidence. The defining challenge is
+      that operational technology and business systems were rarely designed to
+      share identifiers or timestamps.
+  - q: Does predictive maintenance actually pay back?
     a: >-
-      Predictive analytics in manufacturing uses sensor data and machine
-      learning to forecast equipment failures, quality issues, and demand
-      changes before they occur. This shifts operations from reactive to
-      proactive, helping reduce unplanned downtime and maintenance costs.
-  - q: What are the key benefits of manufacturing data analytics?
+      Where downtime has a measured cost, yes. Where it does not, predictive
+      maintenance becomes an expensive way to replace parts earlier than
+      necessary. The economics turn on knowing what an hour of unplanned
+      stoppage costs, and many manufacturers have never calculated that figure
+      precisely.
+  - q: Which manufacturing metrics matter most?
     a: >-
-      Manufacturing data analytics improves Overall Equipment Effectiveness
-      (OEE), reduces waste and defects, optimizes inventory, strengthens supply
-      chain visibility, and lowers operational costs. It provides real-time
-      insights that help manufacturers become more efficient and competitive.
-  - q: >-
-      Is manufacturing analytics suitable for small and medium-sized
-      manufacturers?
+      Overall equipment effectiveness, first-pass yield, unplanned downtime and
+      scrap rate. The frequent gap is measuring these at plant level only, which
+      conceals the line or shift where the loss concentrates. Aggregate figures
+      stay reassuringly stable while a specific asset quietly degrades
+      underneath them.
+  - q: What makes manufacturing data hard to work with?
     a: >-
-      Yes. Many modern solutions are scalable and cloud-based, allowing smaller
-      manufacturers to start with one production line or a specific use case
-      such as predictive maintenance and expand gradually as they see results.
-  - q: How do I choose the best manufacturing analytics software?
+      Volume, and reconciliation. Sensors produce far more data than business
+      systems, at a different granularity and often with unsynchronised clocks.
+      Joining a machine event to an order requires deliberate work on
+      identifiers and timestamps, and skipping it produces durations that are
+      quietly wrong.
+  - q: Is quality data underused?
     a: >-
-      Choose manufacturing analytics software based on strong OT/IT integration,
-      real-time performance, ease of use, scalability, and industrial-grade
-      security. Prioritize platforms that offer self-service capabilities and
-      quick time-to-value without complex setups.
+      Usually, and it is often the most complete data a manufacturer holds.
+      Quality records are captured rigorously for compliance and then rarely
+      analysed for pattern. Joining them to machine and scheduling data
+      frequently identifies causes that were previously attributed to operator
+      variation.
+  - q: Where should a manufacturer start?
+    a: >-
+      With one line and one measured cost. Instrumenting everything at once
+      produces a data platform before it produces a decision. Choosing a single
+      asset where downtime or scrap has a known financial value gives you a
+      payback figure that funds the next step and proves the approach.
 source:
   url: 'https://supaboard.ai/blog/manufacturing-analytics'
   migratedAt: '2026-07-29'

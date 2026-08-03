@@ -49,50 +49,47 @@ related:
   - what-is-a-semantic-layer
   - positive-vs-negative-correlation
 faq:
-  - q: 1\. Which One Is AWS Data Warehouse and Data Lake?
+  - q: 'What is the difference between a database, a warehouse and a lake?'
     a: >-
-      On AWS, Amazon Redshift is the primary data warehouse service used for
-      analytics, reporting, and business intelligence. It stores structured and
-      processed data for fast querying. Amazon S3 acts as the main data lake,
-      where companies store raw files, logs, and large datasets. In most
-      architectures, data is first stored in S3 and then analyzed in Redshift,
-      creating a complete cloud analytics ecosystem.
-  - q: 2\. What’s the Difference Between a Data Lake and a Data Warehouse?
+      A database serves transactions: fast reads and writes on current records.
+      A data warehouse serves analysis: structured historical data optimised for
+      aggregation across many rows. A data lake stores raw data of any shape
+      cheaply, imposing structure only when somebody reads it rather than when
+      it is written.
+  - q: Can I just run analytics on my production database?
     a: >-
-      A data lake stores raw data in its original format and is mainly used for
-      big data processing, experimentation, and machine learning. A data
-      warehouse stores cleaned and structured data optimized for reporting and
-      dashboards. In practice, data lakes offer flexibility and low cost, while
-      data warehouses provide accuracy, performance, and business-ready
-      insights.
-  - q: >-
-      3\. What’s the Difference Between a Database, a Data Warehouse, and a Data
-      Lake?
+      You can, and it is the most common and most expensive shortcut. Analytical
+      queries scan large numbers of rows, which competes with the transactional
+      workload your application depends on. It works until the day a report
+      locks a table during peak trading, which is usually how teams discover the
+      limit.
+  - q: What does schema-on-write versus schema-on-read mean?
     a: >-
-      A database supports daily operations such as user logins, orders, and
-      payments. A data warehouse is designed for analyzing historical business
-      data and generating reports. A data lake stores large volumes of raw data
-      for advanced analytics and AI. Together, these systems form a complete
-      data pipeline from operations to insights.
-  - q: 4\. Is a Data Warehouse Bigger Than a Database?
+      A warehouse imposes structure when data is written, so modelling work
+      happens up front and queries are fast and predictable. A lake accepts raw
+      data and imposes structure when read, deferring the work. The choice
+      decides who pays the modelling cost and whether it is paid once or
+      repeatedly.
+  - q: What is a lakehouse?
     a: >-
-      In most organizations, a data warehouse is larger than a database because
-      it stores historical data collected from multiple systems over many years.
-      A database mainly contains current operational records. Since warehouses
-      are built for long-term analysis and reporting, their data volume usually
-      grows much faster than that of transactional databases.
-  - q: Conclusion
+      A lakehouse combines lake storage economics with warehouse-style structure
+      and transaction guarantees, aiming to remove the need to maintain both.
+      The approach is genuinely useful at scale; for smaller organisations it
+      often adds architectural complexity to solve a cost problem they do not
+      yet have.
+  - q: Which one do I actually need?
     a: >-
-      Choosing the right data system is essential for building reliable,
-      scalable, and data-driven applications. Databases support daily operations
-      and real-time transactions, data warehouses enable business intelligence
-      and reporting, and data lakes provide flexible storage for large-scale
-      analytics and machine learning. Each system serves a unique purpose, and
-      using the wrong one can lead to performance issues and inaccurate
-      insights. By understanding their differences, strengths, and use cases,
-      organizations can design a balanced data architecture that supports
-      growth, improves decision-making, and maximizes the long-term value of
-      their data.
+      Most companies need a warehouse and already have the database. A lake
+      becomes worthwhile when you have substantial volumes of semi-structured
+      data, such as logs or events, that would be expensive to model up front
+      and that you may never query. Buying one prematurely is common.
+  - q: How does this affect what I can ask?
+    a: >-
+      Directly. A production database usually holds current state without
+      history, so questions about how something changed over time are
+      unanswerable regardless of your analytics tool. The storage decision
+      constrains the questions available, and that constraint is discovered long
+      after the architecture is settled.
 source:
   url: 'https://supaboard.ai/blog/database-vs-data-warehouse-vs-data-lake-guide'
   migratedAt: '2026-07-29'

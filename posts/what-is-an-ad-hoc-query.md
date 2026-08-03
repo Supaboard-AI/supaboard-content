@@ -51,45 +51,44 @@ related:
   - sisense-alternatives
   - what-is-a-semantic-layer
 faq:
-  - q: What is an ad hoc query in simple terms?
+  - q: What is an ad hoc query?
     a: >-
-      An ad hoc query is a custom data question created on the spot to solve a
-      specific problem. Unlike regular reports, it is not pre-built or
-      scheduled. It helps users explore data immediately when something
-      unexpected or unclear needs explanation.
-  - q: What are ad hoc queries used for?
+      An ad hoc query is a data question created on the spot to answer something
+      specific and unplanned, rather than a pre-built report that runs on a
+      schedule. It exists because something unexpected happened and the existing
+      dashboards did not anticipate the question being asked.
+  - q: How is it different from a report?
     a: >-
-      Ad hoc queries are used for quick investigation, validation, and
-      exploration. Teams rely on them when they notice unusual trends, sudden
-      drops, or spikes in performance and need fast answers without waiting for
-      new dashboards or reports.
-  - q: Are ad hoc queries the same as SQL queries?
+      A report is designed once and reused, covering questions somebody
+      anticipated. An ad hoc query is created for a single situation and may
+      never run again. Reports answer known questions reliably; ad hoc queries
+      answer new ones, and a healthy analytics function needs both rather than
+      choosing between them.
+  - q: Do ad hoc queries require SQL?
     a: >-
-      No. SQL is just one way to create ad hoc queries. Many modern BI tools let
-      users build them visually using filters, charts, and drag-and-drop
-      interfaces. SQL is optional and mostly used by advanced or technical
-      users.
-  - q: What is an example of ad hoc analysis?
+      Not necessarily. SQL is one way to express them, and modern BI tools let
+      users build the same queries visually or by asking in plain language. What
+      matters is not the syntax but whether the person with the question can
+      express it without waiting for somebody else.
+  - q: Why do ad hoc requests overwhelm analytics teams?
     a: >-
-      A common example of ad hoc analysis is investigating why churn suddenly
-      increased for one customer segment after a pricing update. This type of
-      analysis is temporary, exploratory, and focused on understanding a
-      specific situation.
-  - q: What are ad hoc queries?
+      Because they are the questions dashboards did not anticipate, and there
+      will always be more of those than of anticipated ones. Every unanticipated
+      question becomes a request, requests queue behind planned work, and the
+      queue grows faster than any team can build views to pre-empt it.
+  - q: How do you reduce ad hoc data requests?
     a: >-
-      Ad hoc queries are on-demand data queries created to answer specific,
-      unplanned questions that are not covered by predefined reports or
-      dashboards. They allow users to explore data freely by applying filters,
-      grouping dimensions, and comparing metrics in real time. Ad hoc queries
-      are commonly used in business intelligence to investigate unexpected
-      trends, validate assumptions, and uncover insights quickly without waiting
-      for new reports to be built.
-  - q: Can non-technical users run ad hoc queries?
+      By making the common ones answerable without an analyst, not by refusing
+      them. Log requests for a month to find which few questions dominate the
+      volume, define the metrics behind them once, and give people a way to ask
+      that does not require SQL. Keep an escalation path for genuinely hard
+      questions.
+  - q: Is self-service enough to eliminate ad hoc requests?
     a: >-
-      Yes. Most modern BI platforms support self-service ad hoc querying,
-      allowing both technical and non-technical users to explore data using
-      simple interfaces. Users can filter, group, and compare data without
-      writing code or relying on analysts. Know more about top BI tools.
+      No, and promising that is how self-service programmes lose credibility.
+      Some questions genuinely need an analyst, because they require knowing
+      where the data lies and which joins mislead. The goal is changing the
+      shape of the queue so what remains is worth an analyst's time.
 source:
   url: 'https://supaboard.ai/blog/what-is-an-ad-hoc-query'
   migratedAt: '2026-07-29'

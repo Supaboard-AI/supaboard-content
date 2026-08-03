@@ -52,71 +52,45 @@ related:
   - what-is-a-semantic-layer
   - positive-vs-negative-correlation
 faq:
-  - q: What is data connectivity in simple terms?
+  - q: What is data connectivity?
     a: >-
-      Data connectivity allows different systems and tools to share and access
-      data seamlessly. Instead of working in silos, businesses can use connected
-      data to get a unified view across teams, improving accuracy and reducing
-      manual work in everyday operations.
-  - q: Why is data connectivity important for business intelligence (BI)?
+      Data connectivity is the ability to connect systems, applications and
+      databases so data can move between them reliably, often in near real time.
+      It is what makes a question spanning your CRM, billing system and product
+      database answerable at all, rather than answerable only within each system
+      separately.
+  - q: What is the difference between application and data integration?
     a: >-
-      Data connectivity in BI ensures that dashboards and reports are based on
-      complete, real-time data. Without it, insights become fragmented or
-      outdated. Connected systems help teams rely on accurate analytics, making
-      it easier to track performance and make faster, data-driven decisions.
-  - q: How is data connectivity different from data integration?
+      Application integration moves events between live systems so they can act:
+      a deal closes, an invoice is raised. Data integration consolidates records
+      into one place so they can be analysed together. One asks whether a
+      process completed; the other asks whether a person can answer a question.
+  - q: What happens if you confuse the two?
     a: >-
-      Data connectivity vs data integration differs in purpose. Connectivity
-      focuses on enabling continuous data access across systems, while
-      integration focuses on combining and transforming data into a unified
-      format. Both work together, but connectivity ensures data flows, while
-      integration makes it analysis-ready.
-  - q: What are examples of data connectivity in business?
+      You build the wrong thing competently. Using application integration to
+      create a reporting layer produces a system with no history and a query
+      load the source was never designed for. Using data integration to run a
+      workflow produces a batch job that cannot trigger anything time-sensitive.
+  - q: What are the main connectivity methods?
     a: >-
-      Common data connectivity examples include linking CRM with finance tools
-      to track revenue, connecting marketing platforms with analytics tools for
-      campaign performance, and syncing ERP systems with inventory databases.
-      These connections allow businesses to access insights without switching
-      between multiple tools.
-  - q: How does AI use connected data?
+      APIs for real-time exchange, batch pipelines for large scheduled volumes,
+      streaming for continuous low-latency movement, and direct database
+      connections for speed at the cost of flexibility. Most organisations end
+      up using several, and the failure mode is choosing one method for every
+      case out of habit.
+  - q: Why does connectivity matter for AI analytics?
     a: >-
-      AI and data connectivity work together to improve predictions and
-      automation. When data from multiple systems is connected, AI models can
-      analyze patterns more accurately, deliver better recommendations, and
-      automate workflows. Poor connectivity leads to incomplete data, which
-      reduces AI effectiveness.
-  - q: What happens when businesses lack data connectivity?
+      Because an AI system answering questions across disconnected sources
+      produces confident answers within each silo and no answer across them.
+      Pointing a conversational interface at five unreconciled databases yields
+      five disconnected results, which reads as capability while being precisely
+      the problem you were trying to solve.
+  - q: What breaks first without good connectivity?
     a: >-
-      Without data connectivity, organizations deal with data silos, slow
-      reporting, and manual processes. Teams spend more time gathering data than
-      analyzing it, which delays decisions and reduces efficiency. Over time,
-      inconsistent data lowers trust in analytics and impacts business
-      performance.
-  - q: What is data connectivity technology?
-    a: >-
-      Data connectivity technology includes APIs, data connectors, ETL
-      pipelines, and integration platforms that enable systems to communicate.
-      Tools like APIs allow real-time data exchange, while ETL pipelines process
-      large datasets. Learn more from Salesforce.
-  - q: What are the pros and cons of data connectivity methods?
-    a: >-
-      Different data connectivity methods have trade-offs. APIs offer real-time
-      data access but require maintenance. ETL pipelines handle large volumes
-      but introduce delays. Direct connections are fast but less flexible.
-      Choosing the right approach depends on scalability, speed, and system
-      complexity.
-  - q: What are the types of data connectivity methods?
-    a: >-
-      The main types of data connectivity include API-based connectivity, batch
-      processing (ETL), real-time streaming, and direct database connections.
-      Each method supports different use cases based on data volume, speed
-      requirements, and business needs.
-  - q: How does data connectivity improve data quality?
-    a: >-
-      Data connectivity improves data quality by ensuring consistency across
-      systems. When data is synchronized and updated in real time, duplication
-      and errors are reduced. This helps businesses maintain reliable datasets,
-      which are essential for accurate reporting and decision-making.
+      Cross-system questions. Anything answerable within one tool continues to
+      work, which disguises the problem, while questions spanning tools quietly
+      become impossible and stop being asked. Teams then conclude the data does
+      not exist, when in fact it exists in three places that were never joined.
 source:
   url: 'https://supaboard.ai/blog/data-connectivity'
   migratedAt: '2026-07-29'
