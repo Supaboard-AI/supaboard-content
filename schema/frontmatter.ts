@@ -270,8 +270,11 @@ export function validateCorpus(
     }
   }
 
-  // Internal links must resolve to a post that exists.
-  const present = new Set(valid.map((v) => v.slug));
+  // Internal links must resolve to a post that exists — which means every
+  // document supplied, not only the ones that passed. Checking against `valid`
+  // would make one post's schema failure cascade into false "resolves to no
+  // post" errors on every page that links to it.
+  const present = new Set(docs.map((d) => d.slug));
   for (const { slug, data } of valid) {
     for (const target of data.internalLinks) {
       if (!present.has(target)) {

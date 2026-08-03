@@ -1,10 +1,9 @@
 {
   "postCount": 47,
-  "passing": 0,
-  "failing": 47,
+  "passing": 2,
+  "failing": 45,
   "byField": {
-    "statsCount": 45,
-    "internalLinks": 6
+    "statsCount": 45
   },
   "posts": {
     "agentic-analytics": [
@@ -141,16 +140,6 @@
     ],
     "will-ai-replace-data-analysts": [
       "statsCount: at least 4 verifiable statistics"
-    ],
-    "best-ai-bi-tools": [
-      "internalLinks: internal link \"data-visualization-tools\" resolves to no post",
-      "internalLinks: internal link \"how-to-evaluate-ai-bi-tools\" resolves to no post",
-      "internalLinks: internal link \"is-ai-bi-just-text-to-sql\" resolves to no post"
-    ],
-    "retail-business-intelligence": [
-      "internalLinks: internal link \"data-visualization-tools\" resolves to no post",
-      "internalLinks: internal link \"ecommerce-analytics\" resolves to no post",
-      "internalLinks: internal link \"is-ai-bi-just-text-to-sql\" resolves to no post"
     ]
   }
 }
