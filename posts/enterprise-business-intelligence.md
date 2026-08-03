@@ -5,7 +5,7 @@ title: 'What Is Enterprise Business Intelligence? Benefits, Use Cases & Tools (2
 description: >-
   A simple guide to enterprise business intelligence covering use cases,
   benefits, tools, and how AI is changing BI in 2026.
-category: product
+category: data
 tags:
   - Business Intelligence
 publishedAt: '2026-03-12'
@@ -58,8 +58,8 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/enterprise-business-intelligence'
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 internalLinks:
+  - business-intelligence
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
 citations:
@@ -75,6 +75,25 @@ citations:
   - claim: Enterprise BI platforms are defined by governance as much as by analysis
     source: Google Cloud
     url: 'https://cloud.google.com/learn/what-is-business-intelligence'
+pillar: choosing-ai-bi
+cluster: bi-fundamentals
+targetQuery: enterprise business intelligence
+intent: commercial
+audience: data-team
+funnel: mofu
+tldr:
+  - >-
+    Enterprise BI is defined by governance and access control as much as by
+    analysis.
+  - >-
+    The scaling problem is organisational: more teams means more contested
+    definitions.
+  - >-
+    Buying capability before agreeing definitions publishes the disagreement
+    faster.
+caseStudies:
+  - /case-study/jindal-healthcare
+statsCount: 1
 ---
 
 <!-- section:content-1 -->

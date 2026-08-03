@@ -6,7 +6,7 @@ description: >-
   Text-to-SQL turns a question into a query. AI-native BI understands the
   business. Here's the real difference, with a worked NRR example and a 5-min
   test.
-category: product
+category: engineering
 tags:
   - Business Intelligence
 publishedAt: '2026-06-01'
@@ -91,8 +91,8 @@ source:
   url: >-
     https://supaboard.ai/blog/is-ai-bi-just-text-to-sql-the-honest-difference-with-examples
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 internalLinks:
+  - agentic-analytics
   - data-visualization-tools
   - retail-business-intelligence
 citations:
@@ -107,6 +107,25 @@ citations:
   - claim: A semantic layer sits between raw tables and the query interface
     source: Cube
     url: 'https://cube.dev/'
+pillar: trustworthy-ai
+cluster: ai-bi
+targetQuery: ai bi vs text to sql
+intent: informational
+audience: both
+funnel: mofu
+tldr:
+  - >-
+    Text-to-SQL translates a question into a query against whatever the schema
+    happens to contain.
+  - >-
+    AI BI resolves the question against governed definitions before any SQL is
+    written.
+  - >-
+    The gap appears on why-questions, where computing the number is the easy
+    half.
+caseStudies:
+  - /case-study/jindal-healthcare
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

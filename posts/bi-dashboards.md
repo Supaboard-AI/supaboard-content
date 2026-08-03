@@ -75,7 +75,6 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/bi-dashboard-guide'
   migratedAt: '2026-07-29'
-legacyCategory: Business
 absorbed:
   - >-
     https://supaboard.ai/blog/5-ways-saas-startups-use-no-code-dashboards-to-win-investors
@@ -83,6 +82,8 @@ absorbed:
   - >-
     https://supaboard.ai/blog/what-is-a-decision-making-dashboard-importance-benefits-and-how-to-build-one
 internalLinks:
+  - apache-superset-alternatives
+  - best-ai-bi-tools
   - financial-dashboard-examples
 citations:
   - claim: Reference on gartner from Gartner
@@ -94,6 +95,21 @@ citations:
   - claim: Dashboards are one delivery mechanism within business intelligence
     source: IBM
     url: 'https://www.ibm.com/think/topics/business-intelligence'
+pillar: choosing-ai-bi
+cluster: dashboards
+targetQuery: bi dashboard
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - >-
+    A decision-making dashboard exists to trigger a specific action by a
+    specific person.
+  - 'If you cannot name that action, the dashboard has no reason to exist.'
+  - >-
+    The test is not whether people like it but whether anything different
+    happened.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

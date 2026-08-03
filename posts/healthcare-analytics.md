@@ -99,7 +99,6 @@ source:
   url: >-
     https://supaboard.ai/blog/ai-predictive-analytics-in-healthcare-how-data-is-transforming-patient-care
   migratedAt: '2026-07-29'
-legacyCategory: General
 citations:
   - claim: industry reports show
     source: data.folio3.com
@@ -110,6 +109,27 @@ citations:
   - claim: The NIST AI Risk Management Framework governs high-stakes AI deployment
     source: NIST
     url: 'https://www.nist.gov/itl/ai-risk-management-framework'
+pillar: healthcare-rcm
+cluster: verticals
+targetQuery: healthcare predictive analytics
+intent: commercial
+audience: ops-business
+funnel: mofu
+tldr:
+  - Healthcare analytics is constrained first by what data may legally move.
+  - >-
+    Masking protected health information before analysis is an architectural
+    decision, not a policy one.
+  - >-
+    Predictive models in care settings need explainability to be actionable at
+    all.
+caseStudies:
+  - /case-study/jindal-healthcare
+internalLinks:
+  - ecommerce-analytics
+  - logistics-analytics
+  - manufacturing-analytics
+statsCount: 1
 ---
 
 <!-- section:content-1 -->

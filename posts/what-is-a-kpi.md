@@ -82,9 +82,9 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/what-is-a-kpi-guide'
   migratedAt: '2026-07-29'
-legacyCategory: General
 internalLinks:
   - ai-data-analyst
+  - data-science-vs-data-analytics
   - from-4-hours-to-2-minutes-rcm-analytics
 citations:
   - claim: Reference on gartner from Gartner
@@ -98,6 +98,21 @@ citations:
       reporting one
     source: Google Cloud
     url: 'https://cloud.google.com/learn/what-is-business-intelligence'
+pillar: metrics-sql
+cluster: analytics-fundamentals
+targetQuery: what is a kpi
+intent: informational
+audience: ops-business
+funnel: tofu
+tldr:
+  - A KPI is a measure tied to a decision somebody actually makes.
+  - >-
+    Most KPI sets fail because nobody agreed the formula, not because the metric
+    was wrong.
+  - >-
+    If a number would not change what you do, it is a statistic rather than a
+    KPI.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

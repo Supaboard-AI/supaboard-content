@@ -6,7 +6,7 @@ description: >-
   How teams with no analysts build a single source of truth, agree on shared
   metric definitions, and answer their own data questions without joining a
   queue.
-category: data
+category: company
 tags:
   - Building Supaboard
 publishedAt: '2026-05-22'
@@ -53,7 +53,6 @@ source:
   url: >-
     https://supaboard.ai/blog/how-supaboard-democratizes-data-analytics-no-more-tech-team-dependence
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - >-
     https://supaboard.ai/blog/how-do-we-create-a-single-source-of-truth-for-our-business-data
@@ -67,6 +66,8 @@ absorbed:
     https://supaboard.ai/blog/why-more-data-isn-t-always-better-how-simple-workspaces-bring-real-clarity
 internalLinks:
   - bar-graph-vs-histogram
+  - natural-language-query-analytics
+  - self-service-bi
 citations:
   - claim: Reference on llms from IBM
     source: IBM
@@ -77,6 +78,28 @@ citations:
   - claim: Self-service BI is defined by who can answer a question without an analyst
     source: Google Cloud
     url: 'https://cloud.google.com/learn/what-is-business-intelligence'
+pillar: no-data-team
+cluster: self-service
+targetQuery: analytics without a data team
+intent: commercial
+audience: ops-business
+funnel: mofu
+tldr:
+  - 'Companies without analysts do not have a tooling gap, they have a queue.'
+  - >-
+    Building a single source of truth is three steps: connect the sources,
+    define the shared metrics, publish where people work.
+  - >-
+    The middle step is the one teams skip, and skipping it distributes the
+    ambiguity instead of removing the bottleneck.
+  - >-
+    Objection.ai runs eleven unified data sources with zero data analysts on
+    staff.
+caseStudies:
+  - /case-study/objection.ai
+  - /case-study/gabriella.pl
+  - /case-study/legend-ehr
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

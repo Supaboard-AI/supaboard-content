@@ -78,7 +78,6 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/real-time-analytics-platform'
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - 'https://supaboard.ai/blog/business-activity-monitoring'
   - >-
@@ -87,6 +86,7 @@ absorbed:
     https://supaboard.ai/blog/what-is-real-time-analytics-definition-benefits-examples
 internalLinks:
   - ai-data-analyst
+  - business-intelligence
   - from-4-hours-to-2-minutes-rcm-analytics
 citations:
   - claim: >-
@@ -102,6 +102,23 @@ citations:
   - claim: Cloud warehouses support continuous loading for near-real-time queries
     source: Snowflake
     url: 'https://docs.snowflake.com/en/user-guide/intro-key-concepts'
+pillar: choosing-ai-bi
+cluster: bi-fundamentals
+targetQuery: real time analytics platform
+intent: commercial
+audience: both
+funnel: mofu
+tldr:
+  - >-
+    Real-time analytics narrows the gap between what is happening and what your
+    team knows.
+  - >-
+    Business activity monitoring watches processes; real-time analytics answers
+    questions.
+  - 'Both depend on knowing what normal is, which is a metric definition.'
+caseStudies:
+  - /case-study/legend-ehr
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

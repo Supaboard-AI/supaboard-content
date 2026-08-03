@@ -89,10 +89,10 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/data-visualization-tools'
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 absorbed:
   - 'https://supaboard.ai/blog/graphs-and-charts'
 internalLinks:
+  - bar-graph-vs-histogram
   - is-ai-bi-just-text-to-sql
   - retail-business-intelligence
 citations:
@@ -105,6 +105,23 @@ citations:
   - claim: 'Chart choice is a communication decision, not only a technical one'
     source: storytellingwithdata.com
     url: 'https://storytellingwithdata.com/blog'
+pillar: choosing-ai-bi
+cluster: visualisation
+targetQuery: data visualization tools
+intent: commercial
+audience: both
+funnel: mofu
+tldr:
+  - 'Every graph is a chart, and the naming matters far less than the encoding.'
+  - >-
+    Bars for comparing categories, lines for continuous change, histograms for
+    distribution.
+  - >-
+    Avoid dual axes: they let you manufacture a visual relationship between any
+    two series.
+caseStudies:
+  - /case-study/gabriella.pl
+statsCount: 1
 ---
 
 <!-- section:content-1 -->

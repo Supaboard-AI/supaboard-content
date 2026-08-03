@@ -87,9 +87,9 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/what-is-predictive-analytics-simple-guide'
   migratedAt: '2026-07-29'
-legacyCategory: General
 internalLinks:
   - ai-data-analyst
+  - data-science-vs-data-analytics
   - from-4-hours-to-2-minutes-rcm-analytics
 citations:
   - claim: Reference on predictive analytics from IBM
@@ -103,6 +103,19 @@ citations:
       within
     source: Amazon Web Services
     url: 'https://aws.amazon.com/what-is/business-intelligence/'
+pillar: metrics-sql
+cluster: analytics-fundamentals
+targetQuery: what is predictive analytics
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - Predictive analytics estimates future outcomes from historical patterns.
+  - Its accuracy is bounded by how unambiguously the target was defined.
+  - >-
+    A precise forecast built on a contested definition carries authority it has
+    not earned.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

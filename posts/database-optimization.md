@@ -86,8 +86,8 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/database-optimization'
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 internalLinks:
+  - data-connectivity
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
 citations:
@@ -100,6 +100,23 @@ citations:
   - claim: Columnar warehouse engines change which optimisations matter
     source: Google Cloud
     url: 'https://cloud.google.com/bigquery/docs/introduction'
+pillar: metrics-sql
+cluster: data-platform
+targetQuery: database optimization
+intent: informational
+audience: data-team
+funnel: tofu
+tldr:
+  - >-
+    Most performance problems trace to query plans and indexing rather than to
+    hardware.
+  - >-
+    Adding indexes speeds reads and slows every write, so the trade-off has to
+    be deliberate.
+  - >-
+    Scaling infrastructure to fix an inefficient join buys time at permanent
+    cost.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

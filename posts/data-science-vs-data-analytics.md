@@ -14,7 +14,7 @@ description: >-
   skills, responsibilities, salaries, and long-term career growth. This guide
   breaks down everything in a simple, clear way so you can confidently choose
   the right path.
-category: engineering
+category: data
 tags:
   - Data
 publishedAt: '2025-12-14'
@@ -98,9 +98,10 @@ source:
   url: >-
     https://supaboard.ai/blog/data-science-vs-data-analytics-what-you-need-to-know
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 internalLinks:
   - data-connectivity
+  - positive-vs-negative-correlation
+  - types-of-analytics
 citations:
   - claim: Tesla Use cases
     source: tesla.com
@@ -112,6 +113,21 @@ citations:
   - claim: Predictive modelling is where data science extends beyond analytics
     source: IBM
     url: 'https://www.ibm.com/think/topics/predictive-analytics'
+pillar: metrics-sql
+cluster: analytics-fundamentals
+targetQuery: data science vs data analytics
+intent: informational
+audience: data-team
+funnel: tofu
+tldr:
+  - >-
+    Data analytics explains what happened; data science builds systems that
+    predict what will.
+  - 'The tooling overlaps almost completely, which is why the titles blur.'
+  - >-
+    Most companies hiring a data scientist need an analyst and a clean
+    warehouse.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

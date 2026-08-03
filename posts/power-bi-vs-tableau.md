@@ -82,11 +82,11 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/power-bi-vs-tableau'
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 absorbed:
   - 'https://supaboard.ai/blog/tableau-vs-power-bi'
 internalLinks:
   - best-ai-bi-tools
+  - how-to-evaluate-ai-bi-tools
   - metabase-alternatives
 citations:
   - claim: Reference on power bi from Microsoft
@@ -120,6 +120,26 @@ citations:
   - claim: DAX is the expression language Power BI modelling depends on
     source: Microsoft Learn
     url: 'https://learn.microsoft.com/en-us/dax/dax-overview'
+pillar: choosing-ai-bi
+cluster: bi-tools
+targetQuery: power bi vs tableau
+intent: commercial
+audience: both
+funnel: mofu
+tldr:
+  - >-
+    If you are a Microsoft shop, Power BI wins on integration before price is
+    discussed.
+  - >-
+    Tableau suits people whose job is visual exploration; Power BI suits a
+    modelling layer and DAX.
+  - >-
+    Model both at three times your current user count, because the cost ranking
+    often flips.
+  - 'Both are tools for building views, and the building is a specialist job.'
+caseStudies:
+  - /case-study/gabriella.pl
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

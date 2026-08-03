@@ -6,7 +6,7 @@ description: >-
   Compare self-service BI vs traditional BI with real examples, key differences,
   pros & cons, and use cases. Learn which business intelligence approach is best
   for faster, data-driven decisions in 2026.
-category: engineering
+category: data
 tags:
   - Business Intelligence
 publishedAt: '2026-03-17'
@@ -92,12 +92,12 @@ source:
   url: >-
     https://supaboard.ai/blog/self-service-bi-vs-traditional-business-intelligence
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 absorbed:
   - >-
     https://supaboard.ai/blog/self-service-analytics-empowering-business-with-easy-data-exploration-and-trusted-insights
   - 'https://supaboard.ai/blog/self-service-bi-explained'
 internalLinks:
+  - analytics-without-a-data-team
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
 citations:
@@ -114,6 +114,21 @@ citations:
   - claim: Self-service BI shifts the query interface toward non-technical users
     source: Google Cloud
     url: 'https://cloud.google.com/learn/what-is-business-intelligence'
+pillar: no-data-team
+cluster: self-service
+targetQuery: self service bi vs traditional bi
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - >-
+    Self-service moves the interaction layer closer to the people with the
+    questions.
+  - >-
+    Without shared definitions it trades a bottleneck for an ambiguity that is
+    harder to notice.
+  - 'Governance work has to happen alongside access work, not after it.'
+statsCount: 1
 ---
 
 <!-- section:content-1 -->

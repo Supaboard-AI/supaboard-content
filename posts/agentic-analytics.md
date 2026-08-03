@@ -6,7 +6,7 @@ description: >-
   Agentic analytics vs. traditional BI tools: one helps you understand past
   performance, the other helps you decide what should happen next. Here’s how
   the gap between insight and action is closing.
-category: engineering
+category: product
 tags:
   - Business Intelligence
 publishedAt: '2026-04-20'
@@ -47,10 +47,10 @@ faq: []
 source:
   url: 'https://supaboard.ai/blog/agentic-analytics-vs-traditional-bi-tools'
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 absorbed:
   - 'https://supaboard.ai/blog/ai-native-business-intelligence-tools'
 internalLinks:
+  - ai-data-analyst
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
 citations:
@@ -66,6 +66,21 @@ citations:
   - claim: Large language models are the substrate agentic analytics is built on
     source: IBM
     url: 'https://www.ibm.com/think/topics/large-language-models'
+pillar: trustworthy-ai
+cluster: ai-bi
+targetQuery: agentic analytics
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - >-
+    Agentic analytics decomposes a question into several queries instead of
+    answering one.
+  - >-
+    The difference shows on why-questions, which require investigation rather
+    than retrieval.
+  - Test the claim by asking something requiring two joins and a comparison.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

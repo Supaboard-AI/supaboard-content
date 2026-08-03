@@ -86,9 +86,9 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/manufacturing-analytics'
   migratedAt: '2026-07-29'
-legacyCategory: Business
 internalLinks:
   - ai-data-analyst
+  - ecommerce-analytics
   - from-4-hours-to-2-minutes-rcm-analytics
 citations:
   - claim: Manufacturing Analytics Market Report
@@ -105,6 +105,19 @@ citations:
       within
     source: IBM
     url: 'https://www.ibm.com/think/topics/business-intelligence'
+pillar: choosing-ai-bi
+cluster: verticals
+targetQuery: manufacturing analytics
+intent: commercial
+audience: ops-business
+funnel: mofu
+tldr:
+  - Manufacturing analytics joins machine telemetry to commercial outcomes.
+  - Predictive maintenance pays back only where downtime has a measured cost.
+  - Quality data is usually the most complete and the least used.
+caseStudies:
+  - /case-study/legend-ehr
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

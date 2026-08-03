@@ -4,169 +4,84 @@
   "failing": 47,
   "byField": {
     "faq": 150,
-    "targetQuery": 47,
-    "intent": 47,
-    "audience": 47,
-    "funnel": 47,
-    "tldr": 47,
-    "internalLinks": 47,
-    "citations": 47,
-    "statsCount": 47,
-    "description": 29,
-    "title": 22
+    "statsCount": 45,
+    "description": 26,
+    "title": 20
   },
   "posts": {
     "agentic-analytics": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "ai-analytics-governance": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "ai-data-analyst": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "analytics-without-a-data-team": [
-      "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "apache-superset-alternatives": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 27 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 18 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "bar-graph-vs-histogram": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.3.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
       "faq.5.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.6.a: answer is 29 words, must be 40–80 (the extraction unit models quote)",
       "faq.7.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "best-ai-bi-tools": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.4.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
-      "faq.5.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "faq.5.a: answer is 33 words, must be 40–80 (the extraction unit models quote)"
     ],
     "bi-dashboards": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "business-intelligence": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 18 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 13 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 12 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 13 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 12 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "data-connectivity": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.6.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
       "faq.8.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "faq.9.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "data-engineering": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
@@ -174,17 +89,10 @@
       "faq.4.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
       "faq.5.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
       "faq.6.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "data-science-vs-data-analytics": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 21 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 22 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 26 words, must be 40–80 (the extraction unit models quote)",
@@ -192,500 +100,249 @@
       "faq.4.a: answer is 22 words, must be 40–80 (the extraction unit models quote)",
       "faq.5.a: answer is 9 words, must be 40–80 (the extraction unit models quote)",
       "faq.6.a: answer is 12 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "data-visualization-tools": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "database-optimization": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "database-vs-data-warehouse-vs-data-lake": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.4.a: answer is 87 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "dbt": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "ecommerce-analytics": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "embedded-analytics": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 27 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 29 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "enterprise-business-intelligence": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "financial-dashboard-examples": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.6.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "from-4-hours-to-2-minutes-rcm-analytics": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "generative-business-intelligence": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "healthcare-analytics": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 18 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 20 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 20 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
       "faq.5.a: answer is 82 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: Invalid input: expected array, received undefined",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "how-to-evaluate-ai-bi-tools": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "is-ai-bi-just-text-to-sql": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "logistics-analytics": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 32 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 28 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "looker-alternatives": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "manufacturing-analytics": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "metabase-alternatives": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "natural-language-query-analytics": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "positive-vs-negative-correlation": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "power-bi-vs-tableau": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "real-time-analytics": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 32 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 23 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 27 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "retail-business-intelligence": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
-      "faq.5.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "faq.5.a: answer is 37 words, must be 40–80 (the extraction unit models quote)"
     ],
     "saas-business-intelligence": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 21 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 26 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 20 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 12 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "self-service-bi": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "sisense-alternatives": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
       "faq.5.a: answer is 87 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "spend-analytics": [
-      "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "tableau-alternatives": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.5.a: answer is 32 words, must be 40–80 (the extraction unit models quote)",
       "faq.6.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "thoughtspot-alternatives": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 100 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "types-of-analytics": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-a-kpi": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-a-semantic-layer": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 572 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-an-ad-hoc-query": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-data-modeling": [
       "title: titles must be 65 characters or fewer",
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.0.a: answer is 22 words, must be 40–80 (the extraction unit models quote)",
       "faq.1.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 21 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-predictive-analytics": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
       "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq.1.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
       "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "faq.3.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
       "faq.4.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ],
     "will-ai-replace-data-analysts": [
-      "targetQuery: Invalid input: expected string, received undefined",
-      "intent: Invalid option: expected one of \"informational\"|\"commercial\"|\"transactional\"|\"navigational\"",
-      "audience: Invalid option: expected one of \"ops-business\"|\"data-team\"|\"both\"",
-      "funnel: Invalid option: expected one of \"tofu\"|\"mofu\"|\"bofu\"",
-      "description: meta descriptions must be 140–160 characters",
-      "tldr: Invalid input: expected array, received undefined",
       "faq: 6–10 questions",
-      "internalLinks: at least 3 internal links",
-      "citations: Invalid input: expected array, received undefined",
-      "statsCount: Invalid input: expected number, received undefined"
+      "statsCount: at least 4 verifiable statistics"
     ]
   }
 }

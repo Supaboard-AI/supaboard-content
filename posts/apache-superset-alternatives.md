@@ -6,7 +6,7 @@ description: >-
   Looking for an omni alternative to Apache Superset? Compare embedded analytics
   platforms, limitations of Superset, and modern BI options for SaaS and
   enterprises.
-category: data
+category: product
 tags:
   - Saas
 publishedAt: '2026-01-06'
@@ -79,8 +79,8 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/omni-alternative-to-apache-superset'
   migratedAt: '2026-07-29'
-legacyCategory: General
 internalLinks:
+  - looker-alternatives
   - sisense-alternatives
   - what-is-a-semantic-layer
 citations:
@@ -99,6 +99,19 @@ citations:
   - claim: Apache Superset documents its own architecture and deployment model
     source: Apache Superset
     url: 'https://superset.apache.org/docs/intro'
+pillar: choosing-ai-bi
+cluster: alternatives
+targetQuery: apache superset alternatives
+intent: commercial
+audience: data-team
+funnel: bofu
+tldr:
+  - Superset is free to license and costs engineering time to run.
+  - The real comparison is self-hosted maintenance against a subscription.
+  - 'Teams usually leave Superset over governance and support, not over charting.'
+caseStudies:
+  - /case-study/objection.ai
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

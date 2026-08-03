@@ -52,8 +52,8 @@ faq: []
 source:
   url: 'https://supaboard.ai/blog/dbt-guide'
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 internalLinks:
+  - data-connectivity
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
 citations:
@@ -66,6 +66,21 @@ citations:
   - claim: Cloud warehouse concepts dbt models are built against
     source: Snowflake
     url: 'https://docs.snowflake.com/en/user-guide/intro-key-concepts'
+pillar: metrics-sql
+cluster: data-platform
+targetQuery: dbt data build tool
+intent: informational
+audience: data-team
+funnel: tofu
+tldr:
+  - >-
+    dbt applies software engineering practice to SQL transformations: version
+    control, tests, documentation.
+  - >-
+    MetricFlow defines a metric once so every downstream query computes it
+    identically.
+  - The value is less the tool than the discipline it makes cheap to follow.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

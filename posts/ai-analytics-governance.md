@@ -56,7 +56,6 @@ faq: []
 source:
   url: 'https://supaboard.ai/blog/ai-contextual-governance-framework'
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 absorbed:
   - 'https://supaboard.ai/blog/ai-transformation-problem-of-governance'
   - >-
@@ -65,6 +64,7 @@ absorbed:
   - >-
     https://supaboard.ai/blog/the-ethics-of-generative-bi-when-insights-are-fabricated
 internalLinks:
+  - agentic-analytics
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
 citations:
@@ -85,6 +85,25 @@ citations:
       governing AI systems
     source: NIST
     url: 'https://www.nist.gov/itl/ai-risk-management-framework'
+pillar: trustworthy-ai
+cluster: governance
+targetQuery: ai analytics governance
+intent: informational
+audience: data-team
+funnel: mofu
+tldr:
+  - >-
+    Contextual governance evaluates each request by role, data sensitivity and
+    intent rather than one fixed rule.
+  - >-
+    A broken pipeline fails loudly; a fabricated insight fails silently and
+    looks identical to a sound one.
+  - >-
+    Explainability is a governance control, because a human who cannot see the
+    reasoning cannot overrule it.
+caseStudies:
+  - /case-study/jindal-healthcare
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

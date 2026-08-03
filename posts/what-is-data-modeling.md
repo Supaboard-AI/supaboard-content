@@ -73,8 +73,8 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/what-is-data-modeling-guide'
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 internalLinks:
+  - data-connectivity
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
 citations:
@@ -97,6 +97,23 @@ citations:
   - claim: 'Data modeling defines entities, attributes and their relationships'
     source: Amazon Web Services
     url: 'https://aws.amazon.com/what-is/data-modeling/'
+pillar: metrics-sql
+cluster: data-platform
+targetQuery: what is data modeling
+intent: informational
+audience: data-team
+funnel: tofu
+tldr:
+  - >-
+    Data modelling defines the entities, attributes and relationships a business
+    runs on.
+  - >-
+    The model decides which questions are cheap to answer and which are
+    impossible.
+  - >-
+    Conceptual, logical and physical models answer different questions for
+    different audiences.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

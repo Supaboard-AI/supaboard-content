@@ -5,7 +5,7 @@ title: 'From 4 Hours to 2 Minutes: How an RCM Company Rebuilt Its Analytics'
 description: >-
   A revenue cycle management company cut per-client analysis from four hours to
   two minutes and 90% of analytics cost using Supaboard's AI-native BI.
-category: data
+category: company
 tags:
   - Analytics
 publishedAt: '2026-06-25'
@@ -49,9 +49,9 @@ source:
   url: >-
     https://supaboard.ai/blog/from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics
   migratedAt: '2026-07-29'
-legacyCategory: Business
 internalLinks:
   - ai-data-analyst
+  - healthcare-analytics
   - spend-analytics
 citations:
   - claim: >-
@@ -67,6 +67,23 @@ citations:
   - claim: ETL is the process by which masked source data reaches the warehouse
     source: Amazon Web Services
     url: 'https://aws.amazon.com/what-is/etl/'
+pillar: healthcare-rcm
+cluster: case-studies
+targetQuery: healthcare rcm analytics case study
+intent: commercial
+audience: ops-business
+funnel: bofu
+tldr:
+  - Jindal Healthcare cut per-client analysis from four hours to two minutes.
+  - >-
+    All protected health information was masked before analytics touched it, so
+    the platform never connected to an EHR.
+  - >-
+    The change was not speed for its own sake but the cost of curiosity: cheap
+    questions get asked, expensive ones get rationed.
+caseStudies:
+  - /case-study/jindal-healthcare
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

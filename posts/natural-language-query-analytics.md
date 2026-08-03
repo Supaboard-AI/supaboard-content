@@ -96,7 +96,6 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/natural-language-query-analytics'
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - 'https://supaboard.ai/blog/gpt-snowflake-conversational-analytics'
   - >-
@@ -108,6 +107,7 @@ absorbed:
   - >-
     https://supaboard.ai/blog/unlocking-cross-database-analysis-without-sql-a-complete-guide
 internalLinks:
+  - analytics-without-a-data-team
   - sisense-alternatives
   - what-is-a-semantic-layer
 citations:
@@ -130,6 +130,26 @@ citations:
       definitions
     source: Cube
     url: 'https://cube.dev/'
+pillar: no-data-team
+cluster: self-service
+targetQuery: natural language query analytics
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - >-
+    Natural-language querying removes the hop between the person asking and the
+    person who can answer.
+  - >-
+    Cross-system questions are where it earns its keep; single-source questions
+    were never the bottleneck.
+  - >-
+    Pointing a chat interface at disconnected databases produces disconnected
+    answers in a confident tone.
+caseStudies:
+  - /case-study/objection.ai
+  - /case-study/gabriella.pl
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

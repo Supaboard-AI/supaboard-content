@@ -6,7 +6,7 @@ description: >-
   Learn the difference between positive and negative correlation with simple
   explanations, real-world examples, graphs, and practical applications in
   business, finance, health, and daily life.
-category: engineering
+category: data
 tags:
   - Tech
 publishedAt: '2026-05-20'
@@ -51,9 +51,9 @@ faq: []
 source:
   url: 'https://supaboard.ai/blog/positive-vs-negative-correlation'
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 internalLinks:
   - ai-analytics-governance
+  - data-science-vs-data-analytics
   - what-is-a-semantic-layer
 citations:
   - claim: 2 types of correlation
@@ -67,6 +67,23 @@ citations:
   - claim: Distributions must be understood before a correlation can be interpreted
     source: Wikipedia
     url: 'https://en.wikipedia.org/wiki/Histogram'
+pillar: metrics-sql
+cluster: analytics-fundamentals
+targetQuery: positive vs negative correlation
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - >-
+    Positive correlation means two variables move together; negative means they
+    move apart.
+  - >-
+    Correlation strength and direction are separate properties and are often
+    conflated.
+  - >-
+    A correlation that only appears on a dual axis is an artefact of the scales
+    you chose.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

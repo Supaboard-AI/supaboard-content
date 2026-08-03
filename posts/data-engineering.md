@@ -5,7 +5,7 @@ title: 'Data Engineering in 2027: What Skills Will Still Matter?'
 description: >-
   Will AI replace data engineers? Discover the top data engineering skills for
   2027 and how to stay relevant in the AI-driven data era.
-category: data
+category: engineering
 tags:
   - Tech
 publishedAt: '2026-03-27'
@@ -90,11 +90,11 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/future-of-data-engineering'
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - 'https://supaboard.ai/blog/data-engineering'
   - 'https://supaboard.ai/blog/will-we-still-need-data-engineers-in-2026'
 internalLinks:
+  - data-connectivity
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
 citations:
@@ -110,6 +110,19 @@ citations:
   - claim: Cloud warehouse architecture changed what data engineers maintain
     source: Snowflake
     url: 'https://docs.snowflake.com/en/user-guide/intro-key-concepts'
+pillar: metrics-sql
+cluster: data-platform
+targetQuery: data engineering
+intent: informational
+audience: data-team
+funnel: tofu
+tldr:
+  - The hard part of data engineering was never writing the transformation code.
+  - >-
+    Deciding whether a refunded order counts is a business decision surfacing as
+    a schema decision.
+  - The engineers at risk are those whose job is translating a ticket into SQL.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

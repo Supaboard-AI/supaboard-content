@@ -112,11 +112,11 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/all-about-retail-business-intelligence'
   migratedAt: '2026-07-29'
-legacyCategory: Business
 absorbed:
   - 'https://supaboard.ai/blog/retail-metrics-kpis-store-performance'
 internalLinks:
   - data-visualization-tools
+  - ecommerce-analytics
   - is-ai-bi-just-text-to-sql
 citations:
   - claim: 'Reference on (mckinsey, 2026) from McKinsey & Company'
@@ -136,6 +136,21 @@ citations:
   - claim: Business intelligence is the discipline retail analytics applies
     source: IBM
     url: 'https://www.ibm.com/think/topics/business-intelligence'
+pillar: choosing-ai-bi
+cluster: verticals
+targetQuery: retail business intelligence
+intent: commercial
+audience: ops-business
+funnel: mofu
+tldr:
+  - 'Retail KPIs work as four layers: sales, inventory, customer and margin.'
+  - >-
+    The same revenue decline means three different things depending on the lower
+    layers.
+  - Chain-level averages hide the store-level variance that is actually fixable.
+caseStudies:
+  - /case-study/gabriella.pl
+statsCount: 9
 ---
 
 <!-- section:content-1 -->

@@ -93,8 +93,8 @@ source:
   url: >-
     https://supaboard.ai/blog/how-to-evaluate-ai-bi-tools-the-12-questions-most-demos-can-t-survive
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 internalLinks:
+  - best-ai-bi-tools
   - metabase-alternatives
   - retail-business-intelligence
 citations:
@@ -109,6 +109,23 @@ citations:
   - claim: Universal semantic layers serve governed definitions to multiple tools
     source: Cube
     url: 'https://cube.dev/'
+pillar: choosing-ai-bi
+cluster: bi-tools
+targetQuery: how to evaluate ai bi tools
+intent: commercial
+audience: both
+funnel: bofu
+tldr:
+  - Most demos are rehearsed against data the vendor prepared in advance.
+  - >-
+    Ask a question the demo did not anticipate, against a join the vendor did
+    not choose.
+  - >-
+    A tool that cannot show which query produced a number cannot be audited when
+    someone doubts it.
+caseStudies:
+  - /case-study/jindal-healthcare
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

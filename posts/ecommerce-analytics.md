@@ -97,7 +97,6 @@ source:
   url: >-
     https://supaboard.ai/blog/the-modern-ecommerce-dashboard-insights-you-can-act-on
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - >-
     https://supaboard.ai/blog/ai-agents-in-ecommerce-automate-campaign-analysis-budgeting-insights
@@ -106,6 +105,7 @@ absorbed:
   - >-
     https://supaboard.ai/blog/how-to-use-marketing-insights-to-boost-your-ecommerce-sales
 internalLinks:
+  - logistics-analytics
   - sisense-alternatives
   - what-is-a-semantic-layer
 citations:
@@ -121,6 +121,21 @@ citations:
   - claim: Business intelligence is the discipline e-commerce analytics applies
     source: Amazon Web Services
     url: 'https://aws.amazon.com/what-is/business-intelligence/'
+pillar: choosing-ai-bi
+cluster: verticals
+targetQuery: ecommerce analytics
+intent: commercial
+audience: ops-business
+funnel: mofu
+tldr:
+  - Cart abandonment is several problems that need different responses.
+  - >-
+    Instrument the funnel steps, not just the outcome, or the diagnosis is
+    guesswork.
+  - A meaningful share of apparent abandonment is failed payment authorisation.
+caseStudies:
+  - /case-study/gabriella.pl
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

@@ -5,7 +5,7 @@ title: What Is Business Intelligence? Complete Guide for Businesses
 description: >-
   Learn what business intelligence is, how it works, key benefits, real-world
   examples, and why it matters for modern businesses.
-category: product
+category: data
 tags:
   - Business Intelligence
 publishedAt: '2026-02-20'
@@ -74,9 +74,9 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/business-intelligence'
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 internalLinks:
   - data-visualization-tools
+  - enterprise-business-intelligence
   - is-ai-bi-just-text-to-sql
 citations:
   - claim: Reference on business intelligence from Wikipedia
@@ -101,6 +101,21 @@ citations:
   - claim: Reference on sisense from sisense.com
     source: sisense.com
     url: 'https://www.sisense.com/'
+pillar: choosing-ai-bi
+cluster: bi-fundamentals
+targetQuery: business intelligence
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - >-
+    Business intelligence turns operational data into decisions people actually
+    make.
+  - >-
+    The discipline predates the tooling and its core problem has never been
+    storage.
+  - 'Most BI failures are definition failures, not technology failures.'
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

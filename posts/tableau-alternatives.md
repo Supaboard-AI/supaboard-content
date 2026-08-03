@@ -6,7 +6,7 @@ description: >-
   Explore the best Tableau alternatives in 2026. Compare top BI tools like
   Supaboard, ThoughtSpot, Metabase, Domo, and Sigma by features, pricing, and
   use cases.
-category: data
+category: product
 tags:
   - Saas
 publishedAt: '2025-12-23'
@@ -95,8 +95,8 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/best-tableau-alternative'
   migratedAt: '2026-07-29'
-legacyCategory: General
 internalLinks:
+  - apache-superset-alternatives
   - sisense-alternatives
   - what-is-a-semantic-layer
 citations:
@@ -122,6 +122,21 @@ citations:
   - claim: ThoughtSpot publishes list pricing per tier
     source: ThoughtSpot
     url: 'https://www.thoughtspot.com/pricing'
+pillar: choosing-ai-bi
+cluster: alternatives
+targetQuery: tableau alternatives
+intent: commercial
+audience: both
+funnel: bofu
+tldr:
+  - Tableau is strongest where a person's job is exploring data visually.
+  - Its per-seat cost is high from the start and predictable as you grow.
+  - >-
+    If your problem is that business users cannot self-serve, a Tableau
+    alternative may be the wrong category.
+caseStudies:
+  - /case-study/gabriella.pl
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

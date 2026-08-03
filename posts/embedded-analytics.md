@@ -9,7 +9,7 @@ description: >-
   business applications in 2025. Learn key features, benefits, AI-powered
   insights, and monetization strategies to drive real-time, data-driven
   decisions.
-category: data
+category: product
 tags:
   - Saas
 publishedAt: '2025-08-20'
@@ -87,10 +87,10 @@ source:
   url: >-
     https://supaboard.ai/blog/embedded-analytics-in-2025-how-it-works-benefits-ai-role-and-business-impact
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - 'https://supaboard.ai/blog/white-label-analytics'
 internalLinks:
+  - apache-superset-alternatives
   - sisense-alternatives
   - what-is-a-semantic-layer
 citations:
@@ -103,6 +103,25 @@ citations:
   - claim: Apache Superset is an open-source option frequently embedded into products
     source: Apache Superset
     url: 'https://superset.apache.org/docs/intro'
+pillar: choosing-ai-bi
+cluster: embedding
+targetQuery: embedded analytics
+intent: commercial
+audience: data-team
+funnel: mofu
+tldr:
+  - >-
+    Embedded describes where analytics appear; white label describes whose they
+    look like.
+  - >-
+    Internal users rarely care about branding, and paying customers care a great
+    deal.
+  - >-
+    Multi-tenancy enforced by filters rather than at the query layer is a breach
+    waiting for a misconfiguration.
+caseStudies:
+  - /case-study/legend-ehr
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

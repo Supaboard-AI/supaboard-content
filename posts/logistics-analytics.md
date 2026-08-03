@@ -80,8 +80,8 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/logistics-analytics'
   migratedAt: '2026-07-29'
-legacyCategory: General
 internalLinks:
+  - ecommerce-analytics
   - sisense-alternatives
   - what-is-a-semantic-layer
 citations:
@@ -98,6 +98,23 @@ citations:
   - claim: Real-time analytics underpins live logistics monitoring
     source: IBM
     url: 'https://www.ibm.com/think/topics/real-time-analytics'
+pillar: choosing-ai-bi
+cluster: verticals
+targetQuery: logistics analytics
+intent: commercial
+audience: ops-business
+funnel: mofu
+tldr:
+  - 'Logistics analytics is mostly about exceptions, not averages.'
+  - >-
+    On-time performance measured in aggregate conceals the lanes that are
+    failing.
+  - >-
+    The data usually exists across carrier, warehouse and order systems that do
+    not reconcile.
+caseStudies:
+  - /case-study/legend-ehr
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

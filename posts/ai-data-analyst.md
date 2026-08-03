@@ -8,7 +8,7 @@ description: >-
   SQL, and dashboards. It's built for founders, ops leads, and analytics teams
   tired of waiting on a report queue. It assists people; it doesn't replace
   judgment.
-category: product
+category: engineering
 tags:
   - Analytics
 publishedAt: '2026-06-29'
@@ -55,11 +55,11 @@ faq: []
 source:
   url: 'https://supaboard.ai/blog/ai-data-analyst-how-it-works-and-best-tools-(2026)'
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 absorbed:
   - >-
     https://supaboard.ai/blog/automl-for-analysts-what-you-can-automate-and-what-you-can-t
 internalLinks:
+  - agentic-analytics
   - from-4-hours-to-2-minutes-rcm-analytics
   - spend-analytics
 citations:
@@ -74,6 +74,26 @@ citations:
   - claim: Warehouse-scale query engines are what these tools run on
     source: Google Cloud
     url: 'https://cloud.google.com/bigquery/docs/introduction'
+pillar: trustworthy-ai
+cluster: ai-bi
+targetQuery: ai data analyst
+intent: commercial
+audience: both
+funnel: mofu
+tldr:
+  - >-
+    Data preparation and baseline modelling automate reliably; framing the
+    question does not.
+  - >-
+    Deciding what counts as churn is a business decision that no model can make
+    for you.
+  - >-
+    A demo that goes from upload to recommendation without naming the question
+    is showing you the easy part.
+caseStudies:
+  - /case-study/jindal-healthcare
+  - /case-study/objection.ai
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

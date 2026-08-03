@@ -54,7 +54,6 @@ source:
   url: >-
     https://supaboard.ai/blog/will-data-analysts-be-replaced-by-ai-the-truth-behind-the-fear
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 absorbed:
   - >-
     https://supaboard.ai/blog/can-ai-replace-the-data-dashboard-new-approaches-to-business-intelligence
@@ -62,6 +61,8 @@ absorbed:
     https://supaboard.ai/blog/how-generative-ai-is-changing-the-role-of-the-data-analyst
   - 'https://supaboard.ai/blog/will-ai-automate-bi-reporting-in-2026'
 internalLinks:
+  - agentic-analytics
+  - ai-data-analyst
   - data-connectivity
 citations:
   - claim: Reference on google from google.com
@@ -73,6 +74,23 @@ citations:
   - claim: Business intelligence work spans far more than writing queries
     source: IBM
     url: 'https://www.ibm.com/think/topics/business-intelligence'
+pillar: trustworthy-ai
+cluster: ai-bi
+targetQuery: will ai replace data analysts
+intent: informational
+audience: data-team
+funnel: tofu
+tldr:
+  - >-
+    AI automates retrieval and recurring reporting, not deciding what is worth
+    reporting.
+  - >-
+    Reporting splits into an assembly problem and a judgement problem; only the
+    first generalises.
+  - >-
+    The role that shrinks is report-writer; the one that grows decides what is
+    true.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

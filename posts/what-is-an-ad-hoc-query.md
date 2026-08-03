@@ -93,13 +93,13 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/what-is-an-ad-hoc-query'
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - 'https://supaboard.ai/blog/ad-hoc-query'
   - 'https://supaboard.ai/blog/data-querying'
   - >-
     https://supaboard.ai/blog/how-to-reduce-ad-hoc-data-requests-to-the-analytics-team-a-practical-guide
 internalLinks:
+  - analytics-without-a-data-team
   - sisense-alternatives
   - what-is-a-semantic-layer
 citations:
@@ -113,6 +113,23 @@ citations:
   - claim: Ad hoc querying is a core capability of business intelligence platforms
     source: IBM
     url: 'https://www.ibm.com/think/topics/business-intelligence'
+pillar: no-data-team
+cluster: self-service
+targetQuery: what is an ad hoc query
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - >-
+    An ad hoc query answers a specific unplanned question rather than a
+    recurring one.
+  - >-
+    Ad hoc requests pile up because they are the questions dashboards did not
+    anticipate.
+  - >-
+    Reduce them by making the common ones self-serviceable, not by refusing
+    them.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

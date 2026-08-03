@@ -101,11 +101,12 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/bar-graph-vs-histogram'
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - 'https://supaboard.ai/blog/histogram-vs-bar-graph'
 internalLinks:
   - analytics-without-a-data-team
+  - data-connectivity
+  - data-visualization-tools
 citations:
   - claim: University of Wisconsin’s clear explanation of bar graphs vs histograms
     source: online210.psych.wisc.edu
@@ -127,6 +128,23 @@ citations:
   - claim: A histogram represents the distribution of a continuous variable
     source: Wikipedia
     url: 'https://en.wikipedia.org/wiki/Histogram'
+pillar: metrics-sql
+cluster: visualisation
+targetQuery: bar graph vs histogram
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - >-
+    A bar graph compares distinct categories; a histogram shows the distribution
+    of continuous data.
+  - >-
+    Bar graphs use gaps to signal independence; histogram bars touch because the
+    scale is continuous.
+  - >-
+    If reordering the bars destroys the chart, it is a histogram and comparison
+    was never the point.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

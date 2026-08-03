@@ -88,7 +88,6 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/best-ai-bi-tools'
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 absorbed:
   - 'https://supaboard.ai/blog/best-ai-powered-business-intelligence'
   - 'https://supaboard.ai/blog/best-business-intelligence-tools'
@@ -103,6 +102,7 @@ absorbed:
   - 'https://supaboard.ai/blog/top-self-service-bi-tools-for-2025'
 internalLinks:
   - data-visualization-tools
+  - how-to-evaluate-ai-bi-tools
   - is-ai-bi-just-text-to-sql
 citations:
   - claim: Microsoft Power BI
@@ -137,6 +137,29 @@ citations:
   - claim: Metabase publishes list pricing per tier
     source: Metabase
     url: 'https://www.metabase.com/pricing'
+pillar: choosing-ai-bi
+cluster: bi-tools
+targetQuery: best ai bi tools
+intent: commercial
+audience: both
+funnel: bofu
+tldr:
+  - >-
+    Judge a BI tool on whether the people with the questions can use it
+    themselves.
+  - >-
+    Per-seat pricing that works for five people is often the largest analytics
+    line at fifty.
+  - >-
+    Agentic means the tool can run a multi-step investigation, not that it has a
+    chat box.
+  - >-
+    Deployment choice is a data-governance decision wearing an infrastructure
+    costume.
+caseStudies:
+  - /case-study/jindal-healthcare
+  - /case-study/gabriella.pl
+statsCount: 6
 ---
 
 <!-- section:content-1 -->

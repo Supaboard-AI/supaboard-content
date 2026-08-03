@@ -105,11 +105,11 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/what-is-a-semantic-layer-the-2026-field-guide'
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 absorbed:
   - 'https://supaboard.ai/blog/what-is-a-semantic-data-model'
 internalLinks:
   - ai-analytics-governance
+  - bar-graph-vs-histogram
   - positive-vs-negative-correlation
 citations:
   - claim: dbt on the Semantic Layer and MetricFlow
@@ -161,6 +161,26 @@ citations:
   - claim: RDF formalises subject-predicate-object triples underlying semantic models
     source: W3C
     url: 'https://www.w3.org/TR/rdf11-concepts/'
+pillar: metrics-sql
+cluster: semantic-layer
+targetQuery: what is a semantic layer
+intent: informational
+audience: data-team
+funnel: tofu
+tldr:
+  - >-
+    A semantic layer is the governed body of business meaning between raw data
+    and whoever queries it.
+  - >-
+    A semantic data model is the artefact; the layer is the system that governs,
+    versions and serves it.
+  - >-
+    It can be authored up front in a modelling language or emerge from curated
+    rules and corrections.
+  - >-
+    Ask a vendor who can change a definition and what happens downstream when
+    they do.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

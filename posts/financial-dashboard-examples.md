@@ -97,12 +97,13 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/financial-dashboard-examples'
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - 'https://supaboard.ai/blog/finance-and-performance'
   - 'https://supaboard.ai/blog/financial-dashboards-guide'
 internalLinks:
+  - apache-superset-alternatives
   - bi-dashboards
+  - spend-analytics
 citations:
   - claim: Reference on deloitte’s from Deloitte
     source: Deloitte
@@ -118,6 +119,25 @@ citations:
   - claim: Dashboards are a delivery mechanism within business intelligence
     source: IBM
     url: 'https://www.ibm.com/think/topics/business-intelligence'
+pillar: choosing-ai-bi
+cluster: finance
+targetQuery: financial dashboard examples
+intent: commercial
+audience: ops-business
+funnel: mofu
+tldr:
+  - >-
+    Start with a template and replace it once you know which numbers you argue
+    about.
+  - >-
+    Spreadsheet exports are the highest-signal indicator of where a dashboard
+    failed.
+  - >-
+    Agree definitions before building, or the dashboard just publishes the
+    disagreement faster.
+caseStudies:
+  - /case-study/jindal-healthcare
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

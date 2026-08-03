@@ -58,13 +58,13 @@ faq: []
 source:
   url: 'https://supaboard.ai/blog/types-of-analytics'
   migratedAt: '2026-07-29'
-legacyCategory: General
 absorbed:
   - 'https://supaboard.ai/blog/descriptive-analytics-guide'
   - >-
     https://supaboard.ai/blog/predictive-analytics-vs-descriptive-analytics-what-you-need-to-know
 internalLinks:
   - ai-data-analyst
+  - data-science-vs-data-analytics
   - from-4-hours-to-2-minutes-rcm-analytics
 citations:
   - claim: Reference on power bi from Microsoft
@@ -76,6 +76,23 @@ citations:
   - claim: Descriptive reporting is the foundation of the wider BI discipline
     source: IBM
     url: 'https://www.ibm.com/think/topics/business-intelligence'
+pillar: metrics-sql
+cluster: analytics-fundamentals
+targetQuery: types of analytics
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - >-
+    Descriptive, diagnostic, predictive and prescriptive answer four different
+    questions.
+  - >-
+    Build descriptive first: a forecast inherits whatever ambiguity its inputs
+    carry.
+  - >-
+    The diagnostic layer holds most of the business value and is routinely
+    skipped.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

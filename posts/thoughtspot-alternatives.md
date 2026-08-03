@@ -100,8 +100,8 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/thoughtspot-alternative'
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 internalLinks:
+  - apache-superset-alternatives
   - sisense-alternatives
   - what-is-a-semantic-layer
 citations:
@@ -118,6 +118,23 @@ citations:
   - claim: BI Trends and Alternatives 2026
     source: getdot.ai
     url: 'https://www.getdot.ai/blog/thoughtspot-alternatives'
+pillar: choosing-ai-bi
+cluster: alternatives
+targetQuery: thoughtspot alternatives
+intent: commercial
+audience: both
+funnel: bofu
+tldr:
+  - >-
+    ThoughtSpot pioneered search-style analytics and prices for enterprise
+    budgets.
+  - It works best on data that has already been modelled and cleaned.
+  - >-
+    Alternatives differ mainly in how much preparation they demand before the
+    first question.
+caseStudies:
+  - /case-study/objection.ai
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

@@ -97,12 +97,12 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/generative-business-intelligence-guide'
   migratedAt: '2026-07-29'
-legacyCategory: Business
 absorbed:
   - >-
     https://supaboard.ai/blog/ai-meets-data-viz-how-generative-ai-tools-are-transforming-data-storytelling
   - 'https://supaboard.ai/blog/generative-ai-guide'
 internalLinks:
+  - agentic-analytics
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
 citations:
@@ -117,6 +117,19 @@ citations:
       applied to
     source: Amazon Web Services
     url: 'https://aws.amazon.com/what-is/business-intelligence/'
+pillar: trustworthy-ai
+cluster: ai-bi
+targetQuery: generative business intelligence
+intent: informational
+audience: both
+funnel: tofu
+tldr:
+  - 'Generative BI produces the narration around a number, not the number itself.'
+  - >-
+    Asked why something moved, a model will supply a reason because that is the
+    shape of the response.
+  - Generation handles the draft; a human owns the claim.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

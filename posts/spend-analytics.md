@@ -109,11 +109,11 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/spend-analytics'
   migratedAt: '2026-07-29'
-legacyCategory: Business
 absorbed:
   - 'https://supaboard.ai/blog/spend-analytics-guide'
 internalLinks:
   - ai-data-analyst
+  - financial-dashboard-examples
   - from-4-hours-to-2-minutes-rcm-analytics
 citations:
   - claim: according to McKinsey
@@ -126,6 +126,21 @@ citations:
   - claim: Consolidating source systems is prerequisite to trustworthy spend analysis
     source: Amazon Web Services
     url: 'https://aws.amazon.com/what-is/business-intelligence/'
+pillar: choosing-ai-bi
+cluster: finance
+targetQuery: spend analytics
+intent: commercial
+audience: ops-business
+funnel: mofu
+tldr:
+  - >-
+    Supplier consolidation and contract compliance pay back before the other use
+    cases.
+  - Supplier normalisation is the unglamorous prerequisite for all of it.
+  - The constraint is rarely the software; it is agreeing what a supplier is.
+caseStudies:
+  - /case-study/jindal-healthcare
+statsCount: 1
 ---
 
 <!-- section:content-1 -->

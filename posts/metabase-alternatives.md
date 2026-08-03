@@ -47,7 +47,6 @@ faq: []
 source:
   url: 'https://supaboard.ai/blog/metabase-alternatives'
   migratedAt: '2026-07-29'
-legacyCategory: BI Tools
 absorbed:
   - >-
     https://supaboard.ai/blog/supaboard-vs-metabase-in-2025-which-bi-tool-is-best-for-your-team
@@ -58,6 +57,7 @@ absorbed:
   - >-
     https://supaboard.ai/blog/why-consider-a-metabase-alternative-exploring-the-best-bi-tools-compared
 internalLinks:
+  - apache-superset-alternatives
   - how-to-evaluate-ai-bi-tools
   - retail-business-intelligence
 citations:
@@ -82,6 +82,25 @@ citations:
   - claim: 'Metabase publishes list pricing per tier, including embedding'
     source: Metabase
     url: 'https://www.metabase.com/pricing'
+pillar: choosing-ai-bi
+cluster: alternatives
+targetQuery: metabase alternatives
+intent: commercial
+audience: both
+funnel: bofu
+tldr:
+  - >-
+    Metabase is easy to start and gets awkward at white-labelling and per-tenant
+    isolation.
+  - >-
+    Embedding for staff and embedding for paying customers are different
+    purchases.
+  - >-
+    Per-seat pricing is hostile to embedded use because your seat count becomes
+    your customer count.
+caseStudies:
+  - /case-study/objection.ai
+statsCount: 2
 ---
 
 <!-- section:content-1 -->

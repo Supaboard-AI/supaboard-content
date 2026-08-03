@@ -75,8 +75,8 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/saas-business-intelligence'
   migratedAt: '2026-07-29'
-legacyCategory: Business
 internalLinks:
+  - ecommerce-analytics
   - sisense-alternatives
   - what-is-a-semantic-layer
 citations:
@@ -95,6 +95,23 @@ citations:
       integration
     source: IBM
     url: 'https://www.ibm.com/think/topics/business-intelligence'
+pillar: choosing-ai-bi
+cluster: verticals
+targetQuery: saas business intelligence
+intent: commercial
+audience: ops-business
+funnel: mofu
+tldr:
+  - >-
+    SaaS metrics are interlocking: churn, expansion and CAC only mean something
+    together.
+  - >-
+    Product, billing and CRM data have to be joined before any of them answer a
+    real question.
+  - Cohort logic is where most SaaS reporting quietly goes wrong.
+caseStudies:
+  - /case-study/objection.ai
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

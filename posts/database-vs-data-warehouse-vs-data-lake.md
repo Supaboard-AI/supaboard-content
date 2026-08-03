@@ -97,8 +97,8 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/database-vs-data-warehouse-vs-data-lake-guide'
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 internalLinks:
+  - data-connectivity
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
 citations:
@@ -115,6 +115,23 @@ citations:
   - claim: A data lake stores raw data at scale without imposing schema on write
     source: IBM
     url: 'https://www.ibm.com/think/topics/data-lake'
+pillar: metrics-sql
+cluster: data-platform
+targetQuery: database vs data warehouse vs data lake
+intent: informational
+audience: data-team
+funnel: tofu
+tldr:
+  - >-
+    A database serves transactions, a warehouse serves analysis, a lake stores
+    raw data cheaply.
+  - >-
+    Running analytics against a production database is the most common and most
+    expensive shortcut.
+  - >-
+    Schema-on-write versus schema-on-read decides who pays the modelling cost
+    and when.
+statsCount: 0
 ---
 
 <!-- section:content-1 -->

@@ -120,12 +120,12 @@ faq:
 source:
   url: 'https://supaboard.ai/blog/data-connectivity'
   migratedAt: '2026-07-29'
-legacyCategory: Tech
 absorbed:
   - 'https://supaboard.ai/blog/application-integration-vs-data-integration'
   - >-
     https://supaboard.ai/blog/bridging-data-warehousing-and-ai-from-snowflake-to-gpt
 internalLinks:
+  - data-engineering
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
 citations:
@@ -146,6 +146,25 @@ citations:
   - claim: ETL is the mechanism by which connected sources become analysable
     source: IBM
     url: 'https://www.ibm.com/think/topics/etl'
+pillar: metrics-sql
+cluster: data-platform
+targetQuery: data connectivity
+intent: informational
+audience: data-team
+funnel: tofu
+tldr:
+  - >-
+    Application integration moves events so systems can act; data integration
+    consolidates records so people can analyse.
+  - >-
+    Using application integration to build a reporting layer produces a system
+    with no history.
+  - >-
+    Ask what happens when it runs: a system does something, or a person can ask
+    something.
+caseStudies:
+  - /case-study/objection.ai
+statsCount: 2
 ---
 
 <!-- section:content-1 -->
