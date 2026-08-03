@@ -36,6 +36,8 @@ sections:
     heading: How Ad Hoc Queries Work
   - id: content-5
     heading: Ad Hoc Query vs Reports and Analysis
+  - id: content-9
+    heading: How do you reduce ad hoc data requests to the analytics team?
   - id: content-6
     heading: Benefits and Limitations of Ad Hoc Queries
   - id: content-7
@@ -359,6 +361,26 @@ A SaaS team notices a sudden increase in churn. Instead of waiting for a new rep
 Ad hoc queries are most useful for fast investigations, product analysis, customer behavior checks, and one-off business questions.
 
 Some modern BI platforms, [including Supaboard](https://www.supaboard.ai/), are designed around this idea of interactive, question-driven analysis rather than fixed reporting.
+
+<!-- section:content-9 -->
+
+## How do you reduce ad hoc data requests to the analytics team?
+
+By making the common ones answerable without an analyst, not by refusing them.
+
+Ad hoc requests pile up for a reason worth understanding before trying to cut them: they are the questions nobody anticipated when the dashboards were built. Suppressing them does not remove the need, it just moves the decision to guesswork. The goal is to change who can answer them.
+
+Four moves, in the order that actually works:
+
+**Find out what is actually being asked.** Log requests for a month with who asked, what they wanted, and how long it took. Most teams discover the same handful of questions account for the bulk of the volume — usually variations on revenue by segment, funnel conversion, and "is this number normal." You cannot self-serve a question you have not identified.
+
+**Define the metrics behind those questions once.** The repeat requests almost always resolve to a small set of measures with contested definitions. Settling them in a [semantic layer](/blog/what-is-a-semantic-layer) is what makes it safe for someone else to answer — otherwise self-service just distributes the ambiguity.
+
+**Give people a way to ask that does not require SQL.** [Natural-language querying](/blog/natural-language-query-analytics) covers most of the repeat volume, because the repeat volume is not analytically hard. It is a join and a filter that the asker cannot write.
+
+**Keep an escalation path.** Some questions genuinely need an analyst, and pretending otherwise is how self-service programmes lose credibility. Make the hard-question route explicit, so it is used for hard questions.
+
+What this changes is the shape of the queue. The requests that remain are the ones worth an analyst's time, which is also the work analysts would rather be doing.
 
 <!-- section:content-6 -->
 

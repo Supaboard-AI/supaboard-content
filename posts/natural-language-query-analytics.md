@@ -38,6 +38,8 @@ sections:
     heading: What Most Natural Language Query Tools Can Do
   - id: content-6
     heading: Which BI Tool Has the Best Natural Language Query Feature?
+  - id: content-9
+    heading: Can you ask questions across several databases at once?
   - id: content-7
     heading: Is Natural Language Querying Worth It for Enterprises?
   - id: content-8
@@ -114,16 +116,14 @@ internalLinks:
 
 ## Introduction: Why Natural Language Query Matters in Modern Analytics
 
-At a fast-growing SaaS company last quarter, the Head of Sales asked a simple but critical question: “Why did our European deal win rate drop by 18% in Q1 compared to last year, and which segments were hit hardest?”
+A head of sales asks why the European win rate dropped last quarter, and which segments were hit hardest. It is a reasonable question with a findable answer, and in most companies it takes two days: an analyst writes SQL against CRM and billing, builds the visuals, and books a meeting. By the time it lands, the window to act on it has closed.
 
-The analyst team spent two full days writing SQL, pulling data from CRM and billing systems, creating visuals, and preparing a meeting. By the time the insights were delivered, the sales team had already missed an important window to adjust their strategy.
+The delay is not caused by the analysis being hard. It is caused by the question having to travel through a person who is not the person asking it.
 
-Situations like this occur frequently across organizations, even in 2026. While data is abundant, the process of turning questions into timely, actionable answers remains slow and inefficient.
+**Natural Language Query (NLQ)** removes that hop. Users ask in plain English and get charts, tables or insights back directly — no SQL, no waiting for someone else's calendar.
 
-**Natural Language Query (NLQ)** is an immediate solution to this challenge. Users can ask questions in plain English and get immediate answers in the form of charts, tables or insights. **No SQL knowledge or technical training required.**  
-  
-Industry reports indicate that the adoption of **self-service analytics** is on the rise and the market is expected to grow significantly up to 2030 owing to the rapid increase in decision making by companies. The natural language query is in the middle of all this. It dramatically reduces the time from question to insight and helps to drive analytics adoption way beyond the traditional 20-30% of employees actively engaging with data today.  
-  
+The real measure of whether it works is not speed, it is who ends up using data at all. In most organisations that is a small fraction of staff, because the cost of asking has always been someone else's time. [Jindal Healthcare](/blog/from-4-hours-to-2-minutes-rcm-analytics) put the change precisely: *"When a deep look costs four hours, you save it for problems you already know are problems. When it costs two minutes, you can chase a hunch."*
+
 In this guide, we will discuss what natural language querying is, how it works in today’s analytics platforms, where it offers the most value, its current limitations and what organizations should look for when evaluating NLQ solutions in 2026.
 
 <!-- section:content-2 -->
@@ -357,6 +357,24 @@ Natural language querying is transforming how organizations use data in practice
     
 
 [**Supaboard**](/) is one example of an AI-native platform that delivers a seamless natural language query experience designed specifically for fast, governed [self-service analytics](/blog/self-service-bi).
+
+<!-- section:content-9 -->
+
+## Can you ask questions across several databases at once?
+
+Yes, and it is the case where natural-language querying earns its keep most clearly.
+
+Single-source questions are the easy half. "How many signups last week" hits one table, and an analyst answers it in a minute. The questions that actually stall are the ones spanning systems: signups from the product database against ad spend in four platforms against support tickets in a fifth. Answering that in SQL means knowing where each system lives, how the identifiers reconcile, and which joins silently drop rows.
+
+A natural-language layer sitting on unified data collapses that. The user asks the cross-system question directly; the resolution of *which* sources, *which* keys and *which* grain happens underneath. [Objection.ai](/case-study/objection.ai) does this across eleven sources — product database, LinkedIn, X, Instagram and Google Ads, Asana, Cloudflare, PostHog, Stripe, Twilio — with nobody on staff writing SQL.
+
+The prerequisite is real, though, and vendors gloss it: the sources have to be genuinely unified first, with reconciled identifiers and agreed metric definitions. Pointing a chat interface at five disconnected databases produces five disconnected answers with a confident tone. That is why [Gabriella.pl](/case-study/gabriella.pl) described their situation as "four marketing analytics problems that didn't talk to each other" rather than one analytics problem — the fix was unification, and the natural-language layer was what made the unified data usable.
+
+### What about querying a warehouse like Snowflake in plain English?
+
+Same principle, one extra caution.
+
+A warehouse solves storage and compute, not meaning. Snowflake will happily return a number for a query against an ambiguous revenue column, and an LLM writing that query has no way to know the column excludes refunds. The pairing works when the model resolves questions against governed definitions rather than raw schema — which is the [text-to-SQL distinction](/blog/is-ai-bi-just-text-to-sql) in one sentence. Without it you get fluent, fast, occasionally wrong answers, and no signal telling you which ones.
 
 ## Limitations of Natural Language Querying
 
