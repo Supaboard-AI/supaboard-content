@@ -257,7 +257,7 @@ _Based on how logistics and BI teams describe their day-to-day work across pract
 
 That kind of question comes up repeatedly in supply chain and BI discussions, and it reflects daily reality. **Analysts don’t optimize averages; they chase exceptions.** Most of their time is spent answering urgent _why_ questions about delays, cost spikes, and service failures.
 
-In practice, analysts pull data from **TMS, WMS, ERP systems, and** [**spreadsheets** to reconstruct](/series/from-spreadsheet-hell-to-dashboard-heaven-boost-business-accuracy-and-speed) what actually happened. A delayed shipment might require checking carrier performance, warehouse availability, order priority changes, and manual Excel models, often under time pressure from operations teams waiting for answers.
+In practice, analysts pull data from **TMS, WMS, ERP systems, and** [**spreadsheets** to reconstruct](/blog/analytics-without-a-data-team) what actually happened. A delayed shipment might require checking carrier performance, warehouse availability, order priority changes, and manual Excel models, often under time pressure from operations teams waiting for answers.
 
 Another common practitioner insight: **speed beats perfection**. Analysts rely on fast diagnostic analysis to support decisions in the moment, flagging high-risk shipments, prioritizing exceptions, and helping teams choose the least disruptive option when trade-offs are unavoidable. Predictive insights help, but day-to-day value comes from making messy data usable, fast.
 
@@ -304,7 +304,7 @@ When evaluating a **logistics analytics platform**, the focus should be on how w
 
 Key capabilities to look for include:
 
--   [**Unified data integration:**](/series/escape-the-data-trap-how-ai-data-automation-unifies-your-business) Seamless connectivity with **TMS, WMS, ERP systems, IoT sensors, and partner data** through APIs or EDI to create a single, trusted view of logistics operations.
+-   [**Unified data integration:**](/blog/data-connectivity) Seamless connectivity with **TMS, WMS, ERP systems, IoT sensors, and partner data** through APIs or EDI to create a single, trusted view of logistics operations.
     
 -   **Real-time visibility and tracking:** Live monitoring of shipments, vehicles, and inventory across transport modes, enabling faster exception handling and proactive decision-making.
     

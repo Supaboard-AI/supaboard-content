@@ -111,9 +111,6 @@ citations:
   - claim: Reference on (retail dive) from retaildive.com
     source: retaildive.com
     url: 'https://www.retaildive.com/news/sephora-loyalty-program-success/582000/'
-  - claim: (Harvard Business Review)
-    source: Harvard Business Review
-    url: 'https://hbr.org/2022/08/how-walmart-uses-data-analytics-to-stay-ahead'
   - claim: Reference on e-commerce retailers from mordorintelligence.com
     source: mordorintelligence.com
     url: >-
@@ -395,7 +392,7 @@ model rather than a marketing campaign.
 
 **What BI reveals:** Margin impact per promotion event, incremental volume (sales that would not have occurred at full price) vs. pull-forward volume (sales that would have happened anyway), and price elasticity by segment and category.
 
-**Real-world example:** Walmart's analytics infrastructure runs continuous A/B testing on promotional mechanics and pricing across store clusters, enabling dynamic adjustments based on real-time performance rather than pre-season planning alone. [(Harvard Business Review)](https://hbr.org/2022/08/how-walmart-uses-data-analytics-to-stay-ahead)
+**Real-world example:** Walmart's analytics infrastructure runs continuous A/B testing on promotional mechanics and pricing across store clusters, enabling dynamic adjustments based on real-time performance rather than pre-season planning alone.
 
 In product demos with mid-market chains, the promotion analysis is consistently the finding that creates the most immediate urgency. Many retailers discover for the first time that a significant share of their discount spend is concentrated on products that were already in decline, accelerating margin erosion with no volume recovery. This finding alone typically pays for the cost of BI implementation.
 

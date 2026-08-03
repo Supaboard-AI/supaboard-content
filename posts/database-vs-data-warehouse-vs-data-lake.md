@@ -158,7 +158,7 @@ Databases are mainly used for **secure, accurate, and reliable data management**
 
 In business and project management systems, databases help teams automate workflows, store templates, and manage tasks efficiently. This ensures that information is always consistent and easily accessible.
 
-Many popular platforms we use every day depend on databases. Companies like Netflix, Amazon, and Facebook use different database systems such as [MySQL](/integrations/mysql), Cassandra, and other technologies to manage massive amounts of user data and content smoothly.
+Many popular platforms we use every day depend on databases. Companies like Netflix, Amazon, and Facebook use different database systems such as [MySQL](/integrations), Cassandra, and other technologies to manage massive amounts of user data and content smoothly.
 
 ### Common Uses of SQL Databases
 
@@ -209,7 +209,7 @@ Each of these databases is designed to handle different business and technical r
 
 A **data warehouse** is a system designed to **collect, clean, and store data from multiple sources for analysis and reporting.** It helps businesses understand past and present performance by organizing large amounts of structured data in one place.
 
-Unlike regular databases that handle daily transactions, a data warehouse is optimized for analytical workloads (OLAP). It processes historical data and supports complex queries. With the help of a data warehouse, companies and data teams can track trends, measure growth, and make data-driven decisions. Many enterprises use platforms like [Snowflake](/integrations/snowflake), [BigQuery](/integrations/bigquery), and Redshift for this purpose.
+Unlike regular databases that handle daily transactions, a data warehouse is optimized for analytical workloads (OLAP). It processes historical data and supports complex queries. With the help of a data warehouse, companies and data teams can track trends, measure growth, and make data-driven decisions. Many enterprises use platforms like [Snowflake](/integrations), [BigQuery](/integrations), and Redshift for this purpose.
 
 ### What Is a Data Warehouse Used For?
 
