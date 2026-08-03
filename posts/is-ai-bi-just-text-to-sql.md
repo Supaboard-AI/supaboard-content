@@ -48,45 +48,47 @@ related:
   - data-visualization-tools
   - retail-business-intelligence
 faq:
-  - q: Is AI BI just text-to-SQL?
+  - q: Is AI BI just text-to-SQL with better marketing?
     a: >-
-      No, though it includes text-to-SQL as a component. Text-to-SQL translates
-      a question into a query against one schema. AI-native BI adds a semantic
-      layer for your metric definitions, mappings to join across sources like
-      Stripe, Postgres, and your CRM, and a reasoning loop for "why" questions.
-      The SQL generation is the engine; the understanding is everything around
-      it.
-  - q: What's the difference between text-to-SQL and AI BI?
+      No, though plenty of products marketed as AI BI are exactly that.
+      Text-to-SQL translates a question into a query against whatever the schema
+      contains. AI BI resolves the question against governed business
+      definitions first, then generates the query. The difference shows up as
+      correctness, not as speed.
+  - q: What is text-to-SQL?
     a: >-
-      Text-to-SQL answers "what is the number" for a single, well-defined
-      schema. AI-native BI answers "what does this mean for the business," which
-      requires knowing your definitions, joining across systems, and reasoning
-      about cause. The clearest tell: text-to-SQL's idea of "correct" is valid
-      SQL; AI BI's idea of correct is your business's actual definition of the
-      metric.
-  - q: What are the limitations of text-to-SQL?
+      Text-to-SQL is the task of converting a natural-language question into a
+      SQL query. Modern models do it well syntactically: the SQL usually runs
+      and returns something. What the model cannot infer is which of several
+      revenue columns your business means, or that one excludes refunds and
+      internal test accounts.
+  - q: Why does the distinction matter commercially?
     a: >-
-      It is bound to one schema, so it struggles to join across separate systems
-      it wasn't shown. It can't know business definitions that live outside the
-      schema, like "active customer excludes paused accounts," so it silently
-      uses naive ones. And it produces one query per question, which means it
-      can't carry a hypothesis across the multiple steps that "why" questions
-      need.
-  - q: Do AI BI tools use text-to-SQL?
+      Because a wrong answer that looks right is more expensive than no answer.
+      Text-to-SQL fails silently: the query executes, a number appears, and
+      nothing signals that it used the wrong column. Somebody then cites it in a
+      meeting. Governed definitions make that class of failure structurally
+      impossible rather than merely unlikely.
+  - q: Can better models remove the need for a semantic layer?
     a: >-
-      Yes, essentially all of them do, including Supaboard. SQL is how you query
-      a relational database, so generating it is unavoidable. The real question
-      is never whether a tool uses text-to-SQL but what it wraps around it: a
-      semantic layer, cross-source mappings, reasoning, and a way to learn your
-      definitions over time.
-  - q: How can AI be used for data analysis if it's more than text-to-SQL?
+      They raise the floor without removing the need. A model reading your
+      schema cannot know that finance and growth disagree about whether trials
+      count, because that decision exists only in people's heads until it is
+      written down. Improving SQL generation does not create business meaning
+      that was never recorded.
+  - q: How do I tell which one a vendor is selling?
     a: >-
-      An AI agent for data analysis goes beyond writing one query: it resolves
-      your question against canonical metric definitions, joins the relevant
-      sources, runs a chain of queries to test explanations, and returns a
-      reasoned answer rather than a raw table. That combination, not the SQL
-      step alone, is what data analysis using generative AI looks like when it's
-      done well.
+      Ask what happens when you change a metric definition. In a system built
+      around governed meaning, the change propagates to every answer
+      immediately. In a text-to-SQL product, there is no definition to change,
+      so the honest answer is that you would adjust prompts or rebuild the
+      dashboards.
+  - q: Where does text-to-SQL genuinely work well?
+    a: >-
+      On exploratory work by someone who can read the generated SQL and would
+      notice a wrong join. For an analyst it is a real accelerator, removing
+      boilerplate from work they were going to check anyway. The risk appears
+      when the output goes straight to somebody who cannot evaluate it.
 source:
   url: >-
     https://supaboard.ai/blog/is-ai-bi-just-text-to-sql-the-honest-difference-with-examples

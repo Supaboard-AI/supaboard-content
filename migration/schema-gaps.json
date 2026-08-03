@@ -3,8 +3,9 @@
   "passing": 0,
   "failing": 47,
   "byField": {
-    "faq": 103,
-    "statsCount": 45
+    "faq": 57,
+    "statsCount": 45,
+    "internalLinks": 3
   },
   "posts": {
     "agentic-analytics": [
@@ -28,10 +29,6 @@
       "faq.6.a: answer is 29 words, must be 40–80 (the extraction unit models quote)",
       "faq.7.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
-    ],
-    "best-ai-bi-tools": [
-      "faq.4.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
-      "faq.5.a: answer is 33 words, must be 40–80 (the extraction unit models quote)"
     ],
     "bi-dashboards": [
       "statsCount: at least 4 verifiable statistics"
@@ -67,7 +64,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-visualization-tools": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "database-optimization": [
@@ -91,12 +87,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "embedded-analytics": [
-      "faq.0.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 27 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 30 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 29 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "enterprise-business-intelligence": [
@@ -114,11 +104,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "generative-business-intelligence": [
-      "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "healthcare-analytics": [
@@ -134,7 +119,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "is-ai-bi-just-text-to-sql": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "logistics-analytics": [
@@ -162,16 +146,9 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "power-bi-vs-tableau": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "real-time-analytics": [
-      "faq.0.a: answer is 32 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 23 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 27 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "retail-business-intelligence": [
@@ -190,40 +167,21 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "sisense-alternatives": [
-      "faq.0.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
-      "faq.5.a: answer is 87 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "spend-analytics": [
       "statsCount: at least 4 verifiable statistics"
     ],
     "tableau-alternatives": [
-      "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq.5.a: answer is 32 words, must be 40–80 (the extraction unit models quote)",
-      "faq.6.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "thoughtspot-alternatives": [
-      "faq.1.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 100 words, must be 40–80 (the extraction unit models quote)",
       "statsCount: at least 4 verifiable statistics"
     ],
     "types-of-analytics": [
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-a-kpi": [
-      "faq.0.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-a-semantic-layer": [
@@ -239,15 +197,15 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-predictive-analytics": [
-      "faq.1.a: answer is 39 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 34 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "will-ai-replace-data-analysts": [
       "statsCount: at least 4 verifiable statistics"
+    ],
+    "best-ai-bi-tools": [
+      "internalLinks: internal link \"data-visualization-tools\" resolves to no post",
+      "internalLinks: internal link \"how-to-evaluate-ai-bi-tools\" resolves to no post",
+      "internalLinks: internal link \"is-ai-bi-just-text-to-sql\" resolves to no post"
     ]
   }
 }

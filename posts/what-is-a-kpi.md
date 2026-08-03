@@ -47,38 +47,42 @@ related:
   - ai-data-analyst
   - from-4-hours-to-2-minutes-rcm-analytics
 faq:
-  - q: What is the difference between a KPI and a metric?
+  - q: What is a KPI?
     a: >-
-      A metric measures general business activity, such as website visits, email
-      opens, or support tickets, providing data on what is happening. A KPI is a
-      strategically chosen metric that reflects progress toward critical
-      business goals and guides leadership decisions.
-  - q: How often should KPIs be reviewed?
+      A key performance indicator is a measure tied to a decision somebody
+      actually makes. The qualifying test is not importance but consequence: if
+      a number would not change what anybody does regardless of its value, it is
+      a statistic worth tracking rather than a KPI worth managing against.
+  - q: How is a KPI different from a metric?
     a: >-
-      KPIs should be reviewed monthly or quarterly to ensure alignment with
-      business objectives. High-growth companies may review weekly to detect
-      early performance risks and trends. Regular reviews allow timely
-      adjustments, improving operational efficiency and strategic
-      decision-making.
-  - q: What KPIs are best for startups?
+      Every KPI is a metric, but most metrics are not KPIs. A metric is any
+      measure you can compute. A KPI is the small subset a team is accountable
+      for and acts on. Organisations that treat every metric as a KPI end up
+      accountable for nothing in particular.
+  - q: How many KPIs should a team have?
     a: >-
-      Startups often track monthly recurring revenue, customer acquisition cost,
-      churn rate, burn rate, activation rate, and user engagement. These KPIs
-      help founders evaluate product-market fit, manage cash flow, optimize
-      growth strategies, and measure adoption, retention, and scalability.
-  - q: How do you create effective KPIs?
+      Few enough that everyone can name them, which in practice means three to
+      five per team. Longer lists dilute accountability, because when everything
+      is a priority the choice of what to work on quietly returns to individual
+      judgement, which is what the KPIs were meant to align.
+  - q: Why do KPI programmes fail?
     a: >-
-      Effective KPIs are aligned with business objectives, based on accurate
-      data, and set with realistic, measurable targets. Following SMART
-      principles and reviewing KPIs regularly ensures they remain actionable,
-      relevant, and drive continuous improvement and accountability.
-  - q: What are examples of business KPIs?
+      Almost always on definitions rather than selection. Two teams tracking the
+      same named KPI with different formulas produce conflicting reports and a
+      slow loss of trust in the whole exercise. Agreeing the formula is
+      unglamorous, contested work, and it is the step most frequently skipped.
+  - q: What makes a good KPI?
     a: >-
-      Common KPIs include revenue growth, profit margin, customer retention
-      rate, conversion rate, employee productivity, and Net Promoter Score
-      (NPS). They provide insights into financial performance, customer
-      satisfaction, operational efficiency, and overall organizational
-      effectiveness.
+      It is specific, has an agreed formula, is measured at a cadence matching
+      the decision it informs, and has an owner. Leading indicators are more
+      useful than lagging ones where they exist, because a KPI you can only
+      observe after the outcome is fixed cannot change the outcome.
+  - q: Should KPIs change over time?
+    a: >-
+      Yes, and treating them as permanent is a common failure. A KPI reflects
+      what matters at a given stage, and priorities legitimately change. The
+      discipline is to retire them deliberately with a record of why, rather
+      than accumulating measures nobody reviews but everybody still reports.
 source:
   url: 'https://supaboard.ai/blog/what-is-a-kpi-guide'
   migratedAt: '2026-07-29'
