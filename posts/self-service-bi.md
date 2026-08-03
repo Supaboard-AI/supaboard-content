@@ -100,6 +100,20 @@ absorbed:
 internalLinks:
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
+citations:
+  - claim: Reference on gartner from Gartner
+    source: Gartner
+    url: 'https://www.gartner.com/en/data-analytics/topics/data-quality'
+  - claim: McKinsey & Company
+    source: McKinsey & Company
+    url: >-
+      https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-data-driven-enterprise-of-2025
+  - claim: Reference on forrester research from Forrester
+    source: Forrester
+    url: 'https://tei.forrester.com/go/Entrata/PropertyManagement/'
+  - claim: Self-service BI shifts the query interface toward non-technical users
+    source: Google Cloud
+    url: 'https://cloud.google.com/learn/what-is-business-intelligence'
 ---
 
 <!-- section:content-1 -->

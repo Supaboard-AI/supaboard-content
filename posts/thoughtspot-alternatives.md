@@ -104,6 +104,20 @@ legacyCategory: BI Tools
 internalLinks:
   - sisense-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: Reference on gartner from Gartner
+    source: Gartner
+    url: >-
+      https://www.gartner.com/reviews/market/analytics-business-intelligence-platforms/vendor/thoughtspot
+  - claim: G2 ThoughtSpot Reviews
+    source: g2.com
+    url: 'https://www.g2.com/products/thoughtspot/reviews'
+  - claim: ThoughtSpot Pricing Overview
+    source: ThoughtSpot
+    url: 'https://www.thoughtspot.com/pricing'
+  - claim: BI Trends and Alternatives 2026
+    source: getdot.ai
+    url: 'https://www.getdot.ai/blog/thoughtspot-alternatives'
 ---
 
 <!-- section:content-1 -->

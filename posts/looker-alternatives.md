@@ -116,6 +116,16 @@ legacyCategory: Tech
 internalLinks:
   - metabase-alternatives
   - power-bi-vs-tableau
+citations:
+  - claim: Costs with Looker
+    source: Google Cloud
+    url: 'https://cloud.google.com/looker/pricing'
+  - claim: Metabase publishes list pricing per tier
+    source: Metabase
+    url: 'https://www.metabase.com/pricing'
+  - claim: ThoughtSpot publishes list pricing per tier
+    source: ThoughtSpot
+    url: 'https://www.thoughtspot.com/pricing'
 ---
 
 <!-- section:content-1 -->

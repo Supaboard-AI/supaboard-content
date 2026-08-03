@@ -99,6 +99,29 @@ legacyCategory: General
 internalLinks:
   - sisense-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: Reference on tableau competitors from Tableau
+    source: Tableau
+    url: 'https://www.tableau.com/'
+  - claim: “Alternatives to Tableau?”
+    source: reddit.com
+    url: 'https://www.reddit.com/r/tableau/comments/1d2phs8/alternatives_to_tableau/'
+  - claim: Reference on thoughtspot from ThoughtSpot
+    source: ThoughtSpot
+    url: >-
+      https://www.thoughtspot.com/data-trends/business-intelligence/tableau-competitors#TC3
+  - claim: Metabase is an
+    source: Metabase
+    url: 'https://www.metabase.com/lp/metabase-vs-tableau'
+  - claim: Domo publishes its platform capabilities and positioning
+    source: domo.com
+    url: 'https://www.domo.com/learn/article/tableau-alternatives'
+  - claim: Sigma Computing is a
+    source: sigmacomputing.com
+    url: 'https://www.sigmacomputing.com/blog/best-alternatives-to-tableau'
+  - claim: ThoughtSpot publishes list pricing per tier
+    source: ThoughtSpot
+    url: 'https://www.thoughtspot.com/pricing'
 ---
 
 <!-- section:content-1 -->

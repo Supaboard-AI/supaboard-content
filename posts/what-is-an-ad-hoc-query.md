@@ -102,6 +102,17 @@ absorbed:
 internalLinks:
   - sisense-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: Reference on gartner from Gartner
+    source: Gartner
+    url: >-
+      https://www.gartner.com/en/newsroom/press-releases/2018-01-25-gartner-says-self-service-analytics-and-bi-users-will-produce-more-analysis-than-data-scientists-will-by-2019
+  - claim: SQL is the language ad hoc queries are ultimately expressed in
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/sql/'
+  - claim: Ad hoc querying is a core capability of business intelligence platforms
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
 ---
 
 <!-- section:content-1 -->

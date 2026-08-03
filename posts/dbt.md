@@ -56,6 +56,16 @@ legacyCategory: Tech
 internalLinks:
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
+citations:
+  - claim: MetricFlow defines metrics once for reuse across every downstream query
+    source: dbt Labs
+    url: 'https://docs.getdbt.com/docs/build/about-metricflow'
+  - claim: ELT and ETL describe where transformation happens relative to loading
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/etl'
+  - claim: Cloud warehouse concepts dbt models are built against
+    source: Snowflake
+    url: 'https://docs.snowflake.com/en/user-guide/intro-key-concepts'
 ---
 
 <!-- section:content-1 -->

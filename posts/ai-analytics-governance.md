@@ -67,6 +67,24 @@ absorbed:
 internalLinks:
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
+citations:
+  - claim: Reference on microsoft from Microsoft Learn
+    source: Microsoft Learn
+    url: 'https://learn.microsoft.com/en-us/copilot/security/'
+  - claim: Reference on google cloud from Google Cloud
+    source: Google Cloud
+    url: 'https://cloud.google.com/security'
+  - claim: Reference on ibm from IBM
+    source: IBM
+    url: 'https://www.ibm.com/topics/ai-governance'
+  - claim: Reference on openai from developers.openai.com
+    source: developers.openai.com
+    url: 'https://developers.openai.com/api/docs'
+  - claim: >-
+      The NIST AI Risk Management Framework is the reference standard for
+      governing AI systems
+    source: NIST
+    url: 'https://www.nist.gov/itl/ai-risk-management-framework'
 ---
 
 <!-- section:content-1 -->

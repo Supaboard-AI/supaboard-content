@@ -60,6 +60,28 @@ absorbed:
 internalLinks:
   - how-to-evaluate-ai-bi-tools
   - retail-business-intelligence
+citations:
+  - claim: Reference on metabase from Metabase
+    source: Metabase
+    url: 'https://www.metabase.com/'
+  - claim: Reference on jared c from capterra.com
+    source: capterra.com
+    url: 'https://www.capterra.com/p/176651/Metabase/reviews/4779794/'
+  - claim: Reference on thoughtspot from ThoughtSpot
+    source: ThoughtSpot
+    url: 'https://www.thoughtspot.com/'
+  - claim: Reference on holistics from holistics.io
+    source: holistics.io
+    url: 'https://www.holistics.io/'
+  - claim: Reference on yellowfin bi from yellowfinbi.com
+    source: yellowfinbi.com
+    url: 'https://www.yellowfinbi.com/'
+  - claim: Reference on sisense from sisense.com
+    source: sisense.com
+    url: 'https://www.sisense.com/'
+  - claim: 'Metabase publishes list pricing per tier, including embedding'
+    source: Metabase
+    url: 'https://www.metabase.com/pricing'
 ---
 
 <!-- section:content-1 -->

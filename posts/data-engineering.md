@@ -97,6 +97,19 @@ absorbed:
 internalLinks:
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
+citations:
+  - claim: Reference on netflix from netflixtechblog.com
+    source: netflixtechblog.com
+    url: 'https://netflixtechblog.com/'
+  - claim: ETL and ELT describe the core transformation work of a data platform
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/etl'
+  - claim: Managed ETL services have absorbed much of the pipeline boilerplate
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/etl/'
+  - claim: Cloud warehouse architecture changed what data engineers maintain
+    source: Snowflake
+    url: 'https://docs.snowflake.com/en/user-guide/intro-key-concepts'
 ---
 
 <!-- section:content-1 -->

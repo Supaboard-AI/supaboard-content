@@ -77,6 +77,26 @@ legacyCategory: Tech
 internalLinks:
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
+citations:
+  - claim: In simple terms
+    source: IBM
+    url: 'https://www.ibm.com/docs/en/db2/11.5?topic=data-data-modeling'
+  - claim: Reference on both operational from geeksforgeeks.org
+    source: geeksforgeeks.org
+    url: >-
+      https://www.geeksforgeeks.org/data-analysis/data-modeling-a-comprehensive-guide-for-analysts/
+  - claim: Reference on widely used from quest.com
+    source: quest.com
+    url: 'https://www.quest.com/solutions/data-modeling/'
+  - claim: Reference on easy-to-use from lucidchart.com
+    source: lucidchart.com
+    url: 'https://www.lucidchart.com/pages'
+  - claim: Reference on modern analytics from getdbt.com
+    source: getdbt.com
+    url: 'https://www.getdbt.com/'
+  - claim: 'Data modeling defines entities, attributes and their relationships'
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/data-modeling/'
 ---
 
 <!-- section:content-1 -->

@@ -105,6 +105,18 @@ absorbed:
 internalLinks:
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
+citations:
+  - claim: Reference on generative ai from codeconductor.ai
+    source: codeconductor.ai
+    url: 'https://codeconductor.ai/blog/build-your-generative-ai-solution/'
+  - claim: Large language models are what make generative BI possible
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/large-language-models'
+  - claim: >-
+      Business intelligence is the discipline generative tooling is being
+      applied to
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/business-intelligence/'
 ---
 
 <!-- section:content-1 -->

@@ -66,6 +66,16 @@ absorbed:
 internalLinks:
   - ai-data-analyst
   - from-4-hours-to-2-minutes-rcm-analytics
+citations:
+  - claim: Reference on power bi from Microsoft
+    source: Microsoft
+    url: 'https://www.microsoft.com/en-us/power-platform/products/power-bi'
+  - claim: Predictive analytics estimates what happens next from historical data
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/predictive-analytics'
+  - claim: Descriptive reporting is the foundation of the wider BI discipline
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
 ---
 
 <!-- section:content-1 -->

@@ -93,6 +93,16 @@ absorbed:
 internalLinks:
   - sisense-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: Metabase publishes per-tier pricing including its embedding tiers
+    source: Metabase
+    url: 'https://www.metabase.com/pricing'
+  - claim: ThoughtSpot publishes pricing for its embedded and platform tiers
+    source: ThoughtSpot
+    url: 'https://www.thoughtspot.com/pricing'
+  - claim: Apache Superset is an open-source option frequently embedded into products
+    source: Apache Superset
+    url: 'https://superset.apache.org/docs/intro'
 ---
 
 <!-- section:content-1 -->

@@ -88,6 +88,20 @@ absorbed:
 internalLinks:
   - ai-data-analyst
   - from-4-hours-to-2-minutes-rcm-analytics
+citations:
+  - claim: >-
+      Real-time analytics processes data as it is generated rather than in
+      batches
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/real-time-analytics'
+  - claim: >-
+      Streaming and batch ingestion differ in how data reaches the analytical
+      store
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/etl'
+  - claim: Cloud warehouses support continuous loading for near-real-time queries
+    source: Snowflake
+    url: 'https://docs.snowflake.com/en/user-guide/intro-key-concepts'
 ---
 
 <!-- section:content-1 -->

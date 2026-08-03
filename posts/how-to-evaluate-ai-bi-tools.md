@@ -97,6 +97,18 @@ legacyCategory: BI Tools
 internalLinks:
   - metabase-alternatives
   - retail-business-intelligence
+citations:
+  - claim: >-
+      Business intelligence platforms combine analytics, reporting and
+      integration
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
+  - claim: A metrics layer resolves business definitions before a query is generated
+    source: dbt Labs
+    url: 'https://docs.getdbt.com/docs/build/about-metricflow'
+  - claim: Universal semantic layers serve governed definitions to multiple tools
+    source: Cube
+    url: 'https://cube.dev/'
 ---
 
 <!-- section:content-1 -->

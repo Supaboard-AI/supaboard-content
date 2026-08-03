@@ -101,6 +101,20 @@ legacyCategory: Tech
 internalLinks:
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
+citations:
+  - claim: Microsoft SQL Server
+    source: google.com
+    url: >-
+      https://google.com/search?q=sql+databases&oq=SQL+databases&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBwgBEAAYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyCQgGEAAYChiABDIGCAcQRRg80gEHMzQzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+  - claim: Reference on data lake from Wikipedia
+    source: Wikipedia
+    url: 'http://en.wikipedia.org/wiki/Data_lake'
+  - claim: Reference on amazon redshift from Amazon Web Services
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/redshift/'
+  - claim: A data lake stores raw data at scale without imposing schema on write
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/data-lake'
 ---
 
 <!-- section:content-1 -->

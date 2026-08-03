@@ -91,6 +91,18 @@ legacyCategory: General
 internalLinks:
   - ai-data-analyst
   - from-4-hours-to-2-minutes-rcm-analytics
+citations:
+  - claim: Reference on predictive analytics from IBM
+    source: IBM
+    url: 'https://www.ibm.com/topics/predictive-analytics'
+  - claim: Reference on google cloud from Google Cloud
+    source: Google Cloud
+    url: 'https://cloud.google.com/learn/what-is-business-intelligence'
+  - claim: >-
+      Business intelligence is the wider discipline predictive analytics sits
+      within
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/business-intelligence/'
 ---
 
 <!-- section:content-1 -->

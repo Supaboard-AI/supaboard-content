@@ -90,6 +90,16 @@ legacyCategory: Tech
 internalLinks:
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
+citations:
+  - claim: Reference on database optimization from IBM
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/database-optimization'
+  - claim: Query performance depends more on plan and indexing than on hardware
+    source: Snowflake
+    url: 'https://docs.snowflake.com/en/user-guide/intro-key-concepts'
+  - claim: Columnar warehouse engines change which optimisations matter
+    source: Google Cloud
+    url: 'https://cloud.google.com/bigquery/docs/introduction'
 ---
 
 <!-- section:content-1 -->

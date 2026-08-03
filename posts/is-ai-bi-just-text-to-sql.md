@@ -95,6 +95,18 @@ legacyCategory: BI Tools
 internalLinks:
   - data-visualization-tools
   - retail-business-intelligence
+citations:
+  - claim: SQL is the language a text-to-SQL system must generate correctly
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/sql/'
+  - claim: >-
+      MetricFlow compiles governed metric definitions rather than guessing at
+      columns
+    source: dbt Labs
+    url: 'https://docs.getdbt.com/docs/build/about-metricflow'
+  - claim: A semantic layer sits between raw tables and the query interface
+    source: Cube
+    url: 'https://cube.dev/'
 ---
 
 <!-- section:content-1 -->

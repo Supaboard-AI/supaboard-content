@@ -111,6 +111,56 @@ absorbed:
 internalLinks:
   - ai-analytics-governance
   - positive-vs-negative-correlation
+citations:
+  - claim: dbt on the Semantic Layer and MetricFlow
+    source: dbt Labs
+    url: 'https://docs.getdbt.com/blog/semantic-layer-vs-text-to-sql-2026'
+  - claim: Cube's universal semantic layer
+    source: Cube
+    url: 'https://cube.dev/'
+  - claim: Google's description of LookML as a semantic modeling layer
+    source: Google Cloud
+    url: >-
+      https://cloud.google.com/blog/products/business-intelligence/looker-updates-for-agentic-bi-at-next26/
+  - claim: AtScale's framing of the semantic layer as governed business context
+    source: AtScale
+    url: 'https://www.atscale.com/use-cases/universal-semantic-layer/'
+  - claim: Wikipedia's semantic data model entry
+    source: Wikipedia
+    url: 'https://en.wikipedia.org/wiki/Semantic_data_model'
+  - claim: Fivetran and dbt Labs described the combined company
+    source: fivetran.com
+    url: >-
+      https://www.fivetran.com/press/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents
+  - claim: Reference on malloy from github.com
+    source: github.com
+    url: 'https://github.com/malloydata/malloy'
+  - claim: Drill to Detail podcast
+    source: podscripts.co
+    url: >-
+      https://podscripts.co/podcasts/drill-to-detail/drill-to-detail-ep110-building-a-sequel-to-sql-with-malloy-featuring-special-guests-lloyd-tabb-and-carlin-eng
+  - claim: Reference on bilt rewards from getdbt.com
+    source: getdbt.com
+    url: 'https://www.getdbt.com/case-studies/bilt-rewards'
+  - claim: Reference on siliconangle from siliconangle.com
+    source: siliconangle.com
+    url: >-
+      https://siliconangle.com/2025/06/02/semantic-data-layer-startup-cube-automates-analytics-ai-agents/
+  - claim: Reference on denodo's testing from datamanagementblog.com
+    source: datamanagementblog.com
+    url: >-
+      https://www.datamanagementblog.com/improving-the-accuracy-of-llm-based-text-to-sql-generation-with-a-semantic-layer-in-the-denodo-platform/
+  - claim: Wren AI's analysis
+    source: getwren.ai
+    url: >-
+      https://www.getwren.ai/post/why-the-semantic-layer-is-essential-for-reliable-text-to-sql-and-how-wren-ai-brings-it-to-life
+  - claim: Snowflake's Cortex Analyst engineering work
+    source: snowflake.com
+    url: >-
+      https://www.snowflake.com/en/blog/engineering/agentic-semantic-model-text-to-sql/
+  - claim: RDF formalises subject-predicate-object triples underlying semantic models
+    source: W3C
+    url: 'https://www.w3.org/TR/rdf11-concepts/'
 ---
 
 <!-- section:content-1 -->

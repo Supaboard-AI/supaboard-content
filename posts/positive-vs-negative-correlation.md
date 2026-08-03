@@ -55,6 +55,18 @@ legacyCategory: Tech
 internalLinks:
   - ai-analytics-governance
   - what-is-a-semantic-layer
+citations:
+  - claim: 2 types of correlation
+    source: coursera.org
+    url: 'https://www.coursera.org/articles/types-of-correlations'
+  - claim: >-
+      Correlation measures the direction and strength of a relationship between
+      variables
+    source: Wikipedia
+    url: 'https://en.wikipedia.org/wiki/Correlation'
+  - claim: Distributions must be understood before a correlation can be interpreted
+    source: Wikipedia
+    url: 'https://en.wikipedia.org/wiki/Histogram'
 ---
 
 <!-- section:content-1 -->

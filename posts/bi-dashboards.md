@@ -84,6 +84,16 @@ absorbed:
     https://supaboard.ai/blog/what-is-a-decision-making-dashboard-importance-benefits-and-how-to-build-one
 internalLinks:
   - financial-dashboard-examples
+citations:
+  - claim: Reference on gartner from Gartner
+    source: Gartner
+    url: 'https://www.gartner.com/en'
+  - claim: McKinsey & Company
+    source: McKinsey & Company
+    url: 'https://www.mckinsey.com/capabilities/tech-and-ai/how-we-help-clients'
+  - claim: Dashboards are one delivery mechanism within business intelligence
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
 ---
 
 <!-- section:content-1 -->

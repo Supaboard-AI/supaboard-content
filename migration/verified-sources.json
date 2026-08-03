@@ -1,0 +1,180 @@
+{
+  "_note": "Hand-picked primary sources for posts that linked to nothing or too little. Every URL was checked with an HTTP request before being added here; none were invented. Vendor pricing pages are cited for pricing claims because they are the only authoritative source and they change.",
+
+  "ai-data-analyst": [
+    { "claim": "Large language models are the technology underlying conversational analytics assistants", "source": "IBM", "url": "https://www.ibm.com/think/topics/large-language-models" },
+    { "claim": "SQL remains the query language an AI analyst generates against", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/sql/" },
+    { "claim": "Warehouse-scale query engines are what these tools run on", "source": "Google Cloud", "url": "https://cloud.google.com/bigquery/docs/introduction" }
+  ],
+  "dbt": [
+    { "claim": "MetricFlow defines metrics once for reuse across every downstream query", "source": "dbt Labs", "url": "https://docs.getdbt.com/docs/build/about-metricflow" },
+    { "claim": "ELT and ETL describe where transformation happens relative to loading", "source": "IBM", "url": "https://www.ibm.com/think/topics/etl" },
+    { "claim": "Cloud warehouse concepts dbt models are built against", "source": "Snowflake", "url": "https://docs.snowflake.com/en/user-guide/intro-key-concepts" }
+  ],
+  "embedded-analytics": [
+    { "claim": "Metabase publishes per-tier pricing including its embedding tiers", "source": "Metabase", "url": "https://www.metabase.com/pricing" },
+    { "claim": "ThoughtSpot publishes pricing for its embedded and platform tiers", "source": "ThoughtSpot", "url": "https://www.thoughtspot.com/pricing" },
+    { "claim": "Apache Superset is an open-source option frequently embedded into products", "source": "Apache Superset", "url": "https://superset.apache.org/docs/intro" }
+  ],
+  "from-4-hours-to-2-minutes-rcm-analytics": [
+    { "claim": "A data warehouse is the single source of truth an analytics agent runs against", "source": "IBM", "url": "https://www.ibm.com/think/topics/data-warehouse" },
+    { "claim": "AI governance frameworks define how sensitive data is controlled in AI systems", "source": "IBM", "url": "https://www.ibm.com/think/topics/ai-governance" },
+    { "claim": "ETL is the process by which masked source data reaches the warehouse", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/etl/" }
+  ],
+  "how-to-evaluate-ai-bi-tools": [
+    { "claim": "Business intelligence platforms combine analytics, reporting and integration", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" },
+    { "claim": "A metrics layer resolves business definitions before a query is generated", "source": "dbt Labs", "url": "https://docs.getdbt.com/docs/build/about-metricflow" },
+    { "claim": "Universal semantic layers serve governed definitions to multiple tools", "source": "Cube", "url": "https://cube.dev/" }
+  ],
+  "is-ai-bi-just-text-to-sql": [
+    { "claim": "SQL is the language a text-to-SQL system must generate correctly", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/sql/" },
+    { "claim": "MetricFlow compiles governed metric definitions rather than guessing at columns", "source": "dbt Labs", "url": "https://docs.getdbt.com/docs/build/about-metricflow" },
+    { "claim": "A semantic layer sits between raw tables and the query interface", "source": "Cube", "url": "https://cube.dev/" }
+  ],
+  "real-time-analytics": [
+    { "claim": "Real-time analytics processes data as it is generated rather than in batches", "source": "IBM", "url": "https://www.ibm.com/think/topics/real-time-analytics" },
+    { "claim": "Streaming and batch ingestion differ in how data reaches the analytical store", "source": "IBM", "url": "https://www.ibm.com/think/topics/etl" },
+    { "claim": "Cloud warehouses support continuous loading for near-real-time queries", "source": "Snowflake", "url": "https://docs.snowflake.com/en/user-guide/intro-key-concepts" }
+  ],
+  "sisense-alternatives": [
+    { "claim": "Metabase publishes list pricing per tier", "source": "Metabase", "url": "https://www.metabase.com/pricing" },
+    { "claim": "ThoughtSpot publishes list pricing per tier", "source": "ThoughtSpot", "url": "https://www.thoughtspot.com/pricing" },
+    { "claim": "Qlik publishes list pricing per tier", "source": "Qlik", "url": "https://www.qlik.com/us/pricing" },
+    { "claim": "Looker pricing is published per platform edition and user type", "source": "Google Cloud", "url": "https://cloud.google.com/looker/pricing" }
+  ],
+  "analytics-without-a-data-team": [
+    { "claim": "Business intelligence turns raw operational data into decisions", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/business-intelligence/" },
+    { "claim": "Self-service BI is defined by who can answer a question without an analyst", "source": "Google Cloud", "url": "https://cloud.google.com/learn/what-is-business-intelligence" }
+  ],
+  "data-engineering": [
+    { "claim": "ETL and ELT describe the core transformation work of a data platform", "source": "IBM", "url": "https://www.ibm.com/think/topics/etl" },
+    { "claim": "Managed ETL services have absorbed much of the pipeline boilerplate", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/etl/" },
+    { "claim": "Cloud warehouse architecture changed what data engineers maintain", "source": "Snowflake", "url": "https://docs.snowflake.com/en/user-guide/intro-key-concepts" }
+  ],
+  "data-visualization-tools": [
+    { "claim": "A histogram represents the distribution of a continuous variable", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Histogram" },
+    { "claim": "Chart choice is a communication decision, not only a technical one", "source": "storytellingwithdata.com", "url": "https://storytellingwithdata.com/blog" }
+  ],
+  "database-optimization": [
+    { "claim": "Query performance depends more on plan and indexing than on hardware", "source": "Snowflake", "url": "https://docs.snowflake.com/en/user-guide/intro-key-concepts" },
+    { "claim": "Columnar warehouse engines change which optimisations matter", "source": "Google Cloud", "url": "https://cloud.google.com/bigquery/docs/introduction" }
+  ],
+  "enterprise-business-intelligence": [
+    { "claim": "Business intelligence combines analytics, reporting and integration at enterprise scale", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" },
+    { "claim": "Enterprise BI platforms are defined by governance as much as by analysis", "source": "Google Cloud", "url": "https://cloud.google.com/learn/what-is-business-intelligence" }
+  ],
+  "generative-business-intelligence": [
+    { "claim": "Large language models are what make generative BI possible", "source": "IBM", "url": "https://www.ibm.com/think/topics/large-language-models" },
+    { "claim": "Business intelligence is the discipline generative tooling is being applied to", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/business-intelligence/" }
+  ],
+  "healthcare-analytics": [
+    { "claim": "Predictive analytics estimates future outcomes from historical patterns", "source": "IBM", "url": "https://www.ibm.com/think/topics/predictive-analytics" },
+    { "claim": "The NIST AI Risk Management Framework governs high-stakes AI deployment", "source": "NIST", "url": "https://www.nist.gov/itl/ai-risk-management-framework" }
+  ],
+  "looker-alternatives": [
+    { "claim": "Looker pricing is published per platform edition and user type", "source": "Google Cloud", "url": "https://cloud.google.com/looker/pricing" },
+    { "claim": "Metabase publishes list pricing per tier", "source": "Metabase", "url": "https://www.metabase.com/pricing" },
+    { "claim": "ThoughtSpot publishes list pricing per tier", "source": "ThoughtSpot", "url": "https://www.thoughtspot.com/pricing" }
+  ],
+  "manufacturing-analytics": [
+    { "claim": "Real-time analytics underpins production monitoring and predictive maintenance", "source": "IBM", "url": "https://www.ibm.com/think/topics/real-time-analytics" },
+    { "claim": "Business intelligence is the discipline these manufacturing use cases sit within", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" }
+  ],
+  "positive-vs-negative-correlation": [
+    { "claim": "Correlation measures the direction and strength of a relationship between variables", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Correlation" },
+    { "claim": "Distributions must be understood before a correlation can be interpreted", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Histogram" }
+  ],
+  "spend-analytics": [
+    { "claim": "Business intelligence is the analytical discipline spend analytics applies", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" },
+    { "claim": "Consolidating source systems is prerequisite to trustworthy spend analysis", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/business-intelligence/" }
+  ],
+  "types-of-analytics": [
+    { "claim": "Predictive analytics estimates what happens next from historical data", "source": "IBM", "url": "https://www.ibm.com/think/topics/predictive-analytics" },
+    { "claim": "Descriptive reporting is the foundation of the wider BI discipline", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" }
+  ],
+  "what-is-a-kpi": [
+    { "claim": "KPIs are the measures a BI platform is built to track", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" },
+    { "claim": "Consistent KPI definitions are a business intelligence problem, not a reporting one", "source": "Google Cloud", "url": "https://cloud.google.com/learn/what-is-business-intelligence" }
+  ],
+  "what-is-an-ad-hoc-query": [
+    { "claim": "SQL is the language ad hoc queries are ultimately expressed in", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/sql/" },
+    { "claim": "Ad hoc querying is a core capability of business intelligence platforms", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" }
+  ],
+  "will-ai-replace-data-analysts": [
+    { "claim": "Large language models automate retrieval and summarisation, not judgement", "source": "IBM", "url": "https://www.ibm.com/think/topics/large-language-models" },
+    { "claim": "Business intelligence work spans far more than writing queries", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" }
+  ],
+  "bi-dashboards": [
+    { "claim": "Dashboards are one delivery mechanism within business intelligence", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" }
+  ],
+  "data-science-vs-data-analytics": [
+    { "claim": "Predictive modelling is where data science extends beyond analytics", "source": "IBM", "url": "https://www.ibm.com/think/topics/predictive-analytics" }
+  ],
+  "what-is-predictive-analytics": [
+    { "claim": "Business intelligence is the wider discipline predictive analytics sits within", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/business-intelligence/" }
+  ],
+  "database-vs-data-warehouse-vs-data-lake": [
+    { "claim": "A data lake stores raw data at scale without imposing schema on write", "source": "IBM", "url": "https://www.ibm.com/think/topics/data-lake" }
+  ],
+  "what-is-data-modeling": [
+    { "claim": "Data modeling defines entities, attributes and their relationships", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/data-modeling/" }
+  ],
+  "agentic-analytics": [
+    { "claim": "Large language models are the substrate agentic analytics is built on", "source": "IBM", "url": "https://www.ibm.com/think/topics/large-language-models" }
+  ],
+  "ai-analytics-governance": [
+    { "claim": "The NIST AI Risk Management Framework is the reference standard for governing AI systems", "source": "NIST", "url": "https://www.nist.gov/itl/ai-risk-management-framework" }
+  ],
+  "natural-language-query-analytics": [
+    { "claim": "A semantic layer is what resolves a natural-language question to governed definitions", "source": "Cube", "url": "https://cube.dev/" }
+  ],
+  "ecommerce-analytics": [
+    { "claim": "Business intelligence is the discipline e-commerce analytics applies", "source": "Amazon Web Services", "url": "https://aws.amazon.com/what-is/business-intelligence/" }
+  ],
+  "logistics-analytics": [
+    { "claim": "Real-time analytics underpins live logistics monitoring", "source": "IBM", "url": "https://www.ibm.com/think/topics/real-time-analytics" }
+  ],
+  "saas-business-intelligence": [
+    { "claim": "Business intelligence platforms combine analytics, reporting and integration", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" }
+  ],
+  "self-service-bi": [
+    { "claim": "Self-service BI shifts the query interface toward non-technical users", "source": "Google Cloud", "url": "https://cloud.google.com/learn/what-is-business-intelligence" }
+  ],
+  "financial-dashboard-examples": [
+    { "claim": "Dashboards are a delivery mechanism within business intelligence", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" }
+  ],
+  "retail-business-intelligence": [
+    { "claim": "Business intelligence is the discipline retail analytics applies", "source": "IBM", "url": "https://www.ibm.com/think/topics/business-intelligence" }
+  ],
+  "bar-graph-vs-histogram": [
+    { "claim": "A histogram represents the distribution of a continuous variable", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Histogram" }
+  ],
+  "data-connectivity": [
+    { "claim": "ETL is the mechanism by which connected sources become analysable", "source": "IBM", "url": "https://www.ibm.com/think/topics/etl" }
+  ],
+  "what-is-a-semantic-layer": [
+    { "claim": "RDF formalises subject-predicate-object triples underlying semantic models", "source": "W3C", "url": "https://www.w3.org/TR/rdf11-concepts/" }
+  ],
+  "business-intelligence": [
+    { "claim": "Business intelligence as a discipline and its historical development", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Business_intelligence" }
+  ],
+  "power-bi-vs-tableau": [
+    { "claim": "DAX is the expression language Power BI modelling depends on", "source": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/dax/dax-overview" }
+  ],
+  "best-ai-bi-tools": [
+    { "claim": "Metabase publishes list pricing per tier", "source": "Metabase", "url": "https://www.metabase.com/pricing" }
+  ],
+  "metabase-alternatives": [
+    { "claim": "Metabase publishes list pricing per tier, including embedding", "source": "Metabase", "url": "https://www.metabase.com/pricing" }
+  ],
+  "tableau-alternatives": [
+    { "claim": "ThoughtSpot publishes list pricing per tier", "source": "ThoughtSpot", "url": "https://www.thoughtspot.com/pricing" }
+  ],
+  "thoughtspot-alternatives": [
+    { "claim": "ThoughtSpot publishes list pricing per tier", "source": "ThoughtSpot", "url": "https://www.thoughtspot.com/pricing" }
+  ],
+  "apache-superset-alternatives": [
+    { "claim": "Apache Superset documents its own architecture and deployment model", "source": "Apache Superset", "url": "https://superset.apache.org/docs/intro" }
+  ],
+  "embedded-analytics-extra": []
+}

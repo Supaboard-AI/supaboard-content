@@ -86,6 +86,18 @@ legacyCategory: General
 internalLinks:
   - ai-data-analyst
   - from-4-hours-to-2-minutes-rcm-analytics
+citations:
+  - claim: Reference on gartner from Gartner
+    source: Gartner
+    url: 'https://www.gartner.com/en'
+  - claim: KPIs are the measures a BI platform is built to track
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
+  - claim: >-
+      Consistent KPI definitions are a business intelligence problem, not a
+      reporting one
+    source: Google Cloud
+    url: 'https://cloud.google.com/learn/what-is-business-intelligence'
 ---
 
 <!-- section:content-1 -->

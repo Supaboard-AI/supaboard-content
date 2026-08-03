@@ -63,6 +63,16 @@ absorbed:
   - 'https://supaboard.ai/blog/will-ai-automate-bi-reporting-in-2026'
 internalLinks:
   - data-connectivity
+citations:
+  - claim: Reference on google from google.com
+    source: google.com
+    url: 'http://www.google.com/'
+  - claim: 'Large language models automate retrieval and summarisation, not judgement'
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/large-language-models'
+  - claim: Business intelligence work spans far more than writing queries
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
 ---
 
 <!-- section:content-1 -->

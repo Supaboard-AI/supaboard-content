@@ -53,6 +53,20 @@ legacyCategory: Business
 internalLinks:
   - ai-data-analyst
   - spend-analytics
+citations:
+  - claim: >-
+      A data warehouse is the single source of truth an analytics agent runs
+      against
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/data-warehouse'
+  - claim: >-
+      AI governance frameworks define how sensitive data is controlled in AI
+      systems
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/ai-governance'
+  - claim: ETL is the process by which masked source data reaches the warehouse
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/etl/'
 ---
 
 <!-- section:content-1 -->

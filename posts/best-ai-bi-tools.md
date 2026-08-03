@@ -104,6 +104,39 @@ absorbed:
 internalLinks:
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
+citations:
+  - claim: Microsoft Power BI
+    source: Microsoft
+    url: 'https://www.microsoft.com/en-us/power-platform/products/power-bi/'
+  - claim: Reference on tableau from Tableau
+    source: Tableau
+    url: 'https://www.tableau.com/'
+  - claim: Reference on qlik sense from Qlik
+    source: Qlik
+    url: 'https://www.qlik.com/us/products/qlik-sense'
+  - claim: Reference on thoughtspot from ThoughtSpot
+    source: ThoughtSpot
+    url: 'https://www.thoughtspot.com/'
+  - claim: Reference on looker price from Google Cloud
+    source: Google Cloud
+    url: 'https://cloud.google.com/pricing'
+  - claim: Reference on domo from domo.com
+    source: domo.com
+    url: 'https://www.domo.com/'
+  - claim: Reference on sisense from sisense.com
+    source: sisense.com
+    url: 'https://www.sisense.com/'
+  - claim: IBM’s definition of Business Intelligence
+    source: IBM
+    url: >-
+      https://www.ibm.com/think/topics/business-intelligence?utm_source=chatgpt.com
+  - claim: Gartner’s BI platform overview
+    source: Gartner
+    url: >-
+      https://www.gartner.com/en/information-technology/glossary/bi-platforms?utm_source=chatgpt.com
+  - claim: Metabase publishes list pricing per tier
+    source: Metabase
+    url: 'https://www.metabase.com/pricing'
 ---
 
 <!-- section:content-1 -->

@@ -95,6 +95,16 @@ absorbed:
 internalLinks:
   - is-ai-bi-just-text-to-sql
   - retail-business-intelligence
+citations:
+  - claim: Reference on analytics market from precedenceresearch.com
+    source: precedenceresearch.com
+    url: 'https://www.precedenceresearch.com/ai-in-data-analytics-market'
+  - claim: A histogram represents the distribution of a continuous variable
+    source: Wikipedia
+    url: 'https://en.wikipedia.org/wiki/Histogram'
+  - claim: 'Chart choice is a communication decision, not only a technical one'
+    source: storytellingwithdata.com
+    url: 'https://storytellingwithdata.com/blog'
 ---
 
 <!-- section:content-1 -->

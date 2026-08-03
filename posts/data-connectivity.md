@@ -128,6 +128,24 @@ absorbed:
 internalLinks:
   - positive-vs-negative-correlation
   - what-is-a-semantic-layer
+citations:
+  - claim: McKinsey insights on data productivity impact
+    source: esri.com
+    url: >-
+      https://www.esri.com/about/newsroom/arcnews/data-quality-across-the-digital-landscape?utm_source=chatgpt.com
+  - claim: Reference on gartner from Gartner
+    source: Gartner
+    url: 'https://www.gartner.com/en/research/magic-quadrant/'
+  - claim: Reference on data connectivity from salesforce.com
+    source: salesforce.com
+    url: 'https://www.salesforce.com/data/connectivity/guide/'
+  - claim: DataToBiz centralized retail analytics case study
+    source: datatobiz.com
+    url: >-
+      https://www.datatobiz.com/case-studies/centralized-data-warehousing-for-improved-retail-analytics-operation/
+  - claim: ETL is the mechanism by which connected sources become analysable
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/etl'
 ---
 
 <!-- section:content-1 -->

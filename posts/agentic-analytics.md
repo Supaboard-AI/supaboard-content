@@ -53,6 +53,19 @@ absorbed:
 internalLinks:
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
+citations:
+  - claim: Reference on tableau from Wikipedia
+    source: Wikipedia
+    url: 'https://en.wikipedia.org/wiki/Tableau_Software'
+  - claim: Reference on gartner from Gartner
+    source: Gartner
+    url: 'https://www.gartner.com/en/documents/7367030'
+  - claim: Reference on reddit threads from reddit.com
+    source: reddit.com
+    url: 'https://www.reddit.com/'
+  - claim: Large language models are the substrate agentic analytics is built on
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/large-language-models'
 ---
 
 <!-- section:content-1 -->

@@ -101,6 +101,17 @@ source:
 legacyCategory: Tech
 internalLinks:
   - data-connectivity
+citations:
+  - claim: Tesla Use cases
+    source: tesla.com
+    url: 'https://www.tesla.com/fsd'
+  - claim: Reference on walmart used from corporate.walmart.com
+    source: corporate.walmart.com
+    url: >-
+      https://corporate.walmart.com/news/2025/10/29/walmart-data-ventures-shapes-the-next-era-of-insight-driven-retail-innovation
+  - claim: Predictive modelling is where data science extends beyond analytics
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/predictive-analytics'
 ---
 
 <!-- section:content-1 -->

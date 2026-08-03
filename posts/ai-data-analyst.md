@@ -62,6 +62,18 @@ absorbed:
 internalLinks:
   - from-4-hours-to-2-minutes-rcm-analytics
   - spend-analytics
+citations:
+  - claim: >-
+      Large language models are the technology underlying conversational
+      analytics assistants
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/large-language-models'
+  - claim: SQL remains the query language an AI analyst generates against
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/sql/'
+  - claim: Warehouse-scale query engines are what these tools run on
+    source: Google Cloud
+    url: 'https://cloud.google.com/bigquery/docs/introduction'
 ---
 
 <!-- section:content-1 -->

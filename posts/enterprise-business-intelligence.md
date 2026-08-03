@@ -62,6 +62,19 @@ legacyCategory: BI Tools
 internalLinks:
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
+citations:
+  - claim: Reference on deloitte’s from Deloitte
+    source: Deloitte
+    url: >-
+      https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html
+  - claim: >-
+      Business intelligence combines analytics, reporting and integration at
+      enterprise scale
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
+  - claim: Enterprise BI platforms are defined by governance as much as by analysis
+    source: Google Cloud
+    url: 'https://cloud.google.com/learn/what-is-business-intelligence'
 ---
 
 <!-- section:content-1 -->

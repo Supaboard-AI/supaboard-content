@@ -90,6 +90,21 @@ legacyCategory: Business
 internalLinks:
   - ai-data-analyst
   - from-4-hours-to-2-minutes-rcm-analytics
+citations:
+  - claim: Manufacturing Analytics Market Report
+    source: researchandmarkets.com
+    url: >-
+      https://www.researchandmarkets.com/reports/5767577/manufacturing-analytics-market-report?srsltid=AfmBOopn0Yx8y_zWrsR9AQRQOB7fQiv2-aM4M0aAhvLIp0KYmXh55EoY
+  - claim: >-
+      Real-time analytics underpins production monitoring and predictive
+      maintenance
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/real-time-analytics'
+  - claim: >-
+      Business intelligence is the discipline these manufacturing use cases sit
+      within
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
 ---
 
 <!-- section:content-1 -->

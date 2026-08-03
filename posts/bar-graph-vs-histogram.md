@@ -106,6 +106,27 @@ absorbed:
   - 'https://supaboard.ai/blog/histogram-vs-bar-graph'
 internalLinks:
   - analytics-without-a-data-team
+citations:
+  - claim: University of Wisconsin’s clear explanation of bar graphs vs histograms
+    source: online210.psych.wisc.edu
+    url: >-
+      https://online210.psych.wisc.edu/wp-content/uploads/PSY-210_Unit_Materials/PSY-210_Unit04_Materials/StatTrek_BarVsHistogram_2020.pdf
+  - claim: Storytelling with Data"
+    source: storytellingwithdata.com
+    url: >-
+      https://www.storytellingwithdata.com/blog/2021/1/28/histograms-and-bar-charts
+  - claim: Reference on decision-making research from Harvard Business Review
+    source: Harvard Business Review
+    url: 'https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century'
+  - claim: Lucidchart’s explanation of histogram vs bar graph
+    source: lucidchart.com
+    url: 'https://www.lucidchart.com/blog/histogram-vs-bar-graph'
+  - claim: the same mistakes
+    source: sigmacomputing.com
+    url: 'https://www.sigmacomputing.com/blog/best-visualization-histogram-bar-chart'
+  - claim: A histogram represents the distribution of a continuous variable
+    source: Wikipedia
+    url: 'https://en.wikipedia.org/wiki/Histogram'
 ---
 
 <!-- section:content-1 -->

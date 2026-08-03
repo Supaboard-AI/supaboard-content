@@ -103,6 +103,21 @@ absorbed:
   - 'https://supaboard.ai/blog/financial-dashboards-guide'
 internalLinks:
   - bi-dashboards
+citations:
+  - claim: Reference on deloitte’s from Deloitte
+    source: Deloitte
+    url: >-
+      https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html
+  - claim: Reference on accounting software from techimply.com
+    source: techimply.com
+    url: 'https://www.techimply.com/software/accounting-software'
+  - claim: According to McKinsey
+    source: McKinsey & Company
+    url: >-
+      https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-data-driven-enterprise-of-2025
+  - claim: Dashboards are a delivery mechanism within business intelligence
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
 ---
 
 <!-- section:content-1 -->

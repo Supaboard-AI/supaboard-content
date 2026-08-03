@@ -88,6 +88,38 @@ absorbed:
 internalLinks:
   - best-ai-bi-tools
   - metabase-alternatives
+citations:
+  - claim: Reference on power bi from Microsoft
+    source: Microsoft
+    url: 'https://www.microsoft.com/en-us/power-platform/products/power-bi'
+  - claim: Reference on tableau from Tableau
+    source: Tableau
+    url: 'https://www.tableau.com/'
+  - claim: Reference on power bi from Microsoft Learn
+    source: Microsoft Learn
+    url: >-
+      https://learn.microsoft.com/en-us/power-pages/admin/set-up-power-bi-integration
+  - claim: The Data School
+    source: thedataschool.co.uk
+    url: >-
+      https://www.thedataschool.co.uk/a/carlo-sanzeri/power-bi-vs-tableau-pros-and-cons/
+  - claim: industry use cases
+    source: intuitionlabs.ai
+    url: >-
+      https://intuitionlabs.ai/articles/power-bi-vs-tableau-in-the-u-s-pharmaceutical-industry-a-comprehensive-comparison
+  - claim: Reference on capterra from capterra.com
+    source: capterra.com
+    url: 'https://www.capterra.com/p/208764/Tableau/'
+  - claim: Gartner Peer Insights
+    source: Gartner
+    url: 'https://www.gartner.com/reviews/product/tableau-1292476153'
+  - claim: Reference on source from reddit.com
+    source: reddit.com
+    url: >-
+      https://www.reddit.com/r/PowerBI/comments/11k0t7a/for_those_who_know_both_power_bi_and_tableau_if_i/
+  - claim: DAX is the expression language Power BI modelling depends on
+    source: Microsoft Learn
+    url: 'https://learn.microsoft.com/en-us/dax/dax-overview'
 ---
 
 <!-- section:content-1 -->

@@ -79,6 +79,22 @@ legacyCategory: Business
 internalLinks:
   - sisense-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: ease of use across teams
+    source: Gartner
+    url: >-
+      https://www.gartner.com/reviews/market/analytics-business-intelligence-platforms
+  - claim: Reference on metabase from Metabase
+    source: Metabase
+    url: 'https://www.metabase.com/'
+  - claim: Reference on tableau from Tableau
+    source: Tableau
+    url: 'https://www.tableau.com/'
+  - claim: >-
+      Business intelligence platforms combine analytics, reporting and
+      integration
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
 ---
 
 <!-- section:content-1 -->

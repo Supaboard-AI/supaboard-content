@@ -100,6 +100,16 @@ source:
     https://supaboard.ai/blog/ai-predictive-analytics-in-healthcare-how-data-is-transforming-patient-care
   migratedAt: '2026-07-29'
 legacyCategory: General
+citations:
+  - claim: industry reports show
+    source: data.folio3.com
+    url: 'https://data.folio3.com/blog/predictive-analytics-healthcare/'
+  - claim: Predictive analytics estimates future outcomes from historical patterns
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/predictive-analytics'
+  - claim: The NIST AI Risk Management Framework governs high-stakes AI deployment
+    source: NIST
+    url: 'https://www.nist.gov/itl/ai-risk-management-framework'
 ---
 
 <!-- section:content-1 -->

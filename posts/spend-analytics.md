@@ -115,6 +115,17 @@ absorbed:
 internalLinks:
   - ai-data-analyst
   - from-4-hours-to-2-minutes-rcm-analytics
+citations:
+  - claim: according to McKinsey
+    source: McKinsey & Company
+    url: >-
+      https://www.mckinsey.com/capabilities/operations/our-insights/the-role-of-spend-analytics-in-the-next-normal
+  - claim: Business intelligence is the analytical discipline spend analytics applies
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
+  - claim: Consolidating source systems is prerequisite to trustworthy spend analysis
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/business-intelligence/'
 ---
 
 <!-- section:content-1 -->

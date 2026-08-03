@@ -90,6 +90,19 @@ legacyCategory: BI Tools
 internalLinks:
   - thoughtspot-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: Metabase publishes list pricing per tier
+    source: Metabase
+    url: 'https://www.metabase.com/pricing'
+  - claim: ThoughtSpot publishes list pricing per tier
+    source: ThoughtSpot
+    url: 'https://www.thoughtspot.com/pricing'
+  - claim: Qlik publishes list pricing per tier
+    source: Qlik
+    url: 'https://www.qlik.com/us/pricing'
+  - claim: Looker pricing is published per platform edition and user type
+    source: Google Cloud
+    url: 'https://cloud.google.com/looker/pricing'
 ---
 
 <!-- section:content-1 -->

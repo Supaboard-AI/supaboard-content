@@ -67,6 +67,16 @@ absorbed:
     https://supaboard.ai/blog/why-more-data-isn-t-always-better-how-simple-workspaces-bring-real-clarity
 internalLinks:
   - bar-graph-vs-histogram
+citations:
+  - claim: Reference on llms from IBM
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/large-language-models'
+  - claim: Business intelligence turns raw operational data into decisions
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/business-intelligence/'
+  - claim: Self-service BI is defined by who can answer a question without an analyst
+    source: Google Cloud
+    url: 'https://cloud.google.com/learn/what-is-business-intelligence'
 ---
 
 <!-- section:content-1 -->

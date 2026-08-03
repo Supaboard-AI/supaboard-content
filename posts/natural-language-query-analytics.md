@@ -110,6 +110,26 @@ absorbed:
 internalLinks:
   - sisense-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: Reference on sql from Amazon Web Services
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/sql/'
+  - claim: Reference on nlp from geeksforgeeks.org
+    source: geeksforgeeks.org
+    url: >-
+      https://www.geeksforgeeks.org/nlp/introduction-to-natural-language-processing-nlp/
+  - claim: Reference on mechanics from yellowfinbi.com
+    source: yellowfinbi.com
+    url: 'https://www.yellowfinbi.com/blog/what-is-natural-language-query-nlq'
+  - claim: Reference on gartner from Gartner
+    source: Gartner
+    url: >-
+      https://www.gartner.com/reviews/market/augmented-analytics?utm_source=chatgpt.com
+  - claim: >-
+      A semantic layer is what resolves a natural-language question to governed
+      definitions
+    source: Cube
+    url: 'https://cube.dev/'
 ---
 
 <!-- section:content-1 -->

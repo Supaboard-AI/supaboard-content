@@ -78,6 +78,29 @@ legacyCategory: BI Tools
 internalLinks:
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
+citations:
+  - claim: Reference on business intelligence from Wikipedia
+    source: Wikipedia
+    url: 'https://en.wikipedia.org/wiki/Business_intelligence'
+  - claim: Reference on gartner’s from Gartner
+    source: Gartner
+    url: >-
+      https://www.gartner.com/en/information-technology/glossary/business-intelligence-bi
+  - claim: Reference on power bi from Microsoft
+    source: Microsoft
+    url: 'https://www.microsoft.com/en-us/power-platform/products/power-bi'
+  - claim: Reference on tableau from Tableau
+    source: Tableau
+    url: 'https://www.tableau.com/'
+  - claim: Reference on thoughtspot from ThoughtSpot
+    source: ThoughtSpot
+    url: 'https://www.thoughtspot.com/'
+  - claim: Reference on qlik from Qlik
+    source: Qlik
+    url: 'https://www.qlik.com/'
+  - claim: Reference on sisense from sisense.com
+    source: sisense.com
+    url: 'https://www.sisense.com/'
 ---
 
 <!-- section:content-1 -->

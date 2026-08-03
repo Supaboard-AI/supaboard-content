@@ -84,6 +84,20 @@ legacyCategory: General
 internalLinks:
   - sisense-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: Reference on like dhl from dhl.com
+    source: dhl.com
+    url: 'https://www.dhl.com/discover/en-in'
+  - claim: 'Official DHL – Logistics of Things, Data-Driven Control Towers'
+    source: lot.dhl.com
+    url: 'https://lot.dhl.com/data-driven-control-towers/'
+  - claim: Reference on mckinsey-style insight from McKinsey & Company
+    source: McKinsey & Company
+    url: >-
+      https://www.mckinsey.com/capabilities/quantumblack/our-insights/catch-them-if-you-can-how-leaders-in-data-and-analytics-have-pulled-ahead
+  - claim: Real-time analytics underpins live logistics monitoring
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/real-time-analytics'
 ---
 
 <!-- section:content-1 -->

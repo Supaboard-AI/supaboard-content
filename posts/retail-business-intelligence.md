@@ -118,6 +118,24 @@ absorbed:
 internalLinks:
   - data-visualization-tools
   - is-ai-bi-just-text-to-sql
+citations:
+  - claim: 'Reference on (mckinsey, 2026) from McKinsey & Company'
+    source: McKinsey & Company
+    url: >-
+      https://www.mckinsey.com/about-us/new-at-mckinsey-blog/then-and-now-a-century-of-retail-transformation
+  - claim: Reference on (retail dive) from retaildive.com
+    source: retaildive.com
+    url: 'https://www.retaildive.com/news/sephora-loyalty-program-success/582000/'
+  - claim: (Harvard Business Review)
+    source: Harvard Business Review
+    url: 'https://hbr.org/2022/08/how-walmart-uses-data-analytics-to-stay-ahead'
+  - claim: Reference on e-commerce retailers from mordorintelligence.com
+    source: mordorintelligence.com
+    url: >-
+      https://www.mordorintelligence.com/industry-reports/retail-analytics-market
+  - claim: Business intelligence is the discipline retail analytics applies
+    source: IBM
+    url: 'https://www.ibm.com/think/topics/business-intelligence'
 ---
 
 <!-- section:content-1 -->

@@ -108,6 +108,19 @@ absorbed:
 internalLinks:
   - sisense-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: McKinsey & Company
+    source: McKinsey & Company
+    url: 'https://www.mckinsey.com/capabilities/quantumblack/our-insights'
+  - claim: gross & net profit
+    source: trueprofit.io
+    url: 'https://trueprofit.io/blog/gross-profit-vs-net-profit'
+  - claim: According to Gartner
+    source: Gartner
+    url: 'https://www.gartner.com/en/information-technology/insights'
+  - claim: Business intelligence is the discipline e-commerce analytics applies
+    source: Amazon Web Services
+    url: 'https://aws.amazon.com/what-is/business-intelligence/'
 ---
 
 <!-- section:content-1 -->

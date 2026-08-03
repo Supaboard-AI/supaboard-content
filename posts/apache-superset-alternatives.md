@@ -83,6 +83,22 @@ legacyCategory: General
 internalLinks:
   - sisense-alternatives
   - what-is-a-semantic-layer
+citations:
+  - claim: Reference on apache superset from Apache Superset
+    source: Apache Superset
+    url: 'https://superset.apache.org/'
+  - claim: Reference on omni alternative from omni.co
+    source: omni.co
+    url: 'https://omni.co/'
+  - claim: Metabase is a
+    source: Metabase
+    url: 'https://www.metabase.com/'
+  - claim: Reference on thoughtspot is from ThoughtSpot
+    source: ThoughtSpot
+    url: 'https://www.thoughtspot.com/'
+  - claim: Apache Superset documents its own architecture and deployment model
+    source: Apache Superset
+    url: 'https://superset.apache.org/docs/intro'
 ---
 
 <!-- section:content-1 -->
