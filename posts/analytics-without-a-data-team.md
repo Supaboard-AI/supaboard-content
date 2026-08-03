@@ -48,7 +48,49 @@ featured:
   trending: null
 related:
   - bar-graph-vs-histogram
-faq: []
+faq:
+  - q: Can a company do analytics without any data analysts?
+    a: >-
+      Yes, and several do. Objection.ai runs eleven unified data sources with no
+      data analysts on staff. What makes it possible is not a cleverer tool but
+      agreed metric definitions plus an interface that does not require SQL.
+      Without the definitions, self-service distributes ambiguity rather than
+      removing the bottleneck.
+  - q: What breaks first when nobody owns the data?
+    a: >-
+      Numbers start disagreeing between teams, because each was calculated in a
+      different tool from a different filter and no definition was ever written
+      down. Meetings become arguments about whose figure is correct rather than
+      what to do about it. This precedes every other failure and causes most of
+      them.
+  - q: How do you build a single source of truth without hiring anyone?
+    a: >-
+      Three steps. Connect the sources that hold numbers you act on. Define the
+      shared metrics once, with one formula each, agreed between finance and the
+      operating teams. Then publish those definitions where people work, through
+      role-specific views and a way to ask questions in plain language rather
+      than navigating someone else's dashboard.
+  - q: Which of those three steps do teams usually skip?
+    a: >-
+      The second. Connecting sources feels like progress and publishing views is
+      visible, but agreeing what revenue means is a slow organisational
+      conversation with no artefact at the end. Skipping it is what produces two
+      revenue numbers in one meeting, and no amount of tooling downstream will
+      resolve that disagreement.
+  - q: What separates a real single source of truth from a tool that claims it?
+    a: >-
+      Four things: prebuilt connectors covering your actual stack, centralised
+      metric definitions rather than per-dashboard logic, role-based permissions
+      so access can safely widen, and version history so that when a number
+      changes somebody can say why. Tools failing the second point have
+      distributed the inconsistency rather than fixed it.
+  - q: Is self-service analytics risky without a data team?
+    a: >-
+      There is a real risk, and it is misreading rather than access. A business
+      user with a fast tool and no statistical instinct can reach a wrong
+      conclusion quickly. The mitigation is governed definitions and visible
+      query paths, not gatekeeping, which simply returns you to the queue you
+      were trying to remove.
 source:
   url: >-
     https://supaboard.ai/blog/how-supaboard-democratizes-data-analytics-no-more-tech-team-dependence

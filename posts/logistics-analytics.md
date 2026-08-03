@@ -51,32 +51,48 @@ related:
   - sisense-alternatives
   - what-is-a-semantic-layer
 faq:
-  - q: How can data analytics improve supply chain performance?
+  - q: What is logistics analytics?
     a: >-
-      Data analytics improves supply chain performance by increasing visibility,
-      identifying inefficiencies, predicting disruptions, and enabling faster
-      decision-making. It helps optimize inventory, transportation, and supplier
-      performance while reducing costs and improving service reliability.
-  - q: How is data analytics used in logistics?
+      Logistics analytics applies data analysis to the movement of goods:
+      carrier performance, warehouse throughput, route efficiency, delivery
+      reliability and cost per shipment. It typically requires joining carrier
+      systems, warehouse management and order data, which rarely reconcile
+      without deliberate work on identifiers and timestamps.
+  - q: Why do aggregate on-time rates mislead?
     a: >-
-      Data analytics is used in logistics to optimize routes, monitor shipments
-      in real time, forecast demand, improve warehouse operations, and evaluate
-      carrier performance. It turns operational data into actionable insights
-      for daily execution.
-  - q: What are the main benefits of logistics analytics for businesses?
+      Because logistics performance is about exceptions rather than averages. A
+      ninety-four percent on-time rate conceals which lanes, carriers or
+      customers absorb the failures, and those failures are usually concentrated
+      rather than evenly spread. The aggregate figure is stable and reassuring
+      while a specific route quietly degrades.
+  - q: What is the difference between logistics and supply chain analytics?
     a: >-
-      Logistics analytics helps businesses reduce transportation costs, improve
-      delivery reliability, increase operational efficiency, minimize risks, and
-      enhance customer satisfaction by supporting proactive, data-driven
-      logistics decisions.
-  - q: >-
-      What is the difference between logistics analytics and supply chain
-      analytics?
+      Logistics analytics covers the physical movement and storage of goods.
+      Supply chain analytics is broader, extending upstream into sourcing,
+      supplier risk and demand planning. They share data and overlap in
+      practice, but the questions differ: one asks whether shipments arrive, the
+      other asks whether you ordered the right things.
+  - q: Which logistics metrics matter most?
     a: >-
-      Logistics analytics focuses on transportation, warehousing, and delivery
-      execution, while supply chain analytics covers the broader network,
-      including sourcing, production, inventory planning, and end-to-end demand
-      and supply coordination.
+      On-time in-full delivery, cost per shipment, dwell time, and exception
+      rate by lane and carrier. The specific set depends on where your costs
+      concentrate, but the common failure is tracking only outcomes without
+      tracking the intermediate steps that explain them, which leaves you
+      knowing performance dropped without knowing where.
+  - q: What data do you need before logistics analytics is useful?
+    a: >-
+      Carrier events, warehouse movements and order records that can be joined
+      on a shared identifier with reconcilable timestamps. Timestamp
+      reconciliation is the underestimated part: systems record events in
+      different time zones and at different points in the process, which quietly
+      corrupts any duration you calculate across them.
+  - q: Can logistics analytics predict disruptions?
+    a: >-
+      It can flag conditions that historically preceded disruption, such as
+      rising dwell times or a carrier's degrading exception rate, which is
+      genuinely useful. Predicting external shocks is a different problem and
+      far less reliable. The practical value sits in noticing internal
+      degradation early rather than forecasting the unforeseeable.
 source:
   url: 'https://supaboard.ai/blog/logistics-analytics'
   migratedAt: '2026-07-29'

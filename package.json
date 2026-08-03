@@ -25,7 +25,8 @@
     "stats:audit": "node tools/stats-audit.mjs",
     "relink": "node tools/relink.mjs",
     "cluster": "node tools/cluster.mjs",
-    "toc": "node tools/toc.mjs"
+    "toc": "node tools/toc.mjs",
+    "faq": "node tools/apply-faq.mjs"
   },
   "repository": {
     "type": "git",

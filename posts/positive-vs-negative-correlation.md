@@ -46,7 +46,49 @@ featured:
 related:
   - what-is-a-semantic-layer
   - ai-analytics-governance
-faq: []
+faq:
+  - q: What is positive correlation?
+    a: >-
+      Positive correlation means two variables tend to move in the same
+      direction: as one increases, the other increases as well. Advertising
+      spend and impressions usually correlate positively. The relationship
+      describes co-movement only; it says nothing about whether one variable
+      causes the other or whether a third factor drives both.
+  - q: What is negative correlation?
+    a: >-
+      Negative correlation means two variables move in opposite directions: as
+      one rises, the other falls. Price and units sold frequently correlate
+      negatively. As with positive correlation, the direction is a description
+      of how the two series move together, not evidence that changing one will
+      change the other.
+  - q: What is the difference between correlation strength and direction?
+    a: >-
+      Direction is whether the relationship is positive or negative. Strength is
+      how tightly the points follow that pattern, usually expressed as a
+      coefficient between minus one and one. Two relationships can share a
+      direction while differing completely in reliability, and conflating the
+      two is the most common reading error.
+  - q: Does correlation imply causation?
+    a: >-
+      No, and the distinction matters commercially. Two variables can correlate
+      because one causes the other, because both respond to a third factor, or
+      by coincidence in a small sample. Acting on a correlation without
+      establishing a mechanism is how budgets get moved toward channels that
+      were never responsible for the outcome.
+  - q: How do I visualise a correlation properly?
+    a: >-
+      Use a scatter plot with both variables on their own axes, which lets a
+      reader see the spread as well as the trend. Avoid dual-axis line charts:
+      by choosing the scales you can manufacture an apparent relationship
+      between almost any two series. A real correlation survives being plotted
+      separately.
+  - q: What sample size do I need before trusting a correlation?
+    a: >-
+      There is no single threshold, but small samples produce spurious
+      correlations easily, and the fewer points you have the stronger an
+      apparent relationship must be before it means anything. Check whether the
+      pattern holds when you split the data by segment or period; genuine
+      relationships usually survive that test.
 source:
   url: 'https://supaboard.ai/blog/positive-vs-negative-correlation'
   migratedAt: '2026-07-29'

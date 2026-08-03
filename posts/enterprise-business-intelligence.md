@@ -47,14 +47,46 @@ related:
   - is-ai-bi-just-text-to-sql
   - data-visualization-tools
 faq:
-  - q: >-
-      1\. What is the main difference between data integration and application
-      integration?
+  - q: What is enterprise business intelligence?
     a: >-
-      Application integration connects systems so they work together in real
-      time. Meanwhile, data integration combines information into one dataset
-      for reporting and analysis. One supports workflows, while the other
-      supports decision-making.
+      Enterprise BI is business intelligence operating at organisational scale,
+      where the defining constraints are governance, access control and
+      consistency across departments rather than analytical capability. The
+      analysis itself is rarely the hard part; keeping thousands of users
+      working from the same definitions of the same measures is.
+  - q: How does enterprise BI differ from departmental BI?
+    a: >-
+      Departmental BI answers one team's questions and can tolerate local
+      definitions. Enterprise BI has to reconcile them, because the same measure
+      appears in finance, sales and operations reporting with different filters.
+      The technical requirements overlap heavily; the organisational
+      requirements do not overlap at all.
+  - q: What usually goes wrong in an enterprise BI rollout?
+    a: >-
+      Buying capability before agreeing definitions. A platform deployed across
+      an organisation that has not settled what revenue or churn means does not
+      resolve the disagreement, it publishes it faster and to more people. The
+      resulting loss of trust is far harder to recover than a delayed rollout.
+  - q: What governance does enterprise BI require?
+    a: >-
+      Role-based access so leadership sees summaries while operations can drill
+      into detail, a central place where metric definitions live and change,
+      audit trails recording who changed a definition and when, and a clear
+      owner for each measure. Without the last of these, the other three decay
+      within a year.
+  - q: How should enterprise BI handle sensitive data?
+    a: >-
+      By making the boundary structural rather than procedural. Masking or
+      excluding sensitive fields before data reaches the analytical layer means
+      the platform cannot expose what it never received, which removes the need
+      for continuous review of who accessed what. Policy-based controls alone
+      depend on nobody misconfiguring them.
+  - q: How do you measure whether enterprise BI is working?
+    a: >-
+      Not by dashboard count or user logins, both of which rise regardless.
+      Useful signals are how often teams dispute a number in a meeting, how long
+      a new question takes to answer, and how many reports are still exported to
+      spreadsheets, which marks precisely where the platform is failing.
 source:
   url: 'https://supaboard.ai/blog/enterprise-business-intelligence'
   migratedAt: '2026-07-29'

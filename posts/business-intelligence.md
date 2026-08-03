@@ -52,26 +52,48 @@ related:
   - is-ai-bi-just-text-to-sql
   - data-visualization-tools
 faq:
-  - q: What is business intelligence in simple terms?
+  - q: What is business intelligence?
     a: >-
-      Business intelligence is the use of data and analytics tools to understand
-      business performance and support better decisions.
-  - q: What are business intelligence tools used for?
+      Business intelligence is the practice of turning operational data into
+      decisions people actually make. It spans collecting data from source
+      systems, reconciling it into consistent definitions, and presenting it so
+      somebody can act. The discipline long predates the current tooling, and
+      its core problem has never been storage.
+  - q: How is business intelligence different from analytics?
     a: >-
-      They are used for reporting, forecasting, customer analysis, operational
-      monitoring, and strategic planning.
-  - q: Is business intelligence only for large companies?
+      The terms overlap heavily and are often used interchangeably. Where a
+      distinction is drawn, business intelligence emphasises consistent
+      reporting on agreed measures, while analytics emphasises open-ended
+      investigation. In practice most organisations need both, and treating them
+      as separate purchases tends to produce two disconnected systems.
+  - q: Why do business intelligence projects fail?
     a: >-
-      No. Cloud-based BI platforms make analytics accessible to small and medium
-      businesses.
-  - q: Why is AI important in business intelligence?
+      Most fail on definitions rather than technology. Deploying a capable
+      platform across an organisation that has not agreed what revenue or an
+      active customer means produces faster disagreement rather than better
+      decisions. The failure looks technical because it surfaces as conflicting
+      dashboards, but its cause is organisational.
+  - q: What does a business intelligence stack contain?
     a: >-
-      AI enables predictive analytics, automation, and intelligent
-      recommendations that improve speed and accuracy.
-  - q: How long does BI implementation take?
+      Broadly: connectors bringing data from source systems, a warehouse or
+      lakehouse storing it, a transformation layer shaping it, a semantic layer
+      defining what measures mean, and an interface where people ask questions.
+      Teams frequently buy the first, second and fifth while skipping the
+      fourth, which is where consistency lives.
+  - q: Does business intelligence require a data team?
     a: >-
-      Depending on complexity, implementation may take from several weeks to
-      several months.
+      Increasingly not, though it does require somebody owning definitions.
+      Modern platforms let non-technical users ask questions directly, which
+      removes the retrieval bottleneck. What cannot be removed is the need for
+      an agreed formula behind each measure, and somebody accountable when that
+      formula changes.
+  - q: How do you know business intelligence is working?
+    a: >-
+      By whether decisions change, not by adoption metrics. Useful signals are
+      how often meetings stall on disputed numbers, how long a genuinely new
+      question takes to answer, and how much reporting still ends up in
+      spreadsheets, which marks exactly where the platform failed to serve
+      somebody.
 source:
   url: 'https://supaboard.ai/blog/business-intelligence'
   migratedAt: '2026-07-29'

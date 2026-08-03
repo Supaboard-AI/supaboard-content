@@ -51,36 +51,46 @@ related:
   - what-is-a-semantic-layer
   - positive-vs-negative-correlation
 faq:
-  - q: What does database optimization actually improve in real use?
+  - q: What is database optimization?
     a: >-
-      Database optimization improves query speed, reduces load time, and keeps
-      systems stable under traffic. For users, it means faster apps and fewer
-      errors. For teams, it reduces costs, avoids scaling issues, and keeps
-      performance predictable as data grows.
-  - q: How can I identify slow queries in my database?
+      Database optimization is the work of making queries return faster and cost
+      less, through indexing, query rewriting, schema design and configuration.
+      It is distinct from scaling, which adds hardware to an unchanged workload,
+      and the two are frequently confused when a system starts to feel slow.
+  - q: Where do most performance problems come from?
     a: >-
-      Start with slow query logs and monitoring tools. Look for queries with
-      high execution time or frequent runs. Then check execution plans to find
-      bottlenecks like full scans, missing indexes, or inefficient joins
-      impacting performance.
-  - q: When should I add indexes to a database?
+      Query plans and indexing rather than hardware. A query scanning a whole
+      table because it cannot use an index will stay slow on a larger machine,
+      just less obviously. Reading the execution plan before provisioning
+      anything is the single highest-value habit in database performance work.
+  - q: What does adding an index actually cost?
     a: >-
-      Add indexes when queries frequently filter, sort, or join on specific
-      columns. Don’t add them blindly. First analyze query patterns, then create
-      indexes where they actually reduce execution time without hurting write
-      performance or increasing storage overhead.
-  - q: Why is my database slow even after adding indexes?
+      Every index speeds matching reads and slows every write, because the index
+      must be maintained on insert, update and delete. A table with a dozen
+      indexes can have excellent read performance and badly degraded write
+      throughput. The trade-off should be deliberate rather than accumulated one
+      urgent fix at a time.
+  - q: When should you scale instead of optimize?
     a: >-
-      Indexes alone don’t fix everything. Poor query design, large data scans,
-      too many joins, or outdated statistics can still slow things down.
-      Sometimes, removing unnecessary indexes or rewriting queries has a bigger
-      impact than adding new ones.
-  - q: What is the fastest way to improve database performance?
+      When the workload is genuinely larger rather than genuinely inefficient,
+      and when profiling shows the queries are already using appropriate plans.
+      Scaling to compensate for an inefficient join buys time at permanent cost,
+      because the inefficiency remains and the bill recurs every month
+      thereafter.
+  - q: How does optimization differ in a cloud warehouse?
     a: >-
-      The fastest wins usually come from fixing inefficient queries and adding
-      the right indexes. Start with high-impact queries, analyze execution
-      plans, and optimize step by step instead of making large, untested changes
-      across the system.
+      Columnar warehouses change which optimisations matter. Row-level indexing
+      is largely replaced by partitioning, clustering and reducing scanned data
+      volume, and cost becomes as visible as latency because you are billed for
+      what you scan. Habits from transactional databases transfer poorly and
+      sometimes actively mislead.
+  - q: How do you find the queries worth optimising?
+    a: >-
+      Rank by total time consumed rather than by individual duration. A query
+      taking two seconds and running ten thousand times a day costs far more
+      than a nightly report taking five minutes. Most databases expose
+      statistics making this ranking straightforward, and the results are
+      frequently surprising.
 source:
   url: 'https://supaboard.ai/blog/database-optimization'
   migratedAt: '2026-07-29'

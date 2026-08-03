@@ -44,7 +44,47 @@ featured:
 related:
   - ai-data-analyst
   - spend-analytics
-faq: []
+faq:
+  - q: What did Jindal Healthcare change?
+    a: >-
+      They moved from answering client questions through manual SQL across
+      disconnected systems to running the same analysis on a single governed
+      source of truth. Per-client analysis went from roughly four hours of
+      senior analyst time to about two minutes, and analytics cost fell by
+      ninety percent.
+  - q: How was protected health information handled?
+    a: >-
+      Jindal masked every piece of protected health information into a separate
+      database before any data moved. The analytics platform pulled from that
+      masked database only, never connected to an EHR, and never saw a patient.
+      The compliance boundary and the analytics boundary were deliberately the
+      same line.
+  - q: Why does the time saving matter more than the cost saving?
+    a: >-
+      Because it changes which questions get asked. When a deep look costs four
+      hours, teams reserve it for problems they already know exist. When it
+      costs two minutes, chasing a hunch becomes free, and most of the value in
+      analytics sits in the hunches nobody previously had budget to check.
+  - q: What data sources were involved?
+    a: >-
+      Clearinghouse claim and remittance feeds, meaning the 837s going out and
+      the 835 ERAs coming back, along with the practice management and EHR
+      systems each client billed from, and payer remittance and denial data.
+      Reconciling these by hand was the work that made every question expensive.
+  - q: Does this apply outside revenue cycle management?
+    a: >-
+      The pattern applies to any business serving multiple clients from separate
+      data environments. The specific pressure in RCM is that every client
+      arrives as its own world, so analytics workload multiplies with the client
+      list. Any agency or managed service with per-client reporting faces the
+      same multiplication.
+  - q: What was the hardest part of the migration?
+    a: >-
+      Establishing the masking boundary before analytics touched anything,
+      rather than adding controls afterwards. Building the pipeline so that
+      compliance was structural rather than procedural meant the analytics layer
+      could not accidentally see protected data, which removed the need for
+      ongoing review of who looked at what.
 source:
   url: >-
     https://supaboard.ai/blog/from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics

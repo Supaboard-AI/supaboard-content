@@ -51,7 +51,48 @@ featured:
 related:
   - ai-data-analyst
   - from-4-hours-to-2-minutes-rcm-analytics
-faq: []
+faq:
+  - q: What are the four types of analytics?
+    a: >-
+      Descriptive analytics establishes what happened. Diagnostic analytics
+      explains why it happened. Predictive analytics estimates what happens
+      next. Prescriptive analytics recommends an action. They form a sequence
+      rather than a menu, because each stage depends on the one before it being
+      unambiguous.
+  - q: Which type should a company build first?
+    a: >-
+      Descriptive, almost always. It establishes agreed definitions of what
+      happened, and every later stage inherits those definitions. A predictive
+      model trained on an ambiguous revenue figure produces a forecast that
+      hides the ambiguity behind a confidence interval, which is worse than
+      having no forecast at all.
+  - q: What is diagnostic analytics and why is it skipped?
+    a: >-
+      Diagnostic analytics isolates why something moved, through segmentation
+      and comparison. It is routinely skipped because it lacks the novelty of
+      prediction, yet it holds most of the practical value. Revenue fell eight
+      percent is descriptive; revenue fell because one channel's close rate
+      halved is what somebody can act on.
+  - q: When is predictive analytics worth building?
+    a: >-
+      Once your descriptive layer is unambiguous and your diagnostic work has
+      identified which drivers matter. Prediction is comparatively cheap to add
+      at that point and expensive to retrofit onto contested definitions. Buying
+      forecasting capability while three teams still disagree about what a
+      customer is produces precise, unreliable output.
+  - q: What does prescriptive analytics require?
+    a: >-
+      All three previous stages, plus a model of which levers actually exist. A
+      recommendation is only useful if the organisation can act on it, so
+      prescriptive systems need to know constraints such as budget, capacity and
+      lead time. Without those, the recommendation is a suggestion nobody can
+      implement.
+  - q: Do smaller companies need all four types?
+    a: >-
+      Most do not, and pursuing all four early is a common way to waste a year.
+      A small company with a trustworthy descriptive layer and the ability to
+      ask diagnostic questions is ahead of a larger one with a forecasting tool
+      built on numbers its own teams dispute.
 source:
   url: 'https://supaboard.ai/blog/types-of-analytics'
   migratedAt: '2026-07-29'

@@ -42,7 +42,50 @@ featured:
 related:
   - is-ai-bi-just-text-to-sql
   - data-visualization-tools
-faq: []
+faq:
+  - q: What is agentic analytics?
+    a: >-
+      Agentic analytics describes a system that carries out a multi-step
+      investigation rather than answering a single question. It decomposes what
+      you asked, runs several queries, checks the results against each other,
+      notices when one answer implies a further question, and follows it.
+      Conventional business intelligence stops at the first result and leaves
+      the follow-up to you.
+  - q: How is agentic analytics different from a chatbot on a dashboard?
+    a: >-
+      A chat interface layered onto existing dashboards translates your question
+      into the queries someone already built. An agentic system treats every
+      question the same way, whether or not anyone anticipated it. The practical
+      test is a why-question: retrofitted assistants answer what happened and
+      stop, because multi-step investigation was never in the architecture.
+  - q: How can I tell whether a tool is genuinely AI-native?
+    a: >-
+      Three demo tests separate them. Ask a question the existing dashboards do
+      not cover. Ask why something changed rather than what changed. Then change
+      a metric definition and see whether it propagates everywhere immediately
+      or leaves you editing dashboards for a week. Vendors claiming AI-native
+      rarely survive all three.
+  - q: Does agentic analytics replace dashboards?
+    a: >-
+      No. Dashboards remain good at one thing: a small, stable set of numbers a
+      team watches continuously. What changes is that they stop being the answer
+      to every possible question. Agentic analytics removes the incentive to
+      build a permanent view for every recurring question, which is what causes
+      dashboard sprawl.
+  - q: What does agentic analytics need to work properly?
+    a: >-
+      Governed metric definitions. An agent that resolves your question against
+      raw column names is guessing, and it will guess fluently and confidently.
+      A semantic layer supplies the business meaning the agent cannot infer from
+      schema alone, which is the difference between an answer you can act on and
+      one you have to verify.
+  - q: Is agentic analytics suitable for a small team?
+    a: >-
+      It suits small teams particularly well, because the constraint agentic
+      analytics removes is analyst time. A company with no dedicated data staff
+      gains the most from a system that runs an investigation unaided. Larger
+      organisations often gain more from the governance layer than from the
+      autonomy itself.
 source:
   url: 'https://supaboard.ai/blog/agentic-analytics-vs-traditional-bi-tools'
   migratedAt: '2026-07-29'

@@ -49,26 +49,48 @@ related:
   - what-is-a-semantic-layer
   - positive-vs-negative-correlation
 faq:
-  - q: 1\. What is data modeling?
+  - q: What is data modeling?
     a: >-
-      Data modeling is the process of organizing and structuring data visually,
-      showing relationships between entities, to improve database efficiency,
-      accuracy, and decision-making.
-  - q: 2\. How can I use AI to generate logical data model diagrams?
+      Data modeling is the practice of defining the entities a business cares
+      about, the attributes describing them, and the relationships connecting
+      them. The resulting model determines which questions are cheap to answer,
+      which are expensive, and which are effectively impossible without
+      restructuring what you have already built.
+  - q: What are the main types of data models?
     a: >-
-      AI tools can analyze datasets and business requirements to automatically
-      create logical diagrams, identifying entities, attributes, and
-      relationships, reducing manual effort and design errors.
-  - q: 3\. What are the main types of data models?
+      Conceptual models describe entities and relationships in business
+      language, with no technical detail. Logical models add attributes, keys
+      and normalisation without committing to a database. Physical models
+      specify tables, indexes and data types for a particular system. Each
+      serves a different audience and a different stage of the conversation.
+  - q: Why does data modeling matter commercially?
     a: >-
-      The main types are conceptual (high-level view), logical (detailed
-      relationships and attributes), and physical (database-specific
-      implementation with tables, keys, and indexes).
-  - q: 4\. Why is data modeling important for businesses?
+      Because the model decides what you can ask. A schema that does not record
+      when a subscription changed cannot answer questions about churn timing
+      regardless of which analytics tool sits on top. Modelling decisions made
+      early constrain the questions available years later, usually without
+      anyone remembering why.
+  - q: What is the difference between data modeling and a semantic layer?
     a: >-
-      It improves data quality, reduces redundancy, ensures accurate reporting,
-      enhances performance, aligns teams with business goals, and supports
-      scalable, efficient database design for future growth.
+      Data modeling structures how information is stored and related. A semantic
+      layer defines what the resulting numbers mean and how metrics are computed
+      from them. You need both: a well-structured warehouse with no agreed
+      definition of revenue still produces several different revenue figures
+      across teams.
+  - q: What is normalisation and when should you avoid it?
+    a: >-
+      Normalisation removes redundancy by splitting data across related tables,
+      which protects integrity in transactional systems. Analytical workloads
+      often denormalise deliberately, accepting duplication for query speed and
+      simplicity. The right choice depends entirely on whether the system serves
+      writes or reads, and mixing the two rarely serves either well.
+  - q: Who should own the data model?
+    a: >-
+      Someone accountable for the business meaning, not only the implementation.
+      Models drift when engineers make structural decisions that encode business
+      assumptions nobody validated, such as whether a refunded order still
+      counts. The decision is a business one surfacing as a schema one, and it
+      needs an owner who can settle it.
 source:
   url: 'https://supaboard.ai/blog/what-is-data-modeling-guide'
   migratedAt: '2026-07-29'

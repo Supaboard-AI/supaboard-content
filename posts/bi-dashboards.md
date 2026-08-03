@@ -48,30 +48,46 @@ featured:
 related:
   - financial-dashboard-examples
 faq:
-  - q: 1\. What Is a BI Dashboard Example?
+  - q: What is a BI dashboard?
     a: >-
-      A BI dashboard example includes a sales dashboard showing revenue, monthly
-      growth, regional performance, and top products on one screen. It helps
-      teams understand business performance quickly without checking multiple
-      reports or spreadsheets, improving efficiency and decision-making.
-  - q: 2\. How Does a Business Intelligence Dashboard Improve Decision-Making?
+      A business intelligence dashboard consolidates key measures onto a single
+      screen, using charts and tables so performance can be read at a glance.
+      Modern dashboards are interactive, letting users filter and drill into
+      detail rather than only viewing a fixed summary prepared by somebody else.
+  - q: How do you build a decision-making dashboard?
     a: >-
-      A business intelligence dashboard improves decision-making by presenting
-      accurate, real-time data in a visual format. It helps users identify
-      trends, compare performance, detect risks, and take timely action. This
-      reduces guesswork and supports confident, data-driven strategies.
-  - q: 3\. Who Should Use BI Dashboards in an Organization?
+      Start from the decision, not the data. Name the decision and the person
+      who makes it, work backwards to the three to seven metrics that would
+      change that decision, set the comparison, match the refresh rate to the
+      decision cadence, add thresholds rather than passive displays, and review
+      quarterly for deletion.
+  - q: What is the difference between a dashboard and a report?
     a: >-
-      BI dashboards are useful for founders, managers, analysts, and operational
-      teams. Executives use them for strategy, managers for performance
-      tracking, analysts for validation, and teams for daily tasks. This shared
-      visibility improves collaboration and organizational alignment.
-  - q: 4\. Are BI Dashboards Suitable for Small Businesses?
+      A dashboard is designed for monitoring: current data, read frequently,
+      understood quickly. A report is designed for analysis: historical depth,
+      read occasionally, understood carefully. Problems arise when a dashboard
+      is asked to carry a report's detail, which produces a screen too dense for
+      anyone to read at a glance.
+  - q: How many metrics should a dashboard show?
     a: >-
-      Yes, BI dashboards are highly useful for small businesses. They help
-      monitor sales, expenses, marketing performance, and customer behavior in
-      one place. With cloud-based BI tools, small companies can access
-      affordable analytics and compete more effectively.
+      Roughly five to seven per view. Beyond that, the eye has nowhere to land
+      and users start ignoring the whole screen rather than prioritising within
+      it. If more measures genuinely matter, that is a signal for several
+      role-specific dashboards rather than one comprehensive display serving
+      nobody well.
+  - q: Why do most dashboards go unused?
+    a: >-
+      Because they were built from available data rather than from a decision. A
+      dashboard that does not change what anybody does has no reason to be
+      opened, and after a few weeks it is not. The test is not whether people
+      like it but whether anything different happened because of it.
+  - q: Are BI dashboards useful for small businesses?
+    a: >-
+      Yes, and often more so, because small teams lack analysts to answer
+      questions individually. Cloud tools have removed most of the cost barrier.
+      The discipline matters more at small scale though: with fewer people, a
+      dashboard nobody acts on wastes a larger proportion of available
+      attention.
 source:
   url: 'https://supaboard.ai/blog/bi-dashboard-guide'
   migratedAt: '2026-07-29'

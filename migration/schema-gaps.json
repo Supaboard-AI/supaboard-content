@@ -3,33 +3,23 @@
   "passing": 0,
   "failing": 47,
   "byField": {
-    "faq": 150,
+    "faq": 103,
     "statsCount": 45
   },
   "posts": {
     "agentic-analytics": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "ai-analytics-governance": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "ai-data-analyst": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "analytics-without-a-data-team": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "apache-superset-alternatives": [
-      "faq.0.a: answer is 27 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 18 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "bar-graph-vs-histogram": [
@@ -44,20 +34,9 @@
       "faq.5.a: answer is 33 words, must be 40–80 (the extraction unit models quote)"
     ],
     "bi-dashboards": [
-      "faq.0.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 36 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "business-intelligence": [
-      "faq.0.a: answer is 18 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 13 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 12 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 13 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 12 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "data-connectivity": [
@@ -92,12 +71,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "database-optimization": [
-      "faq.0.a: answer is 38 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 37 words, must be 40–80 (the extraction unit models quote)",
-      "faq.4.a: answer is 35 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "database-vs-data-warehouse-vs-data-lake": [
@@ -106,7 +79,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "dbt": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "ecommerce-analytics": [
@@ -128,8 +100,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "enterprise-business-intelligence": [
-      "faq.0.a: answer is 31 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "financial-dashboard-examples": [
@@ -141,7 +111,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "from-4-hours-to-2-minutes-rcm-analytics": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "generative-business-intelligence": [
@@ -169,11 +138,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "logistics-analytics": [
-      "faq.0.a: answer is 32 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 33 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 28 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "looker-alternatives": [
@@ -189,14 +153,12 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "metabase-alternatives": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "natural-language-query-analytics": [
       "statsCount: at least 4 verifiable statistics"
     ],
     "positive-vs-negative-correlation": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "power-bi-vs-tableau": [
@@ -253,7 +215,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "types-of-analytics": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-a-kpi": [
@@ -266,8 +227,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-a-semantic-layer": [
-      "faq.0.a: answer is 572 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-an-ad-hoc-query": [
@@ -277,11 +236,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-data-modeling": [
-      "faq.0.a: answer is 22 words, must be 40–80 (the extraction unit models quote)",
-      "faq.1.a: answer is 24 words, must be 40–80 (the extraction unit models quote)",
-      "faq.2.a: answer is 21 words, must be 40–80 (the extraction unit models quote)",
-      "faq.3.a: answer is 25 words, must be 40–80 (the extraction unit models quote)",
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ],
     "what-is-predictive-analytics": [
@@ -293,7 +247,6 @@
       "statsCount: at least 4 verifiable statistics"
     ],
     "will-ai-replace-data-analysts": [
-      "faq: 6–10 questions",
       "statsCount: at least 4 verifiable statistics"
     ]
   }

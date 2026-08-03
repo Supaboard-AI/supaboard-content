@@ -48,7 +48,50 @@ featured:
 related:
   - from-4-hours-to-2-minutes-rcm-analytics
   - spend-analytics
-faq: []
+faq:
+  - q: What is an AI data analyst?
+    a: >-
+      An AI data analyst is a system that answers business questions directly,
+      resolving them against governed metric definitions rather than requiring
+      somebody to write SQL. It handles data preparation, query generation and
+      summarisation, and its usefulness depends far more on the definitions it
+      resolves against than on the underlying model.
+  - q: What can an AI data analyst reliably automate?
+    a: >-
+      Data preparation, including type inference, deduplication and joining on
+      well-defined keys. Baseline modelling, meaning fitting and comparing
+      standard models against a labelled target. Descriptive summarisation of
+      what moved and by how much. Anomaly flagging when a series leaves its
+      usual range. These are tedious, rule-governed tasks where automation is
+      genuinely reliable.
+  - q: What can it not do?
+    a: >-
+      Framing the question, because nothing in the data tells you which question
+      matters this quarter. Defining the target, such as what counts as churn
+      and from which date. Judging whether a result is trustworthy, including
+      whether the sample holds or the split leaked. And deciding what to do,
+      which carries the cost of being wrong.
+  - q: Does an AI data analyst replace a human analyst?
+    a: >-
+      No. It compresses the time between having a question and having a
+      candidate answer. It does not compress the time spent deciding which
+      questions to ask or whether an answer holds. The work that disappears is
+      report retrieval; the work that grows is defining metrics and checking the
+      hard cases.
+  - q: How much does an AI data analyst cost?
+    a: >-
+      Pricing varies widely by model. Team platforms with trained agents and
+      governance typically run from tens to a few hundred dollars per user per
+      month, and several vendors do not publish pricing at all. Model the cost
+      at three times your current headcount, because per-seat pricing changes
+      character as adoption spreads.
+  - q: What should I look for in a demo?
+    a: >-
+      Watch whether anyone names what they were trying to find out before the
+      tool produces a recommendation. A demo that moves from data upload
+      straight to insight is showing you the easy part. Ask a question requiring
+      two joins and a comparison, against data the vendor did not prepare in
+      advance.
 source:
   url: 'https://supaboard.ai/blog/ai-data-analyst-how-it-works-and-best-tools-(2026)'
   migratedAt: '2026-07-29'
