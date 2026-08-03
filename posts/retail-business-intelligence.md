@@ -47,6 +47,8 @@ sections:
     heading: Common Mistakes in Retail BI Implementation
   - id: content-8
     heading: 'The Future of Retail BI: What''s Coming in 2026–2028'
+  - id: content-12
+    heading: Which retail KPIs should every store actually track?
 featured:
   choice: null
   trending: null
@@ -542,6 +544,24 @@ That is what retail business intelligence delivers at its best: not more complex
 If you are evaluating where to start, the most practical first step is straightforward: map the data you already have, identify three to five decisions your team makes weekly on insufficient information, and find a tool that connects the two. The gap is smaller than it looks. The payoff is larger than most teams expect.
 
 > **Ready to see what this looks like for your specific store setup?** [Request a Supaboard demo →](https://calendly.com/aritra-ewq/supaboard-demo) we typically identify the first high-value BI opportunity within the first 30 minutes of your current data setup.
+
+<!-- section:content-12 -->
+
+## Which retail KPIs should every store actually track?
+
+Four layers, in this order. Tracking layer three before layer one is how retailers end up optimising the wrong thing.
+
+**Layer 1 — Sales.** What is coming in, and is it growing for real. Revenue, units sold, average transaction value, and comparable store sales growth, which strips out new openings so growth is not flattered by expansion. Without comp sales, a chain that opens stores always looks healthy.
+
+**Layer 2 — Inventory.** Whether the stock supports the sales. Sell-through rate, days-on-hand, stockout rate and inventory turnover. This layer is where most retail revenue is quietly lost, because a stockout looks like weak demand in the sales layer and nothing in layer one distinguishes them.
+
+**Layer 3 — Customer.** Whether the sales repeat. Repeat purchase rate, customer lifetime value, basket composition. Sales can hold steady for two quarters while the customer base erodes underneath, and only this layer shows it.
+
+**Layer 4 — Margin.** Whether any of it is profitable. Gross margin, GMROI (gross margin return on inventory investment) and promotion uplift. A promotion that lifts units while destroying margin registers as success in layer one and failure here.
+
+The layers work as a diagnostic sequence rather than a dashboard. A revenue decline in layer one has a different cause depending on what layers two to four say: healthy stock and falling repeat purchase means a customer problem; stockouts on your fastest movers means an execution problem; steady units with collapsing margin means a promotion problem. Same symptom, three different responses, and only the layered view separates them.
+
+Track them per store as well as in aggregate. Chain-level averages hide the variance that matters, and the most common finding from store-level benchmarking is that a handful of locations underperform matched peers for reasons of inventory allocation rather than location or footfall — which is fixable, and invisible until the comparison exists.
 
 ## Frequently Asked Questions
 

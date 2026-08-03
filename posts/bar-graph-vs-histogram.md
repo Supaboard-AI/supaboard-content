@@ -41,6 +41,8 @@ sections:
     heading: Best Tools to Create Bar Graphs and Histograms
   - id: content-8
     heading: Frequently Asked Questions (FAQ)
+  - id: content-12
+    heading: Which one is better for comparing data?
 featured:
   choice: null
   trending: 4
@@ -352,6 +354,22 @@ A histogram is the best chart for showing data distribution. It groups continuou
 #### Why use a histogram instead of a bar graph?
 
 Use a histogram when you need to understand the shape and spread of continuous data. It reveals insights such as skewness, peaks, and outliers that a bar graph cannot show effectively.
+
+<!-- section:content-12 -->
+
+## Which one is better for comparing data?
+
+The bar graph, and it is not close — but only because "comparing" almost always means comparing categories, which is not what a histogram does.
+
+The question is worth answering directly because it is the most common way people get this pair wrong. A histogram looks like a bar graph, so it gets used for comparison, and the resulting chart is not merely suboptimal — it is meaningless. Histogram bars represent ranges of a continuous variable, so their order is fixed and their widths are intervals. Rearranging them or comparing one to another the way you would compare two product lines is a category error.
+
+**Use a bar graph when the question is "which is bigger."** Revenue by region, units by product, tickets by team. The categories are independent, the order is yours to choose (usually by value, descending), and the gaps between bars exist precisely to signal that independence.
+
+**Use a histogram when the question is "what does the spread look like."** Order values, delivery times, ages, response latencies. You are not comparing bins to each other — you are reading the shape: where the mass sits, whether it is skewed, whether there is a second peak, whether there are outliers far from the centre.
+
+Those questions are genuinely different, and the confusion usually starts with the question rather than the chart. "How do our order values compare?" is ambiguous: it could mean comparing average order value across segments (bar graph) or understanding the distribution of order values (histogram). Deciding which you meant resolves the chart choice immediately.
+
+One practical tell: if you can reorder the bars without losing meaning, you want a bar graph. If reordering them destroys the chart, it is a histogram and comparison was never the point.
 
 ## Conclusion
 

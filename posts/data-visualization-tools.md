@@ -40,8 +40,8 @@ sections:
     heading: How we tested these tools
   - id: content-7
     heading: Frequently Asked Questions (FAQ)
-  - id: content-8
-    heading: Conclusion
+  - id: content-12
+    heading: 'Graph or chart: what is the difference, and which do you need?'
 featured:
   choice: null
   trending: null
@@ -308,6 +308,28 @@ Google Looker Studio is the strongest free option overall. Zoho Analytics offers
 Most modern tools allow you to type plain English prompts such as “show sales by region last quarter” or “compare this year’s performance with last year.” The AI then generates relevant charts and dashboards automatically. You can refine results by giving follow-up instructions. Popular tools for this include Supaboard, ThoughtSpot, Power BI Copilot, and Julius AI.
 
 <!-- section:content-8 -->
+
+<!-- section:content-12 -->
+
+## Graph or chart: what is the difference, and which do you need?
+
+In everyday use they are interchangeable. In practice the distinction worth keeping is what the visual is doing to the data, not what it is called.
+
+Strictly, a *graph* plots a relationship between variables on axes — a line graph of revenue over time, a scatter of spend against conversion. A *chart* is the broader family of visual data representations, including graphs but also pie charts, treemaps, funnels and tables. Every graph is a chart; not every chart is a graph. Nobody will misunderstand you either way.
+
+The useful question is which encoding matches the question. Four rules cover most cases:
+
+**Comparing categories → bars.** Length is the easiest visual property to judge accurately, which is why bar charts survive every design trend. Sales by region, revenue by product.
+
+**Showing change over a continuous interval → lines.** Lines imply connection between points, so use them for time and other continuous sequences, never for unrelated categories.
+
+**Showing distribution → histograms or box plots.** These answer "what does the spread look like" rather than "which is biggest" — a distinction covered in [bar graph vs histogram](/blog/bar-graph-vs-histogram), and the one people most often get wrong.
+
+**Showing relationship between two measures → scatter.** Whether spend and revenue move together, and whether the relationship is linear. See [positive vs negative correlation](/blog/positive-vs-negative-correlation) for reading these honestly.
+
+Two things to avoid regardless of vocabulary. **Pie charts with more than about five slices** — angle is hard to judge and the ranking becomes guesswork. And **dual axes**, which let you manufacture a visual relationship between any two series by choosing the scales; if the correlation is real, it survives being plotted separately.
+
+The naming matters far less than whether the encoding lets someone read the answer without decoding a legend first.
 
 ## Conclusion
 

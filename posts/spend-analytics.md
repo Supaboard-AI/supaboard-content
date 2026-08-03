@@ -42,6 +42,8 @@ sections:
       tools/software queries)
   - id: content-8
     heading: Frequently Asked Questions
+  - id: content-12
+    heading: Which spend analytics use cases pay back first?
 featured:
   choice: null
   trending: null
@@ -461,6 +463,26 @@ Implementation time varies by tool. Traditional enterprise platforms like Coupa 
 #### What is a spend analytics dashboard?
 
 A spend analytics dashboard is a visual interface that displays key spend metrics, trends, and insights in real time. The best dashboards are layered, offering executive summaries, category-level views, and finance perspectives, with the ability to drill down from any metric to underlying transactions. AI-powered platforms further enhance this by making dashboards conversational, allowing users to ask questions in natural language instead of navigating pre-built charts.
+
+<!-- section:content-12 -->
+
+## Which spend analytics use cases pay back first?
+
+Supplier consolidation and contract compliance, because both convert directly into a negotiation you can hold this quarter.
+
+The eight use cases above are not equally fast. Sequencing them by time-to-value rather than by ambition is the difference between a programme that funds itself and one that stalls waiting for data quality.
+
+**First — supplier consolidation.** Once spend is normalised, duplicate suppliers across departments become visible immediately, and consolidating volume with fewer vendors is a conversation you can have as soon as you can prove the numbers. It requires no process change from anyone outside procurement, which is why it moves fast.
+
+**Second — contract compliance.** Comparing what you were invoiced against what you contracted surfaces off-contract buying and price creep. The value is already yours; you are only recovering it. Again, no new process required.
+
+**Third — maverick spend and tail spend.** Both need behavioural change across the organisation, so they take longer and depend on someone senior caring. Worth doing, wrong place to start.
+
+**Last — category strategy and ESG reporting.** High value, but they depend on clean classification and historical depth you will not have in month one.
+
+The prerequisite for all of it is unglamorous: supplier normalisation. The same vendor appears as four entities across three systems, and no analysis is trustworthy until that is resolved. Teams that skip it produce confident consolidation recommendations that fall apart in the first supplier meeting.
+
+One planning note on timelines. Traditional enterprise platforms typically take months to implement because the integration and configuration burden is real, while modern platforms connecting directly to existing data sources are quicker to first insight. Either way, the constraint is rarely the software — it is how long it takes to agree what a supplier is.
 
 ## The Bottom Line
 

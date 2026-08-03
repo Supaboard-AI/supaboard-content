@@ -44,8 +44,8 @@ sections:
     heading: Embedded Analytics vs Business Intelligence
   - id: content-6
     heading: Frequently Asked Questions (About Embedded Analytics)
-  - id: content-7
-    heading: 'Conclusion: Why Embedded Analytics Is the Future of Software'
+  - id: content-12
+    heading: 'White label vs embedded analytics: what is the difference?'
 featured:
   choice: null
   trending: null
@@ -274,6 +274,30 @@ Most embedded analytics platforms support branding, white-labeling, layout custo
 Yes. Modern solutions use data encryption, role-based access controls, compliance standards, and cloud-native architectures. These features ensure secure data handling while supporting growing users, data volumes, and enterprise-level performance.
 
 <!-- section:content-7 -->
+
+<!-- section:content-12 -->
+
+## White label vs embedded analytics: what is the difference?
+
+Embedded analytics is about *where* the analytics appear; white label is about *whose* they look like. Most products need both, and buying one thinking it is the other is a common and expensive mistake.
+
+**Embedded analytics** puts charts, dashboards or query interfaces inside your application, so users never leave it to answer a question. The integration is the point. It says nothing about branding — an embedded dashboard can carry the vendor's logo, fonts and error messages, and users will notice.
+
+**White label analytics** removes the vendor from the surface entirely. Your colours, your typography, your naming, your empty states. The customer experiences it as a feature you built.
+
+The distinction matters commercially because of who is looking:
+
+**Internal users** rarely care about branding. If your operations team sees a vendor logo on an internal dashboard, nothing bad happens. Embedded without white labelling is fine, and paying for deep theming is waste.
+
+**Customers you charge** care a great deal. Analytics presented as part of your product, wearing someone else's brand, tells them the capability is rented — which invites the question of why they are paying you for it rather than the vendor. It also constrains your pricing: it is hard to charge a premium for a feature that visibly belongs to a third party.
+
+What to check before assuming a tool does both:
+
+- **How deep does theming go?** Logo and primary colour is the shallow tier. Fonts, chart palettes, loading states, error messages and exported file headers are where the seams usually show.
+- **What is in the URL and the network tab?** A white-labelled iframe pointing at a vendor domain is only white label until a curious customer opens developer tools.
+- **Does the pricing model survive customer-facing use?** Per-seat pricing means your bill scales with your customer count, which is the wrong shape for anything customer-facing.
+
+The short version: embed for convenience, white label for ownership. Decide which you are actually buying before comparing feature lists, because the tools that lead on one often trail on the other.
 
 ## Conclusion: Why Embedded Analytics Is the Future of Software
 

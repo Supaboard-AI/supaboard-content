@@ -43,8 +43,8 @@ sections:
     heading: How do you choose an AI data analyst?
   - id: content-7
     heading: AI data analyst FAQ
-  - id: content-8
-    heading: Try it on your own data
+  - id: content-12
+    heading: 'What can you actually automate, and what stays manual?'
 featured:
   choice: null
   trending: 1
@@ -204,6 +204,30 @@ Lightweight, file-based tools start around $35 to $45 per month per user. Team p
 No. The whole point is asking in plain English and getting an answer back. That said, the tools that show you the generated SQL are the ones worth choosing, because seeing the query is how you (or anyone on your team who reads SQL) catches a wrong join before it becomes a wrong decision. You don't need to write it; you do want to be able to check it.
 
 <!-- section:content-8 -->
+
+<!-- section:content-12 -->
+
+## What can you actually automate, and what stays manual?
+
+Automation handles the mechanical middle of the analysis. The judgement at either end does not move.
+
+Being specific about the boundary is more useful than another round of "AI augments rather than replaces," because the line falls in a consistent place.
+
+**Reliably automatable**
+
+- **Data preparation.** Type inference, deduplication, null handling, joining on well-defined keys. Tedious, rule-governed, and the place most analyst hours historically went.
+- **Baseline modelling.** Fitting and comparing standard models against a labelled target, tuning hyperparameters, reporting the winner. This is what AutoML has genuinely solved.
+- **Descriptive summarisation.** What moved, by how much, versus what comparison.
+- **Anomaly flagging.** Detecting that a series left its usual range.
+
+**Not automatable, and unlikely to become so**
+
+- **Framing the question.** Deciding that the thing worth investigating is regional close rate rather than overall revenue. Nothing in the data tells you which question matters this quarter.
+- **Defining the target.** What counts as churn, from which date, excluding whom. Get this wrong and every downstream model is precisely wrong.
+- **Judging whether a result is trustworthy.** Whether the sample is large enough, whether the split leaked, whether the correlation survives a control. A model reports metrics; it does not tell you the metric is meaningless because the classes are imbalanced.
+- **Deciding what to do.** The gap between "this segment is likelier to churn" and "so we change the onboarding flow" is business judgement, and it carries the cost of being wrong.
+
+The practical read: automation compresses the time between having a question and having a candidate answer. It does not compress the time spent deciding which questions to ask or whether the answer holds. If a vendor's demo skips straight from data upload to recommendation without anyone naming what they were trying to find out, you are watching the easy part.
 
 ## Try it on your own data
 

@@ -39,8 +39,8 @@ sections:
     heading: Financial Dashboard Examples
   - id: content-5
     heading: Frequently Asked Questions (FAQs)
-  - id: content-6
-    heading: Conclusion
+  - id: content-12
+    heading: 'Template or custom: which financial dashboard should you build?'
 featured:
   choice: null
   trending: null
@@ -419,6 +419,22 @@ A financial dashboard is a centralized analytics tool that consolidates financia
 Try [Supaboard](https://auth.supaboard.ai/onboard/register) and get real-time financial dashboards with instant insights. Connect your data and see what actually drives your numbers. **Start your free 14-day trial.**
 
 <!-- section:content-6 -->
+
+<!-- section:content-12 -->
+
+## Template or custom: which financial dashboard should you build?
+
+Start with a template, replace it once you know which numbers you actually argue about.
+
+This is the decision most finance teams get backwards, building a bespoke dashboard first because the business "is different." It usually is not, at the start. The standard views — cash position, P&L summary, AR ageing, budget variance — cover the majority of what a finance function looks at weekly, and a template gets them running in days rather than a quarter.
+
+**Templates win when** you are standing up financial reporting for the first time, your chart of accounts is conventional, and the questions are the standard ones. They also win as a forcing function: seeing a complete view quickly tells you what is missing far better than specifying it in advance.
+
+**Custom wins when** your unit economics do not fit the standard shapes. Usage-based revenue, multi-entity consolidation, per-location P&L, or any business where the meaningful denominator is unusual. A template that cannot express your actual margin driver is worse than no dashboard, because people will trust it.
+
+The sequence that works in practice: run the template for a quarter, note every time someone exports to a spreadsheet to answer a question, and build custom views for exactly those. Spreadsheet exports are the highest-signal indicator you have — they mark precisely where the dashboard failed, and they cost nothing to observe.
+
+Two things to fix regardless of which route you take. **Agree the definitions before building anything** — if finance and operations compute gross margin differently, a dashboard will not resolve that, it will just publish the disagreement faster. And **match refresh to the decision**, not to what is technically possible: a monthly close view refreshed hourly creates noise, while a cash position refreshed weekly is not a cash position.
 
 ## Conclusion
 

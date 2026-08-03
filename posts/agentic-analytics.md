@@ -35,8 +35,8 @@ sections:
     heading: What Teams Are Actually Saying About BI Tools
   - id: content-4
     heading: Why Most Teams Are Moving Toward a Hybrid Approach
-  - id: content-5
-    heading: Final Thoughts
+  - id: content-12
+    heading: 'Which BI tools are genuinely AI-native, and which added AI later?'
 featured:
   choice: null
   trending: null
@@ -154,6 +154,26 @@ In practice, this means you’re not abandoning familiar workflows. You’re aug
 For teams exploring the shift from traditional BI to more agentic systems, this kind of approach often feels like a more practical starting point, evolving the way analytics works, rather than replacing it entirely.
 
 <!-- section:content-5 -->
+
+<!-- section:content-12 -->
+
+## Which BI tools are genuinely AI-native, and which added AI later?
+
+The distinction is architectural, and you can test it in a demo without taking anyone's word for it.
+
+"AI-native" has become a claim every vendor makes, so it needs an operational definition. A tool is AI-native if the language interface is how the product works. It is AI-bolted-on if the language interface is a route to the product's existing query builder — useful, but constrained by everything the underlying model already assumed.
+
+Three tests that separate them:
+
+**Ask a question the dashboards do not cover.** A bolted-on assistant handles questions that map to existing datasets and struggles the moment you leave them, because it is translating into a pre-built model. A native system treats every question the same way.
+
+**Ask a "why" question.** "Why did signups fall in March" requires decomposition — several queries, compared against each other, with a follow-up chosen based on what the first returned. Retrofitted assistants typically answer the "what" and stop, because multi-step investigation was not in the original architecture.
+
+**Change a metric definition and see what happens.** In a system built around governed definitions, the change propagates everywhere immediately. In one where AI sits on top of pre-built dashboards, you will be editing dashboards for a week.
+
+The pattern across the market is straightforward: platforms that predate the current generation of language models have added conversational layers over mature, well-governed query engines — strong on governance and enterprise controls, limited on open-ended investigation. Platforms built after them tend to be the reverse: better at unanticipated questions, younger on governance and permissions.
+
+Neither is automatically right. If your analytics is mostly recurring reporting against well-defined metrics, the mature engine matters more than the conversation. If your problem is that people cannot get answers to questions nobody anticipated, the architecture is the thing you are actually buying, and a chat box on top of the old model will not fix it.
 
 ## Final Thoughts
 
