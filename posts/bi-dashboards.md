@@ -40,6 +40,8 @@ sections:
     heading: What Makes a BI Dashboard Actually Useful for Decisions
   - id: content-7
     heading: How AI Is Changing Business Intelligence Dashboards
+  - id: content-10
+    heading: How do you build a decision-making dashboard?
   - id: content-8
     heading: Frequently Asked Questions
 featured:
@@ -369,6 +371,28 @@ The BI dashboard became a daily tool for leadership, helping teams rely on consi
     Update metrics, visuals, and layout as business needs and priorities change.
 
 <!-- section:content-8 -->
+
+<!-- section:content-10 -->
+
+## How do you build a decision-making dashboard?
+
+Start from the decision, not the data. Every dashboard that fails was built the other way round.
+
+A decision-making dashboard differs from a reporting dashboard in what it is for. A reporting dashboard answers "what happened." A decision-making dashboard exists to trigger a specific action by a specific person, and if you cannot name that action, the dashboard has no reason to exist.
+
+**1. Name the decision and the decider.** "Should we reallocate spend between channels this week, decided by the growth lead every Monday." That sentence determines everything downstream. Skip it and you will build a wall of charts nobody acts on.
+
+**2. Work backwards to the metrics that change the answer.** Usually three to seven. If a number would not alter the decision regardless of its value, it belongs in a different view — most dashboard clutter is numbers that are interesting rather than decisive.
+
+**3. Set the comparison.** A raw figure is not actionable; a figure against target, against last period, or against a matched peer is. "Revenue: £412k" tells the decider nothing. "Revenue: 8% below plan, third consecutive week" tells them what to do.
+
+**4. Fix the grain and the refresh to match the decision cadence.** A weekly decision does not need a real-time feed, and a daily inventory call cannot run on data refreshed on Mondays. Mismatching these is the most common reason a technically correct dashboard goes unused.
+
+**5. Add thresholds, not just displays.** The dashboard should say when something needs attention rather than requiring someone to notice. A view that depends on being looked at will eventually stop being looked at.
+
+**6. Delete on a schedule.** Dashboards accumulate because nobody is responsible for removing them. Review quarterly and archive anything whose decision no longer exists — usage data makes this an easy call rather than a political one.
+
+The test of a decision-making dashboard is not whether people like it. It is whether anything different happened because of it. If the answer is no after a quarter, the problem is step one.
 
 ## Frequently Asked Questions
 

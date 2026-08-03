@@ -33,6 +33,8 @@ sections:
     heading: 'What is Metabase? Overview, Limitations, and Pricing Explained'
   - id: content-3
     heading: 1. Supaboard
+  - id: content-10
+    heading: Which Metabase alternative is best for embedded analytics?
   - id: content-4
     heading: How to Choose the Right Metabase Alternative
   - id: content-5
@@ -445,6 +447,25 @@ It is positioned as an enterprise solution, so costs can be higher compared to s
 | Sisense | Dashboard + custom queries | Very high – engineering-led setup | AI + NLQ (but dashboard-centric usage) | Complex (data pipelines, infra, customization) | Enterprises needing full control & scalability |
 
 <!-- section:content-4 -->
+
+<!-- section:content-10 -->
+
+## Which Metabase alternative is best for embedded analytics?
+
+It depends on whether you are embedding for your own staff or for your customers, and the two have almost nothing in common.
+
+Metabase is widely used for embedding precisely because it is easy to stand up and its open-source edition costs nothing to start. The friction shows up later, at two specific points: white-labelling and per-tenant isolation. Embedding dashboards into a product you sell means every customer must see their own data and only their own data, and the surrounding chrome must not advertise a vendor you did not mention in your pricing.
+
+**Embedding for internal teams** is the easier case. You need single sign-on, sensible permissions and a view that loads inside an existing internal tool. Most alternatives handle this, and the deciding factor is usually how much modelling work sits between a new data source and a usable view.
+
+**Embedding for customers** is a product decision wearing an analytics costume. The questions that matter:
+
+- **Multi-tenancy model.** Is isolation enforced at the query layer, or by filters someone has to remember to apply? Filter-based isolation is a data breach waiting for a misconfiguration.
+- **White-labelling depth.** Whether you can change the logo is the shallow version. Whether the fonts, colours, empty states and error messages match your product is what customers actually notice.
+- **Pricing shape.** Per-seat pricing is hostile to embedded use, because your seat count is your customer count. Look for capacity or usage pricing, and model it at ten times your current customers before signing.
+- **Latency under concurrency.** An internal dashboard used by twenty analysts and an embedded one used by every customer at 9am are different load profiles entirely.
+
+The honest summary: if you are embedding internally, the choice barely matters and you should optimise for time-to-first-view. If you are embedding into a product you charge for, multi-tenancy and pricing shape will decide this long before feature lists do — and both are things vendors are happiest discussing last.
 
 ## How to Choose the Right Metabase Alternative
 

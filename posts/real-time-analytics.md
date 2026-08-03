@@ -37,6 +37,8 @@ sections:
     heading: Benefits of Real-Time Analytics Platforms
   - id: content-5
     heading: Challenges of Real-Time Analytics Platforms
+  - id: content-10
+    heading: How is business activity monitoring different from real-time analytics?
   - id: content-6
     heading: Frequently Asked Questions
 featured:
@@ -351,6 +353,22 @@ Businesses should understand the trade-offs before adopting a platform.
     
 
 These challenges do not mean businesses should avoid real-time analytics. They simply mean the platform should match the team’s maturity, needs, and resources.
+
+<!-- section:content-10 -->
+
+## How is business activity monitoring different from real-time analytics?
+
+Business activity monitoring watches processes; real-time analytics answers questions. They overlap, and the distinction decides which one you actually need.
+
+**Business activity monitoring (BAM)** tracks defined business processes as they run and raises an alert when one deviates: an order stuck in fulfilment past its threshold, a payment retry loop, a claim sitting unworked for longer than policy allows. The unit of observation is a process instance, and the output is an exception. You configure what "wrong" looks like in advance.
+
+**Real-time analytics** is broader and less prescriptive. It makes current data queryable, so someone can ask a question that nobody anticipated and get an answer reflecting the last few minutes rather than last night's batch.
+
+The practical difference is who acts and when. BAM is for conditions you already know are worth catching, routed to whoever handles them — it is operational plumbing, and its value is that no human has to be watching. Real-time analytics is for the questions that follow: *why* are orders sticking in fulfilment this week, and is it one warehouse or all of them.
+
+Most teams need both and buy only one. A BAM setup with no analytical layer tells you something is wrong repeatedly without ever explaining why. An analytics layer with no monitoring means someone has to think to look — which, on a Friday evening, nobody does.
+
+Where they converge is the alerting threshold. Both depend on knowing what normal is, and "normal" is a metric definition. If your alert fires on a measure that finance and operations define differently, you will spend the first hour of every incident arguing about whether it is real.
 
 ## Key Features to Look For in a Real-Time Analytics Platform
 

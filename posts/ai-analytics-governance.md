@@ -38,6 +38,8 @@ sections:
     heading: Static vs AI Contextual Governance in Business Adoption
   - id: content-7
     heading: Real-World AI Contextual Governance Examples
+  - id: content-10
+    heading: What happens when generative BI fabricates an insight?
   - id: content-8
     heading: Conclusion
 featured:
@@ -305,6 +307,26 @@ To implement AI contextual governance, organizations must first define clear con
 Next, governance policies should be designed to adapt based on these contexts. This includes role-based access, data filtering, and output control mechanisms.
 
 Organizations should then integrate governance into AI workflows using monitoring tools and automation systems. Continuous evaluation and feedback loops are essential to refine policies and ensure alignment with evolving business needs.
+
+<!-- section:content-10 -->
+
+## What happens when generative BI fabricates an insight?
+
+It produces a confident, well-formatted answer that is wrong, and nothing in the output distinguishes it from a right one.
+
+This is the governance failure specific to generative analytics, and it is not the same as a broken pipeline. A broken pipeline fails loudly — the number is missing, the job errors, someone notices. A fabricated insight fails silently: the chart renders, the summary reads well, the trend has an explanation attached, and it is invented. Traditional data quality tooling does not catch it because the data was fine; the interpretation was not.
+
+Three shapes it takes in practice:
+
+**A plausible number from an ambiguous definition.** The model resolves "revenue" to whichever column looks closest and reports it. The figure is real; it is simply not the revenue anyone meant.
+
+**A causal story the data does not support.** Asked *why* something moved, a language model will supply a reason, because supplying reasons is what it does. Correlation in the data becomes causation in the summary, with no hedge.
+
+**Synthetic values presented as observed ones.** Where gaps exist, a model may interpolate. Interpolated data is legitimate when labelled and dangerous when not — a forecast rendered in the same style as a measurement invites decisions it cannot support.
+
+The governance answer is not to ban generative BI. It is to make every answer traceable: which definition resolved the metric, which query ran, which rows it touched. A system that can show its working can be audited when someone doubts it. One that returns only prose cannot be checked at all, which means it cannot be trusted with anything that matters — and for a category whose entire premise is answering questions faster, an unverifiable answer is worse than a slow one.
+
+This is why explainability is a governance control rather than a feature. Attribution and a visible query path are what let a human overrule the machine, and a human who cannot see the reasoning has no basis on which to overrule anything.
 
 ## Challenges in AI Contextual Governance Adoption
 
