@@ -10,7 +10,17 @@
     "discover": "node tools/discover.mjs",
     "rails": "node tools/rails.mjs",
     "refresh-faq": "node tools/refresh-faq.mjs",
-    "prune-assets": "node tools/prune-assets.mjs"
+    "prune-assets": "node tools/prune-assets.mjs",
+    "inventory": "node tools/inventory.mjs",
+    "reconcile": "node tools/reconcile.mjs",
+    "disposition": "node tools/disposition.mjs",
+    "redirects": "node tools/redirects.mjs",
+    "coverage": "node tools/coverage.mjs",
+    "codemod": "node tools/codemod.mjs",
+    "validate": "node tools/validate.ts",
+    "content:check": "node tools/ci.ts",
+    "content:report": "node tools/report.ts",
+    "sitemap": "node tools/sitemap.mjs"
   },
   "repository": {
     "type": "git",
