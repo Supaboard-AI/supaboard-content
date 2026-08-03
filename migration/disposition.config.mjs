@@ -349,10 +349,10 @@ export const CLUSTERS = [
  * complies with the Phase 3 rules; a string is the compliant rename.
  */
 export const KEEP = [
-  ["is-ai-bi-just-text-to-sql-the-honest-difference-with-examples", null,
-   "CTO-authored. Owns the text-to-SQL distinction, the sharpest differentiation argument the company has."],
-  ["from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics", null,
-   "CTO-authored. The Jindal Healthcare story with hard numbers; anchors the healthcare-rcm pillar."],
+  ["is-ai-bi-just-text-to-sql-the-honest-difference-with-examples", "is-ai-bi-just-text-to-sql",
+   "CTO-authored. Owns the text-to-SQL distinction, the sharpest differentiation argument the company has. Shortened from 61 chars to meet the slug rule."],
+  ["from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics", "from-4-hours-to-2-minutes-rcm-analytics",
+   "CTO-authored. The Jindal Healthcare story with hard numbers; anchors the healthcare-rcm pillar. Shortened from 66 chars, keeping the memorable hook."],
   ["how-to-evaluate-ai-bi-tools-the-12-questions-most-demos-can-t-survive",
    "how-to-evaluate-ai-bi-tools", "CTO-authored buyer's guide. Slug shortened and the mangled apostrophe removed."],
   ["sisense-alternatives-7-bi-tools-compared-in-2026", "sisense-alternatives",
