@@ -40,20 +40,25 @@ links. Seven fields per post cannot be derived and are unwritten across all 47:
 `statsCount` — plus `pillar`/`cluster`. 29 descriptions are outside 140–160
 chars and 22 titles exceed 65. `npm run validate` reports 577 issues.
 
-**Merged bodies — 2 of 27 done.** The 74 MERGE members were deleted and their
-URLs redirected; the canonicals are now being rewritten to absorb them.
+**Merged bodies — done.** All 25 blog canonicals now absorb the members they
+replaced. (The 26th cluster, `competitor-comparisons`, targets `/compare/`
+routes rather than a post, so it has no body to write.)
 
-- `what-is-a-semantic-layer` — absorbed `what-is-a-semantic-data-model` with a
-  new section distinguishing the model (the artefact) from the layer (the system
-  that governs it), which is the query those 38 inbound links were pointing at.
-- `best-ai-bi-tools` — absorbed selection criteria, deployment trade-offs and an
-  agentic-analytics definition from the 7 listicles it replaced; 2,296 → 2,886
-  words.
+Each merge adds the angle its members owned rather than concatenating them,
+with the new H2s written as questions whose first sentence is the answer. Use
+`npm run cluster <id>` to see any canonical against its members, recovered from
+git; `--section "heading"` prints one section in full; `--list` names all 26.
 
-The remaining 25 still contain only their original text. Use
-`node tools/cluster.mjs <id>` to see a cluster's canonical against every member
-it absorbed (pulled from git), and `--section "heading"` to read one section's
-full text. `node tools/cluster.mjs --list` names all 27.
+Two defects surfaced during this work and were fixed at the tool level rather
+than per-post:
+
+- Rewriting an absorbed member's slug to its canonical could produce a post
+  linking to **itself** — `will-ai-replace-data-analysts` carried
+  `[not replacing it.](/blog/will-ai-replace-data-analysts)`. `relink.mjs` now
+  unwraps self-links to plain prose, keeping in-page anchors. 11 across the corpus.
+- The `sections` frontmatter builds the on-page table of contents but was
+  hand-maintained, so every inserted section landed in the wrong position.
+  `tools/toc.mjs` derives it from the body instead.
 
 **Phase 5b/5c/5d.** No retrofits, no systematic case-study wiring (three were
 added opportunistically while removing invented stats), no mid-article CTAs. The
