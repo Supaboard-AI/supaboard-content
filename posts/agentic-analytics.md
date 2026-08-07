@@ -36,6 +36,8 @@ sections:
     heading: Why Most Teams Are Moving Toward a Hybrid Approach
   - id: content-12
     heading: 'Which BI tools are genuinely AI-native, and which added AI later?'
+  - id: content-13
+    heading: Frequently asked questions
 featured:
   choice: null
   trending: null
@@ -252,3 +254,25 @@ Traditional BI tools played a crucial role in helping organizations become data-
 Agentic [analytics](/blog/best-ai-bi-tools) builds on that foundation by reducing the gap between insight and action, allowing systems to not just report on data but actively support decision-making. The shift is subtle but significant, you move from checking dashboards to working with systems that continuously analyze, adapt, and respond.
 
 That’s ultimately why the conversation around **agentic analytics vs. traditional BI tools** matters. It’s not just about choosing a better tool, but about adopting a model that aligns more closely with how modern teams need to operate.
+
+<!-- section:content-13 -->
+
+## Frequently asked questions
+
+**What is agentic analytics?**  
+Agentic analytics describes a system that carries out a multi-step investigation rather than answering a single question. It decomposes what you asked, runs several queries, checks the results against each other, notices when one answer implies a further question, and follows it. Conventional business intelligence stops at the first result and leaves the follow-up to you.
+
+**How is agentic analytics different from a chatbot on a dashboard?**  
+A chat interface layered onto existing dashboards translates your question into the queries someone already built. An agentic system treats every question the same way, whether or not anyone anticipated it. The practical test is a why-question: retrofitted assistants answer what happened and stop, because multi-step investigation was never in the architecture.
+
+**How can I tell whether a tool is genuinely AI-native?**  
+Three demo tests separate them. Ask a question the existing dashboards do not cover. Ask why something changed rather than what changed. Then change a metric definition and see whether it propagates everywhere immediately or leaves you editing dashboards for a week. Vendors claiming AI-native rarely survive all three.
+
+**Does agentic analytics replace dashboards?**  
+No. Dashboards remain good at one thing: a small, stable set of numbers a team watches continuously. What changes is that they stop being the answer to every possible question. Agentic analytics removes the incentive to build a permanent view for every recurring question, which is what causes dashboard sprawl.
+
+**What does agentic analytics need to work properly?**  
+Governed metric definitions. An agent that resolves your question against raw column names is guessing, and it will guess fluently and confidently. A semantic layer supplies the business meaning the agent cannot infer from schema alone, which is the difference between an answer you can act on and one you have to verify.
+
+**Is agentic analytics suitable for a small team?**  
+It suits small teams particularly well, because the constraint agentic analytics removes is analyst time. A company with no dedicated data staff gains the most from a system that runs an investigation unaided. Larger organisations often gain more from the governance layer than from the autonomy itself.

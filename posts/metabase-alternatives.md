@@ -37,6 +37,8 @@ sections:
     heading: Which Metabase alternative is best for embedded analytics?
   - id: content-5
     heading: Conclusion
+  - id: content-11
+    heading: Frequently asked questions
 featured:
   choice: null
   trending: null
@@ -581,3 +583,25 @@ If your team still depends on others for basic insights, it’s time to consider
 [**Get Started**](https://auth.supaboard.ai/onboard/register) – Connect your data and see insights in minutes
 
 [**Book a Demo**](https://calendly.com/aritra-ewq/supaboard-demo) – Get a personalized walkthrough of Supaboard for your use case.
+
+<!-- section:content-11 -->
+
+## Frequently asked questions
+
+**Why do teams look for a Metabase alternative?**  
+Rarely because of charting. The usual triggers are white-labelling depth, per-tenant isolation when embedding into a product you sell, and governance as the number of dashboards grows. Metabase is unusually easy to stand up, which means teams often outgrow it in a specific direction rather than abandoning it wholesale.
+
+**Which Metabase alternative is best for embedded analytics?**  
+It depends on whether you embed for staff or for paying customers. Internal embedding is straightforward and most tools handle it, so optimise for time to first view. Customer-facing embedding is decided by multi-tenancy enforcement and pricing shape long before feature lists become relevant.
+
+**What should I check about multi-tenancy?**  
+Whether isolation is enforced at the query layer or by filters somebody has to remember to apply. Filter-based isolation is a data breach waiting for a misconfiguration. Ask how a customer is prevented from seeing another customer's rows if a developer makes a mistake, and accept only a structural answer.
+
+**Why is per-seat pricing a problem for embedded analytics?**  
+Because your seat count becomes your customer count. Pricing that looks reasonable for an internal team of twenty becomes the largest line in your product's cost of goods once every customer needs access. Look for capacity or usage pricing, and model it at ten times your current customer base.
+
+**Is Metabase's open-source edition enough?**  
+For internal analytics on a moderate scale, frequently yes. The open-source edition costs nothing to license and costs engineering time to operate, which is the real comparison. Teams typically move to a paid tier or another tool over embedding, permissions granularity and support rather than over missing analysis features.
+
+**How deep does white labelling need to go?**  
+Further than most evaluations check. Changing the logo and primary colour is the shallow tier. Fonts, chart palettes, loading states, error messages and exported file headers are where the seams show, and a customer who opens developer tools will see the vendor domain regardless of how the interface looks.

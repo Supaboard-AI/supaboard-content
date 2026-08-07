@@ -42,6 +42,8 @@ sections:
     heading: What DBT Does Not Solve (And Why That’s Okay)
   - id: content-8
     heading: 'When DBT Feels Like Too Much: Why Some Teams Turn to AI BI Tools'
+  - id: content-9
+    heading: Frequently asked questions
 featured:
   choice: null
   trending: null
@@ -361,3 +363,25 @@ For teams dealing with data sprawl, limited engineering bandwidth, and constant 
 DBT works best when it’s treated not as a quick fix, but as a foundation. Build carefully. Review often. Document honestly. And accept that data work, like software, is never really “done”.
 
 That mindset shift is where DBT’s real value shows up.
+
+<!-- section:content-9 -->
+
+## Frequently asked questions
+
+**What is dbt?**  
+dbt is a transformation tool that applies software engineering practice to SQL: version control, automated testing, documentation and dependency management. Analysts write SELECT statements, and dbt handles materialising them in the correct order. It does not move data into your warehouse; it transforms what is already there.
+
+**What problem does dbt actually solve?**  
+It makes transformation logic reviewable and repeatable. Before dbt, business logic lived in scattered scripts, scheduled queries and BI-tool calculations with no version history and no tests. The value is less the tool than the discipline it makes cheap to follow, which is why teams notice the change in review quality first.
+
+**What is MetricFlow and why does it matter?**  
+MetricFlow is dbt's semantic layer component. It lets you define a metric such as net revenue once, so every downstream query computes it identically rather than each dashboard re-deriving it. That single definition is what stops four teams arriving at four revenue numbers, which is the most common analytics failure.
+
+**Is dbt only for large data teams?**  
+No, though the benefit scales with the number of people writing transformations. A single analyst gains version control and tests. A team of ten gains a shared, reviewable definition of business logic. Below roughly one full-time analyst, the setup cost can exceed the benefit for a while.
+
+**Does dbt replace a data engineer?**  
+No. dbt covers transformation, which is one part of the job. Ingestion, orchestration, data quality monitoring, access control and cost management all remain. What dbt changes is that analysts can own transformation logic themselves, which frees engineers for the platform work rather than removing the need for them.
+
+**When is dbt overkill?**  
+When your data lives in one system, the transformations are trivial, and one person answers every question. In that situation the modelling layer adds ceremony without adding safety. dbt earns its keep once multiple people depend on the same definitions and a wrong number would reach somebody before being caught.

@@ -44,6 +44,8 @@ sections:
     heading: Skills Data Analysts Need to Stay Relevant in the Age of AI
   - id: content-6
     heading: 'Conclusion: AI Is Redefining the Role, Not Replacing It'
+  - id: content-10
+    heading: Frequently asked questions
 featured:
   choice: null
   trending: null
@@ -313,3 +315,25 @@ New roles like **data engineer**, **decision intelligence analyst**, and **AI et
 AI is transforming analytics, but it is not eliminating data analysts. It removes manual work so analysts can focus on strategy, interpretation, and business impact.
 
 Analysts who learn to use AI will become far more effective. Analysts who avoid it risk falling behind. The future belongs to those who combine human intelligence with AI intelligence**.**
+
+<!-- section:content-10 -->
+
+## Frequently asked questions
+
+**Will AI replace data analysts?**  
+No, though it substantially changes the role. AI automates retrieval, data preparation and recurring reporting, which historically consumed most analyst time. What remains is defining metrics, judging whether results hold, and deciding what to do. The role that shrinks is report-writer; the role that grows decides what is true.
+
+**What can AI genuinely do today in analytics?**  
+Data cleaning and preprocessing, automated reporting, exploratory analysis, forecasting, anomaly detection and natural-language querying. These are real capabilities rather than marketing claims. What they share is that each has a well-defined input and a checkable output, which is precisely the condition under which automation works reliably.
+
+**Will AI automate BI reporting?**  
+The recurring parts, yes. Assembling a weekly or monthly report, pulling the numbers and summarising what moved is largely mechanical. What does not automate is deciding which metrics belong in the report and what a movement means. Reporting splits into an assembly problem and a judgement problem; only the first generalises.
+
+**Are dashboards being replaced?**  
+Partly, and by something more useful than another dashboard. Traditional dashboards can only answer questions somebody anticipated when building them, which is why unanticipated questions spawn new views endlessly. What replaces them is asking directly and following up, leaving dashboards for the small stable set of numbers teams watch continuously.
+
+**How does generative AI change what an analyst does?**  
+It moves the work from producing answers to governing them. Time previously spent on retrieval relocates to defining metrics so they stick across teams, checking the questions that require knowing where the data lies, and building the pipelines and access controls that decide whether the self-service layer can be trusted.
+
+**Which analysts are actually at risk?**  
+Those whose role is genuinely just translating a ticket into SQL. That was always the least durable part of the job and it is the part being automated first. Analysts who own definitions, question results and connect findings to decisions are becoming more valuable as more people query the data.

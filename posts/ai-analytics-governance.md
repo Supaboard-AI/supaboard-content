@@ -46,6 +46,8 @@ sections:
     heading: What happens when generative BI fabricates an insight?
   - id: content-8
     heading: Conclusion
+  - id: content-11
+    heading: Frequently asked questions
 featured:
   choice: null
   trending: null
@@ -435,3 +437,25 @@ AI contextual governance is becoming a foundational element in business evolutio
 By implementing AI contextual governance, organizations can align AI systems with real-world business needs. This enables faster adoption, better decision-making, and stronger compliance.
 
 In the long term, businesses that adopt contextual governance will be better positioned to scale AI responsibly and maintain a competitive advantage in an increasingly [AI-driven landscape](/).
+
+<!-- section:content-11 -->
+
+## Frequently asked questions
+
+**What is AI contextual governance?**  
+Contextual governance evaluates each AI request in real time against who is asking, what data is involved, the intent behind the request, and the potential impact of the output. It replaces fixed rules that apply identically to every user and every case, which tend to either over-restrict useful work or over-expose sensitive data.
+
+**Why do static AI governance rules fail?**  
+Static rules treat all users and use cases the same, so they must be set for the most sensitive case. That either blocks legitimate work for everyone or, when relaxed, exposes data that should have stayed restricted. Neither outcome is a security posture; both are the same rule applied to situations that differ.
+
+**What happens when generative BI fabricates an insight?**  
+It produces a confident, well-formatted answer that is wrong, and nothing in the output distinguishes it from a correct one. Traditional data quality tooling does not catch this, because the data was fine and the interpretation was not. A broken pipeline fails loudly; a fabricated insight fails silently.
+
+**How do you detect a fabricated insight?**  
+You cannot detect it from the output alone, which is why traceability matters more than review. The system must show which definition resolved the metric, which query ran, and which rows it touched. A tool that returns only prose cannot be checked, and therefore cannot be trusted with a decision that matters.
+
+**Is explainability a feature or a governance control?**  
+A governance control. Attribution and a visible query path are what allow a human to overrule the machine, and a human who cannot see the reasoning has no basis on which to overrule anything. Treating explainability as a nice-to-have leaves you with an authority you cannot appeal.
+
+**Does governance slow down AI adoption?**  
+Static governance does, because every request routes through the same restrictive path. Contextual governance tends to widen access rather than narrow it: once policies evaluate role and sensitivity separately, low-risk requests stop being blocked by rules written for high-risk ones. The conversation moves from who is allowed in to what each role may see.

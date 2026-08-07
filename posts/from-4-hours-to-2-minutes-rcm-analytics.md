@@ -38,6 +38,8 @@ sections:
     heading: 'The number, and what it freed up'
   - id: content-7
     heading: What this means if you run analytics for more than one client
+  - id: content-8
+    heading: Frequently asked questions
 featured:
   choice: null
   trending: 2
@@ -225,3 +227,25 @@ What Jindal removed was the translation layer between a question and the data. T
 When the cost of a question falls far enough, people do not just ask the same questions faster. They start asking better ones. That is the part you cannot put in the pricing table, and it is the part Jindal would tell you mattered most.
 
 _Want the structured version with the dashboards and metrics? Read_ [_the full Jindal Healthcare case study_](/case-study/jindal-healthcare)_._
+
+<!-- section:content-8 -->
+
+## Frequently asked questions
+
+**What did Jindal Healthcare change?**  
+They moved from answering client questions through manual SQL across disconnected systems to running the same analysis on a single governed source of truth. Per-client analysis went from roughly four hours of senior analyst time to about two minutes, and analytics cost fell by ninety percent.
+
+**How was protected health information handled?**  
+Jindal masked every piece of protected health information into a separate database before any data moved. The analytics platform pulled from that masked database only, never connected to an EHR, and never saw a patient. The compliance boundary and the analytics boundary were deliberately the same line.
+
+**Why does the time saving matter more than the cost saving?**  
+Because it changes which questions get asked. When a deep look costs four hours, teams reserve it for problems they already know exist. When it costs two minutes, chasing a hunch becomes free, and most of the value in analytics sits in the hunches nobody previously had budget to check.
+
+**What data sources were involved?**  
+Clearinghouse claim and remittance feeds, meaning the 837s going out and the 835 ERAs coming back, along with the practice management and EHR systems each client billed from, and payer remittance and denial data. Reconciling these by hand was the work that made every question expensive.
+
+**Does this apply outside revenue cycle management?**  
+The pattern applies to any business serving multiple clients from separate data environments. The specific pressure in RCM is that every client arrives as its own world, so analytics workload multiplies with the client list. Any agency or managed service with per-client reporting faces the same multiplication.
+
+**What was the hardest part of the migration?**  
+Establishing the masking boundary before analytics touched anything, rather than adding controls afterwards. Building the pipeline so that compliance was structural rather than procedural meant the analytics layer could not accidentally see protected data, which removed the need for ongoing review of who looked at what.

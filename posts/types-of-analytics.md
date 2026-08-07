@@ -45,6 +45,8 @@ sections:
     heading: 'Descriptive or predictive: which should you build first?'
   - id: content-8
     heading: What is the Analytics as a Service (AaaS) business model?
+  - id: content-12
+    heading: Frequently asked questions
 featured:
   choice: null
   trending: null
@@ -386,3 +388,25 @@ Analytics is more than dashboards or AI tools. Used correctly, it’s a **decisi
     
 
 Teams that understand which type to use, and when move faster, avoid costly mistakes, and gain a sustainable competitive edge.
+
+<!-- section:content-12 -->
+
+## Frequently asked questions
+
+**What are the four types of analytics?**  
+Descriptive analytics establishes what happened. Diagnostic analytics explains why it happened. Predictive analytics estimates what happens next. Prescriptive analytics recommends an action. They form a sequence rather than a menu, because each stage depends on the one before it being unambiguous.
+
+**Which type should a company build first?**  
+Descriptive, almost always. It establishes agreed definitions of what happened, and every later stage inherits those definitions. A predictive model trained on an ambiguous revenue figure produces a forecast that hides the ambiguity behind a confidence interval, which is worse than having no forecast at all.
+
+**What is diagnostic analytics and why is it skipped?**  
+Diagnostic analytics isolates why something moved, through segmentation and comparison. It is routinely skipped because it lacks the novelty of prediction, yet it holds most of the practical value. Revenue fell eight percent is descriptive; revenue fell because one channel's close rate halved is what somebody can act on.
+
+**When is predictive analytics worth building?**  
+Once your descriptive layer is unambiguous and your diagnostic work has identified which drivers matter. Prediction is comparatively cheap to add at that point and expensive to retrofit onto contested definitions. Buying forecasting capability while three teams still disagree about what a customer is produces precise, unreliable output.
+
+**What does prescriptive analytics require?**  
+All three previous stages, plus a model of which levers actually exist. A recommendation is only useful if the organisation can act on it, so prescriptive systems need to know constraints such as budget, capacity and lead time. Without those, the recommendation is a suggestion nobody can implement.
+
+**Do smaller companies need all four types?**  
+Most do not, and pursuing all four early is a common way to waste a year. A small company with a trustworthy descriptive layer and the ability to ask diagnostic questions is ahead of a larger one with a forecasting tool built on numbers its own teams dispute.
