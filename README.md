@@ -1,13 +1,18 @@
 # supaboard-content
 
-Source of truth for Supaboard's blog prose. The marketing site
+Source of truth for Supaboard's blog and case-study prose. The marketing site
 (`supa-landing`) reads these files at build/ISR time and renders them at
-`https://supaboard.ai/blog/<slug>`.
+`https://supaboard.ai/blog/<slug>` and `https://supaboard.ai/case-study/<slug>`.
 
 ```
-posts/<slug>.md      one post — YAML frontmatter + markdown body
-tools/               migration + authoring scripts
+posts/<slug>.md          one post — YAML frontmatter + markdown body
+case-studies/<slug>.md   one customer story — same shape, different frontmatter
+tools/                   migration + authoring scripts
 ```
+
+`tools/` and the zod schema in `schema/` cover `posts/` only. Case studies are
+four hand-maintained files gated by the site build, which fails loudly rather
+than dropping a study, so they do not yet carry their own validator.
 
 ## URLs are the contract
 
@@ -19,6 +24,45 @@ the live sitemap verbatim, punctuation included —
 In-page anchors follow the same rule. Each `<!-- section:content-N -->` marker
 in the body becomes `id="content-N"` on the rendered section, matching the
 anchors the Framer build shipped, so existing deep links keep resolving.
+
+## Case studies
+
+`case-studies/<slug>.md` renders at `/case-study/<slug>`, and uses the same
+`<!-- section:id -->` markers to split the body.
+
+The split between frontmatter and body follows what the page renders. Prose —
+a section's intro paragraph and its bulleted list — lives in the body. Anything
+that is a distinct rendered element stays in frontmatter: the numbered eyebrow,
+the heading, the figure, and the pull quote, because a markdown blockquote
+cannot carry the attribution line or the sunken card it renders into.
+
+```yaml
+slug:           must equal the filename
+status:         published | draft | scheduled
+company:        the customer
+title:          <h1> and the base of the <title> tag
+headlineMetric: the one-line result, used on tiles and the homepage strip
+summary:        meta description + the hero paragraph
+industry:       shown in the hero kicker
+featured:       optional — position in the featured row on /case-study
+publishedAt:    YYYY-MM-DD
+updatedAt:      YYYY-MM-DD — drives dateModified and sitemap lastmod
+art:            { bed, person?, logo } — layered square story art
+hero, mark, stripPhoto, stripLogo, logo
+stats:          [{ value, detail }] — the three-up band under the hero
+glance:         { quote, facts[], website?, callout? }
+sections:       [{ id, eyebrow, heading, image?, quote?, attribution? }]
+faq:            optional [{ q, a }] — renders an FAQ block and FAQPage JSON-LD
+```
+
+`sections` is the running order: the numbering a reader sees ("3. THE SHIFT")
+comes from this list, and bodies are matched to it by `id`. The body needs one
+`<!-- section:glance -->` block for the At-a-glance prose, then one block per
+declared section. Bullets are written `- **Lead-in:** text`.
+
+Figures live in the site repo under `public/case-study-media/`, referenced by
+absolute path — unlike blog images, they are design-system art rather than
+content.
 
 ## Frontmatter
 
