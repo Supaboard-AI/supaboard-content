@@ -20,13 +20,17 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/is-ai-bi-just-text-to-sql-the-honest-difference-with-examples/5d1485871ac61a22.webp
-  alt: Is AI BI Just Text-to-SQL? The Honest Difference (With Examples)
-  width: 1408
-  height: 768
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/is-ai-bi-just-text-to-sql/a21db9ae026561e4.png
+  alt: >-
+    "Is AI BI Just Text-to-SQL? The Honest Difference (With Examples)" —
+    Supaboard blog cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/8d891784956b9ddd.png
 sections:
+  - id: content-1
+    heading: Is AI BI Just Text-to-SQL? Let's Be Honest About It
   - id: content-2
     heading: 'The objection, stated fairly'
   - id: content-3
@@ -39,6 +43,10 @@ sections:
     heading: What "understanding the business" actually requires
   - id: content-7
     heading: 'Text-to-SQL vs AI-native BI: the contrasts that matter'
+  - id: content-9
+    heading: The honest middle ground
+  - id: content-10
+    heading: How to tell the difference in five minutes
   - id: content-8
     heading: FAQ
 featured:
@@ -132,7 +140,7 @@ statsCount: 0
 
 <!-- section:content-1 -->
 
-# Is AI BI Just Text-to-SQL? Let's Be Honest About It
+## Is AI BI Just Text-to-SQL? Let's Be Honest About It
 
 I hear this objection more than any other. Sometimes it's a buyer halfway through a demo. Sometimes it's a competitor on a comparison page. The shape is always the same: "This whole category is just text-to-SQL with a chat box on top. You ask a question, it writes some SQL, it runs it. Cute UI. Nothing new."
 
@@ -253,6 +261,8 @@ Not a giant matrix. Five distinct dimensions you can lift directly.
 
 **5\. What you maintain.** With text-to-SQL you maintain prompts and schema hints. With AI-native BI you maintain a semantic layer and business context that the system reuses on every question, so it gets more right over time instead of re-guessing each time.
 
+<!-- section:content-9 -->
+
 ## The honest middle ground
 
 Here is the concession the skeptic is right to demand, and the one that makes everything above credible.
@@ -264,6 +274,8 @@ So the difference is not whether text-to-SQL is present. It is present in all of
 Text-to-SQL is an engine. Whether you have a car depends on everything else. The objection "you're just text-to-SQL with a wrapper" is, in a literal sense, like saying a car is just an engine with a wrapper. The engine is real and essential. It is also not the thing you drive.
 
 This is the framing I'd want a buyer to leave with: don't ask whether a tool uses text-to-SQL. Assume it does. Ask what it has wrapped around it, and whether that wrapping understands your business.
+
+<!-- section:content-10 -->
 
 ## How to tell the difference in five minutes
 

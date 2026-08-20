@@ -19,12 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/how-to-evaluate-ai-bi-tools-the-12-questions-most-demos-can-t-survive/41bf881acd2fc52c.png
-  alt: 'How to Evaluate AI BI Tools: The 12 Questions Most Demos Can''t Survive'
-  width: 1672
-  height: 941
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/how-to-evaluate-ai-bi-tools/7dda8a47c337fa9a.png
+  alt: '"How to Evaluate AI BI Tools: 12 Questions for Demos" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/0855431a724be9ff.png
 sections:
   - id: content-1
     heading: 'Before You Buy an AI BI Tool, Ask These 12 Questions'
@@ -171,7 +171,7 @@ If you only take one thing from this post, take this list and paste it into your
 
 Now the detail. For each question I'll give you the exact wording to use, why it matters, what a good answer sounds like, and the red flag that tells you to keep your wallet closed.
 
-## 1\. How does it handle joins across multiple data sources?
+### 1\. How does it handle joins across multiple data sources?
 
 **Ask it like this:** "Our data lives in Salesforce, our product database, and a warehouse. Can you answer a question that spans all three, live, without me pre-joining anything first?"
 
@@ -181,7 +181,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** "It works best once your data is consolidated into one warehouse." Translation: it can't do the hard part, so it's asking you to do it first. If the tool needs your data pre-stitched to look smart, you're buying the easy 20 percent and keeping the other 80 percent for yourself.
 
-## 2\. Does it understand our business definitions, or does it guess?
+### 2\. Does it understand our business definitions, or does it guess?
 
 **Ask it like this:** "When I say 'active customer' or 'net revenue,' where does that definition live, and what stops two people from getting two different numbers?"
 
@@ -191,7 +191,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** it asks "which revenue field?" every single time, or worse, silently picks one and never tells you. If two analysts can ask the same question and get two different numbers, you didn't buy BI. You bought a random number generator with autocomplete.
 
-## 3\. When my question is vague, does it ask what I mean or just guess an answer?
+### 3\. When my question is vague, does it ask what I mean or just guess an answer?
 
 **Ask it like this:** Type something deliberately underspecified, like "how are we doing this quarter," and watch what happens next.
 
@@ -201,7 +201,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** it instantly returns a confident chart for a question that had four possible meanings. A tool that never asks you anything isn't confident. It's just fast at being wrong.
 
-## 4\. What does it do when it genuinely doesn't know?
+### 4\. What does it do when it genuinely doesn't know?
 
 **Ask it like this:** "Show me a metric you don't have data for. What happens?"
 
@@ -211,7 +211,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** it always returns something, because returning something always demos better than admitting a gap. If a tool will never tell you "I can't answer that," you can't trust the answers it does give.
 
-## 5\. Can I see and audit the exact query it ran?
+### 5\. Can I see and audit the exact query it ran?
 
 **Ask it like this:** "Show me the actual query behind this number. Can I read it, verify it, and save it for next time?"
 
@@ -221,7 +221,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** "you can just trust the answer," with no way to see how it got there. A black box that won't show its work is asking you to put your name on its guess.
 
-## 6\. Can it tell me why a metric changed, not just what changed?
+### 6\. Can it tell me why a metric changed, not just what changed?
 
 **Ask it like this:** "Revenue dropped 8 percent last month. Don't show me the chart. Tell me why."
 
@@ -231,7 +231,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** it can draw the decline beautifully but has nothing to say about the cause. If it only does "what," you didn't buy an analyst. You bought a faster way to make charts.
 
-## 7\. When it gets something wrong, can a non-technical person fix it, and does that fix stick for everyone?
+### 7\. When it gets something wrong, can a non-technical person fix it, and does that fix stick for everyone?
 
 **Ask it like this:** "It just gave a wrong answer. I'm in sales ops, not engineering. Walk me through how I correct it, and tell me whether my correction helps the next person or just me."
 
@@ -241,7 +241,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** "you can rephrase your question." That's not the tool learning. That's you doing the tool's job forever. If the only fix for a wrong answer is to ask it differently, every employee will keep tripping over the same wrong answer until the end of time.
 
-## 8\. What happens when our schema or data model changes?
+### 8\. What happens when our schema or data model changes?
 
 **Ask it like this:** "We rename a column and add a table next quarter. What breaks?"
 
@@ -251,7 +251,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** everything breaks and you file a ticket. If renaming a column takes down your reporting, you didn't buy AI. You bought brittle hardcoded queries with a chat box bolted on top.
 
-## 9\. Can my team keep the conversation going with follow-ups and drill-downs?
+### 9\. Can my team keep the conversation going with follow-ups and drill-downs?
 
 **Ask it like this:** Ask one question, then say "okay, now just the West region," then "and only last quarter." Does it hold the thread?
 
@@ -261,7 +261,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** every question is a blank slate and you have to restate the full context each time. If you keep retyping "for the West region in Q1" on every line, it's a search bar, not an analyst.
 
-## 10\. Can I embed it in my own product and ship it with the AI inside?
+### 10\. Can I embed it in my own product and ship it with the AI inside?
 
 **Ask it like this:** "I want my customers to see their own analytics inside my product, and I want them to be able to ask questions too. Show me what they'd actually experience."
 
@@ -271,7 +271,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** "embedding" turns out to be an iframe of a static dashboard with none of the AI, or it's view-only. An iframe of a frozen chart isn't embedded analytics. It's a screenshot with extra steps.
 
-## 11\. How does it handle data governance and access control?
+### 11\. How does it handle data governance and access control?
 
 **Ask it like this:** "If a user isn't allowed to see executive comp data in a dashboard, can the AI reveal it in a chat answer?"
 
@@ -281,7 +281,7 @@ Now the detail. For each question I'll give you the exact wording to use, why it
 
 **The red flag:** the AI queries everything regardless of who's asking. If the agent doesn't honor your access controls, every chat is a potential data breach delivered in a friendly tone.
 
-## 12\. What does pricing actually scale with?
+### 12\. What does pricing actually scale with?
 
 **Ask it like this:** "Walk me through exactly what makes my bill go up. Is it seats, data, or the number of questions we ask?"
 

@@ -19,12 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analyst-how-it-works-and-best-tools-2026/f831b7fe1a3603b6.png
-  alt: 'AI Data Analyst: How It Works and Best Tools (2026)'
-  width: 1376
-  height: 768
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analyst/243031e34cda548e.png
+  alt: '"AI Data Analyst: How It Works and Best Tools (2026)" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/e679f99eb6fb72eb.png
 sections:
   - id: content-1
     heading: What is an AI data analyst?
@@ -42,6 +42,8 @@ sections:
     heading: AI data analyst FAQ
   - id: content-12
     heading: 'What can you actually automate, and what stays manual?'
+  - id: content-13
+    heading: Try it on your own data
 featured:
   choice: null
   trending: 1
@@ -275,8 +277,6 @@ Lightweight, file-based tools start around $35 to $45 per month per user. Team p
 **Do I need to know SQL to use one?**  
 No. The whole point is asking in plain English and getting an answer back. That said, the tools that show you the generated SQL are the ones worth choosing, because seeing the query is how you (or anyone on your team who reads SQL) catches a wrong join before it becomes a wrong decision. You don't need to write it; you do want to be able to check it.
 
-<!-- section:content-8 -->
-
 <!-- section:content-12 -->
 
 ## What can you actually automate, and what stays manual?
@@ -300,6 +300,8 @@ Being specific about the boundary is more useful than another round of "AI augme
 - **Deciding what to do.** The gap between "this segment is likelier to churn" and "so we change the onboarding flow" is business judgement, and it carries the cost of being wrong.
 
 The practical read: automation compresses the time between having a question and having a candidate answer. It does not compress the time spent deciding which questions to ask or whether the answer holds. If a vendor's demo skips straight from data upload to recommendation without anyone naming what they were trying to find out, you are watching the easy part.
+
+<!-- section:content-13 -->
 
 ## Try it on your own data
 

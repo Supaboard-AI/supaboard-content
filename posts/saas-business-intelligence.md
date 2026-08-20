@@ -19,23 +19,29 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/saas-business-intelligence/9d3cb2dbc7a38027.png
-  alt: 'saas business intelligence tools, saas business intelligence tools sources'
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/saas-business-intelligence/2f4e4d751a2637bb.png
+  alt: >-
+    "15 SaaS Metrics That Actually Drive Growth (With Examples)" — Supaboard
+    blog cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/b3ed33b51f42575a.png
 sections:
   - id: content-1
     heading: Introduction
   - id: content-2
     heading: What Is SaaS Business Intelligence?
+  - id: content-9
+    heading: Why Traditional business intelligence (BI) Fails SaaS Teams
   - id: content-3
     heading: How SaaS Business Intelligence Works?
   - id: content-4
     heading: Common SaaS BI Use Cases
   - id: content-5
     heading: Embedded Analytics in SaaS Products
+  - id: content-10
+    heading: What Is Embedded BI?
   - id: content-6
     heading: Popular SaaS Business Intelligence Tools in 2026
   - id: content-7
@@ -157,6 +163,8 @@ Unlike traditional business intelligence systems, SaaS BI platforms are fully ma
 What makes **SaaS business intelligence tools** especially powerful is their alignment with modern SaaS needs. They are built to track key metrics like MRR, churn, product usage, and customer lifecycle data, helping teams make faster, data-driven decisions without engineering dependency.
 
 By eliminating hardware costs, reducing setup time, and offering flexible pricing, **cloud-based BI for SaaS companies** delivers a more agile and cost-effective alternative to legacy BI solutions.
+
+<!-- section:content-9 -->
 
 ## Why Traditional business intelligence (BI) Fails SaaS Teams
 
@@ -324,6 +332,8 @@ Give customers access to their own data inside your SaaS product to increase sti
 ## Embedded Analytics in SaaS Products
 
 ![Embedded Analytics in SaaS Products](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/saas-business-intelligence/4ba39f2641879cfe.png?w=768&h=512)
+
+<!-- section:content-10 -->
 
 ## What Is Embedded BI?
 

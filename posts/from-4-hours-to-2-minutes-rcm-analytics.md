@@ -19,13 +19,15 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics/0713eff0c6c6bdc4.png
-  alt: 'From 4 Hours to 2 Minutes: How an RCM Company Rebuilt Its Analytics'
-  width: 1744
-  height: 608
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/from-4-hours-to-2-minutes-rcm-analytics/d2fe7735409929f3.png
+  alt: '"From 4 Hours to 2 Minutes: An RCM Analytics Rebuild" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/57d386f30add6394.png
 sections:
+  - id: content-1
+    heading: The Four-Hour Question
   - id: content-2
     heading: At a glance
   - id: content-3
@@ -129,6 +131,8 @@ statsCount: 0
 ---
 
 <!-- section:content-1 -->
+
+## The Four-Hour Question
 
 The client review was twenty minutes in when the question landed: why did our denial rate jump last month?
 

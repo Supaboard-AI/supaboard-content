@@ -19,14 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/embedded-analytics-in-2025-how-it-works-benefits-ai-role-and-business-impact/1c189fabe2e5667b.png
-  alt: >-
-    Embedded Analytics in 2025 – How It Works, Benefits, AI Role, and Business
-    Impact
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/embedded-analytics/3386fc9577e07b14.png
+  alt: '"Embedded Analytics: How It Works and What It Costs" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/9aea583199789d88.png
 sections:
   - id: content-1
     heading: Introduction
@@ -34,6 +32,8 @@ sections:
     heading: What is Embedded Analytics?
   - id: content-3
     heading: How Does Embedded Analytics Work?
+  - id: content-13
+    heading: 'Build vs Buy: Choosing Your Embedded Analytics Solution'
   - id: content-4
     heading: Key Features to Look for in an Embedded Analytics Platform
   - id: content-5
@@ -42,6 +42,8 @@ sections:
     heading: Frequently Asked Questions (About Embedded Analytics)
   - id: content-12
     heading: 'White label vs embedded analytics: what is the difference?'
+  - id: content-14
+    heading: 'Conclusion: Why Embedded Analytics Is the Future of Software'
 featured:
   choice: null
   trending: null
@@ -179,6 +181,8 @@ Once prepared, the information is displayed through interactive dashboards insid
 
 There are several ways to embed analytics into a product. Some teams connect through analytics APIs, others use software development kits for prebuilt components, and some simply embed dashboards with iFrames. Each method has its pros and cons, but the goal is the same, provide a seamless experience that works across devices and environments.
 
+<!-- section:content-13 -->
+
 ## Build vs Buy: Choosing Your Embedded Analytics Solution
 
 ![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/embedded-analytics-in-2025-how-it-works-benefits-ai-role-and-business-impact/71c22bb6d0090507.png?w=768&h=512)
@@ -309,8 +313,6 @@ Most embedded analytics platforms support branding, white-labeling, layout custo
 
 Yes. Modern solutions use data encryption, role-based access controls, compliance standards, and cloud-native architectures. These features ensure secure data handling while supporting growing users, data volumes, and enterprise-level performance.
 
-<!-- section:content-7 -->
-
 <!-- section:content-12 -->
 
 ## White label vs embedded analytics: what is the difference?
@@ -334,6 +336,8 @@ What to check before assuming a tool does both:
 - **Does the pricing model survive customer-facing use?** Per-seat pricing means your bill scales with your customer count, which is the wrong shape for anything customer-facing.
 
 The short version: embed for convenience, white label for ownership. Decide which you are actually buying before comparing feature lists, because the tools that lead on one often trail on the other.
+
+<!-- section:content-14 -->
 
 ## Conclusion: Why Embedded Analytics Is the Future of Software
 

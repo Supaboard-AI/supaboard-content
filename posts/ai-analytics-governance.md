@@ -19,14 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-contextual-governance-framework/85d3c78e92b0b484.png
-  alt: >-
-    AI contextual governance concept with minimal design showing secure,
-    role-based, data-driven AI adoption
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-analytics-governance/95451e078d109ca0.png
+  alt: '"AI Contextual Governance for Analytics Teams" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/0ea5b294ce999fd9.png
 sections:
   - id: content-1
     heading: Introduction
@@ -44,6 +42,10 @@ sections:
     heading: Real-World AI Contextual Governance Examples
   - id: content-10
     heading: What happens when generative BI fabricates an insight?
+  - id: content-12
+    heading: Challenges in AI Contextual Governance Adoption
+  - id: content-13
+    heading: Future of AI Contextual Governance in Business
   - id: content-8
     heading: Conclusion
   - id: content-11
@@ -412,6 +414,8 @@ The governance answer is not to ban generative BI. It is to make every answer tr
 
 This is why explainability is a governance control rather than a feature. Attribution and a visible query path are what let a human overrule the machine, and a human who cannot see the reasoning has no basis on which to overrule anything.
 
+<!-- section:content-12 -->
+
 ## Challenges in AI Contextual Governance Adoption
 
 AI contextual governance introduces complexity in defining and managing multiple context layers. Organizations must ensure consistency in how user roles, data sensitivity, and intent are interpreted across systems.
@@ -419,6 +423,8 @@ AI contextual governance introduces complexity in defining and managing multiple
 Balancing flexibility and control is another challenge. Excessive restrictions can limit AI usability, while insufficient governance increases risk exposure. Achieving the right balance requires continuous monitoring and adjustment.
 
 Data privacy and compliance remain critical concerns. Context-aware systems rely on sensitive data, which must be handled securely and in alignment with regulations.
+
+<!-- section:content-13 -->
 
 ## Future of AI Contextual Governance in Business
 

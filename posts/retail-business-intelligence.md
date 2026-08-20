@@ -19,14 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/all-about-retail-business-intelligence/df06f0e4b47105a7.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/retail-business-intelligence/25e58bd1fefca9b7.png
   alt: >-
-    retail business intelligence dashboard analyzing sales, inventory and
-    customer data for modern retail analytics
-  width: 1686
-  height: 955
+    "Retail Business Intelligence: KPIs, Tools and Pitfalls" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/c04480458266678a.png
 sections:
   - id: content-1
     heading: Key Takeaways
@@ -34,18 +34,32 @@ sections:
     heading: What is Retail Business Intelligence?
   - id: content-3
     heading: 'Retail BI Dashboards: What They Should Actually Show'
+  - id: content-13
+    heading: Key Retail KPIs to Track in Your BI System
   - id: content-4
     heading: 'Retail BI Use Cases: Problem, Insight, Impact'
   - id: content-5
     heading: 'Traditional BI vs. Modern Retail BI: What''s the Difference?'
+  - id: content-14
+    heading: 'The Offline Retail Analytics Gap: An Honest Assessment'
   - id: content-6
     heading: 'How to Implement Retail BI: A Practical Roadmap'
   - id: content-7
     heading: Common Mistakes in Retail BI Implementation
+  - id: content-15
+    heading: How to Choose the Right Retail BI Tool
+  - id: content-16
+    heading: Retail BI Tools Compared
+  - id: content-17
+    heading: Benefits of Retail Business Intelligence
   - id: content-8
     heading: 'The Future of Retail BI: What''s Coming in 2026–2028'
+  - id: content-18
+    heading: Conclusion
   - id: content-12
     heading: Which retail KPIs should every store actually track?
+  - id: content-19
+    heading: Frequently Asked Questions
 featured:
   choice: null
   trending: null
@@ -268,6 +282,8 @@ Here is what effective retail BI dashboards look like by function:
 
 > **A rule of thumb:** the most effective dashboards show five to seven metrics per view. When a dashboard shows everything, it answers nothing. The best signal that a dashboard is working is that it triggers a specific action, not just a review meeting.
 
+<!-- section:content-13 -->
+
 ## Key Retail KPIs to Track in Your BI System
 
 A retail BI system without clearly [defined KPIs](/blog/what-is-a-kpi) is a data warehouse, not a decision engine. These are the metrics that should be actively tracked, not just available.
@@ -417,6 +433,8 @@ This distinction matters because many mid-market chains have some form of report
 
 McKinsey's research highlights that [agentic AI in retail merchandising](https://www.mckinsey.com/industries/retail/our-insights/merchants-unleashed-how-agentic-ai-transforms-retail-merchandising) can free up to 40% of merchants' time currently spent on manual analysis, shifting that capacity toward strategic decisions. That shift, from analyst-dependent reporting to operator-accessible intelligence, is what separates modern retail BI from legacy tools.
 
+<!-- section:content-14 -->
+
 ## The Offline Retail Analytics Gap: An Honest Assessment
 
 Here is something worth naming directly, because it comes up in almost every product demo we run with physical-first retailers.
@@ -487,6 +505,8 @@ Both competitors and most BI guides skip this section. That is exactly why it is
 
 **Mistake 6: Neglecting offline store data** Many BI implementations prioritize e-commerce data because it is cleaner and more accessible. Physical store data, which represents the majority of revenue for most mid-market chains, gets deprioritized or excluded. This creates a distorted view of business performance that leads to systematically wrong decisions about inventory allocation and store investment.
 
+<!-- section:content-15 -->
+
 ## How to Choose the Right Retail BI Tool
 
 | Criteria | What to Look For | Red Flags |
@@ -501,6 +521,8 @@ Both competitors and most BI guides skip this section. That is exactly why it is
 
 > **Where Supaboard fits:** Supaboard is built specifically for mid-market retail chains, pre-built integrations with the most common retail stacks, dashboards designed for operators rather than analysts, and a setup timeline measured in weeks rather than months. If you're evaluating options, [see how it compares for your specific stack →](/blog/best-ai-bi-tools)
 
+<!-- section:content-16 -->
+
 ## Retail BI Tools Compared
 
 | Platform | Best For | Strengths | Limitations |
@@ -510,6 +532,8 @@ Both competitors and most BI guides skip this section. That is exactly why it is
 | Microsoft Power BI | Microsoft-stack organizations | Strong integration with D365, Excel | Complex for non-technical users |
 | Domo | Enterprise operations | Broad data connectors, strong mobile | Expensive, enterprise-focused |
 | Looker | Data-mature organizations | Powerful querying, developer-friendly | Requires technical resources |
+
+<!-- section:content-17 -->
 
 ## Benefits of Retail Business Intelligence
 
@@ -548,6 +572,8 @@ AI/ML advances for real-time prescriptive insights are projected to add 1.0% to 
 
 These capabilities are not five years away. They are available now in mid-market platforms. The question is not whether to adopt them — it is which organizations will build the data infrastructure that makes them possible before their competitors do.
 
+<!-- section:content-18 -->
+
 ## Conclusion
 
 The retailers that outperform in the next three to five years will not necessarily have better products, better locations, or larger marketing budgets than their competitors. They will have better information, and they will act on it faster.
@@ -577,6 +603,8 @@ Four layers, in this order. Tracking layer three before layer one is how retaile
 The layers work as a diagnostic sequence rather than a dashboard. A revenue decline in layer one has a different cause depending on what layers two to four say: healthy stock and falling repeat purchase means a customer problem; stockouts on your fastest movers means an execution problem; steady units with collapsing margin means a promotion problem. Same symptom, three different responses, and only the layered view separates them.
 
 Track them per store as well as in aggregate. Chain-level averages hide the variance that matters, and the most common finding from store-level benchmarking is that a handful of locations underperform matched peers for reasons of inventory allocation rather than location or footfall — which is fixable, and invisible until the comparison exists.
+
+<!-- section:content-19 -->
 
 ## Frequently Asked Questions
 

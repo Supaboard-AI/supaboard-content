@@ -19,15 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/types-of-analytics/bc786c4ec303c8d1.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/types-of-analytics/542b70f8593f674d.png
   alt: >-
-    Sleek dark-themed illustration showing data analytics dashboards, abstract
-    charts, and decision-making visuals representing the types of analytics
-    framework.
-  width: 1536
-  height: 1024
+    "The Four Types of Analytics, and Which to Build First" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/fec672d555ed816f.png
 sections:
   - id: content-1
     heading: 'Introduction: Why Analytics Fails More Often Than It Succeeds'
@@ -43,8 +42,12 @@ sections:
     heading: 'Prescriptive Analytics: Telling You What to Do'
   - id: content-11
     heading: 'Descriptive or predictive: which should you build first?'
+  - id: content-13
+    heading: Common Mistakes When Using Analytics
   - id: content-8
     heading: What is the Analytics as a Service (AaaS) business model?
+  - id: content-14
+    heading: Conclusion
   - id: content-12
     heading: Frequently asked questions
 featured:
@@ -309,8 +312,6 @@ These systems can evaluate thousands of options in seconds.
 
 **Best Practices:** Start small, test recommendations, keep humans in the loop, and monitor ethical impact.
 
-<!-- section:content-7 -->
-
 <!-- section:content-11 -->
 
 ## Descriptive or predictive: which should you build first?
@@ -332,6 +333,8 @@ The sequence that works:
 The common failure is a company buying a forecasting capability while three teams still disagree about what a customer is. The forecast will be precise, delivered on schedule, and built on a definition nobody validated — which is worse than no forecast, because it carries authority the underlying data has not earned.
 
 If you can only do one thing this quarter, make the descriptive layer unambiguous. Prediction is cheap to add later and expensive to retrofit onto contested definitions.
+
+<!-- section:content-13 -->
 
 ## Common Mistakes When Using Analytics
 
@@ -373,6 +376,8 @@ Try [Supaboard and start making data-driven decisions](https://www.supaboard.ai/
 ### What is the Analytics as a Service (AaaS) business model?
 
 The **Analytics as a Service (AaaS)** business model is a cloud-based solution where businesses access data analytics tools, infrastructure, and expertise through a subscription. It eliminates the need for in-house systems, enabling companies to generate insights, run analytics, and scale operations cost-effectively using third-party platforms.
+
+<!-- section:content-14 -->
 
 ## Conclusion
 

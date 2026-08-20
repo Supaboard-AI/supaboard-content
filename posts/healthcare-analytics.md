@@ -19,14 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-predictive-analytics-in-healthcare-how-data-is-transforming-patient-care/9c44c646422dd439.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/healthcare-analytics/c6c31b76a87aec63.png
   alt: >-
-    AI predictive analytics in healthcare using data to improve patient care and
-    outcomes
-  width: 1536
-  height: 1024
+    "AI Predictive Analytics in Healthcare: A Practical Guide" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/c1d8c1da2158a0cc.png
 sections:
   - id: content-1
     heading: What Is AI Predictive Analytics in Healthcare?
@@ -34,6 +34,8 @@ sections:
     heading: How Predictive Analytics Works in Modern Healthcare Systems
   - id: content-3
     heading: Key Benefits of Predictive Analytics in Healthcare
+  - id: content-8
+    heading: Real-World Case Studies and Success Stories
   - id: content-4
     heading: Major Challenges and Limitations
   - id: content-5
@@ -174,6 +176,8 @@ Recent [industry reports show](https://data.folio3.com/blog/predictive-analytics
 **4\. Personalized and Precision Medicine** By combining clinical data with genetic profiles, predictive tools help design treatment plans tailored to individual patients, improving efficacy while minimizing side effects.
 
 **5\. Significant Cost Savings and Better Patient Experience** Preventing complications and shortening hospital stays leads to lower healthcare costs and higher patient satisfaction scores.
+
+<!-- section:content-8 -->
 
 ## Real-World Case Studies and Success Stories
 

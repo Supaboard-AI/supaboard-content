@@ -20,12 +20,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-a-semantic-layer-the-2026-field-guide/7e224f634ac65b41.png
-  alt: What Is a Semantic Layer? The 2026 Field Guide
-  width: 1376
-  height: 768
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-a-semantic-layer/2794f7efb384c2a9.png
+  alt: '"What Is a Semantic Layer? The 2026 Field Guide" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/2701f17191106716.png
 sections:
   - id: content-1
     heading: What a semantic layer actually is
@@ -43,6 +43,10 @@ sections:
     heading: The "semantic layer in name only" problem
   - id: content-7
     heading: How to evaluate a semantic layer for your stack
+  - id: content-10
+    heading: Where the category goes in 2027
+  - id: content-11
+    heading: 'Where Supaboard sits, honestly'
   - id: content-8
     heading: FAQ
 featured:
@@ -402,6 +406,8 @@ If you are choosing one this year, here is the framework I would actually use, w
 
 **7\. What is the total cost and time to first answer?** An enterprise OLAP layer at six figures with a multi-month modeling phase is the right answer for some organizations and absurd overkill for others. Be honest about which you are before you fall in love with a demo.
 
+<!-- section:content-10 -->
+
 ## Where the category goes in 2027
 
 Predictions are cheap, so each of these comes with a reason and a name you can check it against.
@@ -413,6 +419,8 @@ Predictions are cheap, so each of these comes with a reason and a name you can c
 **Prediction three: better text-to-SQL does not kill the semantic layer, it relocates the value to governance.** As models get better at writing SQL, the differentiator stops being "can it generate a query" and becomes "can it prove the number is right," which is exactly what a semantic layer provides and a raw model does not. dbt's own 2026 benchmark is the tell: even as it documents how much better models have gotten at SQL, its recommendation still routes accuracy-critical enterprise work through the semantic layer.
 
 **Prediction four: consolidation accelerates, and the semantic layer gets absorbed into AI-data-infrastructure platforms.** The Fivetran and dbt Labs merger is the leading indicator, bundling movement, transformation, and semantics into one stack pitched at agents, while warehouse-native layers from Snowflake and Databricks pull semantics closer to the data. Standalone layers will not disappear, but more of them will be features of larger platforms by 2027.
+
+<!-- section:content-11 -->
 
 ## Where Supaboard sits, honestly
 

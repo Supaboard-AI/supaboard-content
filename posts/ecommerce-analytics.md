@@ -19,15 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/the-modern-ecommerce-dashboard-insights-you-can-act-on/c9a63e0e8687015d.png
-  alt: >-
-    Best ecommerce dashboard illustration showing online store analytics, sales
-    charts, KPIs, and shopping cart data in a minimal abstract light color
-    design
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ecommerce-analytics/b487a1009e886f7b.png
+  alt: '"Ecommerce Analytics: Metrics That Change Decisions" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/4454ebe838db4744.png
 sections:
   - id: content-1
     heading: Introduction
@@ -37,16 +34,24 @@ sections:
     heading: Why Ecommerce Dashboards Matter for Store Growth
   - id: content-4
     heading: How Ecommerce Dashboards Work
+  - id: content-12
+    heading: What Should an Ecommerce Dashboard Contain?
   - id: content-5
     heading: Real Examples of Ecommerce Dashboards in Action
   - id: content-6
     heading: What Are the Advantages of Using an Ecommerce Dashboard?
+  - id: content-13
+    heading: What Are the Limitations of Ecommerce Dashboards?
+  - id: content-14
+    heading: What Challenges Do Businesses Face When Building Ecommerce Dashboards?
   - id: content-7
     heading: Best Practices for Building KPI Dashboards in Ecommerce
   - id: content-8
     heading: FAQs
   - id: content-11
     heading: How do you use analytics to reduce cart abandonment?
+  - id: content-15
+    heading: Conclusion
 featured:
   choice: null
   trending: null
@@ -193,6 +198,8 @@ Meanwhile, dashboards convert raw data into charts and insights, making trends e
 
 However, the true value lies in actionable insights that guide pricing, promotions, and operational strategies.
 
+<!-- section:content-12 -->
+
 ## What Should an Ecommerce Dashboard Contain?
 
 An effective **ecommerce metrics dashboard** balances strategic and operational insights.
@@ -246,6 +253,8 @@ Tracking logistics through an **admin dashboard for ecommerce website** reduces 
 **Team Alignment**  
 Although departments operate differently, shared dashboards align teams around common KPIs and objectives. This improves accountability, strengthens collaboration, and ensures consistent decision-making across marketing, operations, finance, and executive leadership functions.
 
+<!-- section:content-13 -->
+
 ## What Are the Limitations of Ecommerce Dashboards?
 
 Although powerful, ecommerce dashboards have limitations businesses must recognize before implementation, particularly when expectations exceed available data infrastructure, technical expertise, or organizational readiness for consistent data-driven decision-making practices.
@@ -266,6 +275,8 @@ Advanced dashboards offering predictive analytics, automation, and customization
 
 **Training Requirements**  
 Although dashboards simplify reporting workflows, teams still require onboarding and ongoing training to interpret **ecommerce dashboard metrics for store health** accurately and use insights effectively across decision-making processes.
+
+<!-- section:content-14 -->
 
 ## What Challenges Do Businesses Face When Building Ecommerce Dashboards?
 
@@ -345,6 +356,8 @@ Cart abandonment is usually treated as one problem with one cause. It is several
 **Then personalise, in that order.** Recovery emails and targeted offers work, but they are a way to recapture demand you are losing for a reason you have already identified. Deployed before diagnosis, they discount customers who would have converted anyway.
 
 The reason to join these sources rather than read them separately is that the answer usually lives in the join. [Gabriella.pl](/case-study/gabriella.pl) found the channel with its highest cost-per-lead also had its strongest close rate — a conclusion that was invisible in any single platform's own reporting, and that reverses the obvious budget decision.
+
+<!-- section:content-15 -->
 
 ## Conclusion
 

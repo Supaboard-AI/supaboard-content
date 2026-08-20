@@ -19,14 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/database-optimization/039417e5586ec9cf.png
-  alt: >-
-    Database optimization concept illustration showing performance improvement,
-    query optimization, indexing, and scalable data systems
-  width: 1739
-  height: 1008
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/database-optimization/23865327def466d4.png
+  alt: '"Database Optimization: Performance and Scaling" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/a5f9d344e9705a4d.png
 sections:
   - id: content-1
     heading: What is Database Optimization?
@@ -154,13 +152,13 @@ Most teams treat optimization like a checklist add indexes, scale servers, tweak
 1.  ### Database Design (Where Performance Is Decided Early)
     
 
-## Why it matters:
+### Why it matters:
 
 Every system depends on how data is structured at this layer. A poorly designed schema can lead to excessive joins, redundant data access, and inefficient queries. As data grows, these inefficiencies increase CPU, memory, and I/O usage, making performance issues harder to fix later.
 
 When the schema doesn’t reflect how data is actually accessed, even well-written queries and optimized indexes struggle to deliver consistent performance under load.
 
-## What to focus on:
+### What to focus on:
 
 ![Comparison of inefficient SELECT \* SQL query versus optimized query fetching specific columns with a WHERE clause .](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/database-optimization/44fb22413e8b8863.png?w=363&h=171)
 
@@ -180,13 +178,13 @@ Avoid deeply nested relationships that require multiple joins for common queries
 
 Consider how the dataset will grow over time. Use strategies like partitioning or logical data grouping to ensure the schema remains efficient as data volume increases.
 
-## Common mistake:
+### Common mistake:
 
 Teams often design schemas based on correctness or best practices without considering actual usage patterns.
 
 This leads to excessive joins, complex queries, and repeated data access. When performance issues arise, teams try to fix them with indexes or infrastructure upgrades, but the core problem, a mismatched schema, remains.
 
-## Real-world insight
+### Real-world insight
 
 In many production systems, schema design becomes the hidden cause of performance bottlenecks.
 
@@ -295,13 +293,13 @@ That’s why infrastructure should be your **last optimization step, not the fir
 
 ### Concurrency & Connection Layer (Controlling Load and Stability)
 
-## Why it matters:
+### Why it matters:
 
 Database performance doesn’t degrade gradually under load, it fails suddenly. As traffic increases, queries overlap, compete for locks, and exhaust connections.
 
 In production systems, this often appears as sudden latency spikes or request queueing, even when CPU isn’t fully utilized. This isn’t usually a query problem, it’s a concurrency problem.
 
-## What to focus on:
+### What to focus on:
 
 **Managing concurrent queries:** Limit how many queries run at once. Too many parallel operations increase contention and unstable latency. Control throughput instead of maximizing execution.
 
@@ -309,11 +307,11 @@ In production systems, this often appears as sudden latency spikes or request qu
 
 **Reducing lock contention:** Queries can block each other when accessing the same data. Keep transactions short and avoid write hotspots to reduce waiting time.
 
-## Common mistake (real-world):
+### Common mistake (real-world):
 
 Teams scale infrastructure without controlling concurrency, leading to higher costs but recurring instability.
 
-## Real-world insight:
+### Real-world insight:
 
 Across many production systems, the biggest performance issues aren’t caused by slow queries, they’re caused by too many queries running at the same time.
 

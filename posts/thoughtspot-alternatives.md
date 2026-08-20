@@ -19,12 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/thoughtspot-alternative/3b12b669ac70fbb7.png
-  alt: 'Top ThoughtSpot Alternative in 2026: Best Tools Compared'
-  width: 1057
-  height: 676
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/thoughtspot-alternatives/204a2aaf10b793bc.png
+  alt: >-
+    "Top ThoughtSpot Alternative in 2026: Best Tools Compared" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/d7abafdab144c8ed.png
 sections:
   - id: content-1
     heading: Introduction

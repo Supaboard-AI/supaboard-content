@@ -19,13 +19,17 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/spend-analytics/3cc500fce34aa1cc.png
-  alt: 'Spend Analytics: Meaning, Use Cases, Benefits & Tools'
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/spend-analytics/bb898dd8511bff77.png
+  alt: >-
+    "Spend Analytics: Tools, Use Cases and Best Practices" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/732d57623e19fa74.png
 sections:
+  - id: content-1
+    heading: Introduction
   - id: content-2
     heading: What is spend analytics? (definition + how it differs from spend analysis)
   - id: content-3
@@ -40,10 +44,20 @@ sections:
     heading: >-
       Top spend analytics tools and software in 2026 (comparison table, targets
       tools/software queries)
+  - id: content-13
+    heading: What to Evaluate When Choosing Spend Analytics Software
+  - id: content-14
+    heading: What a Spend Analytics Dashboard Actually Shows
+  - id: content-15
+    heading: Spend Analytics Outsourcing vs. Building In-House
+  - id: content-16
+    heading: Common Challenges (and How to Solve Them)
   - id: content-8
     heading: Frequently Asked Questions
   - id: content-12
     heading: Which spend analytics use cases pay back first?
+  - id: content-17
+    heading: The Bottom Line
 featured:
   choice: null
   trending: null
@@ -144,6 +158,8 @@ statsCount: 1
 ---
 
 <!-- section:content-1 -->
+
+## Introduction
 
 Your finance team has one number. Another acquisition. The CEO is eyeing a third of that. By the time someone has reconciled all three, the quarter is over and every decision in between was made on incomplete data.  
 This is not a data problem. That's a visibility problem. And how do you fix it? Spend analytics.
@@ -386,6 +402,8 @@ A dedicated spend analytics platform focused on classification, savings tracking
 
 **Best for:** Organizations with mature procurement functions.
 
+<!-- section:content-13 -->
+
 ## What to Evaluate When Choosing Spend Analytics Software
 
 | **Criteria** | **What to Ask** |
@@ -395,6 +413,8 @@ A dedicated spend analytics platform focused on classification, savings tracking
 | Time to value | How quickly can you get usable insights? |
 | User accessibility | Can non-technical users access and explore data? |
 | Savings tracking | Does it support structured savings measurement? |
+
+<!-- section:content-14 -->
 
 ## What a Spend Analytics Dashboard Actually Shows
 
@@ -409,6 +429,8 @@ A spend analytics dashboard isn't one screen. It's a set of layered views, each 
 **Procurement operations view:** PO compliance rate, invoice matching exceptions, tail spend transaction volume, approval bottlenecks.
 
 The critical feature: drill-down from any summary metric to the underlying transactions. When the CFO asks "why is facilities spend 12% over budget?", the category manager can show exactly which transactions, from which suppliers, drove the variance, in under two minutes.
+
+<!-- section:content-15 -->
 
 ## Spend Analytics Outsourcing vs. Building In-House
 
@@ -443,6 +465,8 @@ One of the most common decisions: do you build internally or partner with extern
 Modern AI-powered spend analytics platforms have largely eliminated this trade-off.
 
 Tools like Supaboard connect directly to your data sources, automate classification and analysis, and give business users direct access, without requiring a data engineering team to build and maintain everything. You get the real-time, self-serve benefits of building in-house without the infrastructure investment.
+
+<!-- section:content-16 -->
 
 ## Common Challenges (and How to Solve Them)
 
@@ -509,6 +533,8 @@ The eight use cases above are not equally fast. Sequencing them by time-to-value
 The prerequisite for all of it is unglamorous: supplier normalisation. The same vendor appears as four entities across three systems, and no analysis is trustworthy until that is resolved. Teams that skip it produce confident consolidation recommendations that fall apart in the first supplier meeting.
 
 One planning note on timelines. Traditional enterprise platforms typically take months to implement because the integration and configuration burden is real, while modern platforms connecting directly to existing data sources are quicker to first insight. Either way, the constraint is rarely the software — it is how long it takes to agree what a supplier is.
+
+<!-- section:content-17 -->
 
 ## The Bottom Line
 

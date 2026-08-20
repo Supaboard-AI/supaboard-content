@@ -19,12 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/enterprise-business-intelligence/ebfede82cfd631f0.png
-  alt: 'What Is Enterprise Business Intelligence? Benefits, Use Cases & Tools (2026)'
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/enterprise-business-intelligence/a9e4f8dd1117d98f.png
+  alt: >-
+    "Enterprise Business Intelligence: Use Cases and Tools" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/f8165e60fea4200a.png
 sections:
   - id: content-1
     heading: Introduction
@@ -34,6 +36,8 @@ sections:
     heading: How AI Is Changing Enterprise BI (Business Intelligence) in 2026
   - id: content-4
     heading: Key Benefits of AI-Powered Enterprise BI
+  - id: content-8
+    heading: How an AI Enterprise BI Platform Works
   - id: content-5
     heading: Common Mistakes Teams Make
   - id: content-6
@@ -266,6 +270,8 @@ AI works best alongside governed models and role-based access controls, enabling
 ### More Value From Existing Data
 
 Most enterprises already have ERP systems, CRMs, and cloud warehouses. AI helps them extract more value without replacing existing infrastructure.
+
+<!-- section:content-8 -->
 
 ## How an AI Enterprise BI Platform Works
 

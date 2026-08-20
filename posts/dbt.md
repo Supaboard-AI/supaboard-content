@@ -19,12 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/dbt-guide/c17bdacc5a9e9c50.png
-  alt: 'dbt data transformation workflow with models, testing, and documentation'
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/dbt/7fd933555dc3e20f.png
+  alt: >-
+    "DBT Explained: What It Is, How It Works, and Why Teams Use It" — Supaboard
+    blog cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/7ff686fb2eb36f6e.png
 sections:
   - id: content-1
     heading: Introduction
@@ -40,8 +42,14 @@ sections:
     heading: 'Real-World DBT Usage: What It Looks Like in Practice'
   - id: content-7
     heading: What DBT Does Not Solve (And Why That’s Okay)
+  - id: content-10
+    heading: How Can I Get Started with DBT?
+  - id: content-11
+    heading: Training to Learn How to Use DBT
   - id: content-8
     heading: 'When DBT Feels Like Too Much: Why Some Teams Turn to AI BI Tools'
+  - id: content-12
+    heading: Final Thoughts
   - id: content-9
     heading: Frequently asked questions
 featured:
@@ -289,6 +297,8 @@ Most teams eventually pair DBT with tools that sit _above_ it — tools that hel
 
 Trying to make DBT do everything usually leads to frustration.
 
+<!-- section:content-10 -->
+
 ## How Can I Get Started with DBT?
 
 Most teams start small.
@@ -298,6 +308,8 @@ A single warehouse. A handful of models. One or two people owning the project. T
 The key is not perfection. It’s consistency. Write models clearly. Add tests where failures would hurt. Document things that would confuse the next person — because that next person might be you, six months later, under deadline pressure.
 
 DBT rewards teams that think long-term, even when moving fast.
+
+<!-- section:content-11 -->
 
 ## Training to Learn How to Use DBT
 
@@ -353,6 +365,8 @@ Many organizations now use a **hybrid approach**:
 This shift isn’t about choosing “technical vs non-technical” tools. It’s about matching the tool to the team, the timeline, and the business reality.
 
 As analytics continues to evolve, flexibility matters just as much as correctness.
+
+<!-- section:content-12 -->
 
 ## Final Thoughts
 

@@ -19,23 +19,31 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/positive-vs-negative-correlation/a4905f0a74118c10.png
-  alt: Positive vs Negative Correlation Explained with Real-Life Examples
-  width: 1672
-  height: 941
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/positive-vs-negative-correlation/f7c2b77c3263a22a.png
+  alt: '"Positive vs Negative Correlation, With Examples" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/46fee7d4c8a42f56.png
 sections:
+  - id: content-1
+    heading: Introduction
   - id: content-2
     heading: What Is Correlation?
   - id: content-3
     heading: Understanding the Correlation Coefficient
   - id: content-4
     heading: 'Positive Correlation: When Variables Move in the Same Direction'
+  - id: content-10
+    heading: >-
+      Negative Correlation (Inverse Correlation): When Variables Move in
+      Opposite Directions
   - id: content-5
     heading: 'Positive vs Negative Correlation: Side-by-Side Comparison'
   - id: content-6
     heading: How to Visualize Correlation Effectively
+  - id: content-11
+    heading: Common Confusions and Mistakes to Avoid
   - id: content-7
     heading: How to Calculate Correlation in Practice
   - id: content-8
@@ -131,6 +139,8 @@ statsCount: 0
 
 <!-- section:content-1 -->
 
+## Introduction
+
 The world of statistics and investment strategies is a complex one, which requires a clear understanding of correlation dynamics. Fundamentally correlation is a measure of a relationship between two variables in a given environment. This concept is quite applicable in many areas, especially in statistics and finance. People often need to predict what is going to happen next, to decide how to invest money, and to learn about the behaviour of markets. There are [2 types of correlation](https://www.coursera.org/articles/types-of-correlations): positive and inverse (or negative) correlations . Each kind of correlation is a different type of relationship between variables.
 
 <!-- section:content-2 -->
@@ -194,6 +204,8 @@ Here are four strong real-world examples:
 
 On a scatter plot, positive correlations appear as an upward-sloping pattern, with dots rising from left to right.
 
+<!-- section:content-10 -->
+
 ## Negative Correlation (Inverse Correlation): When Variables Move in Opposite Directions
 
 A negative correlation, also known as inverse correlation or an inverse relationship, occurs when two variables move in opposite directions. As one increases, the other tends to decrease.
@@ -235,6 +247,8 @@ Look at the overall pattern of the dots:
     
 
 A tight grouping of dots around a straight line indicates a stronger relationship. Loose, scattered dots suggest a weaker one. Sometimes the pattern may be curved, showing that a simple linear correlation does not fully capture the relationship.
+
+<!-- section:content-11 -->
 
 ## Common Confusions and Mistakes to Avoid
 

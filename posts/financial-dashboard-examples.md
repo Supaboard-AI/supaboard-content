@@ -20,14 +20,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/financial-dashboard-examples/fd2d90484c5d5d91.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/financial-dashboard-examples/f18dfa956b150b8d.png
   alt: >-
-    Financial dashboard example displaying CFO, cash flow, and reporting KPIs
-    for business teams
-  width: 1536
-  height: 1024
+    "Financial Dashboard Examples You Should Use in 2026 (With KPIs)" —
+    Supaboard blog cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/9ce2eed4efa91299.png
 sections:
   - id: content-1
     heading: Introduction
@@ -41,6 +41,8 @@ sections:
     heading: Frequently Asked Questions (FAQs)
   - id: content-12
     heading: 'Template or custom: which financial dashboard should you build?'
+  - id: content-13
+    heading: Conclusion
 featured:
   choice: null
   trending: null
@@ -445,8 +447,6 @@ A financial dashboard is a centralized analytics tool that consolidates financia
 
 Try [Supaboard](https://auth.supaboard.ai/onboard/register) and get real-time financial dashboards with instant insights. Connect your data and see what actually drives your numbers. **Start your free 14-day trial.**
 
-<!-- section:content-6 -->
-
 <!-- section:content-12 -->
 
 ## Template or custom: which financial dashboard should you build?
@@ -462,6 +462,8 @@ This is the decision most finance teams get backwards, building a bespoke dashbo
 The sequence that works in practice: run the template for a quarter, note every time someone exports to a spreadsheet to answer a question, and build custom views for exactly those. Spreadsheet exports are the highest-signal indicator you have — they mark precisely where the dashboard failed, and they cost nothing to observe.
 
 Two things to fix regardless of which route you take. **Agree the definitions before building anything** — if finance and operations compute gross margin differently, a dashboard will not resolve that, it will just publish the disagreement faster. And **match refresh to the decision**, not to what is technically possible: a monthly close view refreshed hourly creates noise, while a cash position refreshed weekly is not a cash position.
+
+<!-- section:content-13 -->
 
 ## Conclusion
 

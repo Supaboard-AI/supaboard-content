@@ -19,16 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/manufacturing-analytics/15795c291723fe80.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/manufacturing-analytics/fe94fc5d100327e2.png
   alt: >-
-    Manufacturing analytics concept in 2026. Modern factory with digital data
-    visualization, real-time insights, predictive analytics, and smart
-    manufacturing technology transforming industrial operations for better
-    efficiency and competitiveness.
-  width: 1672
-  height: 941
+    "Manufacturing Analytics: Why It Matters More Than Ever in 2026" — Supaboard
+    blog cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/75ad35e54f0bde7d.png
 sections:
   - id: content-1
     heading: Introduction

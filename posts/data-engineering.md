@@ -19,29 +19,37 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/future-of-data-engineering/acb69b49fd6048a8.png
-  alt: 'Data Engineering in 2027: What Skills Will Still Matter?'
-  width: 1366
-  height: 768
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/data-engineering/24571f392e2ce850.png
+  alt: >-
+    "Data Engineering in 2027: What Skills Will Still Matter?" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/ecc7bcf9aa302aa7.png
 sections:
   - id: content-1
     heading: Introduction
   - id: content-2
-    heading: 1\. The 2027 Data Engineering Landscape
+    heading: 1. The 2027 Data Engineering Landscape
   - id: content-3
-    heading: 2\. Core Skills That Still Matter
+    heading: 2. Core Skills That Still Matter
   - id: content-4
-    heading: 3\. The Emerging Skills to Watch
+    heading: 3. The Emerging Skills to Watch
   - id: content-5
-    heading: '4\. The Human Edge: Problem Solving and Business Context'
+    heading: '4. The Human Edge: Problem Solving and Business Context'
+  - id: content-12
+    heading: 'The Real Shift: Jobs Are Not Disappearing — They’re Being Rewritten'
   - id: content-6
     heading: How the Data Engineer Role Is Changing (2020 → 2027)
+  - id: content-13
+    heading: The Real Truth About Data Engineering in 2026
   - id: content-7
     heading: FAQs (Future of Data Engineering in 2027)
   - id: content-11
     heading: Will AI replace data engineers?
+  - id: content-14
+    heading: Final Thoughts
 featured:
   choice: null
   trending: null
@@ -308,6 +316,8 @@ As tools automate more of the technical work, what truly sets great data enginee
 
 **Key takeaway:** The most future-proof skill isn’t a tool or technology — it’s the ability to think in context and solve real business problems.
 
+<!-- section:content-12 -->
+
 ## The Real Shift: Jobs Are Not Disappearing — They’re Being Rewritten
 
 Here’s the uncomfortable truth most blogs don’t talk about:
@@ -353,6 +363,8 @@ but the ones doing the **right kind of work**.
 | **Decision Making** | Follow requirements | Make trade-offs (cost, speed, scale) | Practice architecture thinking |
 | **Data Quality** | Fix after issues | Built-in validation, observability | Focus on data reliability systems |
 | **Career Growth** | Tool expertise = senior | System + business impact = senior | Think like a data product owner |
+
+<!-- section:content-13 -->
 
 ## The Real Truth About Data Engineering in 2026
 
@@ -443,8 +455,6 @@ A future-proof data engineer focuses on fundamentals like system design, underst
 
 Today’s data engineers focus mainly on pipelines and storage. In 2027, they will act more like data product architects, responsible for building systems that directly support decision-making and AI applications
 
-<!-- section:content-8 -->
-
 <!-- section:content-11 -->
 
 ## Will AI replace data engineers?
@@ -464,6 +474,8 @@ What does not compress is everything that involves knowing why the data is the w
 The role does change. Less hand-writing of boilerplate transformations, more designing contracts between systems and more defining what the numbers mean — which is [semantic layer](/blog/what-is-a-semantic-layer) work, and it grows in value as more people query the data, because a wrong definition now reaches everyone at once.
 
 The engineers at risk are the ones whose job is genuinely just translating a ticket into SQL. That was always the least durable part of the role, and it is the part being automated first.
+
+<!-- section:content-14 -->
 
 ## Final Thoughts
 

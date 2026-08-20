@@ -19,13 +19,17 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-a-kpi-guide/0de5821fb0b817fd.png
-  alt: Infographic of 6 types of KPIs with vibrant icons
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-a-kpi/21b1d5c857c0937f.png
+  alt: >-
+    "What is a KPI? Real Examples for SaaS & Business Teams" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/5059eaa1794ab9e2.png
 sections:
+  - id: content-1
+    heading: Introduction
   - id: content-2
     heading: What Is a KPI?
   - id: content-3
@@ -121,6 +125,8 @@ statsCount: 0
 
 <!-- section:content-1 -->
 
+## Introduction
+
 In today’s data-driven business environment, organizations collect information from marketing platforms, websites, financial systems, customer platforms, and internal software. However, having access to large volumes of data does not automatically lead to better business decisions. Without structured performance measurement systems, data often remains disconnected from real outcomes, causing delayed actions, misaligned strategies, and missed growth opportunities.
 
 This is where **Key Performance Indicators (KPIs)** become essential.
@@ -129,7 +135,6 @@ Understanding **what is a KPI** helps organizations transform raw numbers into m
 
 This guide explains **what KPIs are**, why they matter, how to select the right ones, and how to use modern **KPI dashboards** to track and manage performance effectively.
 
-###
 
 <!-- section:content-2 -->
 

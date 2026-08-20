@@ -19,12 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/omni-alternative-to-apache-superset/b6758cfc86eaa642.png
-  alt: Best Omni Alternative to Apache Superset in 2026 | Embedded Analytics Guide
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/apache-superset-alternatives/d22d81280a5b400a.png
+  alt: '"Best Omni Alternative to Apache Superset" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/1ad63a3928cd9963.png
 sections:
   - id: content-1
     heading: A Practical Guide to Modern Embedded Analytics Platforms
@@ -42,6 +42,8 @@ sections:
     heading: Who Should Consider Moving Beyond Apache Superset?
   - id: content-8
     heading: 'Final Thoughts: Is Apache Superset Still the Right Choice in 2026?'
+  - id: content-9
+    heading: Frequently Asked Questions
 featured:
   choice: null
   trending: null
@@ -473,6 +475,8 @@ Apache Superset remains a strong option for internal BI and analyst-driven workf
 However, analytics in 2026 extends far beyond internal reporting. Organizations increasingly require **embedded analytics**, **self-service BI**, **AI-assisted insights**, and **multi-tenant scalability**. Omni analytics platforms address these needs out of the box, reducing tooling sprawl and engineering complexity.
 
 Ultimately, the right choice depends on **who your users are**, **how analytics is consumed**, and **how quickly you need to scale**.
+
+<!-- section:content-9 -->
 
 ## Frequently Asked Questions
 

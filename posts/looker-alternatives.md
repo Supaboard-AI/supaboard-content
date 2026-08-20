@@ -19,14 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-looker-alternatives/7eedd9253aeaec79.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/looker-alternatives/ca0631c0126c05b9.png
   alt: >-
-    Dark-mode analytics dashboard showcasing modern BI and Looker-like data
-    visualizations.
-  width: 1536
-  height: 1024
+    "Best Looker Alternatives for Modern Analytics in 2026" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/cf30d5ea0f4e5de2.png
 sections:
   - id: content-1
     heading: Why Teams Are Searching for Looker Like Analytics Tools
@@ -38,7 +38,7 @@ sections:
       Self-Service Analytics
   - id: content-4
     heading: >-
-      1\. Power BI – Best for Microsoft Ecosystem Teams & Looker vs Power BI
+      1. Power BI – Best for Microsoft Ecosystem Teams & Looker vs Power BI
       Comparison
   - id: content-5
     heading: How to Choose the Best Looker Alternative in 2026

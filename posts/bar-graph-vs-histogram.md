@@ -19,15 +19,15 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bar-graph-vs-histogram/3c5bfb67f2585482.png
-  alt: >-
-    Bar graph vs histogram comparison, side by side comparison of bar graph
-    versus histogram showing gaps vs touching bars
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bar-graph-vs-histogram/9c35e6198a449a87.png
+  alt: '"Bar Graph vs Histogram: Differences and When to Use" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/96c24e98811b96af.png
 sections:
+  - id: content-1
+    heading: Introduction
   - id: content-2
     heading: What Is a Bar Graph?
   - id: content-3
@@ -36,12 +36,16 @@ sections:
     heading: 'Histogram vs Bar Graph: Key Differences'
   - id: content-5
     heading: Real Business Use Cases
+  - id: content-13
+    heading: Common Mistakes to Avoid When Choosing Between Bar Graph and Histogram
   - id: content-7
     heading: Best Tools to Create Bar Graphs and Histograms
   - id: content-8
     heading: Frequently Asked Questions (FAQ)
   - id: content-12
     heading: Which one is better for comparing data?
+  - id: content-14
+    heading: Conclusion
 featured:
   choice: null
   trending: 4
@@ -136,6 +140,8 @@ statsCount: 0
 ---
 
 <!-- section:content-1 -->
+
+## Introduction
 
 Choosing between a **bar graph** and a **histogram** confuses many students, analysts, and business professionals. While both charts use bars, they serve completely different purposes and work with different types of data.
 
@@ -292,6 +298,8 @@ For example, a retail team used a bar graph to compare average order value and s
 
 In dashboards, bar graphs support monitoring and reporting, while histograms enable deeper analysis and pattern detection. [Lucidchart’s explanation of histogram vs bar graph](https://www.lucidchart.com/blog/histogram-vs-bar-graph)
 
+<!-- section:content-13 -->
+
 ## Common Mistakes to Avoid When Choosing Between Bar Graph and Histogram
 
 Many people make [the same mistakes](https://www.sigmacomputing.com/blog/best-visualization-histogram-bar-chart) when deciding between a bar graph and a histogram. These errors can hide important insights and lead to wrong conclusions.
@@ -397,6 +405,8 @@ The question is worth answering directly because it is the most common way peopl
 Those questions are genuinely different, and the confusion usually starts with the question rather than the chart. "How do our order values compare?" is ambiguous: it could mean comparing average order value across segments (bar graph) or understanding the distribution of order values (histogram). Deciding which you meant resolves the chart choice immediately.
 
 One practical tell: if you can reorder the bars without losing meaning, you want a bar graph. If reordering them destroys the chart, it is a histogram and comparison was never the point.
+
+<!-- section:content-14 -->
 
 ## Conclusion
 

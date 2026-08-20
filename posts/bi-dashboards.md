@@ -19,12 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/b15b63d460d26a89.png
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bi-dashboard-guide/c1da3495ad89568a.png
-  alt: Business Intelligence Dashboard Example for Data Analytics
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bi-dashboards/96b3c288f319bffa.png
+  alt: >-
+    "BI Dashboard: What It Is, Why It Matters & How It Helps." — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/4b564c2fb0929f0d.png
 sections:
   - id: content-1
     heading: What Is a Business Intelligence Dashboard?
@@ -42,6 +44,10 @@ sections:
     heading: How AI Is Changing Business Intelligence Dashboards
   - id: content-10
     heading: How do you build a decision-making dashboard?
+  - id: content-11
+    heading: Frequently Asked Questions
+  - id: content-12
+    heading: 'Conclusion: Dashboards Are Tools, Decisions Create Value'
 featured:
   choice: null
   trending: null
@@ -410,8 +416,6 @@ The BI dashboard became a daily tool for leadership, helping teams rely on consi
 -   **Improve Continuously**  
     Update metrics, visuals, and layout as business needs and priorities change.
 
-<!-- section:content-8 -->
-
 <!-- section:content-10 -->
 
 ## How do you build a decision-making dashboard?
@@ -434,6 +438,8 @@ A decision-making dashboard differs from a reporting dashboard in what it is for
 
 The test of a decision-making dashboard is not whether people like it. It is whether anything different happened because of it. If the answer is no after a quarter, the problem is step one.
 
+<!-- section:content-11 -->
+
 ## Frequently Asked Questions
 
 #### 1\. What Is a BI Dashboard Example?
@@ -451,6 +457,8 @@ BI dashboards are useful for founders, managers, analysts, and operational teams
 ### 4\. Are BI Dashboards Suitable for Small Businesses?
 
 Yes, BI dashboards are highly useful for small businesses. They help monitor sales, expenses, marketing performance, and customer behavior in one place. With cloud-based BI tools, small companies can access affordable analytics and compete more effectively.
+
+<!-- section:content-12 -->
 
 ## Conclusion: Dashboards Are Tools, Decisions Create Value
 

@@ -19,12 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-tableau-alternative/6942e89fe5e2950e.png
-  alt: 'Best Tableau Alternative, alternative to tableau'
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/tableau-alternatives/c954ddc962f173b8.png
+  alt: '"Tableau Alternatives: Top BI Tools Compared in 2026" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/a69239d154966789.png
 sections:
   - id: content-1
     heading: Introduction
@@ -36,6 +36,8 @@ sections:
     heading: 'Quick Comparison: Top Tableau Alternatives'
   - id: content-5
     heading: Best Tableau Alternatives & Competitors in 2026
+  - id: content-8
+    heading: Common Mistakes When Choosing a BI Platform
   - id: content-6
     heading: Frequently Asked Questions (FAQ)
   - id: content-7
@@ -394,6 +396,8 @@ Sigma is best suited for organizations that want the flexibility of spreadsheets
 ### Cost-Free and Open-Source Tableau Competitors You Should Consider
 
 For teams seeking alternatives to Tableau, some tools provide strong analytics capabilities without the high cost. **Metabase** is ideal for data teams and SMBs, offering an intuitive interface and SQL support with free and paid options. [While **Supaboard**](https://www.supaboard.ai/), **ThoughtSpot**, **Domo**, and **Sigma Computing** are more enterprise-focused, Metabase stands out as a cost-effective, open-source option that allows organizations to create dashboards, visualize data, and run queries efficiently without expensive licenses.
+
+<!-- section:content-8 -->
 
 ## Common Mistakes When Choosing a BI Platform
 

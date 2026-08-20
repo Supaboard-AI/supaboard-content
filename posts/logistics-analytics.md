@@ -19,14 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/logistics-analytics/1ae5eca4dcc655aa.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/logistics-analytics/e835e3985edff945.png
   alt: >-
-    Logistics analytics dashboard illustration showing KPIs, route optimization
-    paths, and real-time shipment tracking across global supply chains.
-  width: 1536
-  height: 1024
+    "Logistics Analytics: Turning Supply Chain Data Into Action" — Supaboard
+    blog cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/33bbe8bd002f9e61.png
 sections:
   - id: content-1
     heading: 'Introduction: Why Logistics Analytics Has Become a Business Priority'
@@ -36,6 +36,12 @@ sections:
     heading: How Data Analytics Is Used in Logistics?
   - id: content-4
     heading: Types of Analytics Used in Logistics
+  - id: content-9
+    heading: Core Business Use Cases for Logistics Analytics
+  - id: content-10
+    heading: Logistics Short Cycle Metrics KPIs
+  - id: content-11
+    heading: How Supply Chain Analysts Actually Use Analytics Day to Day
   - id: content-5
     heading: Why Traditional Analytics Approaches Fall Short
   - id: content-6
@@ -199,6 +205,8 @@ Prescriptive analytics in logistics recommends the best actions to take based on
 **Example:**  
 When congestion increases, the system recommends rerouting priority shipments while delaying low-urgency orders to control costs and protect delivery commitments.
 
+<!-- section:content-9 -->
+
 ## Core Business Use Cases for Logistics Analytics
 
 Logistics analytics is most valuable when it directly supports business-critical decisions across transportation, operations, and network visibility. These core use cases show how analytics improves cost control, service reliability, and operational efficiency at scale.
@@ -218,6 +226,8 @@ Logistics analytics connects data from **TMS, WMS, ERP, and partner systems** to
 #### Demand Forecasting & Inventory Optimization.
 
 By combining historical shipment data with real-time demand signals, logistics analytics improves **demand forecasting** and **inventory planning**. This helps businesses prevent stockouts, reduce excess inventory, and align transportation capacity with expected demand, balancing cost efficiency with service reliability.
+
+<!-- section:content-10 -->
 
 ## Logistics Short Cycle Metrics KPIs
 
@@ -248,6 +258,8 @@ Evaluates how closely system inventory matches physical stock levels. High accur
 ### Why Short Cycle Metrics Matter in Logistics Analytics
 
 Short cycle logistics KPIs provide **real-time operational visibility**, allowing teams to react quickly to disruptions, manage daily performance, and prevent small inefficiencies from becoming systemic problems. When combined with logistics analytics platforms, these metrics enable continuous improvement, faster decision-making, and more predictable supply chain performance.
+
+<!-- section:content-11 -->
 
 ## How Supply Chain Analysts Actually Use Analytics Day to Day
 

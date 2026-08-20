@@ -19,12 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-predictive-analytics-simple-guide/abe4dcf217614e6c.png
-  alt: What Is Predictive Analytics? A simple gudie for everyone
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-predictive-analytics/5d92c9b01ba1171b.png
+  alt: '"What Is Predictive Analytics? Simple Guide" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/f6869a5e9ceb2bc3.png
 sections:
   - id: content-1
     heading: Introduction

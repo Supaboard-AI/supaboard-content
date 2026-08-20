@@ -19,12 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-data-modeling-guide/c43a3edd23babf8e.png
-  alt: 'data modeling, data modelling'
-  width: 1408
-  height: 768
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-data-modeling/eb1b5349d754d580.png
+  alt: '"What Is Data Modeling? Types, Tools and Examples" — Supaboard blog cover'
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/7720bcbcc3fc2452.png
 sections:
   - id: content-1
     heading: Introduction

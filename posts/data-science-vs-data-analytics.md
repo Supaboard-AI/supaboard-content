@@ -19,12 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/data-science-vs-data-analytics-what-you-need-to-know/e924bf1eb75dbdf8.png
-  alt: 'Data Science vs Data Analytics, data analytics vs data science'
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/data-science-vs-data-analytics/65f6851b66b1ad05.png
+  alt: >-
+    "Data Science vs Data Analytics: What You Need To Know" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/644e7e0f8848fca3.png
 sections:
   - id: content-1
     heading: What Is Data Analytics?

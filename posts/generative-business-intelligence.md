@@ -19,14 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/generative-business-intelligence-guide/a64366dc98d42d90.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/generative-business-intelligence/d5b29c70958ccc5a.png
   alt: >-
-    Generative business intelligence dashboard with AI-powered analytics, data
-    visualization charts, and real-time reports on light green background
-  width: 1536
-  height: 1024
+    "How Generative AI Is Transforming Business Intelligence" — Supaboard blog
+    cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/832495b7513b15d9.png
 sections:
   - id: content-1
     heading: 'Introduction: Why Business Intelligence Needs a New Approach'
@@ -44,6 +44,10 @@ sections:
     heading: Traditional BI vs Generative BI Comparison
   - id: content-11
     heading: How does generative AI change data storytelling?
+  - id: content-12
+    heading: Frequently Asked Questions (FAQs)
+  - id: content-13
+    heading: Final Thoughts
 featured:
   choice: null
   trending: null
@@ -366,8 +370,6 @@ A key responsibility is **ensuring ethical practices**, which includes avoiding 
 
 Another critical responsibility is **maintaining transparency in AI outputs**. Users should be aware when content is AI-generated and understand its limitations. In addition, developers are responsible for protecting user data, following compliance standards, and keeping human oversight in place for important decisions.
 
-<!-- section:content-8 -->
-
 <!-- section:content-11 -->
 
 ## How does generative AI change data storytelling?
@@ -389,6 +391,8 @@ What it does not do is decide whether the story is true or whether it matters. A
 So the practical division is that generation handles the draft and a human owns the claim. The controls that make this workable are the ability to see which query produced a number and which definition resolved the metric — without those, you have a system producing confident prose that nobody can check, which is the opposite of what analytics is for.
 
 Used this way, the gain is real: the write-up stops being the bottleneck, and the analyst's time moves to deciding what is worth saying.
+
+<!-- section:content-12 -->
 
 ## Frequently Asked Questions (FAQs)
 
@@ -418,6 +422,8 @@ Industries such as retail, finance, healthcare, SaaS, logistics, and manufacturi
 Developers using generative AI are responsible for building systems that are **accurate, ethical, and trustworthy**. This includes validating AI-generated outputs, ensuring ethical practices, mitigating biases in training data and responses, and maintaining transparency in how AI systems generate results.
 
 They must also protect user data, follow compliance standards, continuously monitor AI performance, and keep human oversight in place, especially for critical business decisions. The goal is not just automation, but **responsible and reliable AI usage** that businesses can depend on.
+
+<!-- section:content-13 -->
 
 ## Final Thoughts
 

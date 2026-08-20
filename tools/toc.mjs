@@ -39,7 +39,10 @@ for (const file of readdirSync(POSTS).filter((f) => f.endsWith(".md")).sort()) {
       problems.push(`${slug}: section ${id} has no heading — omitted from the TOC`);
       continue;
     }
-    sections.push({ id, heading: heading.replace(/\*\*/g, "").trim() });
+    // Strip the inline markdown that only makes sense in the body: bold
+    // wrappers, and the backslashes that stop `1.` becoming an ordered list.
+    const label = heading.replace(/\*\*/g, "").replace(/\\(?=[^\w\s])/g, "").trim();
+    sections.push({ id, heading: label });
   }
 
   if (!sections.length) {

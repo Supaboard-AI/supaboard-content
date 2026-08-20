@@ -19,12 +19,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/will-data-analysts-be-replaced-by-ai-the-truth-behind-the-fear/6e7cf99c08d69657.png
-  alt: Data Analysts Be Replaced by AI
-  width: 1536
-  height: 1024
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/will-ai-replace-data-analysts/36c62031c863c4e7.png
+  alt: >-
+    "Will Data Analysts Be Replaced by AI? The Truth Behind the Fear" —
+    Supaboard blog cover
+  width: 1600
+  height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/3f58bc97ff0fcb9e.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/72dceada18da5f3a.png
 sections:
   - id: content-1
     heading: What AI Still Cannot Do
