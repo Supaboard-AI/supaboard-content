@@ -1,0 +1,349 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>supaboard content</title>
+<style>
+  :root {
+    --bg0: #14161b; --bg1: #191c22; --bg2: #1f232c; --raised: #232833;
+    --line: #262b35; --line2: #333a48;
+    --ink: #dde1e8; --dim: #838b9d; --dim2: #5b6274;
+    --acc: #7aa2f7; --acc-dim: rgba(122, 162, 247, .14);
+    --ok: #8ecb95; --warn: #e0af68; --bad: #f7768e;
+    --r: 6px; --r-lg: 9px;
+    font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  ::selection { background: var(--acc-dim); }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-thumb { background: var(--line2); border-radius: 99px; border: 2px solid var(--bg1); }
+  ::-webkit-scrollbar-track { background: transparent; }
+
+  /* minmax(0,1fr) on the row, min-height:0 on every flex/grid child down to the
+     textareas — without this chain, textareas size to their content and shove
+     the issues panel off-screen. */
+  body { margin: 0; height: 100vh; display: grid; grid-template-columns: 240px 1fr 340px;
+         grid-template-rows: minmax(0, 1fr);
+         background: var(--bg0); color: var(--ink); overflow: hidden; }
+  .col { min-width: 0; min-height: 0; display: flex; flex-direction: column;
+         background: var(--bg1); border-right: 1px solid var(--line); }
+  .col:last-child { border-right: 0; }
+  h2 { margin: 0; padding: 12px 14px; font-size: 10px; font-weight: 600; letter-spacing: .1em;
+       text-transform: uppercase; color: var(--dim); border-bottom: 1px solid var(--line);
+       flex: 0 0 auto; }
+
+  /* files */
+  .legend { flex: 0 0 auto; padding: 8px 14px; color: var(--dim2);
+            border-bottom: 1px solid var(--line); }
+  .legend .dot { display: inline; width: auto; }
+  #files { overflow-y: auto; flex: 1; min-height: 0; padding: 4px 0; }
+  #files .grp { position: sticky; top: 0; z-index: 1; padding: 10px 14px 5px; color: var(--dim2);
+                font-size: 10px; letter-spacing: .07em; text-transform: uppercase;
+                background: var(--bg1); }
+  #files button { all: unset; box-sizing: border-box; display: flex; gap: 8px; align-items: center;
+                  width: 100%; padding: 5px 14px; cursor: pointer; border-left: 2px solid transparent;
+                  color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #files button:hover { background: var(--bg2); }
+  #files button[aria-current="true"] { background: var(--acc-dim); border-left-color: var(--acc); color: #fff; }
+  .dot { flex: 0 0 auto; width: 1.1em; text-align: center; }
+  .dot.bad { color: var(--bad); } .dot.ok { color: var(--ok); } .dot.na { color: var(--dim2); }
+
+  /* editor */
+  #head { display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+          border-bottom: 1px solid var(--line); flex: 0 0 auto; background: var(--bg2); }
+  #name { font-size: 16px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #dirty { font-size: 10px; color: var(--acc); padding: 1px 7px; border-radius: 99px;
+           background: var(--acc-dim); opacity: 0; transition: opacity .1s; }
+  #dirty:not(:empty) { opacity: 1; }
+  #panes { flex: 1 1 0; display: grid; grid-template-columns: 1fr 1fr; min-height: 0; }
+  .pane { display: flex; flex-direction: column; min-height: 0; border-right: 1px solid var(--line); }
+  .pane:last-child { border-right: 0; }
+  .pane-label { flex: 0 0 auto; padding: 6px 12px; font-size: 10px; font-weight: 600;
+                letter-spacing: .08em; text-transform: uppercase; color: var(--dim);
+                background: var(--bg2); border-bottom: 1px solid var(--line); }
+  .pane-sub { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--dim2); }
+  textarea { all: unset; flex: 1 1 0; min-height: 0; box-sizing: border-box; padding: 12px;
+             overflow: auto; white-space: pre; tab-size: 2;
+             font: inherit; color: var(--ink); background: var(--bg1); }
+  #body { white-space: pre-wrap; }
+  textarea:focus-visible { outline: 1px solid var(--acc); outline-offset: -1px; }
+  #issues { flex: 0 0 auto; max-height: 26vh; overflow-y: auto; padding: 8px 14px;
+            border-top: 1px solid var(--line); background: var(--bg2); }
+  #issues div { display: flex; gap: 6px; padding: 2px 0; color: var(--bad); }
+  #issues .none { color: var(--ok); } #issues .na { color: var(--dim2); }
+  b.field { color: var(--acc); font-weight: 600; }
+
+  /* tools */
+  #tools { overflow-y: auto; flex: 1 1 0; min-height: 0; padding: 8px; }
+  .tier-head { position: sticky; top: 0; z-index: 1; margin-top: 6px; padding: 6px 6px 5px;
+               font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+               color: var(--dim2); background: var(--bg1); }
+  .tier-head:first-child { margin-top: 0; }
+  .tool { margin-bottom: 6px; padding: 8px 10px; border: 1px solid var(--line); border-left: 2px solid var(--line2);
+          border-radius: var(--r); background: var(--bg2); }
+  .tool.safe { border-left-color: var(--dim2); }
+  .tool.optout { border-left-color: var(--acc); }
+  .tool.optin { border-left-color: var(--warn); }
+  .tool.danger { border-left-color: var(--bad); }
+  .tool .row { display: flex; align-items: center; gap: 8px; }
+  .tool .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
+  .tool .note { margin-top: 3px; color: var(--dim); font-size: 10px; }
+  .tool.danger .nm { color: var(--bad); }
+  input[type=text] { all: unset; box-sizing: border-box; padding: 3px 7px; background: var(--bg0);
+                     border: 1px solid var(--line2); border-radius: var(--r); color: var(--ink); font: inherit; }
+  input[type=text]:focus-visible { outline: 1px solid var(--acc); }
+  input.args { width: 7.5em; flex: 0 0 auto; }
+  input.wide { width: 100%; margin-top: 6px; }
+  label { color: var(--dim); display: flex; gap: 4px; align-items: center; cursor: pointer; user-select: none; }
+  button.go { all: unset; padding: 3px 11px; border: 1px solid var(--line2); border-radius: var(--r);
+              cursor: pointer; color: var(--acc); font-weight: 600; }
+  button.go:hover { background: var(--acc-dim); border-color: var(--acc); }
+  button.go:focus-visible { outline: 1px solid var(--acc); }
+  button.go[disabled] { opacity: .35; cursor: default; background: none; border-color: var(--line2); }
+  #out { flex: 0 0 45%; margin: 0; padding: 10px 14px; overflow: auto; white-space: pre-wrap;
+         background: var(--bg0); border-top: 1px solid var(--line); color: var(--dim); }
+</style>
+
+<div class="col">
+  <h2>Files</h2>
+  <div class="legend"><span class="dot ok">●</span> passes &nbsp; <span class="dot bad">✗</span> fails &nbsp; <span class="dot na">·</span> n/a</div>
+  <div id="files"></div>
+</div>
+
+<div class="col">
+  <div id="head">
+    <span id="name">no file</span>
+    <span id="dirty"></span>
+    <span style="flex:1"></span>
+    <button class="go" id="save" disabled>save</button>
+  </div>
+  <div id="panes">
+    <div class="pane">
+      <div class="pane-label">Frontmatter <span class="pane-sub">YAML</span></div>
+      <textarea id="fm" spellcheck="false" placeholder="select a file"></textarea>
+    </div>
+    <div class="pane">
+      <div class="pane-label">Body <span class="pane-sub">Markdown</span></div>
+      <textarea id="body" spellcheck="false"></textarea>
+    </div>
+  </div>
+  <div id="issues"></div>
+</div>
+
+<div class="col">
+  <h2>Tools</h2>
+  <div id="tools"></div>
+  <pre id="out">pick a tool</pre>
+</div>
+
+<script type="module">
+const $ = (s) => document.querySelector(s);
+const el = (t, p = {}) => Object.assign(document.createElement(t), p);
+const api = (u, o) => fetch(u, o).then((r) => r.json());
+const post = (u, data) => api(u, {
+  method: "POST",
+  headers: { "content-type": "application/json" },
+  body: JSON.stringify(data),
+});
+
+let current = null;
+let clean = "";
+
+/* -------------------------------------------------------------- file list */
+
+async function tree() {
+  const { files } = await api("/api/tree");
+  const box = $("#files");
+  box.textContent = "";
+  for (const dir of ["posts", "case-studies"]) {
+    const group = files.filter((f) => f.dir === dir);
+    box.append(el("div", { className: "grp", textContent: dir + " (" + group.length + ")" }));
+    for (const f of group) {
+      const mark = f.issues === null ? ["na", "·"] : f.issues ? ["bad", "✗"] : ["ok", "●"];
+      const b = el("button", { title: f.path });
+      b.dataset.path = f.path;
+      b.append(
+        el("span", { className: "dot " + mark[0], textContent: mark[1] }),
+        el("span", { textContent: f.slug }),
+      );
+      b.onclick = () => load(f.path);
+      box.append(b);
+    }
+  }
+  highlight(current);
+}
+
+const highlight = (path) =>
+  document.querySelectorAll("#files button")
+    .forEach((b) => b.setAttribute("aria-current", String(b.dataset.path === path)));
+
+/* ----------------------------------------------------------------- editor */
+
+const snapshot = () => $("#fm").value + " " + $("#body").value;
+const isDirty = () => current !== null && snapshot() !== clean;
+
+function touched() {
+  $("#dirty").textContent = isDirty() ? "● unsaved" : "";
+  $("#save").disabled = !isDirty();
+}
+
+async function load(path) {
+  if (isDirty() && !confirm("Discard unsaved changes?")) return;
+  const doc = await api("/api/file?path=" + encodeURIComponent(path));
+  if (doc.error) return alert(doc.error);
+  current = path;
+  $("#fm").value = doc.frontmatter;
+  $("#body").value = doc.body;
+  clean = snapshot();
+  $("#name").textContent = path;
+  highlight(path);
+  touched();
+  validate();
+}
+
+async function save() {
+  if (!isDirty()) return;
+  const r = await api("/api/file?path=" + encodeURIComponent(current), {
+    method: "PUT",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ frontmatter: $("#fm").value, body: $("#body").value }),
+  });
+  if (r.error) return alert(r.error);
+  clean = snapshot();
+  touched();
+  tree();
+}
+
+/* ------------------------------------------------------------- validation */
+
+async function validate() {
+  if (!current) return;
+  const asked = current;
+  const r = await post("/api/validate", { path: current, frontmatter: $("#fm").value });
+  if (asked !== current) return; // a different file was opened mid-flight
+  const box = $("#issues");
+  box.textContent = "";
+  if (!r.schema) {
+    box.append(el("div", {
+      className: "na",
+      textContent: "no schema — case studies are gated by the site build",
+    }));
+  } else if (!r.issues.length) {
+    box.append(el("div", { className: "none", textContent: "✓ passes the content model" }));
+  } else {
+    for (const i of r.issues) {
+      const d = el("div");
+      d.append("✗ ", el("b", { className: "field", textContent: i.path }), ": " + i.message);
+      box.append(d);
+    }
+  }
+}
+
+let timer;
+for (const id of ["#fm", "#body"]) {
+  $(id).addEventListener("input", () => {
+    touched();
+    clearTimeout(timer);
+    timer = setTimeout(validate, 300);
+  });
+}
+$("#save").onclick = save;
+addEventListener("keydown", (e) => {
+  if ((e.metaKey || e.ctrlKey) && e.key === "s") { e.preventDefault(); save(); }
+});
+addEventListener("beforeunload", (e) => { if (isDirty()) e.preventDefault(); });
+
+/* ------------------------------------------------------------ tool runner */
+
+let busy = false;
+
+const TIERS = [
+  ["safe", "Read-only & regen"],
+  ["optout", "Writes by default"],
+  ["optin", "Opt-in writes"],
+  ["danger", "Danger zone"],
+];
+
+async function tools() {
+  const { scripts } = await api("/api/scripts");
+  const box = $("#tools");
+  for (const [tier, label] of TIERS) {
+    const group = scripts.filter((t) => t.tier === tier);
+    if (!group.length) continue;
+    box.append(el("div", { className: "tier-head", textContent: label }));
+    for (const t of group) box.append(toolCard(t));
+  }
+}
+
+function toolCard(t) {
+  const wrap = el("div", { className: "tool " + t.tier });
+  const row = el("div", { className: "row" });
+  const go = el("button", { className: "go", textContent: "run" });
+  row.append(el("span", { className: "nm", textContent: t.name }));
+
+  // Opt-out tools ship their dry flag by default; opt-in tools need the box ticked.
+  let check = null;
+  if (t.flag && t.tier !== "danger") {
+    check = el("input", { type: "checkbox" });
+    const label = el("label");
+    label.append(check, t.tier === "optout" ? "write" : "apply");
+    row.append(label);
+  }
+  row.append(go);
+
+  // Destructive tools stay disabled until their name is typed out.
+  let confirmBox = null;
+  if (t.tier === "danger") {
+    go.disabled = true;
+    confirmBox = el("input", {
+      type: "text", className: "wide", placeholder: 'type "' + t.name + '" to enable',
+    });
+    confirmBox.oninput = () => { go.disabled = busy || confirmBox.value.trim() !== t.name; };
+  }
+
+  const args = el("input", { type: "text", className: "args", placeholder: "args", title: "extra flags" });
+  row.insertBefore(args, go);
+
+  wrap.append(row, el("div", { className: "note", textContent: t.note }));
+  if (confirmBox) wrap.append(confirmBox);
+
+  go.onclick = async () => {
+    if (busy) return;
+    const flag = t.tier === "danger" ? true : (check?.checked ?? false);
+    const writes = t.tier === "danger" || (t.tier === "optout" ? flag : flag);
+    if (writes && t.tier !== "danger" && !confirm(t.name + " will write files. Continue?")) return;
+    busy = true;
+    go.disabled = true;
+    await stream(t.name, flag, args.value);
+    busy = false;
+    go.disabled = t.tier === "danger" ? confirmBox.value.trim() !== t.name : false;
+    tree();
+    validate();
+  };
+
+  return wrap;
+}
+
+async function stream(name, flag, args) {
+  const out = $("#out");
+  out.textContent = "$ " + name + "\n\n";
+  const res = await fetch("/api/run", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ name, flag, args }),
+  });
+  if (!res.ok) {
+    out.textContent += (await res.json()).error + "\n";
+    return;
+  }
+  const reader = res.body.getReader();
+  const dec = new TextDecoder();
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    out.textContent += dec.decode(value, { stream: true });
+    out.scrollTop = out.scrollHeight;
+  }
+}
+
+tree();
+tools();
+</script>

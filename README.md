@@ -27,14 +27,13 @@ anchors the Framer build shipped, so existing deep links keep resolving.
 
 ## Case studies
 
-`case-studies/<slug>.md` renders at `/case-study/<slug>`, and uses the same
-`<!-- section:id -->` markers to split the body.
+`case-studies/<slug>.md` renders at `/case-study/<slug>`.
 
-The split between frontmatter and body follows what the page renders. Prose —
-a section's intro paragraph and its bulleted list — lives in the body. Anything
-that is a distinct rendered element stays in frontmatter: the numbered eyebrow,
-the heading, the figure, and the pull quote, because a markdown blockquote
-cannot carry the attribution line or the sunken card it renders into.
+A study opens with three scannable blocks — who the customer is, what was
+broken, what changed in numbers — and then tells the story. The first three are
+frontmatter, because each is a distinct rendered element. The story is the
+markdown body, verbatim: headings, lists, blockquotes, images and videos, with
+no `<!-- section: -->` markers of any kind.
 
 ```yaml
 slug:           must equal the filename
@@ -48,17 +47,45 @@ featured:       optional — position in the featured row on /case-study
 publishedAt:    YYYY-MM-DD
 updatedAt:      YYYY-MM-DD — drives dateModified and sitemap lastmod
 art:            { bed, person?, logo } — layered square story art
-hero, mark, stripPhoto, stripLogo, logo
-stats:          [{ value, detail }] — the three-up band under the hero
-glance:         { quote, facts[], website?, callout? }
-sections:       [{ id, eyebrow, heading, image?, quote?, attribution? }]
+hero:           OG image + primaryImageOfPage
+logo:           dark wordmark, for the story tiles on light surfaces
+about:          { body, website? } — the organisation in their own site's terms
+problems:       [ "…" ] — the core problems, one per point
+outcome:        [{ value, detail }] — metric-led results after the rollout
 faq:            optional [{ q, a }] — renders an FAQ block and FAQPage JSON-LD
 ```
 
-`sections` is the running order: the numbering a reader sees ("3. THE SHIFT")
-comes from this list, and bodies are matched to it by `id`. The body needs one
-`<!-- section:glance -->` block for the At-a-glance prose, then one block per
-declared section. Bullets are written `- **Lead-in:** text`.
+`about.body` is markdown (a block scalar — use `|`), so it can run to more than
+one paragraph. `about.website` is `{ label, href }` and renders the Visit Site
+link; leave it out entirely if the customer has no site to point at.
+
+### Gaps
+
+A `[[double-bracketed]]` run is a fact the customer still owes us. Keep it to
+ten words, write it anywhere — frontmatter string or story — and it renders as a
+visible highlight on the page rather than hiding in the YAML. Nothing fails the
+build, so check the page before publishing.
+
+### The story
+
+Plain markdown. `##` is the top level (it renders as `<h3>`, below the page's
+own headings). Bullets are written `- **Lead-in:** text`. A blockquote renders
+as a sunken pull-quote card, and if it has more than one paragraph the last one
+is set small as the attribution:
+
+```markdown
+> The quote itself.
+>
+> — Who said it
+```
+
+Images and videos are both written with image syntax; a `.webm` or `.mp4` source
+renders as a looping muted `<video>` with controls:
+
+```markdown
+![What the figure shows](/case-study-media/slug-fig1.png)
+![What the clip shows](/case-study-media/slug-demo.webm)
+```
 
 Figures live in the site repo under `public/case-study-media/`, referenced by
 absolute path — unlike blog images, they are design-system art rather than
@@ -105,6 +132,38 @@ and preserved across a re-scrape.
 Only `published` renders. `draft` is hidden outright; `scheduled` appears once
 `publishedAt` arrives. A `published` post is never date-gated, so a typo'd year
 cannot take a live URL off the site.
+
+## Editing in a UI
+
+```bash
+bun run ui
+```
+
+Opens a local page on 127.0.0.1 with the whole corpus in one screen: every post
+and case study on the left, raw frontmatter and body side by side in the middle,
+and the tools on the right.
+
+Frontmatter is validated against `schema/frontmatter.ts` as you type, including
+the set-level rules — a duplicate `targetQuery` or an internal link that
+resolves to nothing shows up without saving first. Note that the set-level rules
+only compare documents that already pass the per-document schema, so while most
+of the corpus fails on `statsCount` those cross-file checks stay quiet for the
+posts that fail. Case studies have no validator, by design, and say so.
+
+The editor splices your text back between the `---` delimiters rather than
+re-serializing the YAML, so bytes you did not touch stay byte-identical and a
+save produces a one-line diff. `bun run test:ui` asserts exactly that across
+every file in the corpus.
+
+Saving writes to disk and nothing else — reviewing, committing and pushing stay
+manual, so the UI can never publish to the live site on its own.
+
+The tools panel runs the same scripts this README documents, each with its safe
+flag already selected: read-only tools run bare, `toc`/`faq`/`relink`/`codemod`
+are dry until you tick **apply**, `rails`/`refresh-faq` ship `--dry` until you
+tick **write**, and the four that upload, delete or overwrite without a dry mode
+(`covers`, `prune-assets`, `apply-disposition`, `scrape`) stay disabled until you
+type the tool's name. One runs at a time.
 
 ## Verifying
 

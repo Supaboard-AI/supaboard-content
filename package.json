@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Blog content for supaboard.ai",
   "scripts": {
+    "ui": "bun tools/ui.ts",
+    "test:ui": "bun test tools/ui.test.ts",
     "scrape": "node tools/scrape.mjs",
     "scrape:all": "node tools/scrape.mjs --all",
     "verify": "node tools/verify.mjs",
