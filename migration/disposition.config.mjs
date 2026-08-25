@@ -244,7 +244,6 @@ export const CLUSTERS = [
     canonicalFrom: "bi-dashboard-guide",
     reason: "Four general dashboard explainers competing for the same head term.",
     members: [
-      "ai-dashboard-explained",
       "what-is-a-decision-making-dashboard-importance-benefits-and-how-to-build-one",
       "5-ways-saas-startups-use-no-code-dashboards-to-win-investors",
     ],
@@ -318,8 +317,8 @@ export const CLUSTERS = [
     id: "agentic-analytics",
     canonical: "agentic-analytics",
     canonicalFrom: "agentic-analytics-vs-traditional-bi-tools",
-    reason: "Agentic and AI-native BI are the same category argument under two names.",
-    members: ["ai-native-business-intelligence-tools"],
+    reason: "Keeps the concept essay for the 'agentic analytics' query; the AI-native tools-list query is served by its own listicle.",
+    members: [],
   },
   {
     id: "ai-data-analyst",
@@ -349,6 +348,10 @@ export const CLUSTERS = [
  * complies with the Phase 3 rules; a string is the compliant rename.
  */
 export const KEEP = [
+  ["ai-native-business-intelligence-tools", "ai-native-business-intelligence-tools",
+   "Un-merged from agentic-analytics. The tools-list query was landing on a concept essay that names no tools; 3,133 impressions, no clicks. Rebuilt as its own listicle."],
+  ["ai-dashboard-explained", "ai-dashboard-explained",
+   "Un-merged from bi-dashboards, where the phrase 'AI dashboard' barely appears. 3,553 impressions, no clicks. Rebuilt as its own page."],
   ["is-ai-bi-just-text-to-sql-the-honest-difference-with-examples", "is-ai-bi-just-text-to-sql",
    "CTO-authored. Owns the text-to-SQL distinction, the sharpest differentiation argument the company has. Shortened from 61 chars to meet the slug rule."],
   ["from-4-hours-to-2-minutes-how-an-rcm-company-rebuilt-its-analytics", "from-4-hours-to-2-minutes-rcm-analytics",

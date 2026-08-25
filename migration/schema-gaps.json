@@ -1,9 +1,9 @@
 {
-  "postCount": 47,
+  "postCount": 49,
   "passing": 2,
-  "failing": 45,
+  "failing": 47,
   "byField": {
-    "statsCount": 45
+    "statsCount": 47
   },
   "posts": {
     "agentic-analytics": [
@@ -12,7 +12,13 @@
     "ai-analytics-governance": [
       "statsCount: at least 4 verifiable statistics"
     ],
+    "ai-dashboard-explained": [
+      "statsCount: at least 4 verifiable statistics"
+    ],
     "ai-data-analyst": [
+      "statsCount: at least 4 verifiable statistics"
+    ],
+    "ai-native-business-intelligence-tools": [
       "statsCount: at least 4 verifiable statistics"
     ],
     "analytics-without-a-data-team": [

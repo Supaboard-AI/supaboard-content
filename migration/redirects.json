@@ -26,11 +26,6 @@
       "why": "renamed"
     },
     {
-      "source": "/blog/ai-dashboard-explained",
-      "destination": "/blog/bi-dashboards",
-      "why": "merged"
-    },
-    {
       "source": "/blog/ai-data-analyst-how-it-works-and-best-tools-(2026)",
       "destination": "/blog/ai-data-analyst",
       "why": "renamed"
@@ -38,11 +33,6 @@
     {
       "source": "/blog/ai-meets-data-viz-how-generative-ai-tools-are-transforming-data-storytelling",
       "destination": "/blog/generative-business-intelligence",
-      "why": "merged"
-    },
-    {
-      "source": "/blog/ai-native-business-intelligence-tools",
-      "destination": "/blog/agentic-analytics",
       "why": "merged"
     },
     {
