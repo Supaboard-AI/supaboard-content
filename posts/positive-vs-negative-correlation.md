@@ -157,6 +157,8 @@ Important point to note: Correlation does not imply causation. Two things can be
 
 ## Understanding the Correlation Coefficient
 
+![Correlation coefficient scale from minus one to plus one, banded from strong negative to strong positive](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/positive-vs-negative-correlation/e1f2844609a6018c.png)
+
 The strength and direction of a correlation are measured by a number called the **correlation coefficient** (denoted as _r_). This value always ranges between **\-1 and +1**.
 
 -   A value near **+1** indicates a strong positive correlation.
@@ -226,6 +228,8 @@ On a scatter plot, negative correlations show a downward-sloping pattern.
 <!-- section:content-5 -->
 
 ## Positive vs Negative Correlation: Side-by-Side Comparison
+
+![Scatter plots showing positive, negative and no correlation between two business metrics](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/positive-vs-negative-correlation/8433d1a3a041a0e7.png)
 
 <table><tbody><tr><td><strong>Aspect</strong></td><td><strong>Positive Correlation</strong></td><td><strong>Negative (Inverse) Correlation</strong></td></tr><tr><td>Direction of Movement</td><td>Both variables move together</td><td>Variables move in opposite directions</td></tr><tr><td>Coefficient Sign</td><td>Positive (+)</td><td>Negative (-)</td></tr><tr><td>Graph Pattern</td><td>Upward slope</td><td>Downward slope</td></tr><tr><td>Everyday Example</td><td>More study time → Higher marks</td><td>Higher price → Lower demand</td></tr><tr><td>Practical Meaning</td><td>Variables reinforce each other</td><td>One variable counters the other</td></tr></tbody></table>
 

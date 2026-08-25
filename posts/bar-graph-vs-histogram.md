@@ -253,6 +253,8 @@ A simple way to tell the difference is by rearranging the bars. If shuffling the
 
 ## Histogram vs Bar Graph: Key Differences
 
+![The same dataset shown as a bar graph comparing regions and a histogram showing the distribution of order values](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bar-graph-vs-histogram/b4d857d4fc3842b1.png)
+
 The main difference between a histogram and a bar graph is the type of data they are designed to show and the purpose they serve.
 
 A **bar graph** compares values across distinct categories. A **histogram** shows how continuous numerical data is distributed across ranges.
