@@ -303,9 +303,24 @@ Second, ask who has to be involved and for how long before you see value. A real
 
 Third, run a short paid or trial pilot with real users, not just the champion who ran the demo. Let a salesperson and a non-technical ops person live in it for a week and try to break it. The tool that survives your team's actual questions is the one to buy.
 
-\[ANECDOTE SLOT — see note at the end of this file. Drop your real story here. It belongs right here in the closing, as the proof that these questions matter in the wild.\]
+Here is the condensed version to keep open during a call — the 12 questions and the red flag that goes with each one.
 
-If you want the condensed version to bring on calls, grab the one-page Rigged Demo Checklist below. It's the 12 questions plus the red flag for each, on a single sheet you can keep open during a demo.
+### The Rigged Demo Checklist
+
+| # | Ask | Red flag if you hear |
+| --- | --- | --- |
+| 1 | How does it handle joins across multiple data sources? | "It works best once your data is consolidated into one warehouse." |
+| 2 | Does it understand our business definitions, or does it guess? | it asks "which revenue field?" every single time, or worse, silently picks one and never tells you. |
+| 3 | When my question is vague, does it ask what I mean or just guess an answer? | it instantly returns a confident chart for a question that had four possible meanings. |
+| 4 | What does it do when it genuinely doesn't know? | it always returns something, because returning something always demos better than admitting a gap. |
+| 5 | Can I see and audit the exact query it ran? | "you can just trust the answer," |
+| 6 | Can it tell me why a metric changed, not just what changed? | it can draw the decline beautifully but has nothing to say about the cause. |
+| 7 | When it gets something wrong, can a non-technical person fix it, and does that fix stick for everyone? | "you can rephrase your question." |
+| 8 | What happens when our schema or data model changes? | everything breaks and you file a ticket. |
+| 9 | Can my team keep the conversation going with follow-ups and drill-downs? | every question is a blank slate and you have to restate the full context each time. |
+| 10 | Can I embed it in my own product and ship it with the AI inside? | "embedding" |
+| 11 | How does it handle data governance and access control? | the AI queries everything regardless of who's asking. |
+| 12 | What does pricing actually scale with? | pricing scales per query or per "question asked. |
 
 <!-- section:content-4 -->
 

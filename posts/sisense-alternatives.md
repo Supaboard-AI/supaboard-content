@@ -170,7 +170,7 @@ Supaboard is an AI-native BI platform: you connect your data, then trainable AI 
 
 **Weakness:** it's newer to market than the legacy players here, so you won't find the decade of Stack Overflow threads and consultant ecosystem that Power BI or Qlik have built up.
 
-**Pricing shape:** Individual plans start around $85/user/month, Business around $199/user/month, Enterprise is custom. Governance includes RBAC, audit logs, and SOC 2, with a HIPAA BAA as a paid add-on. See [Supaboard's roundup of the best AI BI tools](/blog/best-ai-bi-tools) for the full comparison.
+**Pricing shape:** Individual is $99/seat/month, Business $249/seat/month (or $83 and $208 billed yearly), Enterprise is custom. Governance includes RBAC, audit logs, and SOC 2, with a HIPAA BAA as a paid add-on. See [Supaboard's roundup of the best AI BI tools](/blog/best-ai-bi-tools) for the full comparison.
 
 ### 2\. ThoughtSpot: best for search-driven AI analytics
 

@@ -211,7 +211,7 @@ This one-time investigation is **ad hoc analysis**. You created it just to answe
 
 These kinds of questions are not meant for permanent dashboards. They need flexible, temporary, and investigative analysis. That is exactly what **ad hoc queries** are designed for.
 
-##### Gartner: Self-Service Analytics Drives Faster Business Decisions
+##### Gartner (2018): Self-Service Analytics Drives Faster Business Decisions
 
 **Source:** [Gartner](https://www.gartner.com/en/newsroom/press-releases/2018-01-25-gartner-says-self-service-analytics-and-bi-users-will-produce-more-analysis-than-data-scientists-will-by-2019)
 
@@ -219,7 +219,7 @@ These kinds of questions are not meant for permanent dashboards. They need flexi
 > Gartner highlights how organizations that adopt **self-service analytics** enable business users to perform **ad hoc queries** without relying on data teams. This shift reduces reporting bottlenecks and accelerates decision-making, especially when teams need answers to unexpected questions that dashboards cannot cover.
 > 
 > **Key Insight:**  
-> Gartner predicts that **business users will produce more ad hoc analysis than data scientists**, driven by intuitive BI tools that support on-demand querying.
+> Gartner forecast in 2018 that **business users would produce more ad hoc analysis than data scientists**, driven by intuitive BI tools that support on-demand querying. That crossover has since become the default assumption behind every self-service BI product, which is why the interesting question in 2026 is no longer whether business users query directly, but how well the tool handles the questions they ask.
 
 <!-- section:content-4 -->
 

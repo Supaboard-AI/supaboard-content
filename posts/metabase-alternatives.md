@@ -295,7 +295,7 @@ It’s also a strong fit for mid-market companies that want to move faster witho
 
 ### **Pricing**
 
-[Supaboard](/pricing) offers flexible pricing based on team size, data usage, and features. It is designed to be accessible for startups while scaling with growing businesses.
+[Supaboard](/pricing) is priced flat per seat: $99/seat/mo on Individual and $249/seat/mo on Business, or $83 and $208 per seat billed yearly. Enterprise is quoted. Rates as of August 2026.
 
 Compared to traditional BI tools, the value comes from reduced dependency on analysts and faster decision-making, not just lower cost.
 

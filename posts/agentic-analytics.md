@@ -33,7 +33,7 @@ sections:
   - id: content-3
     heading: What Teams Are Actually Saying About BI Tools
   - id: content-14
-    heading: The Data Behind the Frustration
+    heading: The Pattern Behind the Frustration
   - id: content-15
     heading: What Changes with Agentic Analytics
   - id: content-16
@@ -120,9 +120,6 @@ citations:
   - claim: Reference on gartner from Gartner
     source: Gartner
     url: 'https://www.gartner.com/en/documents/7367030'
-  - claim: Reference on reddit threads from reddit.com
-    source: reddit.com
-    url: 'https://www.reddit.com/'
   - claim: Large language models are the substrate agentic analytics is built on
     source: IBM
     url: 'https://www.ibm.com/think/topics/large-language-models'
@@ -177,15 +174,13 @@ These conversations highlight something important, the problem is no longer acce
 
 <!-- section:content-14 -->
 
-## The Data Behind the Frustration
+## The Pattern Behind the Frustration
 
-What teams share in discussions isn’t just anecdotal, it’s backed by broader industry patterns that highlight the same underlying issues with traditional BI workflows.
+What teams describe in these discussions is not one company's bad luck. The same shape recurs: a dashboard is commissioned, built, reviewed once, and then quietly stops being opened — not because the numbers are wrong, but because the question moved and the dashboard did not.
 
-Several studies and industry estimates suggest that a significant portion of dashboards go underutilized after they are built. In some cases, up to 60–70% of dashboards are rarely used beyond initial creation, which points to a disconnect between building analytics and actually using it for decisions.
+The cost of that is easy to miss because it never shows up as a failure. Nobody files a ticket saying the dashboard went stale. The team simply routes around it, asks an analyst, waits, and makes the call a week later than it could have. The loss is the delay, and delay is invisible in every report except the one nobody runs.
 
-At the same time, the cost of delayed decision-making is becoming more visible. Research from McKinsey & Company indicates that organizations adopting AI-driven decision systems are able to reduce decision latency and improve operational efficiency, especially in dynamic environments where timing directly impacts outcomes.
-
-Taken together, these signals reinforce a simple idea: the challenge is no longer access to data, but the ability to act on it quickly and consistently. This is exactly where the shift from traditional BI to more agentic systems begins to make practical sense.
+That is the real problem statement: the constraint is no longer access to data, it is the time between a question forming and an answer arriving. This is exactly where the shift from traditional BI to more agentic systems begins to make practical sense.
 
 <!-- section:content-15 -->
 
