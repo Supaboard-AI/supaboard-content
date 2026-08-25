@@ -31,15 +31,15 @@ sections:
   - id: content-2
     heading: The 5 Layers of Database Optimization
   - id: content-3
-    heading: 7 Techniques for Effective Database Optimization (Step-by-Step)
+    heading: 6 Techniques for Effective Database Optimization (Step-by-Step)
   - id: content-4
     heading: Database Optimization Techniques
   - id: content-5
     heading: Common Database Optimization Mistakes
   - id: content-6
-    heading: Frequently Asked Questions (FAQs)
-  - id: content-7
     heading: Frequently Asked Questions
+  - id: content-7
+    heading: What are the most common database optimization techniques?
   - id: content-8
     heading: Conclusion
 featured:
@@ -149,7 +149,7 @@ In real-world systems, nearly **85–90% of performance problems trace back to i
 
 Most teams treat optimization like a checklist add indexes, scale servers, tweak queries, but that approach only works for a while. Real performance comes from understanding that slowdowns are chain reactions across layers, where fixing the wrong layer can hide the actual problem. This framework helps you understand what to optimize, where to start, and why it matters.
 
-1.  ### Database Design (Where Performance Is Decided Early)
+### Layer 1: Database Design (Where Performance Is Decided Early)
     
 
 ### Why it matters:
@@ -192,7 +192,7 @@ It’s common to see over-normalized tables requiring multiple joins for simple 
 
 In several cases, redesigning the schema, by simplifying relationships or aligning tables with real access patterns, significantly improved performance without changing queries or infrastructure.
 
-2.  ### Index Optimization (Controlling How Data is Accessed)
+### Layer 2: Index Optimization (Controlling How Data Is Accessed)
     
 
 **Why it matters:**  
@@ -222,7 +222,7 @@ If your query is clean but indexes are wrong, performance will still suffer
 **Real-world insight:**  
 A common mistake is adding multiple indexes hoping one will “fix” a slow query. It might work temporarily, but without understanding how the query accesses data, it often leads to bloated databases and inconsistent performance.
 
-3.  ### Schema Optimization (Designing for Reality, Not Theory)
+### Layer 3: Schema Optimization (Designing for Reality, Not Theory)
     
 
 **Why it matters:**  
@@ -252,7 +252,7 @@ Teams often over-normalize in the name of “best practices,” splitting data i
 -   Result: slower performance even with good indexing
     
 
-4.  ### Infrastructure Optimization (Scaling What Already Works)
+### Layer 4: Infrastructure Optimization (Scaling What Already Works)
     
 
 **Why it matters:**  
@@ -291,7 +291,7 @@ Many experienced engineers say the same thing:
 
 That’s why infrastructure should be your **last optimization step, not the first**.
 
-### Concurrency & Connection Layer (Controlling Load and Stability)
+### Layer 5: Concurrency and Connections (Controlling Load and Stability)
 
 ### Why it matters:
 
@@ -339,7 +339,7 @@ _To better understand where optimization fits in modern systems, explore the_ [_
 
 <!-- section:content-3 -->
 
-## 7 Techniques for Effective Database Optimization (Step-by-Step)
+## 6 Techniques for Effective Database Optimization (Step-by-Step)
 
 Database optimization works best when you follow a clear order instead of jumping between fixes. Each step builds on the previous one, helping you solve root problems instead of applying temporary patches.
 
@@ -469,51 +469,41 @@ Many teams don’t track slow queries until users complain. No visibility into q
 
 <!-- section:content-6 -->
 
-### Frequently Asked Questions (FAQs)
+## Frequently Asked Questions
 
-#### What does database optimization actually improve in real use?
+### What does database optimization actually improve in real use?
 
 [Database optimization](https://www.ibm.com/think/topics/database-optimization) improves query speed, reduces load time, and keeps systems stable under traffic. For users, it means faster apps and fewer errors. For teams, it reduces costs, avoids scaling issues, and keeps performance predictable as data grows.
 
-#### How can I identify slow queries in my database?
+### How can I identify slow queries in my database?
 
 Start with slow query logs and monitoring tools. Look for queries with high execution time or frequent runs. Then check execution plans to find bottlenecks like full scans, missing indexes, or inefficient joins impacting performance.
 
-#### When should I add indexes to a database?
+### When should I add indexes to a database?
 
 Add indexes when queries frequently filter, sort, or join on specific columns. Don’t add them blindly. First analyze query patterns, then create indexes where they actually reduce execution time without hurting write performance or increasing storage overhead.
 
-#### Why is my database slow even after adding indexes?
+### Why is my database slow even after adding indexes?
 
 Indexes alone don’t fix everything. Poor query design, large data scans, too many joins, or outdated statistics can still slow things down. Sometimes, removing unnecessary indexes or rewriting queries has a bigger impact than adding new ones.
 
-#### What is the fastest way to improve database performance?
+### What is the fastest way to improve database performance?
 
 The fastest wins usually come from fixing inefficient queries and adding the right indexes. Start with high-impact queries, analyze execution plans, and optimize step by step instead of making large, untested changes across the system.
 
 <!-- section:content-7 -->
 
-### Frequently Asked Questions
-
-#### 1\. What is database optimization and why is it important?
-
-Database optimization focuses on improving how efficiently a database processes and retrieves data. It plays a critical role in reducing delays, improving application responsiveness, and managing system resources effectively, especially as data volume and user traffic increase over time.
-
-#### 2\. What are the most common database optimization techniques?
+### What are the most common database optimization techniques?
 
 Widely used methods include creating indexes, refining queries, implementing caching, partitioning large tables, and optimizing schema design. These approaches help reduce processing overhead, improve query speed, and ensure smoother performance under varying workloads.
 
-#### 3\. What is the difference between query optimization and database tuning?
+### What is the difference between query optimization and database tuning?
 
 Query optimization targets improving specific SQL statements for faster execution, while database tuning involves broader enhancements like indexing strategies, schema structure, and system configuration to improve overall database performance.
 
-#### 4\. What tools are used for database optimization?
+### What tools are used for database optimization?
 
 Various tools assist in monitoring and improving database performance, such as SolarWinds Database Performance Analyzer, Datadog, New Relic, MySQL Workbench, and pgAdmin. These platforms help identify slow queries, analyze workloads, and provide actionable insights for optimization.
-
-#### 5\. What are common mistakes to avoid in database optimization?
-
-Common pitfalls include overusing `SELECT *`, neglecting indexing, ignoring execution plans, running large unfiltered queries, and failing to monitor performance regularly. These issues can lead to slower response times and inefficient resource utilization.
 
 <!-- section:content-8 -->
 

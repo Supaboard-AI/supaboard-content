@@ -33,7 +33,7 @@ sections:
   - id: content-3
     heading: How Natural Language Query (NLQ) Works in Analytics
   - id: content-4
-    heading: How Natural Language Querying Works in Modern BI Platforms?
+    heading: How an NLQ Question Becomes an Answer
   - id: content-10
     heading: 'AI and Agentic Analytics: Where Natural Language Query Is Heading'
   - id: content-5
@@ -190,7 +190,7 @@ Most people think in questions, not in SQL or complex dashboards. Natural langua
 
 When you type a question such as “How did we perform last quarter?” or “Which customers are at risk of churning?”, natural language querying understands the intent, translates it into a database query, and returns results as clear charts, tables, or summaries. No coding or technical skills are required.
 
-### How Natural Language Query Works Step by Step
+### The Four Technologies Behind It
 
 Natural language query (NLQ) in analytics combines several advanced technologies to understand questions and deliver accurate answers. Here’s how each component works:
 
@@ -205,16 +205,71 @@ Natural language query (NLQ) in analytics combines several advanced technologies
 
 The entire process happens in seconds, allowing users to interact with complex databases and knowledge graphs using plain English, without writing any code.
 
-The process works as follows:
+![Visual illustration showing how a natural language query moves from human intent to data processing and results in a modern BI platform.](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/natural-language-query-analytics/3654984f2d10db99.png?w=768&h=512)
 
-1.  The user asks a question in everyday language.
+<!-- section:content-4 -->
+
+### How an NLQ Question Becomes an Answer
+
+#### **Step 1 : Understanding the Question**
+
+The first job of an NLQ system is to understand what the user is actually asking.
+
+People don’t speak in database terms, they use business language. The system identifies:
+
+-   The **intent** of the question (what the user wants to know)
     
-2.  The system analyzes the intent, metrics, dimensions, and timeframes.
+-   Key business concepts like **revenue, customers, regions, or time periods**
     
-3.  It automatically generates and executes the correct query.
+-   Different ways of asking the same thing (for example, “last quarter” vs “Q4”)
     
-4.  Results appear instantly as easy-to-understand charts, tables, or insights.
+
+This step is about translating human language into a clear analytical question.
+
+#### **Step 2: Connecting the Question to the Right Data**
+
+Once the intent is clear, the platform connects the question to the correct data.
+
+**It:**
+
+-   Matches business terms to the company’s data definitions
     
+-   Understands which metrics, tables, and calculations apply
+    
+-   Uses shared definitions so “revenue” means the same thing everywhere
+    
+
+This is why clean, well-defined data matters, accurate questions only produce accurate answers when everyone agrees on what the numbers mean.
+
+#### **Step 3: Getting the Answer from Live Data**
+
+Next, the system turns the question into a data request automatically.
+
+Behind the scenes:
+
+-   The question is translated into a query the database understands
+    
+-   Data is pulled from live systems like cloud warehouses
+    
+-   Results reflect the most current, trusted data available
+    
+
+From the user’s perspective, this feels instant, even though complex work is happening invisibly.
+
+#### **Step 4: Showing and Explaining the Result**
+
+Finally, the answer is presented in a way that’s easy to understand.
+
+The platform:
+
+-   Displays results as [charts](/blog/bar-graph-vs-histogram), tables, or simple summaries
+    
+-   Adds explanations to help users interpret what they’re seeing
+    
+-   Builds confidence by making AI-driven answers feel transparent and clear
+    
+
+The goal isn’t just to show numbers, it’s to help people act on them.
 
 ### Key Benefits of Natural Language Query
 
@@ -230,74 +285,6 @@ The process works as follows:
     
 
 In short, natural language query makes [data-driven decisions](/blog/bi-dashboards) faster by removing the barriers between asking a question and getting an actionable answer.
-
-<!-- section:content-4 -->
-
-## How Natural Language Querying Works in Modern BI Platforms?
-
-**Natural Language Querying** works by turning everyday business questions into reliable data answers, without users needing to know how data is stored or queried. Instead of navigating dashboards or writing queries, people simply ask what they want to know, and the system handles the complexity in the background.
-
-![Visual illustration showing how a natural language query moves from human intent to data processing and results in a modern BI platform.](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/natural-language-query-analytics/3654984f2d10db99.png?w=768&h=512)
-
-##### **Step 1 : Understanding the Question**
-
-The first job of an NLQ system is to understand what the user is actually asking.
-
-People don’t speak in database terms, they use business language. The system identifies:
-
--   The **intent** of the question (what the user wants to know)
-    
--   Key business concepts like **revenue, customers, regions, or time periods**
-    
--   Different ways of asking the same thing (for example, “last quarter” vs “Q4”)
-    
-
-This step is about translating human language into a clear analytical question.
-
-##### **Step 2: Connecting the Question to the Right Data**
-
-Once the intent is clear, the platform connects the question to the correct data.
-
-**It:**
-
--   Matches business terms to the company’s data definitions
-    
--   Understands which metrics, tables, and calculations apply
-    
--   Uses shared definitions so “revenue” means the same thing everywhere
-    
-
-This is why clean, well-defined data matters, accurate questions only produce accurate answers when everyone agrees on what the numbers mean.
-
-##### **Step 3: Getting the Answer from Live Data**
-
-Next, the system turns the question into a data request automatically.
-
-Behind the scenes:
-
--   The question is translated into a query the database understands
-    
--   Data is pulled from live systems like cloud warehouses
-    
--   Results reflect the most current, trusted data available
-    
-
-From the user’s perspective, this feels instant, even though complex work is happening invisibly.
-
-##### **Step 4: Showing and Explaining the Result**
-
-Finally, the answer is presented in a way that’s easy to understand.
-
-The platform:
-
--   Displays results as [charts](/blog/bar-graph-vs-histogram), tables, or simple summaries
-    
--   Adds explanations to help users interpret what they’re seeing
-    
--   Builds confidence by making AI-driven answers feel transparent and clear
-    
-
-The goal isn’t just to show numbers, it’s to help people act on them.
 
 ### Natural Language Query vs Traditional BI Tools
 
@@ -372,7 +359,7 @@ Understanding these differences is crucial when evaluating natural language quer
 
 <!-- section:content-6 -->
 
-## **Which BI Tool Has the Best Natural Language Query Feature?**
+## Which BI Tool Has the Best Natural Language Query Feature?
 
 There is no single best BI tool for natural language query (NLQ). The right choice depends on your organization’s size, data complexity, governance requirements, and scalability needs.
 
