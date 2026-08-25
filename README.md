@@ -104,13 +104,13 @@ publishedAt: YYYY-MM-DD          # drives ordering and datePublished
 updatedAt:   YYYY-MM-DD          # drives dateModified
 readMinutes: 9
 readLabel:   "9 mins"            # rendered verbatim in the byline pill
-author:      { name, role, avatar }
+author:      { name, title, avatar }
 cover:       { url, alt, width, height }
 ogImage:     absolute URL, 1200×630
 sections:    [ { id: content-1, heading: … } ]   # builds the table of contents
 featured:    { choice: N|null, trending: N|null } # 1-based slot in each /blog rail
 related:     [ slug, … ]                          # "Related Blogs" rail
-faq:         [ { question, answer } ]             # becomes FAQPage JSON-LD
+faq:         [ { q, a } ]                         # becomes FAQPage JSON-LD
 source:      { url, migratedAt }                  # provenance, not rendered
 ```
 

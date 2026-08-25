@@ -13,10 +13,10 @@ updatedAt: '2025-12-23'
 readMinutes: 7
 readLabel: 7 Min Read
 author:
-  name: Deepak Singh
-  title: SEO & Content Writer
+  name: Subhrajyoti Modak
+  title: Co-Founder & CTO
   avatar: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
   url: >-
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/tableau-alternatives/c954ddc962f173b8.png
