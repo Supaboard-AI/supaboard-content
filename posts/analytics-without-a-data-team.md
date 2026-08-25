@@ -182,7 +182,7 @@ You no longer need to write SQL to create advanced reports. Business users can j
 
 ## Natural Language Query: Just Ask in Plain English
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/how-supaboard-democratizes-data-analytics-no-more-tech-team-dependence/c88b3969fc0ea37d.png?w=1199&h=367)
+![Natural language query in Supaboard answering a business question in plain English](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/how-supaboard-democratizes-data-analytics-no-more-tech-team-dependence/c88b3969fc0ea37d.png?w=1199&h=367)
 
 Users love the [**Natural Language Query**](/blog/natural-language-query-analytics) capability. Instead of learning a new tool or writing code, you can simply type or speak your question:
 

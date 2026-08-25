@@ -185,7 +185,7 @@ There are several ways to embed analytics into a product. Some teams connect thr
 
 ## Build vs Buy: Choosing Your Embedded Analytics Solution
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/embedded-analytics-in-2025-how-it-works-benefits-ai-role-and-business-impact/71c22bb6d0090507.png?w=768&h=512)
+![Build versus buy comparison for an embedded analytics solution](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/embedded-analytics-in-2025-how-it-works-benefits-ai-role-and-business-impact/71c22bb6d0090507.png?w=768&h=512)
 
 **Building** from scratch gives full control over **custom analytics solutions**, but it can be expensive and slow to launch.
 
@@ -201,7 +201,7 @@ A mid sized HR software company needed analytics for its clients. Building from 
 
 ## Key Features to Look for in an Embedded Analytics Platform
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/embedded-analytics-in-2025-how-it-works-benefits-ai-role-and-business-impact/ee9bd050055cd7a3.png?w=768&h=512)
+![Key features to look for when evaluating an embedded analytics platform](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/embedded-analytics-in-2025-how-it-works-benefits-ai-role-and-business-impact/ee9bd050055cd7a3.png?w=768&h=512)
 
 -   A seamless look and feel that blends into your product
     

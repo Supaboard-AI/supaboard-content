@@ -346,7 +346,7 @@ Instead of manually struggling with **histogram vs bar graph** decisions, Supabo
 
 Whether you need to compare sales performance across regions using bar graphs or analyze customer age distribution with histograms, Supaboard helps you choose and create the right chart quickly and confidently.
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bar-graph-vs-histogram/d3b4435a2a3f6b4a.png?w=1132&h=647)
+![Supaboard dashboard comparing regional sales as a bar graph alongside a distribution histogram](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bar-graph-vs-histogram/d3b4435a2a3f6b4a.png?w=1132&h=647)
 
 #### Try Supaboard
 

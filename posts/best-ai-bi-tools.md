@@ -214,7 +214,7 @@ Whether you're a data team, founder, or business user, this guide compares the t
 
 ### 1\. Supaboard
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/d01d47ca2d08caab.png?w=800&h=456)
+![Supaboard AI BI dashboard showing insights generated from a plain-language question](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/d01d47ca2d08caab.png?w=800&h=456)
 
 [Supaboard](/) is a modern AI-powered BI tool built for teams that want fast insights without heavy setup. Instead of depending only on dashboards, it focuses on helping users explore data using AI, generate visuals instantly, and understand business metrics quickly. It is designed for startups and growing teams that want self-service analytics without relying too much on analysts.
 
@@ -232,7 +232,7 @@ The main strength of Supaboard is speed and simplicity. It reduces the time betw
 
 ### 2\. Microsoft Power BI
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/01b2aae53704de82.png?w=800&h=420)
+![Microsoft Power BI report interface with charts and the visualizations pane](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/01b2aae53704de82.png?w=800&h=420)
 
 [Microsoft Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) is one of the most popular **business intelligence tools** used across companies. It is especially strong for organizations already using Microsoft products like Excel, Azure, and Teams. It combines dashboards, reporting, and analytics into one platform and is widely adopted because of its affordability and ease of use.
 
@@ -250,7 +250,7 @@ The biggest strength of Power BI is its cost and ecosystem integration. It works
 
 ### **3\. Tableau**
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/873eebfaef0b34cf.png?w=800&h=447)
+![Tableau workbook showing an interactive multi-chart dashboard](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/873eebfaef0b34cf.png?w=800&h=447)
 
 [Tableau](https://www.tableau.com/) is a leading **data visualization and business intelligence tool** known for its strong visual analytics capabilities. It is widely used by analysts and enterprises that need detailed insights and interactive dashboards. Tableau is especially popular for storytelling with data and presenting insights clearly to stakeholders.
 
@@ -268,7 +268,7 @@ Tableau’s biggest strength is its powerful visualization capabilities. It allo
 
 ### 4\. Qlik Sense
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/a7640b3a99b54cd2.png?w=800&h=453)
+![Qlik Sense dashboard with associative filters applied across charts](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/a7640b3a99b54cd2.png?w=800&h=453)
 
 [Qlik Sense](https://www.qlik.com/us/products/qlik-sense) is a **self-service BI tool** designed for flexible data exploration. It uses an associative data model, which allows users to explore relationships across datasets without predefined queries. It is commonly used by organizations that need deeper analysis and flexible reporting.
 
@@ -286,7 +286,7 @@ The main strength of Qlik Sense is flexibility. Users can explore data in multip
 
 ### 5\. ThoughtSpot
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/7b075834f549b986.png?w=800&h=417)
+![ThoughtSpot search bar returning a chart in response to a typed question](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/7b075834f549b986.png?w=800&h=417)
 
 [ThoughtSpot](https://www.thoughtspot.com/) is an **AI-powered analytics platform** focused on search-based data exploration. Instead of building dashboards, users can simply ask questions and get answers instantly. It is designed mainly for business users who want quick insights without technical effort.
 
@@ -304,7 +304,7 @@ Its biggest strength is ease of use. Business users can quickly get answers with
 
 ### 6\. Looker
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/7ba85b337c85de96.png?w=800&h=402)
+![Looker dashboard built on a governed LookML semantic model](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/7ba85b337c85de96.png?w=800&h=402)
 
 Looker is a modern **business intelligence platform** owned by Google, mainly used for data modeling and governance. It is popular among companies using Google Cloud and BigQuery, where maintaining consistent metrics across teams is important.
 
@@ -322,7 +322,7 @@ The main strength of Looker is governance and consistency. It helps teams mainta
 
 ### 7\. Domo
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/a7fc51c9073278dc.png?w=800&h=401)
+![Domo dashboard combining cards from multiple connected data sources](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/a7fc51c9073278dc.png?w=800&h=401)
 
 [Domo](https://www.domo.com/) is an **all-in-one BI platform** that combines data integration, dashboards, and analytics in one place. It is designed for companies that want a complete solution without using multiple tools for different workflows.
 
@@ -340,7 +340,7 @@ The biggest strength of Domo is that it provides everything in one platform. How
 
 ### 8\. Sisense
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/8d179a5abe846ba7.png?w=800&h=432)
+![Sisense dashboard embedding analytics widgets alongside application data](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-ai-bi-tools/8d179a5abe846ba7.png?w=800&h=432)
 
 [Sisense](https://www.sisense.com/) is a **developer-focused BI tool** known for embedded analytics and customization. It is often used by companies that want to integrate analytics into their own products or platforms.
 

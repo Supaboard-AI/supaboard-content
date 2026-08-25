@@ -301,7 +301,7 @@ Most modern organizations use all three together to manage data efficiently.
 
 ### Database vs Data Lake vs Data Warehouse: Detailed Comparison Table
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/database-vs-data-warehouse-vs-data-lake-guide/df24e02c51e7b035.png?w=768&h=388)
+![Comparison table of database vs data warehouse vs data lake across structure, use case and cost](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/database-vs-data-warehouse-vs-data-lake-guide/df24e02c51e7b035.png?w=768&h=388)
 
 The following table compares **databases, data warehouses, and data lakes** across key technical, business, and operational factors.
 

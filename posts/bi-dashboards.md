@@ -1,7 +1,7 @@
 ---
 slug: bi-dashboards
 status: published
-title: 'BI Dashboard: What It Is, Why It Matters & How It Helps.'
+title: 'BI Dashboard: What It Is, Why It Matters & How It Helps'
 description: >-
   A dashboard exists to trigger a decision by a named person. How to build one
   that does, which metrics belong on it, and when you should delete it again.

@@ -29,7 +29,7 @@ ogImage: >-
   https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/cad9ad263220fd6f.png
 sections:
   - id: content-1
-    heading: Introducution
+    heading: Introduction
   - id: content-2
     heading: What Is Data Connectivity?
   - id: content-3
@@ -150,7 +150,7 @@ statsCount: 2
 
 <!-- section:content-1 -->
 
-## Introducution
+## Introduction
 
 Most teams don’t struggle with data because they lack tools, they struggle because their data is disconnected.
 

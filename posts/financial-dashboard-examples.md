@@ -3,7 +3,7 @@ slug: financial-dashboard-examples
 status: published
 title: Financial Dashboard Examples You Should Use in 2026 (With KPIs)
 description: >-
-  Exploreadding  financial dashboard examples with key KPIs, real use cases, and
+  Explore financial dashboard examples with key KPIs, real use cases, and
   layouts businesses use to track revenue, cash flow, and performance in real
   time.
 category: data

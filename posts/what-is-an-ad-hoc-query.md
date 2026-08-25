@@ -157,7 +157,7 @@ Normally, with dashboards, you’re limited to what someone else designed. If th
 
 **See below image for a better explanation:**
 
-![Supaboard Dashbaord for Ad Hoc Query](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-an-ad-hoc-query/e37e6a31bf03d1a6.png?w=1436&h=812)
+![Supaboard dashboard answering an ad hoc query](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-an-ad-hoc-query/e37e6a31bf03d1a6.png?w=1436&h=812)
 
 ### What Makes a Query Truly Ad Hoc?
 

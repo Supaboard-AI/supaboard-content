@@ -199,7 +199,7 @@ DBT treats analytics like production code, even when the team writing it is smal
 
 This is where DBT quietly earns its reputation.
 
-![](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/dbt-guide/8b07e277ffed06b2.png?w=642&h=512)
+![dbt transforming raw warehouse tables into modelled, tested data for a pipeline](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/dbt-guide/8b07e277ffed06b2.png?w=642&h=512)
 
 ### It creates a single place for business logic
 
