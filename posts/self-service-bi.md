@@ -208,13 +208,36 @@ Traditional BI adds layers to ensure accuracy and consistency, while self-servic
 
 Most articles compare tools. What actually matters is how each approach affects decision-making and operational efficiency.
 
-| Dimension | Traditional BI | Self-Service BI |
-| --- | --- | --- |
-| Decision Speed | Delayed due to request cycles | Immediate, user-driven |
-| Data Trust | High due to controlled pipelines | Depends on data structure |
-| Scalability | Limited by analyst capacity | Scales across teams easily |
-| Flexibility | High customization | Limited by tool capabilities |
-| Risk | Low (controlled environment) | Higher (misinterpretation risk) |
+| Dimension | Traditional BI | Self-Service BI | AI-Native BI |
+| --- | --- | --- | --- |
+| **Who builds the view** | A data team, on request | A business user, from a template | The person asking, by describing it |
+| **Decision speed** | Days — request cycles | Minutes, if a view exists | Immediate, including follow-ups |
+| **Who writes the logic** | Analysts, in SQL | Drag-and-drop, within tool limits | The system, from a defined model |
+| **Data trust** | High — controlled pipelines | Depends on user discipline | Depends on the semantic layer |
+| **Metric consistency** | Enforced centrally | Drifts as users build their own | Enforced centrally, applied automatically |
+| **Handles the follow-up** | New request, back of the queue | Only if the view anticipated it | Yes — that is the point |
+| **Cross-system questions** | Possible, after modelling work | Usually not without pre-joining | Yes, if the connectors reach the sources |
+| **Scalability** | Limited by analyst headcount | Scales across teams | Scales, but needs governed definitions |
+| **Governance risk** | Low — controlled environment | Higher — misinterpretation and metric sprawl | Low if auditable, high if a black box |
+| **Fails when** | The question is urgent | The question is novel | Nothing has been defined |
+
+### Which One Should You Choose?
+
+Not a maturity ladder — most organisations run all three, and the question is
+which one owns a given job.
+
+- **Choose traditional BI** when the number is regulated, the format is fixed, or
+  a wrong answer is expensive. Financial reporting is not a self-service problem.
+- **Choose self-service BI** when your questions are mostly variations on known
+  ones, your data is already modelled, and the bottleneck is analyst capacity
+  rather than analyst skill.
+- **Choose [AI-native BI](/blog/ai-native-business-intelligence-tools)** when the
+  valuable questions are the unplanned ones, they span systems, and the people
+  asking them cannot write SQL — provided you have agreed definitions for the
+  system to reason over.
+- **Fix your definitions first** if three teams would give three different answers
+  to "how many active customers do we have". No interface solves that; the newer
+  ones just surface the disagreement faster.
 
 Research from [Forrester Research](https://tei.forrester.com/go/Entrata/PropertyManagement/) shows that many business users wait days or even weeks for insights when relying on centralized BI teams. This delay directly affects productivity, especially in fast-moving functions like marketing and product development.
 

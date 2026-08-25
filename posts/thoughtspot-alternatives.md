@@ -222,6 +222,8 @@ Basedash is an [AI-native business intelligence](/blog/agentic-analytics) platfo
 -   **Best For**: Teams needing governed conversational interfaces, quick dashboard creation, and a mix of analytics plus admin/operational tooling.
     
 -   **Trade-offs**: Its focus on tools + analytics may differ from broad enterprise-wide search platforms, with pricing starting at $250/month for basic plans.
+
+*Head to head: [Supaboard vs Basedash](/compare/basedash).*
     
 
 ### 5\. Domo
@@ -235,6 +237,8 @@ Domo is a comprehensive, cloud-native BI and data platform that includes built-i
 -   **Trade-offs**: Can have an enterprise-oriented pricing model and its own learning curve for full utilization; may feel heavyweight for simpler analytics-only needs.
 
 <!-- section:content-5 -->
+
+*Head to head: [Supaboard vs Domo](/compare/domo).*
 
 ## Quick Comparison Table
 

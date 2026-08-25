@@ -9,7 +9,7 @@ category: data
 tags:
   - SaaS
 publishedAt: '2026-01-09'
-updatedAt: '2026-01-09'
+updatedAt: '2026-08-25'
 readMinutes: 5
 readLabel: 5 Min Read
 author:
@@ -28,12 +28,16 @@ ogImage: >-
 sections:
   - id: content-1
     heading: Introduction
+  - id: content-10
+    heading: Ad Hoc Query vs Ad Hoc Reporting vs Standard Report
   - id: content-2
     heading: What Is an Ad Hoc Query? A Better Way to Explore and Understand Your Data
   - id: content-3
     heading: Meaning of Ad Hoc in Business and Data
   - id: content-4
     heading: How Ad Hoc Queries Work
+  - id: content-11
+    heading: 'Ad Hoc Query Examples: The Question and the SQL'
   - id: content-5
     heading: Ad Hoc Query vs Reports and Analysis
   - id: content-9
@@ -135,6 +139,11 @@ statsCount: 0
 
 ## Introduction
 
+**An ad hoc query is a one-off database request written to answer a specific,
+unplanned question — built on the spot rather than saved as a recurring report.
+Unlike a dashboard, which answers questions decided in advance, an ad hoc query
+is created the moment the question arises and is usually discarded afterwards.**
+
 Most business intelligence systems are built around predefined dashboards and recurring reports. These tools are great for tracking known metrics such as monthly revenue, active users, or churn rate. But real business decisions rarely come only from known questions.
 
 In reality, teams often face unexpected situations. A sudden drop in conversions. A spike in support tickets. A campaign that performed well in one region but poorly in another. These moments demand immediate answers.
@@ -144,6 +153,25 @@ This is where **ad hoc analysis** becomes critical.
 Instead of waiting for a new report to be created, users can directly explore data and shape it around the question they are trying to answer. Ad hoc queries allow teams to move faster, think deeper, and make informed decisions without being limited by fixed dashboards.
 
 In simple terms, **an ad hoc query** is a custom data request created to answer a specific, unplanned business question.
+
+<!-- section:content-10 -->
+
+## Ad Hoc Query vs Ad Hoc Reporting vs Standard Report
+
+These three get used interchangeably and mean different things. The difference is
+lifespan and audience, not technology.
+
+| | Ad hoc query | Ad hoc reporting | Standard report |
+| --- | --- | --- | --- |
+| **Answers** | One specific question, right now | A question, plus the shape to explore around it | Questions decided in advance |
+| **Lifespan** | Minutes — usually discarded | Days to weeks, sometimes saved | Months or years, scheduled |
+| **Built by** | The person with the question | An analyst, or a business user in a self-service tool | A data team, once |
+| **Audience** | The asker | A team | The organisation |
+| **Changes when** | The next follow-up occurs | The exploration moves on | Requirements formally change |
+| **Typical trigger** | "Why did Tuesday dip?" | "I need to look into the Tuesday dip properly" | "Show revenue every Monday" |
+
+The practical rule: if you would be annoyed to rebuild it tomorrow, it is not an
+ad hoc query. Ad hoc work is cheap precisely because it is disposable.
 
 <!-- section:content-2 -->
 
@@ -258,6 +286,60 @@ This process often repeats multiple times until the real reason behind a trend o
 Once users find something meaningful, they can turn it into a chart, a table, or a temporary report. These insights can then be shared with teammates or stakeholders for quick decision-making.
 
 This fast feedback loop is what makes ad hoc querying so powerful. Instead of waiting days for new reports, users can move from question to insight in minutes.
+
+<!-- section:content-11 -->
+
+## Ad Hoc Query Examples: The Question and the SQL
+
+The clearest way to understand ad hoc querying is to see the same request in both
+forms — the way a business user asks it, and the way it reaches the database.
+
+**"Which customers spent more last quarter than the quarter before?"**
+
+```sql
+SELECT c.name,
+       SUM(CASE WHEN o.placed_at >= '2026-04-01' THEN o.total END) AS q2,
+       SUM(CASE WHEN o.placed_at <  '2026-04-01' THEN o.total END) AS q1
+FROM orders o
+JOIN customers c ON c.id = o.customer_id
+WHERE o.placed_at >= '2026-01-01'
+GROUP BY c.name
+HAVING q2 > q1
+ORDER BY q2 - q1 DESC;
+```
+
+**"Which support tickets came from accounts that renewed anyway?"**
+
+```sql
+SELECT t.id, t.subject, a.name, a.renewed_at
+FROM tickets t
+JOIN accounts a ON a.id = t.account_id
+WHERE t.severity = 'high'
+  AND a.renewed_at > t.created_at;
+```
+
+**"What was the conversion rate by channel, excluding returning visitors?"**
+
+```sql
+SELECT s.channel,
+       COUNT(DISTINCT CASE WHEN s.converted THEN s.visitor_id END)::float
+         / NULLIF(COUNT(DISTINCT s.visitor_id), 0) AS conversion_rate
+FROM sessions s
+WHERE s.is_returning = false
+GROUP BY s.channel
+ORDER BY conversion_rate DESC;
+```
+
+Notice what all three have in common: none of them would be worth building a
+dashboard for, each needs a join the report author did not anticipate, and each
+one invites an immediate follow-up. That combination is the definition of ad hoc
+work — and it is also why the queue of these requests grows faster than any
+analytics team can drain it.
+
+The shift worth making is not writing these faster. It is letting the person with
+the question ask it directly, in the first form rather than the second.
+Supaboard's [query builder](/product/query-builder) does the translation, and
+shows you the generated SQL so the answer stays auditable.
 
 <!-- section:content-5 -->
 

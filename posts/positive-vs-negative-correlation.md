@@ -168,21 +168,22 @@ The strength and direction of a correlation are measured by a number called the 
 -   A value near **\-1** indicates a strong negative (inverse) correlation.
     
 
-More detailed interpretation:
+### Correlation Coefficient Interpretation Table
 
--   **+0.7 to +1.0**: Strong positive correlation
-    
--   **+0.4 to +0.69**: Moderate positive correlation
-    
--   **+0.1 to +0.39**: Weak positive correlation
-    
--   **0**: No linear correlation
-    
--   **\-0.1 to -0.39**: Weak negative correlation
-    
--   **\-0.4 to -0.69**: Moderate negative correlation
-    
--   **\-0.7 to -1.0**: Strong negative correlation
+| Value of _r_ | Interpretation | What it looks like in business data |
+| --- | --- | --- |
+| +0.7 to +1.0 | Strong positive | Ad spend and revenue in a channel that scales predictably |
+| +0.4 to +0.69 | Moderate positive | Email send volume and signups — real, but other factors dominate |
+| +0.1 to +0.39 | Weak positive | Website visits and purchases across a broad, mixed audience |
+| 0 | No linear relationship | Support ticket volume and headcount, once you control for season |
+| −0.1 to −0.39 | Weak negative | Page load time and conversion on a fast site already |
+| −0.4 to −0.69 | Moderate negative | Discount depth and margin across a varied product catalogue |
+| −0.7 to −1.0 | Strong negative | Churn rate and NPS — as satisfaction falls, churn climbs |
+
+Two cautions before you act on any of these. The coefficient measures **linear**
+relationships only, so a strong curved relationship can still show an _r_ near
+zero. And a high coefficient is not causation: ice cream sales and drowning
+deaths correlate strongly, and neither causes the other — summer causes both.
     
 
 The positive or negative sign tells the direction of the relationship, while the number’s distance from zero shows how strong it is.

@@ -363,6 +363,8 @@ It’s positioned as a premium tool, so while it offers strong capabilities, it 
 
 <!-- section:content-13 -->
 
+*Head to head: [Supaboard vs ThoughtSpot](/compare/thoughtspot).*
+
 ## 3\. Holistics
 
 **Best Metabase Alternative for Data Modeling and Structured Analytics**
@@ -540,6 +542,8 @@ It is positioned as an enterprise solution, so costs can be higher compared to s
 ![sisense alternative](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/metabase-alternatives/96f3ed392e53b486.png?w=1123&h=303)
 
 <!-- section:content-16 -->
+
+*Head to head: [Supaboard vs Sisense](/compare/sisense).*
 
 ## Metabase Alternatives Comparison (Real Differences – 2026)
 

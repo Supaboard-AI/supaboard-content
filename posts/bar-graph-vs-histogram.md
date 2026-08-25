@@ -149,7 +149,19 @@ A **bar graph** (also called bar chart) is used to **compare distinct categories
 
 A **histogram** is designed to show the **distribution** of continuous numerical data, for example, how customer ages, order values, response times, or test scores are spread across ranges.
 
-The biggest difference lies in data type and bar spacing: bar graphs use gaps to separate categories, while histogram bars touch each other to represent continuous data. Using the wrong chart can hide important patterns like skewness and outliers or make comparisons confusing.
+The biggest difference lies in data type and bar spacing: bar graphs use gaps to separate categories, while histogram bars touch each other to represent continuous data.
+
+### Bar Graph vs Histogram: The Short Answer
+
+| | Bar graph | Histogram |
+| --- | --- | --- |
+| **Shows** | Comparison between categories | Distribution of one numeric variable |
+| **X-axis holds** | Category names | Numeric ranges (bins) |
+| **Bars** | Separated by gaps | Touch, with no gaps |
+| **Reordering bars** | Fine — order carries no meaning | Breaks the chart — order is the data |
+
+If you can rearrange the bars without losing meaning, it is a bar graph. If
+rearranging them destroys the point, it is a histogram. Using the wrong chart can hide important patterns like skewness and outliers or make comparisons confusing.
 
 In this guide, you’ll learn:
 

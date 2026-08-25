@@ -184,6 +184,8 @@ ThoughtSpot's pitch is search-based exploration: type or speak a question, get a
 
 **Pricing shape:** Essentials starts at $25/user/month and Pro at $50/user/month, billed annually. Enterprise Embedded runs on usage-based pricing several buyers describe as hard to forecast, since every end-user query draws down credits.
 
+*Head to head: [Supaboard vs ThoughtSpot](/compare/thoughtspot).*
+
 ### 3\. Power BI: best for Microsoft-heavy organizations
 
 If your company already runs on Microsoft 365, Power BI is the path of least resistance. It's cheap per seat and integrates natively with Excel and Azure.
@@ -193,6 +195,8 @@ If your company already runs on Microsoft 365, Power BI is the path of least res
 **Weakness:** embedding and white-labeling for customer-facing analytics require Fabric capacity or Power BI Embedded, which is a real engineering lift, not a checkbox.
 
 **Pricing shape:** Pro runs $14/user/month and Premium Per User runs $24/user/month, both billed annually after the April 2025 price increase. Fabric capacity, needed for embedding or large viewer counts, starts around $263/month and climbs fast.
+
+*Head to head: [Supaboard vs Power BI](/compare/power-bi).*
 
 ### 4\. Looker: best for BigQuery-native enterprises
 
@@ -204,6 +208,8 @@ Looker's semantic layer, LookML, is both its best feature and its biggest cost. 
 
 **Pricing shape:** quote-only across all three editions (Standard, Enterprise, Embed). Expect a multi-month sales cycle.
 
+*Head to head: [Supaboard vs Looker](/compare/looker).*
+
 ### 5\. Metabase: best for budget-conscious technical teams
 
 Metabase is the open-source option engineering-led teams start with because it's genuinely free to self-host and good enough for internal dashboards on day one.
@@ -214,6 +220,8 @@ Metabase is the open-source option engineering-led teams start with because it's
 
 **Pricing shape:** Open Source is free, self-hosted. Starter runs around $100/month for 5 users, Pro around $500 to $575/month for 10 users plus overage, Enterprise starts around $20,000/year.
 
+*Head to head: [Supaboard vs Metabase](/compare/metabase).*
+
 ### 6\. Domo: best for executives who want mobile-first dashboards
 
 Domo leans hard into mobile and social-style collaboration, which resonates with leadership teams who check metrics from a phone more than a desktop.
@@ -223,6 +231,8 @@ Domo leans hard into mobile and social-style collaboration, which resonates with
 **Weakness:** the credit-based consumption model is notoriously hard to forecast, and renewal price jumps are a common complaint in user reviews.
 
 **Pricing shape:** no public pricing; Domo runs on a purchased credit pool consumed by data ingestion, transforms, and refreshes. Typical mid-market deployments land between $50,000 and $150,000 a year.
+
+*Head to head: [Supaboard vs Domo](/compare/domo).*
 
 ### 7\. Qlik Sense: best for associative, exploratory analysis
 
@@ -235,6 +245,8 @@ Qlik's associative engine lets people click through data without pre-defined dri
 **Pricing shape:** Qlik Sense Business runs $30/user/month, Enterprise SaaS starts around $70/user/month, both billed annually, with self-managed Enterprise on custom quotes.
 
 <!-- section:content-5 -->
+
+*Head to head: [Supaboard vs Qlik](/compare/qlik).*
 
 ## How do these 7 Sisense alternatives compare?
 

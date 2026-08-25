@@ -280,6 +280,8 @@ ThoughtSpot uses AI-driven search and analytics to let users ask questions like 
 
 ThoughtSpot is a good choice for teams looking for fast insights, AI-driven data exploration, and an intuitive user experience compared to traditional BI tools like Tableau.
 
+*Head to head: [Supaboard vs ThoughtSpot](/compare/thoughtspot).*
+
 ##### **ThoughtSpot vs Tableau**
 
 -   Search-driven analytics for quick answers
@@ -313,6 +315,8 @@ Metabase allows users to explore data, build dashboards, and answer business que
     
 
 Metabase is ideal for teams looking for a **lightweight, open-source Tableau alternative** that prioritizes simplicity and fast adoption over advanced visual design and deep customization.
+
+*Head to head: [Supaboard vs Metabase](/compare/metabase).*
 
 ##### **Metabase vs Tableau**
 

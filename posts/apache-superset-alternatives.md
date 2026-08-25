@@ -339,6 +339,8 @@ As analytics use cases expand beyond internal dashboards to embedded, AI-assiste
 -   Weak multi-tenant analytics support
     
 -   Not designed as a full omni or customer analytics platform
+
+*Head to head: [Supaboard vs Metabase](/compare/metabase).*
     
 
 ### ThoughtSpot
@@ -382,6 +384,8 @@ As analytics use cases expand beyond internal dashboards to embedded, AI-assiste
 -   Strong AI and enterprise scalability
     
 -   Optimized for internal self-service, less for embedded SaaS analytics
+
+*Head to head: [Supaboard vs ThoughtSpot](/compare/thoughtspot).*
     
 
 ### Redash
