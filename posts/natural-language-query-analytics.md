@@ -7,7 +7,7 @@ description: >-
   works, where it earns its keep, and the prerequisite that vendors gloss over.
 category: data
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2026-04-05'
 updatedAt: '2026-04-05'
 readMinutes: 8

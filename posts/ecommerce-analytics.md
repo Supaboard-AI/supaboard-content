@@ -7,7 +7,7 @@ description: >-
   segment before concluding, and find failed payments hiding in it.
 category: data
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2026-03-06'
 updatedAt: '2026-03-06'
 readMinutes: 6

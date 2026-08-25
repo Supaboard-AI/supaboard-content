@@ -7,7 +7,7 @@ description: >-
   worked examples, and the reorder test that settles which you need.
 category: data
 tags:
-  - Building Supaboard
+  - Tech
 publishedAt: '2026-04-01'
 updatedAt: '2026-04-01'
 readMinutes: 7

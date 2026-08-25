@@ -7,7 +7,7 @@ description: >-
   alternatives compare, and when the whole category is wrong for you.
 category: product
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2025-12-23'
 updatedAt: '2025-12-23'
 readMinutes: 7

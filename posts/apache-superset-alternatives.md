@@ -7,7 +7,7 @@ description: >-
   the alternatives compare on governance, support and total cost of ownership.
 category: product
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2026-01-06'
 updatedAt: '2026-01-06'
 readMinutes: 9

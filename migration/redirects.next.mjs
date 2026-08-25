@@ -41,7 +41,12 @@ export const redirects = [
     "permanent": true
   },
   {
-    "source": "/blog/ai-data-analyst-how-it-works-and-best-tools-(2026)",
+    "source": "/blog/ai-data-analyst-how-it-works-and-best-tools-\\(2026\\)",
+    "destination": "/blog/ai-data-analyst",
+    "permanent": true
+  },
+  {
+    "source": "/blog/ai-data-analyst-how-it-works-and-best-tools-%282026%29",
     "destination": "/blog/ai-data-analyst",
     "permanent": true
   },
@@ -376,7 +381,12 @@ export const redirects = [
     "permanent": true
   },
   {
-    "source": "/blog/supaboard-vs-tableau-power-bi-metabase-(2025)-best-bi-tool-for-fast-business-insights",
+    "source": "/blog/supaboard-vs-tableau-power-bi-metabase-\\(2025\\)-best-bi-tool-for-fast-business-insights",
+    "destination": "/blog/best-ai-bi-tools",
+    "permanent": true
+  },
+  {
+    "source": "/blog/supaboard-vs-tableau-power-bi-metabase-%282025%29-best-bi-tool-for-fast-business-insights",
     "destination": "/blog/best-ai-bi-tools",
     "permanent": true
   },

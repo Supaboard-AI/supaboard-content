@@ -15,7 +15,7 @@ readMinutes: 9
 readLabel: 9 mins
 author:
   name: Subhrajyoti Modak
-  title: CoFounder and CTO
+  title: Co-Founder & CTO
   avatar: >-
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:

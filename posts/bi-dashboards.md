@@ -16,7 +16,7 @@ author:
   name: Sriyanshu Mishra
   title: Data Analyst
   avatar: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/b15b63d460d26a89.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
 cover:
   url: >-
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bi-dashboards/96b3c288f319bffa.png

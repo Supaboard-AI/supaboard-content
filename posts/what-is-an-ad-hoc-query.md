@@ -7,7 +7,7 @@ description: >-
   how teams use them, and how to cut the requests reaching your analysts.
 category: data
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2026-01-09'
 updatedAt: '2026-01-09'
 readMinutes: 5

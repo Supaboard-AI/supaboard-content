@@ -7,7 +7,7 @@ description: >-
   alternatives compare on setup cost, modelling and time to first answer.
 category: product
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2026-05-11'
 updatedAt: '2026-05-11'
 readMinutes: 4

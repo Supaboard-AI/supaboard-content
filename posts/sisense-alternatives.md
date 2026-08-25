@@ -7,14 +7,16 @@ description: >-
   BI, Looker, Metabase, Domo, and Qlik Sense stack up on setup, AI, and price.
 category: product
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2026-07-01'
 updatedAt: '2026-07-01'
 readMinutes: 5
 readLabel: 5 min
 author:
   name: Subhrajyoti Modak
-  title: Co-Founder and CTO
+  title: Co-Founder & CTO
+  avatar: >-
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
   url: >-
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/sisense-alternatives/f136515de28cf467.png

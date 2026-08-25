@@ -7,7 +7,7 @@ description: >-
   and CRM data, and where cohort logic most quietly goes wrong on you.
 category: data
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2025-12-30'
 updatedAt: '2025-12-30'
 readMinutes: 9

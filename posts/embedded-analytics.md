@@ -7,7 +7,7 @@ description: >-
   white labelling adds, and why per-seat pricing breaks down badly at scale.
 category: product
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2025-08-20'
 updatedAt: '2025-08-20'
 readMinutes: 6

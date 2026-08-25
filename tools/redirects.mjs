@@ -79,6 +79,20 @@ for (const [source, destination] of NAMED_REDIRECTS) {
 }
 for (const source of EXTRA_410) gone.push({ source, why: "never a real page" });
 
+/**
+ * Next.js matches `source` with path-to-regexp, where `(` opens a capture
+ * group — so a literal slug like `…-(2026)` never matches and the URL 404s
+ * instead of redirecting. Both of ours were dead in production. Escape the
+ * parens, and emit the percent-encoded spelling too, since whether the
+ * pathname arrives decoded depends on the proxy in front of the app.
+ */
+function nextSources(source) {
+  if (!/[()]/.test(source)) return [source];
+  const escaped = source.replace(/[()]/g, (c) => `\\${c}`);
+  const encoded = source.replace(/\(/g, "%28").replace(/\)/g, "%29");
+  return [escaped, encoded];
+}
+
 // --- assertions ----------------------------------------------------------
 const problems = [];
 
@@ -146,7 +160,7 @@ const nextModule = `/**
  * crawl budget, which is exactly what these URLs must not do.
  */
 export const redirects = ${JSON.stringify(
-  redirects.map(({ source, destination }) => ({ source, destination, permanent: true })),
+  redirects.flatMap(({ source, destination }) => nextSources(source).map((s) => ({ source: s, destination, permanent: true }))),
   null,
   2,
 )};

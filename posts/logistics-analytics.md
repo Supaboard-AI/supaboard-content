@@ -7,7 +7,7 @@ description: >-
   why aggregate on-time rates mislead, and how to join the systems.
 category: data
 tags:
-  - Saas
+  - SaaS
 publishedAt: '2026-01-05'
 updatedAt: '2026-01-05'
 readMinutes: 6
