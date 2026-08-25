@@ -149,7 +149,7 @@ statsCount: 0
 
 ## Introduction
 
-An ecommerce dashboard lets online firms analyze performance, review KPIs and make faster [data-driven decisions](/blog). It’s a powerful tool.” A modern dashboard for an ecommerce site brings together data on revenue, consumer behavior, campaign performance, and operational metrics into a single unified view. Many firms still rely on fragmented reports. Smart ecommerce dashboards and reporting solutions distill complicated data into actionable insights that improve productivity, collaboration, and scalable growth plans across teams.
+An ecommerce dashboard lets online firms analyze performance, review KPIs and make faster [data-driven decisions](/blog/bi-dashboards). It’s a powerful tool.” A modern dashboard for an ecommerce site brings together data on revenue, consumer behavior, campaign performance, and operational metrics into a single unified view. Many firms still rely on fragmented reports. Smart ecommerce dashboards and reporting solutions distill complicated data into actionable insights that improve productivity, collaboration, and scalable growth plans across teams.
 
 <!-- section:content-2 -->
 

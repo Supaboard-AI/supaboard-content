@@ -157,6 +157,8 @@ Normally, with dashboards, you’re limited to what someone else designed. If th
 
 **See below image for a better explanation:**
 
+Supaboard's [query builder](/product/query-builder) is built for exactly this pattern — a question that did not exist yesterday, answered without waiting on a report request.
+
 ![Supaboard dashboard answering an ad hoc query](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-an-ad-hoc-query/e37e6a31bf03d1a6.png?w=1436&h=812)
 
 ### What Makes a Query Truly Ad Hoc?
@@ -474,4 +476,4 @@ Know more [about top BI tools.](/blog/best-ai-bi-tools)
 
 In today’s fast-moving businesses, waiting for predefined reports slows decisions. **Ad hoc queries** allow teams to ask questions the moment they arise and explore data without limitations. When combined with **ad hoc analysis**, they help uncover the real reasons behind changes in performance, user behavior, or revenue. Instead of being restricted by static dashboards, teams gain the freedom to investigate and act quickly.
 
-Explore [how Supaboard enables fast](https://calendly.com/aritra-ewq/supaboard-demo), flexible ad hoc analysis and smarter business decisions.
+Explore [how Supaboard's query builder enables fast, flexible ad hoc analysis](/product/query-builder) and smarter business decisions.

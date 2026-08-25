@@ -416,6 +416,6 @@ Using the wrong chart can distort insights, mislead stakeholders, and result in 
 
 By correctly matching the chart to your data type and goal, you make your analysis clearer, your reports more trustworthy, and your decisions more effective.
 
-Modern tools like [**Supaboard**](/blog) take this even further by automatically recommending the right visualization, so teams can focus on insights instead of struggling with chart selection.
+Modern tools like [**Supaboard**](/) take this even further by automatically recommending the right visualization, so teams can focus on insights instead of struggling with chart selection.
 
 Start applying these principles today and turn your data into clear, actionable intelligence.

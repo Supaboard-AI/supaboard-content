@@ -309,7 +309,7 @@ A positive correlation means that both variables move in the same direction . Fo
 
 Understanding the difference between positive and negative correlation will help you interpret data more effectively, make better choices, and avoid common mistakes in school, work, health, finance, and daily life. These concepts are simple and useful to anyone working with information or trying to make sense of patterns around them with clear examples and practical tools.
 
-This knowledge is a strong foundation for more advanced [data analysis](/) and critical thinking in a world of numbers and relationships.
+This knowledge is a strong foundation for more advanced [data analysis](/blog/data-science-vs-data-analytics) and critical thinking in a world of numbers and relationships.
 
 <!-- section:content-9 -->
 

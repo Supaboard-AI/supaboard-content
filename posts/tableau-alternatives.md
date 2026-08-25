@@ -212,7 +212,7 @@ This simplified view makes it easier to compare **Tableau competitors** based on
 
 ![Supaboard, tableau alternative](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-tableau-alternative/5e8de54227db9e84.png?w=947&h=439)
 
-[**Supaboard** is a](/comparison/supaboard-vs-tableau) modern, AI-powered business intelligence platform and a strong **Tableau alternative** designed for growing teams, and **enterprises** that want faster insights with less complexity. It combines self-service analytics with developer flexibility, making it suitable for both technical and non-technical users.
+[**Supaboard**](/compare/tableau) is a modern, AI-powered business intelligence platform and a strong **Tableau alternative** designed for growing teams, and **enterprises** that want faster insights with less complexity. It combines self-service analytics with developer flexibility, making it suitable for both technical and non-technical users.
 
 Supaboard focuses on helping teams build dashboards quickly while also supporting advanced customization. With features like dashboards-as-code and AI-assisted insights, teams can move beyond static reporting and create analytics that scale across the organization.
 
@@ -242,7 +242,7 @@ Supaboard is a good choice for organizations that want an **AI-native, enterpris
 -   Easier for both technical and non-technical teams
     
 
-**Read more details:** [**Supaboard vs Tableau**](/series/supaboard-vs-tableau)
+**Read more details:** [**Supaboard vs Tableau**](/compare/tableau)
 
 **Why choose it over Tableau?**
 
@@ -346,7 +346,7 @@ Domo allows teams to build custom and ad-hoc dashboards using an intuitive inter
 -   **Learning & support:** Strong ecosystem with Domo University, an active user community, and a detailed knowledge base
     
 
-Domo is best suited for enterprises that need real-time analytics, mobile access, and an all-in-[one BI platform beyond traditional dashboarding.](/series/supaboard-vs-domo)
+Domo is best suited for enterprises that need real-time analytics, mobile access, and an all-in-one BI platform beyond traditional dashboarding. See how it compares in [Supaboard vs Domo](/compare/domo).
 
 ##### **Domo vs Tableau**
 

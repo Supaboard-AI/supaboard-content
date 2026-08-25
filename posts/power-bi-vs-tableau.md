@@ -206,7 +206,7 @@ Microsoft is positioning Power BI as part of its broader Fabric ecosystem, combi
 **5\. Limited flexibility for advanced visual customization**  
 Power BI supports standard visualizations effectively, but advanced customization often requires third-party visuals. This introduces dependency on external components and limits control over detailed design elements. As dashboards become more complex, maintaining consistency and performance across custom visuals can become challenging.
 
-_\**If you're looking for an AI-powered BI tool like Supaboard, you can explore a detailed comparison here:*\*_ [_\**Supaboard vs Power Bi.*\*_](/comparison/supaboard-vs-power-bi)
+_\**If you're looking for an AI-powered BI tool like Supaboard, you can explore a detailed comparison here:*\*_ [_\**Supaboard vs Power Bi.*\*_](/compare/power-bi)
 
 ### Tableau: Where It Stands Out
 
@@ -225,7 +225,7 @@ Tableau is evolving toward proactive analytics with features like Tableau Pulse,
 **5\. Challenges in maintaining consistency across dashboards**  
 Tableau’s flexibility allows calculations to be defined at multiple levels, which can lead to inconsistent metrics across reports. Without a centralized model, teams often create different versions of the same logic. As the number of dashboards grows, maintaining alignment across teams becomes increasingly difficult.
 
-_\**Explore how Supaboard compares with Tableau in modern analytics workflows:*\*_ [_\**Supaboard vs Tableau*\*_](/series/supaboard-vs-tableau)
+_\**Explore how Supaboard compares with Tableau in modern analytics workflows:*\*_ [_\**Supaboard vs Tableau*\*_](/compare/tableau)
 
 <!-- section:content-13 -->
 

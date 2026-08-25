@@ -393,13 +393,13 @@ Natural language querying is transforming how organizations use data in practice
 -   Embedded analytics allow users to ask questions directly inside business applications and workflows
     
 
-[**Supaboard**](/) is one example of an AI-native platform that delivers a seamless natural language query experience designed specifically for fast, governed [self-service analytics](/blog/self-service-bi).
+[**Supaboard's Ask Analysts**](/product/ask-analysts) is one example of an AI-native platform that delivers a seamless natural language query experience designed specifically for fast, governed [self-service analytics](/blog/self-service-bi).
 
 <!-- section:content-9 -->
 
 ## Can you ask questions across several databases at once?
 
-Yes, and it is the case where natural-language querying earns its keep most clearly.
+Yes, and it is the case where natural-language querying earns its keep most clearly. It depends entirely on how many systems the platform can reach — Supaboard's [700+ connectors](/integrations) mean the warehouse, the CRM and the billing system can all sit behind one question.
 
 Single-source questions are the easy half. "How many signups last week" hits one table, and an analyst answers it in a minute. The questions that actually stall are the ones spanning systems: signups from the product database against ad spend in four platforms against support tickets in a fifth. Answering that in SQL means knowing where each system lives, how the identifiers reconcile, and which joins silently drop rows.
 

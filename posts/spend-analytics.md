@@ -204,7 +204,7 @@ Most organizations need both: a strong **spend analysis** to surface the biggest
 
 ### What about automated spend analysis?
 
-[AI-powered platforms](/blog) are increasingly transforming spend analysis by taking on the heavy lifting, extracting, cleaning, normalizing and categorizing data, that previously required weeks of manual effort.
+[AI-powered platforms](/blog/best-ai-bi-tools) are increasingly transforming spend analysis by taking on the heavy lifting, extracting, cleaning, normalizing and categorizing data, that previously required weeks of manual effort.
 
 Modern automated systems do this in hours instead of analysts spending days or even weeks preparing data before they can generate any meaningful insight. And the best thing? As these systems ingest more data from your organization, they consistently learn and improve over time.
 

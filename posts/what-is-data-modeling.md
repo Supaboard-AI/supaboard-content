@@ -274,7 +274,7 @@ Data modeling creates a shared understanding of data across technical and non-te
 
 ##### **Improve data quality**
 
-By defining clear rules and relationships, [data modeling reduces duplication](/comparison/turning-insights-into-impact-actionable-recommendations), errors, and missing information, ensuring reliable data that supports accurate reporting and confident, data-driven decisions.
+By defining clear rules and relationships, data modeling reduces duplication, errors, and missing information, ensuring reliable data that supports accurate reporting and confident, data-driven decisions.
 
 ##### **Improve database performance**
 
