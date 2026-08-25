@@ -42,8 +42,8 @@ Each was probed rather than assumed; the live response is authoritative.
 | Claim | Reality | Evidence |
 |---|---|---|
 | Sitemap contains parenthesised URLs not matching live paths | **Partly false.** 2 parenthesised URLs exist and both resolve, and both have matching repo files. | `ai-data-analyst-how-it-works-and-best-tools-(2026)`, `supaboard-vs-tableau-power-bi-metabase-(2025)-…` |
-| `is-ai-bi-…-(with-examples)` is in the sitemap with parentheses | **False.** Sitemap lists the paren-free slug, which matches the repo file. | `…-difference-with-examples` |
-| `top-10-(business-intelligence)-bi-tools-…` has parentheses | **False.** Live and repo slug is paren-free. | `top-10-business-intelligence-bi-tools-in-2026-an-overview` |
+| `is-ai-bi-…-(with-examples)` is in the sitemap with parentheses | **Was recorded False; corrected 2026-08-25 to True in effect.** The sitemap does list the paren-free slug, but the parenthesised URL is indexed and 404s. Checking the sitemap alone was the wrong test. Now redirected. | `…-difference-with-examples` |
+| `top-10-(business-intelligence)-bi-tools-…` has parentheses | **Was recorded False; corrected 2026-08-25 to True in effect.** The live and repo slug is paren-free, but the parenthesised URL is indexed, still takes traffic, and 404s — it surfaced in analytics at a 100% bounce rate. Now redirected. | `top-10-business-intelligence-bi-tools-in-2026-an-overview` |
 | Sitemap lists `/old-home-2` and `/404` | **False.** Neither appears. `/old-home-2` itself 404s. | `reconciliation.json → sitemap.listsOldHome2 / lists404` |
 | Eight `/series/supaboard-vs-X` pages compete as a third system | **Already fixed.** `/series/*` 308-redirects to `/comparison/*`. Two systems remain, not three. | `/series/supaboard-vs-metabase` → 308 → `/comparison/supaboard-vs-metabase` |
 | Ten `/blog/supaboard-vs-X` posts | **Twelve.** | sitemap |

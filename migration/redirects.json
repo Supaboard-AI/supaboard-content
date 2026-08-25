@@ -241,6 +241,11 @@
       "why": "merged"
     },
     {
+      "source": "/blog/is-ai-bi-just-text-to-sql-the-honest-difference-(with-examples)",
+      "destination": "/blog/is-ai-bi-just-text-to-sql",
+      "why": "named in brief"
+    },
+    {
       "source": "/blog/is-ai-bi-just-text-to-sql-the-honest-difference-with-examples",
       "destination": "/blog/is-ai-bi-just-text-to-sql",
       "why": "renamed"
@@ -394,6 +399,11 @@
       "source": "/blog/thoughtspot-alternative",
       "destination": "/blog/thoughtspot-alternatives",
       "why": "renamed"
+    },
+    {
+      "source": "/blog/top-10-(business-intelligence)-bi-tools-in-2026-an-overview",
+      "destination": "/blog/best-ai-bi-tools",
+      "why": "named in brief"
     },
     {
       "source": "/blog/top-10-business-intelligence-bi-tools-in-2026-an-overview",

@@ -45,6 +45,17 @@ export const NAMED_REDIRECTS = [
   // that has to be made in the app repo where the route lives.
   ["/case-studies", "/case-study"],
   ["/case-studies/:slug", "/case-study/:slug"],
+
+  // Parenthesised slugs that Phase 1 checked and cleared as "paren-free"
+  // (PHASE-1-INVENTORY.md rows 45-46). The conclusion was drawn from the
+  // sitemap, which lists the paren-free spelling — but Google indexed the
+  // parenthesised one and still sends traffic to it. Both 404 today; the
+  // top-10 URL shows up in analytics with a 100% bounce rate for that reason.
+  // Same destinations as their paren-free twins.
+  ["/blog/top-10-(business-intelligence)-bi-tools-in-2026-an-overview",
+   "/blog/best-ai-bi-tools"],
+  ["/blog/is-ai-bi-just-text-to-sql-the-honest-difference-(with-examples)",
+   "/blog/is-ai-bi-just-text-to-sql"],
 ];
 
 /**
