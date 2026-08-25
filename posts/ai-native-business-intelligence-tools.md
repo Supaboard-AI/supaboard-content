@@ -9,7 +9,7 @@ category: product
 tags:
   - Business Intelligence
   - AI
-publishedAt: '2026-08-25'
+publishedAt: '2026-03-30'
 updatedAt: '2026-08-25'
 readMinutes: 9
 readLabel: 9 Min Read

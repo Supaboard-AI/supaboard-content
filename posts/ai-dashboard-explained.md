@@ -9,7 +9,7 @@ category: product
 tags:
   - Dashboard
   - AI
-publishedAt: '2026-08-25'
+publishedAt: '2025-02-10'
 updatedAt: '2026-08-25'
 readMinutes: 8
 readLabel: 8 Min Read
