@@ -34,6 +34,8 @@ sections:
     heading: How Natural Language Query (NLQ) Works in Analytics
   - id: content-4
     heading: How an NLQ Question Becomes an Answer
+  - id: content-14
+    heading: 'Natural Language Query Examples: 12 Questions Teams Actually Ask'
   - id: content-10
     heading: 'AI and Agentic Analytics: Where Natural Language Query Is Heading'
   - id: content-5
@@ -178,6 +180,17 @@ In this guide, we will discuss what natural language querying is, how it works i
 
 ## What Is a Natural Language Query (NLQ)?
 
+> **What changed in 2026.** NLQ is not new — BI vendors shipped it for a decade,
+> and it mostly disappointed. Those systems matched keywords against a hand-built
+> dictionary of synonyms: someone had to tell the tool that "revenue" meant
+> `net_rev_usd`, and any phrasing outside the dictionary returned nothing. That is
+> why early NLQ earned its reputation as a demo feature. Language models removed
+> that ceiling. A modern system interprets intent rather than matching strings, so
+> it handles phrasings nobody registered in advance, asks for clarification when a
+> question is genuinely ambiguous, and carries context from one question to the
+> next. Most articles ranking for this term still describe the dictionary era.
+
+
 A natural language query (NLQ) enables users to interact with complex databases, including knowledge graphs and graph data, using everyday language instead of writing [SQL](https://aws.amazon.com/what-is/sql/) or finding the perfect dashboard. Users can directly ask questions like “What were our total sales last month?” or “Which customers stopped buying after the price increase?”
 
 Powered by natural language processing ([NLP](https://www.geeksforgeeks.org/nlp/introduction-to-natural-language-processing-nlp/)) and machine learning, NLQ instantly returns results as [charts, tables](/blog/what-is-a-kpi), or insights, making data exploration faster and more accessible.
@@ -314,6 +327,51 @@ It trades some technical precision for **speed, accessibility, and broader adopt
 | Learning curve | Requires understanding dashboards | Easy for non-technical users |
 
 > ##### _As analytics becomes conversational, the teams that win will be the ones that let people ask better questions, not just build better dashboards._
+
+<!-- section:content-14 -->
+
+## Natural Language Query Examples: 12 Questions Teams Actually Ask
+
+Most NLQ articles explain the concept and never show a single question. Here are
+twelve real ones, grouped by who asks them, with what a good system returns.
+
+### Revenue and finance
+
+| The question | What a working NLQ system returns |
+| --- | --- |
+| "What was revenue last quarter versus the one before, by product line?" | A grouped comparison, using your definition of revenue rather than a guessed column |
+| "Which customers spent less this quarter than last?" | A ranked list with the delta, not just two separate totals to subtract yourself |
+| "Show me monthly recurring revenue split by new, expansion and churn" | The three components separately, because "MRR" alone hides which one moved |
+
+### Sales and pipeline
+
+| The question | What a working NLQ system returns |
+| --- | --- |
+| "Which deals slipped out of this quarter, and what stage were they in?" | A list with stage-change history, which needs a join across two tables |
+| "What is the average time from demo to close, by rep?" | A duration metric computed across events, not a stored field |
+| "Are we winning more or less against Competitor X than six months ago?" | A win-rate trend filtered on a field usually buried in CRM notes |
+
+### Marketing
+
+| The question | What a working NLQ system returns |
+| --- | --- |
+| "Which channel has the highest spend but the worst return?" | A two-metric comparison across ad platforms and the billing system |
+| "Did the customers from last month's campaign stick around?" | Retention for a cohort defined by acquisition source — a genuine cross-system join |
+| "What is our cost per acquisition by channel, excluding brand search?" | CPA with an exclusion applied, which is where most saved reports fall down |
+
+### Operations and support
+
+| The question | What a working NLQ system returns |
+| --- | --- |
+| "Which accounts opened high-severity tickets and renewed anyway?" | A join between support and billing that no dashboard was built for |
+| "Is first-response time getting worse, and for which segment?" | A trend plus the breakdown that explains it, not just the headline number |
+| "What is stuck in the pipeline longer than 30 days, and whose is it?" | A filtered list with ownership, ready to act on |
+
+Two patterns run through all twelve. Every one needs a join the report author did
+not anticipate, and every one invites an immediate follow-up — "now split that by
+region", "now show me just enterprise". A dashboard answers the first question and
+none of the second. That gap is what NLQ closes, and it is the only reason the
+category exists.
 
 <!-- section:content-10 -->
 

@@ -31,6 +31,10 @@ sections:
     heading: Introduction
   - id: content-2
     heading: 'What is Metabase? Overview, Limitations, and Pricing Explained'
+  - id: content-18
+    heading: 'Pick by the Job, Not the Ranking'
+  - id: content-19
+    heading: What Each One Actually Charges For
   - id: content-3
     heading: 1. Supaboard
   - id: content-12
@@ -47,6 +51,8 @@ sections:
     heading: Which Metabase alternative is best for embedded analytics?
   - id: content-17
     heading: How to Choose the Right Metabase Alternative
+  - id: content-20
+    heading: How to Move Off Metabase Without Losing Reporting
   - id: content-5
     heading: Conclusion
   - id: content-11
@@ -240,6 +246,55 @@ However, the real cost isn’t just pricing. Teams often spend extra time managi
 ### Is Metabase free?
 
 Yes, Metabase is free to use through its open-source, self-hosted edition, which includes a visual query builder, SQL editor, unlimited dashboards, 20+ database connectors, basic user management, documentation features, and community support, though advanced features and enterprise support require paid plans.
+
+<!-- section:content-18 -->
+
+## Pick by the Job, Not the Ranking
+
+"Best Metabase alternative" has no single answer, because people leave Metabase
+for four different reasons. Find your reason first, then read only that entry.
+
+| If you are leaving Metabase because… | Look at | Why |
+| --- | --- | --- |
+| **You want to stay open-source and self-hosted** | Apache Superset, Redash, Lightdash | Same ownership model, no per-seat bill. You keep the SQL dependency and the ops burden — see [Apache Superset alternatives](/blog/apache-superset-alternatives) |
+| **You need to embed analytics in your own product** | Sisense, Yellowfin BI | Built for embedding with white-labelling and tenant isolation, rather than embedding bolted on |
+| **Your non-technical team still cannot self-serve** | Supaboard, ThoughtSpot | The question is asked in plain language; nobody writes SQL to get an answer |
+| **You want AI that reasons, not a chat box** | Supaboard, Hex, Omni | Definitions live in a model the system reasons over — see [AI-native BI tools](/blog/ai-native-business-intelligence-tools) |
+
+### A Note on the AI-Native Cohort
+
+Hex, Omni and Lightdash come up often in Metabase migration threads and are not
+covered in the ranked list below, because they solve a different problem. All
+three assume a technical operator who is comfortable in SQL and dbt, and give
+that person AI assistance and version-controlled models. If your reason for
+leaving Metabase is that your analysts want better tooling, they belong on your
+shortlist. If your reason is that your *sales team* cannot answer its own
+questions, they will not fix it — you will have moved the SQL dependency, not
+removed it.
+
+<!-- section:content-19 -->
+
+## What Each One Actually Charges For
+
+Rates move; pricing *models* rarely do, and the model is what decides whether the
+bill grows with your team. Verify current rates on each vendor's page.
+
+| Tool | Pricing model | What the bill scales with | Free tier |
+| --- | --- | --- | --- |
+| **Metabase** | Open-source, plus paid cloud tiers | Self-hosted: your infrastructure and ops time. Cloud: seats and features | Yes — self-hosted open-source edition |
+| **Supaboard** | Flat per seat | Seats only; queries are not metered | 14-day trial |
+| **ThoughtSpot** | Per seat, with consumption limits on the AI tier | Seats, plus AI query volume on some plans | Trial |
+| **Holistics** | Per seat, tiered | Seats and modelling capacity | Trial |
+| **Yellowfin BI** | Quoted, embedding-oriented | Deployment shape and end users | No |
+| **Sisense** | Quoted, enterprise | Deployment, tenants and infrastructure | No |
+
+[Supaboard's rates](/pricing) are $99/seat/month on Individual and $249/seat/month
+on Business, or $83 and $208 billed yearly, as of August 2026.
+
+The trap worth naming: Metabase's open-source edition is free in licence terms and
+not free in total cost. Someone hosts it, upgrades it, tunes the queries and
+answers the questions non-technical users cannot answer themselves. That is
+usually an engineer, and engineer-hours cost more than seats.
 
 <!-- section:content-3 -->
 
@@ -589,6 +644,34 @@ Next, consider your **budget and data complexity**. Simpler tools work well for 
 If you need to embed analytics into your product, focus on **embedding capabilities** and **embedded analytics & white-labeling**. This is essential for SaaS teams building customer-facing dashboards.
 
 The best choice is a tool that fits your team today and scales with you tomorrow.
+
+<!-- section:content-20 -->
+
+## How to Move Off Metabase Without Losing Reporting
+
+Migrations stall in the same place every time: nobody knows which of the 400
+saved questions anyone still opens.
+
+1. **Measure usage before you migrate anything.** Metabase logs view counts on
+   saved questions and dashboards. Pull them. In most instances a small fraction
+   of saved questions carry nearly all the views, and the rest are abandoned
+   experiments nobody will miss.
+2. **Rebuild only what is genuinely used, and rebuild it deliberately.** A
+   migration is the one moment you can drop the accumulated cruft without an
+   argument. Porting everything one-for-one just moves the mess.
+3. **Agree the definitions before you rebuild.** If "active customer" means three
+   things in three saved questions today, decide which one is right now — while
+   you are rebuilding anyway — rather than importing the ambiguity into the new
+   tool.
+4. **Run both in parallel for one reporting cycle.** Keep Metabase read-only for
+   a month and reconcile the numbers that matter. Any discrepancy is either a
+   migration bug or a definition you had not actually agreed. Both are worth
+   finding before you switch off the old system.
+5. **Cut over on a boring week.** Not month-end, not quarter-end.
+
+The step teams skip is the first one, and it is the one that makes the rest
+cheap. Migrating 400 questions is a project; migrating the 30 anyone opens is an
+afternoon.
 
 <!-- section:content-5 -->
 
