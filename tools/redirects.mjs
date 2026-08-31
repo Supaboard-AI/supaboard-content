@@ -66,10 +66,14 @@ for (const r of rows) {
 
 // The two competitor systems fold into /compare.
 for (const [slug, competitor] of COMPARISON_COMPETITORS) {
-  redirects.push({ source: `/comparison/${slug}`, destination: `/compare/${competitor}`, why: "comparison system consolidated" });
+  // An empty competitor means the vendor page was retired in the Aug-2026
+  // consolidation, so the hub itself is the destination. Emitted without a
+  // trailing slash: `/compare/` would be a second hop.
+  const destination = competitor ? `/compare/${competitor}` : "/compare";
+  redirects.push({ source: `/comparison/${slug}`, destination, why: "comparison system consolidated" });
   // /series/* currently 308s to /comparison/*. Left alone that becomes a
   // two-hop chain the moment /comparison/* moves, so it is flattened here.
-  redirects.push({ source: `/series/${slug}`, destination: `/compare/${competitor}`, why: "series system consolidated (flattened, was chaining via /comparison)" });
+  redirects.push({ source: `/series/${slug}`, destination, why: "series system consolidated (flattened, was chaining via /comparison)" });
 }
 for (const [slug, destination] of COMPARISON_ARTICLES) {
   redirects.push({ source: `/comparison/${slug}`, destination, why: "article misfiled under /comparison" });

@@ -9,9 +9,9 @@ category: company
 tags:
   - Analytics
 publishedAt: '2026-06-25'
-updatedAt: '2026-06-25'
-readMinutes: 4
-readLabel: 4 min
+updatedAt: '2026-08-28'
+readMinutes: 10
+readLabel: 10 Min Read
 author:
   name: Subhrajyoti Modak
   title: Co-Founder & CTO
@@ -41,7 +41,7 @@ sections:
   - id: content-7
     heading: What this means if you run analytics for more than one client
   - id: content-8
-    heading: Frequently asked questions
+    heading: Frequently Asked Questions
 featured:
   choice: null
   trending: 2
@@ -140,7 +140,7 @@ It was a fair question. It was also, until recently, the kind of question that e
 
 This is the quiet tax on a revenue cycle management business. Jindal Healthcare runs RCM for a roster of healthcare clients, which is to say it lives in one of the most data-heavy corners of the industry. Every client arrives as its own world: its own claims data, its own payer mix, its own denial patterns, its own idea of what a good report looks like. Multiply that by a client list and the analytics workload stops being a task and becomes its own operations problem.
 
-**A revenue cycle management company, Jindal Healthcare, cut per-client analysis from four hours to two minutes and reduced analytics cost by 90 percent using Supaboard's AI-native BI.**
+**A revenue cycle management company, Jindal Healthcare, cut per-client analysis from four hours to two minutes and reduced analytics cost by 90 percent using [Supaboard's analyst agents](/product/agents) and its AI-native BI.**
 
 <!-- section:content-2 -->
 
@@ -168,7 +168,7 @@ That is the sentence that makes a company go looking for something new. Not a so
 
 The fix was not a faster way to write the same SQL. It was removing the SQL from the critical path entirely, and doing it without letting protected health information anywhere near the analytics layer.
 
-The pipeline was built with a hard boundary. Jindal collated the raw data from across its sources, the clearinghouse claim and remittance feeds (the 837s going out and the 835 ERAs coming back), the practice management and EHR systems each client billed from, and the payer remittance and denial data, and masked every piece of PHI into a single database before any of it moved. Supaboard never connected to an EHR and never saw a patient. Using one of its [700+ connectors](https://supaboard.ai/integrations), it pulled from that masked database, cleaned the data, and moved it into a data warehouse that became the one source of truth the agent ran on. The compliance line and the analytics line were the same line, and PHI stayed behind it.
+The pipeline was built with a hard boundary. Jindal collated the raw data from across its sources, the clearinghouse claim and remittance feeds (the 837s going out and the 835 ERAs coming back), the practice management and EHR systems each client billed from, and the payer remittance and denial data, and masked every piece of PHI into a single database before any of it moved. Supaboard never connected to an EHR and never saw a patient. Using one of its [700+ Business-plan connectors](/integrations), it pulled from that masked database, cleaned the data, and moved it into a data warehouse that became the one source of truth the agent ran on. The compliance line and the analytics line were the same line, and PHI stayed behind it.
 
 Moving the data was the easy half. The harder half was teaching the tool what the data meant. RCM is full of numbers that look identical and mean opposite things. Aging is the classic trap: a claim sitting at sixty days can be a process failure your team needs to fix, or it can be nothing at all, just the unremarkable rhythm of a payer who always pays on that cadence. A naive dashboard flags both as red. An analyst who knows the account knows the difference. Jindal trained Supaboard's trainable agent on exactly that kind of judgment: claim lifecycles, denial categories, and the behavior of specific payers, including when aging signals a problem and when it is just how a payer pays.
 
@@ -234,22 +234,28 @@ _Want the structured version with the dashboards and metrics? Read_ [_the full J
 
 <!-- section:content-8 -->
 
-## Frequently asked questions
+## Frequently Asked Questions
 
-**What did Jindal Healthcare change?**  
+### What did Jindal Healthcare change?
+
 They moved from answering client questions through manual SQL across disconnected systems to running the same analysis on a single governed source of truth. Per-client analysis went from roughly four hours of senior analyst time to about two minutes, and analytics cost fell by ninety percent.
 
-**How was protected health information handled?**  
+### How was protected health information handled?
+
 Jindal masked every piece of protected health information into a separate database before any data moved. The analytics platform pulled from that masked database only, never connected to an EHR, and never saw a patient. The compliance boundary and the analytics boundary were deliberately the same line.
 
-**Why does the time saving matter more than the cost saving?**  
+### Why does the time saving matter more than the cost saving?
+
 Because it changes which questions get asked. When a deep look costs four hours, teams reserve it for problems they already know exist. When it costs two minutes, chasing a hunch becomes free, and most of the value in analytics sits in the hunches nobody previously had budget to check.
 
-**What data sources were involved?**  
+### What data sources were involved?
+
 Clearinghouse claim and remittance feeds, meaning the 837s going out and the 835 ERAs coming back, along with the practice management and EHR systems each client billed from, and payer remittance and denial data. Reconciling these by hand was the work that made every question expensive.
 
-**Does this apply outside revenue cycle management?**  
+### Does this apply outside revenue cycle management?
+
 The pattern applies to any business serving multiple clients from separate data environments. The specific pressure in RCM is that every client arrives as its own world, so analytics workload multiplies with the client list. Any agency or managed service with per-client reporting faces the same multiplication.
 
-**What was the hardest part of the migration?**  
+### What was the hardest part of the migration?
+
 Establishing the masking boundary before analytics touched anything, rather than adding controls afterwards. Building the pipeline so that compliance was structural rather than procedural meant the analytics layer could not accidentally see protected data, which removed the need for ongoing review of who looked at what.

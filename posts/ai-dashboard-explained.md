@@ -10,9 +10,9 @@ tags:
   - Dashboard
   - AI
 publishedAt: '2025-02-10'
-updatedAt: '2026-08-25'
-readMinutes: 8
-readLabel: 8 Min Read
+updatedAt: '2026-08-28'
+readMinutes: 5
+readLabel: 5 Min Read
 author:
   name: Sriyanshu Mishra
   title: Data Analyst
@@ -184,7 +184,8 @@ them tells you why some AI dashboards work and others produce confident nonsense
 So the system parses intent — what is being measured, sliced by what, over what
 period — rather than looking for column names in your sentence. This is the same
 machinery behind
-[natural language querying](/blog/natural-language-query-analytics).
+[natural language querying](/blog/natural-language-query-analytics), and what
+[Supaboard's Ask Analysts](/product/ask-analysts) runs on.
 
 ### It has to know what your words mean
 
@@ -256,42 +257,24 @@ that notice the anomaly and raise it before anyone asks — is
 
 ### What is an AI dashboard?
 
-An AI dashboard is a dashboard generated from a question rather than assembled by
-hand. You describe what you want to see, the system works out which sources and
-metrics answer it, and returns the charts. It also explains what changed and why,
-instead of leaving you to read the difference off two numbers.
+An AI dashboard is a dashboard generated from a question rather than assembled by hand. You describe what you want to see, the system works out which sources and metrics answer it, and returns the charts. It also explains what changed and why, instead of leaving you to read the difference off two numbers.
 
 ### How is an AI dashboard different from a normal BI dashboard?
 
-A normal dashboard is built once, by someone who knows the data, and answers the
-questions its author anticipated. An AI dashboard is built on demand and can be
-changed by asking. The practical difference shows up in the follow-up question,
-which a static dashboard cannot answer without someone editing it.
+A normal dashboard is built once, by someone who knows the data, and answers the questions its author anticipated. An AI dashboard is built on demand and can be changed by asking. The practical difference shows up in the follow-up question, which a static dashboard cannot answer without someone editing it.
 
 ### Do AI dashboards replace traditional dashboards?
 
-No, and the products that claim so are overselling. A metric you check every
-morning belongs on a fixed dashboard with a stable layout. AI dashboards win on
-the questions nobody planned for, which is where most of the waiting in a
-reporting process actually happens.
+No, and the products that claim so are overselling. A metric you check every morning belongs on a fixed dashboard with a stable layout. AI dashboards win on the questions nobody planned for, which is where most of the waiting in a reporting process actually happens.
 
 ### How does an AI dashboard know which data to use?
 
-Through a semantic layer that maps business language to the underlying tables.
-Without one, the system is guessing which column you meant when you said revenue.
-This is why AI dashboards work well on modelled data and poorly on a warehouse
-nobody has defined anything in.
+Through a semantic layer that maps business language to the underlying tables. Without one, the system is guessing which column you meant when you said revenue. This is why AI dashboards work well on modelled data and poorly on a warehouse nobody has defined anything in.
 
 ### Can non-technical people build an AI dashboard?
 
-That is the point of the category. The person with the question builds the view,
-without SQL and without filing a request. What still needs technical ownership is
-the layer underneath — the definitions, the connections and the access rules that
-decide whether the answer is trustworthy.
+That is the point of the category. The person with the question builds the view, without SQL and without filing a request. What still needs technical ownership is the layer underneath — the definitions, the connections and the access rules that decide whether the answer is trustworthy.
 
 ### Are AI dashboards accurate?
 
-They are as accurate as the model beneath them, which is why auditability matters
-more than the interface. Any AI dashboard worth adopting will show you the exact
-query it ran. If a tool will not show its work, you cannot verify the number, and
-an unverifiable number should not reach a decision.
+They are as accurate as the model beneath them, which is why auditability matters more than the interface. Any AI dashboard worth adopting will show you the exact query it ran. If a tool will not show its work, you cannot verify the number, and an unverifiable number should not reach a decision.

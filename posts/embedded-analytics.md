@@ -9,9 +9,9 @@ category: product
 tags:
   - SaaS
 publishedAt: '2025-08-20'
-updatedAt: '2025-08-20'
-readMinutes: 6
-readLabel: 6 Min Read
+updatedAt: '2026-08-28'
+readMinutes: 8
+readLabel: 8 Min Read
 author:
   name: Deepak Singh
   title: SEO & Content Writer
@@ -38,10 +38,10 @@ sections:
     heading: Key Features to Look for in an Embedded Analytics Platform
   - id: content-5
     heading: Embedded Analytics vs Business Intelligence
-  - id: content-6
-    heading: Frequently Asked Questions (About Embedded Analytics)
   - id: content-12
     heading: 'White label vs embedded analytics: what is the difference?'
+  - id: content-6
+    heading: Frequently Asked Questions
   - id: content-14
     heading: 'Conclusion: Why Embedded Analytics Is the Future of Software'
 featured:
@@ -171,13 +171,13 @@ Integrating analytics directly into business software creates measurable advanta
 
 ## How Does Embedded Analytics Work?
 
-#### Data Collection, Transformation, and Visualization
+### Data Collection, Transformation, and Visualization
 
 The process begins by pulling data from various sources such as CRMs, ERPs, and cloud databases. That data is cleaned, organized, and enriched so it is ready for analysis.
 
 Once prepared, the information is displayed through interactive dashboards inside the application. Users can filter, explore, and drill into the numbers without leaving their main workspace
 
-#### Integration Techniques: APIs, SDKs, and iFrames
+### Integration Techniques: APIs, SDKs, and iFrames
 
 There are several ways to embed analytics into a product. Some teams connect through analytics APIs, others use software development kits for prebuilt components, and some simply embed dashboards with iFrames. Each method has its pros and cons, but the goal is the same, provide a seamless experience that works across devices and environments.
 
@@ -192,6 +192,8 @@ There are several ways to embed analytics into a product. Some teams connect thr
 **Buying** a ready-made **embedded analytics platform** speeds up deployment, includes **role-based data security**, and scales easily, but may limit deep customization.
 
 The right choice depends on budget, speed to market, and how important complete customization is to your product strategy.
+
+The pricing model matters more than the sticker price here, because embedded analytics is the one case where your user count is your customers' user count. Vendors that charge per seat make every customer you onboard a cost increase; ones that charge flat per internal seat do not. Supaboard is the latter — $99/seat/month on Individual and $249/seat/month on Business, or $83 and $208 billed yearly, [published on the pricing page](/pricing) as of August 2026, with [Datasites](/product/datasites) covering the branded, per-tenant delivery. Metabase ([pricing](https://www.metabase.com/pricing)) and ThoughtSpot ([pricing](https://www.thoughtspot.com/pricing)) both publish their embedding tiers, so those three can be compared directly; most of the rest quote.
 
 **Example**:
 
@@ -262,7 +264,7 @@ Companies are creating new income opportunities by:
 
 ### Top Embedded Analytics Tools in 2025-2026: Why Supaboard Stands Out
 
-In 2025, businesses are increasingly choosing modern embedded analytics platforms that are easy to integrate, scalable, and AI-powered. Among emerging leaders, [**Supaboard**](/) stands out for its simplicity, performance, and product-focused approach.
+In 2025, businesses are increasingly choosing modern embedded analytics platforms that are easy to integrate, scalable, and AI-powered. Among emerging leaders, [**Supaboard's Datasites**](/product/datasites) stand out for its simplicity, performance, and product-focused approach.
 
 ### Key Capabilities Offered by Supaboard
 
@@ -287,31 +289,6 @@ Supaboard provides powerful embedded analytics features designed for SaaS produc
     Designed to grow with your product, from startups to large-scale platforms.
     
 
-###
-
-<!-- section:content-6 -->
-
-## Frequently Asked Questions (About Embedded Analytics)
-
-#### What Is Embedded Analytics?
-
-Embedded analytics means integrating dashboards, reports, and insights directly into software applications. It allows users to access real-time data and contextual analytics within their daily workflows, improving decision-making without switching tools.
-
-#### How Does Embedded Analytics Work?
-
-It works by connecting data sources to applications through APIs, SDKs, or embedded components. The system processes, analyzes, and displays data inside the host platform, enabling users to explore insights securely and interactively.
-
-#### What Are the Main Benefits of Embedded Analytics?
-
-The main benefits include faster decision-making, improved productivity, higher user engagement, better data adoption, and a stronger competitive advantage by making analytics easily accessible within business applications.
-
-#### How Customizable Is Embedded Analytics?
-
-Most embedded analytics platforms support branding, white-labeling, layout customization, role-based views, and custom visualizations. This helps businesses match analytics with their product design and deliver a seamless, native user experience.
-
-#### Is Embedded Analytics Secure and Scalable?
-
-Yes. Modern solutions use data encryption, role-based access controls, compliance standards, and cloud-native architectures. These features ensure secure data handling while supporting growing users, data volumes, and enterprise-level performance.
 
 <!-- section:content-12 -->
 
@@ -336,6 +313,34 @@ What to check before assuming a tool does both:
 - **Does the pricing model survive customer-facing use?** Per-seat pricing means your bill scales with your customer count, which is the wrong shape for anything customer-facing.
 
 The short version: embed for convenience, white label for ownership. Decide which you are actually buying before comparing feature lists, because the tools that lead on one often trail on the other.
+
+<!-- section:content-6 -->
+
+## Frequently Asked Questions
+
+### What is embedded analytics?
+
+Embedded analytics places charts, dashboards or query interfaces inside your own application, so users answer questions without leaving it. The integration is the defining property. It says nothing about branding: an embedded dashboard can still carry the vendor's logo, fonts and error messages, and users will notice.
+
+### How does white labelling differ from embedding?
+
+Embedding is about where analytics appear; white labelling is about whose they look like. Removing the vendor from the surface entirely means your colours, typography, naming and empty states, so the customer experiences it as a feature you built rather than a capability you rent.
+
+### When does branding actually matter?
+
+When you charge for the product containing it. Internal users rarely care about a vendor logo on a dashboard. Customers do, because analytics wearing someone else's brand tells them the capability is rented, which invites the question of why they are paying you rather than the vendor directly.
+
+### What should I check about multi-tenancy?
+
+Whether isolation is enforced at the query layer or by filters that somebody has to remember to apply. Filter-based isolation is a data breach waiting for a misconfiguration. Ask specifically how a customer is prevented from seeing another customer's rows when a developer makes a mistake.
+
+### Why does per-seat pricing break embedded analytics?
+
+Because your seat count becomes your customer count. Pricing that looks reasonable for twenty internal users becomes the largest line in your cost of goods once every customer needs access, and it scales with growth in exactly the wrong direction. Look for capacity or usage-based pricing instead.
+
+### What does embedded analytics cost to build in-house?
+
+More than most estimates, because the visible part is charting and the expensive parts are tenant isolation, permissions, performance under concurrency and ongoing maintenance. Building it is reasonable when analytics is your product; it is rarely reasonable when analytics is a feature of your product.
 
 <!-- section:content-14 -->
 

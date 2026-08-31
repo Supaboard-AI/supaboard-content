@@ -9,7 +9,7 @@ category: data
 tags:
   - Analytics
 publishedAt: '2026-01-24'
-updatedAt: '2026-01-24'
+updatedAt: '2026-08-28'
 readMinutes: 7
 readLabel: 7 Min Read
 author:
@@ -216,7 +216,7 @@ While predictive analytics can generate powerful forecasts, the real challenge i
 
 This is where Supaboard stands out.
 
-[Supaboard](/) brings together business intelligence, performance management, and advanced analytics into a single, unified platform. Instead of switching between tools or relying on static reports, you can interact with your data in real time—making insights more accessible, actionable, and aligned with business goals.
+[Supaboard's analyst agents](/product/agents) bring together business intelligence, performance management, and advanced analytics into a single, unified platform, reading from [700+ connectable sources on the Business plan](/integrations). Instead of switching between tools or relying on static reports, you can interact with your data in real time—making insights more accessible, actionable, and aligned with business goals.
 
 ### What You Can Do With Supaboard
 
@@ -255,31 +255,34 @@ At the same time, advancements in AI are enabling more automated and adaptive sy
 
 To better understand how AI is shaping this evolution, you can explore this resource on [**artificial intelligence in business.**](https://cloud.google.com/learn/what-is-artificial-intelligence)
 
-##
 
 <!-- section:content-7 -->
 
 ## Frequently Asked Questions
 
-### What is predictive analytics in simple terms?
+### What is predictive analytics?
 
-Predictive analytics is a data analysis method that uses historical and real-time data, statistical models, and machine learning to forecast future outcomes. It helps businesses anticipate trends, reduce uncertainty, and make proactive decisions based on data-driven predictions rather than assumptions.
+Predictive analytics uses historical data and statistical or machine learning models to estimate future outcomes, such as which customers are likely to churn or how demand will move next quarter. It produces probabilities rather than certainties, and its usefulness depends on how those probabilities are acted upon.
 
-### How does predictive analytics work?
+### How does it differ from descriptive analytics?
 
-Predictive analytics works by analyzing historical data to identify patterns and relationships, then applying statistical models and machine learning algorithms to predict future outcomes. These models continuously improve as new data is added, increasing accuracy and reliability over time.
+Descriptive analytics establishes what happened, while predictive estimates what happens next. They are sequential rather than alternative: a predictive model trains on historical data, so if your descriptive layer defines revenue ambiguously the forecast inherits that ambiguity and conceals it behind a confidence interval.
 
-### What are common uses of predictive analytics?
+### What data do you need for predictive analytics?
 
-Predictive analytics is commonly used for sales forecasting, customer churn prediction, demand planning, fraud detection, and risk management. Businesses use it to anticipate customer behavior, optimize operations, and improve decision-making across marketing, finance, and supply chain functions.
+Enough history to contain the pattern you want to predict, an unambiguously defined target variable, and features available at prediction time rather than only in hindsight. The last requirement catches many projects late: a model using data recorded after the outcome cannot be deployed, however accurate it appears.
 
-### What is the difference between predictive and descriptive analytics?
+### How accurate is predictive analytics?
 
-Descriptive analytics explains what happened using historical data, while predictive analytics forecasts what is likely to happen next. Predictive analytics goes beyond reporting by using models and algorithms to generate forward-looking insights that support proactive decision-making.
+Accuracy is bounded by how clearly the target was defined and how stable the underlying behaviour is. A model predicting churn is only as good as your definition of churn, and reported accuracy figures mean little without knowing the base rate, since predicting the majority class always looks impressive.
 
-### Why is predictive analytics important for businesses?
+### When should a company invest in predictive analytics?
 
-Predictive analytics helps businesses anticipate trends, reduce risks, and improve performance by enabling data-driven decisions. It provides forward-looking insights that enhance planning, optimize resources, and give organizations a competitive advantage in fast-changing market environments.
+Once its descriptive layer is unambiguous and diagnostic work has identified which drivers matter. Prediction is comparatively cheap to add at that point and expensive to retrofit onto contested definitions. Buying forecasting while teams still dispute what a customer is produces precise numbers nobody trusts.
+
+### Does predictive analytics require a data scientist?
+
+Increasingly less than it did, since automated modelling handles fitting and comparison of standard models well. What still requires judgement is defining the target, choosing features that will exist at prediction time, and deciding whether a result is trustworthy enough to act on.
 
 <!-- section:content-8 -->
 

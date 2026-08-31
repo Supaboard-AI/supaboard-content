@@ -9,7 +9,7 @@ category: engineering
 tags:
   - Tech
 publishedAt: '2026-02-17'
-updatedAt: '2026-02-17'
+updatedAt: '2026-08-28'
 readMinutes: 12
 readLabel: 12 Min Read
 author:
@@ -45,7 +45,7 @@ sections:
   - id: content-10
     heading: 'Database vs Data Warehouse vs Data Lake: How to Choose the Right Solution'
   - id: content-7
-    heading: FAQs
+    heading: Frequently Asked Questions
   - id: content-8
     heading: Conclusion
 featured:
@@ -345,26 +345,36 @@ In practice, many companies use all three systems together to create a balanced 
 
 <!-- section:content-7 -->
 
-## FAQs
+## Frequently Asked Questions
 
-### 1\. Which One Is AWS Data Warehouse and Data Lake?
+### What is the difference between a database, a warehouse and a lake?
 
-On AWS, [**Amazon Redshift**](https://aws.amazon.com/redshift/) is the primary data warehouse service used for analytics, reporting, and business intelligence. It stores structured and processed data for fast querying. **Amazon S3** acts as the main data lake, where companies store raw files, logs, and large datasets. In most architectures, data is first stored in S3 and then analyzed in Redshift, creating a complete cloud analytics ecosystem.
+A database serves transactions: fast reads and writes on current records. A data warehouse serves analysis: structured historical data optimised for aggregation across many rows. A data lake stores raw data of any shape cheaply, imposing structure only when somebody reads it rather than when it is written.
 
-### 2\. What’s the Difference Between a Data Lake and a Data Warehouse?
+### Can I just run analytics on my production database?
 
-A data lake stores raw data in its original format and is mainly used for big data processing, experimentation, and machine learning. A data warehouse stores cleaned and structured data optimized for reporting and dashboards. In practice, data lakes offer flexibility and low cost, while data warehouses provide accuracy, performance, and business-ready insights.
+You can, and it is the most common and most expensive shortcut. Analytical queries scan large numbers of rows, which competes with the transactional workload your application depends on. It works until the day a report locks a table during peak trading, which is usually how teams discover the limit.
 
-### 3\. What’s the Difference Between a Database, a Data Warehouse, and a Data Lake?
+### What does schema-on-write versus schema-on-read mean?
 
-A database supports daily operations such as user logins, orders, and payments. A data warehouse is designed for analyzing historical business data and generating reports. A data lake stores large volumes of raw data for advanced analytics and AI. Together, these systems form a complete data pipeline from operations to insights.
+A warehouse imposes structure when data is written, so modelling work happens up front and queries are fast and predictable. A lake accepts raw data and imposes structure when read, deferring the work. The choice decides who pays the modelling cost and whether it is paid once or repeatedly.
 
-### 4\. Is a Data Warehouse Bigger Than a Database?
+### What is a lakehouse?
 
-In most organizations, a data warehouse is larger than a database because it stores historical data collected from multiple systems over many years. A database mainly contains current operational records. Since warehouses are built for long-term analysis and reporting, their data volume usually grows much faster than that of transactional databases.
+A lakehouse combines lake storage economics with warehouse-style structure and transaction guarantees, aiming to remove the need to maintain both. The approach is genuinely useful at scale; for smaller organisations it often adds architectural complexity to solve a cost problem they do not yet have.
+
+### Which one do I actually need?
+
+Most companies need a warehouse and already have the database. A lake becomes worthwhile when you have substantial volumes of semi-structured data, such as logs or events, that would be expensive to model up front and that you may never query. Buying one prematurely is common.
+
+### How does this affect what I can ask?
+
+Directly. A production database usually holds current state without history, so questions about how something changed over time are unanswerable regardless of your analytics tool. The storage decision constrains the questions available, and that constraint is discovered long after the architecture is settled.
 
 <!-- section:content-8 -->
 
 ### Conclusion
 
 Choosing the right data system is essential for building reliable, scalable, and data-driven applications. Databases support daily operations and real-time transactions, data warehouses enable business intelligence and reporting, and data lakes provide flexible storage for large-scale analytics and machine learning. Each system serves a unique purpose, and using the wrong one can lead to performance issues and inaccurate insights. By understanding their differences, strengths, and use cases, organizations can design a balanced data architecture that supports growth, improves [decision-making](/blog/bi-dashboards), and maximizes the long-term value of their data.
+
+Whichever of the three you land on, the question people actually ask spans more than one of them. [Supaboard's Ask Analysts](/product/ask-analysts) queries across [700+ connectable sources on the Business plan](/integrations), so a question that needs the operational database and the warehouse to meet does not become a migration project first.

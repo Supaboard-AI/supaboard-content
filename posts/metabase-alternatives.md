@@ -10,9 +10,9 @@ category: product
 tags:
   - Product
 publishedAt: '2026-04-07'
-updatedAt: '2026-04-07'
-readMinutes: 7
-readLabel: 7 Min Read
+updatedAt: '2026-08-28'
+readMinutes: 21
+readLabel: 21 Min Read
 author:
   name: Subhrajyoti Modak
   title: Co-Founder & CTO
@@ -53,10 +53,10 @@ sections:
     heading: How to Choose the Right Metabase Alternative
   - id: content-20
     heading: How to Move Off Metabase Without Losing Reporting
+  - id: content-11
+    heading: Frequently Asked Questions
   - id: content-5
     heading: Conclusion
-  - id: content-11
-    heading: Frequently asked questions
 featured:
   choice: null
   trending: null
@@ -304,7 +304,7 @@ usually an engineer, and engineer-hours cost more than seats.
 
 **Best for:** Data teams and mid-market companies that want consistent metrics, structured reporting, and control over business logic
 
-[Supaboard](/) is an AI-native business intelligence platform built for non-technical teams. Instead of building dashboards or writing queries, users can ask questions in plain English and instantly get answers, visualizations, and explanations. No SQL, no query builder, no dependency on analysts.
+[Supaboard](/product/ask-analysts) is an AI-native business intelligence platform built for non-technical teams. Instead of building dashboards or writing queries, users can ask questions in plain English and instantly get answers, visualizations, and explanations. No SQL, no query builder, no dependency on analysts.
 
 Unlike [traditional BI](/blog/self-service-bi) tools that focus on dashboards, Supaboard focuses on answers. It brings your data, metrics, and business logic into one unified layer, so every insight is consistent and aligned with how your business actually works.
 
@@ -320,7 +320,7 @@ Instead of manually creating dashboards, Supaboard automatically builds dashboar
 Supaboard doesn’t just show charts—it explains what’s happening. It highlights trends, anomalies, and key drivers so teams can understand data without deep analysis.
 
 **Unified data layer**  
-Connect 600+ data sources including databases, SaaS tools, and spreadsheets. Supaboard maps your metrics and definitions into a single source of truth for consistent insights.
+Connect 700+ data sources on the Business plan, including databases, SaaS tools, and spreadsheets. Supaboard maps your metrics and definitions into a single source of truth for consistent insights.
 
 **Ask → Explore → Act workflow**  
 Users can ask questions, refine insights with follow-ups, pin results to dashboards, and share them instantly across teams—without switching tools.
@@ -331,7 +331,7 @@ Track performance metrics in real time without manually building reports. Supabo
 **AI agents with business context**  
 Supaboard’s AI understands your business logic, not just raw data. This ensures answers are accurate, consistent, and aligned with how your team defines metrics.
 
-###### [**Start a free trial**](https://auth.supaboard.ai/onboard/register) **and explore your data with your own datasets, see what insights you can uncover in minutes.**
+[**Start a free trial**](https://auth.supaboard.ai/onboard/register) **and explore your data with your own datasets, see what insights you can uncover in minutes.**
 
 ### Who It's For
 
@@ -673,6 +673,34 @@ The step teams skip is the first one, and it is the one that makes the rest
 cheap. Migrating 400 questions is a project; migrating the 30 anyone opens is an
 afternoon.
 
+<!-- section:content-11 -->
+
+## Frequently Asked Questions
+
+### Why do teams look for a Metabase alternative?
+
+Rarely because of charting. The usual triggers are white-labelling depth, per-tenant isolation when embedding into a product you sell, and governance as the number of dashboards grows. Metabase is unusually easy to stand up, which means teams often outgrow it in a specific direction rather than abandoning it wholesale.
+
+### Which Metabase alternative is best for embedded analytics?
+
+It depends on whether you embed for staff or for paying customers. Internal embedding is straightforward and most tools handle it, so optimise for time to first view. Customer-facing embedding is decided by multi-tenancy enforcement and pricing shape long before feature lists become relevant.
+
+### What should I check about multi-tenancy?
+
+Whether isolation is enforced at the query layer or by filters somebody has to remember to apply. Filter-based isolation is a data breach waiting for a misconfiguration. Ask how a customer is prevented from seeing another customer's rows if a developer makes a mistake, and accept only a structural answer.
+
+### Why is per-seat pricing a problem for embedded analytics?
+
+Because your seat count becomes your customer count. Pricing that looks reasonable for an internal team of twenty becomes the largest line in your product's cost of goods once every customer needs access. Look for capacity or usage pricing, and model it at ten times your current customer base.
+
+### Is Metabase's open-source edition enough?
+
+For internal analytics on a moderate scale, frequently yes. The open-source edition costs nothing to license and costs engineering time to operate, which is the real comparison. Teams typically move to a paid tier or another tool over embedding, permissions granularity and support rather than over missing analysis features.
+
+### How deep does white labelling need to go?
+
+Further than most evaluations check. Changing the logo and primary colour is the shallow tier. Fonts, chart palettes, loading states, error messages and exported file headers are where the seams show, and a customer who opens developer tools will see the vendor domain regardless of how the interface looks.
+
 <!-- section:content-5 -->
 
 ## Conclusion
@@ -692,25 +720,3 @@ If your team still depends on others for basic insights, it’s time to consider
 [**Get Started**](https://auth.supaboard.ai/onboard/register) – Connect your data and see insights in minutes
 
 [**Book a Demo**](https://calendly.com/aritra-ewq/supaboard-demo) – Get a personalized walkthrough of Supaboard for your use case.
-
-<!-- section:content-11 -->
-
-## Frequently asked questions
-
-**Why do teams look for a Metabase alternative?**  
-Rarely because of charting. The usual triggers are white-labelling depth, per-tenant isolation when embedding into a product you sell, and governance as the number of dashboards grows. Metabase is unusually easy to stand up, which means teams often outgrow it in a specific direction rather than abandoning it wholesale.
-
-**Which Metabase alternative is best for embedded analytics?**  
-It depends on whether you embed for staff or for paying customers. Internal embedding is straightforward and most tools handle it, so optimise for time to first view. Customer-facing embedding is decided by multi-tenancy enforcement and pricing shape long before feature lists become relevant.
-
-**What should I check about multi-tenancy?**  
-Whether isolation is enforced at the query layer or by filters somebody has to remember to apply. Filter-based isolation is a data breach waiting for a misconfiguration. Ask how a customer is prevented from seeing another customer's rows if a developer makes a mistake, and accept only a structural answer.
-
-**Why is per-seat pricing a problem for embedded analytics?**  
-Because your seat count becomes your customer count. Pricing that looks reasonable for an internal team of twenty becomes the largest line in your product's cost of goods once every customer needs access. Look for capacity or usage pricing, and model it at ten times your current customer base.
-
-**Is Metabase's open-source edition enough?**  
-For internal analytics on a moderate scale, frequently yes. The open-source edition costs nothing to license and costs engineering time to operate, which is the real comparison. Teams typically move to a paid tier or another tool over embedding, permissions granularity and support rather than over missing analysis features.
-
-**How deep does white labelling need to go?**  
-Further than most evaluations check. Changing the logo and primary colour is the shallow tier. Fonts, chart palettes, loading states, error messages and exported file headers are where the seams show, and a customer who opens developer tools will see the vendor domain regardless of how the interface looks.

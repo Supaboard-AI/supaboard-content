@@ -9,9 +9,9 @@ category: data
 tags:
   - SaaS
 publishedAt: '2026-01-09'
-updatedAt: '2026-08-25'
-readMinutes: 5
-readLabel: 5 Min Read
+updatedAt: '2026-08-28'
+readMinutes: 15
+readLabel: 15 Min Read
 author:
   name: Deepak Singh
   title: SEO & Content Writer
@@ -45,7 +45,7 @@ sections:
   - id: content-6
     heading: Benefits and Limitations of Ad Hoc Queries
   - id: content-7
-    heading: FAQs About Ad Hoc Queries
+    heading: Frequently Asked Questions
   - id: content-8
     heading: Conclusion
 featured:
@@ -185,7 +185,7 @@ Normally, with dashboards, you’re limited to what someone else designed. If th
 
 **See below image for a better explanation:**
 
-Supaboard's [query builder](/product/query-builder) is built for exactly this pattern — a question that did not exist yesterday, answered without waiting on a report request.
+Supaboard's [query builder](/product/query-builder) is built for exactly this pattern — a question that did not exist yesterday, answered without waiting on a report request, across [700+ connectable sources on the Business plan](/integrations).
 
 ![Supaboard dashboard answering an ad hoc query](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-an-ad-hoc-query/e37e6a31bf03d1a6.png?w=1436&h=812)
 
@@ -218,7 +218,7 @@ The term **ad hoc** comes from Latin and means _“for this specific purpose.”
 
 In analytics, **ad hoc data analysis** is used when teams need quick, focused answers. It is not about long-term tracking. It is about understanding what is happening _right now_ and why.
 
-##### **Example**
+### **Example**
 
 Imagine your company usually tracks monthly sales through a dashboard. One day, you notice that sales suddenly dropped yesterday in one region.
 
@@ -239,7 +239,7 @@ This one-time investigation is **ad hoc analysis**. You created it just to answe
 
 These kinds of questions are not meant for permanent dashboards. They need flexible, temporary, and investigative analysis. That is exactly what **ad hoc queries** are designed for.
 
-##### Gartner (2018): Self-Service Analytics Drives Faster Business Decisions
+### Gartner (2018): Self-Service Analytics Drives Faster Business Decisions
 
 **Source:** [Gartner](https://www.gartner.com/en/newsroom/press-releases/2018-01-25-gartner-says-self-service-analytics-and-bi-users-will-produce-more-analysis-than-data-scientists-will-by-2019)
 
@@ -257,31 +257,31 @@ The process of running an ad hoc query is simple, but extremely powerful. It is 
 
 ![How Ad Hoc Queries Work](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-an-ad-hoc-query/4a7106d66577d9da.png?w=768&h=512)
 
-##### **1\. A question emerges**
+### **1\. A question emerges**
 
 Everything starts with a question. A user notices something unusual or needs a specific answer. For example, sales suddenly dropped for one product category, or customer churn increased after a new feature release.
 
 This type of question is usually unplanned, which is why regular dashboards often cannot answer it.
 
-##### **2\. Relevant data is selected**
+### **2\. Relevant data is selected**
 
 Next, the user chooses the datasets, tables, or metrics that are most relevant to the question. This might include sales data, customer behavior, marketing performance, or operational logs.
 
 The goal here is to bring only the necessary data into focus, instead of scanning through everything.
 
-##### **3\. Filters and dimensions are applied**
+### **3\. Filters and dimensions are applied**
 
 Now the data is narrowed down. Users apply filters like time range, region, product type, or customer segment. They can also group data by different dimensions to spot patterns.
 
 This step helps reduce noise and makes insights easier to see.
 
-##### **4\. The query is refined**
+### **4\. The query is refined**
 
 This is where real exploration happens. Users look at the results and ask new questions. They might add another filter, change the grouping, or compare different time periods.
 
 This process often repeats multiple times until the real reason behind a trend or issue becomes clear.
 
-##### **5\. Insights are visualized or shared**
+### **5\. Insights are visualized or shared**
 
 Once users find something meaningful, they can turn it into a chart, a table, or a temporary report. These insights can then be shared with teammates or stakeholders for quick decision-making.
 
@@ -359,11 +359,11 @@ Ad hoc queries exist to explain what reports cannot. They are used when somethin
 
 [Strong BI teams use both](/blog/saas-business-intelligence). Reports show what is happening. Ad hoc queries explain why it is happening.
 
-##### Ad Hoc Query Examples
+### Ad Hoc Query Examples
 
 Ad hoc queries are most useful when teams need to investigate something unexpected or dig deeper into what dashboards cannot explain. Below are some real-world examples across different business functions.
 
-##### **Marketing**
+### **Marketing**
 
 Marketing teams often need quick answers when performance suddenly changes.
 
@@ -379,7 +379,7 @@ Marketing teams often need quick answers when performance suddenly changes.
 
 These questions are rarely planned in advance. They usually appear after something unexpected happens.
 
-##### **Sales**
+### **Sales**
 
 Sales teams use ad hoc queries to understand deal behavior and revenue movement.
 
@@ -395,7 +395,7 @@ Sales teams use ad hoc queries to understand deal behavior and revenue movement.
 
 These insights often change week to week, so fixed dashboards are not enough.
 
-##### **Finance**
+### **Finance**
 
 Finance teams rely on ad hoc queries when something does not look right.
 
@@ -409,7 +409,7 @@ Finance teams rely on ad hoc queries when something does not look right.
     This is often a one-time investigation, not a recurring report.
     
 
-##### **Product**
+### **Product**
 
 Product teams use ad hoc analysis to understand how users behave.
 
@@ -450,7 +450,7 @@ Both are essential. **Ad hoc queries provide the building blocks**, while **ad h
 
 Not all BI systems support true ad hoc querying. Many are built for fixed dashboards, not for free exploration. A good ad hoc setup lets users move quickly from a question to an answer without waiting for new reports.
 
-##### **Example**
+#### **Example**
 
 A sales dashboard shows revenue dropped yesterday. It does not explain why.
 
@@ -471,7 +471,7 @@ A SaaS team notices a sudden increase in churn. Instead of waiting for a new rep
 
 Ad hoc queries are most useful for fast investigations, product analysis, customer behavior checks, and one-off business questions.
 
-Some modern BI platforms, [including Supaboard](https://www.supaboard.ai/), are designed around this idea of interactive, question-driven analysis rather than fixed reporting.
+Some modern BI platforms, [including Supaboard's query builder](/product/query-builder), are designed around this idea of interactive, question-driven analysis rather than fixed reporting.
 
 <!-- section:content-9 -->
 
@@ -497,7 +497,7 @@ What this changes is the shape of the queue. The requests that remain are the on
 
 ## Benefits and Limitations of Ad Hoc Queries
 
-##### **Benefits**
+### **Benefits**
 
 • **Faster answers to unexpected questions**  
 When something unusual happens, like a sudden dip in sales or a spike in traffic, ad hoc queries let teams investigate immediately instead of waiting for a new report to be built.
@@ -511,7 +511,7 @@ Instead of sticking to predefined views, users can follow their curiosity, test 
 • **Reduces pressure on data teams**  
 Data teams can focus on building strong data models and infrastructure, rather than spending time on repetitive, one-off questions.
 
-##### **Limitations**
+### **Limitations**
 
 • **Results may lack consistency**  
 Different users may analyze the same data in different ways, which can create multiple versions of the truth if definitions and metrics are not standardized.
@@ -524,33 +524,31 @@ Complex, real-time queries can slow down systems when working with massive or po
 
 <!-- section:content-7 -->
 
-## FAQs About Ad Hoc Queries
+## Frequently Asked Questions
 
-##### **What is an ad hoc query in simple terms?**
+### What is an ad hoc query?
 
-An ad hoc query is a custom data question created on the spot to solve a specific problem. Unlike regular reports, it is not pre-built or scheduled. It helps users explore data immediately when something unexpected or unclear needs explanation.
+An ad hoc query is a data question created on the spot to answer something specific and unplanned, rather than a pre-built report that runs on a schedule. It exists because something unexpected happened and the existing dashboards did not anticipate the question being asked.
 
-##### **What are ad hoc queries used for?**
+### How is it different from a report?
 
-Ad hoc queries are used for quick investigation, validation, and exploration. Teams rely on them when they notice unusual trends, sudden drops, or spikes in performance and need fast answers without waiting for new dashboards or reports.
+A report is designed once and reused, covering questions somebody anticipated. An ad hoc query is created for a single situation and may never run again. Reports answer known questions reliably; ad hoc queries answer new ones, and a healthy analytics function needs both rather than choosing between them.
 
-##### **Are ad hoc queries the same as SQL queries?**
+### Do ad hoc queries require SQL?
 
-No. SQL is just one way to create ad hoc queries. Many modern BI tools let users build them visually using filters, charts, and drag-and-drop interfaces. SQL is optional and mostly used by advanced or technical users.
+Not necessarily. SQL is one way to express them, and modern BI tools let users build the same queries visually or by asking in plain language. What matters is not the syntax but whether the person with the question can express it without waiting for somebody else.
 
-##### **What is an example of ad hoc analysis?**
+### Why do ad hoc requests overwhelm analytics teams?
 
-A common example of ad hoc analysis is investigating why churn suddenly increased for one customer segment after a pricing update. This type of analysis is temporary, exploratory, and focused on understanding a specific situation.
+Because they are the questions dashboards did not anticipate, and there will always be more of those than of anticipated ones. Every unanticipated question becomes a request, requests queue behind planned work, and the queue grows faster than any team can build views to pre-empt it.
 
-##### **What are ad hoc queries?**
+### How do you reduce ad hoc data requests?
 
-**Ad hoc queries** are on-demand data queries created to answer specific, unplanned questions that are not covered by predefined reports or dashboards. They allow users to explore data freely by applying filters, grouping dimensions, and comparing metrics in real time. Ad hoc queries are commonly used in business intelligence to investigate unexpected trends, validate assumptions, and uncover insights quickly without waiting for new reports to be built.
+By making the common ones answerable without an analyst, not by refusing them. Log requests for a month to find which few questions dominate the volume, define the metrics behind them once, and give people a way to ask that does not require SQL. Keep an escalation path for genuinely hard questions.
 
-##### **Can non-technical users run ad hoc queries?**
+### Is self-service enough to eliminate ad hoc requests?
 
-Yes. Most modern BI platforms support self-service ad hoc querying, allowing both technical and non-technical users to explore data using simple interfaces. Users can filter, group, and compare data without writing code or relying on analysts.
-
-Know more [about top BI tools.](/blog/best-ai-bi-tools)
+No, and promising that is how self-service programmes lose credibility. Some questions genuinely need an analyst, because they require knowing where the data lies and which joins mislead. The goal is changing the shape of the queue so what remains is worth an analyst's time.
 
 <!-- section:content-8 -->
 

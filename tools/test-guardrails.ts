@@ -108,6 +108,19 @@ check("a numeric claim carrying an inline source is accepted", () => {
   assert.equal(a.numericClaims[0].sourced, true);
 });
 
+check("a customer number citing its own case study is accepted", () => {
+  const a = analyze(
+    "[Jindal Healthcare](/case-study/jindal-healthcare) reduced analytics cost by 90%.",
+    GOOD.citations,
+  );
+  assert.equal(a.numericClaims[0].sourced, true);
+});
+
+check("a plain internal link does not source a number", () => {
+  const a = analyze("Executives waste [12 hours per week](/blog/data-engineering) reconciling.", GOOD.citations);
+  assert.equal(a.numericClaims[0].sourced, false);
+});
+
 check("fewer than 4 statistics fails", () => {
   assert.ok(only({ ...GOOD, statsCount: 3 }).some((i) => i.path === "statsCount"));
 });

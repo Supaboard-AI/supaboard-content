@@ -9,9 +9,9 @@ category: engineering
 tags:
   - Data
 publishedAt: '2025-12-02'
-updatedAt: '2025-12-02'
-readMinutes: 4
-readLabel: 04 Min Read
+updatedAt: '2026-08-28'
+readMinutes: 8
+readLabel: 8 Min Read
 author:
   name: Deepak Singh
   title: SEO & Content Writer
@@ -44,10 +44,10 @@ sections:
     heading: How does generative AI change what an analyst actually does?
   - id: content-5
     heading: Skills Data Analysts Need to Stay Relevant in the Age of AI
+  - id: content-10
+    heading: Frequently Asked Questions
   - id: content-6
     heading: 'Conclusion: AI Is Redefining the Role, Not Replacing It'
-  - id: content-10
-    heading: Frequently asked questions
 featured:
   choice: null
   trending: null
@@ -197,15 +197,15 @@ AI speeds up work, but analysts still validate, interpret, and communicate insig
 
 ## AI Tools That Are Changing Data Analysis
 
-#### **What Are AI Tools in Data Analysis?**
+### **What Are AI Tools in Data Analysis?**
 
 AI tools in data analysis use machine learning, natural language processing, and automation to help users explore data, generate insights, and build reports faster. Instead of manual queries and complex setups, these tools allow analysts and business users to ask questions in plain language and get instant, data-backed answers.
 
-#### **Why Are AI Tools Changing Data Analysis?**
+### **Why Are AI Tools Changing Data Analysis?**
 
 Traditional data analysis is slow, technical, and dependent on specialists. AI removes these bottlenecks by automating data preparation, surfacing trends automatically, and making analytics accessible to non-technical teams. This shift helps organizations make faster, more confident decisions at scale.
 
-#### **How Do AI Tools Change the Way Data Is Analyzed?**
+### **How Do AI Tools Change the Way Data Is Analyzed?**
 
 AI-powered BI tools like **Microsoft Power BI Copilot**, **Tableau**, **Supaboard (Stella)**, and **Looker** enable natural-language analysis. Platforms such as **Google Cloud Vertex AI** and **Amazon SageMaker** handle advanced modeling, while tools like **ChatGPT** assist with interpretation.
 
@@ -221,11 +221,11 @@ Analysts also handle ambiguity. Real business problems are messy, incomplete, an
 
 AI finds patterns. **Data analysts explain meaning, apply judgment, and drive decisions.**How Analysts at Top Companies Use AI
 
-##### [Google](http://www.google.com/): Turning AI Signals Into Strategy
+### [Google](http://www.google.com/): Turning AI Signals Into Strategy
 
 AI surfaces churn risks and behavior shifts. Analysts investigate the underlying causes, connect signals to market events, and advise product and marketing teams.
 
-##### Amazon: AI Predicts, Analysts Optimize
+### Amazon: AI Predicts, Analysts Optimize
 
 AI forecasts demand and buying patterns. Analysts spot cultural or seasonal trends AI cannot label, recommend inventory strategies, and decide which customer segments need targeted campaigns.
 
@@ -298,17 +298,45 @@ The role that shrinks is report-writer. The role that grows is the one that deci
 
 To stay competitive in modern data analytics, analysts must combine **technical expertise, human skills, and continuous learning**. AI is accelerating analysis, but skilled analysts are still needed to guide outcomes and decisions.
 
-#### **Technical Skills for Modern Data Analysts**
+### **Technical Skills for Modern Data Analysts**
 
 Strong foundations in **SQL**, **Excel**, and **Python or R** remain essential. Analysts should understand **machine learning basics** and be comfortable using **AI-enabled BI tools** to explore data, automate analysis, and validate insights.
 
-#### **Human Skills AI Cannot Replace**
+### **Human Skills AI Cannot Replace**
 
 Critical thinking, **data storytelling**, and stakeholder communication turn insights into action. **Domain knowledge**, problem-solving, creativity, and curiosity help analysts frame the right questions and interpret results responsibly.
 
-#### **Continuous Learning & the Future of Data Analytics**
+### **Continuous Learning & the Future of Data Analytics**
 
 New roles like **data engineer**, **decision intelligence analyst**, and **AI ethicist** are emerging. The future of data analytics is **human-AI collaboration**—AI delivers speed and scale, while humans provide context, judgment, and strategy.
+
+<!-- section:content-10 -->
+
+## Frequently Asked Questions
+
+### Will AI replace data analysts?
+
+No, though it substantially changes the role. AI automates retrieval, data preparation and recurring reporting, which historically consumed most analyst time. What remains is defining metrics, judging whether results hold, and deciding what to do. The role that shrinks is report-writer; the role that grows decides what is true.
+
+### What can AI genuinely do today in analytics?
+
+Data cleaning and preprocessing, automated reporting, exploratory analysis, forecasting, anomaly detection and natural-language querying. These are real capabilities rather than marketing claims. What they share is that each has a well-defined input and a checkable output, which is precisely the condition under which automation works reliably.
+
+### Will AI automate BI reporting?
+
+The recurring parts, yes. Assembling a weekly or monthly report, pulling the numbers and summarising what moved is largely mechanical. What does not automate is deciding which metrics belong in the report and what a movement means. Reporting splits into an assembly problem and a judgement problem; only the first generalises.
+
+### Are dashboards being replaced?
+
+Partly, and by something more useful than another dashboard. Traditional dashboards can only answer questions somebody anticipated when building them, which is why unanticipated questions spawn new views endlessly. What replaces them is asking directly and following up, leaving dashboards for the small stable set of numbers teams watch continuously.
+
+### How does generative AI change what an analyst does?
+
+It moves the work from producing answers to governing them. Time previously spent on retrieval relocates to defining metrics so they stick across teams, checking the questions that require knowing where the data lies, and building the pipelines and access controls that decide whether the self-service layer can be trusted.
+
+### Which analysts are actually at risk?
+
+Those whose role is genuinely just translating a ticket into SQL. That was always the least durable part of the job and it is the part being automated first. Analysts who own definitions, question results and connect findings to decisions are becoming more valuable as more people query the data.
 
 <!-- section:content-6 -->
 
@@ -316,26 +344,6 @@ New roles like **data engineer**, **decision intelligence analyst**, and **AI et
 
 AI is transforming analytics, but it is not eliminating data analysts. It removes manual work so analysts can focus on strategy, interpretation, and business impact.
 
-Analysts who learn to use AI will become far more effective. Analysts who avoid it risk falling behind. The future belongs to those who combine human intelligence with AI intelligence**.**
+Analysts who learn to use AI will become far more effective. Analysts who avoid it risk falling behind. The future belongs to those who combine human intelligence with AI intelligence.
 
-<!-- section:content-10 -->
-
-## Frequently asked questions
-
-**Will AI replace data analysts?**  
-No, though it substantially changes the role. AI automates retrieval, data preparation and recurring reporting, which historically consumed most analyst time. What remains is defining metrics, judging whether results hold, and deciding what to do. The role that shrinks is report-writer; the role that grows decides what is true.
-
-**What can AI genuinely do today in analytics?**  
-Data cleaning and preprocessing, automated reporting, exploratory analysis, forecasting, anomaly detection and natural-language querying. These are real capabilities rather than marketing claims. What they share is that each has a well-defined input and a checkable output, which is precisely the condition under which automation works reliably.
-
-**Will AI automate BI reporting?**  
-The recurring parts, yes. Assembling a weekly or monthly report, pulling the numbers and summarising what moved is largely mechanical. What does not automate is deciding which metrics belong in the report and what a movement means. Reporting splits into an assembly problem and a judgement problem; only the first generalises.
-
-**Are dashboards being replaced?**  
-Partly, and by something more useful than another dashboard. Traditional dashboards can only answer questions somebody anticipated when building them, which is why unanticipated questions spawn new views endlessly. What replaces them is asking directly and following up, leaving dashboards for the small stable set of numbers teams watch continuously.
-
-**How does generative AI change what an analyst does?**  
-It moves the work from producing answers to governing them. Time previously spent on retrieval relocates to defining metrics so they stick across teams, checking the questions that require knowing where the data lies, and building the pipelines and access controls that decide whether the self-service layer can be trusted.
-
-**Which analysts are actually at risk?**  
-Those whose role is genuinely just translating a ticket into SQL. That was always the least durable part of the job and it is the part being automated first. Analysts who own definitions, question results and connect findings to decisions are becoming more valuable as more people query the data.
+The practical version of that is handing the repetitive half to the machine. [Supaboard's automations](/product/automations) run the scheduled questions and fire on threshold breaches, and [Objection.ai](/case-study/objection.ai) runs marketing and product analytics across eleven sources with no analyst on staff — not because the role vanished, but because nobody was hired into it in the first place.

@@ -10,9 +10,9 @@ category: engineering
 tags:
   - Business Intelligence
 publishedAt: '2026-06-01'
-updatedAt: '2026-06-01'
-readMinutes: 7
-readLabel: 7 Min Read
+updatedAt: '2026-08-28'
+readMinutes: 14
+readLabel: 14 Min Read
 author:
   name: Subhrajyoti Modak
   title: Co-Founder & CTO
@@ -48,7 +48,7 @@ sections:
   - id: content-10
     heading: How to tell the difference in five minutes
   - id: content-8
-    heading: FAQ
+    heading: Frequently Asked Questions
 featured:
   choice: null
   trending: null
@@ -269,7 +269,7 @@ Here is the concession the skeptic is right to demand, and the one that makes ev
 
 **Every AI BI tool, including mine, uses text-to-SQL under the hood.** At the bottom of the stack, when it is time to actually fetch rows, the system generates SQL and runs it against a database. There is no avoiding this and no shame in it. SQL is how you query a relational database. Anyone who tells you their AI BI product has transcended SQL is selling you something.
 
-So the difference is not whether text-to-SQL is present. It is present in all of us. The difference is what sits around it. A semantic layer that tells the SQL generator what "active customer" means before it writes a line. A mapping layer that lets it join three systems. A reasoning loop that decides which queries to write and in what order. A training mechanism so the system learns your definitions instead of re-deriving them every session.
+So the difference is not whether text-to-SQL is present. It is present in all of us. The difference is what sits around it. A [semantic layer](/blog/what-is-a-semantic-layer) that tells the SQL generator what "active customer" means before it writes a line. A mapping layer that lets it join three systems. A reasoning loop that decides which queries to write and in what order. A training mechanism so the system learns your definitions instead of re-deriving them every session — in our case, [agents you score, test and tune](/product/agents).
 
 Text-to-SQL is an engine. Whether you have a car depends on everything else. The objection "you're just text-to-SQL with a wrapper" is, in a literal sense, like saying a car is just an engine with a wrapper. The engine is real and essential. It is also not the thing you drive.
 
@@ -287,34 +287,39 @@ You don't need to read architecture diagrams. You need three questions and one r
 
 **Minute 3 — Ask "why."** Take the result and ask why. "Why is retention lower for the no-CSM group?" Watch whether it runs a single query and restates the number, or whether it decomposes, hypothesizes, and tests. One is retrieval. The other is reasoning.
 
+You can run all five minutes against your own data on a trial; [pricing](/pricing) is flat per seat, so the bill does not move with how many questions the test takes.
+
 **Minutes 4 and 5 — Correct it, then re-ask.** Tell it your real definition: "active excludes paused and trial." Then ask the original question again, and ideally a related one tomorrow. Does the correction stick and generalize, or do you have to re-explain it every session? A tool with a semantic layer learns. A wrapper forgets.
 
-If a tool passes all three of the first questions and remembers your correction, it understands your business. If it fails them, it's a very good SQL writer with a chat box. Both are useful. They are not the same product, and now you can tell which one you're looking at in the time it takes to drink a coffee.
+If a tool passes all three of the first questions and remembers your correction, it understands your business. If it fails them, it's a very good SQL writer with a chat box. Both are useful. They are not the same product, and now you can tell which one you're looking at in the time it takes to drink a coffee. [Objection.ai](/case-study/objection.ai) ran that test across eleven sources and now runs without a data analyst on staff.
 
 That's the honest answer to "is AI BI just text-to-SQL." No. It contains text-to-SQL the way a car contains an engine. The category is real because the hard part of a business question was never the SQL. It was knowing which question to ask, what your words mean, and why the number moved. Build for that and you're doing something genuinely different. Skip it and the skeptic is right about you.
 
 <!-- section:content-8 -->
 
-## 
 
-## FAQ
+## Frequently Asked Questions
 
-### **Is AI BI just text-to-SQL?**
+### Is AI BI just text-to-SQL with better marketing?
 
-No, though it includes text-to-SQL as a component. Text-to-SQL translates a question into a query against one schema. AI-native BI adds a semantic layer for your metric definitions, mappings to join across sources like Stripe, Postgres, and your CRM, and a reasoning loop for "why" questions. The SQL generation is the engine; the understanding is everything around it.
+No, though plenty of products marketed as AI BI are exactly that. Text-to-SQL translates a question into a query against whatever the schema contains. AI BI resolves the question against governed business definitions first, then generates the query. The difference shows up as correctness, not as speed.
 
-### **What's the difference between text-to-SQL and AI BI?**
+### What is text-to-SQL?
 
-Text-to-SQL answers "what is the number" for a single, well-defined schema. AI-native BI answers "what does this mean for the business," which requires knowing your definitions, joining across systems, and reasoning about cause. The clearest tell: text-to-SQL's idea of "correct" is valid SQL; AI BI's idea of correct is your business's actual definition of the metric.
+Text-to-SQL is the task of converting a natural-language question into a SQL query. Modern models do it well syntactically: the SQL usually runs and returns something. What the model cannot infer is which of several revenue columns your business means, or that one excludes refunds and internal test accounts.
 
-### **What are the limitations of text-to-SQL?**
+### Why does the distinction matter commercially?
 
-It is bound to one schema, so it struggles to join across separate systems it wasn't shown. It can't know business definitions that live outside the schema, like "active customer excludes paused accounts," so it silently uses naive ones. And it produces one query per question, which means it can't carry a hypothesis across the multiple steps that "why" questions need.
+Because a wrong answer that looks right is more expensive than no answer. Text-to-SQL fails silently: the query executes, a number appears, and nothing signals that it used the wrong column. Somebody then cites it in a meeting. Governed definitions make that class of failure structurally impossible rather than merely unlikely.
 
-### **Do AI BI tools use text-to-SQL?**
+### Can better models remove the need for a semantic layer?
 
-Yes, essentially all of them do, including Supaboard. SQL is how you query a relational database, so generating it is unavoidable. The real question is never whether a tool uses text-to-SQL but what it wraps around it: a semantic layer, cross-source mappings, reasoning, and a way to learn your definitions over time.
+They raise the floor without removing the need. A model reading your schema cannot know that finance and growth disagree about whether trials count, because that decision exists only in people's heads until it is written down. Improving SQL generation does not create business meaning that was never recorded.
 
-### **How can AI be used for data analysis if it's more than text-to-SQL?**
+### How do I tell which one a vendor is selling?
 
-An AI agent for data analysis goes beyond writing one query: it resolves your question against canonical metric definitions, joins the relevant sources, runs a chain of queries to test explanations, and returns a reasoned answer rather than a raw table. That combination, not the SQL step alone, is what data analysis using generative AI looks like when it's done well.
+Ask what happens when you change a metric definition. In a system built around governed meaning, the change propagates to every answer immediately. In a text-to-SQL product, there is no definition to change, so the honest answer is that you would adjust prompts or rebuild the dashboards.
+
+### Where does text-to-SQL genuinely work well?
+
+On exploratory work by someone who can read the generated SQL and would notice a wrong join. For an analyst it is a real accelerator, removing boilerplate from work they were going to check anyway. The risk appears when the output goes straight to somebody who cannot evaluate it.

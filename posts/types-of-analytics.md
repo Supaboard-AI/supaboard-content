@@ -9,9 +9,9 @@ category: data
 tags:
   - Analytics
 publishedAt: '2026-01-11'
-updatedAt: '2026-01-11'
-readMinutes: 8
-readLabel: 8 Min Read
+updatedAt: '2026-08-28'
+readMinutes: 9
+readLabel: 9 Min Read
 author:
   name: Deepak Singh
   title: SEO & Content Writer
@@ -46,10 +46,10 @@ sections:
     heading: Common Mistakes When Using Analytics
   - id: content-8
     heading: What is the Analytics as a Service (AaaS) business model?
+  - id: content-12
+    heading: Frequently Asked Questions
   - id: content-14
     heading: Conclusion
-  - id: content-12
-    heading: Frequently asked questions
 featured:
   choice: null
   trending: null
@@ -187,13 +187,13 @@ _Scenario:_ “We have 10,000 delivery routes and 50 drivers, what’s the most 
 
 ## Descriptive Analytics: Telling the Story of the Past
 
-##### **What is Descriptive Analytics?**
+### **What is Descriptive Analytics?**
 
 Descriptive analytics summarizes historical data and presents it in easy-to-understand formats like reports, charts, and dashboards. Its main goal is to show past performance, highlight trends, and track key metrics so decision-makers can quickly understand what is happening in the business, without technical complexity.
 
 **In simple words:** Descriptive analytics helps enterprise businesses clearly see what has already happened in their operations.
 
-##### **How Descriptive Analytics Works?**
+### **How Descriptive Analytics Works?**
 
 1.  Collect data from sales, marketing, or operations.
     
@@ -220,13 +220,13 @@ Descriptive analytics gives your team a shared understanding. Everyone—from C-
 
 ## Diagnostic Analytics: Finding the Root Cause
 
-##### **What is Diagnostic Analytics?**
+### **What is Diagnostic Analytics?**
 
 Diagnostic analytics looks deeper into data to understand _why_ something happened. It goes beyond surface-level reports and examines relationships, patterns, and behaviors to uncover the real reasons behind performance changes.
 
 In simple words: Diagnostic analytics helps enterprise businesses understand the real cause behind a problem or result.
 
-##### **How Diagnostic Analytics Works?**
+### **How Diagnostic Analytics Works?**
 
 -   Compare different time periods
     
@@ -245,7 +245,7 @@ Without diagnostic analytics, teams guess, misallocate resources, or fix the wro
 
 **Tools & Tips:**
 
--   **Tools:** SQL, [**Supaboard**](https://www.supaboard.ai/), Power BI, Excel
+-   **Tools:** SQL, [**Supaboard**](/product/query-builder) across [700+ sources](/integrations), Power BI, Excel
     
 -   **Tip:** Ask focused questions, validate correlations, and combine insights with domain knowledge.
 
@@ -253,13 +253,13 @@ Without diagnostic analytics, teams guess, misallocate resources, or fix the wro
 
 ## Predictive Analytics: Seeing the Future Before It Happens
 
-##### **What is Predictive Analytics?**
+### **What is Predictive Analytics?**
 
 Predictive analytics uses past data to estimate what is likely to happen in the future. It identifies patterns and trends, then uses them to forecast possible outcomes. These predictions are not guarantees, but they help businesses prepare better.
 
 In simple words: Predictive analytics helps enterprise businesses prepare for the future before it arrives.
 
-##### **How Predictive Analytics Works:**
+### **How Predictive Analytics Works:**
 
 -   Collect large amounts of historical data
     
@@ -286,13 +286,13 @@ Predictive analytics allows businesses to act early instead of reacting late. It
 
 ## Prescriptive Analytics: Telling You What to Do
 
-##### **What is Prescriptive Analytics?**
+### **What is Prescriptive Analytics?**
 
 Prescriptive analytics tells you what action to take after analyzing data and future predictions. Instead of just showing what might happen, it suggests the best option based on your goals, limits, and risks. This helps teams make faster, smarter, and more confident decisions.
 
 In simple words: Prescriptive analytics tells enterprise businesses what they _should do next_.
 
-##### **How Prescriptive Analytics Works?**
+### **How Prescriptive Analytics Works?**
 
 Prescriptive systems simulate multiple scenarios and evaluate each option using optimization techniques, business rules, and AI-based models. They account for limitations such as budget, time, workforce, and regulations before making recommendations.
 
@@ -338,19 +338,19 @@ If you can only do one thing this quarter, make the descriptive layer unambiguou
 
 ## Common Mistakes When Using Analytics
 
-##### **1\. Using Past Data to Predict the Future**
+### **1\. Using Past Data to Predict the Future**
 
 Many teams think that if something worked before, it will work again. But customer behavior, markets, and trends change. Old data alone cannot tell you what will happen next.
 
-##### **2\. Confusing Correlation with Causation**
+### **2\. Confusing Correlation with Causation**
 
 Just because two things happen together doesn’t mean one caused the other. This mistake leads to wrong conclusions and wrong decisions.
 
-##### **3\. Trusting Data Without Understanding Context**
+### **3\. Trusting Data Without Understanding Context**
 
 Numbers don’t tell the full story. If you don’t understand the business context behind the data, you can easily misinterpret what it actually means.
 
-##### **4\. Collecting Too Much Data, Using Too Little**
+### **4\. Collecting Too Much Data, Using Too Little**
 
 Many companies track hundreds of metrics but don’t act on any of them. More data doesn’t mean better decisions clear data does.
 
@@ -360,7 +360,7 @@ Tools alone don’t fix analytics problems, _clarity_ does. Platforms like **Sup
 
 If you want analytics that actually drive decisions (not just reports), **Supaboard** is built for that.
 
-Try [Supaboard and start making data-driven decisions](https://www.supaboard.ai/) that actually work.
+Try [Supaboard's AI analysts](/product/ask-analysts) and start making data-driven decisions that actually work.
 
 ### Quick Comparison
 
@@ -376,6 +376,34 @@ Try [Supaboard and start making data-driven decisions](https://www.supaboard.ai/
 ### What is the Analytics as a Service (AaaS) business model?
 
 The **Analytics as a Service (AaaS)** business model is a cloud-based solution where businesses access data analytics tools, infrastructure, and expertise through a subscription. It eliminates the need for in-house systems, enabling companies to generate insights, run analytics, and scale operations cost-effectively using third-party platforms.
+
+<!-- section:content-12 -->
+
+## Frequently Asked Questions
+
+### What are the four types of analytics?
+
+Descriptive analytics establishes what happened. Diagnostic analytics explains why it happened. Predictive analytics estimates what happens next. Prescriptive analytics recommends an action. They form a sequence rather than a menu, because each stage depends on the one before it being unambiguous.
+
+### Which type should a company build first?
+
+Descriptive, almost always. It establishes agreed definitions of what happened, and every later stage inherits those definitions. A predictive model trained on an ambiguous revenue figure produces a forecast that hides the ambiguity behind a confidence interval, which is worse than having no forecast at all.
+
+### What is diagnostic analytics and why is it skipped?
+
+Diagnostic analytics isolates why something moved, through segmentation and comparison. It is routinely skipped because it lacks the novelty of prediction, yet it holds most of the practical value. Revenue fell eight percent is descriptive; revenue fell because one channel's close rate halved is what somebody can act on.
+
+### When is predictive analytics worth building?
+
+Once your descriptive layer is unambiguous and your diagnostic work has identified which drivers matter. Prediction is comparatively cheap to add at that point and expensive to retrofit onto contested definitions. Buying forecasting capability while three teams still disagree about what a customer is produces precise, unreliable output.
+
+### What does prescriptive analytics require?
+
+All three previous stages, plus a model of which levers actually exist. A recommendation is only useful if the organisation can act on it, so prescriptive systems need to know constraints such as budget, capacity and lead time. Without those, the recommendation is a suggestion nobody can implement.
+
+### Do smaller companies need all four types?
+
+Most do not, and pursuing all four early is a common way to waste a year. A small company with a trustworthy descriptive layer and the ability to ask diagnostic questions is ahead of a larger one with a forecasting tool built on numbers its own teams dispute.
 
 <!-- section:content-14 -->
 
@@ -393,25 +421,3 @@ Analytics is more than dashboards or AI tools. Used correctly, it’s a **decisi
     
 
 Teams that understand which type to use, and when move faster, avoid costly mistakes, and gain a sustainable competitive edge.
-
-<!-- section:content-12 -->
-
-## Frequently asked questions
-
-**What are the four types of analytics?**  
-Descriptive analytics establishes what happened. Diagnostic analytics explains why it happened. Predictive analytics estimates what happens next. Prescriptive analytics recommends an action. They form a sequence rather than a menu, because each stage depends on the one before it being unambiguous.
-
-**Which type should a company build first?**  
-Descriptive, almost always. It establishes agreed definitions of what happened, and every later stage inherits those definitions. A predictive model trained on an ambiguous revenue figure produces a forecast that hides the ambiguity behind a confidence interval, which is worse than having no forecast at all.
-
-**What is diagnostic analytics and why is it skipped?**  
-Diagnostic analytics isolates why something moved, through segmentation and comparison. It is routinely skipped because it lacks the novelty of prediction, yet it holds most of the practical value. Revenue fell eight percent is descriptive; revenue fell because one channel's close rate halved is what somebody can act on.
-
-**When is predictive analytics worth building?**  
-Once your descriptive layer is unambiguous and your diagnostic work has identified which drivers matter. Prediction is comparatively cheap to add at that point and expensive to retrofit onto contested definitions. Buying forecasting capability while three teams still disagree about what a customer is produces precise, unreliable output.
-
-**What does prescriptive analytics require?**  
-All three previous stages, plus a model of which levers actually exist. A recommendation is only useful if the organisation can act on it, so prescriptive systems need to know constraints such as budget, capacity and lead time. Without those, the recommendation is a suggestion nobody can implement.
-
-**Do smaller companies need all four types?**  
-Most do not, and pursuing all four early is a common way to waste a year. A small company with a trustworthy descriptive layer and the ability to ask diagnostic questions is ahead of a larger one with a forecasting tool built on numbers its own teams dispute.

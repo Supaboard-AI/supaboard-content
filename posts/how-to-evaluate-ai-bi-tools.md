@@ -9,9 +9,9 @@ category: product
 tags:
   - Product
 publishedAt: '2026-06-09'
-updatedAt: '2026-06-09'
-readMinutes: 6
-readLabel: 6 min
+updatedAt: '2026-08-28'
+readMinutes: 14
+readLabel: 14 Min Read
 author:
   name: Subhrajyoti Modak
   title: Co-Founder & CTO
@@ -33,7 +33,7 @@ sections:
   - id: content-3
     heading: 'How to run a real evaluation, not just watch a demo'
   - id: content-4
-    heading: FAQ
+    heading: Frequently Asked Questions
 featured:
   choice: null
   trending: 3
@@ -303,6 +303,8 @@ Second, ask who has to be involved and for how long before you see value. A real
 
 Third, run a short paid or trial pilot with real users, not just the champion who ran the demo. Let a salesperson and a non-technical ops person live in it for a week and try to break it. The tool that survives your team's actual questions is the one to buy.
 
+For what it is worth, we built [Supaboard's analyst agents](/product/agents) to answer questions 2, 5 and 7 specifically — definitions you train rather than guess at, the exact SQL behind every answer, and corrections that persist for the whole team. Our pricing is flat per seat and [published](/pricing) rather than quoted, which is the honest answer to question 12. [Jindal Healthcare](/case-study/jindal-healthcare) ran this evaluation and cut analytics costs by 90%.
+
 Here is the condensed version to keep open during a call — the 12 questions and the red flag that goes with each one.
 
 ### The Rigged Demo Checklist
@@ -324,7 +326,7 @@ Here is the condensed version to keep open during a call — the 12 questions an
 
 <!-- section:content-4 -->
 
-## FAQ
+## Frequently Asked Questions
 
 ### What should I ask an AI BI vendor before buying?
 
@@ -334,11 +336,11 @@ Ask the questions a rigged demo can't survive: how it joins across multiple data
 
 A wrapper translates a clean question into SQL against a single, well-modeled table and stops there. You can spot one in minutes: it needs your data pre-consolidated, it guesses at your definitions, it never asks a clarifying question, it can't explain why a metric changed, and there's no way for a non-technical person to correct it so the fix sticks. Real AI BI holds up when the data is messy and the question is vague.
 
-### **How long should AI BI setup take?**
+### How long should AI BI setup take?
 
 For a tool built to read your existing sources and definitions, meaningful value should arrive in days, not quarters, and it should mostly need whoever owns your data definitions rather than a dedicated engineering project. If a vendor's honest answer to setup is a multi-month services engagement before you see a real answer, treat that as a signal about how the product actually works.
 
-### **What's the difference between AI BI and a chatbot on top of my database?**
+### What's the difference between AI BI and a chatbot on top of my database?
 
 A chatbot on a database answers one question against whatever it can reach and forgets it the moment you ask the next one. AI BI maintains a model of your business: shared definitions, relationships across sources, memory across a conversation, auditable logic, and corrections that persist for the whole team. The chatbot is a feature. The model is the product.
 
@@ -346,6 +348,6 @@ A chatbot on a database answers one question against whatever it can reach and f
 
 Sales reporting lives in follow-ups, so test the conversation, not the single query. Ask one question, then narrow by region, then by time frame, then by rep, and see whether each refinement builds on the last or starts from scratch. Also check that your team's definitions of "pipeline," "closed won," and "active account" are consistent for everyone, because nothing erodes trust in sales reporting faster than two managers pulling two different numbers.
 
-### **How do I evaluate a BI tool for embedded reporting?**
+### How do I evaluate a BI tool for embedded reporting?
 
 Look past whether a dashboard can be dropped into your app and ask what your customers actually experience. Confirm that the AI querying and the access controls travel into the embed, so each customer can ask questions and only ever sees their own data. An embed that's a static, view-only iframe with the intelligence stripped out is not embedded analytics in any meaningful sense.

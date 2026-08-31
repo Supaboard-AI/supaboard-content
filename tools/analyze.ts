@@ -76,6 +76,13 @@ export function analyze(body: string, citations: { claim: string; url: string }[
 
   // A numeric claim counts as sourced when the sentence carries an outbound
   // link, or when the same figure appears in a declared citation.
+  //
+  // A same-page link to `/case-study/*` counts too. Our own customer numbers
+  // have no outbound source and never will — `AUTHORING-PROMPT.md` §2 lists
+  // them as assertable precisely because the study is the source, and requires
+  // them cited "by name and link". Without this, following that instruction
+  // fails the gate, which would push authors toward paraphrasing the number
+  // out of its source: the exact failure the gate exists to prevent.
   const citationText = citations.map((c) => c.claim).join(" ");
   const sentences = text
     .replace(/\n+/g, " ")
@@ -86,7 +93,7 @@ export function analyze(body: string, citations: { claim: string; url: string }[
   const numericClaims = sentences
     .filter((s) => CLAIM_RE.test(s))
     .map((s) => {
-      const hasInlineLink = /\]\(https?:\/\//.test(s);
+      const hasInlineLink = /\]\((?:https?:\/\/|\/case-study\/)/.test(s);
       const figures = s.match(/\d+(?:\.\d+)?/g) ?? [];
       const inCitations = figures.some((f) => citationText.includes(f));
       return {

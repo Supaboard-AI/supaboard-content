@@ -9,9 +9,9 @@ category: engineering
 tags:
   - Tech
 publishedAt: '2025-12-17'
-updatedAt: '2025-12-17'
-readMinutes: 6
-readLabel: 06 Min Read
+updatedAt: '2026-08-28'
+readMinutes: 8
+readLabel: 8 Min Read
 author:
   name: Deepak Singh
   title: SEO & Content Writer
@@ -39,7 +39,7 @@ sections:
   - id: content-6
     heading: Data Modeling Tools and Technologies
   - id: content-7
-    heading: Frequently Asked Questions (FAQ)
+    heading: Frequently Asked Questions
   - id: content-8
     heading: Conclusion
 featured:
@@ -139,7 +139,7 @@ statsCount: 0
 
 <!-- section:content-1 -->
 
-### Introduction
+## Introduction
 
 When I first came across **data modeling**, I admit, I thought it sounded a bit too technical, just another step in the **world of databases**. But the more I worked with it, the more I realized it’s like the backbone of any well-organized data system. A good data model makes information easy to access and understand. A messy model can turn a strong database into a problem.
 
@@ -147,7 +147,7 @@ Whether you’re creating a new database or trying to make sense of an existing 
 
 In this post, I’ll walk you through key techniques, best practices, and real-world examples to help you build data models that make your work and your data much easier.
 
-### What is Data Modeling?
+## What is Data Modeling?
 
 A **data model** is like a blueprint for a database, it shows how all the information is organized and how different pieces of data are connected. Data modeling helps at every stage of building a database, from planning to implementation.
 
@@ -168,7 +168,7 @@ This visual map (the data model) makes it easy to understand how all your inform
 
 <!-- section:content-2 -->
 
-### Why Is Data Modeling Important?
+## Why Is Data Modeling Important?
 
 **Data modeling** plays a critical role in [both operational](https://www.geeksforgeeks.org/data-analysis/data-modeling-a-comprehensive-guide-for-analysts/) and analytical systems:
 
@@ -187,11 +187,11 @@ Without proper data modeling, organizations often face **slow dashboards,** brok
 
 <!-- section:content-3 -->
 
-### Types of Data Models
+## Types of Data Models
 
 ![data models types](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-data-modeling-guide/cb24578396588124.png?w=768&h=512)
 
-#### **1\. Conceptual Data Models**
+### **1\. Conceptual Data Models**
 
 **Conceptual data models** give a high-level view of the data without going into technical details. They focus on what data is needed and how different entities relate to each other from a business perspective.
 
@@ -202,7 +202,7 @@ Without proper data modeling, organizations often face **slow dashboards,** brok
 -   Captures business rules and domain concepts
     
 
-#### **2\. Logical Data Models**
+### **2\. Logical Data Models**
 
 **Logical data models** add more detail while still staying independent of any specific database.
 
@@ -215,7 +215,7 @@ Without proper data modeling, organizations often face **slow dashboards,** brok
 -   Helps translate business requirements into a structured format
     
 
-#### **3\. Physical Data Models**
+### **3\. Physical Data Models**
 
 **Physical data models** represent how data is actually stored in a database.
 
@@ -228,7 +228,7 @@ Without proper data modeling, organizations often face **slow dashboards,** brok
 -   Used by developers and database administrators
     
 
-### Examples of Popular Data Modeling Tools
+## Examples of Popular Data Modeling Tools
 
 Different tools support different stages of data modeling, from early design to analytics and reporting. Here are some commonly used tools and where they fit best:
 
@@ -238,29 +238,29 @@ Different tools support different stages of data modeling, from early design to 
     
 -   **dbt (data build tool):** A [modern analytics](https://www.getdbt.com/) engineering tool used for data transformation and analytics modeling, helping teams define business logic directly within the data warehouse.
     
--   **Power BI / Looker, Supaboard:** [Business intelligence platforms](/) that support analytical data models for reporting, dashboards, and metrics, primarily focused on consumption rather than database design.
+-   **Power BI / Looker, Supaboard:** [Business intelligence platforms](/blog/best-ai-bi-tools) that support analytical data models for reporting, dashboards, and metrics, primarily focused on consumption rather than database design.
 
 <!-- section:content-4 -->
 
 ## Common Data Modeling Approaches
 
-#### Hierarchical Data Models
+### Hierarchical Data Models
 
 **Hierarchical** **data models organize** **d**ata in a tree-like structure, where each record has a single parent and can have multiple child records. This model works well for one-to-many relationships, such as organizational structures or file systems.
 
-#### Relational Data Models
+### Relational Data Models
 
 Relational data models store data in tables made up of rows and columns. These tables are connected using keys and are commonly accessed using SQL. This is the most widely used model in modern databases because it is flexible, reliable, and easy to maintain.
 
-#### Entity-Relationship (ER) Models
+### Entity-Relationship (ER) Models
 
 ER models use visual diagrams to show entities and the relationships between them. They make it easier to understand how data is connected and are often used during the planning and design stages of database development.
 
-#### Object-Oriented Data Models
+### Object-Oriented Data Models
 
 Object-oriented data models organize data using classes and objects, similar to how data is handled in object-oriented programming. They are useful for managing complex data structures and relationships.
 
-#### Dimensional Data Models
+### Dimensional Data Models
 
 Dimensional data models are designed for analytics and reporting. They use star and snowflake schemas to organize data in a way that makes querying faster and easier, especially in data warehouses and BI tools.
 
@@ -268,19 +268,19 @@ Dimensional data models are designed for analytics and reporting. They use star 
 
 ## Benefits of Data Modeling
 
-##### **Get everyone on the same page**
+### **Get everyone on the same page**
 
 Data modeling creates a shared understanding of data across technical and non-technical teams, enabling better collaboration, clearer discussions, and solutions that truly align with real business needs.
 
-##### **Improve data quality**
+### **Improve data quality**
 
 By defining clear rules and relationships, data modeling reduces duplication, errors, and missing information, ensuring reliable data that supports accurate reporting and confident, data-driven decisions.
 
-##### **Improve database performance**
+### **Improve database performance**
 
-A well-structured data model [improves database efficiency](/), simplifies maintenance, and makes it easier to identify bottlenecks and optimization opportunities as data volumes and usage grow.
+A well-structured data model [improves database efficiency](/blog/database-optimization), simplifies maintenance, and makes it easier to identify bottlenecks and optimization opportunities as data volumes and usage grow.
 
-##### **Prepare your business for what’s next**
+### **Prepare your business for what’s next**
 
 A strong data model provides flexibility for future changes, making upgrades, scaling, and new technology adoption smoother, faster, and more cost-effective with minimal disruption.
 
@@ -288,54 +288,58 @@ A strong data model provides flexibility for future changes, making upgrades, sc
 
 ## Data Modeling Tools and Technologies
 
-##### **Popular Commercial and Open-Source Solutions**
+### **Popular Commercial and Open-Source Solutions**
 
 Data modeling tools help businesses design, visualize, and manage database structures efficiently. Commercial tools are commonly used in enterprise environments, while open-source tools are ideal for beginners and cost-effective projects.
 
-##### **Key Features to Consider When Selecting Tools**
+### **Key Features to Consider When Selecting Tools**
 
 When choosing a data modeling tool, consider ease of use, visual modeling support, database compatibility, collaboration features, version control, and integration with BI and analytics platforms.
 
-### Common Questions and Use Cases
+### Where the Term Gets Used Loosely
 
-##### **How Can AI Help Generate Logical Data Model Diagrams?**
+Three things all get called data modeling, and conflating them is where most confusion starts.
 
-AI-powered data modeling tools can automatically analyze datasets and business requirements to generate logical data model diagrams. They help identify entities, attributes, and relationships faster, reducing manual effort and design errors.
+**In a DBMS**, a data model is the schema itself: tables, relationships, keys and constraints that enforce accuracy at the storage layer.
 
-##### **Is Data Modeling in Excel and Power BI the Same Thing?**
+**In Excel and Power BI**, "data modeling" means relating a handful of tables for reporting. It supports basic relationships but does not replace logical or physical design, and treating it as though it does is how reporting layers end up carrying business logic nobody can review.
 
-No. Excel and Power BI data modeling is mainly used for reporting and analysis, while database data modeling focuses on designing structured schemas. Power BI supports basic relationships but cannot replace full logical or physical modeling.
+**In AI-assisted tooling**, it means generating a candidate diagram from a dataset. That speeds up identifying entities, attributes and relationships, but the design decisions it proposes still need someone to own them.
 
-##### **What Is a Data Model in DBMS?**
-
-In a DBMS (Database Management System), a data model defines how data is structured, stored, and connected. It includes tables, relationships, keys, and constraints that ensure data accuracy and consistency.
-
-##### **Real-World Applications of Data Modeling**
-
-Data modeling is widely used in e-commerce, healthcare, finance, SaaS, and analytics to organize data, improve reporting performance, enable BI dashboards, and support scalable database design.
+In practice all three show up in the same organisation — e-commerce, healthcare, finance, SaaS — and the model that matters is the one the warehouse actually enforces.
 
 <!-- section:content-7 -->
 
-### Frequently Asked Questions (FAQ)
+## Frequently Asked Questions
 
-#### 1\. What is data modeling?
+### What is data modeling?
 
-Data modeling is the process of organizing and structuring data visually, showing relationships between entities, to improve database efficiency, accuracy, and decision-making.
+Data modeling is the practice of defining the entities a business cares about, the attributes describing them, and the relationships connecting them. The resulting model determines which questions are cheap to answer, which are expensive, and which are effectively impossible without restructuring what you have already built.
 
-#### 2\. How can I use AI to generate logical data model diagrams?
+### What are the main types of data models?
 
-AI tools can analyze datasets and business requirements to automatically create logical diagrams, identifying entities, attributes, and relationships, reducing manual effort and design errors.
+Conceptual models describe entities and relationships in business language, with no technical detail. Logical models add attributes, keys and normalisation without committing to a database. Physical models specify tables, indexes and data types for a particular system. Each serves a different audience and a different stage of the conversation.
 
-#### 3\. What are the main types of data models?
+### Why does data modeling matter commercially?
 
-The main types are conceptual (high-level view), logical (detailed relationships and attributes), and physical (database-specific implementation with tables, keys, and indexes).
+Because the model decides what you can ask. A schema that does not record when a subscription changed cannot answer questions about churn timing regardless of which analytics tool sits on top. Modelling decisions made early constrain the questions available years later, usually without anyone remembering why.
 
-#### 4\. Why is data modeling important for businesses?
+### What is the difference between data modeling and a semantic layer?
 
-It improves data quality, reduces redundancy, ensures accurate reporting, enhances performance, aligns teams with business goals, and supports scalable, efficient database design for future growth.
+Data modeling structures how information is stored and related. A semantic layer defines what the resulting numbers mean and how metrics are computed from them. You need both: a well-structured warehouse with no agreed definition of revenue still produces several different revenue figures across teams.
+
+### What is normalisation and when should you avoid it?
+
+Normalisation removes redundancy by splitting data across related tables, which protects integrity in transactional systems. Analytical workloads often denormalise deliberately, accepting duplication for query speed and simplicity. The right choice depends entirely on whether the system serves writes or reads, and mixing the two rarely serves either well.
+
+### Who should own the data model?
+
+Someone accountable for the business meaning, not only the implementation. Models drift when engineers make structural decisions that encode business assumptions nobody validated, such as whether a refunded order still counts. The decision is a business one surfacing as a schema one, and it needs an owner who can settle it.
 
 <!-- section:content-8 -->
 
 ### Conclusion
 
 Data modeling is essential for building reliable, well-organized data systems. It helps define how data is structured, connected, and stored so teams can manage and use information more effectively for reporting, analysis, and business decisions. A good data model improves data quality, boosts performance, and ensures systems scale as needs grow. By following best practices—such as aligning models with business goals and documenting clearly—organizations can avoid errors and reduce data redundancy. Adapting data models to new trends and technologies prepares businesses for future challenges and supports long-term performance, analytics, and growth.
+
+The model only pays off once people can query it without going through an analyst. [Supaboard's Ask Analysts](/product/ask-analysts) resolves questions against definitions you train it on rather than guessing from column names, which is the same discipline a data model enforces, applied at the point somebody asks. It connects to [700+ sources on the Business plan](/integrations).

@@ -317,17 +317,17 @@
     },
     {
       "source": "/blog/supaboard-vs-alteryx-a-new-business-intelligence-chapter",
-      "destination": "/compare/alteryx",
+      "destination": "/compare",
       "why": "merged"
     },
     {
       "source": "/blog/supaboard-vs-amazon-quicksight-the-new-bi-battle",
-      "destination": "/compare/amazon-quicksight",
+      "destination": "/compare",
       "why": "merged"
     },
     {
       "source": "/blog/supaboard-vs-domo-smarter-business-intelligence-redefined-for-today-s-times",
-      "destination": "/compare/domo",
+      "destination": "/compare",
       "why": "merged"
     },
     {
@@ -342,7 +342,7 @@
     },
     {
       "source": "/blog/supaboard-vs-oracle-analytics-new-age-vs-enterprise-legacy-in-an-era-of-war",
-      "destination": "/compare/oracle-analytics",
+      "destination": "/compare",
       "why": "merged"
     },
     {
@@ -352,12 +352,12 @@
     },
     {
       "source": "/blog/supaboard-vs-sas-viya-the-future-of-data-analytics-name-has-come",
-      "destination": "/compare/sas-viya",
+      "destination": "/compare",
       "why": "merged"
     },
     {
       "source": "/blog/supaboard-vs-sisense-the-smarter-business-intelligence-war",
-      "destination": "/compare/sisense",
+      "destination": "/compare",
       "why": "merged"
     },
     {
@@ -367,7 +367,7 @@
     },
     {
       "source": "/blog/supaboard-vs-tableau-the-easier-road-to-smarter-analytics",
-      "destination": "/compare/tableau",
+      "destination": "/compare",
       "why": "merged"
     },
     {
@@ -521,6 +521,61 @@
       "why": "named in brief"
     },
     {
+      "source": "/compare/alteryx",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/compare/amazon-quicksight",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/compare/apache-superset",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/compare/basedash",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/compare/domo",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/compare/oracle-analytics",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/compare/qlik",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/compare/sas-viya",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/compare/sisense",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/compare/tableau",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
+      "source": "/comparison",
+      "destination": "/compare",
+      "why": "named in brief"
+    },
+    {
       "source": "/comparison/ai-powered-business-dashboards-transforming-data-into-visual-stories",
       "destination": "/blog/bi-dashboards",
       "why": "article misfiled under /comparison"
@@ -547,17 +602,17 @@
     },
     {
       "source": "/comparison/supaboard-vs-apache-superset",
-      "destination": "/compare/apache-superset",
+      "destination": "/compare",
       "why": "comparison system consolidated"
     },
     {
       "source": "/comparison/supaboard-vs-basedash",
-      "destination": "/compare/basedash",
+      "destination": "/compare",
       "why": "comparison system consolidated"
     },
     {
       "source": "/comparison/supaboard-vs-domo",
-      "destination": "/compare/domo",
+      "destination": "/compare",
       "why": "comparison system consolidated"
     },
     {
@@ -572,12 +627,12 @@
     },
     {
       "source": "/comparison/supaboard-vs-qlik-business-intelligence",
-      "destination": "/compare/qlik",
+      "destination": "/compare",
       "why": "comparison system consolidated"
     },
     {
       "source": "/comparison/supaboard-vs-tableau",
-      "destination": "/compare/tableau",
+      "destination": "/compare",
       "why": "comparison system consolidated"
     },
     {
@@ -607,17 +662,17 @@
     },
     {
       "source": "/series/supaboard-vs-apache-superset",
-      "destination": "/compare/apache-superset",
+      "destination": "/compare",
       "why": "series system consolidated (flattened, was chaining via /comparison)"
     },
     {
       "source": "/series/supaboard-vs-basedash",
-      "destination": "/compare/basedash",
+      "destination": "/compare",
       "why": "series system consolidated (flattened, was chaining via /comparison)"
     },
     {
       "source": "/series/supaboard-vs-domo",
-      "destination": "/compare/domo",
+      "destination": "/compare",
       "why": "series system consolidated (flattened, was chaining via /comparison)"
     },
     {
@@ -632,12 +687,12 @@
     },
     {
       "source": "/series/supaboard-vs-qlik-business-intelligence",
-      "destination": "/compare/qlik",
+      "destination": "/compare",
       "why": "series system consolidated (flattened, was chaining via /comparison)"
     },
     {
       "source": "/series/supaboard-vs-tableau",
-      "destination": "/compare/tableau",
+      "destination": "/compare",
       "why": "series system consolidated (flattened, was chaining via /comparison)"
     },
     {

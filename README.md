@@ -204,6 +204,16 @@ node tools/discover.mjs
 # re-derive the faq: block after changing the parser in faq.mjs
 node tools/refresh-faq.mjs
 
+# recompute readMinutes/readLabel from the body; dry unless --apply
+node tools/readtime.mjs [--apply]
+
+# render each visible FAQ from its frontmatter faq:, and keep the FAQ second
+# to last; dry unless --apply
+node tools/faq-sync.mjs [--apply]
+
+# close skipped heading levels, so every post is h2 -> h3 -> h4; dry unless --apply
+node tools/headings.mjs [--apply]
+
 # re-read the Supaboard Choice / Trending rails off the live index
 node tools/rails.mjs
 
@@ -213,6 +223,9 @@ node tools/comparisons.mjs [--out <dir>]
 # report Spaces objects nothing references; --delete removes them
 node tools/prune-assets.mjs [--delete]
 ```
+
+The three above each carry a `--check` flag that runs their own assertions
+without touching the corpus — run it after editing one.
 
 `convert.mjs` holds the Framer-HTML-to-markdown rules and the Spaces mirroring
 shared by `scrape.mjs` and `comparisons.mjs`. Comparison pages land in the site
