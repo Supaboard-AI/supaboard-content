@@ -245,7 +245,7 @@ narratives inside a tool you already own, though it needs Fabric capacity rather
 than a standard Pro licence — the price is a real part of the decision.
 
 Judge them as good features on strong incumbents, not as AI-native systems. See
-[Supaboard vs Power BI](/compare/power-bi) and [Supaboard vs Tableau](/compare/tableau).
+[Supaboard vs Power BI](/compare/power-bi), and Tableau sits alongside both in the [comparison matrix](/compare).
 
 <!-- section:content-4 -->
 

@@ -3,6 +3,7 @@ slug: gabriella.pl
 status: published
 company: Gabriella.pl
 title: How Gabriella.pl built one source of truth for marketing with Supaboard
+metaTitle: "Gabriella.pl: one source of truth for marketing"
 headlineMetric: 4 platforms. One source of truth.
 summary: >-
   A performance-led ecommerce brand unified four ad platforms and stopped

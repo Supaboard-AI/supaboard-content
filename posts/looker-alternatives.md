@@ -291,7 +291,7 @@ Supaboard is a modern **AI-powered Looker alternative** built for teams that wan
 -   Enterprise implementations may need guided onboarding
     
 
-**Best For**: SaaS, fintech, healthcare, and data-driven companies seeking **self-service analytics tools**, **embedded analytics platforms**, and **BI tools without LookML**.
+**Best For**: SaaS, fintech, healthcare, and data-driven companies seeking **self-service analytics tools**, **embedded analytics platforms**, and **BI tools without LookML**. [Objection.ai](/case-study/objection.ai) is the shape of that buyer: eleven sources unified and self-serve analytics company-wide, with no data analyst and no modelling layer to maintain.
 
 ### 3\. Tableau – Best for Advanced Visualizations & Storytelling (Looker vs Tableau)
 
@@ -328,7 +328,7 @@ Tableau continues to lead when teams prioritize best-in-class visualizations and
 
 **Best For**: Analytics teams that need **data visualization tools** with high polish and strong storytelling for stakeholders.
 
-*Head to head: [Supaboard vs Tableau](/compare/tableau).*
+*Side by side: [Supaboard and Tableau on the comparison matrix](/compare).*
 
 ### 4\. Qlik Sense – Best for Exploratory Analytics on Complex Data
 
@@ -363,7 +363,7 @@ Qlik Sense is favored by large enterprises for its associative analytics engine,
 
 **Best For**: Large enterprises with advanced analytics needs and **real-time analytics** requirements on complex datasets.
 
-*Head to head: [Supaboard vs Qlik](/compare/qlik).*
+*Side by side: [Supaboard and Qlik on the comparison matrix](/compare).*
 
 ### 5\. ThoughtSpot – Best for Search-Driven & Conversational Analytics
 

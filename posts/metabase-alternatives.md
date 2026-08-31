@@ -346,7 +346,7 @@ Supaboard is designed for teams that want to work with data without technical co
 -   SaaS founders who need insights without hiring analysts
     
 
-It’s also a strong fit for mid-market companies that want to move faster without building a full data team.
+It’s also a strong fit for mid-market companies that want to move faster without building a full data team. [Objection.ai](/case-study/objection.ai) runs exactly that way — eleven sources, from the product database to Stripe and Twilio, with no data analyst on staff.
 
 ### **Pricing**
 
@@ -598,7 +598,7 @@ It is positioned as an enterprise solution, so costs can be higher compared to s
 
 <!-- section:content-16 -->
 
-*Head to head: [Supaboard vs Sisense](/compare/sisense).*
+*Side by side: [Supaboard and Sisense on the comparison matrix](/compare).*
 
 ## Metabase Alternatives Comparison (Real Differences – 2026)
 

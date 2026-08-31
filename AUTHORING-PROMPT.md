@@ -48,10 +48,16 @@ These are verified. Everything else needs a source.
   - `/case-study/legend-ehr` — an analyst for every team
 - **Live link targets:** `/pricing`, `/integrations`, `/enterprise`,
   `/product/{ask-analysts,query-builder,agents,automations,dashboards,datasites}`,
-  and `/compare/{power-bi,tableau,looker,metabase,thoughtspot,qlik,domo,sisense,alteryx,amazon-quicksight,apache-superset,basedash,oracle-analytics,sas-viya}`.
+  the `/compare` hub, and the **four surviving head-to-heads only**:
+  `/compare/{power-bi,looker,metabase,thoughtspot}`.
 - **Dead — never link:** `/examples`, `/glossary`, `/integrations/<connector>`,
-  `/compare/superset` (it is `/compare/apache-superset`), any `/comparison/*` or
-  `/series/*` path.
+  any `/comparison/*` or `/series/*` path, and the ten `/compare/<vendor>` pages
+  retired in the August 2026 consolidation — `tableau`, `qlik`, `domo`, `sisense`,
+  `alteryx`, `amazon-quicksight`, `apache-superset`, `basedash`,
+  `oracle-analytics`, `sas-viya`. They 301 to the hub, which keeps all fourteen
+  in its matrix; link `/compare` and name the vendor in the anchor. This list
+  was wrong for a month and nineteen body links followed it, so the build gate
+  now fails on any body link that 301s.
 
 ## 3. Factual integrity
 

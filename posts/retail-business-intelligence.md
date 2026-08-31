@@ -124,7 +124,7 @@ citations:
       https://www.mckinsey.com/about-us/new-at-mckinsey-blog/then-and-now-a-century-of-retail-transformation
   - claim: Reference on (retail dive) from retaildive.com
     source: retaildive.com
-    url: 'https://www.retaildive.com/news/sephora-loyalty-program-success/582000/'
+    url: 'https://www.retaildive.com/news/sephora-beauty-insider-loyalty-program-updates-birthday-gift/654096/'
   - claim: Reference on e-commerce retailers from mordorintelligence.com
     source: mordorintelligence.com
     url: >-
@@ -390,7 +390,7 @@ model rather than a marketing campaign.
 
 **What BI reveals:** Purchase frequency trends, basket size by segment, repeat purchase decay curves, and behavioral churn signals — the drop in visit frequency that precedes cancellation or disengagement, visible in the data weeks before it shows up in revenue.
 
-**Real-world example:** Sephora's Beauty Insider program is one of the most cited loyalty analytics cases in retail. By connecting transaction history to behavioral segmentation, Sephora drives personalized recommendations and targeted retention offers, resulting in repeat purchase rates that consistently outperform industry benchmarks. Their BI infrastructure, not their loyalty program mechanics, is what makes this scalable. [(Retail Dive)](https://www.retaildive.com/news/sephora-loyalty-program-success/582000/)
+**Real-world example:** Sephora's Beauty Insider program is one of the most cited loyalty analytics cases in retail. By connecting transaction history to behavioral segmentation, Sephora drives personalized recommendations and targeted retention offers, resulting in repeat purchase rates that consistently outperform industry benchmarks. Their BI infrastructure, not their loyalty program mechanics, is what makes this scalable. [(Retail Dive)](https://www.retaildive.com/news/sephora-beauty-insider-loyalty-program-updates-birthday-gift/654096/)
 
 **Impact:** Retention spend directed at high-value segments with measurable churn risk. Promotions matched to actual purchase behavior rather than broad demographic assumptions.
 

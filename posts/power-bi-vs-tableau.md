@@ -225,7 +225,7 @@ Tableau is evolving toward proactive analytics with features like Tableau Pulse,
 **5\. Challenges in maintaining consistency across dashboards**  
 Tableau’s flexibility allows calculations to be defined at multiple levels, which can lead to inconsistent metrics across reports. Without a centralized model, teams often create different versions of the same logic. As the number of dashboards grows, maintaining alignment across teams becomes increasingly difficult.
 
-**Explore how Supaboard compares with Tableau in modern analytics workflows:** [**Supaboard vs Tableau**](/compare/tableau)
+**Explore how Supaboard compares with Tableau in modern analytics workflows:** [**Supaboard and Tableau on the comparison matrix**](/compare)
 
 <!-- section:content-13 -->
 
@@ -368,6 +368,8 @@ Official [pricing](https://www.tableau.com/pricing).
 ### Real Problems Data Teams Face
 
 ![Real Problems Data Teams Face](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/power-bi-vs-tableau/23e819fe3c16b89f.png?w=836&h=470)
+
+The problem that outlasts the tool choice is spread: the numbers live in four places and nobody owns the reconciliation. Marketing teams hit this first — [Gabriella.pl](/case-study/gabriella.pl) was reconciling Meta, LinkedIn, Google Ads and Shopify by hand before moving to a single source of truth, and only then found that LinkedIn carried both the highest cost-per-lead and the best close rate.
 
 <!-- section:content-5 -->
 

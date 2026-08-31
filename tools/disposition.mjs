@@ -8,10 +8,14 @@
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { KILL, CLUSTERS, KEEP } from "../migration/disposition.config.mjs";
+import { RETIRED_COMPARISONS } from "../migration/routes.extra.mjs";
 
 const INVENTORY = new URL("../migration/inventory.json", import.meta.url).pathname;
 const OUT = new URL("../migration/disposition.csv", import.meta.url).pathname;
 const SITE = "https://supaboard.ai";
+
+/** Vendors whose /compare/<vendor> page was retired: the hub is their target. */
+const RETIRED = new Set(RETIRED_COMPARISONS);
 
 const inventory = JSON.parse(readFileSync(INVENTORY, "utf8"));
 const known = new Set(inventory.posts.map((p) => p.fileSlug));
@@ -49,8 +53,14 @@ for (const cluster of CLUSTERS) {
     );
   }
   for (const m of cluster.members) {
+    // A vendor retired in the Aug-2026 consolidation has no head-to-head page,
+    // so the hub is the destination. Routing to /compare/<vendor> anyway builds
+    // a chain — /blog/supaboard-vs-X -> /compare/X -> /compare — which
+    // tools/redirects.mjs refuses to emit. That is how this file drifted out of
+    // sync with a hand-corrected disposition.csv the first time.
+    const vendor = competitorOf(m);
     const target = toCompare
-      ? `${SITE}/compare/${competitorOf(m)}`
+      ? `${SITE}/compare${RETIRED.has(vendor) ? "" : `/${vendor}`}`
       : `${SITE}/blog/${cluster.canonical}`;
     add(m, "MERGE", "", target, `Absorbed into ${cluster.id}: ${cluster.reason}`);
   }

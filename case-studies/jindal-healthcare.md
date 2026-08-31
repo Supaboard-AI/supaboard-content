@@ -3,6 +3,7 @@ slug: jindal-healthcare
 status: published
 company: Jindal Healthcare
 title: How Jindal Healthcare cut analytics costs by 90% with Supaboard
+metaTitle: "Jindal Healthcare: 90% lower analytics costs"
 headlineMetric: 90% lower analytics costs
 summary: >-
   An RCM provider unified claims, payer and denial data across every client, and

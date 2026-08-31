@@ -257,7 +257,7 @@ Connect, define, publish. The output is a governed model rather than a folder of
 
 Four features, and the second is where most tools quietly fail.
 
-**Prebuilt connectors that cover your actual stack.** Breadth decides whether cross-system questions are answerable at all. A tool that reaches your CRM but not your ad platforms cannot tell you blended CAC — which was precisely [Gabriella.pl](/case-study/gabriella.pl)'s problem before unifying four ad platforms into one view, where they found the channel with the highest cost-per-lead also had the strongest close rate.
+**Prebuilt connectors that cover your actual stack.** Breadth decides whether cross-system questions are answerable at all. A tool that reaches your CRM but not your ad platforms cannot tell you blended CAC — which was precisely [Gabriella.pl](/case-study/gabriella.pl)'s problem before unifying Meta, LinkedIn, Google Ads and Shopify into one view, where they found the channel with the highest cost-per-lead also had the strongest close rate.
 
 **Centralised metric definitions.** If each dashboard recomputes revenue its own way, you have distributed the inconsistency rather than fixed it. Ask where a definition lives, who can change it, and what happens downstream when they do.
 

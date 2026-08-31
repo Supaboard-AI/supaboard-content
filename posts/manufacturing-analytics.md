@@ -212,7 +212,7 @@ These use cases have moved from pilot projects to mainstream practice. From 2025
 
 ### Choosing the Right Approach
 
-Not all manufacturing analytics solutions are created equal. Selecting the right platform is critical for long-term success.
+Not all manufacturing analytics solutions are created equal. Selecting the right platform is critical for long-term success. The test worth applying is who ends up able to ask: [Legend EHR](/case-study/legend-ehr) gave every site manager an analyst scoped to their own location instead of routing every question through one central team.
 
 When evaluating options, look for these essential capabilities:
 

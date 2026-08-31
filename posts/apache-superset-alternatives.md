@@ -254,7 +254,7 @@ As analytics use cases expand beyond internal dashboards to embedded, AI-assiste
 ### Supaboard
 
 **Positioning (2026):**  
-[Supaboard](/compare/apache-superset) is positioned as a **modern omni-analytics platform** that unifies **BI, [embedded analytics](/product/datasites), and AI-driven insights** in a single system. It is built to operationalize analytics across internal teams and external customers without heavy BI infrastructure.
+Supaboard is positioned as a **modern omni-analytics platform** that unifies **BI, [embedded analytics](/product/datasites), and AI-driven insights** in a single system. It is built to operationalize analytics across internal teams and external customers without heavy BI infrastructure. [Objection.ai](/case-study/objection.ai) is the shape of that team: eleven systems unified and marketing and product answering their own questions, with no data analysts on staff.
 
 **Best for**
 

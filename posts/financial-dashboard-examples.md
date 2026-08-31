@@ -411,7 +411,7 @@ If you’re comparing platforms, this breakdown of [**business intelligence tool
 
 Creating and maintaining financial dashboards does not have to be complex or time-consuming. With [Supaboard's prompt-built dashboards](/product/dashboards) — flat per seat, [priced publicly](/pricing) — finance teams can connect their data sources, ask questions in natural language, and instantly generate real-time dashboards for revenue, cash flow, expenses, and forecasts.
 
-Instead of spending hours on spreadsheets and manual reporting, teams can focus on analysis, planning, and strategic decision-making. Start building your financial dashboards faster and smarter with [Supaboard](https://auth.supaboard.ai/onboard/register).
+Instead of spending hours on spreadsheets and manual reporting, teams can focus on analysis, planning, and strategic decision-making. [Jindal Healthcare](/case-study/jindal-healthcare) took that route across its revenue cycle and cut analytics cost by 90%. Start building your financial dashboards faster and smarter with [Supaboard](https://auth.supaboard.ai/onboard/register).
 
 <!-- section:content-12 -->
 

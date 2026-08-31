@@ -212,7 +212,7 @@ This simplified view makes it easier to compare **Tableau competitors** based on
 
 ![Supaboard, tableau alternative](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/best-tableau-alternative/5e8de54227db9e84.png?w=947&h=439)
 
-[**Supaboard**](/compare/tableau) is a modern, AI-powered business intelligence platform and a strong **Tableau alternative** designed for growing teams, and **enterprises** that want faster insights with less complexity. It combines self-service analytics with developer flexibility, making it suitable for both technical and non-technical users.
+**Supaboard** is a modern, AI-powered business intelligence platform and a strong **Tableau alternative** designed for growing teams, and **enterprises** that want faster insights with less complexity. It combines self-service analytics with developer flexibility, making it suitable for both technical and non-technical users.
 
 Supaboard focuses on helping teams build dashboards quickly while also supporting advanced customization. With trainable AI analyst agents that resolve your own metric definitions and dashboards built from a plain-English prompt, teams can move beyond static reporting and create analytics that scale across the organization.
 
@@ -222,7 +222,7 @@ Supaboard focuses on helping teams build dashboards quickly while also supportin
     
 -   [**Self-service BI**](/blog/best-ai-bi-tools)**:** Business users can explore data and create dashboards without deep technical knowledge
     
--   **Dashboards as code:** Allows engineering teams to version, customize, and deploy dashboards programmatically
+-   [**Trainable analyst agents**](/product/agents)**:** Pin metric definitions, table rules and verified queries so "active account" resolves to your formula, not the model’s guess
     
 -   **Enterprise-ready:** Built to support large teams, complex data models, and production workloads
     
@@ -231,18 +231,18 @@ Supaboard focuses on helping teams build dashboards quickly while also supportin
 -   **Modern data stack friendly:** Works well with cloud data warehouses and existing analytics pipelines
     
 
-Supaboard is a good choice for organizations that want an **AI-native, enterprise-ready Tableau alternative** that balances ease of use with powerful customization.
+Supaboard is a good choice for organizations that want an **AI-native, enterprise-ready Tableau alternative** that balances ease of use with powerful customization. [Gabriella.pl](/case-study/gabriella.pl) took that route, consolidating Meta, LinkedIn, Google Ads and Shopify into one source of truth instead of blending extracts by hand.
 
 ### **Supaboard vs Tableau**
 
 -   AI-powered dashboards for faster insights
     
--   Dashboards-as-code for flexibility
+-   The same question returns the same answer, because the metric definitions are yours
     
 -   Easier for both technical and non-technical teams
     
 
-**Read more details:** [**Supaboard vs Tableau**](/compare/tableau)
+**Read more details:** [**Supaboard and Tableau on the comparison matrix**](/compare)
 
 **Why choose it over Tableau?**
 
@@ -350,7 +350,7 @@ Domo allows teams to build custom and ad-hoc dashboards using an intuitive inter
 -   **Learning & support:** Strong ecosystem with Domo University, an active user community, and a detailed knowledge base
     
 
-Domo is best suited for enterprises that need real-time analytics, mobile access, and an all-in-one BI platform beyond traditional dashboarding. See how it compares in [Supaboard vs Domo](/compare/domo).
+Domo is best suited for enterprises that need real-time analytics, mobile access, and an all-in-one BI platform beyond traditional dashboarding. See how it compares in the [comparison matrix](/compare).
 
 ### **Domo vs Tableau**
 
@@ -399,7 +399,7 @@ Sigma is best suited for organizations that want the flexibility of spreadsheets
 
 ### Cost-Free and Open-Source Tableau Competitors You Should Consider
 
-For teams seeking alternatives to Tableau, some tools provide strong analytics capabilities without the high cost. **Metabase** is ideal for data teams and SMBs, offering an intuitive interface and SQL support with free and paid options. While [**Supaboard**](/compare/tableau), **ThoughtSpot**, **Domo**, and **Sigma Computing** are more enterprise-focused, Metabase stands out as a cost-effective, open-source option that allows organizations to create dashboards, visualize data, and run queries efficiently without expensive licenses.
+For teams seeking alternatives to Tableau, some tools provide strong analytics capabilities without the high cost. **Metabase** is ideal for data teams and SMBs, offering an intuitive interface and SQL support with free and paid options. While **Supaboard**, **ThoughtSpot**, **Domo**, and **Sigma Computing** are more enterprise-focused, Metabase stands out as a cost-effective, open-source option that allows organizations to create dashboards, visualize data, and run queries efficiently without expensive licenses.
 
 <!-- section:content-8 -->
 

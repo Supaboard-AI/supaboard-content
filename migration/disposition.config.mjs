@@ -54,8 +54,6 @@ export const KILL = [
    "Product Hunt launch recap presented as a third-party review — an E-E-A-T problem, and the slug is meaningless. Content belongs on a /changelog route, not the blog."],
 
   // --- Added under the brief's instruction to search for the same pattern ---
-  ["server-based-computing-guide",
-   "ADDED: server/thin-client IT infrastructure. Nothing to do with data, analytics, BI or the company."],
   ["ai-in-the-workplace-how-ai-is-transforming-jobs-teams-leadership-in-2026",
    "ADDED: workplace and leadership commentary. HR territory, not analytics."],
   ["ai-native-apps-the-future-every-startup-must-prepare-for-in-2025",
@@ -225,7 +223,19 @@ export const CLUSTERS = [
     canonical: "data-engineering",
     canonicalFrom: "future-of-data-engineering",
     reason: "Three data-engineering posts; the future-facing one is the longest and becomes the canonical under the year-free slug.",
-    members: ["data-engineering", "will-we-still-need-data-engineers-in-2026"],
+    members: [
+      "data-engineering",
+      "will-we-still-need-data-engineers-in-2026",
+      // Moved out of KILL. It is genuinely off-topic — server/thin-client IT
+      // infrastructure, not analytics — and by the rule at the top of this file
+      // that makes it a KILL. It ranks #1 and #2 for "server based computing"
+      // (22,200 searches/month) and carries the inbound links that come with
+      // that, against a backlink profile that is only 10.9% dofollow. The call
+      // was made in September 2026 to keep the equity and accept the topical
+      // mismatch: infrastructure is the nearest live neighbour we have, which
+      // is why it lands here rather than on /integrations or a solution page.
+      "server-based-computing-guide",
+    ],
   },
   {
     id: "ai-replacing-analysts",

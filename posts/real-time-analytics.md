@@ -441,7 +441,7 @@ Where they converge is the alerting threshold. Both depend on knowing what norma
 
 Not every platform that claims to support real-time analytics is equally useful in practice.
 
-When evaluating options, look beyond marketing language and focus on features that affect usability, speed, and long-term fit.
+When evaluating options, look beyond marketing language and focus on features that affect usability, speed, and long-term fit. Fresh data only matters if the person who needs it can query it — [Legend EHR](/case-study/legend-ehr) gave each clinic manager an analyst limited to their own location rather than a queue into a reporting team.
 
 ### Key features to prioritize
 

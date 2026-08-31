@@ -236,7 +236,7 @@ Supaboard focuses on **AI-driven insights, visuals, and analysis**, making it ea
 
 The main strength of Supaboard is speed and simplicity. It reduces the time between asking a question and getting an insight. Even non-technical users can explore data easily, which improves adoption across teams and helps businesses make faster decisions.
 
-What that looks like in production: [Jindal Healthcare](/case-study/jindal-healthcare) reduced analytics cost by 90% and moved per-client analysis from four hours to two minutes. [Objection.ai](/case-study/objection.ai) unified eleven sources — product database, four ad platforms, Asana, Cloudflare, PostHog, Stripe and Twilio — with zero data analysts on staff. [Gabriella.pl](/case-study/gabriella.pl) brought four ad platforms and Shopify into one source of truth and found LinkedIn carried both the highest cost-per-lead and the best close rate. [Legend EHR](/case-study/legend-ehr) gave every clinic manager an analyst scoped to their own location.
+What that looks like in production: [Jindal Healthcare](/case-study/jindal-healthcare) reduced analytics cost by 90% and moved per-client analysis from four hours to two minutes. [Objection.ai](/case-study/objection.ai) unified eleven sources — product database, four ad platforms, Asana, Cloudflare, PostHog, Stripe and Twilio — with zero data analysts on staff. [Gabriella.pl](/case-study/gabriella.pl) brought Meta, LinkedIn, Google Ads and Shopify into one source of truth and found LinkedIn carried both the highest cost-per-lead and the best close rate. [Legend EHR](/case-study/legend-ehr) gave every clinic manager an analyst scoped to their own location.
 
 ### 2\. Microsoft Power BI — Best if you already run Microsoft 365
 
@@ -294,7 +294,7 @@ Qlik Sense offers interactive dashboards, self-service analytics, and predictive
 
 The main strength of Qlik Sense is flexibility. Users can explore data in multiple ways without limitations. However, setup and pricing complexity can be challenging, especially for smaller teams.
 
-*Head to head: [Supaboard vs Qlik](/compare/qlik).*
+*Side by side: [Supaboard and Qlik on the comparison matrix](/compare).*
 
 ### 5\. ThoughtSpot — Best for governed self-serve at enterprise scale
 
@@ -330,7 +330,7 @@ Looker uses LookML for data modeling and provides a centralized semantic layer. 
 
 #### Pricing of Looker
 
-[Looker price](https://cloud.google.com/pricing) follows **custom pricing**, depending on usage, data size, and deployment. This makes it flexible but less transparent compared to fixed pricing tools.
+[Looker pricing](https://cloud.google.com/looker/pricing) follows **custom pricing**, depending on usage, data size, and deployment. This makes it flexible but less transparent compared to fixed pricing tools.
 
 #### Strength of Looker
 
@@ -354,7 +354,7 @@ Domo offers dashboards, real-time analytics, and data integration features. It s
 
 The biggest strength of Domo is that it provides everything in one platform. However, the cost can grow quickly, which may not be ideal for smaller companies.
 
-*Head to head: [Supaboard vs Domo](/compare/domo).*
+*Side by side: [Supaboard and Domo on the comparison matrix](/compare).*
 
 ### 8\. Sisense — Best for embedding analytics into a product you sell
 
@@ -376,7 +376,7 @@ Its biggest strength is flexibility and customization. It allows deep integratio
 
 <!-- section:content-7 -->
 
-*Head to head: [Supaboard vs Sisense](/compare/sisense).*
+*Side by side: [Supaboard and Sisense on the comparison matrix](/compare).*
 
 ## AI-Powered BI Tools Comparison Table (2026)
 
@@ -439,7 +439,7 @@ Four things, and price is not the first of them.
 
 **Can the people who have the questions use it themselves?** This is the factor that decides adoption, and it is the one most demos are designed to obscure. If every question still routes through an analyst, you have bought a reporting tool with a chat box on it. Test it by having a non-technical colleague ask something the vendor did not rehearse.
 
-**Does it connect to what you already run?** CRM, product database, warehouse, ad platforms, spreadsheets. Integration breadth is what decides whether the tool answers cross-system questions or becomes a fifth silo. Gabriella.pl's whole problem was four ad platforms that did not talk to each other — not a shortage of dashboards.
+**Does it connect to what you already run?** CRM, product database, warehouse, ad platforms, spreadsheets. Integration breadth is what decides whether the tool answers cross-system questions or becomes a fifth silo. Gabriella.pl's whole problem was four marketing systems that did not talk to each other — not a shortage of dashboards.
 
 **Are the AI features load-bearing or decorative?** Natural-language querying and automated insight are the two that change who can work; everything else is packaging. The distinction that matters is whether the tool resolves your business definitions or guesses at them, which is the difference between a semantic layer and text-to-SQL.
 

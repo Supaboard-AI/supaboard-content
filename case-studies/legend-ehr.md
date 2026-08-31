@@ -3,6 +3,7 @@ slug: legend-ehr
 status: published
 company: Legend EHR
 title: How Legend EHR gave every clinic manager their own analyst with Supaboard
+metaTitle: "Legend EHR: an analyst for every clinic manager"
 headlineMetric: Analyst for every team
 summary: >-
   A healthcare software provider gave every clinic and store manager a

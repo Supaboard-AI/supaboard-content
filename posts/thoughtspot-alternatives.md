@@ -223,7 +223,7 @@ Basedash is an [AI-native business intelligence](/blog/agentic-analytics) platfo
     
 -   **Trade-offs**: Its focus on tools + analytics may differ from broad enterprise-wide search platforms, with pricing starting at $250/month for basic plans.
 
-*Head to head: [Supaboard vs Basedash](/compare/basedash).*
+*Side by side: [Supaboard and Basedash on the comparison matrix](/compare).*
     
 
 ### 5\. Domo
@@ -238,7 +238,7 @@ Domo is a comprehensive, cloud-native BI and data platform that includes built-i
 
 <!-- section:content-5 -->
 
-*Head to head: [Supaboard vs Domo](/compare/domo).*
+*Side by side: [Supaboard and Domo on the comparison matrix](/compare).*
 
 ## Quick Comparison Table
 
@@ -254,7 +254,7 @@ Domo is a comprehensive, cloud-native BI and data platform that includes built-i
 
 ### How to Choose the Right ThoughtSpot Alternative
 
-Align your choice with priorities: cost control and speed (Supaboard, Lightdash, Basedash), analyst collaboration (Hex), or end-to-end capabilities (Domo). Test with your actual data, users, and workflows. Most platforms offer trials.
+Align your choice with priorities: cost control and speed (Supaboard, Lightdash, Basedash), analyst collaboration (Hex), or end-to-end capabilities (Domo). Test with your actual data, users, and workflows. Most platforms offer trials. For the no-analyst end of that range, [Objection.ai](/case-study/objection.ai) unified eleven systems and let marketing and product answer their own questions with no data analysts on staff.
 
 **Further Reading**:
 

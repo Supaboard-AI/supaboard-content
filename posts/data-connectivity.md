@@ -399,7 +399,9 @@ explains data connectivity well but reaches four systems is not solving the prob
 this article describes.
 
 Supaboard ships [700+ data connectors](/integrations) on its Business plan, covering
-the four categories most teams have to stitch together by hand:
+the four categories most teams have to stitch together by hand. [Objection.ai](/case-study/objection.ai)
+spans all four — product database, ads suite, Asana, Cloudflare, PostHog, Stripe and
+Twilio, eleven systems in one place:
 
 -   **Databases and warehouses** — PostgreSQL, MySQL, Snowflake, BigQuery, Redshift.
     The systems your transactional and analytical data already lives in.

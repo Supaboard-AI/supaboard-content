@@ -243,7 +243,7 @@ So this one ordinary question breaks pure text-to-SQL three ways: it needs a joi
 
 **Reasoning.** This is the ability to pursue a question across multiple steps: to form a hypothesis, write a query to test it, interpret the result, and decide what to ask next, until the question is actually answered rather than merely queried. It is the difference between a tool that returns a table and an agent that returns an answer.
 
-A system that has all three understands the business. A system that has none of them, however good its SQL, is doing translation. That is the whole distinction, and it is not cosmetic.
+A system that has all three understands the business. A system that has none of them, however good its SQL, is doing translation. That is the whole distinction, and it is not cosmetic. It is also the difference [Jindal Healthcare](/case-study/jindal-healthcare) paid for: once the denial and claims context was explicit, a deep look stopped being something the team had to ration.
 
 <!-- section:content-7 -->
 

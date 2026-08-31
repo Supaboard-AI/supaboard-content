@@ -35,6 +35,67 @@ for (const i of issues) fail(i.slug, "schema", `${i.path}: ${i.message}`);
 
 const validBySlug = new Map(valid.map((v) => [v.slug, v.data as Frontmatter]));
 
+/**
+ * --- 9: phrases that were each a real production defect.
+ *
+ * Deliberately outside the loop below, which skips any doc that already failed
+ * the schema — a post with a bad statsCount can still be claiming a feature we
+ * do not have, and that is the more expensive error.
+ */
+const BANNED: [RegExp, string][] = [
+  [/dashboards[ -]as[ -]code/i, "Supaboard has no such feature"],
+  [/600\+\s*data sources/i, "the connector count is 700+"],
+  [/\bStarter, Pro\b/, "the plans are Individual, Business and Enterprise"],
+  [/Not verified —/, "editorial placeholder left in the body"],
+];
+
+/**
+ * --- 10: an internal body link that 301s or 410s.
+ *
+ * `relink.mjs` only rewrites /blog/ links, so nineteen /compare/* links
+ * survived the August 2026 consolidation pointing at retired head-to-heads.
+ * Hard ban #9 says a link that redirects is a defect; this is what enforces it.
+ */
+const { redirects, gone } = JSON.parse(
+  readFileSync(`${ROOT}migration/redirects.json`, "utf8"),
+) as { redirects: { source: string }[]; gone: { source: string }[] };
+const DEAD = new Map<string, string>([
+  ...redirects.map((r) => [r.source, "301"] as [string, string]),
+  ...gone.map((g) => [g.source, "410"] as [string, string]),
+]);
+
+/**
+ * --- 11: a case study declared in frontmatter but never linked in the body.
+ *
+ * The schema requires commercial posts to name one; nothing checked that the
+ * reader could ever click it, so thirteen posts shipped the metadata alone.
+ */
+for (const doc of docs) {
+  for (const [re, why] of BANNED) {
+    const hit = doc.body.match(re);
+    if (hit) fail(doc.slug, "banned-phrase", `"${hit[0]}" — ${why}`);
+  }
+
+  for (const [, path] of doc.body.matchAll(/\]\((\/[^)\s#]+)/g)) {
+    const status = DEAD.get(path);
+    if (status) fail(doc.slug, "link-not-200", `${path} ${status}s`);
+  }
+
+  // --- 12: an image with no alt text, or a URL used as one. Both shipped.
+  // markdown.tsx renders `alt={alt ?? ""}`, so a missing alt is silently
+  // decorative on the page — there is nothing downstream to notice it.
+  for (const [whole, alt] of doc.body.matchAll(/!\[([^\]]*)\]\(/g)) {
+    if (!alt.trim()) fail(doc.slug, "image-alt", `empty alt: ${whole}(…`);
+    else if (/^https?:\/\//i.test(alt.trim())) fail(doc.slug, "image-alt", `URL as alt: ${alt}`);
+  }
+
+  for (const path of (doc.data as { caseStudies?: string[] }).caseStudies ?? []) {
+    if (!doc.body.includes(path)) {
+      fail(doc.slug, "case-study-not-linked", `${path} declared but never linked in the body`);
+    }
+  }
+}
+
 // --- 4-5: body-level editorial floors.
 for (const doc of docs) {
   const fm = validBySlug.get(doc.slug);

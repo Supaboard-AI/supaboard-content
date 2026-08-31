@@ -249,6 +249,8 @@ Companies are creating new income opportunities by:
     
 -   Using **data monetization strategies** to increase revenue from existing customers.
 
+Per-tenant scoping is the part teams underestimate — [Legend EHR](/case-study/legend-ehr) gives each clinic manager an analyst limited to their own location, the same row-level boundary an embedded product needs per customer.
+
 <!-- section:content-5 -->
 
 ## Embedded Analytics vs Business Intelligence

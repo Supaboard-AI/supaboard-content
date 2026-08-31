@@ -111,6 +111,8 @@ internalLinks:
   - data-visualization-tools
   - enterprise-business-intelligence
   - is-ai-bi-just-text-to-sql
+caseStudies:
+  - /case-study/legend-ehr
 citations:
   - claim: Reference on business intelligence from Wikipedia
     source: Wikipedia
@@ -278,7 +280,7 @@ Despite its advantages, business intelligence is difficult to implement at scale
 
 System integration is another obstacle. Many organizations use legacy platforms that lack standardized structures. Connecting these systems requires specialized expertise and long-term planning.
 
-Cultural resistance also limits adoption. Employees may distrust analytics or fear transparency. Without leadership support and training, BI initiatives fail to deliver value.
+Cultural resistance also limits adoption. Employees may distrust analytics or fear transparency. Without leadership support and training, BI initiatives fail to deliver value. Adoption is the barrier tooling can actually move: [Legend EHR](/case-study/legend-ehr) gave every clinic manager an analyst scoped to their own location rather than training everyone on a BI tool.
 
 ### Major Implementation Barriers
 

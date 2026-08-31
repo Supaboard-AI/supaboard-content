@@ -3,6 +3,7 @@ slug: objection.ai
 status: published
 company: Objection.ai
 title: How Objection.ai runs a no-data-analyst company with Supaboard
+metaTitle: "Objection.ai: a company with no data analysts"
 headlineMetric: 100% self-serve analytics
 summary: >-
   An AI tribunal unified eleven systems and gave marketing and product

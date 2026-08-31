@@ -496,7 +496,7 @@ You don't know what you'll find until you look. The practical answer: start with
 
 Supplier consolidation and contract compliance, because both convert directly into a negotiation you can hold this quarter.
 
-The eight use cases above are not equally fast. Sequencing them by time-to-value rather than by ambition is the difference between a programme that funds itself and one that stalls waiting for data quality.
+The eight use cases above are not equally fast. Sequencing them by time-to-value rather than by ambition is the difference between a programme that funds itself and one that stalls waiting for data quality. [Jindal Healthcare](/case-study/jindal-healthcare) is the version of that outside procurement: analytics cost fell 90% once answering a question stopped costing more than the answer was worth.
 
 **First — supplier consolidation.** Once spend is normalised, duplicate suppliers across departments become visible immediately, and consolidating volume with fewer vendors is a conversation you can have as soon as you can prove the numbers. It requires no process change from anyone outside procurement, which is why it moves fast.
 

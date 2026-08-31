@@ -269,7 +269,7 @@ AI works best alongside governed models and role-based access controls, enabling
 
 ### More Value From Existing Data
 
-Most enterprises already have ERP systems, CRMs, and cloud warehouses. AI helps them extract more value without replacing existing infrastructure.
+Most enterprises already have ERP systems, CRMs, and cloud warehouses. AI helps them extract more value without replacing existing infrastructure. [Jindal Healthcare](/case-study/jindal-healthcare) kept its existing revenue-cycle systems and cut analytics cost by 90% by changing what sat on top of them.
 
 <!-- section:content-8 -->
 

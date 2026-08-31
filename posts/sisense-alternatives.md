@@ -232,7 +232,7 @@ Domo leans hard into mobile and social-style collaboration, which resonates with
 
 **Pricing shape:** no public pricing; Domo runs on a purchased credit pool consumed by data ingestion, transforms, and refreshes. Typical mid-market deployments land between $50,000 and $150,000 a year.
 
-*Head to head: [Supaboard vs Domo](/compare/domo).*
+*Side by side: [Supaboard and Domo on the comparison matrix](/compare).*
 
 ### 7\. Qlik Sense: best for associative, exploratory analysis
 
@@ -246,9 +246,11 @@ Qlik's associative engine lets people click through data without pre-defined dri
 
 <!-- section:content-5 -->
 
-*Head to head: [Supaboard vs Qlik](/compare/qlik).*
+*Side by side: [Supaboard and Qlik on the comparison matrix](/compare).*
 
 ## How do these 7 Sisense alternatives compare?
+
+One data point on the cost column before the table: [Jindal Healthcare](/case-study/jindal-healthcare) cut analytics cost by 90% after moving off a stack it was outgrowing.
 
 | Tool | Setup time | AI & natural language | Embedding | Governance | Pricing model |
 | --- | --- | --- | --- | --- | --- |

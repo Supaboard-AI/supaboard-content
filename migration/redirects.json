@@ -306,6 +306,11 @@
       "why": "renamed"
     },
     {
+      "source": "/blog/server-based-computing-guide",
+      "destination": "/blog/data-engineering",
+      "why": "merged"
+    },
+    {
       "source": "/blog/sisense-alternatives-7-bi-tools-compared-in-2026",
       "destination": "/blog/sisense-alternatives",
       "why": "renamed"
@@ -756,10 +761,6 @@
     },
     {
       "source": "/blog/revenge-of-the-backend-why-infrastructure-matters-more-in-the-age-of-ai",
-      "why": "KILL"
-    },
-    {
-      "source": "/blog/server-based-computing-guide",
       "why": "KILL"
     },
     {

@@ -335,7 +335,7 @@ A strong logistics analytics platform acts as a **decision-support system**, hel
 
 ### From Analytics to Action: Implementing Logistics Analytics in Practice
 
-Effective logistics analytics starts with **decisions, not dashboards**. The goal is to align insights with real operational workflows so teams can act quickly. By making analytics accessible to non-technical users, organizations move beyond visibility toward **prediction and automation**, turning analytics into a system that supports faster, better logistics decisions.
+Effective logistics analytics starts with **decisions, not dashboards**. The goal is to align insights with real operational workflows so teams can act quickly. By making analytics accessible to non-technical users, organizations move beyond visibility toward **prediction and automation**, turning analytics into a system that supports faster, better logistics decisions. [Legend EHR](/case-study/legend-ehr) shows the pattern outside logistics: rather than one central reporting team, every site manager got an analyst scoped to their own location.
 
 ### The Future of Logistics Analytics
 
