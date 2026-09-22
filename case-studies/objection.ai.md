@@ -39,8 +39,9 @@ about:
     href: https://objection.ai
 problems:
   - >-
-    A sprawling modern stack — product DB, four ad platforms, Asana,
-    Cloudflare, PostHog, Stripe and Twilio, eleven systems in all.
+    A sprawling modern stack — the product database, four ad platforms, and
+    tools for execution, infrastructure, product analytics, payments and
+    communications: eleven systems in all.
   - >-
     Each system held a piece of the truth, and none could answer a question
     that spanned marketing, product and revenue at once.
@@ -52,7 +53,7 @@ problems:
     decided on instinct instead of evidence.
 outcome:
   - value: 11 sources
-    detail: Product DB, ads suite, Asana, Cloudflare, PostHog, Stripe and Twilio — unified
+    detail: Product database, ad platforms, execution, infrastructure, product analytics, payments and communications — unified
   - value: 0 analysts
     detail: The company runs without a data analyst on board
   - value: 2 teams
@@ -60,10 +61,9 @@ outcome:
 ---
 
 Objection.ai built a modern stack the way modern companies do: their product
-database, the full ads suite (LinkedIn, X, Instagram, Google), Asana for
-execution, Cloudflare for infrastructure, PostHog for product analytics, Stripe
-for revenue, and Twilio for communications. Eleven systems, each holding a piece
-of the truth.
+database, four ad platforms, and separate tools for execution, infrastructure,
+product analytics, revenue and communications. Eleven systems, each holding a
+piece of the truth.
 
 The conventional next step is to hire a data analyst, then a second, then build
 a warehouse, then hire a third. Objection.ai went the other direction — they
@@ -83,8 +83,8 @@ Supaboard became Objection.ai's data headquarters. Every source unified into one
 place, and the trainable agent learned how the company thinks about its funnel,
 its campaigns, and its operating cadence:
 
-- **All eleven sources, one place:** From the product database through the ads
-  suite, Asana, Cloudflare, PostHog, Stripe, and Twilio.
+- **All eleven sources, one place:** From the product database through the ad
+  platforms and every operational tool underneath them.
 - **Trained on the business:** The agent learned Objection.ai's funnel, campaign
   structure, and operating cadence.
 - **Analyst questions, no analyst:** The questions that would normally route
@@ -92,17 +92,16 @@ its campaigns, and its operating cadence:
 
 ## Marketing: four-platform attribution in one query
 
-Marketing pulls campaign attribution across four ad platforms — LinkedIn, X,
-Instagram, and Google — in a single query. No exports, no stitching, no analyst
-in the loop. Blended performance across every channel, answered the moment the
-question is asked.
+Marketing pulls campaign attribution across all four ad platforms in a single
+query. No exports, no stitching, no analyst in the loop. Blended performance
+across every channel, answered the moment the question is asked.
 
-## Product: PostHog behaviour joined to Stripe revenue
+## Product: behaviour joined to revenue
 
-Product pulls behavioural data from PostHog joined against revenue from Stripe —
-connecting what users do to what they pay, in a single question. The join that
-would normally need a warehouse and someone to model it happens in the question
-itself.
+Product pulls behavioural data from their analytics tool joined against revenue
+from their billing system — connecting what users do to what they pay, in a
+single question. The join that would normally need a warehouse and someone to
+model it happens in the question itself.
 
 ## Where Objection.ai landed
 

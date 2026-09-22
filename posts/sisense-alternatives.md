@@ -132,8 +132,6 @@ statsCount: 0
 
 <!-- section:content-1 -->
 
-## TL;DR: The Best Sisense Alternatives at a Glance
-
 > **TL;DR:** For most teams leaving Sisense, Supaboard is the strongest overall pick: faster setup, AI agents that learn your business rules, and pricing you can actually plan for. ThoughtSpot fits search-first AI teams, Power BI fits Microsoft shops, Looker fits BigQuery-native enterprises, and Metabase fits budget-conscious engineering teams.
 
 <!-- section:content-2 -->
