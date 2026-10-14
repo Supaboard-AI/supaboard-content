@@ -245,7 +245,7 @@ Without diagnostic analytics, teams guess, misallocate resources, or fix the wro
 
 **Tools & Tips:**
 
--   **Tools:** SQL, [**Supaboard**](/product/query-builder) across [700+ sources](/integrations), Power BI, Excel
+-   **Tools:** SQL, [**Supaboard**](/product/query-builder) across [12 databases and warehouses](/product/data-connections), Power BI, Excel
     
 -   **Tip:** Ask focused questions, validate correlations, and combine insights with domain knowledge.
 

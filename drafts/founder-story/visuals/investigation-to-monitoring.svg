@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900" role="img" aria-labelledby="workflow-title workflow-desc">
+  <title id="workflow-title">From investigation to ongoing monitoring in one conversation</title>
+  <desc id="workflow-desc">Investigate a business question, carry forward its question, customer segment and monitoring focus, then create either a live dashboard or a recurring report. A conceptual workflow diagram, not a product screenshot.</desc>
+  <rect width="800" height="900" rx="24" fill="#fcfcfc"/>
+  <rect x="1" y="1" width="798" height="898" rx="23" fill="none" stroke="#e4e4e4"/>
+  <g font-family="Geist, sans-serif" fill="#1f2023">
+    <text x="52" y="57" font-size="18" letter-spacing="2" fill="#087956">ONE CONVERSATION</text>
+    <text x="52" y="103" font-size="32" font-weight="500">From investigation to monitoring</text>
+    <rect x="52" y="140" width="696" height="142" rx="18" fill="#ffffff" stroke="#d4ded9"/>
+    <path d="M91 177 h45 v35 h-24 l-12 10 v-10 h-9 z" fill="#e7f5ef" stroke="#11976d" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M101 189 h25 M101 199 h17" stroke="#11976d" stroke-width="2" stroke-linecap="round"/>
+    <text x="159" y="193" font-size="30" font-weight="500">Investigation</text>
+    <text x="159" y="232" font-size="24" fill="#4b5563">Ask a question. Explore the follow-ups.</text>
+    <path d="M400 295 v40" fill="none" stroke="#11976d" stroke-width="3"/>
+    <path d="M389 325 L411 325 L400 341 Z" fill="#11976d"/>
+    <rect x="52" y="356" width="696" height="188" rx="18" fill="#eaf5f0" stroke="#98cab4"/>
+    <path d="M92 393 h26 M104 381 v26 M99 418 h26 M113 407 v26" fill="none" stroke="#11976d" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="159" y="410" font-size="30" font-weight="500">Context carries forward</text>
+    <text x="159" y="449" font-size="24" fill="#4b5563">The understanding built during analysis.</text>
+    <rect x="82" y="476" width="158" height="43" rx="8" fill="#ffffff" stroke="#c7e1d4"/>
+    <rect x="252" y="476" width="251" height="43" rx="8" fill="#ffffff" stroke="#c7e1d4"/>
+    <rect x="515" y="476" width="203" height="43" rx="8" fill="#ffffff" stroke="#c7e1d4"/>
+    <text x="161" y="504" font-size="22" text-anchor="middle">Question</text>
+    <text x="377" y="504" font-size="22" text-anchor="middle">Customer segment</text>
+    <text x="616" y="504" font-size="22" text-anchor="middle">What to watch</text>
+    <path d="M400 557 v34 M226 591 h348 M226 591 v38 M574 591 v38" fill="none" stroke="#11976d" stroke-width="3"/>
+    <path d="M215 621 L237 621 L226 637 Z M563 621 L585 621 L574 637 Z" fill="#11976d"/>
+    <rect x="52" y="654" width="330" height="164" rx="18" fill="#ffffff" stroke="#d4ded9"/>
+    <rect x="418" y="654" width="330" height="164" rx="18" fill="#ffffff" stroke="#d4ded9"/>
+    <path d="M83 716 v-17 h10 v17 M101 716 v-28 h10 v28 M119 716 v-38 h10 v38" fill="#11976d"/>
+    <text x="82" y="756" font-size="29" font-weight="500">Live dashboard</text>
+    <text x="82" y="791" font-size="22" fill="#4b5563">Track the chosen segment.</text>
+    <rect x="449" y="681" width="41" height="35" rx="5" fill="#e7f5ef" stroke="#11976d" stroke-width="2"/>
+    <path d="M449 692 h41 M459 675 v12 M480 675 v12" fill="none" stroke="#11976d" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M461 703 h7 M475 703 h7" stroke="#11976d" stroke-width="2.5"/>
+    <text x="448" y="756" font-size="29" font-weight="500">Recurring report</text>
+    <text x="448" y="791" font-size="22" fill="#4b5563">Check what changed.</text>
+    <text x="52" y="861" font-size="19" fill="#4b5563">An illustration of the workflow described in this founder story.</text>
+  </g>
+</svg>

@@ -339,7 +339,7 @@ While many tools let you manually create charts, modern BI platforms can intelli
 
 ### Why Use Supaboard for Creating Bar Graphs and Histograms
 
-[Supaboard](/product/dashboards) is built to make data visualization faster and more accurate for analytics, product, and business teams, across [700+ connectable sources on the Business plan](/integrations).
+[Supaboard](/product/dashboards) is built to make data visualization faster and more accurate for analytics, product, and business teams, across [12 databases and warehouses](/product/data-connections).
 
 Instead of manually struggling with **histogram vs bar graph** decisions, Supaboard analyzes your data and automatically suggests the most appropriate chart, whether it’s a bar graph for category comparisons or a histogram for distribution analysis.
 
@@ -366,7 +366,7 @@ Whether you need to compare sales performance across regions using bar graphs or
 
 If you want to create better dashboards and avoid common **histogram vs bar graph** mistakes, try Supaboard with your own data and see how it simplifies analysis.
 
-Start your [**14-day free trial**](https://auth.supaboard.ai/onboard/register) and build your first dashboard in minutes, or [Book A Demo](https://calendly.com/aritra-ewq/supaboard-demo)
+Start on the [**Free plan**](https://auth.supaboard.ai/onboard/register) and build your first dashboard in minutes, or [Book A Demo](https://calendly.com/aritra-ewq/supaboard-demo)
 
 <!-- section:content-12 -->
 

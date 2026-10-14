@@ -82,9 +82,6 @@ internalLinks:
   - natural-language-query-analytics
   - agentic-analytics
   - what-is-a-semantic-layer
-caseStudies:
-  - /case-study/legend-ehr
-  - /case-study/gabriella.pl
 citations:
   - claim: >-
       A dashboard is a visual display of the most important information needed
@@ -167,7 +164,7 @@ This is where the time actually goes in most reporting processes. Not in buildin
 the dashboard. In the queue of small follow-ups the dashboard could not answer.
 
 An AI dashboard answers question nine in the same breath as question one, because
-the view is generated rather than pre-built. [Legend EHR](/case-study/legend-ehr)
+the view is generated rather than pre-built. Legend EHR
 describes the outcome as having an analyst available to every team — not because
 they hired any, but because the follow-up stopped needing one.
 
@@ -243,7 +240,7 @@ When a question costs three days, you only ask the ones you can justify. When it
 costs thirty seconds, you ask the speculative one — the hunch, the "is it just me
 or has this been trending down", the question you would never have filed a ticket
 for. Most of those go nowhere. Occasionally one of them is
-[Gabriella.pl](/case-study/gabriella.pl) discovering that the channel with the
+Gabriella.pl discovering that the channel with the
 highest spend was not the one with the best return.
 
 That shift, from a reporting queue to a conversation, is the actual product of an

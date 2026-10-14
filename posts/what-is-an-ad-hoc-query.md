@@ -185,7 +185,7 @@ Normally, with dashboards, you’re limited to what someone else designed. If th
 
 **See below image for a better explanation:**
 
-Supaboard's [query builder](/product/query-builder) is built for exactly this pattern — a question that did not exist yesterday, answered without waiting on a report request, across [700+ connectable sources on the Business plan](/integrations).
+Supaboard's [query builder](/product/query-builder) is built for exactly this pattern — a question that did not exist yesterday, answered without waiting on a report request, across [12 databases and warehouses](/product/data-connections).
 
 ![Supaboard dashboard answering an ad hoc query](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-an-ad-hoc-query/e37e6a31bf03d1a6.png?w=1436&h=812)
 

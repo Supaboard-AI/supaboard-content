@@ -222,7 +222,7 @@ Interestingly, very few teams are looking to completely replace traditional BI. 
 
 This balance makes sense because different functions have different needs. Finance and compliance teams still require structured reporting and auditability, while growth and operations teams benefit more from systems that can respond dynamically to changes.
 
-We’re starting to see this reflected in newer platforms as well. Tools like [**Supaboard's analyst agents**](/product/agents) — flat per seat on the [pricing page](/pricing) rather than metered per query — are exploring this middle ground, combining familiar dashboard experiences with more proactive, AI-driven capabilities that help reduce manual effort without removing visibility.
+We’re starting to see this reflected in newer platforms as well. Tools like [**Supaboard's analyst agents**](/product/agents) — priced per editor on the [pricing page](/pricing), with a weekly AI allowance in each paid seat — are exploring this middle ground, combining familiar dashboard experiences with more proactive, AI-driven capabilities that help reduce manual effort without removing visibility.
 
 <!-- section:content-18 -->
 

@@ -115,8 +115,6 @@ tldr:
   - >-
     Predictive models in care settings need explainability to be actionable at
     all.
-caseStudies:
-  - /case-study/jindal-healthcare
 internalLinks:
   - ecommerce-analytics
   - logistics-analytics
@@ -282,7 +280,7 @@ Revenue cycle work, because the data is already structured, the feedback loop is
 
 For healthcare providers in India and worldwide, the journey toward fully proactive care requires focus on data quality, ethical implementation, clinician collaboration, and continuous improvement. Organizations that embrace this technology thoughtfully will be best positioned to deliver high-quality, efficient, and patient-centered care in the coming years.
 
-Supaboard's healthcare customers run this in production: [Legend EHR](/case-study/legend-ehr) gave every clinic manager their own analyst, and [Jindal Healthcare](/case-study/jindal-healthcare) cut analytics costs by 90%. See [how the AI analyst works](/product/ask-analysts).
+Supaboard's healthcare customers run this in production: Legend EHR gave every clinic manager their own analyst, and Jindal Healthcare cut analytics costs by 90%. See [how the AI analyst works](/product/ask-analysts).
 
 **Related Blogs:**
 

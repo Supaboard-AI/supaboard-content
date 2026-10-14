@@ -80,7 +80,6 @@ for (const slug of slugs.sort()) {
   fm.audience = e.audience;
   fm.funnel = e.funnel;
   fm.tldr = e.tldr;
-  if (e.caseStudies) fm.caseStudies = e.caseStudies;
   fm.internalLinks = fillInternalLinks(slug, fm.internalLinks);
   fm.statsCount = a.numericClaims.filter((c) => c.sourced).length;
   delete fm.legacyCategory;

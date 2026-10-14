@@ -123,8 +123,6 @@ tldr:
   - >-
     A tool that cannot show which query produced a number cannot be audited when
     someone doubts it.
-caseStudies:
-  - /case-study/jindal-healthcare
 statsCount: 0
 ---
 
@@ -303,7 +301,7 @@ Second, ask who has to be involved and for how long before you see value. A real
 
 Third, run a short paid or trial pilot with real users, not just the champion who ran the demo. Let a salesperson and a non-technical ops person live in it for a week and try to break it. The tool that survives your team's actual questions is the one to buy.
 
-For what it is worth, we built [Supaboard's analyst agents](/product/agents) to answer questions 2, 5 and 7 specifically — definitions you train rather than guess at, the exact SQL behind every answer, and corrections that persist for the whole team. Our pricing is flat per seat and [published](/pricing) rather than quoted, which is the honest answer to question 12. [Jindal Healthcare](/case-study/jindal-healthcare) ran this evaluation and cut analytics costs by 90%.
+For what it is worth, we built [Supaboard's analyst agents](/product/agents) to answer questions 2, 5 and 7 specifically — definitions you train rather than guess at, the exact SQL behind every answer, and corrections that persist for the whole team. Our pricing is flat per seat and [published](/pricing) rather than quoted, which is the honest answer to question 12. Jindal Healthcare ran this evaluation and cut analytics costs by 90%.
 
 Here is the condensed version to keep open during a call — the 12 questions and the red flag that goes with each one.
 

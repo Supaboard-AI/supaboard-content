@@ -134,8 +134,6 @@ tldr:
   - >-
     The data usually exists across carrier, warehouse and order systems that do
     not reconcile.
-caseStudies:
-  - /case-study/legend-ehr
 statsCount: 0
 ---
 
@@ -335,7 +333,7 @@ A strong logistics analytics platform acts as a **decision-support system**, hel
 
 ### From Analytics to Action: Implementing Logistics Analytics in Practice
 
-Effective logistics analytics starts with **decisions, not dashboards**. The goal is to align insights with real operational workflows so teams can act quickly. By making analytics accessible to non-technical users, organizations move beyond visibility toward **prediction and automation**, turning analytics into a system that supports faster, better logistics decisions. [Legend EHR](/case-study/legend-ehr) shows the pattern outside logistics: rather than one central reporting team, every site manager got an analyst scoped to their own location.
+Effective logistics analytics starts with **decisions, not dashboards**. The goal is to align insights with real operational workflows so teams can act quickly. By making analytics accessible to non-technical users, organizations move beyond visibility toward **prediction and automation**, turning analytics into a system that supports faster, better logistics decisions. Legend EHR shows the pattern outside logistics: rather than one central reporting team, every site manager got an analyst scoped to their own location.
 
 ### The Future of Logistics Analytics
 
@@ -386,7 +384,7 @@ It can flag conditions that historically preceded disruption, such as rising dwe
 
 **Logistics analytics** creates value when it supports real decisions, not just reporting. Instead of static dashboards, modern teams need answers that help them act quickly under operational pressure. When logistics analytics is treated as core infrastructure,connecting data, explaining exceptions, and guiding action, it improves efficiency, resilience, and service outcomes. If you’re exploring how to apply logistics analytics in practice.
 
-If you want to see [how Supaboard's AI analysts help](/product/ask-analysts) logistics teams connect [700+ data sources on the Business plan](/integrations), investigate exceptions, and turn analytics into real decisions, **book a demo** with our team.
+If you want to see [how Supaboard's AI analysts help](/product/ask-analysts) logistics teams connect [their databases and warehouses](/product/data-connections), investigate exceptions, and turn analytics into real decisions, **book a demo** with our team.
 
 We’ll walk through how Supaboard works with logistics data and show real workflows for transportation, warehousing, and supply chain analytics.
 

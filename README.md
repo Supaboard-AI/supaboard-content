@@ -1,12 +1,12 @@
 # supaboard-content
 
-Source of truth for Supaboard's blog and case-study prose. The marketing site
+Source of truth for Supaboard's blog prose. The marketing site
 (`supa-landing`) reads these files at build/ISR time and renders them at
-`https://supaboard.ai/blog/<slug>` and `https://supaboard.ai/case-study/<slug>`.
+`https://supaboard.ai/blog/<slug>`.
 
 ```
 posts/<slug>.md          one post — YAML frontmatter + markdown body
-case-studies/<slug>.md   one customer story — same shape, different frontmatter
+case-studies/<slug>.md   retired customer stories — kept as source, not rendered
 tools/                   migration + authoring scripts
 ```
 
@@ -25,9 +25,14 @@ In-page anchors follow the same rule. Each `<!-- section:content-N -->` marker
 in the body becomes `id="content-N"` on the rendered section, matching the
 anchors the Framer build shipped, so existing deep links keep resolving.
 
-## Case studies
+## Case studies (retired)
 
-`case-studies/<slug>.md` renders at `/case-study/<slug>`.
+**Retired 2026-10-08.** The site no longer reads `case-studies/`: `/case-study`,
+`/case-study/<slug>` and the plural `/case-studies` paths all answer 410 Gone,
+and no post may link to them. The files stay as the record of what the stories
+said; the rest of this section describes how they used to render.
+
+`case-studies/<slug>.md` rendered at `/case-study/<slug>`.
 
 A study opens with three scannable blocks — who the customer is, what was
 broken, what changed in numbers — and then tells the story. The first three are

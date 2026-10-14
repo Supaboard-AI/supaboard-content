@@ -406,4 +406,4 @@ DBT works best when it’s treated not as a quick fix, but as a foundation. Buil
 
 That mindset shift is where DBT’s real value shows up.
 
-If you do not have the engineering capacity for a modelled layer yet, the alternative is a system that learns definitions from use rather than from code — that is what [Supaboard's analyst agents](/product/agents) do, and [pricing](/pricing) is flat per seat rather than per query. It is a different trade-off, not a replacement for dbt.
+If you do not have the engineering capacity for a modelled layer yet, the alternative is a system that learns definitions from use rather than from code — that is what [Supaboard's analyst agents](/product/agents) do, and [pricing](/pricing) is per editor, with a weekly AI allowance in each paid seat. It is a different trade-off, not a replacement for dbt.

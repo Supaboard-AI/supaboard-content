@@ -127,8 +127,6 @@ tldr:
   - >-
     Buying capability before agreeing definitions publishes the disagreement
     faster.
-caseStudies:
-  - /case-study/jindal-healthcare
 statsCount: 1
 ---
 
@@ -172,7 +170,7 @@ Smaller BI setups usually serve one team or function. Enterprise BI, however, co
 
 In practice, enterprise BI is much more than dashboards. It includes:
 
--   Data [integration](/integrations) across systems
+-   Data [integration](/product/data-connections) across systems
     
 -   Shared semantic definitions
     
@@ -269,7 +267,7 @@ AI works best alongside governed models and role-based access controls, enabling
 
 ### More Value From Existing Data
 
-Most enterprises already have ERP systems, CRMs, and cloud warehouses. AI helps them extract more value without replacing existing infrastructure. [Jindal Healthcare](/case-study/jindal-healthcare) kept its existing revenue-cycle systems and cut analytics cost by 90% by changing what sat on top of them.
+Most enterprises already have ERP systems, CRMs, and cloud warehouses. AI helps them extract more value without replacing existing infrastructure. Jindal Healthcare kept its existing revenue-cycle systems and cut analytics cost by 90% by changing what sat on top of them.
 
 <!-- section:content-8 -->
 
@@ -358,4 +356,4 @@ Enterprise BI succeeds or fails on agreement, not on capability. A platform roll
 
 Start with the measures leadership already argues about, give each one an owner and a single definition, and only then widen access. The platform question — which tool, which deployment — is the easier half, and it gets easier still once the definitions are settled.
 
-If you are evaluating platforms, [Supaboard's AI analyst agents](/product/ask-analysts) resolve questions against definitions you train them on rather than guessing from column names, and [Legend EHR](/case-study/legend-ehr) uses that to give every clinic manager an analyst scoped to their own location.
+If you are evaluating platforms, [Supaboard's AI analyst agents](/product/ask-analysts) resolve questions against definitions you train them on rather than guessing from column names, and Legend EHR uses that to give every clinic manager an analyst scoped to their own location.

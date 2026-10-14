@@ -344,4 +344,4 @@ Understanding the difference between positive and negative correlation will help
 
 This knowledge is a strong foundation for more advanced [data analysis](/blog/data-science-vs-data-analytics) and critical thinking in a world of numbers and relationships.
 
-Spotting a correlation is the easy half; the work is checking whether it holds once you control for the obvious confounder, and that means running the follow-up query rather than reading a chart. An [AI data analyst](/blog/ai-data-analyst) will do that follow-up for you — [Supaboard's Ask Analysts](/product/ask-analysts) answers the question and shows the SQL behind it, at a flat [per-seat price](/pricing) so exploring costs nothing extra.
+Spotting a correlation is the easy half; the work is checking whether it holds once you control for the obvious confounder, and that means running the follow-up query rather than reading a chart. An [AI data analyst](/blog/ai-data-analyst) will do that follow-up for you — [Supaboard's Ask Analysts](/product/ask-analysts) answers the question and shows the SQL behind it, at a published [per-editor price](/pricing) that includes a weekly AI allowance.

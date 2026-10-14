@@ -146,8 +146,6 @@ tldr:
   - >-
     Explainability is a governance control, because a human who cannot see the
     reasoning cannot overrule it.
-caseStudies:
-  - /case-study/jindal-healthcare
 statsCount: 0
 ---
 
@@ -392,7 +390,7 @@ To implement AI contextual governance, organizations must first define clear con
 
 Next, governance policies should be designed to adapt based on these contexts. This includes role-based access, data filtering, and output control mechanisms.
 
-Organizations should then integrate governance into AI workflows using monitoring tools and automation systems. Continuous evaluation and feedback loops are essential to refine policies and ensure alignment with evolving business needs. [Jindal Healthcare](/case-study/jindal-healthcare) is a worked example of the payoff: with the context settled once, answering a question stopped rivalling the cost of the question and analytics cost fell 90%.
+Organizations should then integrate governance into AI workflows using monitoring tools and automation systems. Continuous evaluation and feedback loops are essential to refine policies and ensure alignment with evolving business needs. Jindal Healthcare is a worked example of the payoff: with the context settled once, answering a question stopped rivalling the cost of the question and analytics cost fell 90%.
 
 <!-- section:content-10 -->
 

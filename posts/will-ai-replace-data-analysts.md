@@ -346,4 +346,4 @@ AI is transforming analytics, but it is not eliminating data analysts. It remove
 
 Analysts who learn to use AI will become far more effective. Analysts who avoid it risk falling behind. The future belongs to those who combine human intelligence with AI intelligence.
 
-The practical version of that is handing the repetitive half to the machine. [Supaboard's automations](/product/automations) run the scheduled questions and fire on threshold breaches, and [Objection.ai](/case-study/objection.ai) runs marketing and product analytics across eleven sources with no analyst on staff — not because the role vanished, but because nobody was hired into it in the first place.
+The practical version of that is handing the repetitive half to the machine. [Supaboard's automations](/product/automations) run the scheduled questions and fire on threshold breaches, and Objection.ai runs marketing and product analytics across eleven sources with no analyst on staff — not because the role vanished, but because nobody was hired into it in the first place.

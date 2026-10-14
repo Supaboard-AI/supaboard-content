@@ -333,7 +333,7 @@ Future systems will:
 
 #### How Supaboard Helps You Turn Questions Into Business Decisions
 
-[Supaboard's AI analysts](/product/ask-analysts), reading from [700+ connectable sources on the Business plan](/integrations), are built for teams that want fast, clear, and reliable insights without dealing with complex dashboards or technical setup. It uses generative AI to transform raw business data into meaningful answers through simple, natural language queries.
+[Supaboard's AI analysts](/product/ask-analysts), reading live from [12 databases and warehouses](/product/data-connections), are built for teams that want fast, clear, and reliable insights without dealing with complex dashboards or technical setup. It uses generative AI to transform raw business data into meaningful answers through simple, natural language queries.
 
 Instead of spending hours building reports or waiting for analysts, users can directly ask questions like “Why is customer churn increasing?” or “Which campaign is giving the highest ROI?” and receive instant, data-backed explanations.
 

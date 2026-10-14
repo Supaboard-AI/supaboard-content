@@ -516,16 +516,6 @@
       "why": "merged"
     },
     {
-      "source": "/case-studies",
-      "destination": "/case-study",
-      "why": "named in brief"
-    },
-    {
-      "source": "/case-studies/:slug",
-      "destination": "/case-study/:slug",
-      "why": "named in brief"
-    },
-    {
       "source": "/compare/alteryx",
       "destination": "/compare",
       "why": "named in brief"

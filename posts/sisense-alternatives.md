@@ -125,8 +125,6 @@ tldr:
   - >-
     Compare on total cost at three times your current user count, not at today's
     headcount.
-caseStudies:
-  - /case-study/jindal-healthcare
 statsCount: 0
 ---
 
@@ -164,13 +162,13 @@ Match the tool to how your team actually works, not to a feature checklist. The 
 
 ### 1\. Supaboard: best overall pick
 
-Supaboard is an AI-native BI platform: you connect your data, then [trainable AI analyst agents](/product/agents) that learn your business rules answer questions in plain English, build dashboards, write and fix SQL, and run scheduled reports on their own. It connects to 700+ databases, warehouses, and apps on the Business plan, and it launched in February 2026 to a #1 Product of the Day and Week finish on Product Hunt.
+Supaboard is an AI-native BI platform: you connect your data, then [trainable AI analyst agents](/product/agents) that learn your business rules answer questions in plain English, build dashboards, write and fix SQL, and run scheduled reports on their own. It queries 12 databases and warehouses live and reads 22 apps through MCP, and it launched in February 2026 to a #1 Product of the Day and Week finish on Product Hunt.
 
 **Strength:** the AI agents get trained on your definitions rather than guessing at generic ones, which matters once more than one team asks questions with different assumptions about what "revenue" means.
 
 **Weakness:** it's newer to market than the legacy players here, so you won't find the decade of Stack Overflow threads and consultant ecosystem that Power BI or Qlik have built up.
 
-**Pricing shape:** Individual is $99/seat/month, Business $249/seat/month (or $83 and $208 billed yearly), Enterprise is custom, per [Supaboard's pricing page](/pricing) as of August 2026. Governance includes RBAC, audit logs, and SOC 2, with a HIPAA BAA as a paid add-on. See [Supaboard's roundup of the best AI BI tools](/blog/best-ai-bi-tools) for the full comparison.
+**Pricing shape:** a free plan, then Starter at $19 per editor per month, Individual at $99 and Business at $249 (or $16, $83 and $208 billed yearly), and a custom Enterprise plan, per [Supaboard's pricing page](/pricing) as of October 2026. Governance includes RBAC, audit logs, and SOC 2, with a HIPAA BAA as a paid add-on. See [Supaboard's roundup of the best AI BI tools](/blog/best-ai-bi-tools) for the full comparison.
 
 ### 2\. ThoughtSpot: best for search-driven AI analytics
 
@@ -248,11 +246,11 @@ Qlik's associative engine lets people click through data without pre-defined dri
 
 ## How do these 7 Sisense alternatives compare?
 
-One data point on the cost column before the table: [Jindal Healthcare](/case-study/jindal-healthcare) cut analytics cost by 90% after moving off a stack it was outgrowing.
+One data point on the cost column before the table: Jindal Healthcare cut analytics cost by 90% after moving off a stack it was outgrowing.
 
 | Tool | Setup time | AI & natural language | Embedding | Governance | Pricing model |
 | --- | --- | --- | --- | --- | --- |
-| Supaboard | Fast, connects to 700+ sources on Business | Trained AI agents on your rules | White-label embedded analytics | RBAC, audit logs, SOC 2, HIPAA BAA add-on | Per-user, predictable |
+| Supaboard | Fast, connects live to 12 databases and warehouses | Trained AI agents on your rules | White-label embedded analytics | RBAC, audit logs, SOC 2, HIPAA BAA add-on | Per editor, published |
 | ThoughtSpot | Moderate, modeling required | Strong search-based AI (Spotter) | Separate product, usage-based | RLS, RBAC | Per-user + usage-based embedding |
 | Power BI | Fast for Microsoft shops | Copilot features, improving | Requires Fabric capacity | Strong (Microsoft ecosystem) | Per-user, capacity add-on |
 | Looker | Slow, LookML build-out | Basic, semantic-layer dependent | Strong, mature | Strong, enterprise-grade | Custom quote only |

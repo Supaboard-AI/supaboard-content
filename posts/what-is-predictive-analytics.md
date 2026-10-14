@@ -216,7 +216,7 @@ While predictive analytics can generate powerful forecasts, the real challenge i
 
 This is where Supaboard stands out.
 
-[Supaboard's analyst agents](/product/agents) bring together business intelligence, performance management, and advanced analytics into a single, unified platform, reading from [700+ connectable sources on the Business plan](/integrations). Instead of switching between tools or relying on static reports, you can interact with your data in real time—making insights more accessible, actionable, and aligned with business goals.
+[Supaboard's analyst agents](/product/agents) bring together business intelligence, performance management, and advanced analytics into a single, unified platform, reading live from [12 databases and warehouses](/product/data-connections). Instead of switching between tools or relying on static reports, you can interact with your data in real time—making insights more accessible, actionable, and aligned with business goals.
 
 ### What You Can Do With Supaboard
 

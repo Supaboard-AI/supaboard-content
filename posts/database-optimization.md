@@ -527,4 +527,4 @@ Look at how queries behave under load. Understand how data is accessed. Fix what
 
 Once the lower layers are clean, everything above them, indexes, caching, infrastructure, starts working the way it should.
 
-The queries themselves are worth watching too. [Supaboard's query builder](/product/query-builder) shows the SQL behind every answer and checks it before it runs, which is usually how a badly-shaped query gets caught before it reaches production. It reads from [700+ connectable sources](/integrations) on the Business plan.
+The queries themselves are worth watching too. [Supaboard's query builder](/product/query-builder) shows the SQL behind every answer and checks it before it runs, which is usually how a badly-shaped query gets caught before it reaches production. It reads, read-only, from [12 databases and warehouses](/product/data-connections).

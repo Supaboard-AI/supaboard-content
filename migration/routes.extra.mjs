@@ -77,11 +77,9 @@ export const NAMED_REDIRECTS = [
   ...RETIRED_COMPARISONS.map((slug) => [`/compare/${slug}`, "/compare"]),
   ["/comparison", "/compare"],
 
-  // /case-studies 404s today and the plural is the more natural guess. Routed
-  // to the existing singular; making the plural canonical is a separate call
-  // that has to be made in the app repo where the route lives.
-  ["/case-studies", "/case-study"],
-  ["/case-studies/:slug", "/case-study/:slug"],
+  // No /case-studies → /case-study pair any more: the case-study section was
+  // retired 2026-10-08 and answers 410 in the app's proxy.ts, singular and
+  // plural, so a redirect here would only chain into the 410.
 
   // Parenthesised slugs that Phase 1 checked and cleared as "paren-free"
   // (PHASE-1-INVENTORY.md rows 45-46). The conclusion was drawn from the

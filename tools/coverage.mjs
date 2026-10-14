@@ -15,9 +15,7 @@ const SITE = "https://supaboard.ai";
 /** App routes that are not blog content and are expected to keep working. */
 const STATIC_ROUTES = new Set([
   "/", "/blog", "/comparison", "/pricing", "/privacy-policy",
-  "/terms-and-conditions", "/integrations", "/case-study",
-  "/case-study/objection.ai", "/case-study/legend-ehr",
-  "/case-study/jindal-healthcare", "/case-study/gabriella.pl",
+  "/terms-and-conditions", "/integrations",
 ]);
 
 const xml = await (await fetch(`${SITE}/sitemap.xml`)).text();

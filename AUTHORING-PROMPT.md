@@ -36,21 +36,22 @@ near-duplicates of them. One well-differentiated page beats ten thin ones.
 
 These are verified. Everything else needs a source.
 
-- **Pricing** (as of August 2026, always link `/pricing`): Individual
-  **$99/seat/month** or $990/seat/year (= $83/month). Business **$249/seat/month**
-  or $2,490/seat/year (= $208/month). Enterprise is quoted. Flat per seat —
-  queries are not metered.
-- **Connectors:** 700+ on Business, 20+ on Individual. Link `/integrations`.
-- **Case studies** — cite by name and link, never paraphrase into a statistic:
-  - `/case-study/jindal-healthcare` — 90% lower analytics costs
-  - `/case-study/objection.ai` — 100% self-serve analytics, zero data analysts on staff
-  - `/case-study/gabriella.pl` — four platforms into one source of truth
-  - `/case-study/legend-ehr` — an analyst for every team
-- **Live link targets:** `/pricing`, `/integrations`, `/enterprise`,
+- **Pricing** (as of October 2026, always link `/pricing`): every price is
+  per editor; viewers are free. **Free** $0. **Starter** $19/month or $190/year
+  (= $16/month). **Individual** $99/month or $990/year (= $83/month).
+  **Business** $249/month or $2,490/year (= $208/month). Enterprise is quoted.
+  There is no free trial; the Free plan replaced it. Never write that the bill is flat, unmetered or
+  doesn't move with usage. Say it this way: "Each paid seat includes a weekly
+  AI allowance. When it runs out, new AI requests pause until the reset, or you
+  can add credits. Extra storage is billed separately."
+- **Connectors:** 700+ on Business, 20+ on Individual. Link `/product/data-connections`.
+- **Customer stories** — the case-study section was retired on 2026-10-08.
+  Never link `/case-study` or anything under it; it answers 410.
+- **Live link targets:** `/pricing`, `/product/data-connections`, `/enterprise`,
   `/product/{ask-analysts,query-builder,agents,automations,dashboards,datasites}`,
   the `/compare` hub, and the **four surviving head-to-heads only**:
   `/compare/{power-bi,looker,metabase,thoughtspot}`.
-- **Dead — never link:** `/examples`, `/glossary`, `/integrations/<connector>`,
+- **Dead — never link:** `/integrations` (retired 2026-10-08), `/case-study` and `/case-study/*`, `/examples`, `/glossary`, `/integrations/<connector>`,
   any `/comparison/*` or `/series/*` path, and the ten `/compare/<vendor>` pages
   retired in the August 2026 consolidation — `tableau`, `qlik`, `domo`, `sisense`,
   `alteryx`, `amazon-quicksight`, `apache-superset`, `basedash`,
@@ -111,7 +112,6 @@ cluster:     e.g. ai-bi, alternatives, verticals, data-platform
 tldr:        3–5 bullets, each at least 8 words
 faq:         6–10 items as { q, a }; every answer 40–80 words. Not 39, not 81.
 internalLinks: 3+ slugs that resolve to real posts
-caseStudies: required when intent is commercial
 citations:   3+ as { claim, source, url }
 statsCount:  measured from your body, not declared
 ```
@@ -123,6 +123,15 @@ verifiable statistics for the topic, that is a signal the topic is thin.
 
 `sections`, `faq` and `related` are derived — `npm run toc` regenerates
 `sections` and will overwrite yours.
+
+### Qualitative founder stories
+
+An approved firsthand founder account may use `category: company` and
+`format: founder-story` with `statsCount: 0` and `citations: []`. It does not
+need unrelated statistics or an attributed customer quotation. The body must
+contain no numeric claims; quantitative stories use the ordinary article rules.
+All other validation, including real authors, links, metadata and image alt
+text, still applies. Preserve the approved prose when adding rendering metadata.
 
 ## 5. Body structure
 
@@ -147,7 +156,7 @@ verifiable statistics for the topic, that is a signal the topic is thin.
 ## 6. Links
 
 - **Every post links to at least one `/product/*` page and one other commercial
-  page** (`/pricing`, `/integrations`, or a `/compare/*`). Editorial-to-editorial
+  page** (`/pricing`, `/product/data-connections`, or a `/compare/*`). Editorial-to-editorial
   linking already outnumbers editorial-to-commercial 8:1.
 - **Anchor text must be a complete phrase.** Not `[how Supaboard enables fast](…)`
   closing mid-clause. Not `all-in-[one BI platform](…)` opening mid-word.

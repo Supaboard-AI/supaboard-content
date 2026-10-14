@@ -131,8 +131,6 @@ tldr:
   - >-
     If your problem is that business users cannot self-serve, a Tableau
     alternative may be the wrong category.
-caseStudies:
-  - /case-study/gabriella.pl
 statsCount: 0
 ---
 
@@ -231,7 +229,7 @@ Supaboard focuses on helping teams build dashboards quickly while also supportin
 -   **Modern data stack friendly:** Works well with cloud data warehouses and existing analytics pipelines
     
 
-Supaboard is a good choice for organizations that want an **AI-native, enterprise-ready Tableau alternative** that balances ease of use with powerful customization. [Gabriella.pl](/case-study/gabriella.pl) took that route, consolidating Meta, LinkedIn, Google Ads and Shopify into one source of truth instead of blending extracts by hand.
+Supaboard is a good choice for organizations that want an **AI-native, enterprise-ready Tableau alternative** that balances ease of use with powerful customization. Gabriella.pl took that route, consolidating Meta, LinkedIn, Google Ads and Shopify into one source of truth instead of blending extracts by hand.
 
 ### **Supaboard vs Tableau**
 

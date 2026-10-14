@@ -122,6 +122,7 @@ export const frontmatterSchema = z
     title: z.string().min(10).max(65, "titles must be 65 characters or fewer"),
     slug: slugField,
     category: z.enum(CATEGORIES),
+    format: z.enum(["article", "founder-story"]).optional(),
     pillar: z.string().min(2).optional(),
     cluster: z.string().min(2).optional(),
     targetQuery: z.string().min(3, "the one query this post owns"),
@@ -141,10 +142,9 @@ export const frontmatterSchema = z
       .max(5, "3–5 bullets"),
     faq: z.array(faqSchema).min(6, "6–10 questions").max(10, "6–10 questions").optional(),
     internalLinks: z.array(z.string()).min(3, "at least 3 internal links"),
-    caseStudies: z.array(z.string()).optional(),
     absorbed: z.array(z.string()).optional(),
-    citations: z.array(citationSchema).min(3, "at least 3 external credible citations"),
-    statsCount: z.number().int().min(4, "at least 4 verifiable statistics"),
+    citations: z.array(citationSchema),
+    statsCount: z.number().int().nonnegative(),
 
     // --- Rendering fields the site already depends on -------------------
     status: z.enum(["published", "draft", "scheduled"]),
@@ -169,14 +169,14 @@ export const frontmatterSchema = z
     source: z.object({ url: z.string().url(), migratedAt: z.string() }).optional(),
   })
   .superRefine((val, ctx) => {
-    // A commercial post with no case study is the cheapest conversion fix on
-    // the site left undone.
-    if (val.intent === "commercial" && !val.caseStudies?.length) {
-      ctx.addIssue({
-        code: "custom",
-        path: ["caseStudies"],
-        message: "commercial-intent posts must cite at least one case study",
-      });
+    // Firsthand qualitative founder accounts do not need unrelated statistics.
+    const qualitativeFounderStory = val.format === "founder-story" && val.category === "company" && val.statsCount === 0;
+    if (val.format === "founder-story" && val.category !== "company") {
+      ctx.addIssue({ code: "custom", path: ["format"], message: "founder stories belong in the company category" });
+    }
+    if (!qualitativeFounderStory) {
+      if (val.statsCount < 4) ctx.addIssue({ code: "custom", path: ["statsCount"], message: "at least 4 verifiable statistics" });
+      if (val.citations.length < 3) ctx.addIssue({ code: "custom", path: ["citations"], message: "at least 3 external credible citations" });
     }
     if (Date.parse(val.updatedAt) < Date.parse(val.publishedAt)) {
       ctx.addIssue({

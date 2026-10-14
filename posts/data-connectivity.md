@@ -47,7 +47,7 @@ sections:
   - id: content-6
     heading: Benefits of Data Connectivity for Businesses
   - id: content-16
-    heading: 'What Connectivity Looks Like in Practice: 700+ Connectors'
+    heading: 'What Connectivity Looks Like in Practice'
   - id: content-11
     heading: 'Application integration vs data integration: what is the difference?'
   - id: content-7
@@ -145,8 +145,6 @@ tldr:
   - >-
     Ask what happens when it runs: a system does something, or a person can ask
     something.
-caseStudies:
-  - /case-study/objection.ai
 statsCount: 2
 ---
 
@@ -392,25 +390,25 @@ Source: [DataToBiz centralized retail analytics case study](https://www.datatobi
 
 <!-- section:content-16 -->
 
-## What Connectivity Looks Like in Practice: 700+ Connectors
+## What Connectivity Looks Like in Practice
 
 Everything above is only true if the connections actually exist. A platform that
 explains data connectivity well but reaches four systems is not solving the problem
 this article describes.
 
-Supaboard ships [700+ data connectors](/integrations) on its Business plan, covering
-the four categories most teams have to stitch together by hand. [Objection.ai](/case-study/objection.ai)
-spans all four — product database, ads suite, Asana, Cloudflare, PostHog, Stripe and
-Twilio, eleven systems in one place:
+Supaboard connects to [12 databases and warehouses](/product/data-connections), queried read-only when a
+question is asked, and agents read 22 apps live through their MCP servers. Between
+them they cover the three categories most teams have to stitch together by hand. Objection.ai
+brings eleven systems into one place — product database, ads suite, Asana, Cloudflare,
+PostHog, Stripe and Twilio. The three categories:
 
 -   **Databases and warehouses** — PostgreSQL, MySQL, Snowflake, BigQuery, Redshift.
     The systems your transactional and analytical data already lives in.
--   **SaaS business systems** — CRM, billing, support and marketing tools, where the
-    context behind the numbers sits.
+-   **Business apps** — CRM, billing, product analytics and docs tools such as
+    HubSpot, Stripe, PostHog and Notion, read live by an agent, where the context
+    behind the numbers sits.
 -   **Files and spreadsheets** — the CSVs and Google Sheets that hold the last mile of
     almost every real reporting process.
--   **Custom sources** — APIs and internal services, connected without waiting on a
-    data engineering sprint.
 
 The point is not the count. It is that connectivity stops being a project. Once the
 sources are attached, questions that used to span three exports become one question,

@@ -140,8 +140,6 @@ tldr:
     Instrument the funnel steps, not just the outcome, or the diagnosis is
     guesswork.
   - A meaningful share of apparent abandonment is failed payment authorisation.
-caseStudies:
-  - /case-study/gabriella.pl
 statsCount: 0
 ---
 
@@ -299,13 +297,13 @@ However, overly customized dashboards can become difficult to navigate and maint
 **Scaling with Growth**  
 As businesses expand into new markets, channels, and product categories, dashboards must evolve continuously to support increasing complexity and larger data volumes without sacrificing usability or performance.
 
-[**According to Gartner**](https://www.gartner.com/en/information-technology/insights), [integration](/integrations) and data governance remain key analytics challenges for organizations adopting advanced reporting systems. Many businesses struggle to unify data sources, maintain accuracy, and ensure compliance at scale. Strong governance frameworks and modern integration strategies are essential for reliable insights.
+[**According to Gartner**](https://www.gartner.com/en/information-technology/insights), [integration](/product/data-connections) and data governance remain key analytics challenges for organizations adopting advanced reporting systems. Many businesses struggle to unify data sources, maintain accuracy, and ensure compliance at scale. Strong governance frameworks and modern integration strategies are essential for reliable insights.
 
 <!-- section:content-7 -->
 
 ## Best Practices for Building KPI Dashboards in Ecommerce
 
-Following proven **best practices for building KPI dashboard ecommerce** ensures dashboards remain scalable, actionable, and aligned with business goals while delivering consistent insights across teams. Businesses should focus on measurable KPIs, role-based views, automation, and real-time tracking using tools like Google Analytics, Shopify Analytics, Looker Studio, Power BI, Tableau, and [Supaboard](/integrations) to unify data across platforms efficiently.
+Following proven **best practices for building KPI dashboard ecommerce** ensures dashboards remain scalable, actionable, and aligned with business goals while delivering consistent insights across teams. Businesses should focus on measurable KPIs, role-based views, automation, and real-time tracking using tools like Google Analytics, Shopify Analytics, Looker Studio, Power BI, Tableau, and [Supaboard](/product/data-connections) to unify data across platforms efficiently.
 
 Meanwhile, organizations should prioritize usability by designing dashboards based on user roles such as executives, marketers, and operations teams. However, maintaining consistent definitions, automated reporting workflows, and clean integrations ensures long-term reliability, scalability, and improved decision-making across departments and evolving business needs.
 
@@ -331,7 +329,7 @@ Cart abandonment is usually treated as one problem with one cause. It is several
 
 **Then personalise, in that order.** Recovery emails and targeted offers work, but they are a way to recapture demand you are losing for a reason you have already identified. Deployed before diagnosis, they discount customers who would have converted anyway.
 
-The reason to join these sources rather than read them separately is that the answer usually lives in the join. [Gabriella.pl](/case-study/gabriella.pl) found the channel with its highest cost-per-lead also had its strongest close rate — a conclusion that was invisible in any single platform's own reporting, and that reverses the obvious budget decision.
+The reason to join these sources rather than read them separately is that the answer usually lives in the join. Gabriella.pl found the channel with its highest cost-per-lead also had its strongest close rate — a conclusion that was invisible in any single platform's own reporting, and that reverses the obvious budget decision.
 
 <!-- section:content-8 -->
 
@@ -373,4 +371,4 @@ With the proper tools, an emphasis on measuring the most relevant KPIs and an it
   
 Ultimately, a powerful ecommerce dashboard is not simply a reporting layer, it’s a decision-making system that allows your business to scale smarter, run more efficiently, and flourish with clarity.
 
-**Get a free 14-day trial of the best ecommerce dashboard—**[**try now.**](https://auth.supaboard.ai/onboard/register)
+**Build your ecommerce dashboard on the Free plan—**[**try now.**](https://auth.supaboard.ai/onboard/register)

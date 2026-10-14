@@ -139,10 +139,6 @@ tldr:
   - >-
     Objection.ai runs eleven unified data sources with zero data analysts on
     staff.
-caseStudies:
-  - /case-study/objection.ai
-  - /case-study/gabriella.pl
-  - /case-study/legend-ehr
 statsCount: 0
 ---
 
@@ -154,7 +150,7 @@ Someone asks what happened to conversion last month. The question goes to whoeve
 
 This is not a tooling gap. [Business intelligence](/blog/agentic-analytics) has been available to companies of every size for a decade. It is a gatekeeping problem: the people with the questions and the people with database access are different people, and the handoff between them is where the time goes.
 
-[Objection.ai](/case-study/objection.ai) runs with **zero data analysts on staff** and eleven unified sources — product database, LinkedIn, X, Instagram and Google Ads, Asana, Cloudflare, PostHog, Stripe, Twilio. Nobody there writes SQL to find out how a campaign performed. As they put it: *"When asking the data a question is free and instant, every meeting brings receipts."*
+Objection.ai runs with **zero data analysts on staff** and eleven unified sources — product database, LinkedIn, X, Instagram and Google Ads, Asana, Cloudflare, PostHog, Stripe, Twilio. Nobody there writes SQL to find out how a campaign performed. As they put it: *"When asking the data a question is free and instant, every meeting brings receipts."*
 
 That is the actual goal. Not dashboards. Not self-service as a feature checkbox. Making the cost of asking a question low enough that people ask the ones they would otherwise skip.
 
@@ -257,11 +253,11 @@ Connect, define, publish. The output is a governed model rather than a folder of
 
 Four features, and the second is where most tools quietly fail.
 
-**Prebuilt connectors that cover your actual stack.** Breadth decides whether cross-system questions are answerable at all. A tool that reaches your CRM but not your ad platforms cannot tell you blended CAC — which was precisely [Gabriella.pl](/case-study/gabriella.pl)'s problem before unifying Meta, LinkedIn, Google Ads and Shopify into one view, where they found the channel with the highest cost-per-lead also had the strongest close rate.
+**Prebuilt connectors that cover your actual stack.** Breadth decides whether cross-system questions are answerable at all. A tool that reaches your CRM but not your ad platforms cannot tell you blended CAC — which was precisely Gabriella.pl's problem before unifying Meta, LinkedIn, Google Ads and Shopify into one view, where they found the channel with the highest cost-per-lead also had the strongest close rate.
 
 **Centralised metric definitions.** If each dashboard recomputes revenue its own way, you have distributed the inconsistency rather than fixed it. Ask where a definition lives, who can change it, and what happens downstream when they do.
 
-**Role-based permissions.** Leadership needs the summary; operations needs to drill in; neither needs everything. Scoping access per role is also what makes the whole thing safe to open up — see how [Legend EHR](/case-study/legend-ehr) scoped analytics per location so the people closest to an operation could answer their own questions.
+**Role-based permissions.** Leadership needs the summary; operations needs to drill in; neither needs everything. Scoping access per role is also what makes the whole thing safe to open up — Legend EHR scoped analytics per location so the people closest to an operation could answer their own questions.
 
 **Version history and audit trails.** When a number changes, someone will ask why. Without a record of definition changes, the honest answer is that nobody knows.
 
@@ -277,7 +273,7 @@ Four features, and the second is where most tools quietly fail.
     
 -   Embedded Analytics for customer-facing use cases
     
--   700+ [data connectors on the Business plan](/integrations) for complete visibility
+-   [12 databases and warehouses](/product/data-connections), queried live, plus 22 apps such as HubSpot and Stripe that an agent reads through MCP
     
 
 Supaboard successfully removes the traditional barriers of business intelligence. Technical users get depth and performance. Non-technical users get simplicity and speed. Everyone gets better, faster decisions.

@@ -430,7 +430,7 @@ Supaboard's [analyst agents](/product/agents) make AI useful on your data before
 
 Here is the honest closing thought, and it is also why I do not think this is a zero-sum fight. A mature Supaboard agent's accumulated ruleset and verified queries are an emergent semantic layer, authored by feedback rather than by engineers, which is why I believe most teams will end up with a governed layer whether or not they ever sat down to build one. The bet is not that we model better than Cube. It is that most organizations will never hand-build the Cube model, so the layer has to assemble itself from use. If your team has the engineers and the patience, build the authored layer and you will get correctness by construction. If you do not, the layer can still emerge, and that is the gap we exist to fill. Either way, the conclusion I opened with holds: the semantic layer is the new database, and in 2026 it stopped being optional.
 
-If you want to see the emergent-layer approach concretely, [docs.supaboard.ai/agents](https://docs.supaboard.ai/agents) walks through how corrections and verified queries become governed business logic, and [Objection.ai](/case-study/objection.ai) runs eleven sources through it with no data analyst on staff. Pricing is flat per seat and published on the [pricing page](/pricing).
+If you want to see the emergent-layer approach concretely, [docs.supaboard.ai/agents](https://docs.supaboard.ai/agents) walks through how corrections and verified queries become governed business logic, and Objection.ai runs eleven sources through it with no data analyst on staff. Pricing is flat per seat and published on the [pricing page](/pricing).
 
 <!-- section:content-8 -->
 

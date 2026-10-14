@@ -133,8 +133,6 @@ tldr:
     Product, billing and CRM data have to be joined before any of them answer a
     real question.
   - Cohort logic is where most SaaS reporting quietly goes wrong.
-caseStudies:
-  - /case-study/objection.ai
 statsCount: 0
 ---
 
@@ -375,7 +373,7 @@ Embedded dashboards allow customers to track efficiency, SLA performance, and sy
 
 ### [**Supaboard**](/product/ask-analysts)
 
-Flat per-seat pricing, [published rather than quoted](/pricing), and [Objection.ai](/case-study/objection.ai) runs eleven sources on it with no data analyst on staff.
+Flat per-seat pricing, [published rather than quoted](/pricing), and Objection.ai runs eleven sources on it with no data analyst on staff.
 
 Fast setup, strong support for SaaS metrics, built for **self-service and embedded dashboards**.
 

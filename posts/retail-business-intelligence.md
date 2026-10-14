@@ -9,7 +9,7 @@ category: data
 tags:
   - Business Intelligence
 publishedAt: '2026-04-27'
-updatedAt: '2026-08-28'
+updatedAt: '2026-10-08'
 readMinutes: 22
 readLabel: 22 Min Read
 author:
@@ -144,8 +144,6 @@ tldr:
     The same revenue decline means three different things depending on the lower
     layers.
   - Chain-level averages hide the store-level variance that is actually fixable.
-caseStudies:
-  - /case-study/gabriella.pl
 statsCount: 9
 ---
 
@@ -369,7 +367,7 @@ model rather than a marketing campaign.
 > **The principle:** revenue loss in retail is frequently misattributed. BI lets
 > leadership distinguish between demand decline and operational failure, and
 > apply the correct intervention. For a real, named example of the same
-> reframing, [Gabriella.pl](/case-study/gabriella.pl) found that the channel
+> reframing, Gabriella.pl found that the channel
 > with its highest cost-per-lead also had its strongest close rate — a finding
 > that inverts the obvious budget decision, and one that was invisible until
 > four ad platforms were unified into a single source of truth.
@@ -463,7 +461,7 @@ Effective implementation follows a defined sequence. Teams that deploy dashboard
 
 Map every system in your current stack: POS, e-commerce platform, inventory management, CRM, financial systems. Document what each captures, data quality, and update frequency. This audit almost always surfaces both unused data and collection gaps.
 
-_Connect all your tools instantly and turn scattered data into unified insights that power smarter, faster business decisions with_ [_Supaboard_](/integrations)
+_Connect all your tools instantly and turn scattered data into unified insights that power smarter, faster business decisions with_ [_Supaboard_](/product/data-connections)
 
 ### Step 2: Define the Decisions BI Must Support (Week 2–3)
 
@@ -537,13 +535,13 @@ Both competitors and most BI guides skip this section. That is exactly why it is
 
 ## Benefits of Retail Business Intelligence
 
--   **Revenue recovery:** Inventory optimization and stockout reduction directly restore missed sales; our clients typically see 10–20% improvement in first 90 days
+-   **Revenue recovery:** Inventory optimization and stockout reduction restore sales that were being missed, because the right stock is on the shelf when demand arrives
     
 -   **Margin protection:** Identifying which products, promotions, and channels are destroying value before the financial impact compounds
     
 -   **Faster decision cycles**: From monthly reporting to real-time or daily visibility across all stores and channels
     
--   **Working capital efficiency**: Less overstock means less capital tied up in slow-moving inventory; typical improvement of 15–25% in overstock ratio within 60 days
+-   **Working capital efficiency**: Less overstock means less capital tied up in slow-moving inventory, and fewer markdowns to clear it; how much depends on how much slow-moving stock you carry today
     
 -   **Customer retention**: Identifying churn signals before attrition occurs, enabling targeted intervention
     

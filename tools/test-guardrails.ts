@@ -108,14 +108,6 @@ check("a numeric claim carrying an inline source is accepted", () => {
   assert.equal(a.numericClaims[0].sourced, true);
 });
 
-check("a customer number citing its own case study is accepted", () => {
-  const a = analyze(
-    "[Jindal Healthcare](/case-study/jindal-healthcare) reduced analytics cost by 90%.",
-    GOOD.citations,
-  );
-  assert.equal(a.numericClaims[0].sourced, true);
-});
-
 check("a plain internal link does not source a number", () => {
   const a = analyze("Executives waste [12 hours per week](/blog/data-engineering) reconciling.", GOOD.citations);
   assert.equal(a.numericClaims[0].sourced, false);
@@ -123,6 +115,21 @@ check("a plain internal link does not source a number", () => {
 
 check("fewer than 4 statistics fails", () => {
   assert.ok(only({ ...GOOD, statsCount: 3 }).some((i) => i.path === "statsCount"));
+});
+
+check("a qualitative company founder story passes without statistics or external citations", () => {
+  assert.equal(only({ ...GOOD, category: "company", format: "founder-story", statsCount: 0, citations: [] }).length, 0);
+});
+
+check("ordinary company articles still require statistics and citations", () => {
+  const issues = only({ ...GOOD, category: "company", statsCount: 0, citations: [] });
+  assert.ok(issues.some((i) => i.path === "statsCount"));
+  assert.ok(issues.some((i) => i.path === "citations"));
+});
+
+check("the founder story exception does not apply to other categories or quantitative stories", () => {
+  assert.ok(only({ ...GOOD, format: "founder-story", statsCount: 0, citations: [] }).some((i) => i.path === "format"));
+  assert.ok(only({ ...GOOD, category: "company", format: "founder-story", statsCount: 1, citations: [] }).some((i) => i.path === "statsCount"));
 });
 
 check("fewer than 3 citations fails", () => {
@@ -138,16 +145,6 @@ check("an unattributed quotation is not counted", () => {
   assert.equal(
     analyze('> "Analytics should be fast."\n> — Subhrajyoti Modak, CTO, Supaboard').attributedQuotes.length,
     1,
-  );
-});
-
-check("a commercial post with no case study fails", () => {
-  assert.ok(
-    only({ ...GOOD, intent: "commercial" }).some((i) => i.path === "caseStudies"),
-  );
-  assert.equal(
-    only({ ...GOOD, intent: "commercial", caseStudies: ["/case-study/jindal-healthcare"] }).length,
-    0,
   );
 });
 

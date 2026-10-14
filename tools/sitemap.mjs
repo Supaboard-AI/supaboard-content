@@ -54,11 +54,6 @@ const entries = [
     loc: `/compare/${competitor}`,
     lastmod: newest,
   })),
-  { loc: "/case-study", lastmod: newest },
-  ...["jindal-healthcare", "objection.ai", "gabriella.pl", "legend-ehr"].map((s) => ({
-    loc: `/case-study/${s}`,
-    lastmod: newest,
-  })),
   { loc: "/pricing", lastmod: newest },
   { loc: "/integrations", lastmod: newest },
   { loc: "/privacy-policy", lastmod: newest },

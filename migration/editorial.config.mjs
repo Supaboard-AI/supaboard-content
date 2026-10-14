@@ -15,21 +15,13 @@
  * of number this whole exercise exists to stop us inventing.
  */
 
-const CASE = {
-  jindal: "/case-study/jindal-healthcare",
-  objection: "/case-study/objection.ai",
-  gabriella: "/case-study/gabriella.pl",
-  legend: "/case-study/legend-ehr",
-};
-
-/** [category, pillar, cluster, targetQuery, intent, audience, funnel, tldr[], caseStudies[]] */
+/** [category, pillar, cluster, targetQuery, intent, audience, funnel, tldr[]] */
 export const EDITORIAL = {
   // ---------- company ----------
   "from-4-hours-to-2-minutes-rcm-analytics": {
     category: "company", pillar: "healthcare-rcm", cluster: "case-studies",
     targetQuery: "healthcare rcm analytics case study",
     intent: "commercial", audience: "ops-business", funnel: "bofu",
-    caseStudies: [CASE.jindal],
     tldr: [
       "Jindal Healthcare cut per-client analysis from four hours to two minutes.",
       "All protected health information was masked before analytics touched it, so the platform never connected to an EHR.",
@@ -40,7 +32,6 @@ export const EDITORIAL = {
     category: "company", pillar: "no-data-team", cluster: "self-service",
     targetQuery: "analytics without a data team",
     intent: "commercial", audience: "ops-business", funnel: "mofu",
-    caseStudies: [CASE.objection, CASE.gabriella, CASE.legend],
     tldr: [
       "Companies without analysts do not have a tooling gap, they have a queue.",
       "Building a single source of truth is three steps: connect the sources, define the shared metrics, publish where people work.",
@@ -54,7 +45,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "bi-tools",
     targetQuery: "best ai bi tools",
     intent: "commercial", audience: "both", funnel: "bofu",
-    caseStudies: [CASE.jindal, CASE.gabriella],
     tldr: [
       "Judge a BI tool on whether the people with the questions can use it themselves.",
       "Per-seat pricing that works for five people is often the largest analytics line at fifty.",
@@ -66,7 +56,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "bi-tools",
     targetQuery: "how to evaluate ai bi tools",
     intent: "commercial", audience: "both", funnel: "bofu",
-    caseStudies: [CASE.jindal],
     tldr: [
       "Most demos are rehearsed against data the vendor prepared in advance.",
       "Ask a question the demo did not anticipate, against a join the vendor did not choose.",
@@ -77,7 +66,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "alternatives",
     targetQuery: "metabase alternatives",
     intent: "commercial", audience: "both", funnel: "bofu",
-    caseStudies: [CASE.objection],
     tldr: [
       "Metabase is easy to start and gets awkward at white-labelling and per-tenant isolation.",
       "Embedding for staff and embedding for paying customers are different purchases.",
@@ -88,7 +76,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "alternatives",
     targetQuery: "sisense alternatives",
     intent: "commercial", audience: "both", funnel: "bofu",
-    caseStudies: [CASE.jindal],
     tldr: [
       "Sisense does not publish pricing, so quoted costs vary widely by deployment size.",
       "The alternatives differ most in who has to maintain the model, not in chart types.",
@@ -99,7 +86,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "alternatives",
     targetQuery: "looker alternatives",
     intent: "commercial", audience: "data-team", funnel: "bofu",
-    caseStudies: [CASE.objection],
     tldr: [
       "Looker's strength and its cost are the same thing: LookML modelling work.",
       "Alternatives split into those that keep a modelling layer and those that drop it.",
@@ -110,7 +96,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "alternatives",
     targetQuery: "tableau alternatives",
     intent: "commercial", audience: "both", funnel: "bofu",
-    caseStudies: [CASE.gabriella],
     tldr: [
       "Tableau is strongest where a person's job is exploring data visually.",
       "Its per-seat cost is high from the start and predictable as you grow.",
@@ -121,7 +106,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "alternatives",
     targetQuery: "thoughtspot alternatives",
     intent: "commercial", audience: "both", funnel: "bofu",
-    caseStudies: [CASE.objection],
     tldr: [
       "ThoughtSpot pioneered search-style analytics and prices for enterprise budgets.",
       "It works best on data that has already been modelled and cleaned.",
@@ -132,7 +116,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "alternatives",
     targetQuery: "apache superset alternatives",
     intent: "commercial", audience: "data-team", funnel: "bofu",
-    caseStudies: [CASE.objection],
     tldr: [
       "Superset is free to license and costs engineering time to run.",
       "The real comparison is self-hosted maintenance against a subscription.",
@@ -143,7 +126,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "bi-tools",
     targetQuery: "power bi vs tableau",
     intent: "commercial", audience: "both", funnel: "mofu",
-    caseStudies: [CASE.gabriella],
     tldr: [
       "If you are a Microsoft shop, Power BI wins on integration before price is discussed.",
       "Tableau suits people whose job is visual exploration; Power BI suits a modelling layer and DAX.",
@@ -165,7 +147,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "embedding",
     targetQuery: "embedded analytics",
     intent: "commercial", audience: "data-team", funnel: "mofu",
-    caseStudies: [CASE.legend],
     tldr: [
       "Embedded describes where analytics appear; white label describes whose they look like.",
       "Internal users rarely care about branding, and paying customers care a great deal.",
@@ -176,7 +157,6 @@ export const EDITORIAL = {
     category: "product", pillar: "choosing-ai-bi", cluster: "visualisation",
     targetQuery: "data visualization tools",
     intent: "commercial", audience: "both", funnel: "mofu",
-    caseStudies: [CASE.gabriella],
     tldr: [
       "Every graph is a chart, and the naming matters far less than the encoding.",
       "Bars for comparing categories, lines for continuous change, histograms for distribution.",
@@ -200,7 +180,6 @@ export const EDITORIAL = {
     category: "engineering", pillar: "trustworthy-ai", cluster: "ai-bi",
     targetQuery: "ai bi vs text to sql",
     intent: "informational", audience: "both", funnel: "mofu",
-    caseStudies: [CASE.jindal],
     tldr: [
       "Text-to-SQL translates a question into a query against whatever the schema happens to contain.",
       "AI BI resolves the question against governed definitions before any SQL is written.",
@@ -211,7 +190,6 @@ export const EDITORIAL = {
     category: "engineering", pillar: "trustworthy-ai", cluster: "ai-bi",
     targetQuery: "ai data analyst",
     intent: "commercial", audience: "both", funnel: "mofu",
-    caseStudies: [CASE.jindal, CASE.objection],
     tldr: [
       "Data preparation and baseline modelling automate reliably; framing the question does not.",
       "Deciding what counts as churn is a business decision that no model can make for you.",
@@ -222,7 +200,6 @@ export const EDITORIAL = {
     category: "engineering", pillar: "trustworthy-ai", cluster: "governance",
     targetQuery: "ai analytics governance",
     intent: "informational", audience: "data-team", funnel: "mofu",
-    caseStudies: [CASE.jindal],
     tldr: [
       "Contextual governance evaluates each request by role, data sensitivity and intent rather than one fixed rule.",
       "A broken pipeline fails loudly; a fabricated insight fails silently and looks identical to a sound one.",
@@ -253,7 +230,6 @@ export const EDITORIAL = {
     category: "engineering", pillar: "metrics-sql", cluster: "data-platform",
     targetQuery: "data connectivity",
     intent: "informational", audience: "data-team", funnel: "tofu",
-    caseStudies: [CASE.objection],
     tldr: [
       "Application integration moves events so systems can act; data integration consolidates records so people can analyse.",
       "Using application integration to build a reporting layer produces a system with no history.",
@@ -316,7 +292,6 @@ export const EDITORIAL = {
     category: "data", pillar: "choosing-ai-bi", cluster: "bi-fundamentals",
     targetQuery: "enterprise business intelligence",
     intent: "commercial", audience: "data-team", funnel: "mofu",
-    caseStudies: [CASE.jindal],
     tldr: [
       "Enterprise BI is defined by governance and access control as much as by analysis.",
       "The scaling problem is organisational: more teams means more contested definitions.",
@@ -327,7 +302,6 @@ export const EDITORIAL = {
     category: "data", pillar: "choosing-ai-bi", cluster: "verticals",
     targetQuery: "saas business intelligence",
     intent: "commercial", audience: "ops-business", funnel: "mofu",
-    caseStudies: [CASE.objection],
     tldr: [
       "SaaS metrics are interlocking: churn, expansion and CAC only mean something together.",
       "Product, billing and CRM data have to be joined before any of them answer a real question.",
@@ -338,7 +312,6 @@ export const EDITORIAL = {
     category: "data", pillar: "choosing-ai-bi", cluster: "verticals",
     targetQuery: "retail business intelligence",
     intent: "commercial", audience: "ops-business", funnel: "mofu",
-    caseStudies: [CASE.gabriella],
     tldr: [
       "Retail KPIs work as four layers: sales, inventory, customer and margin.",
       "The same revenue decline means three different things depending on the lower layers.",
@@ -349,7 +322,6 @@ export const EDITORIAL = {
     category: "data", pillar: "choosing-ai-bi", cluster: "verticals",
     targetQuery: "logistics analytics",
     intent: "commercial", audience: "ops-business", funnel: "mofu",
-    caseStudies: [CASE.legend],
     tldr: [
       "Logistics analytics is mostly about exceptions, not averages.",
       "On-time performance measured in aggregate conceals the lanes that are failing.",
@@ -360,7 +332,6 @@ export const EDITORIAL = {
     category: "data", pillar: "choosing-ai-bi", cluster: "verticals",
     targetQuery: "manufacturing analytics",
     intent: "commercial", audience: "ops-business", funnel: "mofu",
-    caseStudies: [CASE.legend],
     tldr: [
       "Manufacturing analytics joins machine telemetry to commercial outcomes.",
       "Predictive maintenance pays back only where downtime has a measured cost.",
@@ -371,7 +342,6 @@ export const EDITORIAL = {
     category: "data", pillar: "healthcare-rcm", cluster: "verticals",
     targetQuery: "healthcare predictive analytics",
     intent: "commercial", audience: "ops-business", funnel: "mofu",
-    caseStudies: [CASE.jindal],
     tldr: [
       "Healthcare analytics is constrained first by what data may legally move.",
       "Masking protected health information before analysis is an architectural decision, not a policy one.",
@@ -382,7 +352,6 @@ export const EDITORIAL = {
     category: "data", pillar: "choosing-ai-bi", cluster: "verticals",
     targetQuery: "ecommerce analytics",
     intent: "commercial", audience: "ops-business", funnel: "mofu",
-    caseStudies: [CASE.gabriella],
     tldr: [
       "Cart abandonment is several problems that need different responses.",
       "Instrument the funnel steps, not just the outcome, or the diagnosis is guesswork.",
@@ -393,7 +362,6 @@ export const EDITORIAL = {
     category: "data", pillar: "choosing-ai-bi", cluster: "finance",
     targetQuery: "spend analytics",
     intent: "commercial", audience: "ops-business", funnel: "mofu",
-    caseStudies: [CASE.jindal],
     tldr: [
       "Supplier consolidation and contract compliance pay back before the other use cases.",
       "Supplier normalisation is the unglamorous prerequisite for all of it.",
@@ -404,7 +372,6 @@ export const EDITORIAL = {
     category: "data", pillar: "choosing-ai-bi", cluster: "finance",
     targetQuery: "financial dashboard examples",
     intent: "commercial", audience: "ops-business", funnel: "mofu",
-    caseStudies: [CASE.jindal],
     tldr: [
       "Start with a template and replace it once you know which numbers you argue about.",
       "Spreadsheet exports are the highest-signal indicator of where a dashboard failed.",
@@ -435,7 +402,6 @@ export const EDITORIAL = {
     category: "data", pillar: "no-data-team", cluster: "self-service",
     targetQuery: "natural language query analytics",
     intent: "informational", audience: "both", funnel: "tofu",
-    caseStudies: [CASE.objection, CASE.gabriella],
     tldr: [
       "Natural-language querying removes the hop between the person asking and the person who can answer.",
       "Cross-system questions are where it earns its keep; single-source questions were never the bottleneck.",
@@ -456,7 +422,6 @@ export const EDITORIAL = {
     category: "data", pillar: "choosing-ai-bi", cluster: "bi-fundamentals",
     targetQuery: "real time analytics platform",
     intent: "commercial", audience: "both", funnel: "mofu",
-    caseStudies: [CASE.legend],
     tldr: [
       "Real-time analytics narrows the gap between what is happening and what your team knows.",
       "Business activity monitoring watches processes; real-time analytics answers questions.",

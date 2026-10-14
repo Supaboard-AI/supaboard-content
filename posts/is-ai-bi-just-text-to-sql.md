@@ -133,8 +133,6 @@ tldr:
   - >-
     The gap appears on why-questions, where computing the number is the easy
     half.
-caseStudies:
-  - /case-study/jindal-healthcare
 statsCount: 0
 ---
 
@@ -243,7 +241,7 @@ So this one ordinary question breaks pure text-to-SQL three ways: it needs a joi
 
 **Reasoning.** This is the ability to pursue a question across multiple steps: to form a hypothesis, write a query to test it, interpret the result, and decide what to ask next, until the question is actually answered rather than merely queried. It is the difference between a tool that returns a table and an agent that returns an answer.
 
-A system that has all three understands the business. A system that has none of them, however good its SQL, is doing translation. That is the whole distinction, and it is not cosmetic. It is also the difference [Jindal Healthcare](/case-study/jindal-healthcare) paid for: once the denial and claims context was explicit, a deep look stopped being something the team had to ration.
+A system that has all three understands the business. A system that has none of them, however good its SQL, is doing translation. That is the whole distinction, and it is not cosmetic. It is also the difference Jindal Healthcare paid for: once the denial and claims context was explicit, a deep look stopped being something the team had to ration.
 
 <!-- section:content-7 -->
 
@@ -287,11 +285,11 @@ You don't need to read architecture diagrams. You need three questions and one r
 
 **Minute 3 — Ask "why."** Take the result and ask why. "Why is retention lower for the no-CSM group?" Watch whether it runs a single query and restates the number, or whether it decomposes, hypothesizes, and tests. One is retrieval. The other is reasoning.
 
-You can run all five minutes against your own data on a trial; [pricing](/pricing) is flat per seat, so the bill does not move with how many questions the test takes.
+You can run all five minutes against your own data on the [Free plan](/pricing), with no credit card.
 
 **Minutes 4 and 5 — Correct it, then re-ask.** Tell it your real definition: "active excludes paused and trial." Then ask the original question again, and ideally a related one tomorrow. Does the correction stick and generalize, or do you have to re-explain it every session? A tool with a semantic layer learns. A wrapper forgets.
 
-If a tool passes all three of the first questions and remembers your correction, it understands your business. If it fails them, it's a very good SQL writer with a chat box. Both are useful. They are not the same product, and now you can tell which one you're looking at in the time it takes to drink a coffee. [Objection.ai](/case-study/objection.ai) ran that test across eleven sources and now runs without a data analyst on staff.
+If a tool passes all three of the first questions and remembers your correction, it understands your business. If it fails them, it's a very good SQL writer with a chat box. Both are useful. They are not the same product, and now you can tell which one you're looking at in the time it takes to drink a coffee. Objection.ai ran that test across eleven sources and now runs without a data analyst on staff.
 
 That's the honest answer to "is AI BI just text-to-SQL." No. It contains text-to-SQL the way a car contains an engine. The category is real because the hard part of a business question was never the SQL. It was knowing which question to ask, what your words mean, and why the number moved. Build for that and you're doing something genuinely different. Skip it and the skeptic is right about you.
 

@@ -125,8 +125,6 @@ tldr:
   - >-
     The change was not speed for its own sake but the cost of curiosity: cheap
     questions get asked, expensive ones get rationed.
-caseStudies:
-  - /case-study/jindal-healthcare
 statsCount: 0
 ---
 
@@ -168,7 +166,7 @@ That is the sentence that makes a company go looking for something new. Not a so
 
 The fix was not a faster way to write the same SQL. It was removing the SQL from the critical path entirely, and doing it without letting protected health information anywhere near the analytics layer.
 
-The pipeline was built with a hard boundary. Jindal collated the raw data from across its sources, the clearinghouse claim and remittance feeds (the 837s going out and the 835 ERAs coming back), the practice management and EHR systems each client billed from, and the payer remittance and denial data, and masked every piece of PHI into a single database before any of it moved. Supaboard never connected to an EHR and never saw a patient. Using one of its [700+ Business-plan connectors](/integrations), it pulled from that masked database, cleaned the data, and moved it into a data warehouse that became the one source of truth the agent ran on. The compliance line and the analytics line were the same line, and PHI stayed behind it.
+The pipeline was built with a hard boundary. Jindal collated the raw data from across its sources, the clearinghouse claim and remittance feeds (the 837s going out and the 835 ERAs coming back), the practice management and EHR systems each client billed from, and the payer remittance and denial data, and masked every piece of PHI into a single database before any of it moved. Supaboard never connected to an EHR and never saw a patient. From that masked database the data was cleaned and moved into a data warehouse, and that warehouse became the one source of truth the agent ran on, [queried live by Supaboard](/product/data-warehouses). The compliance line and the analytics line were the same line, and PHI stayed behind it.
 
 Moving the data was the easy half. The harder half was teaching the tool what the data meant. RCM is full of numbers that look identical and mean opposite things. Aging is the classic trap: a claim sitting at sixty days can be a process failure your team needs to fix, or it can be nothing at all, just the unremarkable rhythm of a payer who always pays on that cadence. A naive dashboard flags both as red. An analyst who knows the account knows the difference. Jindal trained Supaboard's trainable agent on exactly that kind of judgment: claim lifecycles, denial categories, and the behavior of specific payers, including when aging signals a problem and when it is just how a payer pays.
 
@@ -229,8 +227,6 @@ It usually does not look like a tooling problem. It looks like a staffing proble
 What Jindal removed was the translation layer between a question and the data. The lesson is not that AI replaced their analysts. The senior analyst at Jindal did not stop mattering. What changed is that the analyst stopped being a toll booth on the road to every routine answer, which freed that expertise for the genuinely hard questions where it belongs. And the rest of the team, the operators closest to the clients and the actual denials, got to ask their own questions at the speed they actually occur to them.
 
 When the cost of a question falls far enough, people do not just ask the same questions faster. They start asking better ones. That is the part you cannot put in the pricing table, and it is the part Jindal would tell you mattered most.
-
-_Want the structured version with the dashboards and metrics? Read_ [_the full Jindal Healthcare case study_](/case-study/jindal-healthcare)_._
 
 <!-- section:content-8 -->
 

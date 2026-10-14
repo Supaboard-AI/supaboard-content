@@ -85,9 +85,6 @@ internalLinks:
   - how-to-evaluate-ai-bi-tools
   - is-ai-bi-just-text-to-sql
   - best-ai-bi-tools
-caseStudies:
-  - /case-study/objection.ai
-  - /case-study/gabriella.pl
 citations:
   - claim: Large language models are the substrate AI-native analytics is built on
     source: IBM
@@ -206,12 +203,12 @@ They are grouped by the job instead.
 
 Built for the case where the person with the question is not the person who can
 write SQL, and there is nobody in between. Agents are trained on your own
-definitions rather than guessing from column names, [700+ connectors on the Business plan](/integrations)
+definitions rather than guessing from column names, [12 databases and warehouses](/product/data-connections) queried live
 mean cross-system questions are answerable without a consolidation project first,
 and pricing is flat per seat rather than metered per question.
 
-[Objection.ai](/case-study/objection.ai) runs entirely this way — eleven unified
-sources, zero data analysts on staff. [Gabriella.pl](/case-study/gabriella.pl)
+Objection.ai runs entirely this way — eleven unified
+sources, zero data analysts on staff. Gabriella.pl
 used it to pull four platforms into one source of truth and found that its
 highest-spend channel was not its best-performing one.
 

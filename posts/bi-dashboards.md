@@ -372,7 +372,7 @@ The BI dashboard became a daily tool for leadership, helping teams rely on consi
 
 ### Turning Dashboards Into Real Business Insights With Supaboard
 
-[Supaboard's live dashboards](/product/dashboards), built from [700+ connectable sources](/integrations) on the Business plan, help teams move beyond basic reporting by transforming dashboards into intelligent decision-support systems. Instead of just showing numbers, it helps users understand trends, ask questions, and get meaningful answers from their business data.
+[Supaboard's live dashboards](/product/dashboards), built from [12 databases and warehouses](/product/data-connections) queried live, help teams move beyond basic reporting by transforming dashboards into intelligent decision-support systems. Instead of just showing numbers, it helps users understand trends, ask questions, and get meaningful answers from their business data.
 
 #### Key Points
 

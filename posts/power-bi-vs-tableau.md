@@ -152,8 +152,6 @@ tldr:
     Model both at three times your current user count, because the cost ranking
     often flips.
   - 'Both are tools for building views, and the building is a specialist job.'
-caseStudies:
-  - /case-study/gabriella.pl
 statsCount: 0
 ---
 
@@ -369,7 +367,7 @@ Official [pricing](https://www.tableau.com/pricing).
 
 ![Real Problems Data Teams Face](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/power-bi-vs-tableau/23e819fe3c16b89f.png?w=836&h=470)
 
-The problem that outlasts the tool choice is spread: the numbers live in four places and nobody owns the reconciliation. Marketing teams hit this first — [Gabriella.pl](/case-study/gabriella.pl) was reconciling Meta, LinkedIn, Google Ads and Shopify by hand before moving to a single source of truth, and only then found that LinkedIn carried both the highest cost-per-lead and the best close rate.
+The problem that outlasts the tool choice is spread: the numbers live in four places and nobody owns the reconciliation. Marketing teams hit this first — Gabriella.pl was reconciling Meta, LinkedIn, Google Ads and Shopify by hand before moving to a single source of truth, and only then found that LinkedIn carried both the highest cost-per-lead and the best close rate.
 
 <!-- section:content-5 -->
 

@@ -150,8 +150,6 @@ tldr:
     cases.
   - Supplier normalisation is the unglamorous prerequisite for all of it.
   - The constraint is rarely the software; it is agreeing what a supplier is.
-caseStudies:
-  - /case-study/jindal-healthcare
 statsCount: 1
 ---
 
@@ -372,7 +370,7 @@ Different organizations need different capabilities depending on size, data comp
 
 | Tool | What it is | Best for |
 | --- | --- | --- |
-| **Supaboard** | [AI analytics](/product/ask-analysts) that connects to the systems spend already lives in — ERP, accounting, procurement — and answers questions in plain language, with no procurement suite required | Teams that want spend visibility from existing data without buying a procurement platform |
+| **Supaboard** | [AI analytics](/product/ask-analysts) that queries the database or warehouse your ERP, accounting and procurement data lands in, and answers questions in plain language, with no procurement suite required | Teams that want spend visibility from existing data without buying a procurement platform |
 | **SAP Ariba** | Procurement and spend management suite with analytics alongside sourcing, supplier management and contract workflows | Organizations already running SAP ERP |
 | **Coupa** | Full spend management platform covering procurement, invoicing, expenses and analytics as one workflow | Companies looking for an all-in-one procurement system |
 | **McKinsey Spendscape** | Enterprise spend analytics with an emphasis on data classification, supplier insight and sustainability reporting | Large enterprises with complex, multi-entity procurement |
@@ -380,9 +378,9 @@ Different organizations need different capabilities depending on size, data comp
 
 ### Supaboard
 
-Most spend analytics tools assume you have already bought a procurement suite and want reporting on top of it. Supaboard starts from the opposite end: it connects directly to the systems your spend data already sits in — your ERP, accounting system, data warehouse or procurement tool — and lets anyone ask questions in plain language.
+Most spend analytics tools assume you have already bought a procurement suite and want reporting on top of it. Supaboard starts from the opposite end: it connects directly to the database or data warehouse your spend data already lands in, whether that data comes from an ERP, an accounting system or a procurement tool, and lets anyone ask questions in plain language.
 
-That matters for spend work specifically, because spend data is almost never in one place. Purchase orders sit in one system, invoices in another, corporate card transactions in a third. Supaboard's [700+ connectors on the Business plan](/integrations) let you bring those together without a migration project, and the analysis happens in natural language rather than in a category taxonomy someone has to maintain.
+That matters for spend work specifically, because spend data is almost never in one place. Purchase orders sit in one system, invoices in another, corporate card transactions in a third. Where those systems write to a database or warehouse, Supaboard can [query them live](/product/data-connections) and bring them together without a migration project, and the analysis happens in natural language rather than in a category taxonomy someone has to maintain.
 
 **Best for:** Finance and operations teams that need spend visibility from the systems they already run, without adopting a full procurement platform.
 
@@ -496,7 +494,7 @@ You don't know what you'll find until you look. The practical answer: start with
 
 Supplier consolidation and contract compliance, because both convert directly into a negotiation you can hold this quarter.
 
-The eight use cases above are not equally fast. Sequencing them by time-to-value rather than by ambition is the difference between a programme that funds itself and one that stalls waiting for data quality. [Jindal Healthcare](/case-study/jindal-healthcare) is the version of that outside procurement: analytics cost fell 90% once answering a question stopped costing more than the answer was worth.
+The eight use cases above are not equally fast. Sequencing them by time-to-value rather than by ambition is the difference between a programme that funds itself and one that stalls waiting for data quality. Jindal Healthcare is the version of that outside procurement: analytics cost fell 90% once answering a question stopped costing more than the answer was worth.
 
 **First — supplier consolidation.** Once spend is normalised, duplicate suppliers across departments become visible immediately, and consolidating volume with fewer vendors is a conversation you can have as soon as you can prove the numbers. It requires no process change from anyone outside procurement, which is why it moves fast.
 

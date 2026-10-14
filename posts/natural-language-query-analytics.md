@@ -156,9 +156,6 @@ tldr:
   - >-
     Pointing a chat interface at disconnected databases produces disconnected
     answers in a confident tone.
-caseStudies:
-  - /case-study/objection.ai
-  - /case-study/gabriella.pl
 statsCount: 0
 ---
 
@@ -457,13 +454,13 @@ Natural language querying is transforming how organizations use data in practice
 
 ## Can you ask questions across several databases at once?
 
-Yes, and it is the case where natural-language querying earns its keep most clearly. It depends entirely on how many systems the platform can reach — Supaboard's [700+ connectors on the Business plan](/integrations) mean the warehouse, the CRM and the billing system can all sit behind one question.
+Yes, and it is the case where natural-language querying earns its keep most clearly. It depends entirely on how many systems the platform can reach — Supaboard queries [12 databases and warehouses](/product/data-connections) live and lets an agent read apps such as HubSpot and Stripe through MCP, so the warehouse, the CRM and the billing system can all sit behind one question.
 
 Single-source questions are the easy half. "How many signups last week" hits one table, and an analyst answers it in a minute. The questions that actually stall are the ones spanning systems: signups from the product database against ad spend in four platforms against support tickets in a fifth. Answering that in SQL means knowing where each system lives, how the identifiers reconcile, and which joins silently drop rows.
 
-A natural-language layer sitting on unified data collapses that. The user asks the cross-system question directly; the resolution of *which* sources, *which* keys and *which* grain happens underneath. [Objection.ai](/case-study/objection.ai) does this across eleven sources — product database, LinkedIn, X, Instagram and Google Ads, Asana, Cloudflare, PostHog, Stripe, Twilio — with nobody on staff writing SQL.
+A natural-language layer sitting on unified data collapses that. The user asks the cross-system question directly; the resolution of *which* sources, *which* keys and *which* grain happens underneath. Objection.ai does this across eleven sources — product database, LinkedIn, X, Instagram and Google Ads, Asana, Cloudflare, PostHog, Stripe, Twilio — with nobody on staff writing SQL.
 
-The prerequisite is real, though, and vendors gloss it: the sources have to be genuinely unified first, with reconciled identifiers and agreed metric definitions. Pointing a chat interface at five disconnected databases produces five disconnected answers with a confident tone. That is why [Gabriella.pl](/case-study/gabriella.pl) described their situation as "four marketing analytics problems that didn't talk to each other" rather than one analytics problem — the fix was unification, and the natural-language layer was what made the unified data usable.
+The prerequisite is real, though, and vendors gloss it: the sources have to be genuinely unified first, with reconciled identifiers and agreed metric definitions. Pointing a chat interface at five disconnected databases produces five disconnected answers with a confident tone. That is why Gabriella.pl described their situation as "four marketing analytics problems that didn't talk to each other" rather than one analytics problem — the fix was unification, and the natural-language layer was what made the unified data usable.
 
 ### What about querying a warehouse like Snowflake in plain English?
 

@@ -160,8 +160,6 @@ tldr:
   - >-
     Per-seat pricing is hostile to embedded use because your seat count becomes
     your customer count.
-caseStudies:
-  - /case-study/objection.ai
 statsCount: 2
 ---
 
@@ -282,14 +280,15 @@ bill grows with your team. Verify current rates on each vendor's page.
 | Tool | Pricing model | What the bill scales with | Free tier |
 | --- | --- | --- | --- |
 | **Metabase** | Open-source, plus paid cloud tiers | Self-hosted: your infrastructure and ops time. Cloud: seats and features | Yes — self-hosted open-source edition |
-| **Supaboard** | Flat per seat | Seats only; queries are not metered | 14-day trial |
+| **Supaboard** | Per seat, with a weekly AI allowance in each paid seat | Seats, plus any credits added when the allowance runs out, and extra storage | Yes — Free plan, no credit card |
 | **ThoughtSpot** | Per seat, with consumption limits on the AI tier | Seats, plus AI query volume on some plans | Trial |
 | **Holistics** | Per seat, tiered | Seats and modelling capacity | Trial |
 | **Yellowfin BI** | Quoted, embedding-oriented | Deployment shape and end users | No |
 | **Sisense** | Quoted, enterprise | Deployment, tenants and infrastructure | No |
 
-[Supaboard's rates](/pricing) are $99/seat/month on Individual and $249/seat/month
-on Business, or $83 and $208 billed yearly, as of August 2026.
+[Supaboard's rates](/pricing) are a free plan, then $19 per editor per month on
+Starter, $99 on Individual and $249 on Business, or $16, $83 and $208 billed
+yearly, as of October 2026.
 
 The trap worth naming: Metabase's open-source edition is free in licence terms and
 not free in total cost. Someone hosts it, upgrades it, tunes the queries and
@@ -320,7 +319,7 @@ Instead of manually creating dashboards, Supaboard automatically builds dashboar
 Supaboard doesn’t just show charts—it explains what’s happening. It highlights trends, anomalies, and key drivers so teams can understand data without deep analysis.
 
 **Unified data layer**  
-Connect 700+ data sources on the Business plan, including databases, SaaS tools, and spreadsheets. Supaboard maps your metrics and definitions into a single source of truth for consistent insights.
+Connect 12 databases and warehouses, upload spreadsheets, and let agents read 22 apps such as HubSpot and Stripe through MCP. Supaboard maps your metrics and definitions into a single source of truth for consistent insights.
 
 **Ask → Explore → Act workflow**  
 Users can ask questions, refine insights with follow-ups, pin results to dashboards, and share them instantly across teams—without switching tools.
@@ -331,7 +330,7 @@ Track performance metrics in real time without manually building reports. Supabo
 **AI agents with business context**  
 Supaboard’s AI understands your business logic, not just raw data. This ensures answers are accurate, consistent, and aligned with how your team defines metrics.
 
-[**Start a free trial**](https://auth.supaboard.ai/onboard/register) **and explore your data with your own datasets, see what insights you can uncover in minutes.**
+[**Start Free**](https://auth.supaboard.ai/onboard/register) **and explore your data with your own datasets, see what insights you can uncover in minutes.**
 
 ### Who It's For
 
@@ -346,11 +345,11 @@ Supaboard is designed for teams that want to work with data without technical co
 -   SaaS founders who need insights without hiring analysts
     
 
-It’s also a strong fit for mid-market companies that want to move faster without building a full data team. [Objection.ai](/case-study/objection.ai) runs exactly that way — eleven sources, from the product database to Stripe and Twilio, with no data analyst on staff.
+It’s also a strong fit for mid-market companies that want to move faster without building a full data team. Objection.ai runs exactly that way — eleven sources, from the product database to Stripe and Twilio, with no data analyst on staff.
 
 ### **Pricing**
 
-[Supaboard](/pricing) is priced flat per seat: $99/seat/mo on Individual and $249/seat/mo on Business, or $83 and $208 per seat billed yearly. Enterprise is quoted. Rates as of August 2026.
+[Supaboard](/pricing) has a free plan, then $19 per editor per month on Starter, $99 on Individual and $249 on Business, or $16, $83 and $208 billed yearly. Enterprise is quoted. Rates as of October 2026.
 
 Compared to traditional BI tools, the value comes from reduced dependency on analysts and faster decision-making, not just lower cost.
 

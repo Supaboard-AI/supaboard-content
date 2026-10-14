@@ -128,8 +128,6 @@ tldr:
   - >-
     Multi-tenancy enforced by filters rather than at the query layer is a breach
     waiting for a misconfiguration.
-caseStudies:
-  - /case-study/legend-ehr
 statsCount: 0
 ---
 
@@ -193,7 +191,7 @@ There are several ways to embed analytics into a product. Some teams connect thr
 
 The right choice depends on budget, speed to market, and how important complete customization is to your product strategy.
 
-The pricing model matters more than the sticker price here, because embedded analytics is the one case where your user count is your customers' user count. Vendors that charge per seat make every customer you onboard a cost increase; ones that charge flat per internal seat do not. Supaboard is the latter — $99/seat/month on Individual and $249/seat/month on Business, or $83 and $208 billed yearly, [published on the pricing page](/pricing) as of August 2026, with [Datasites](/product/datasites) covering the branded, per-tenant delivery. Metabase ([pricing](https://www.metabase.com/pricing)) and ThoughtSpot ([pricing](https://www.thoughtspot.com/pricing)) both publish their embedding tiers, so those three can be compared directly; most of the rest quote.
+The pricing model matters more than the sticker price here, because embedded analytics is the one case where your user count is your customers' user count. Vendors that charge per seat make every customer you onboard a cost increase; ones that charge flat per internal seat do not. Supaboard is the latter — a free plan, then $19 per editor per month on Starter, $99 on Individual and $249 on Business, or $16, $83 and $208 billed yearly, [published on the pricing page](/pricing) as of October 2026, with [Datasites](/product/datasites) covering the branded, per-tenant delivery. Metabase ([pricing](https://www.metabase.com/pricing)) and ThoughtSpot ([pricing](https://www.thoughtspot.com/pricing)) both publish their embedding tiers, so those three can be compared directly; most of the rest quote.
 
 **Example**:
 
@@ -249,7 +247,7 @@ Companies are creating new income opportunities by:
     
 -   Using **data monetization strategies** to increase revenue from existing customers.
 
-Per-tenant scoping is the part teams underestimate — [Legend EHR](/case-study/legend-ehr) gives each clinic manager an analyst limited to their own location, the same row-level boundary an embedded product needs per customer.
+Per-tenant scoping is the part teams underestimate — Legend EHR gives each clinic manager an analyst limited to their own location, the same row-level boundary an embedded product needs per customer.
 
 <!-- section:content-5 -->
 

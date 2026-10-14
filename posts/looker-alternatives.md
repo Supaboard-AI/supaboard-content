@@ -136,8 +136,6 @@ tldr:
     Alternatives split into those that keep a modelling layer and those that
     drop it.
   - Dropping the model buys speed and costs you consistent metric definitions.
-caseStudies:
-  - /case-study/objection.ai
 statsCount: 0
 ---
 
@@ -291,7 +289,7 @@ Supaboard is a modern **AI-powered Looker alternative** built for teams that wan
 -   Enterprise implementations may need guided onboarding
     
 
-**Best For**: SaaS, fintech, healthcare, and data-driven companies seeking **self-service analytics tools**, **embedded analytics platforms**, and **BI tools without LookML**. [Objection.ai](/case-study/objection.ai) is the shape of that buyer: eleven sources unified and self-serve analytics company-wide, with no data analyst and no modelling layer to maintain.
+**Best For**: SaaS, fintech, healthcare, and data-driven companies seeking **self-service analytics tools**, **embedded analytics platforms**, and **BI tools without LookML**. Objection.ai is the shape of that buyer: eleven sources unified and self-serve analytics company-wide, with no data analyst and no modelling layer to maintain.
 
 ### 3\. Tableau – Best for Advanced Visualizations & Storytelling (Looker vs Tableau)
 

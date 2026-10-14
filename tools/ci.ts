@@ -28,7 +28,7 @@ const docs = files.map((f) => {
   return { slug: basename(f, ".md"), data: parsed.data, body: parsed.content };
 });
 
-// --- 1-3, 6-7: schema, targetQuery uniqueness, slug rules, caseStudies,
+// --- 1-3, 6-7: schema, targetQuery uniqueness, slug rules,
 //               internal links resolving. All expressed in the schema.
 const { issues, valid } = validateCorpus(docs.map(({ slug, data }) => ({ slug, data })));
 for (const i of issues) fail(i.slug, "schema", `${i.path}: ${i.message}`);
@@ -88,12 +88,6 @@ for (const doc of docs) {
     if (!alt.trim()) fail(doc.slug, "image-alt", `empty alt: ${whole}(…`);
     else if (/^https?:\/\//i.test(alt.trim())) fail(doc.slug, "image-alt", `URL as alt: ${alt}`);
   }
-
-  for (const path of (doc.data as { caseStudies?: string[] }).caseStudies ?? []) {
-    if (!doc.body.includes(path)) {
-      fail(doc.slug, "case-study-not-linked", `${path} declared but never linked in the body`);
-    }
-  }
 }
 
 // --- 4-5: body-level editorial floors.
@@ -101,17 +95,21 @@ for (const doc of docs) {
   const fm = validBySlug.get(doc.slug);
   if (!fm) continue; // already failed the schema; don't pile on
   const a = analyze(doc.body, fm.citations);
+  const qualitativeFounderStory = fm.format === "founder-story" && fm.category === "company" && fm.statsCount === 0;
 
   for (const claim of a.numericClaims) {
     if (!claim.sourced) {
       fail(doc.slug, "unsourced-statistic", claim.text);
     }
   }
-  if (fm.statsCount < 4) fail(doc.slug, "statistics", `statsCount ${fm.statsCount}, need >= 4`);
-  if (a.attributedQuotes.length < 1) {
+  if (qualitativeFounderStory && a.numericClaims.length > 0) {
+    fail(doc.slug, "statistics", "a qualitative founder story must contain no numeric claims; use the article format for quantitative stories");
+  }
+  if (!qualitativeFounderStory && fm.statsCount < 4) fail(doc.slug, "statistics", `statsCount ${fm.statsCount}, need >= 4`);
+  if (!qualitativeFounderStory && a.attributedQuotes.length < 1) {
     fail(doc.slug, "quotation", "no named, attributed quotation found in the body");
   }
-  if (fm.citations.length < 3) {
+  if (!qualitativeFounderStory && fm.citations.length < 3) {
     fail(doc.slug, "citations", `${fm.citations.length} citations, need >= 3`);
   }
   if (fm.internalLinks.length < 3) {

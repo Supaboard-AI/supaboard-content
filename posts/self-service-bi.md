@@ -311,11 +311,11 @@ Modern self-service BI tools like Power BI, Tableau, and ThoughtSpot help teams 
 
 New AI-native tools like Supaboard go further by enabling users to ask questions in plain English and get instant insights without dashboards or complex queries.
 
-[Supaboard's AI analysts](/product/ask-analysts) combine the speed of self-service BI with structured data reliability, making it easier for teams to move from data to decisions. [Legend EHR](/case-study/legend-ehr) uses it to give every clinic manager an analyst scoped to their own location.
+[Supaboard's AI analysts](/product/ask-analysts) combine the speed of self-service BI with structured data reliability, making it easier for teams to move from data to decisions. Legend EHR uses it to give every clinic manager an analyst scoped to their own location.
 
 You can try it with your own data and experience how modern BI should work.
 
-Start now and get a [**14-day free trial**.](https://auth.supaboard.ai/onboard/register)
+Start now on the [**Free plan**](https://auth.supaboard.ai/onboard/register). No credit card required.
 
 <!-- section:content-11 -->
 

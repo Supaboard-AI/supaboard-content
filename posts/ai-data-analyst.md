@@ -132,9 +132,6 @@ tldr:
   - >-
     A demo that goes from upload to recommendation without naming the question
     is showing you the easy part.
-caseStudies:
-  - /case-study/jindal-healthcare
-  - /case-study/objection.ai
 statsCount: 0
 ---
 
@@ -206,11 +203,11 @@ The practical posture: treat it like a fast junior analyst, not an oracle. Ask i
 
 The field splits roughly into agentic BI platforms, incumbents that added an AI layer, and lightweight tools for file-based analysis. Below are five worth knowing, with who each fits, one real strength, and one real weakness. Prices change and some are consumption-based, so treat the numbers as a starting point and confirm before you buy.
 
-All prices below are the vendors' own published rates as of August 2026.
+All prices below are the vendors' own published rates as of August 2026 (Supaboard's as of October 2026).
 
 | Tool | Best for | One real strength | One real weakness | Starting price |
 | --- | --- | --- | --- | --- |
-| **Supaboard** | Startups and growth teams with no dedicated data team that want governed answers fast | Agents you train on your own definitions; works with imperfect schemas; flat per-seat pricing | Newer, with a shorter track record than the incumbents | $99/seat/mo Individual, $249/seat/mo Business (billed monthly); $83 and $208/seat/mo billed yearly |
+| **Supaboard** | Startups and growth teams with no dedicated data team that want governed answers fast | Agents you train on your own definitions; works with imperfect schemas; flat per-seat pricing | Newer, with a shorter track record than the incumbents | Free plan; then $19/editor/mo Starter, $99 Individual, $249 Business (billed monthly); $16, $83 and $208 billed yearly |
 | **ThoughtSpot** | Mid-market and enterprise that wants search-driven, governed self-serve at scale | Mature, patented search with the Spotter agent on large governed datasets | Per-query consumption pricing (Spotter capped at 25 queries/user/mo on Pro) gets hard to forecast | $25/user/mo (Essentials), $50/user/mo (Pro) |
 | **Power BI Copilot** | Teams already standardized on Microsoft 365 and Fabric | Generates DAX, report pages, and narratives inside a tool you already own | Requires Fabric capacity (F64 ~$5,250/mo) or PPU; quality collapses on poorly modeled data | Fabric F2 ~$262/mo or PPU ~$20/user/mo (Power BI Pro alone won't run Copilot) |
 | **Julius AI** | Solo operators and small teams doing file-based analysis | Strong with messy spreadsheets; fast, clean auto-charts; shows the Python | File-first; live database connectors only on Business at $375/mo; not a governed team layer | $35/mo (Plus), $45/mo (Pro) |
@@ -218,7 +215,7 @@ All prices below are the vendors' own published rates as of August 2026.
 
 ### Supaboard
 
-Supaboard fits founders, ops, and analytics leads at startups and growth-stage companies who don't have a data team, or don't want to bury the one they have. The differentiator is the [agentic approach](/product/agents): you train an agent on your definitions, so "MRR" or "active account" resolves to your formula rather than a generic guess, and the same question returns the same answer next week. It connects to 700+ databases, warehouses, and apps on the Business plan, builds dashboards from a prompt, writes and fixes SQL, and runs scheduled reports. The real strength is that it's built for imperfect, unmodeled schemas and priced flat per seat, so no per-query meter surprises your finance team; you can model the bill from the [pricing page](/pricing) in a couple of minutes. The honest weakness is age: it launched in February 2026 (it was #1 Product of the Day and Week on Product Hunt, for whatever that early signal is worth), so if your buying process needs a decade of enterprise references, weigh that. Governance covers role-based access, audit logs, and SOC 2, with a HIPAA business associate agreement as a paid add-on. It's a strong fit for the no-data-team team; it won't make the call about which question matters. That is what [Objection.ai](/case-study/objection.ai) runs on with no data analyst on staff, and what [Jindal Healthcare](/case-study/jindal-healthcare) used to cut analytics costs by 90%.
+Supaboard fits founders, ops, and analytics leads at startups and growth-stage companies who don't have a data team, or don't want to bury the one they have. The differentiator is the [agentic approach](/product/agents): you train an agent on your definitions, so "MRR" or "active account" resolves to your formula rather than a generic guess, and the same question returns the same answer next week. It queries 12 databases and warehouses live and reads 22 apps through MCP, builds dashboards from a prompt, writes and fixes SQL, and runs scheduled reports. The real strength is that it's built for imperfect, unmodeled schemas and priced flat per seat, so no per-query meter surprises your finance team; you can model the bill from the [pricing page](/pricing) in a couple of minutes. The honest weakness is age: it launched in February 2026 (it was #1 Product of the Day and Week on Product Hunt, for whatever that early signal is worth), so if your buying process needs a decade of enterprise references, weigh that. Governance covers role-based access, audit logs, and SOC 2, with a HIPAA business associate agreement as a paid add-on. It's a strong fit for the no-data-team team; it won't make the call about which question matters. That is what Objection.ai runs on with no data analyst on staff, and what Jindal Healthcare used to cut analytics costs by 90%.
 
 ### ThoughtSpot
 
