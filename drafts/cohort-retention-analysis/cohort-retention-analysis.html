@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d9488" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#18181b" media="(prefers-color-scheme: dark)">
+<title>Cohort retention: a good first week can hide a bad trend</title>
+<meta name="description" content="A strong first week can hide declining retention. Learn what cohort curves reveal about recurring value, product improvements, and sustainable SaaS growth.">
+<link rel="canonical" href="https://supaboard.ai/blog/cohort-retention-analysis">
+<meta name="author" content="Aritra Ghosh">
+<meta name="blog-source-sha256" content="e765e1498134c8716abb240f95f63c69b9f80fadc8de473f23f045775b918f92">
+<meta name="blog-body-sha256" content="f62b91d28b0e3c16573dd5054d3e1cc24f98873cff53d576f0a85f4e7ba1009d">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cohort retention: a good first week can hide a bad trend">
+<meta property="og:description" content="A strong first week can hide declining retention. Learn what cohort curves reveal about recurring value, product improvements, and sustainable SaaS growth.">
+<meta property="og:url" content="https://supaboard.ai/blog/cohort-retention-analysis">
+<meta property="og:image" content="https://supaboard.ai/blog/cohort-retention-analysis/hero.png">
+<meta property="og:image:width" content="1672">
+<meta property="og:image:height" content="941">
+<meta property="og:image:alt" content="Illustrative retention curves: cohort A starts at 75% in week one but reaches zero by week four; cohort B starts at 32% and remains near 30%.">
+<meta property="og:site_name" content="Supaboard">
+<meta property="article:published_time" content="2026-10-14">
+<meta property="article:author" content="Aritra Ghosh">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cohort retention: a good first week can hide a bad trend">
+<meta name="twitter:description" content="A strong first week can hide declining retention. Learn what cohort curves reveal about recurring value, product improvements, and sustainable SaaS growth.">
+<meta name="twitter:image" content="https://supaboard.ai/blog/cohort-retention-analysis/hero.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Cohort retention: a good first week can hide a bad trend", "description": "A strong first week can hide declining retention. Learn what cohort curves reveal about recurring value, product improvements, and sustainable SaaS growth.", "image": "https://supaboard.ai/blog/cohort-retention-analysis/hero.png", "datePublished": "2026-10-14", "dateModified": "2026-10-14", "author": {"@type": "Person", "name": "Aritra Ghosh"}, "wordCount": 1886, "keywords": "[\"Product analytics\", \"User retention\"]", "inLanguage": "en", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://supaboard.ai/blog/cohort-retention-analysis"}, "publisher": {"@type": "Organization", "name": "Supaboard", "url": "https://supaboard.ai"}}</script>
+<style>
+:root{--bg:#fafaf9;--surface:#fff;--text:#1c1917;--muted:#57534e;--soft:#78716c;--accent:#0f766e;--accent-soft:#ccfbf1;--accent-deep:#115e59;--border:#e7e5e4;--code-bg:#f5f5f4;--warn:#b91c1c;--shadow:0 1px 3px rgba(0,0,0,.06),0 4px 12px rgba(0,0,0,.04)}
+@media (prefers-color-scheme:dark){:root{--bg:#18181b;--surface:#27272a;--text:#fafafa;--muted:#a1a1aa;--soft:#92929c;--accent:#2dd4bf;--accent-soft:#134e4a;--accent-deep:#99f6e4;--border:#3f3f46;--code-bg:#1f1f23;--warn:#fca5a5;--shadow:0 1px 3px rgba(0,0,0,.4),0 4px 12px rgba(0,0,0,.3)}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.65;margin:0;font-size:17px;-webkit-font-smoothing:antialiased}
+article{max-width:740px;margin:0 auto;padding:3rem 1.5rem 5rem}
+.kicker{font-family:ui-monospace,"SF Mono",Monaco,monospace;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 .85rem;font-weight:600}
+h1{font-size:clamp(2rem,5vw,2.85rem);line-height:1.12;letter-spacing:-.025em;margin:0 0 1.1rem;font-weight:800}
+.dek{color:var(--muted);font-size:clamp(1.05rem,2.5vw,1.2rem);line-height:1.5;margin:0 0 1.75rem;max-width:60ch}
+.byline{color:var(--soft);font-size:.875rem;font-family:ui-monospace,monospace;margin:0 0 2.5rem}
+.updated{color:var(--soft);font-size:.875rem;font-family:ui-monospace,monospace;margin:0 0 2.5rem}
+.byline + .updated{margin-top:-2rem}
+.byline strong{color:var(--text);font-weight:600}
+.hero{margin:0 0 2.5rem;background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.hero img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover}
+h2{font-size:clamp(1.4rem,3vw,1.75rem);line-height:1.22;letter-spacing:-.015em;margin:3rem 0 1rem;font-weight:700;scroll-margin-top:1rem}
+h3{font-size:1.2rem;margin:2rem 0 .75rem;font-weight:700}
+p{margin:0 0 1.25rem}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent-deep)}
+code{font-family:ui-monospace,"SF Mono",Monaco,monospace;font-size:.9em;background:var(--code-bg);border:1px solid var(--border);padding:.1em .4em;border-radius:4px}
+pre{background:var(--code-bg);border:1px solid var(--border);border-radius:8px;padding:1rem;overflow-x:auto;font-size:.875rem}
+pre code{background:none;border:none;padding:0}
+blockquote{border-left:3px solid var(--accent);padding:.4rem 0 .4rem 1.25rem;margin:0 0 1.5rem;color:var(--muted)}
+ul,ol{margin:0 0 1.25rem;padding-left:1.5rem}
+li{margin:.35rem 0}
+strong{font-weight:700;color:var(--text)}
+img{max-width:100%;height:auto}
+svg{max-width:100%;height:auto}
+figure{margin:0 0 1.75rem}
+figure svg{display:block;margin:0 auto}
+figcaption{color:var(--muted);font-size:.875rem;margin-top:.5rem}
+.table-wrap{max-width:100%;overflow-x:auto;margin:0 0 1.5rem;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{border:1px solid var(--border);padding:.5rem .75rem;text-align:left;vertical-align:top}
+th{background:var(--code-bg);font-weight:700}
+.post-footer{margin-top:4rem;padding-top:2rem;border-top:1px solid var(--border);font-size:.875rem;color:var(--muted);font-family:ui-monospace,monospace;display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;justify-content:space-between}
+.post-footer a{color:var(--accent);text-decoration:none}
+::selection{background:var(--accent);color:var(--bg)}
+@media print{body{background:#fff;color:#000;font-size:11pt}article{max-width:none;padding:0 1rem}.hero{box-shadow:none}.table-wrap{overflow:visible}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.editorial-chart{--plot-a:#a9654e;--plot-b:#517f72;--plot-context:#9ba9a6;--plot-grid:rgba(50,60,56,.12);--plot-muted:#6d7571;--plot-panel:#f5f6f3;--plot-track:rgba(70,90,80,.065);margin:2.3rem 0;padding:26px 28px 20px;border:0;border-radius:8px;background:var(--plot-panel);font-family:ui-sans-serif,system-ui,sans-serif}
+.editorial-chart .chart-kicker{margin:0 0 5px;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--plot-muted);line-height:1.5}
+.editorial-chart .chart-heading{margin:0;font-size:16px;line-height:1.4;letter-spacing:-.015em}
+.editorial-chart .chart-heading strong{font-weight:600}
+.chart-legend{display:flex;gap:8px 24px;flex-wrap:wrap;margin:14px 0 22px;line-height:1.5;font-size:11px;color:var(--plot-muted)}
+.chart-key{display:inline-flex;gap:7px;align-items:center;white-space:nowrap}.key-value{margin-left:3px;font-size:10px;font-variant-numeric:tabular-nums;color:var(--plot-muted)}
+.key-line{display:inline-block;width:17px;height:0;border-top:2px solid var(--plot-a)}.key-line.series-b{border-color:var(--plot-b)}.key-line.series-context{border-color:var(--plot-context);border-top-style:dashed}
+.chart-measure{margin-bottom:8px;font-size:10px;color:var(--plot-muted)}.plot-grid{display:grid;grid-template-columns:32px minmax(0,1fr);gap:0;height:218px}
+.y-ticks{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:11px 0;color:var(--plot-muted);font-size:10px;font-variant-numeric:tabular-nums;line-height:1}
+.editorial-chart .plot-grid svg{width:100%;height:100%;max-width:none;display:block;margin:0;overflow:visible}.chart-grid{stroke:var(--plot-grid);stroke-width:1;vector-effect:non-scaling-stroke}
+.chart-series{fill:none;stroke-width:2.1;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}.chart-series.series-a{stroke:var(--plot-a)}.chart-series.series-b{stroke:var(--plot-b)}.chart-series.series-context{stroke:var(--plot-context);stroke-width:1.1;opacity:.65}
+.chart-dot.series-a{fill:var(--plot-a)}.chart-dot.series-b{fill:var(--plot-b)}.chart-dot.series-context{fill:var(--plot-context);opacity:.7}.plateau-band{fill:var(--plot-b);opacity:.075}
+.x-ticks{display:flex;justify-content:space-between;margin:5px 1.25% 0 calc(32px + 1.25%);color:var(--plot-muted);font-size:10px;font-variant-numeric:tabular-nums}.chart-axis-label{margin:8px 0 0 32px;text-align:center;font-size:10px;color:var(--plot-muted)}
+.editorial-chart figcaption{font-size:11px;line-height:1.6;color:var(--plot-muted);margin-top:22px;padding-top:13px;border-top:1px solid var(--plot-grid)}
+.bar-list{display:grid;gap:21px;margin:26px 0 18px}.bar-row{display:grid;grid-template-columns:48px minmax(0,1fr) 34px;align-items:center;gap:13px;font-size:11px;line-height:1.3}.bar-name{color:var(--plot-muted)}.bar-value{text-align:right;color:var(--text);font-size:11px;font-variant-numeric:tabular-nums}.bar-track{height:7px;border-radius:3px;background:var(--plot-track);display:block}.bar-fill{height:100%;display:block;background:var(--plot-b);opacity:.72;border-radius:3px}.bar-row:last-child .bar-fill{opacity:1}.value-44{width:44%}.value-46{width:46%}.value-48{width:48%}.value-50{width:50%}.value-53{width:53%}.bar-scale{display:flex;justify-content:space-between;font-size:10px;color:var(--plot-muted);margin-left:61px;margin-right:47px}
+.video-embed{margin-top:2.7rem}.video-heading{font-size:16px;font-weight:600;margin-bottom:14px}.video-embed iframe{width:100%;aspect-ratio:16/9;min-height:200px;border:0;border-radius:8px;display:block}.video-embed figcaption{font-size:12px}
+@media(prefers-color-scheme:dark){.editorial-chart{--plot-a:#c78d75;--plot-b:#8fb4a6;--plot-context:#71827c;--plot-grid:rgba(190,205,197,.1);--plot-muted:#929e98;--plot-panel:#202322;--plot-track:rgba(190,205,197,.05)}}
+@media(max-width:480px){.editorial-chart{padding:20px 17px 17px}.editorial-chart .chart-heading{font-size:15px}.plot-grid{height:180px;grid-template-columns:29px minmax(0,1fr)}.chart-legend{gap:7px 15px;margin-bottom:19px}.key-value{font-size:10px}.x-ticks{margin-left:calc(29px + 1.25%)}.chart-axis-label{margin-left:29px}.editorial-chart figcaption{font-size:11px}.bar-row{gap:9px;grid-template-columns:43px minmax(0,1fr) 30px}.bar-scale{margin-left:52px;margin-right:39px}}
+@media print{.editorial-chart{background:#f5f6f3!important;color:#222;--plot-a:#a9654e;--plot-b:#517f72;--plot-context:#9ba9a6;--plot-grid:rgba(50,60,56,.12);--plot-muted:#6d7571}h2,h3{break-after:avoid}figure,blockquote,tr{break-inside:avoid}.video-embed iframe{display:none}.video-embed figcaption{display:block}}
+</style>
+</head>
+<body>
+<article>
+<header>
+<p class="kicker">Product analytics</p>
+<h1>Cohort retention: a good first week can hide a bad trend</h1>
+<p class="dek">A strong first week can hide declining retention. Learn what cohort curves reveal about recurring value, product improvements, and sustainable SaaS growth.</p>
+<p class="byline"><strong>By Aritra Ghosh</strong> &middot; 2026-10-14 &middot; 9 min read &middot; 1886 words</p>
+</header>
+<figure class="hero"><img src="hero.png" alt="Illustrative retention curves: cohort A starts at 75% in week one but reaches zero by week four; cohort B starts at 32% and remains near 30%." width="1672" height="941"><figcaption><a href="hero.png">View the full-size infographic</a></figcaption></figure>
+<!--bs-body:start--><p>Most SaaS founders think they understand retention. They have their percentages and can see how many people come back to use their product.</p>
+<p>What those percentages don't tell them on their own is whether those people keep coming back.</p>
+<p>I was one of those founders, until <a href="https://www.youtube.com/watch?v=VNxBZ7ka5J0">a lesson from David Lieb at Y Combinator</a> changed the way I read those numbers. I stopped looking at benchmarks to tell me the product was doing well and started asking, “Are the cohorts stabilising?”</p>
+<p>That question changes what you look for. A promising first week can give way to a cohort with nobody returning. A less impressive first week can leave you with people who return because the product has become useful to them. If you judge both groups too early, you can mistake the first for success and the second for failure.</p>
+<blockquote>
+<p><strong>Key takeaways</strong></p>
+<ul>
+<li>A retention percentage needs a history: follow what happens to the same starting group over time.</li>
+<li>A sustained plateau suggests recurring use. Its duration, cohort size, and underlying behaviour determine how much confidence it deserves.</li>
+<li>Compare cohorts at the same age, then investigate why some users return and others don't.</li>
+</ul>
+</blockquote>
+<h2>The stronger start does not always last</h2>
+<p>Imagine two groups of people trying your product. After the first week, one appears much more likely to return. It would be tempting to build on that experience.</p>
+<p>Give both groups more time, and the picture changes.</p>
+<figure class="inline-chart editorial-chart" id="early-versus-lasting" role="img" aria-label="Illustrative cohort A: 100,75,50,35,0 percent; B: 100,32,32,32,30 percent at weeks zero to four. A starts stronger, but B retains a returning group.">
+<div class="chart-head"><p class="chart-kicker">Two illustrative cohorts</p><p class="chart-heading"><strong>The early lead disappears</strong></p><div class="chart-legend"><span class="chart-key"><span class="key-line series-a"></span>Cohort A<span class="key-value">0% at week 4</span></span><span class="chart-key"><span class="key-line series-b"></span>Cohort B<span class="key-value">30% at week 4</span></span></div></div>
+<div class="chart-measure">Returning users</div><div class="plot-grid"><div class="y-ticks"><span>100%</span><span>50%</span><span>0%</span></div><svg viewbox="0 0 640 240" preserveaspectratio="none" role="presentation" aria-hidden="true"><line class="chart-grid" x1="8" y1="12.0" x2="632" y2="12.0"></line><line class="chart-grid" x1="8" y1="120.0" x2="632" y2="120.0"></line><line class="chart-grid" x1="8" y1="228.0" x2="632" y2="228.0"></line><polyline class="chart-series series-a" points="8.00,12.00 164.00,66.00 320.00,120.00 476.00,152.40 632.00,228.00"></polyline><circle class="chart-dot series-a" cx="632.0" cy="228.0" r="3.2"></circle><polyline class="chart-series series-b" points="8.00,12.00 164.00,158.88 320.00,158.88 476.00,158.88 632.00,163.20" stroke-dasharray="6 5"></polyline><circle class="chart-dot series-b" cx="632.0" cy="163.20000000000002" r="3.2"></circle></svg></div><div class="x-ticks"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span></div><div class="chart-axis-label">Weeks since first action</div>
+<figcaption>A stronger first week does not guarantee a returning group. Illustrative data.</figcaption>
+</figure>
+
+<p>The early leader keeps losing returning users. The other group settles into a much flatter pattern. That doesn't establish that anyone will stay forever, but it changes which experience deserves a closer look.</p>
+<p>This is what cohort retention makes visible. A cohort is a group that starts with the same qualifying action during the same period. Following that group over time lets you see whether people continue to use the product after their initial encounter. Every curve starts at week zero, so you compare time since starting even when the groups joined on different dates.</p>
+<p>A single percentage hides that history. The same rate can sit on a flattening curve or a declining one. Those situations call for different decisions.</p>
+<p>A benchmark can still provide context. It cannot tell you which of those two situations you're in.</p>
+<h2>What are people returning to do?</h2>
+<p>The lines above count people repeating an action. What that action is determines whether the pattern tells you anything useful about your product.</p>
+<p>Someone can log in, fail to find what they need, and leave. If that counts as a successful return, the chart may improve while the experience stays disappointing. The action you measure should be close enough to the product's value that repeating it means something.</p>
+<p>At Supaboard, I use asking the AI a question about your business. People come to <a href="https://supaboard.ai/product/ask-analysts">understand their business data</a>, so asking a question is more meaningful for this analysis than opening the app. It is still a proxy: a question that receives an unhelpful answer does not demonstrate value delivered. The curve tells us who repeats the behaviour; those users can tell us why.</p>
+<p>The same reasoning applies to timing. Business figures change, and users may have new questions the following week. Weekly measurement makes sense for this example. A news product might expect daily returns; a travel product may wait months for someone to need another booking. Measuring too soon can make a useful product look unsuccessful simply because its users don't need it yet.</p>
+<p>Those choices define the people you are actually studying. A cohort of first-question users is different from a cohort of website visitors or signups. If people never reach that first question, this particular retention chart won't explain their experience. You need to examine that part of the journey separately.</p>
+<h2>A dashboard is useful when it makes the comparison fair</h2>
+<p>The practical value of a retention dashboard is that it keeps these definitions visible while you look for a pattern.</p>
+<p>I used <a href="https://supaboard.ai/product/datasites">Datasites</a> to put the retention triangle and curves in one place, using three inputs:</p>
+<blockquote>
+<p><strong>Action:</strong> asking the AI a business question.<br>
+<strong>Interval:</strong> weekly cohorts.<br>
+<strong>History:</strong> the last six complete weeks.</p>
+</blockquote>
+<p>With the data connected, I could return to the same view as more observations became available. A chart you see once can show a promising pause; a view you revisit can show whether it lasts.</p>
+<p>The example below follows six weekly cohorts. These dashboard values illustrate how to read retention; they are not benchmarks for your product.</p>
+<div class="table-wrap" role="region" aria-label="Table" tabindex="0"><table>
+<thead><tr><th>Cohort starts</th><th>Users</th><th>Week 0</th><th>Week 1</th><th>Week 2</th><th>Week 3</th><th>Week 4</th><th>Week 5</th></tr></thead>
+<tbody>
+<tr><td>31 Aug</td><td>128</td><td>100%</td><td>44%</td><td>23%</td><td>16%</td><td>13%</td><td>12%</td></tr>
+<tr><td>7 Sep</td><td>137</td><td>100%</td><td>46%</td><td>26%</td><td>18%</td><td>15%</td><td>—</td></tr>
+<tr><td>14 Sep</td><td>145</td><td>100%</td><td>48%</td><td>28%</td><td>19%</td><td>—</td><td>—</td></tr>
+<tr><td>21 Sep</td><td>152</td><td>100%</td><td>50%</td><td>30%</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>28 Sep</td><td>169</td><td>100%</td><td>53%</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>5 Oct</td><td>176</td><td>100%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+</tbody>
+</table></div>
+
+<p><em>A dash means the cohort has not reached that week yet.</em></p>
+<figure class="inline-chart editorial-chart" id="recorded-cohort-curves" role="img" aria-label="Six recorded example cohorts aligned at week zero. 31 Aug: 100,44,23,16,13,12 percent; 7 Sep: 100,46,26,18,15 percent; 14 Sep: 100,48,28,19 percent; 21 Sep: 100,50,30 percent; 28 Sep: 100,53 percent; 5 Oct: 100 percent. Missing periods are not plotted.">
+<div class="chart-head"><p class="chart-kicker">Example dashboard</p><p class="chart-heading"><strong>A longer history tells a different story</strong></p><div class="chart-legend"><span class="chart-key"><span class="key-line series-a"></span>31 Aug · oldest cohort</span><span class="chart-key"><span class="key-line series-context"></span>Newer cohorts</span></div></div>
+<div class="chart-measure">Returning users</div><div class="plot-grid"><div class="y-ticks"><span>100%</span><span>50%</span><span>0%</span></div><svg viewbox="0 0 640 240" preserveaspectratio="none" role="presentation" aria-hidden="true"><line class="chart-grid" x1="8" y1="12.0" x2="632" y2="12.0"></line><line class="chart-grid" x1="8" y1="120.0" x2="632" y2="120.0"></line><line class="chart-grid" x1="8" y1="228.0" x2="632" y2="228.0"></line><circle class="chart-dot series-context" cx="8.0" cy="12.0" r="3.2"></circle><polyline class="chart-series series-context" points="8.00,12.00 132.80,113.52" stroke-dasharray="5 5"></polyline><circle class="chart-dot series-context" cx="132.8" cy="113.52000000000001" r="3.2"></circle><polyline class="chart-series series-context" points="8.00,12.00 132.80,120.00 257.60,163.20" stroke-dasharray="5 5"></polyline><circle class="chart-dot series-context" cx="257.6" cy="163.20000000000002" r="3.2"></circle><polyline class="chart-series series-context" points="8.00,12.00 132.80,124.32 257.60,167.52 382.40,186.96" stroke-dasharray="5 5"></polyline><circle class="chart-dot series-context" cx="382.4" cy="186.96" r="3.2"></circle><polyline class="chart-series series-context" points="8.00,12.00 132.80,128.64 257.60,171.84 382.40,189.12 507.20,195.60" stroke-dasharray="5 5"></polyline><circle class="chart-dot series-context" cx="507.2" cy="195.60000000000002" r="3.2"></circle><polyline class="chart-series series-a" points="8.00,12.00 132.80,132.96 257.60,178.32 382.40,193.44 507.20,199.92 632.00,202.08"></polyline><circle class="chart-dot series-a" cx="632.0" cy="202.08" r="3.2"></circle></svg></div><div class="x-ticks"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div><div class="chart-axis-label">Weeks since first action</div>
+<figcaption>The oldest cohort is still declining. Shorter lines belong to newer cohorts with less history.</figcaption>
+</figure>
+
+<p>The longer history is still falling. Now hold the age constant and compare how each cohort did in its first week.</p>
+<figure class="inline-chart editorial-chart" id="same-age-comparison" role="img" aria-label="Week one retention by cohort: August31 44%, September7 46%, September14 48%, September21 50%, September28 53%. The latest cohort has not completed week one.">
+<div class="chart-head"><p class="chart-kicker">Compare the same cohort age</p><p class="chart-heading"><strong>The first week is getting stronger</strong></p><div class="chart-legend"></div></div>
+<div class="bar-list"><div class="bar-row"><span class="bar-name">31 Aug</span><span class="bar-track"><span class="bar-fill value-44"></span></span><span class="bar-value">44%</span></div><div class="bar-row"><span class="bar-name">7 Sep</span><span class="bar-track"><span class="bar-fill value-46"></span></span><span class="bar-value">46%</span></div><div class="bar-row"><span class="bar-name">14 Sep</span><span class="bar-track"><span class="bar-fill value-48"></span></span><span class="bar-value">48%</span></div><div class="bar-row"><span class="bar-name">21 Sep</span><span class="bar-track"><span class="bar-fill value-50"></span></span><span class="bar-value">50%</span></div><div class="bar-row"><span class="bar-name">28 Sep</span><span class="bar-track"><span class="bar-fill value-53"></span></span><span class="bar-value">53%</span></div></div><div class="bar-scale"><span>0%</span><span>50%</span><span>100%</span></div>
+<figcaption>Each bar shows the same point in a cohort’s life. The latest cohort is not old enough to compare yet.</figcaption>
+</figure>
+
+<p>These charts reveal two things at once: early retention is stronger in newer cohorts, while lasting retention remains an open question. The encouraging bars do not cancel out the declining curve.</p>
+<p>The definitions underneath it matter just as much as the visible numbers. Each percentage uses the original cohort size as its denominator and counts distinct returning people. Twenty questions from one person still count as one returning user. Someone can skip a week and come back later, so a cohort's percentage can rise as well as fall. Week zero is 100% because the qualifying action is how people enter the cohort.</p>
+<p>The missing cells matter, too. Turning them into zeroes would make newer cohorts appear to have failed before they had the chance to return.</p>
+<p>In this example, a week runs Monday to Sunday. That differs from a rolling seven-day window starting with each person's first action, a distinction <a href="https://amplitude.com/docs/analytics/charts/retention-analysis/retention-analysis-time">Amplitude explains in its retention documentation</a>. The dashboard also identifies first questions from the history available to it. If earlier activity is missing, “first recorded use” may not be someone's first-ever use. Those are limits on the conclusion, even when the chart looks convincing.</p>
+<h2>A plateau gives you people to learn from</h2>
+<figure class="inline-chart editorial-chart" id="plateau-signal" role="img" aria-label="Illustrative cohort B returns: 100,32,32,32,30 percent from week zero through week four. The short flat segment is highlighted. No future values are projected.">
+<div class="chart-head"><p class="chart-kicker">A short segment, not a forecast</p><p class="chart-heading"><strong>A returning group begins to emerge</strong></p><div class="chart-legend"><span class="chart-key"><span class="key-line series-b"></span>Cohort B</span></div></div>
+<div class="chart-measure">Returning users</div><div class="plot-grid"><div class="y-ticks"><span>100%</span><span>50%</span><span>0%</span></div><svg viewbox="0 0 640 240" preserveaspectratio="none" role="presentation" aria-hidden="true"><rect class="plateau-band" x="156" y="148" width="480" height="24" rx="4"></rect><line class="chart-grid" x1="8" y1="12.0" x2="632" y2="12.0"></line><line class="chart-grid" x1="8" y1="120.0" x2="632" y2="120.0"></line><line class="chart-grid" x1="8" y1="228.0" x2="632" y2="228.0"></line><polyline class="chart-series series-b" points="8.00,12.00 164.00,158.88 320.00,158.88 476.00,158.88 632.00,163.20"></polyline><circle class="chart-dot series-b" cx="632.0" cy="163.20000000000002" r="3.2"></circle></svg></div><div class="x-ticks"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span></div><div class="chart-axis-label">Weeks since first action</div>
+<figcaption>The flatter stretch is a signal to investigate. Keep watching whether it holds.</figcaption>
+</figure>
+
+<p>A curve that settles around a similar level above zero for a sustained period suggests that some group has found a recurring use for the product. That is worth understanding before you turn the percentage into a target for everyone else.</p>
+<p>What are those users trying to accomplish? Does the product fit a recurring task? Did they find something during onboarding that others missed? Are they arriving with a need the rest of the audience doesn't share?</p>
+<p>The curve cannot answer those questions. It helps you find the people who can.</p>
+<p>This is also why a couple of flat points deserve patience. A short pause in a decline is not enough to establish a durable pattern. Older cohorts have had more time to reveal whether the product continues to matter, which makes them especially useful when investigating stability.</p>
+<p>Once you make changes, newer cohorts can help you assess whether more people are reaching that value. But compare them at the same age. If an older cohort retained 20% at week four and a newer one retains 30% at week four, that hypothetical improvement is worth investigating. Comparing the newer group's week one with the older group's week four would mix product experience with elapsed time.</p>
+<p>Even a fair comparison doesn't establish the cause. Better onboarding is one possible explanation; attracting users with a stronger need is another. The next question is what changed between the groups and whether you have evidence connecting that change to their behaviour.</p>
+<p>Keep the people count beside the rate while you investigate. Thirty percent of 10 users is three people. Thirty percent of 1,000 is 300. One person's return moves the smaller cohort sharply, so identical percentages can give you very different levels of confidence.</p>
+<h2>A retained group changes the growth equation</h2>
+<p>There is a commercial reason to care about the people who keep returning: new customers can add to an existing customer base when earlier customers stay. When they don't, part of acquisition goes toward replacing what the business has lost.</p>
+<p>The scale can be smaller than the phrase “million-dollar business” suggests. At a hypothetical price of $1,000 per month, 83 paying customers represent $996,000 in annual recurring revenue. That is roughly $1 million ARR from a relatively small number of customers.</p>
+<p>The arithmetic is simple. The assumptions are the work.</p>
+<p>Those customers must pay that price and remain subscribed. Returning to use a feature doesn't establish either condition, and several active users may belong to one paying account. A product-retention curve needs to connect to paid conversion and subscription retention before it can support a revenue projection.</p>
+<p>In the same hypothetical scenario, adding 10 retained paying customers each week for eight weeks gives 80 customers and $960,000 ARR, assuming all remain subscribed. It doesn't promise that acquisition pace, establish paid conversion, or mean the business collected $960,000 during those eight weeks.</p>
+<p>The useful insight is that a modest group can matter enormously when the product continues to serve them. Understanding why they stay gives you something concrete to improve for the next group.</p>
+<h2>The question I want a retention review to answer</h2>
+<p>I want to leave a retention review knowing more about the product, not just whether its latest percentage looks respectable.</p>
+<p>The curves show whether the same groups keep returning. The triangle helps distinguish stronger early retention from lasting retention. The people behind those patterns can explain which parts of the product have become useful and which obstacles are keeping others from getting there.</p>
+<p>That gives the next product decision a basis: a specific group to understand, a possible explanation to test, and later cohorts to watch. Building the dashboard makes those questions easier to revisit. The value comes from what you learn when you do.</p>
+<p>Are users getting enough value to return? And are we getting better at helping them find it?</p>
+<figure class="video-embed" id="cohort-video">
+<p class="video-heading">Watch the cohort analysis</p>
+<iframe title="Cohort retention analysis with Aritra Ghosh" src="https://www.youtube-nocookie.com/embed/_UqhH1qvdLA" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;style&gt;*{box-sizing:border-box}html,body{margin:0;height:100%;background:#161b18}a{display:block;height:100%;color:#fff;text-decoration:none;font:14px system-ui}img{width:100%;height:100%;object-fit:cover;opacity:.78}span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}b{display:flex;align-items:center;justify-content:center;width:66px;height:48px;border-radius:12px;background:#171e1b;box-shadow:0 3px 20px #0005;font-size:22px;font-weight:400}a:focus-visible{outline:3px solid #81aa97;outline-offset:-3px}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;a href=&quot;https://www.youtube-nocookie.com/embed/_UqhH1qvdLA?autoplay=1&quot; aria-label=&quot;Play the cohort retention video&quot;&gt;&lt;img src=&quot;hero.png&quot; alt=&quot;Cohort retention video&quot;&gt;&lt;span&gt;&lt;b&gt;&amp;#9654;&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen="true"></iframe>
+<figcaption><a href="https://www.youtube.com/watch?v=_UqhH1qvdLA">Watch on YouTube</a></figcaption>
+</figure><!--bs-body:end-->
+<footer class="post-footer"><span>Draft for <a href="https://supaboard.ai" data-bs-generated="1">Supaboard</a></span><span>2026-10-14 &middot; Aritra Ghosh</span></footer>
+</article>
+</body>
+</html>

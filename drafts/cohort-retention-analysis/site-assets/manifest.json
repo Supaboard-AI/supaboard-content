@@ -1,0 +1,65 @@
+{
+  "early-versus-lasting-mobile.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/cohort-retention-analysis/5fd553d5e29db165.webp",
+    "key": "blog/cohort-retention-analysis/5fd553d5e29db165.webp",
+    "skipped": false,
+    "sha256": "5fd553d5e29db165c480a8c4646b72812eaab92abbd77621196a9b92237a3f94",
+    "verified": true
+  },
+  "early-versus-lasting.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/cohort-retention-analysis/d9f329307da79ce6.webp",
+    "key": "blog/cohort-retention-analysis/d9f329307da79ce6.webp",
+    "skipped": true,
+    "sha256": "d9f329307da79ce64f42248a0a79ea9d6c409bd7ffdfeb9386fce3279dc7913f",
+    "verified": true
+  },
+  "hero.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/cohort-retention-analysis/a1f557d4da8c55e6.webp",
+    "key": "blog/cohort-retention-analysis/a1f557d4da8c55e6.webp",
+    "skipped": true,
+    "sha256": "a1f557d4da8c55e6327ab2df6d512b65b5d5a045238c79a46533e30de055a719",
+    "verified": true
+  },
+  "plateau-signal-mobile.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/cohort-retention-analysis/528e0bd49e87bc77.webp",
+    "key": "blog/cohort-retention-analysis/528e0bd49e87bc77.webp",
+    "skipped": false,
+    "sha256": "528e0bd49e87bc774aded2101f3e16ed395d9ce7fe621ec655ae7853ff8a088d",
+    "verified": true
+  },
+  "plateau-signal.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/cohort-retention-analysis/f74735785384bf7c.webp",
+    "key": "blog/cohort-retention-analysis/f74735785384bf7c.webp",
+    "skipped": true,
+    "sha256": "f74735785384bf7ca4e9e88c8a046bb11f0275ee69503164ff60c0a559e6ebf9",
+    "verified": true
+  },
+  "recorded-cohort-curves-mobile.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/cohort-retention-analysis/171cfbc9dddee7d6.webp",
+    "key": "blog/cohort-retention-analysis/171cfbc9dddee7d6.webp",
+    "skipped": false,
+    "sha256": "171cfbc9dddee7d68a2757d0753700d71ff124bd718635671cc96e25e99ac5cf",
+    "verified": true
+  },
+  "recorded-cohort-curves.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/cohort-retention-analysis/3281ddfab6207b0b.webp",
+    "key": "blog/cohort-retention-analysis/3281ddfab6207b0b.webp",
+    "skipped": true,
+    "sha256": "3281ddfab6207b0b24920888cc859545b4c6c32de163dc6fb53c811cb148227a",
+    "verified": true
+  },
+  "same-age-comparison-mobile.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/cohort-retention-analysis/f3c28adeaf2367ee.webp",
+    "key": "blog/cohort-retention-analysis/f3c28adeaf2367ee.webp",
+    "skipped": false,
+    "sha256": "f3c28adeaf2367eec0256e0984179cad18ab2162088076f682733ed7eaa38464",
+    "verified": true
+  },
+  "same-age-comparison.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/cohort-retention-analysis/18e9838557490cea.webp",
+    "key": "blog/cohort-retention-analysis/18e9838557490cea.webp",
+    "skipped": true,
+    "sha256": "18e9838557490cea85fb12120efefe0c0ec15c72168451435a7afd4633cfdf47",
+    "verified": true
+  }
+}

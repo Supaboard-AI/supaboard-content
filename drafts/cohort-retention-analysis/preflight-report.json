@@ -1,0 +1,217 @@
+{
+  "draft": "/Users/ani/Projects/fyipen-projects/supaboard/supaboard-content/drafts/cohort-retention-analysis",
+  "strict": true,
+  "blocked": true,
+  "gates": [
+    {
+      "gate": 1,
+      "name": "Capability Discovery",
+      "passed": true,
+      "violations": [],
+      "warnings": [
+        "live tool availability not provided; MCP image tools cannot be verified from declarations"
+      ],
+      "capabilities": {
+        "live_tools": [],
+        "live_tools_source": "not-provided",
+        "env_keys_present": {
+          "GOOGLE_AI_API_KEY": false,
+          "UNSPLASH_ACCESS_KEY": false,
+          "PEXELS_API_KEY": false,
+          "PIXABAY_API_KEY": false
+        },
+        "python_deps": {
+          "patchright": true,
+          "playwright": false,
+          "weasyprint": false,
+          "google.genai": false,
+          "requests": true,
+          "markdown": true
+        },
+        "project_root_files": {
+          "BRAND.md": false,
+          "VOICE.md": false,
+          "DISCOURSE.md": false
+        },
+        "agents": {
+          "blog-reviewer": true,
+          "blog-researcher": true,
+          "blog-writer": true,
+          "blog-seo": true,
+          "blog-translator": true
+        },
+        "scripts": {
+          "scripts/lint_prose.py": true,
+          "scripts/load_untrusted_root.py": true,
+          "scripts/analyze_blog.py": true
+        },
+        "image_gen_path_available": true,
+        "openverse_assumed_available": true
+      }
+    },
+    {
+      "gate": 2,
+      "name": "Format Completeness",
+      "passed": false,
+      "violations": [
+        "active content in cohort-retention-analysis.html: <iframe src=\"https://www.youtube-nocookie.com/embe...\"> element; remove it (iframe, object, embed and frame are not allowed)"
+      ],
+      "warnings": [],
+      "artifacts": {
+        "slug": "cohort-retention-analysis",
+        "md": [
+          "cohort-retention-analysis.md"
+        ],
+        "html": [
+          "cohort-retention-analysis.html"
+        ],
+        "pdf": [
+          "cohort-retention-analysis.pdf"
+        ],
+        "hero": [
+          "hero.png"
+        ],
+        "review_present": true
+      },
+      "hero_checks": [
+        {
+          "file": "hero.png",
+          "format": "PNG",
+          "width": 1672,
+          "height": 941,
+          "decoder": "pillow"
+        }
+      ],
+      "pdf_check": {
+        "file": "cohort-retention-analysis.pdf",
+        "bytes": 1447900,
+        "pages": 8
+      }
+    },
+    {
+      "gate": 3,
+      "name": "Visual Verification",
+      "passed": true,
+      "violations": [],
+      "warnings": [
+        "backend: patchright"
+      ],
+      "per_viewport": {
+        "mobile": {
+          "result": {
+            "hiddenText": {
+              "chars": 0,
+              "elements": 0,
+              "first": null
+            },
+            "overflows": [],
+            "bg": "rgb(250, 250, 249)",
+            "jsonLdValid": true,
+            "jsonLdType": "BlogPosting",
+            "jsonLdMissingFields": [],
+            "jsonLdVisibleConsistent": true,
+            "jsonLdConsistencyMismatches": [],
+            "jsonLdWordCount": 1886,
+            "jsonLdConsistencyDetails": {}
+          },
+          "console_errors": []
+        },
+        "tablet": {
+          "result": {
+            "hiddenText": {
+              "chars": 0,
+              "elements": 0,
+              "first": null
+            },
+            "overflows": [],
+            "bg": "rgb(250, 250, 249)",
+            "jsonLdValid": true,
+            "jsonLdType": "BlogPosting",
+            "jsonLdMissingFields": [],
+            "jsonLdVisibleConsistent": true,
+            "jsonLdConsistencyMismatches": [],
+            "jsonLdWordCount": 1886,
+            "jsonLdConsistencyDetails": {}
+          },
+          "console_errors": []
+        },
+        "desktop": {
+          "result": {
+            "hiddenText": {
+              "chars": 0,
+              "elements": 0,
+              "first": null
+            },
+            "overflows": [],
+            "bg": "rgb(250, 250, 249)",
+            "jsonLdValid": true,
+            "jsonLdType": "BlogPosting",
+            "jsonLdMissingFields": [],
+            "jsonLdVisibleConsistent": true,
+            "jsonLdConsistencyMismatches": [],
+            "jsonLdWordCount": 1886,
+            "jsonLdConsistencyDetails": {}
+          },
+          "console_errors": [],
+          "back_button": {
+            "attempted_back": true,
+            "observation_complete": true,
+            "returned_to_previous": true,
+            "before_url": "file:///Users/ani/Projects/fyipen-projects/supaboard/supaboard-content/drafts/cohort-retention-analysis/cohort-retention-analysis.html",
+            "after_url": "about:blank",
+            "checked": true,
+            "conclusive": true,
+            "obstructed": false,
+            "violation": null
+          }
+        },
+        "desktop-dark": {
+          "bg": "rgb(24, 24, 27)",
+          "light_bg": "rgb(250, 250, 249)"
+        }
+      }
+    },
+    {
+      "gate": 4,
+      "name": "Content Review",
+      "passed": true,
+      "violations": [],
+      "warnings": [],
+      "blocking": false,
+      "reason": "94/100 overall, no P0; requested visual and editorial changes are verified, and the explicitly requested iframe is permitted while playback remains separately unverified",
+      "score": 94
+    },
+    {
+      "gate": 5,
+      "name": "Asset + Link Integrity",
+      "passed": true,
+      "violations": [],
+      "warnings": [],
+      "imgs": [
+        "hero.png"
+      ],
+      "links_checked": 7,
+      "generated_links_skipped": 1,
+      "json_ld_valid": true,
+      "declared_word_count": 1886,
+      "schema_validation_source": "source_html",
+      "actual_word_count": 1891,
+      "googlebot_byte_check": {
+        "limit_bytes": 2097152,
+        "artifact_bytes": 33301,
+        "critical_positions": {
+          "title": 297,
+          "meta": 369,
+          "canonical": 561,
+          "json_ld": 2392,
+          "main_content": 11620
+        },
+        "critical_after_cutoff": [],
+        "inline_bloat_bytes": 9211
+      },
+      "discover_check": {
+        "enabled": false
+      }
+    }
+  ]
+}

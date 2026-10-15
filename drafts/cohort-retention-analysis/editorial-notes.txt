@@ -1,0 +1,19 @@
+Unpublished editorial draft, rewritten as a founder essay at the user’s request.
+Thesis: a strong first week can hide a declining cohort; sustained recurring use requires history and investigation.
+First-person voice and Aritra byline expressly requested by the user.
+Uploaded video remains primary source. Full extraction preserved in YouTube Manager/source-analysis/_UqhH1qvdLA/video-context.md.
+Visual evidence: generated illustrative curve infographic; complete six-row recorded dashboard triangle.
+Walkthrough retained as support for fair comparisons and repeat observation, not the article’s chronological structure.
+Dashboard numbers are labeled recorded demonstration values, not verified production metrics. Hypothetical examples remain separate.
+Chart uses 35% at week three, matching the source plot rather than conflicting 25% caption.
+ARR arithmetic corrected; payment, account, subscription, and cash-collection distinctions retained.
+No new research, customer result, fabricated author experience, or performance benchmark claimed.
+Video CTA preserved in closing practical resource note. No post published or added to posts/.
+Hero generated via built-in image_gen; prompt and source provenance saved beside the draft.
+
+Inline visual revision: four accessible SVG figures now sit beside the relevant arguments: illustrative A/B curves, recorded six-cohort curves, week-one comparison, and an annotated short plateau. Number-list paragraphs were replaced by interpretation. Chart values preserved in chart-data/source-values.json. Mobile and desktop screenshots inspected.
+
+Chart design revision: shared subdued terracotta/sage palette, quiet HTML labels at fixed reading sizes, thin SVG lines, fewer marks, and generous spacing. Exact source data unchanged. Older cohort highlighted; newer cohorts grouped visually with full values retained in the table.
+Removed timestamp-style captions and promotional walkthrough phrasing. Closing skill CTA replaced by user-requested YouTube embed.
+User explicitly requested the YouTube embed, overriding the blog skill static-only iframe restriction. Standard Gate 2 is expected to flag that single intentional iframe; do not describe this as an unqualified all-gates pass.
+Embed is click-to-load, with a local poster and fixed youtube-nocookie.com destination. No video/network request before play. Playback in a file preview is not verified; check after hosting. YouTube requires HTTP Referer or equivalent client identification: https://developers.google.com/youtube/iframe_api_reference .

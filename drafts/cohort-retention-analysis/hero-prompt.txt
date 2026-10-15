@@ -1,0 +1,14 @@
+Create a polished editorial infographic cover for a Supaboard blog about cohort retention. Landscape 16:9, 1920x1080 or comparable high resolution. A crisp restrained editorial data graphic, warm ivory background, charcoal typography, burnt-orange and deep teal series, generous margins, readable text. NO people, photos, faces, 3D objects or decorative dashboard widgets.
+Exact headline at upper left, large: "A strong start can fade."
+Small eyebrow: "COHORT RETENTION"
+Below headline, a clean, precisely plotted large line chart occupying most of the canvas.
+X axis label: "Weeks since first use". Five ticks: 0, 1, 2, 3, 4.
+Y axis label: "Users returning". Ticks 0%, 25%, 50%, 75%, 100%.
+Data EXACT, both start at 100% at Week 0:
+Orange Cohort A: Week 0 100%, Week 1 75%, Week 2 50%, Week 3 35%, Week 4 0%.
+Teal Cohort B: Week 0 100%, Week 1 32%, Week 2 32%, Week 3 32%, Week 4 30%.
+Connect five points per series using straight lines, clearly marked points. Orange solid line and circles, teal dashed line and squares. Grid lines faint, no area fills. Label Week 1 orange point "75%" and teal point "32%". Direct endpoint labels "A: 0%" and "B: 30%". Accurate geometry is essential: the orange series is higher through week 3 and crosses below teal between weeks 3 and 4. No smoothing that invents points.
+Bottom left caption: "The first week tells only part of the story."
+Bottom small footer: "Illustrative cohorts, not customer results."
+Small wordmark bottom right: "Supaboard"
+Style: sophisticated magazine data visualization, beautifully spaced typography, meaningful chart is the hero, no extraneous icons. All labels comfortably inside image. No overlapping labels.

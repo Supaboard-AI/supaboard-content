@@ -1,0 +1,8 @@
+{
+  "requestedIframeCount": 1,
+  "preClickRemoteRequests": [],
+  "clickedDestination": "https://www.youtube-nocookie.com/embed/_UqhH1qvdLA?autoplay=1",
+  "localFixtureInterceptedNavigation": true,
+  "actualYouTubePlaybackTested": false,
+  "note": "Embed is deliberately user-requested; standard blog Gate 2 iframe ban is overridden by the user instruction. Hosted playback still requires verification."
+}

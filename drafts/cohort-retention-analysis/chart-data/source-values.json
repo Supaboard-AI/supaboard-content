@@ -1,0 +1,55 @@
+{
+  "illustrative": {
+    "A": [
+      100,
+      75,
+      50,
+      35,
+      0
+    ],
+    "B": [
+      100,
+      32,
+      32,
+      32,
+      30
+    ]
+  },
+  "recorded_dashboard": {
+    "31 Aug": [
+      100,
+      44,
+      23,
+      16,
+      13,
+      12
+    ],
+    "7 Sep": [
+      100,
+      46,
+      26,
+      18,
+      15
+    ],
+    "14 Sep": [
+      100,
+      48,
+      28,
+      19
+    ],
+    "21 Sep": [
+      100,
+      50,
+      30
+    ],
+    "28 Sep": [
+      100,
+      53
+    ],
+    "5 Oct": [
+      100
+    ]
+  },
+  "source": "https://www.youtube.com/watch?v=_UqhH1qvdLA",
+  "notes": "Recorded dashboard display, not verified production metrics. Missing observations are not zero."
+}

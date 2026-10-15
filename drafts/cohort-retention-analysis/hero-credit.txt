@@ -1,0 +1,1 @@
+Original infographic generated with the built-in OpenAI image_gen tool. No source photo used. Illustrative values from the supplied video: A [100,75,50,35,0], B [100,32,32,32,30]. Human visual check confirmed both trajectories and labels.
