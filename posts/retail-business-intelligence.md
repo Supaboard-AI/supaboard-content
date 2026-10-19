@@ -151,7 +151,7 @@ statsCount: 9
 
 Retail has never been short of data. What it has always struggled with is making that data useful, fast enough to matter.
 
-During demos of [Supaboard's AI analysts](/product/ask-analysts), we hear the same question from retail directors and operations leads running 10 to 20-store chains: _"We're sitting on months of sales data, inventory records, and customer history and we still can't get a clear answer on why revenue dropped last quarter."_
+During demos of [Supaboard's AI Analyst](/product/ask-analysts), we hear the same question from retail directors and operations leads running 10 to 20-store chains: _"We're sitting on months of sales data, inventory records, and customer history and we still can't get a clear answer on why revenue dropped last quarter."_
 
 That gap, between data that exists and decisions that are informed, is exactly what retail business intelligence is designed to close.
 
@@ -461,7 +461,7 @@ Effective implementation follows a defined sequence. Teams that deploy dashboard
 
 Map every system in your current stack: POS, e-commerce platform, inventory management, CRM, financial systems. Document what each captures, data quality, and update frequency. This audit almost always surfaces both unused data and collection gaps.
 
-_Connect all your tools instantly and turn scattered data into unified insights that power smarter, faster business decisions with_ [_Supaboard_](/product/data-connections)
+_Query your database and any tool with an MCP server live, and let the systems in your audit answer one question together, with_ [_Supaboard_](/product/data-connections)
 
 ### Step 2: Define the Decisions BI Must Support (Week 2–3)
 
@@ -499,7 +499,7 @@ Both competitors and most BI guides skip this section. That is exactly why it is
 
 **Mistake 4: Using weekly data for daily decisions** Inventory and sales decisions made on data that is 48–72 hours stale carry real operational risk. Establishing data freshness requirements before platform selection, not after is essential.
 
-**Mistake 5: Assuming the first diagnosis is correct** The most valuable thing BI enables is not confirming your existing assumptions, it is challenging them. The fashion retailer in the case study above assumed footfall decline was the problem. The data showed it was inventory imbalance. Teams that use BI to confirm what they already believe are paying for sophisticated confirmation bias.
+**Mistake 5: Assuming the first diagnosis is correct** The most valuable thing BI enables is not confirming your existing assumptions, it is challenging them. The fashion retailer in the worked example above assumed footfall decline was the problem. The data showed it was inventory imbalance. Teams that use BI to confirm what they already believe are paying for sophisticated confirmation bias.
 
 **Mistake 6: Neglecting offline store data** Many BI implementations prioritize e-commerce data because it is cleaner and more accessible. Physical store data, which represents the majority of revenue for most mid-market chains, gets deprioritized or excluded. This creates a distorted view of business performance that leads to systematically wrong decisions about inventory allocation and store investment.
 
@@ -517,7 +517,7 @@ Both competitors and most BI guides skip this section. That is exactly why it is
 | AI / anomaly detection | Proactive alerts, not just on-demand queries | Purely descriptive — no forward-looking capability |
 | Scalability | Handles growth in store count and data volume without re-implementation | Fixed-capacity pricing that penalizes growth |
 
-> **Where Supaboard fits:** Supaboard is built specifically for mid-market retail chains, pre-built integrations with the most common retail stacks, dashboards designed for operators rather than analysts, and a setup timeline measured in weeks rather than months. If you're evaluating options, [see how it compares for your specific stack →](/blog/best-ai-bi-tools)
+> **Where Supaboard fits:** Supaboard is the one AI agent that does the whole analyst job on your own database. For a retail chain, that means asking why a store or category moved and getting the answer on live data with the SQL shown, [dashboards built from a prompt](/product/dashboards) for operators rather than analysts, and [scheduled reports and alerts](/product/automations), such as the weekly trading report and stockout alerts, running on their own, without waiting on anyone. If you're evaluating options, [see how it compares for your specific stack →](/blog/best-ai-bi-tools)
 
 <!-- section:content-16 -->
 
@@ -525,7 +525,7 @@ Both competitors and most BI guides skip this section. That is exactly why it is
 
 | Platform | Best For | Strengths | Limitations |
 | --- | --- | --- | --- |
-| Supaboard | Mid-market retail chains (10–30 stores + e-com) | Fast setup, retail-native, operator-accessible | Growing feature set |
+| Supaboard | Mid-market retail chains (10–30 stores + e-com) | Fast setup, one agent for the whole analyst job, shows its working | Newer, shorter track record than the incumbents |
 | Tableau | Enterprise with large data teams | Deep visualization, flexible | High cost, requires analyst |
 | Microsoft Power BI | Microsoft-stack organizations | Strong integration with D365, Excel | Complex for non-technical users |
 | Domo | Enterprise operations | Broad data connectors, strong mobile | Expensive, enterprise-focused |
@@ -622,10 +622,10 @@ Because chain averages hide the variance that is actually fixable. The most comm
 
 The retailers that outperform in the next three to five years will not necessarily have better products, better locations, or larger marketing budgets than their competitors. They will have better information, and they will act on it faster.
 
-The mid-market chain in our case study did not need new data. Every signal, inventory imbalance, stockout frequency, declining repeat purchase rates, misallocated discount spend, was present in systems they already owned. What was absent was the infrastructure to see those signals together, and the operational framework to act on them.
+The mid-market chain in the example above did not need new data. Every signal, inventory imbalance, stockout frequency, declining repeat purchase rates, misallocated discount spend, was present in systems they already owned. What was absent was the infrastructure to see those signals together, and the operational framework to act on them.
 
 That is what retail business intelligence delivers at its best: not more complexity, but more clarity. Not more dashboards, but better decisions.
 
 If you are evaluating where to start, the most practical first step is straightforward: map the data you already have, identify three to five decisions your team makes weekly on insufficient information, and find a tool that connects the two. The gap is smaller than it looks. The payoff is larger than most teams expect.
 
-> **Ready to see what this looks like for your specific store setup?** [Request a Supaboard demo →](https://calendly.com/aritra-ewq/supaboard-demo) we typically identify the first high-value BI opportunity within the first 30 minutes of your current data setup.
+> **Ready to see what this looks like for your specific store setup?** In the demo you'll see a retail question answered, inspect the query behind it, and talk through your own data sources. [**Book a 30-minute demo**](https://calendly.com/aritra-ewq/supaboard-demo)

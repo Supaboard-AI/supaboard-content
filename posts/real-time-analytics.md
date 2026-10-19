@@ -336,7 +336,7 @@ Below is a simple comparison of popular options.
 
 | Platform | Best For | Key Strength |
 | --- | --- | --- |
-| [Supaboard](/product/dashboards) | SaaS and business teams | AI-powered dashboards and self-serve analytics |
+| Supaboard | Operators at companies with 50 to 500 staff and no data team | One agent for the whole analyst job: queries your database live, builds [AI-generated dashboards](/product/dashboards) and runs [scheduled reports and SQL alerts](/product/automations) |
 | Datadog | DevOps and engineering teams | Monitoring, observability, and infrastructure visibility |
 | Snowflake | Enterprises | Scalable cloud data platform for large workloads |
 | Tableau | Analysts and data teams | Advanced visualization and interactive reporting |

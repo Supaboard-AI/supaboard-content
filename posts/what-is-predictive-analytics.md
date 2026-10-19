@@ -214,32 +214,32 @@ Instead of reacting to supply chain issues after they occur, you operate proacti
 
 While predictive analytics can generate powerful forecasts, the real challenge is turning those insights into everyday decisions your team can actually use. Many organizations struggle with this “last mile” of analytics, where insights exist, but action doesn’t follow.
 
-This is where Supaboard stands out.
+Supaboard is the one AI agent that does the whole analyst job on your own database.
 
-[Supaboard's analyst agents](/product/agents) bring together business intelligence, performance management, and advanced analytics into a single, unified platform, reading live from [12 databases and warehouses](/product/data-connections). Instead of switching between tools or relying on static reports, you can interact with your data in real time—making insights more accessible, actionable, and aligned with business goals.
+Its place in predictive work is that last mile: watching the numbers your forecasts are meant to move. It reads live from [12 databases and warehouses](/product/data-connections), answers questions on that data with the SQL shown, runs the weekly report on its own, and checks the figures you care about on a schedule. [Supaboard's agents](/product/agents) learn your definitions from corrections, so the actuals you compare a forecast against use your team's definitions.
 
 ### What You Can Do With Supaboard
 
 With Supaboard, you can:
 
--   Build interactive dashboards that update dynamically
+-   Build [AI-generated dashboards](/product/dashboards) on live data, with an Insights panel that writes up what changed beside the charts
     
--   Track predictive KPIs alongside real-time performance metrics
+-   Track forecast targets alongside actuals, when both live in your database
     
--   Monitor early warning signals before issues escalate
+-   Set alerts: a SQL check on your data, run on a schedule, with an explanation of what changed, delivered by email or webhook
     
--   Connect insights directly to strategic business objectives
+-   Get [automated reporting](/product/automations): the weekly report runs on its own, with what moved and why
     
--   Enable seamless collaboration across teams and departments
+-   Share dashboards and Datasites with your team, with viewers free
     
 
 ### Why This Matters
 
 Industry research from leading platforms like [Google Cloud](https://cloud.google.com/learn/what-is-business-intelligence) and [IBM](https://www.ibm.com/topics/predictive-analytics) consistently highlights a key gap: organizations often invest in analytics, but struggle to operationalize insights across teams. Similarly, practitioners frequently point out that complex tools and fragmented workflows slow down adoption.
 
-Supaboard addresses this by focusing on **usability and accessibility**, ensuring that insights are not limited to data specialists, but are available to decision-makers across the organization.
+Supaboard addresses this by putting the answer in front of the people who make the decision: the operators who own the weekly review can ask, check the SQL and act **without waiting on anyone**.
 
-By combining modern BI capabilities with an intuitive interface, Supaboard helps you move from insight to action faster, so your data doesn’t just inform decisions, it drives them.
+Because the same agent answers the question, builds the dashboard and runs the alert, Supaboard helps you move from insight to action faster, so your data doesn’t just inform decisions, it drives them.
 
 <!-- section:content-6 -->
 

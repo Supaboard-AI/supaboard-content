@@ -161,7 +161,7 @@ This guide explains what business intelligence really is, how BI tools work, why
 
 ## Cloud BI vs Traditional BI
 
-One decision many modern businesses face today is **Cloud BI vs Traditional BI**. In this Complete Guide Cloud BI Vs Traditional BI, Supaboard explains the difference between Cloud BI and Traditional BI. Cloud platforms offer better scalability, lower cost of ownership, real-time data access and easier collaboration than the more rigid traditional on-premise BI systems. The blog covers core BI concepts, tool comparisons like Supaboard, Power BI, Tableau, common challenges in BI implementation, and upcoming trends in the space of AI-powered analytics. It is perfect for organizations looking to transition from legacy reporting to smart, agile business intelligence.
+One decision many modern businesses face today is **Cloud BI vs Traditional BI**. This guide explains the difference between Cloud BI and Traditional BI. Cloud platforms offer better scalability, lower cost of ownership, real-time data access and easier collaboration than the more rigid traditional on-premise BI systems. It also covers core BI concepts, a comparison of tools such as Power BI, Tableau and Supaboard, common challenges in BI implementation, and upcoming trends in the space of AI-powered analytics. It is perfect for organizations looking to transition from legacy reporting to smart, agile business intelligence.
 
 <!-- section:content-2 -->
 
@@ -302,7 +302,7 @@ Cultural resistance also limits adoption. Employees may distrust analytics or fe
 | Power BI | Data modeling, dashboards, reporting, DAX formulas | AI visuals, forecasting, anomaly detection | Strong integration with SQL, Excel, APIs, cloud databases | Advanced interactive dashboards | Enterprise-grade access control | Cloud / Hybrid | High | Subscription-based | Corporate reporting & Microsoft environments |
 | Tableau | Drag-and-drop dashboards, advanced visualization engine | Basic predictive modeling | Strong database & cloud connectors | Industry-leading data visualization | Role-based access & governance | Cloud / On-premise | High | License + subscription | Visualization-focused analytics teams |
 | ThoughtSpot | Search-based analytics, real-time dashboards | Advanced ML, NLP, automated insights | Cloud warehouse integrations | Clean executive dashboards | Enterprise compliance controls | Cloud | High | Enterprise pricing | AI-driven self-service analytics |
-| [Supaboard](/pricing) | Real-time performance dashboards, KPI tracking | AI-powered insights, automated summaries | SaaS tools, databases, APIs | Executive-ready dashboards | Secure cloud infrastructure | Cloud-native | High | Subscription model | Modern enterprises & growth-stage companies |
+| [Supaboard](/pricing) | Answers on live data with the SQL shown, dashboards, reports and decks | Scheduled weekly reports, alerts on SQL checks, an Insights panel on each dashboard | 12 databases and warehouses, plus any tool with an MCP server | Dashboards and Datasites | RBAC on every plan; SSO and audit logs on Enterprise; SOC 2 Type II | Cloud, or self-hosted on Enterprise | High | Per editor; viewers are free | Operators at companies with 50 to 500 staff who cannot staff a data team |
 | Qlik | Associative analytics engine, complex data modeling | Smart data indexing & AI insights | ERP, CRM, databases | Strong analytical visualizations | Advanced governance framework | Cloud / On-premise | Very High | Enterprise licensing | Complex enterprise data environments |
 | Sisense | Embedded analytics, API-driven dashboards | Moderate AI integration | APIs, warehouses, SaaS connectors | Customizable dashboards | Strong embedded security controls | Cloud / Hybrid | High | Enterprise pricing | SaaS platforms & product analytics |
 
@@ -318,7 +318,7 @@ Cultural resistance also limits adoption. Employees may distrust analytics or fe
 
 ### Supaboard
 
-[Supaboard](/product/dashboards) positions itself as a modern, enterprise-ready business intelligence platform built for speed and clarity. Unlike traditional BI tools that require long implementation cycles, Supaboard emphasizes rapid deployment and executive-friendly dashboards. It focuses on real-time performance visibility, growth analytics, and AI-enhanced insights. For enterprises seeking faster decision cycles without heavy infrastructure complexity, Supaboard offers a streamlined and scalable solution. Its intuitive interface reduces onboarding friction, making it particularly attractive for growth-stage companies and modern enterprises prioritizing agility.
+Supaboard is the one AI agent that does the whole analyst job on your own database. Unlike traditional BI tools that require long implementation cycles, it connects live and read-only to [12 databases and warehouses](/product/data-connections), and reads any tool with an MCP server, such as HubSpot or Stripe, without copying the data. It answers questions with the SQL shown, builds [AI-generated dashboards](/product/dashboards), reports and decks, and runs the [automated reports and alerts](/product/automations) on its own, so the people running the business see what moved and why without waiting on anyone. It learns your definitions from corrections: a thumbs-down becomes a rule, and approved SQL becomes a verified example. That makes it a fit for operators at companies with 50 to 500 staff whose business runs on a database but who cannot staff a data team.
 
 ### ThoughtSpot
 
@@ -340,7 +340,7 @@ Selecting business intelligence software requires balancing technical capability
 
 Usability is equally important. [Self-service BI](/blog/self-service-bi) tools increase adoption by allowing non-technical users to explore data independently. However, governance mechanisms must remain strong.
 
-Organizations should also assess long-term scalability, vendor support, and total cost of ownership. A poorly aligned platform can limit growth and reduce ROI.
+Organizations should also assess long-term scalability, vendor support, and total cost of ownership. A poorly aligned platform can limit growth and reduce ROI. For a vendor-by-vendor view, you can [compare AI BI tools](/compare) side by side.
 
 <!-- section:content-13 -->
 

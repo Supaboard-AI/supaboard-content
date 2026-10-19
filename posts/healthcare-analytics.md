@@ -280,7 +280,7 @@ Revenue cycle work, because the data is already structured, the feedback loop is
 
 For healthcare providers in India and worldwide, the journey toward fully proactive care requires focus on data quality, ethical implementation, clinician collaboration, and continuous improvement. Organizations that embrace this technology thoughtfully will be best positioned to deliver high-quality, efficient, and patient-centered care in the coming years.
 
-Supaboard's healthcare customers run this in production: Legend EHR gave every clinic manager their own analyst, and Jindal Healthcare cut analytics costs by 90%. See [how the AI analyst works](/product/ask-analysts).
+Supaboard is the one AI agent that does the whole analyst job on your own database. Its healthcare customers run it in production: Legend EHR gave every clinic manager their own analyst, and Jindal Healthcare cut analytics costs by 90%. Where protected health information is in scope, the HIPAA BAA is available on [Enterprise](/enterprise). See [how Supaboard's AI Analyst works](/product/ask-analysts).
 
 **Related Blogs:**
 

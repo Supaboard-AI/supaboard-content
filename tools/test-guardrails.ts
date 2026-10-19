@@ -8,6 +8,7 @@
 import assert from "node:assert/strict";
 import { validateCorpus, slugProblems } from "../schema/frontmatter.ts";
 import { analyze } from "./analyze.ts";
+import { BANNED } from "./banned.ts";
 
 let passed = 0;
 const check = (name: string, fn: () => void) => {
@@ -168,6 +169,29 @@ check("a title over 65 chars fails", () => {
 check("an FAQ answer outside 40-80 words fails", () => {
   const short = [{ q: "What is retail BI?", a: "Not enough words here." }];
   assert.ok(only({ ...GOOD, faq: [...Array(6)].map(() => short[0]) }).some((i) => i.path.includes("a")));
+});
+
+const banned = (text: string) => BANNED.some(([re]) => re.test(text));
+
+check("retired Supaboard claims are banned phrases", () => {
+  for (const bad of [
+    "Supaboard advertises 97.8% accuracy.",
+    "It reads 22 apps through MCP.",
+    "Pricing is flat per seat.",
+    "Supaboard is priced flat-per-editor.",
+    "The AI is unmetered.",
+    "See beyond dashboards with Supaboard.",
+    "Supaboard's Deep Dive mode explains the change.",
+  ]) assert.ok(banned(bad), bad);
+});
+
+check("ordinary prose is not a banned phrase", () => {
+  for (const ok of [
+    "Take a deep dive into cohort retention.",
+    "ThoughtSpot Liveboards are its dashboards.",
+    "Any tool with an MCP server, 22 of them ready to add.",
+    "Priced per editor, with the price published.",
+  ]) assert.ok(!banned(ok), ok);
 });
 
 console.log(`\n${passed} guardrail tests passed\n`);

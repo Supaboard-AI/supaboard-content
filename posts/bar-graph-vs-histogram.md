@@ -339,34 +339,34 @@ While many tools let you manually create charts, modern BI platforms can intelli
 
 ### Why Use Supaboard for Creating Bar Graphs and Histograms
 
-[Supaboard](/product/dashboards) is built to make data visualization faster and more accurate for analytics, product, and business teams, across [12 databases and warehouses](/product/data-connections).
+Supaboard is the one AI agent that does the whole analyst job on your own database. Choosing the chart is part of that job: its [AI dashboard generator](/product/dashboards) builds dashboards from [12 databases and warehouses](/product/data-connections) read live, so every chart is drawn from current data rather than an export.
 
-Instead of manually struggling with **histogram vs bar graph** decisions, Supaboard analyzes your data and automatically suggests the most appropriate chart, whether it’s a bar graph for category comparisons or a histogram for distribution analysis.
+Instead of settling **histogram vs bar graph** decisions by habit, you describe what you want to see and Supaboard picks a chart that fits the shape of the data. It hides the chart types that cannot render the data you gave it, and every chart can be changed afterwards.
 
 **Key advantages of using Supaboard:**
 
--   Automatically detects data type and recommends the right chart (bar graph or histogram)
+-   Picks a chart that fits the shape of the data, such as bars for a comparison across categories
     
--   Create professional dashboards in minutes without writing SQL or code
+-   Builds a dashboard from a prompt, with the SQL behind every chart shown
     
--   Designed specifically for business and product teams who need fast, accurate insights
+-   Built for operators who cannot staff a data team and need answers without waiting on anyone
     
--   Reduces common visualization errors that often occur in traditional tools
+-   Learns your definitions from corrections, so a metric means the same thing on every chart
     
--   Supports both categorical comparisons and continuous data distribution analysis seamlessly
+-   Answers the follow-up question, such as why one region dropped, by showing what moved and why
     
--   Clean, interactive visualizations that are easy to share and understand
+-   Dashboards can be shared on a link, embedded, or sent as [scheduled reports](/product/automations) in PDF, PowerPoint or Excel
     
 
-Whether you need to compare sales performance across regions using bar graphs or analyze customer age distribution with histograms, Supaboard helps you choose and create the right chart quickly and confidently.
+Whether you need to compare sales performance across regions using bar graphs or analyze customer age distribution with histograms, Supaboard shows the query behind each chart, so you can check it answers the question you meant to ask.
 
 ![Supaboard dashboard comparing regional sales as a bar graph alongside a distribution histogram](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/bar-graph-vs-histogram/d3b4435a2a3f6b4a.png?w=1132&h=647)
 
 #### Try Supaboard
 
-If you want to create better dashboards and avoid common **histogram vs bar graph** mistakes, try Supaboard with your own data and see how it simplifies analysis.
+If you want dashboards that avoid the common **histogram vs bar graph** mistakes, and the answer behind each chart without waiting on anyone, try Supaboard on your own database.
 
-Start on the [**Free plan**](https://auth.supaboard.ai/onboard/register) and build your first dashboard in minutes, or [Book A Demo](https://calendly.com/aritra-ewq/supaboard-demo)
+[**Start Free**](https://auth.supaboard.ai/onboard/register), or [Book a 30-minute demo](https://calendly.com/aritra-ewq/supaboard-demo).
 
 <!-- section:content-12 -->
 
@@ -422,6 +422,6 @@ Using the wrong chart can distort insights, mislead stakeholders, and result in 
 
 By correctly matching the chart to your data type and goal, you make your analysis clearer, your reports more trustworthy, and your decisions more effective.
 
-Modern tools like [**Supaboard's AI analysts**](/product/ask-analysts) take this even further by automatically recommending the right visualization, so teams can focus on insights instead of struggling with chart selection.
+Modern tools like [**Supaboard's AI Analyst**](/product/ask-analysts) take this further: it picks a chart that fits the shape of the data and shows the SQL behind it, so teams can focus on what moved and why instead of struggling with chart selection.
 
 Start applying these principles today and turn your data into clear, actionable intelligence.

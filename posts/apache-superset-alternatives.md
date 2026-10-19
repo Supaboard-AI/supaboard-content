@@ -254,20 +254,22 @@ As analytics use cases expand beyond internal dashboards to embedded, AI-assiste
 ### Supaboard
 
 **Positioning (2026):**  
-Supaboard is a **full-stack analytics platform** that unifies **BI, [embedded analytics](/product/datasites), and AI-driven insights** in a single system. It is built to operationalize analytics across internal teams and external customers without heavy BI infrastructure. Objection.ai is the shape of that team: eleven systems unified and marketing and product answering their own questions, with no data analysts on staff.
+Supaboard is the one AI agent that does the whole analyst job on your own database. It answers questions on live data with the SQL shown, builds the dashboards, reports and decks, runs the [scheduled reports and alerts](/product/automations) on its own, and publishes [Datasites and embeds](/product/datasites) for people outside the team, with no BI infrastructure to run. Objection.ai shows what that looks like: eleven systems unified and marketing and product answering their own questions, with no data analysts on staff.
 
 **Best for**
 
--   SaaS and enterprise teams that need **both internal BI and customer-facing analytics**
+-   Operators at companies with 50 to 500 staff whose business runs on a database but who cannot staff a data team
     
--   Organizations looking to embed analytics securely with **multi-tenancy and governance**
+-   SaaS teams that want **internal dashboards and customer-facing analytics** from the same agent
     
--   Teams that want **AI-assisted analytics** without forcing users to learn SQL or BI tooling
+-   Teams that want answers **without waiting on anyone**, and without learning SQL or a BI tool
     
 
 **Pricing**
 
--   A free plan, then $19 to $249 per editor per month, [published on the pricing page](/pricing) as of October 2026
+-   A free plan, then $19 to $249 per editor per month, [published on the pricing page](/pricing) as of October 2026; viewers are free
+    
+-   Each paid seat includes a weekly AI allowance. When it runs out, new AI requests pause until the reset, or you can add credits. Extra storage is billed separately.
     
 -   Costs more than self-hosting an open-source tool, and asks for no infrastructure or upgrade work in return
     
@@ -281,15 +283,17 @@ Supaboard is a **full-stack analytics platform** that unifies **BI, [embedded an
 
 **Key features**
 
--   Unified BI + embedded analytics in one platform
+-   Answers on live data with the SQL shown, asked in the Supaboard app, in Slack, or from Claude and other MCP clients
     
--   Secure multi-tenant embedding out of the box
+-   [Dashboards built from a prompt](/product/dashboards), plus reports and decks as PDF, PowerPoint or Excel, sent on a schedule
     
--   AI-driven querying and insight generation
+-   Embedded dashboards, Datasites and Chat, with hidden filters set per customer so each viewer sees only their own rows (Individual plan and up)
     
--   Designed for both technical and non-technical users
+-   Learns your definitions from corrections: a thumbs-down becomes a rule, and approved SQL becomes a verified example
     
--   Strong governance for enterprise and healthcare use cases
+-   Query Bench, an [AI SQL and Python editor](/product/query-builder), for when someone wants to write the query themselves
+    
+-   RBAC on every plan; SSO, audit logs, the HIPAA BAA and self-hosting on Enterprise
     
 
 ### Metabase

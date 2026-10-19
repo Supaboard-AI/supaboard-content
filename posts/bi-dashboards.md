@@ -344,7 +344,7 @@ Dashboards built only for technical users are often ignored. If dashboards are h
     Users no longer need advanced technical skills to explore data, which increases adoption across teams.
     
 -   **Smarter Context-Aware Analytics**  
-    Platforms like Supaboard use AI trained on business logic to provide accurate and relevant insights, improving trust and usability.
+    Platforms like Supaboard give each agent rules, knowledge, examples and memory, so answers use your own meaning of each metric and show the SQL behind them.
     
 
 ### Business Intelligence Dashboard Examples
@@ -372,24 +372,24 @@ The BI dashboard became a daily tool for leadership, helping teams rely on consi
 
 ### Turning Dashboards Into Real Business Insights With Supaboard
 
-[Supaboard's live dashboards](/product/dashboards), built from [12 databases and warehouses](/product/data-connections) queried live, help teams move beyond basic reporting by transforming dashboards into intelligent decision-support systems. Instead of just showing numbers, it helps users understand trends, ask questions, and get meaningful answers from their business data.
+Supaboard is the one AI agent that does the whole analyst job on your own database. Its live, [AI-generated dashboards](/product/dashboards) are where most teams see that job: you describe what you want to track, and it builds the dashboard from [12 databases and warehouses](/product/data-connections) queried live, answers the follow-up questions, and sends the weekly report on its own. Instead of just showing numbers, it tells you what moved and why.
 
 #### Key Points
 
--   **AI-Powered Insights**  
-    Supaboard analyzes data automatically and highlights important patterns and changes.
+-   **Insights Panel**  
+    An Insights panel on each dashboard writes up what changed, beside the charts it describes.
     
 -   [**Natural Language Queries**](/blog/natural-language-query-analytics)  
-    Users can ask questions in simple language without writing SQL.
+    Users [ask the database in their own words](/product/ask-analysts) in the Supaboard app, in Slack, or from Claude, and see the SQL behind every answer.
     
 -   **Business Context Awareness**  
-    Dashboards understand company goals, metrics, and rules.
+    The agent learns your definitions from corrections. A thumbs-down becomes a rule. Approved SQL becomes a verified example.
     
 -   **Faster Decision-Making**  
-    Teams get instant answers and act quickly on insights.
+    Alerts, part of its [automated reporting](/product/automations), run a SQL check on your data on a schedule and explain what changed, by email or webhook, so teams act without waiting on anyone.
     
--   **Easy for All Users**  
-    Both technical and non-technical users can use dashboards confidently.
+-   **Viewers Are Free**  
+    Share a dashboard on a link or embed it; the people who only view it do not need a paid seat.
     
 
 ### How to Start Using BI Dashboards in Your Team
@@ -470,4 +470,4 @@ A business intelligence dashboard becomes valuable only when it leads to action.
 
 By focusing on clear goals, relevant metrics, and regular usage, organizations can build a strong data culture and ensure their **business intelligence dashboards** deliver long-term business value.
 
-Start making smarter decisions with Supaboard. [Try it free](https://web.supaboard.ai/) today.
+If your team wants to see what moved and why without waiting on anyone, [Start Free](https://auth.supaboard.ai/onboard/register) on your own database.

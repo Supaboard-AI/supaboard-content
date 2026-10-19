@@ -240,7 +240,7 @@ The opposite of an inverse relationship (negative correlation) is a positive or 
 
 ## How to Visualize Correlation Effectively
 
-Visualization is one of the best ways to understand correlation. Always start by creating a **scatter plot** in tools like Excel, Google Sheets, or any data software.
+Visualization is one of the best ways to understand correlation. Always start by creating a **scatter plot** in tools like Excel, Google Sheets, or any data software; an [AI dashboard generator](/product/dashboards) can build one from a prompt.
 
 Look at the overall pattern of the dots:
 
@@ -344,4 +344,4 @@ Understanding the difference between positive and negative correlation will help
 
 This knowledge is a strong foundation for more advanced [data analysis](/blog/data-science-vs-data-analytics) and critical thinking in a world of numbers and relationships.
 
-Spotting a correlation is the easy half; the work is checking whether it holds once you control for the obvious confounder, and that means running the follow-up query rather than reading a chart. An [AI data analyst](/blog/ai-data-analyst) will do that follow-up for you — [Supaboard's Ask Analysts](/product/ask-analysts) answers the question and shows the SQL behind it, at a published [per-editor price](/pricing) that includes a weekly AI allowance.
+Spotting a correlation is the easy half; the work is checking whether it holds once you control for the obvious confounder, and that means running the follow-up query rather than reading a chart. An [AI data analyst](/blog/ai-data-analyst) will do that follow-up for you. Supaboard is the one AI agent that does the whole analyst job on your own database. Its [AI Analyst](/product/ask-analysts) answers the follow-up on live data, such as whether the pattern holds by segment or period, and shows the SQL behind it so you can check its working. It is priced per editor, with the price published on the [pricing page](/pricing), and each paid seat includes a weekly AI allowance.

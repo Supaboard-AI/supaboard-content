@@ -405,11 +405,11 @@ With a real-time fin dash system, leaders monitored liquidity, expenses, and for
 
 If you’re comparing platforms, this breakdown of [**business intelligence tools**](/blog/best-ai-bi-tools) can help you choose the right fit.
 
-### Build Your Financial Dashboard in Minutes with Supaboard
+### Build Your Financial Dashboard with Supaboard
 
-Creating and maintaining financial dashboards does not have to be complex or time-consuming. With [Supaboard's prompt-built dashboards](/product/dashboards) — flat per seat, [priced publicly](/pricing) — finance teams can connect their data sources, ask questions in natural language, and instantly generate real-time dashboards for revenue, cash flow, expenses, and forecasts.
+Creating and maintaining financial dashboards does not have to be complex or time-consuming. Supaboard is the one AI agent that does the whole analyst job on your own database. With Supaboard's [AI dashboard generator](/product/dashboards), [priced per editor with the price published](/pricing), finance teams connect their data, describe the view they need, and get dashboards on live data for revenue, cash flow and expenses, with an Insights panel that writes up what changed beside the charts. The same agent handles [automated financial reporting](/product/automations): it runs the weekly finance report on its own and builds the board pack as a PDF, PowerPoint or Excel file.
 
-Instead of spending hours on spreadsheets and manual reporting, teams can focus on analysis, planning, and strategic decision-making. Jindal Healthcare took that route across its revenue cycle and cut analytics cost by 90%. Start building your financial dashboards faster and smarter with [Supaboard](https://auth.supaboard.ai/onboard/register).
+Instead of spending hours on spreadsheets and manual reporting, teams can focus on analysis, planning, and strategic decision-making. Jindal Healthcare took that route across its revenue cycle and cut analytics cost by 90%. [Start Free](https://auth.supaboard.ai/onboard/register) to build your first financial dashboard.
 
 <!-- section:content-12 -->
 

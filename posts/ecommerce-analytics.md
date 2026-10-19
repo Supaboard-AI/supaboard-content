@@ -303,13 +303,13 @@ As businesses expand into new markets, channels, and product categories, dashboa
 
 ## Best Practices for Building KPI Dashboards in Ecommerce
 
-Following proven **best practices for building KPI dashboard ecommerce** ensures dashboards remain scalable, actionable, and aligned with business goals while delivering consistent insights across teams. Businesses should focus on measurable KPIs, role-based views, automation, and real-time tracking using tools like Google Analytics, Shopify Analytics, Looker Studio, Power BI, Tableau, and [Supaboard](/product/data-connections) to unify data across platforms efficiently.
+Following proven **best practices for building KPI dashboard ecommerce** ensures dashboards remain scalable, actionable, and aligned with business goals while delivering consistent insights across teams. Businesses should focus on measurable KPIs, role-based views, automation, and real-time tracking using tools like Google Analytics, Shopify Analytics, Looker Studio, Power BI, Tableau, and [Supaboard](/product/data-connections), which reads your databases and warehouses, and any tool with an MCP server such as HubSpot or Stripe, live rather than copying the data.
 
-Meanwhile, organizations should prioritize usability by designing dashboards based on user roles such as executives, marketers, and operations teams. However, maintaining consistent definitions, automated reporting workflows, and clean integrations ensures long-term reliability, scalability, and improved decision-making across departments and evolving business needs.
+Meanwhile, organizations should prioritize usability by designing dashboards based on user roles such as executives, marketers, and operations teams. However, maintaining consistent definitions, [automated reporting workflows](/product/automations), and clean integrations ensures long-term reliability, scalability, and improved decision-making across departments and evolving business needs.
 
 ![Best ecommerce dashboard showing 2025 top selling products by region with pie chart insights and regional sales analytics.](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/the-modern-ecommerce-dashboard-insights-you-can-act-on/6d73a458134e7655.png?w=1466&h=719)
 
-In the above image, as you can see, the pie chart clearly shows regional sales distribution along with actionable insights, helping teams quickly identify top-performing regions, compare performance, and spot growth opportunities. This type of visualization improves reporting clarity, speeds up analysis, and supports smarter decision-making. Dashboard source: [Supaboard](/product/dashboards).
+In the above image, as you can see, the pie chart clearly shows regional sales distribution along with actionable insights, helping teams quickly identify top-performing regions, compare performance, and spot growth opportunities. This type of visualization improves reporting clarity, speeds up analysis, and supports smarter decision-making. Dashboard source: Supaboard's [AI dashboard generator](/product/dashboards).
 
 <!-- section:content-11 -->
 
@@ -371,4 +371,4 @@ With the proper tools, an emphasis on measuring the most relevant KPIs and an it
   
 Ultimately, a powerful ecommerce dashboard is not simply a reporting layer, it’s a decision-making system that allows your business to scale smarter, run more efficiently, and flourish with clarity.
 
-**Build your ecommerce dashboard on the Free plan—**[**try now.**](https://auth.supaboard.ai/onboard/register)
+Supaboard is the one AI agent that does the whole analyst job on your own database. It builds your ecommerce dashboard on live store data, writes up what moved and why beside the charts, and runs the weekly report on its own. [**Start Free**](https://auth.supaboard.ai/onboard/register)

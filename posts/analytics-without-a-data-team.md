@@ -30,11 +30,11 @@ sections:
   - id: content-1
     heading: What breaks when nobody owns the data
   - id: content-2
-    heading: 'New Visual Query Builder: Powerful Queries Without SQL'
+    heading: 'Query Bench: The SQL Is There When You Want It'
   - id: content-3
-    heading: 'Natural Language Query: Just Ask in Plain English'
+    heading: 'AI Analyst: Ask a Question, Get the Answer and the SQL'
   - id: content-4
-    heading: AI Business-Logic-Aware Agents
+    heading: Agents That Learn Your Definitions
   - id: content-5
     heading: How do you build a single source of truth without a data team?
   - id: content-6
@@ -42,7 +42,7 @@ sections:
       What separates a real single source of truth from a tool that claims to be
       one?
   - id: content-7
-    heading: Why Teams Choose Supaboard
+    heading: What Supaboard Does When There Is No Data Team
   - id: content-8
     heading: Frequently Asked Questions
 featured:
@@ -65,7 +65,7 @@ faq:
       down. Meetings become arguments about whose figure is correct rather than
       what to do about it. This precedes every other failure and causes most of
       them.
-  - q: How do you build a single source of truth without hiring anyone?
+  - q: How does a small team build a single source of truth?
     a: >-
       Three steps. Connect the sources that hold numbers you act on. Define the
       shared metrics once, with one formula each, agreed between finance and the
@@ -81,7 +81,7 @@ faq:
       resolve that disagreement.
   - q: What separates a real single source of truth from a tool that claims it?
     a: >-
-      Four things: prebuilt connectors covering your actual stack, centralised
+      Four things: connections covering your actual stack, centralised
       metric definitions rather than per-dashboard logic, role-based permissions
       so access can safely widen, and version history so that when a number
       changes somebody can say why. Tools failing the second point have
@@ -154,7 +154,7 @@ Objection.ai runs with **zero data analysts on staff** and eleven unified source
 
 That is the actual goal. Not dashboards. Not self-service as a feature checkbox. Making the cost of asking a question low enough that people ask the ones they would otherwise skip.
 
-This guide covers what breaks when there is no data team, how to build a single source of truth without hiring one, and what to look for in a tool that claims non-technical users can serve themselves.
+This guide covers what breaks when nobody owns the data, how to build a single source of truth without a data team, and what to look for in a tool that claims non-technical users can serve themselves.
 
 ## What breaks when nobody owns the data
 
@@ -168,64 +168,64 @@ Three failures show up in almost every company at this stage, and they compound.
 
 <!-- section:content-2 -->
 
-## New Visual Query Builder: Powerful Queries Without SQL
+## Query Bench: The SQL Is There When You Want It
 
-One of the most exciting additions is the **new Visual Query Builder**. It’s a fully graphical, no-code interface that lets users **drag, drop, and connect data tables** to build even complex database queries visually.
+You do not need to write SQL to get an answer from Supaboard; the agent writes it, and every answer shows the query it ran. When someone does want to look under the hood, there is **Query Bench**, Supaboard's [AI SQL and Python editor](/product/query-builder).
 
-You no longer need to write SQL to create advanced reports. Business users can join tables, apply filters, create calculations, and build dashboards on their own — all through an intuitive point-and-click experience. At the same time, technical users still get the depth and control they expect. This feature is dramatically speeding up dashboard creation across teams.
+In Query Bench you write SQL or Python yourself, or ask the assistant to draft and revise the code, then pin the result to a dashboard. Business users never have to open it. The founder, backend engineer or ops lead who knows some SQL gets the depth and control they expect, and can check the agent's working rather than taking it on trust.
 
 <!-- section:content-3 -->
 
-## Natural Language Query: Just Ask in Plain English
+## AI Analyst: Ask a Question, Get the Answer and the SQL
 
-![Natural language query in Supaboard answering a business question in plain English](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/how-supaboard-democratizes-data-analytics-no-more-tech-team-dependence/c88b3969fc0ea37d.png?w=1199&h=367)
+![Supaboard's AI Analyst answering a business question asked in natural language](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/how-supaboard-democratizes-data-analytics-no-more-tech-team-dependence/c88b3969fc0ea37d.png?w=1199&h=367)
 
-Users love the [**Natural Language Query**](/blog/natural-language-query-analytics) capability. Instead of learning a new tool or writing code, you can simply type or speak your question:
+The everyday way in is Supaboard's [**AI Analyst**](/product/ask-analysts), which is [natural language querying](/blog/natural-language-query-analytics) on your own database. Instead of learning a new tool or writing code, you type your question in the Supaboard app, in Slack, or in Claude and other MCP clients:
 
 -   “What is our CAC by channel this quarter versus last?”
     
 -   “Show me churn rate for enterprise customers in the last 90 days.”
     
 
-The system understands context and returns accurate answers with charts and explanations instantly.
+The agent answers on live data with a chart, a short write-up of what moved and why, and the SQL it ran, so anyone can check its working.
 
 <!-- section:content-4 -->
 
-### AI Business-Logic-Aware Agents
+### Agents That Learn Your Definitions
 
-At the heart of Supaboard are powerful **AI business-logic-aware agents**. These are autonomous programs powered by Large Language Models ([LLMs](https://www.ibm.com/think/topics/large-language-models)) that can:
+At the heart of Supaboard is one agent, built on Large Language Models ([LLMs](https://www.ibm.com/think/topics/large-language-models)), and the **[Agents](/product/agents)** that give it your context. Each one holds:
 
--   Perceive changes in your data
+-   Rules, which are read with every question
     
--   Reason through business problems
+-   Knowledge about your business and your data
     
--   Access enterprise tools
+-   Examples of approved SQL
     
--   Take action to deliver insights and alerts
+-   Memory of what your team has taught it
     
 
-These agents go far beyond simple queries — they understand your company’s unique metrics, goals, and definitions, making every answer more relevant and trustworthy.
+That context is how it learns your company's own metrics and definitions. A thumbs-down becomes a rule. Approved SQL becomes a verified example. Evals grade the agent 0 to 100 against questions you already know the answers to, so it is scored on your own questions before anyone relies on it.
 
-### Liveboards: Living Data Hubs, Not Static Dashboards
+### Live Dashboards, Not Static Ones
 
-Another highly appreciated feature is **Liveboards** — dynamic, real-time analytics spaces that act as **living data hubs**.
+**Dashboards** in Supaboard query your data live rather than a monthly export, and the agent can [build a dashboard from a prompt](/product/dashboards) that describes the metrics you want.
 
-Unlike traditional static dashboards, Liveboards empower non-technical users to independently:
+Unlike traditional static dashboards, they let non-technical users, on their own:
 
 -   Filter data
     
--   Drill down into details
+-   Drill through to the records behind a metric
     
--   Ask granular follow-up questions using natural language or AI assistants
+-   Ask about a change across the dashboard, with an Insights panel that writes up what changed beside the charts
     
 
-Everything happens directly inside the interface, in real time.
+The dashboard becomes the start of the next question rather than the end of the last one.
 
-### AI-Generated Insights & Embedded Analytics
+### Automations, Insights and Embeds
 
-[Supaboard's automations](/product/automations) don’t wait for you to ask questions. The **AI-Generated Insights** feature analyzes your data daily and delivers a personalized feed of briefings, anomaly detections, key milestones, and actionable alerts.
+Supaboard's [automated reports and alerts](/product/automations) don’t wait for you to ask questions. The agent runs the scheduled weekly report on its own and sends it by email. An alert is a SQL check on your data, run on a schedule, with an Ask Analysts step after it that explains the change; alerts arrive by email or webhook.
 
-Additionally, **Embedded Analytics** allows companies to seamlessly integrate Supaboard dashboards and insights into their own product or customer portals — a game-changer for SaaS businesses.
+Additionally, **Embeds** let a company put Supaboard dashboards inside its own product or customer portal, with white-label available, which matters for SaaS businesses.
 
 ### Real Impact on Teams
 
@@ -239,7 +239,7 @@ This story is becoming common among our users in the **mid-market, SaaS, startup
 
 In three steps, and the middle one is the only hard part.
 
-**1. Connect the sources.** Everything that holds a number your business acts on: CRM (Salesforce, HubSpot), commerce (Shopify), analytics (GA4), ad platforms, finance (QuickBooks), and whatever warehouse or production database you already run. This step used to be a project; with prebuilt connectors it is configuration. If a tool cannot reach your systems without an engineer, it has moved the bottleneck rather than removed it.
+**1. Connect the sources.** Everything that holds a number your business acts on: the warehouse or production database you already run, and the CRM, commerce, analytics, ad and finance tools around it. This step used to be a project. In Supaboard, a database or warehouse is queried live and read-only, and any tool with an MCP server, such as HubSpot or Stripe, is read live without its data being copied. If a tool cannot reach your systems without an engineer, it has moved the bottleneck rather than removed it.
 
 **2. Define the shared metrics.** Revenue, CAC, LTV, churn — each defined once, with one formula, used everywhere. This is the step teams skip, and skipping it is what produces two revenue numbers in one meeting. It is also the step that does not require a data team: it requires a decision, written down, that finance and marketing both agree to. What holds that decision is a [semantic layer](/blog/what-is-a-semantic-layer), and it is the difference between a tool that answers consistently and one that answers plausibly.
 
@@ -253,7 +253,7 @@ Connect, define, publish. The output is a governed model rather than a folder of
 
 Four features, and the second is where most tools quietly fail.
 
-**Prebuilt connectors that cover your actual stack.** Breadth decides whether cross-system questions are answerable at all. A tool that reaches your CRM but not your ad platforms cannot tell you blended CAC — which was precisely Gabriella.pl's problem before unifying Meta, LinkedIn, Google Ads and Shopify into one view, where they found the channel with the highest cost-per-lead also had the strongest close rate.
+**Connections that cover your actual stack.** Breadth decides whether cross-system questions are answerable at all. A tool that reaches your CRM but not your ad platforms cannot tell you blended CAC — which was precisely Gabriella.pl's problem before unifying Meta, LinkedIn, Google Ads and Shopify into one view, where they found the channel with the highest cost-per-lead also had the strongest close rate.
 
 **Centralised metric definitions.** If each dashboard recomputes revenue its own way, you have distributed the inconsistency rather than fixed it. Ask where a definition lives, who can change it, and what happens downstream when they do.
 
@@ -263,24 +263,24 @@ Four features, and the second is where most tools quietly fail.
 
 <!-- section:content-7 -->
 
-## Why Teams Choose Supaboard
+## What Supaboard Does When There Is No Data Team
 
--   Natural Language Query + Visual Query Builder → Ultimate flexibility
+-   AI Analyst answers questions on live data with the SQL shown, and Query Bench is there when you want to edit it
     
--   AI Agents that understand your business logic
+-   Agents learn your definitions from corrections and are scored on your own questions
     
--   Liveboards for interactive, real-time exploration
+-   Dashboards, reports and decks (PDF, PowerPoint, Excel), plus Datasites and Sheets, and viewers are free
     
--   Embedded Analytics for customer-facing use cases
+-   The scheduled weekly report and the alerts run on their own
     
--   [12 databases and warehouses](/product/data-connections), queried live, plus 22 apps such as HubSpot and Stripe that an agent reads through MCP
+-   Embeds and white-label for customer-facing use cases
+    
+-   [12 databases and warehouses](/product/data-connections), queried live and read-only, plus any tool with an MCP server, such as HubSpot or Stripe, read live and never copied
     
 
-Supaboard successfully removes the traditional barriers of business intelligence. Technical users get depth and performance. Non-technical users get simplicity and speed. Everyone gets better, faster decisions.
+Supaboard is the one AI agent that does the whole analyst job on your own database. It is built for operators at companies with 50 to 500 staff whose business runs on a database but who cannot staff a data team, so the person with the question gets the answer without waiting on anyone.
 
-The era of waiting for data is over. The era of truly democratized analytics has begun.
-
-If you’re a founder, product leader, or manager tired of data delays, it’s time to experience a [BI tool](/blog/best-ai-bi-tools) built for the whole team, not just the tech team.
+If you own the weekly review and you are tired of waiting on the numbers, see how it sits in our [roundup of AI BI tools](/blog/best-ai-bi-tools), then [Start Free](https://auth.supaboard.ai/onboard/register) or [Book a 30-minute demo](https://calendly.com/aritra-ewq/supaboard-demo).
 
 <!-- section:content-8 -->
 
@@ -294,7 +294,7 @@ Yes, and several do. Objection.ai runs eleven unified data sources with no data 
 
 Numbers start disagreeing between teams, because each was calculated in a different tool from a different filter and no definition was ever written down. Meetings become arguments about whose figure is correct rather than what to do about it. This precedes every other failure and causes most of them.
 
-### How do you build a single source of truth without hiring anyone?
+### How does a small team build a single source of truth?
 
 Three steps. Connect the sources that hold numbers you act on. Define the shared metrics once, with one formula each, agreed between finance and the operating teams. Then publish those definitions where people work, through role-specific views and a way to ask questions in plain language rather than navigating someone else's dashboard.
 
@@ -304,7 +304,7 @@ The second. Connecting sources feels like progress and publishing views is visib
 
 ### What separates a real single source of truth from a tool that claims it?
 
-Four things: prebuilt connectors covering your actual stack, centralised metric definitions rather than per-dashboard logic, role-based permissions so access can safely widen, and version history so that when a number changes somebody can say why. Tools failing the second point have distributed the inconsistency rather than fixed it.
+Four things: connections covering your actual stack, centralised metric definitions rather than per-dashboard logic, role-based permissions so access can safely widen, and version history so that when a number changes somebody can say why. Tools failing the second point have distributed the inconsistency rather than fixed it.
 
 ### Is self-service analytics risky without a data team?
 

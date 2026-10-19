@@ -382,10 +382,8 @@ It can flag conditions that historically preceded disruption, such as rising dwe
 
 ## Conclusion: Turning Logistics Data Into Better Decisions
 
-**Logistics analytics** creates value when it supports real decisions, not just reporting. Instead of static dashboards, modern teams need answers that help them act quickly under operational pressure. When logistics analytics is treated as core infrastructure,connecting data, explaining exceptions, and guiding action, it improves efficiency, resilience, and service outcomes. If you’re exploring how to apply logistics analytics in practice.
+**Logistics analytics** creates value when it supports real decisions, not just reporting. Instead of static dashboards, modern teams need answers that help them act quickly under operational pressure. When logistics analytics is treated as core infrastructure,connecting data, explaining exceptions, and guiding action, it improves efficiency, resilience, and service outcomes.
 
-If you want to see [how Supaboard's AI analysts help](/product/ask-analysts) logistics teams connect [their databases and warehouses](/product/data-connections), investigate exceptions, and turn analytics into real decisions, **book a demo** with our team.
+Supaboard is the one AI agent that does the whole analyst job on your own database. Logistics teams ask [the AI Analyst](/product/ask-analysts) why a lane or carrier slipped and get the answer on live data from [their databases and warehouses](/product/data-connections), with the SQL shown. [Automated reporting](/product/automations) runs the weekly exception report and the alerts on a schedule.
 
-We’ll walk through how Supaboard works with logistics data and show real workflows for transportation, warehousing, and supply chain analytics.
-
-[**Book a demo**](https://calendly.com/aritra-ewq/supaboard-demo)
+[**Book a 30-minute demo**](https://calendly.com/aritra-ewq/supaboard-demo)

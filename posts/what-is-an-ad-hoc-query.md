@@ -185,7 +185,7 @@ Normally, with dashboards, you’re limited to what someone else designed. If th
 
 **See below image for a better explanation:**
 
-Supaboard's [query builder](/product/query-builder) is built for exactly this pattern — a question that did not exist yesterday, answered without waiting on a report request, across [12 databases and warehouses](/product/data-connections).
+Supaboard is the one AI agent that does the whole analyst job on your own database. Ad hoc questions are where that job starts: a question that did not exist yesterday, answered on live data without waiting on a report request, across [12 databases and warehouses](/product/data-connections). You ask it in [AI Analyst](/product/ask-analysts), or write the SQL yourself in [Query Bench](/product/query-builder).
 
 ![Supaboard dashboard answering an ad hoc query](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/what-is-an-ad-hoc-query/e37e6a31bf03d1a6.png?w=1436&h=812)
 
@@ -338,8 +338,10 @@ analytics team can drain it.
 
 The shift worth making is not writing these faster. It is letting the person with
 the question ask it directly, in the first form rather than the second.
-Supaboard's [query builder](/product/query-builder) does the translation, and
-shows you the generated SQL so the answer stays auditable.
+Supaboard's [AI Analyst](/product/ask-analysts) does the translation and shows
+its working: the SQL it ran sits beside the answer, so the answer stays auditable.
+Anyone who prefers the second form can write it in Query Bench,
+Supaboard's [AI SQL and Python editor](/product/query-builder).
 
 <!-- section:content-5 -->
 
@@ -471,7 +473,7 @@ A SaaS team notices a sudden increase in churn. Instead of waiting for a new rep
 
 Ad hoc queries are most useful for fast investigations, product analysis, customer behavior checks, and one-off business questions.
 
-Some modern BI platforms, [including Supaboard's query builder](/product/query-builder), are designed around this idea of interactive, question-driven analysis rather than fixed reporting.
+Some modern BI platforms, including Supaboard with its AI Analyst for questions and [Query Bench](/product/query-builder) for SQL, are designed around this idea of interactive, question-driven analysis rather than fixed reporting.
 
 <!-- section:content-9 -->
 
@@ -556,4 +558,4 @@ No, and promising that is how self-service programmes lose credibility. Some que
 
 In today’s fast-moving businesses, waiting for predefined reports slows decisions. **Ad hoc queries** allow teams to ask questions the moment they arise and explore data without limitations. When combined with **ad hoc analysis**, they help uncover the real reasons behind changes in performance, user behavior, or revenue. Instead of being restricted by static dashboards, teams gain the freedom to investigate and act quickly.
 
-Explore [how Supaboard's query builder enables fast, flexible ad hoc analysis](/product/query-builder) and smarter business decisions.
+When the next unplanned question comes up, ask it of your own database and get the answer with the SQL shown, without waiting on anyone. See [how Query Bench handles ad hoc SQL](/product/query-builder), or [Start Free](https://auth.supaboard.ai/onboard/register).

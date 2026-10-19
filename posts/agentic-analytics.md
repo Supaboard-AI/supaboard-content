@@ -1,7 +1,7 @@
 ---
 slug: agentic-analytics
 status: published
-title: 'Agentic Analytics vs Traditional BI: What Changes'
+title: 'One Analyst Agent vs Traditional BI: What Changes'
 description: >-
   Traditional BI tells you what happened. Agentic analytics runs the
   investigation. How the two differ, and three demo tests that separate them.
@@ -19,12 +19,12 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/6fde3ac6a2ce17a3.jpg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/agentic-analytics/defecb310ba8786a.png
-  alt: '"Agentic Analytics vs Traditional BI: What Changes" — Supaboard blog cover'
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/agentic-analytics/0491783d9334144c.png
+  alt: '"One Analyst Agent vs Traditional BI: What Changes" — Supaboard blog cover'
   width: 1600
   height: 900
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/5d57c3f8ecca9d00.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/705a3f2f4387fd93.png
 sections:
   - id: content-1
     heading: Agentic Analytics vs. Traditional BI Tools
@@ -222,7 +222,7 @@ Interestingly, very few teams are looking to completely replace traditional BI. 
 
 This balance makes sense because different functions have different needs. Finance and compliance teams still require structured reporting and auditability, while growth and operations teams benefit more from systems that can respond dynamically to changes.
 
-We’re starting to see this reflected in newer platforms as well. Tools like [**Supaboard's analyst agents**](/product/agents) — priced per editor on the [pricing page](/pricing), with a weekly AI allowance in each paid seat — are exploring this middle ground, combining familiar dashboard experiences with more proactive, AI-driven capabilities that help reduce manual effort without removing visibility.
+We’re starting to see this reflected in newer platforms as well. [**Supaboard's agent**](/product/agents) is one example of this middle ground: the familiar dashboards stay, and the agent runs the [scheduled reports and alerts](/product/automations) on its own, which cuts the manual effort without removing visibility. It is priced per editor, with the price published on the [pricing page](/pricing), and viewers are free.
 
 <!-- section:content-18 -->
 
@@ -246,7 +246,7 @@ For teams, the impact is just as important. [Analysts](/blog/will-ai-replace-dat
 
 As teams start moving beyond static dashboards, one pattern becomes clear: most organizations aren’t looking to completely replace their BI stack, they’re looking to extend it. They want to keep the visibility and structure that BI provides, while adding a layer that helps them move faster and act with more confidence.
 
-This is where newer platforms like [Supaboard](/blog/best-ai-bi-tools) are starting to feel relevant. Instead of forcing a trade-off between dashboards and automation, they aim to combine both, allowing teams to explore data visually while also leveraging AI to surface insights, detect changes, and guide next steps without constant manual effort.
+This is where newer platforms, like the ones in our [roundup of AI BI tools](/blog/best-ai-bi-tools), are starting to feel relevant. Supaboard is the one AI agent that does the whole analyst job on your own database. Instead of forcing a trade-off between dashboards and automation, it does both: it answers questions on live data with the SQL shown, builds the [AI-generated dashboards](/product/dashboards), and runs alerts as SQL checks on a schedule, with a step after each one that explains what moved and why. It also learns your definitions from corrections, so the next answer starts from them.
 
 In practice, this means you’re not abandoning familiar workflows. You’re augmenting them. Teams can still build and share dashboards, but they’re no longer limited to checking them periodically. The system becomes more proactive, helping ensure that important signals don’t go unnoticed and that decisions don’t get delayed.
 

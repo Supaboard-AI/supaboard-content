@@ -191,7 +191,7 @@ There are several ways to embed analytics into a product. Some teams connect thr
 
 The right choice depends on budget, speed to market, and how important complete customization is to your product strategy.
 
-The pricing model matters more than the sticker price here, because embedded analytics is the one case where your user count is your customers' user count. Vendors that charge per seat make every customer you onboard a cost increase; ones that charge flat per internal seat do not. Supaboard is the latter — a free plan, then $19 per editor per month on Starter, $99 on Individual and $249 on Business, or $16, $83 and $208 billed yearly, [published on the pricing page](/pricing) as of October 2026, with [Datasites](/product/datasites) covering the branded, per-tenant delivery. Metabase ([pricing](https://www.metabase.com/pricing)) and ThoughtSpot ([pricing](https://www.thoughtspot.com/pricing)) both publish their embedding tiers, so those three can be compared directly; most of the rest quote.
+The pricing model matters more than the sticker price here, because embedded analytics is the one case where your user count is your customers' user count. Vendors that charge a seat for everyone who looks at a dashboard make every customer you onboard a cost increase; vendors that charge only for the people who build do not. Supaboard is the latter: it is priced per editor and viewers are free, with a free plan, then $19 per editor per month on Starter, $99 on Individual and $249 on Business, or $16, $83 and $208 billed yearly, [published on the pricing page](/pricing) as of October 2026. Embedding is on Individual, Business and Enterprise, with [Datasites](/product/datasites) covering the branded, per-tenant delivery. Each paid seat includes a weekly AI allowance. When it runs out, new AI requests pause until the reset, or you can add credits. Extra storage is billed separately. Metabase ([pricing](https://www.metabase.com/pricing)) and ThoughtSpot ([pricing](https://www.thoughtspot.com/pricing)) both publish their embedding tiers, so those three can be compared directly; most of the rest quote.
 
 **Example**:
 
@@ -262,31 +262,31 @@ Per-tenant scoping is the part teams underestimate — Legend EHR gives each cli
 | Implementation | Uses APIs, SDKs, in-app embedding | Requires data warehouse and BI tools |
 | Best Use Case | SaaS products and in-product insights | Enterprise-wide reporting and analysis |
 
-### Top Embedded Analytics Tools in 2025-2026: Why Supaboard Stands Out
+### Top Embedded Analytics Tools in 2025-2026: Where Supaboard Fits
 
-In 2025, businesses are increasingly choosing modern embedded analytics platforms that are easy to integrate, scalable, and AI-powered. Among emerging leaders, [**Supaboard's Datasites**](/product/datasites) stand out for its simplicity, performance, and product-focused approach.
+In 2025, businesses are increasingly choosing modern embedded analytics platforms that are easy to integrate, scalable, and AI-powered. Supaboard is the one AI agent that does the whole analyst job on your own database. Embedding puts that work inside your product: the dashboards, [**Supaboard's Datasites**](/product/datasites) and Chat it builds can sit in your own pages, each scoped to the customer looking at it.
 
 ### Key Capabilities Offered by Supaboard
 
-Supaboard provides powerful embedded analytics features designed for SaaS products and growing businesses:
+What Supaboard offers for embedded analytics:
 
--   **Seamless API Integration**  
-    Easily embed dashboards and reports into web and mobile applications using secure, developer-friendly APIs.
+-   **Embeds in Your Own Pages**  
+    Embed [AI-generated dashboards](/product/dashboards), datasites and Chat in your own app. An embed can be locked to your domains and set to expire.
     
--   **Flexible UI Customization & White Labeling**  
-    Customize themes, layouts, and branding to match your product’s interface and deliver a native user experience.
+-   **Branding & White Labeling**  
+    A datasite takes its colours, fonts and spacing from a stylesheet, brand PDF or screenshots you upload. On Enterprise, the white-labelled app runs Supaboard on your own domain with your logo, colours and login page.
     
--   **Advanced Role-Based Data Security**  
-    Control data access with user-level and role-based permissions to ensure privacy and compliance.
+-   **Role-Based Data Security**  
+    Role-based access control is on every plan, and an embed can carry hidden filters set per customer, so each viewer sees only their own rows.
     
--   **AI-Powered & Predictive Analytics**  
-    Use AI-driven insights, forecasting, and automated analysis to support smarter business decisions.
+-   **AI Analysis Inside Your Product**  
+    Embedded Chat lets your customers ask their own questions of live data, without waiting on anyone.
     
--   **Real-Time Data Visualization**  
-    Monitor live metrics and KPIs directly inside your application without switching tools.
+-   **Live Data Visualization**  
+    Embedded dashboards and datasites read from the same connected sources as the rest of Supaboard, so the numbers stay current after you publish.
     
--   **Scalable for SaaS & Enterprises**  
-    Designed to grow with your product, from startups to large-scale platforms.
+-   **Viewers Are Free**  
+    Pricing is per editor, so the customers who view an embed do not add paid seats. SSO, audit logs and self-hosting in your own VPC or on-prem are on Enterprise.
     
 
 

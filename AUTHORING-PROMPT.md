@@ -8,14 +8,14 @@ rule below exists because the opposite shipped to production at least once.
 ---
 
 You are writing one post for the Supaboard blog (`supaboard-content`, rendered by
-the `supa-landing` Next.js app at `supaboard.ai/blog/<slug>`).
+the `supaboard-landing` Next.js app at `supaboard.ai/blog/<slug>`).
 
 Your output is a single `posts/<slug>.md` file. Nothing is a draft — what you write
 publishes.
 
 ## 1. First decide whether to write it at all
 
-The corpus is **49 posts, 96% informational intent, 4% commercial**. It does not
+The corpus is **51 posts, 96% informational intent, 4% commercial**. It does not
 need more general explainers. Before writing, place the topic:
 
 | Write it if | Do not write it if |
@@ -23,7 +23,7 @@ need more general explainers. Before writing, place the topic:
 | It targets a buyer deciding between tools | It explains a generic data concept with no product bridge |
 | It targets a connector or system we integrate with | It is a topic any BI vendor could have written |
 | It answers a question a Supaboard evaluator actually asks | It exists mainly to rank for volume |
-| It can carry a real case study or product capability | The honest version has no reason to mention Supaboard |
+| It can carry a real product capability or customer figure | The honest version has no reason to mention Supaboard |
 
 If the topic fails this filter, say so and stop. A post that cannot justify its
 own existence is the thing we have been deleting.
@@ -32,7 +32,35 @@ own existence is the thing we have been deleting.
 indexed and rank for effectively nothing. Until we know why, do not mass-produce
 near-duplicates of them. One well-differentiated page beats ten thin ones.
 
-## 2. Facts you may assert
+## 2. Positioning and facts you may assert
+
+### How we describe Supaboard
+
+The GTM Bible (founder, 14 Oct 2026) sets these. The site follows them; posts must
+too, wherever they talk about Supaboard. Content about the category and about
+competitors is not affected.
+
+- **The one-liner, verbatim, at most once per post** (usually the main product
+  paragraph): "Supaboard is the one AI agent that does the whole analyst job on your
+  own database."
+- **Who it is for:** operators at companies with 50 to 500 staff whose business
+  runs on a database but who cannot staff a data team. The buyer is a COO, Head of
+  Operations or founder who owns a weekly review and feels the wait.
+- **Words to use:** the whole analyst job, one agent, what moved and why, without
+  waiting on anyone, shows its working, scored on your own questions, viewers are
+  free, your own database, your database and your tools.
+- **Never as a headline, or as the label for Supaboard:** trusted, governed,
+  agentic, ask in plain English, for everyone, AI data analyst, hire, cheaper,
+  decision intelligence. (A post may explain these as category terms.)
+- **Never:** frame Supaboard around hiring or replacing an analyst (the buyer feels
+  the waiting, so say "without waiting on anyone"); lead on price; call the price
+  flat, unmetered or predictable; position on one feature; say "cowork"; say it is
+  "built specifically for" an industry; quote the retired 97.8% BI Bench figure.
+- **Customers** (Jindal Healthcare, Objection.ai, Gabriella.pl, Legend EHR): names
+  and figures as already published, never linked. Do not spread the Jindal "four
+  hours to two minutes" figure to new posts.
+
+### Facts
 
 These are verified. Everything else needs a source.
 
@@ -44,7 +72,31 @@ These are verified. Everything else needs a source.
   doesn't move with usage. Say it this way: "Each paid seat includes a weekly
   AI allowance. When it runs out, new AI requests pause until the reset, or you
   can add credits. Extra storage is billed separately."
-- **Connectors:** 700+ on Business, 20+ on Individual. Link `/product/data-connections`.
+- **Data sources:** 12 databases and warehouses, queried live, read-only. Through
+  MCP, any tool with an MCP server (22 are ready to add; custom servers by URL),
+  read live, never synced or copied. Never "22 apps", "700+", or "sync" for apps.
+  Link `/product/data-connections`.
+- **Where people ask:** the Supaboard app, Slack, and Claude and other MCP
+  clients. Not Microsoft Teams, not Cursor.
+- **AI modes:** Flash, Pro and Max. There is no "Deep Dive" or "Deep Research".
+- **Alerts:** an alert is a SQL check on your data, run on a schedule; an Ask
+  Analysts step after it explains the change. Never call them anomaly alerts.
+  Delivery is by email or webhook.
+- **Insights:** a dashboard panel that writes up what changed beside the charts.
+- **How the agent learns** (the Bible's words): "A thumbs-down becomes a rule.
+  Approved SQL becomes a verified example." Evals grade the agent 0 to 100 against
+  answers you know, on every plan.
+- **Product names:** AI Analyst (Chat is the interface; Stella is only the
+  assistant's persona), Agents (the context: rules, knowledge, examples, memory,
+  evals), Query Bench, Dashboards, Datasites, Sheets, Automations. Never
+  Liveboards, Visual Query Builder, AI-Generated Insights, "Ask AI" or "business
+  logic agents".
+- **Security and plans:** RBAC on every plan; SSO and audit logs on Enterprise;
+  SOC 2 Type II; the HIPAA BAA is Enterprise only (there is no add-on);
+  self-hosting with your own model keys is Enterprise.
+- **Product Hunt:** #1 Product of the Week, February 2026.
+- **Calls to action:** "Start Free" (`https://auth.supaboard.ai/onboard/register`)
+  and "Book a 30-minute demo" (`https://calendly.com/aritra-ewq/supaboard-demo`).
 - **Customer stories** — the case-study section was retired on 2026-10-08.
   Never link `/case-study` or anything under it; it answers 410.
 - **Live link targets:** `/pricing`, `/product/data-connections`, `/enterprise`,
@@ -103,7 +155,7 @@ readLabel:   "9 Min Read"
 author:      { name, title, avatar }   # a real person with a real job title
 cover:       { url, alt (>=5 chars), width, height }
 ogImage:     absolute URL
-targetQuery: unique across all 49 posts — check before you choose it
+targetQuery: unique across all 51 posts — check before you choose it
 intent:      informational | commercial | transactional | navigational
 audience:    ops-business | data-team | both
 funnel:      tofu | mofu | bofu
@@ -117,7 +169,7 @@ statsCount:  measured from your body, not declared
 ```
 
 **`statsCount` must be at least 4**, meaning four real sourced statistics in the
-prose. 47 of 49 existing posts fail this. Yours should not — it is the one bar a
+prose. 47 of 51 existing posts fail this. Yours should not — it is the one bar a
 new post can clear that the legacy corpus cannot. If you cannot find four
 verifiable statistics for the topic, that is a signal the topic is thin.
 
@@ -215,6 +267,11 @@ Each of these was a real production defect in this corpus:
 10. Promising a downloadable asset that does not exist
 11. Trailing periods in the title tag
 12. A byline on a person who did not write or review it
+13. The retired 97.8% BI Bench figure, or "22 apps", "700+" or synced apps
+14. "Flat", "unmetered" or "predictable" Supaboard pricing
+15. Supaboard framed around hiring or replacing analysts
+16. Retired product names (Liveboards, Visual Query Builder, AI-Generated
+    Insights, Deep Dive) or Teams/Cursor as places to use Supaboard
 
 State clearly which of the facts in §2 you used and where. If you need a number
 you cannot source, leave it out and say what is missing — do not estimate.

@@ -86,10 +86,10 @@ faq:
   - q: 4\. Which BI Tools Support Natural Language Query?
     a: >-
       Many modern BI platforms now support natural language query. Popular
-      options include Power BI, Tableau, ThoughtSpot, and Supaboard. AI-native
-      platforms like Supaboard tend to offer more advanced and accurate NLQ
-      capabilities because natural language querying is built into their core
-      architecture, rather than added as a secondary feature.
+      options include Power BI, Tableau, ThoughtSpot, and Supaboard. Where they
+      differ is how far you can check and correct an answer: Supaboard shows the
+      SQL behind each answer, learns your definitions from corrections, and is
+      scored by evals against questions you already know the answers to.
   - q: 5\. Is Natural Language Query Better Than Dashboards?
     a: >-
       Natural language query is not meant to completely replace dashboards.
@@ -448,13 +448,13 @@ Natural language querying is transforming how organizations use data in practice
 -   Embedded analytics allow users to ask questions directly inside business applications and workflows
     
 
-[**Supaboard's Ask Analysts**](/product/ask-analysts) is one example of an AI-native platform that delivers a seamless natural language query experience designed specifically for fast, governed [self-service analytics](/blog/self-service-bi).
+Supaboard is the one AI agent that does the whole analyst job on your own database. Its [**AI Analyst**](/product/ask-analysts) is one example of natural language query built for [self-service analytics](/blog/self-service-bi): it answers on live data with the SQL shown, and it learns your definitions from corrections, because a thumbs-down becomes a rule and approved SQL becomes a verified example. The same agent builds the [AI-generated dashboards](/product/dashboards) and runs the [scheduled reports and alerts](/product/automations).
 
 <!-- section:content-9 -->
 
 ## Can you ask questions across several databases at once?
 
-Yes, and it is the case where natural-language querying earns its keep most clearly. It depends entirely on how many systems the platform can reach — Supaboard queries [12 databases and warehouses](/product/data-connections) live and lets an agent read apps such as HubSpot and Stripe through MCP, so the warehouse, the CRM and the billing system can all sit behind one question.
+Yes, and it is the case where natural-language querying earns its keep most clearly. It depends entirely on how many systems the platform can reach — Supaboard queries [12 databases and warehouses](/product/data-connections) live and read-only, and reads any tool with an MCP server, such as HubSpot or Stripe, live and never synced or copied, so the warehouse, the CRM and the billing system can all sit behind one question.
 
 Single-source questions are the easy half. "How many signups last week" hits one table, and an analyst answers it in a minute. The questions that actually stall are the ones spanning systems: signups from the product database against ad spend in four platforms against support tickets in a fifth. Answering that in SQL means knowing where each system lives, how the identifiers reconcile, and which joins silently drop rows.
 
@@ -553,7 +553,7 @@ Natural language analytics significantly improves how organizations use data. Th
 
 ### 4\. Which BI Tools Support Natural Language Query?
 
-Many modern BI platforms now support natural language query. Popular options include Power BI, Tableau, ThoughtSpot, and Supaboard. AI-native platforms like Supaboard tend to offer more advanced and accurate NLQ capabilities because natural language querying is built into their core architecture, rather than added as a secondary feature.
+Many modern BI platforms now support natural language query. Popular options include Power BI, Tableau, ThoughtSpot, and Supaboard. Where they differ is how far you can check and correct an answer: Supaboard shows the SQL behind each answer, learns your definitions from corrections, and is scored by evals against questions you already know the answers to.
 
 ### 5\. Is Natural Language Query Better Than Dashboards?
 

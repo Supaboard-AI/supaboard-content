@@ -199,13 +199,25 @@ Ranking these one to five would be dishonest, because the right answer depends
 entirely on who is asking the questions and what already exists in your stack.
 They are grouped by the job instead.
 
-### For business teams with no data team: [Supaboard](/product/ask-analysts)
+### For operators with a database and no data team: Supaboard
 
-Built for the case where the person with the question is not the person who can
-write SQL, and there is nobody in between. Agents are trained on your own
-definitions rather than guessing from column names, [12 databases and warehouses](/product/data-connections) queried live
-mean cross-system questions are answerable without a consolidation project first,
-and pricing is flat per seat rather than metered per question.
+Supaboard is the one AI agent that does the whole analyst job on your own database.
+It is built for the case where the person with the question is not the person who
+can write SQL, and there is nobody in between. Your definitions live in the agent
+as rules it reads with every question, rather than guesses from column names, and
+corrections stick.
+A thumbs-down becomes a rule. Approved SQL becomes a verified example.
+[12 databases and warehouses](/product/data-connections) are queried live, and any tool with an MCP server can be read live as well, so
+cross-system questions are answerable without a consolidation project first.
+Every answer from the [AI Analyst](/product/ask-analysts) shows the SQL that ran,
+and Query Bench, its [AI SQL and Python editor](/product/query-builder), is there
+when you want to write the query yourself. The same agent can
+[build a dashboard from a prompt](/product/dashboards) and run the
+[scheduled reports and alerts](/product/automations) on its own. It is priced per
+editor, with the price published on the [pricing page](/pricing), and viewers are
+free. Each paid seat
+includes a weekly AI allowance. When it runs out, new AI requests pause until the
+reset, or you can add credits. Extra storage is billed separately.
 
 Objection.ai runs entirely this way — eleven unified
 sources, zero data analysts on staff. Gabriella.pl
@@ -242,7 +254,7 @@ narratives inside a tool you already own, though it needs Fabric capacity rather
 than a standard Pro licence — the price is a real part of the decision.
 
 Judge them as good features on strong incumbents, not as AI-native systems. See
-[Supaboard vs Power BI](/compare/power-bi), and Tableau sits alongside both in the [comparison matrix](/compare).
+[Supaboard vs Power BI](/compare/power-bi), and Tableau sits alongside both when you [compare AI BI tools](/compare) side by side.
 
 <!-- section:content-4 -->
 

@@ -406,4 +406,4 @@ DBT works best when it’s treated not as a quick fix, but as a foundation. Buil
 
 That mindset shift is where DBT’s real value shows up.
 
-If you do not have the engineering capacity for a modelled layer yet, the alternative is a system that learns definitions from use rather than from code — that is what [Supaboard's analyst agents](/product/agents) do, and [pricing](/pricing) is per editor, with a weekly AI allowance in each paid seat. It is a different trade-off, not a replacement for dbt.
+If you do not have the engineering capacity for a modelled layer yet, the alternative is a system that learns definitions from use rather than from code. Supaboard is the one AI agent that does the whole analyst job on your own database. [Supaboard's agent](/product/agents) learns your definitions from corrections. A thumbs-down becomes a rule. Approved SQL becomes a verified example. It is a different trade-off, not a replacement for dbt. Analysts who would rather write the query themselves can use Query Bench, an [AI SQL and Python editor](/product/query-builder). [Pricing](/pricing) is per editor and viewers are free, with a weekly AI allowance in each paid seat.

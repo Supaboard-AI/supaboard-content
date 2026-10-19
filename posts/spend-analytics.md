@@ -106,9 +106,9 @@ faq:
     a: >-
       Implementation time varies by tool. Traditional enterprise platforms like
       Coupa and SAP Ariba often require 6 to 18 months due to complex
-      integrations and configuration. In contrast, modern AI-powered platforms
-      like Supaboard can connect to your existing data sources and deliver
-      initial insights in days or weeks.
+      integrations and configuration. In contrast, Supaboard connects to the
+      database or warehouse your spend data already lands in and queries it
+      live, so initial answers can arrive in days or weeks.
   - q: What is a spend analytics dashboard?
     a: >-
       A spend analytics dashboard is a visual interface that displays key spend
@@ -370,7 +370,7 @@ Different organizations need different capabilities depending on size, data comp
 
 | Tool | What it is | Best for |
 | --- | --- | --- |
-| **Supaboard** | [AI analytics](/product/ask-analysts) that queries the database or warehouse your ERP, accounting and procurement data lands in, and answers questions in plain language, with no procurement suite required | Teams that want spend visibility from existing data without buying a procurement platform |
+| **Supaboard** | One [AI agent](/product/ask-analysts) that queries the database or warehouse your ERP, accounting and procurement data lands in, answers with the SQL shown, and builds the dashboards and weekly report, with no procurement suite required | Teams that want spend visibility from existing data without buying a procurement platform |
 | **SAP Ariba** | Procurement and spend management suite with analytics alongside sourcing, supplier management and contract workflows | Organizations already running SAP ERP |
 | **Coupa** | Full spend management platform covering procurement, invoicing, expenses and analytics as one workflow | Companies looking for an all-in-one procurement system |
 | **McKinsey Spendscape** | Enterprise spend analytics with an emphasis on data classification, supplier insight and sustainability reporting | Large enterprises with complex, multi-entity procurement |
@@ -378,9 +378,9 @@ Different organizations need different capabilities depending on size, data comp
 
 ### Supaboard
 
-Most spend analytics tools assume you have already bought a procurement suite and want reporting on top of it. Supaboard starts from the opposite end: it connects directly to the database or data warehouse your spend data already lands in, whether that data comes from an ERP, an accounting system or a procurement tool, and lets anyone ask questions in plain language.
+Most spend analytics tools assume you have already bought a procurement suite and want reporting on top of it. Supaboard is the one AI agent that does the whole analyst job on your own database. It starts from the opposite end: it connects directly to the database or data warehouse your spend data already lands in, whether that data comes from an ERP, an accounting system or a procurement tool. It answers spend questions with the SQL shown, builds supplier and category dashboards with its [AI dashboard generator](/product/dashboards), and runs [automated reports and alerts](/product/automations), from the weekly spend report to budget alerts.
 
-That matters for spend work specifically, because spend data is almost never in one place. Purchase orders sit in one system, invoices in another, corporate card transactions in a third. Where those systems write to a database or warehouse, Supaboard can [query them live](/product/data-connections) and bring them together without a migration project, and the analysis happens in natural language rather than in a category taxonomy someone has to maintain.
+That matters for spend work specifically, because spend data is almost never in one place. Purchase orders sit in one system, invoices in another, corporate card transactions in a third. Where those systems write to a database or warehouse, Supaboard can [query them live](/product/data-connections) and bring them together without a migration project. It learns your supplier and category definitions from corrections. A thumbs-down becomes a rule. Approved SQL becomes a verified example.
 
 **Best for:** Finance and operations teams that need spend visibility from the systems they already run, without adopting a full procurement platform.
 
@@ -470,7 +470,7 @@ One of the most common decisions: do you build internally or partner with extern
 
 Modern AI-powered spend analytics platforms have largely eliminated this trade-off.
 
-Tools like Supaboard connect directly to your data sources, automate classification and analysis, and give business users direct access, without requiring a data engineering team to build and maintain everything. You get the real-time, self-serve benefits of building in-house without the infrastructure investment.
+Tools like Supaboard connect directly to the database your spend data lands in, answer questions with the SQL shown, run the scheduled reports and alerts, and give business users direct access, without a data team to build and maintain everything. You get the real-time, self-serve benefits of building in-house without the infrastructure investment.
 
 <!-- section:content-16 -->
 
@@ -534,7 +534,7 @@ Spend analytics outsourcing means partnering with an external provider, such as 
 
 ### How long does spend analytics implementation take?
 
-Implementation time varies by tool. Traditional enterprise platforms like Coupa and SAP Ariba often require 6 to 18 months due to complex integrations and configuration. In contrast, modern AI-powered platforms like Supaboard can connect to your existing data sources and deliver initial insights in days or weeks.
+Implementation time varies by tool. Traditional enterprise platforms like Coupa and SAP Ariba often require 6 to 18 months due to complex integrations and configuration. In contrast, Supaboard connects to the database or warehouse your spend data already lands in and queries it live, so initial answers can arrive in days or weeks.
 
 ### What is a spend analytics dashboard?
 

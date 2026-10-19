@@ -225,7 +225,7 @@ When evaluating options, look for these essential capabilities:
 -   Robust security and compliance features designed for industrial environments.
     
 
-Many leading platforms today meet these criteria. One solution worth considering is [**Supaboard's AI analysts**](/product/ask-analysts), which are built specifically for complex manufacturing data. Its [natural language search](/blog/natural-language-query-analytics) interface allows users to ask questions in plain English and receive instant answers, making it easier for operations teams to get the insights they need without waiting for reports or IT support.
+Many leading platforms today meet these criteria. One worth considering is [**Supaboard's AI Analyst**](/product/ask-analysts). Supaboard is the one AI agent that does the whole analyst job on your own database. Its [natural language search](/blog/natural-language-query-analytics) interface lets operations teams ask about a line, a shift or a scrap rate and get what moved and why on live data, with the SQL shown, without waiting on anyone. The same agent builds the [AI-generated dashboards](/product/dashboards) and runs the [scheduled reports and alerts](/product/automations), such as the weekly production report, on its own.
 
 The best platform is ultimately the one that fits your current infrastructure, empowers your team, and delivers fast, trustworthy results.
 
@@ -267,4 +267,6 @@ Operations leaders who build a strong analytics foundation now will be better pr
 
 **Ready to turn your plant data into a real advantage?**
 
-[Supaboard](https://calendly.com/aritra-ewq/supaboard-demo) helps manufacturing teams cut through complexity and find the answers they need quickly. Book a short demo tailored to your operations and see how it can support better decisions at your plant.
+In the demo you'll see a production question answered by one agent, inspect the query behind it, and talk through your own data sources.
+
+[**Book a 30-minute demo**](https://calendly.com/aritra-ewq/supaboard-demo)

@@ -331,36 +331,36 @@ Future systems will:
 
 [BI platforms](/blog/best-ai-bi-tools) will evolve from reporting tools into intelligent decision systems.
 
-#### How Supaboard Helps You Turn Questions Into Business Decisions
+#### How Supaboard Answers Questions and Shows Its Working
 
-[Supaboard's AI analysts](/product/ask-analysts), reading live from [12 databases and warehouses](/product/data-connections), are built for teams that want fast, clear, and reliable insights without dealing with complex dashboards or technical setup. It uses generative AI to transform raw business data into meaningful answers through simple, natural language queries.
+Supaboard is the one AI agent that does the whole analyst job on your own database. [Supaboard's AI Analyst](/product/ask-analysts) reads live from [12 databases and warehouses](/product/data-connections), answers with the SQL that ran, and writes up what moved and why, so the narration this post describes always comes with the query that produced each number.
 
-Instead of spending hours building reports or waiting for analysts, users can directly ask questions like “Why is customer churn increasing?” or “Which campaign is giving the highest ROI?” and receive instant, data-backed explanations.
+Instead of spending hours building reports, operators ask questions like “Why is customer churn increasing?” or “Which campaign is giving the highest ROI?” without waiting on anyone, and get an explanation they can check against the SQL behind it.
 
 ### Why Teams Choose Supaboard
 
--   Ask business questions in plain English
+-   Ask questions of live data and see the SQL behind every answer
     
--   Get real-time, AI-generated insights
+-   Read what moved and why in a dashboard's Insights panel
     
--   Create dashboards automatically
+-   Build dashboards, reports and decks (PDF, PowerPoint, Excel) from a prompt
     
--   Connect multiple data sources easily
+-   Read your database and your tools live: 12 databases and warehouses, plus any tool with an MCP server
     
--   Reduce dependence on technical teams
+-   Get the weekly report and the alerts run on their own
     
--   Make faster, more confident decisions
+-   Teach it your definitions. A thumbs-down becomes a rule. Approved SQL becomes a verified example.
     
 
-With [dashboards built from a prompt](/product/dashboards), analytics becomes a daily business tool, not a technical bottleneck. It empowers founders, managers, and teams to act on data with clarity and speed.
+With [dashboards built from a prompt](/product/dashboards), the numbers an operator checks every week stay on live data, and founders and operations leads can act on them directly.
 
 ### How to Generate Dashboards Using AI Without SQL or Manual Reporting
 
 Modern businesses no longer need technical expertise or complex reporting workflows to understand their data. With generative business intelligence, users can create powerful dashboards simply by describing what they want to see in natural language.
 
-Instead of writing SQL queries or manually configuring charts, AI interprets user intent, selects relevant metrics, and automatically builds visualizations that highlight key trends and performance insights. Platforms like Supaboard make this process even simpler by allowing teams to generate dashboards instantly and receive AI-generated explanations alongside their data.
+Instead of writing SQL queries or manually configuring charts, AI interprets user intent, selects relevant metrics, and automatically builds visualizations that highlight key trends and performance insights. In Supaboard, the agent builds the dashboard from that description on live data, and an Insights panel writes up what changed beside the charts.
 
-This reduces time spent on manual analysis while improving decision speed. By removing technical barriers, [scheduled automations](/product/automations) help organizations transform raw data into clear, actionable insights that drive smarter business decisions and faster growth.
+This reduces time spent on manual analysis while improving decision speed. [Automated reporting](/product/automations) then runs the weekly report and the alerts on their own: an alert is a SQL check on your data, run on a schedule, and an Ask Analysts step after it explains the change. Alerts are delivered by email or webhook.
 
 #### Responsibilities of Developers Using Generative AI in Real-World Applications
 

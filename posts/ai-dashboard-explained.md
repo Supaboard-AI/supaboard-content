@@ -165,8 +165,8 @@ the dashboard. In the queue of small follow-ups the dashboard could not answer.
 
 An AI dashboard answers question nine in the same breath as question one, because
 the view is generated rather than pre-built. Legend EHR
-describes the outcome as having an analyst available to every team — not because
-they hired any, but because the follow-up stopped needing one.
+describes the outcome as having an analyst available to every team: the
+follow-up gets answered without waiting on anyone.
 
 <!-- section:content-3 -->
 
@@ -182,7 +182,12 @@ So the system parses intent — what is being measured, sliced by what, over wha
 period — rather than looking for column names in your sentence. This is the same
 machinery behind
 [natural language querying](/blog/natural-language-query-analytics), and what
-[Supaboard's Ask Analysts](/product/ask-analysts) runs on.
+[Supaboard's AI Analyst](/product/ask-analysts) runs on.
+Supaboard is the one AI agent that does the whole analyst job on your own database.
+Its [AI dashboard generator](/product/dashboards) builds the dashboard from the
+metrics you describe, and the same agent answers the follow-up on live data with
+the SQL shown and adds an Insights panel that writes up what changed beside the
+charts.
 
 ### It has to know what your words mean
 

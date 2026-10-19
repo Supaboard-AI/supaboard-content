@@ -119,7 +119,7 @@ The lines above count people repeating an action. What that action is determines
 
 Someone can log in, fail to find what they need, and leave. If that counts as a successful return, the chart may improve while the experience stays disappointing. The action you measure should be close enough to the product's value that repeating it means something.
 
-At Supaboard, I use asking the AI a question about your business. People come to [understand their business data](https://supaboard.ai/product/ask-analysts), so asking a question is more meaningful for this analysis than opening the app. It is still a proxy: a question that receives an unhelpful answer does not demonstrate value delivered. The curve tells us who repeats the behaviour; those users can tell us why.
+At Supaboard, the action I use is asking the AI a question about their business. People come to [understand their business data](https://supaboard.ai/product/ask-analysts), so asking a question is more meaningful for this analysis than opening the app. It is still a proxy: a question that receives an unhelpful answer does not demonstrate value delivered. The curve tells us who repeats the behaviour; those users can tell us why.
 
 The same reasoning applies to timing. Business figures change, and users may have new questions the following week. Weekly measurement makes sense for this example. A news product might expect daily returns; a travel product may wait months for someone to need another booking. Measuring too soon can make a useful product look unsuccessful simply because its users don't need it yet.
 

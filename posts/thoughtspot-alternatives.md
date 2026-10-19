@@ -180,11 +180,11 @@ Here is a balanced look at each option with equal context on their approach, str
 
 ### 1\. Supaboard
 
-[Supaboard](/compare/thoughtspot) is an AI-powered [business intelligence](/blog/best-ai-bi-tools) platform designed for fast, self-service analytics. It emphasizes [natural language queries](/product/ask-analysts) via its “Ask AI” feature, automated insight generation, drag-and-drop dashboards, and business logic agents. It queries 12 databases and warehouses live, and agents read apps such as HubSpot and Stripe through MCP, making it accessible for non-technical teams.
+Supaboard is the one AI agent that does the whole analyst job on your own database. It brings self-service [business intelligence](/blog/best-ai-bi-tools) to teams without a data team: its [AI Analyst](/product/ask-analysts) answers questions on live data with the SQL shown. It also builds [dashboards from a prompt](/product/dashboards), plus reports and decks, and runs the [scheduled reports and alerts](/product/automations) on its own, while its agents learn your business definitions from corrections. It queries [12 databases and warehouses](/product/data-connections) live and read-only, and reads any tool with an MCP server, such as HubSpot or Stripe, live without syncing or copying it. The head-to-head is at [Supaboard vs ThoughtSpot](/compare/thoughtspot).
 
--   **Strengths vs. ThoughtSpot**: Often faster setup with reduced modeling needs, published per-seat pricing rather than a quote ([a free plan, then $19 to $249 per editor per month](/pricing), or $16 to $208 billed yearly, as of October 2026), and strong automation for quick dashboard creation.
+-   **Strengths vs. ThoughtSpot**: Often faster setup with reduced modeling needs, published per-editor pricing rather than a quote ([a free plan, then $19 to $249 per editor per month](/pricing), or $16 to $208 billed yearly, as of October 2026, with viewers free), and one agent that also builds the dashboards and runs the scheduled reports. Each paid seat includes a weekly AI allowance. When it runs out, new AI requests pause until the reset, or you can add credits. Extra storage is billed separately.
     
--   **Best For**: Startups, product teams, and organizations seeking AI-driven insights with minimal technical overhead.
+-   **Best For**: Operators at companies with 50 to 500 staff whose business runs on a database but who cannot staff a data team.
     
 -   **Trade-offs**: As a newer platform, it has a developing ecosystem and may lack some advanced enterprise governance features of more mature tools.
     
@@ -242,17 +242,17 @@ Domo is a comprehensive, cloud-native BI and data platform that includes built-i
 
 | Aspect | ThoughtSpot | Supaboard | Hex | Lightdash | Basedash | Domo |
 | --- | --- | --- | --- | --- | --- | --- |
-| Core Strength | Search + AI insights | AI automation & speed | Notebooks + collaboration | dbt-native metrics | Conversational + tools | All-in-one platform |
-| Pricing Predictability | Usage-influenced | Transparent tiers | Usage/team-based | Often predictable | Competitive flat-rate | Enterprise/custom |
-| Visualizations | Limited customization | Strong drag-and-drop | Flexible | Solid | Strong | Excellent variety |
+| Core Strength | Search + AI insights | One agent for the whole analyst job | Notebooks + collaboration | dbt-native metrics | Conversational + tools | All-in-one platform |
+| Pricing Predictability | Usage-influenced | Published per-editor tiers, weekly AI allowance | Usage/team-based | Often predictable | Competitive flat-rate | Enterprise/custom |
+| Visualizations | Limited customization | Agent-built dashboards | Flexible | Solid | Strong | Excellent variety |
 | Modeling/Setup | High upfront | Relatively low | Code + no-code | Developer-friendly | Conversational | Comprehensive |
-| Best Fit | Search-heavy enterprises | Fast AI insights | Analyst teams | dbt users | Governed internal tools | Unified needs |
+| Best Fit | Search-heavy enterprises | Teams without a data team | Analyst teams | dbt users | Governed internal tools | Unified needs |
 
 <!-- section:content-7 -->
 
 ### How to Choose the Right ThoughtSpot Alternative
 
-Align your choice with priorities: cost control and speed (Supaboard, Lightdash, Basedash), analyst collaboration (Hex), or end-to-end capabilities (Domo). Test with your actual data, users, and workflows. Most platforms offer trials. For the no-analyst end of that range, Objection.ai unified eleven systems and let marketing and product answer their own questions with no data analysts on staff.
+Align your choice with priorities: answers without a data team (Supaboard), cost control and speed (Lightdash, Basedash), analyst collaboration (Hex), or end-to-end capabilities (Domo). Test with your actual data, users, and workflows. Most platforms offer trials. For the no-analyst end of that range, Objection.ai unified eleven systems and let marketing and product answer their own questions with no data analysts on staff.
 
 **Further Reading**:
 

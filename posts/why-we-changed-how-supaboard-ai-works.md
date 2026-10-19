@@ -22,14 +22,14 @@ author:
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
   url: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/why-we-changed-how-supaboard-ai-works/4fc72b6fb973dc38.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/why-we-changed-how-supaboard-ai-works/43c5f6a2ce5e6b19.jpg
   alt: >-
     Supaboard founder story: one conversation connects a question, investigation
     and ongoing monitoring.
   width: 1672
   height: 941
 ogImage: >-
-  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/why-we-changed-how-supaboard-ai-works/4fc72b6fb973dc38.png
+  https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/why-we-changed-how-supaboard-ai-works/43c5f6a2ce5e6b19.jpg
 sections:
   - id: content-2
     heading: The investigation determined what people wanted to track

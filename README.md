@@ -1,8 +1,9 @@
 # supaboard-content
 
 Source of truth for Supaboard's blog prose. The marketing site
-(`supa-landing`) reads these files at build/ISR time and renders them at
-`https://supaboard.ai/blog/<slug>`.
+(`supaboard-landing`) reads `posts/` from this repo's `main` branch at build
+time and renders them at `https://supaboard.ai/blog/<slug>`. How posts describe
+Supaboard is set in `AUTHORING-PROMPT.md` §2.
 
 ```
 posts/<slug>.md          one post — YAML frontmatter + markdown body
@@ -103,7 +104,7 @@ slug:        must equal the filename
 status:      published | draft | scheduled
 title:       <h1> and the base of the <title> tag
 description: meta description + og:description
-category:    BI Tools | General | Business | Tech
+category:    company | data | product | engineering
 tags:        [ … ]
 publishedAt: YYYY-MM-DD          # drives ordering and datePublished
 updatedAt:   YYYY-MM-DD          # drives dateModified

@@ -256,8 +256,8 @@ for four different reasons. Find your reason first, then read only that entry.
 | --- | --- | --- |
 | **You want to stay open-source and self-hosted** | Apache Superset, Redash, Lightdash | Same ownership model, no per-seat bill. You keep the SQL dependency and the ops burden — see [Apache Superset alternatives](/blog/apache-superset-alternatives) |
 | **You need to embed analytics in your own product** | Sisense, Yellowfin BI | Built for embedding with white-labelling and tenant isolation, rather than embedding bolted on |
-| **Your non-technical team still cannot self-serve** | Supaboard, ThoughtSpot | The question is asked in plain language; nobody writes SQL to get an answer |
-| **You want AI that reasons, not a chat box** | Supaboard, Hex, Omni | Definitions live in a model the system reasons over — see [AI-native BI tools](/blog/ai-native-business-intelligence-tools) |
+| **Your non-technical team still cannot self-serve** | Supaboard, ThoughtSpot | The question is asked in everyday words and the tool writes the SQL; Supaboard shows that SQL beside the answer |
+| **You want AI that reasons, not a chat box** | Supaboard, Hex, Omni | Definitions live in a model or rule set the system reads before it writes SQL — see [AI-native BI tools](/blog/ai-native-business-intelligence-tools) |
 
 ### A Note on the AI-Native Cohort
 
@@ -280,7 +280,7 @@ bill grows with your team. Verify current rates on each vendor's page.
 | Tool | Pricing model | What the bill scales with | Free tier |
 | --- | --- | --- | --- |
 | **Metabase** | Open-source, plus paid cloud tiers | Self-hosted: your infrastructure and ops time. Cloud: seats and features | Yes — self-hosted open-source edition |
-| **Supaboard** | Per seat, with a weekly AI allowance in each paid seat | Seats, plus any credits added when the allowance runs out, and extra storage | Yes — Free plan, no credit card |
+| **Supaboard** | Per editor, with a weekly AI allowance in each paid seat; viewers are free | Editor seats, plus any credits added when the allowance runs out, and extra storage | Yes — Free plan, no credit card |
 | **ThoughtSpot** | Per seat, with consumption limits on the AI tier | Seats, plus AI query volume on some plans | Trial |
 | **Holistics** | Per seat, tiered | Seats and modelling capacity | Trial |
 | **Yellowfin BI** | Quoted, embedding-oriented | Deployment shape and end users | No |
@@ -288,7 +288,9 @@ bill grows with your team. Verify current rates on each vendor's page.
 
 [Supaboard's rates](/pricing) are a free plan, then $19 per editor per month on
 Starter, $99 on Individual and $249 on Business, or $16, $83 and $208 billed
-yearly, as of October 2026.
+yearly, as of October 2026. Each paid seat includes a weekly AI allowance. When
+it runs out, new AI requests pause until the reset, or you can add credits.
+Extra storage is billed separately.
 
 The trap worth naming: Metabase's open-source edition is free in licence terms and
 not free in total cost. Someone hosts it, upgrades it, tunes the queries and
@@ -299,42 +301,42 @@ usually an engineer, and engineer-hours cost more than seats.
 
 ## 1\. Supaboard
 
-**Best Metabase Alternative for AI-Powered Analytics for Non-Technical Teams**
+**Best Metabase Alternative for Teams Without a Data Team**
 
-**Best for:** Data teams and mid-market companies that want consistent metrics, structured reporting, and control over business logic
+**Best for:** Operators at growing companies whose business runs on a database but who cannot staff a data team
 
-[Supaboard](/product/ask-analysts) is an AI-native business intelligence platform built for non-technical teams. Instead of building dashboards or writing queries, users can ask questions in plain English and instantly get answers, visualizations, and explanations. No SQL, no query builder, no dependency on analysts.
+Supaboard is the one AI agent that does the whole analyst job on your own database. Instead of building dashboards or writing queries first, people [ask the AI Analyst](/product/ask-analysts) a question in their own words and get the answer, the chart and the SQL behind it. Nobody has to write SQL, and anyone who wants to can open Query Bench, the [AI SQL and Python editor](/product/query-builder).
 
-Unlike [traditional BI](/blog/self-service-bi) tools that focus on dashboards, Supaboard focuses on answers. It brings your data, metrics, and business logic into one unified layer, so every insight is consistent and aligned with how your business actually works.
+Unlike [traditional BI](/blog/self-service-bi) tools that start from dashboards, Supaboard starts from the question, shows its working, and then builds the dashboard, report or alert you need from the same conversation.
 
 ### Key Features
 
 **AI-first querying**  
-Ask questions like _“Why did revenue drop last week?”_ or _“Which campaign is performing best?”_ and Supaboard generates insights, charts, and explanations instantly. No need to understand data models or write queries.
+Ask questions like _“Why did revenue drop last week?”_ or _“Which campaign is performing best?”_ and Supaboard works out what moved and why on live data, with a chart and the SQL shown. No need to understand data models or write queries.
 
 **AI-generated dashboards**  
-Instead of manually creating dashboards, Supaboard automatically builds dashboards based on your goals or questions. This removes the need for setup and speeds up insight discovery.
+Instead of manually creating dashboards, you describe your goals or questions and Supaboard's [AI dashboard generator](/product/dashboards) builds one on live data. The same agent produces reports and decks as PDF, PowerPoint or Excel, and dashboards can be embedded in your own product or white-labelled.
 
-**Context-aware insights**  
-Supaboard doesn’t just show charts—it explains what’s happening. It highlights trends, anomalies, and key drivers so teams can understand data without deep analysis.
+**Insights beside the charts**  
+Supaboard doesn’t just show charts. Each dashboard can carry an Insights panel that writes up what changed beside the charts, so teams can see what moved and why without deep analysis.
 
-**Unified data layer**  
-Connect 12 databases and warehouses, upload spreadsheets, and let agents read 22 apps such as HubSpot and Stripe through MCP. Supaboard maps your metrics and definitions into a single source of truth for consistent insights.
+**Your database and your tools**  
+Query [12 databases and warehouses](/product/data-connections) live and read-only, attach spreadsheets and documents to a conversation, and read any tool with an MCP server, such as HubSpot or Stripe, live and never synced or copied.
 
 **Ask → Explore → Act workflow**  
 Users can ask questions, refine insights with follow-ups, pin results to dashboards, and share them instantly across teams—without switching tools.
 
-**KPI tracking and real-time monitoring**  
-Track performance metrics in real time without manually building reports. Supaboard automatically keeps dashboards updated and relevant.
+**KPI tracking and scheduled alerts**  
+Track performance metrics on live data with [automated reporting](/product/automations) rather than building reports by hand. The weekly report runs on its own, and an alert is a SQL check on your data, run on a schedule, with an explanation of the change sent by email or webhook.
 
-**AI agents with business context**  
-Supaboard’s AI understands your business logic, not just raw data. This ensures answers are accurate, consistent, and aligned with how your team defines metrics.
+**Agents with business context**  
+[Agents](/product/agents) hold your rules, knowledge, examples and memory, and the rules are read with every question. A thumbs-down becomes a rule. Approved SQL becomes a verified example. Evals score the agent 0 to 100 on questions you already know the answers to.
 
-[**Start Free**](https://auth.supaboard.ai/onboard/register) **and explore your data with your own datasets, see what insights you can uncover in minutes.**
+[**Start Free**](https://auth.supaboard.ai/onboard/register) **and ask your first question on your own database.**
 
 ### Who It's For
 
-Supaboard is designed for teams that want to work with data without technical complexity. It’s especially useful for:
+Supaboard is for operators whose business runs on a database but who cannot staff a data team. It’s especially useful for:
 
 -   Marketing teams tracking campaign performance
     
@@ -342,7 +344,7 @@ Supaboard is designed for teams that want to work with data without technical co
     
 -   Operations teams monitoring daily metrics
     
--   SaaS founders who need insights without hiring analysts
+-   SaaS founders who need answers without waiting on anyone
     
 
 It’s also a strong fit for mid-market companies that want to move faster without building a full data team. Objection.ai runs exactly that way — eleven sources, from the product database to Stripe and Twilio, with no data analyst on staff.
@@ -351,9 +353,9 @@ It’s also a strong fit for mid-market companies that want to move faster witho
 
 [Supaboard](/pricing) has a free plan, then $19 per editor per month on Starter, $99 on Individual and $249 on Business, or $16, $83 and $208 billed yearly. Enterprise is quoted. Rates as of October 2026.
 
-Compared to traditional BI tools, the value comes from reduced dependency on analysts and faster decision-making, not just lower cost.
+Compared to traditional BI tools, the value is in what one agent covers, from answers to dashboards, reports and alerts, and in viewers being free, not in a lower price.
 
-![Supobaord pricing | metabase alternative](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/metabase-alternatives/d09412d10b9112a4.png?w=1297&h=265)
+![Supaboard pricing | metabase alternative](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/metabase-alternatives/d09412d10b9112a4.png?w=1297&h=265)
 
 <!-- section:content-12 -->
 
@@ -603,7 +605,7 @@ It is positioned as an enterprise solution, so costs can be higher compared to s
 
 | Tool | Query Method | Data Dependency | AI Capability | Setup Reality | Best Fit Reality |
 | --- | --- | --- | --- | --- | --- |
-| Supaboard | Natural language (no SQL) | Low – works without strict data modeling | Generates answers + explanations automatically | Fast setup (connect data → start asking questions) | Teams avoiding dashboards & analyst dependency |
+| Supaboard | Natural language, with the SQL shown | Low – learns definitions from corrections instead of a model built first | Answers, explanations, dashboards, reports and alerts from one agent | Fast setup (connect your database → start asking questions) | Operators without a data team who need answers without waiting on anyone |
 | ThoughtSpot | Search-based queries | High – needs clean, structured models | AI insights + anomaly detection | Requires backend data modeling + governance | Enterprises with strong data infrastructure |
 | Holistics | SQL + data modeling layer | Very high – model must be defined first | Minimal AI (focus on structured reporting) | Heavy setup (data model → reports → dashboards) | Teams prioritizing metric consistency over speed |
 | Yellowfin BI | Dashboard + guided analysis | Medium – structured but flexible | AI storytelling + automated insights | Moderate setup (dashboards + embedding config) | SaaS/products needing embedded reporting |
@@ -716,6 +718,8 @@ If your team still depends on others for basic insights, it’s time to consider
 
 **Ready to move from data confusion to clear answers?**
 
-[**Get Started**](https://auth.supaboard.ai/onboard/register) – Connect your data and see insights in minutes
+Connect your own database and ask the question your team keeps waiting on. One agent answers it with the SQL shown, then builds the dashboard and the weekly report.
 
-[**Book a Demo**](https://calendly.com/aritra-ewq/supaboard-demo) – Get a personalized walkthrough of Supaboard for your use case.
+[**Start Free**](https://auth.supaboard.ai/onboard/register)
+
+[**Book a 30-minute demo**](https://calendly.com/aritra-ewq/supaboard-demo)

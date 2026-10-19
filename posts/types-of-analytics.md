@@ -212,7 +212,7 @@ Descriptive analytics gives your team a shared understanding. Everyone—from C-
 
 **Tools & Tips:**
 
--   **Tools:** Supaboard, [Power BI,](https://www.microsoft.com/en-us/power-platform/products/power-bi) Tableau, Looker
+-   **Tools:** Supaboard's [AI dashboard generator](/product/dashboards), [Power BI,](https://www.microsoft.com/en-us/power-platform/products/power-bi) Tableau, Looker
     
 -   **Tip:** Focus on meaningful KPIs and avoid dashboard clutter. Automate reports but regularly check data quality.
 
@@ -245,7 +245,7 @@ Without diagnostic analytics, teams guess, misallocate resources, or fix the wro
 
 **Tools & Tips:**
 
--   **Tools:** SQL, [**Supaboard**](/product/query-builder) across [12 databases and warehouses](/product/data-connections), Power BI, Excel
+-   **Tools:** SQL, **Supaboard's [AI SQL editor](/product/query-builder)** across [12 databases and warehouses](/product/data-connections), Power BI, Excel
     
 -   **Tip:** Ask focused questions, validate correlations, and combine insights with domain knowledge.
 
@@ -278,7 +278,7 @@ An e-commerce company predicted high demand for certain products before the fest
 
 Predictive analytics allows businesses to act early instead of reacting late. It reduces uncertainty and supports better planning.**Tools & Tips:**
 
--   **Tools:** Python, R, AutoML platforms, Supaboard
+-   **Tools:** Python, R, AutoML platforms
     
 -   **Tip:** Ensure data quality, monitor model accuracy, retrain regularly, and combine AI insights with human judgment.
 
@@ -356,11 +356,11 @@ Many companies track hundreds of metrics but don’t act on any of them. More da
 
 ### Want to Avoid These Mistakes?
 
-Tools alone don’t fix analytics problems, _clarity_ does. Platforms like **Supaboard** help teams move beyond confusing dashboards and turn insights into real actions.
+Tools alone don’t fix analytics problems, _clarity_ does. Supaboard is the one AI agent that does the whole analyst job on your own database. It starts where this guide says to start: what happened, and what moved and why.
 
-If you want analytics that actually drive decisions (not just reports), **Supaboard** is built for that.
+It answers on live data with the SQL shown, runs the [scheduled reports and alerts](/product/automations) on its own, and learns your definitions from corrections. A thumbs-down becomes a rule. Approved SQL becomes a verified example.
 
-Try [Supaboard's AI analysts](/product/ask-analysts) and start making data-driven decisions that actually work.
+See how [Supaboard's AI Analyst](/product/ask-analysts) shows its working, then [Start Free](https://auth.supaboard.ai/onboard/register) or [Book a 30-minute demo](https://calendly.com/aritra-ewq/supaboard-demo).
 
 ### Quick Comparison
 

@@ -12,6 +12,7 @@ import { basename } from "node:path";
 import matter from "gray-matter";
 import { validateCorpus, type Frontmatter } from "../schema/frontmatter.ts";
 import { analyze } from "./analyze.ts";
+import { BANNED } from "./banned.ts";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const POSTS = `${ROOT}posts/`;
@@ -36,18 +37,12 @@ for (const i of issues) fail(i.slug, "schema", `${i.path}: ${i.message}`);
 const validBySlug = new Map(valid.map((v) => [v.slug, v.data as Frontmatter]));
 
 /**
- * --- 9: phrases that were each a real production defect.
+ * --- 9: phrases that were each a real production defect (`banned.ts`).
  *
  * Deliberately outside the loop below, which skips any doc that already failed
  * the schema — a post with a bad statsCount can still be claiming a feature we
  * do not have, and that is the more expensive error.
  */
-const BANNED: [RegExp, string][] = [
-  [/dashboards[ -]as[ -]code/i, "Supaboard has no such feature"],
-  [/600\+\s*data sources/i, "the connector count is 700+"],
-  [/\bStarter, Pro\b/, "the plans are Individual, Business and Enterprise"],
-  [/Not verified —/, "editorial placeholder left in the body"],
-];
 
 /**
  * --- 10: an internal body link that 301s or 410s.

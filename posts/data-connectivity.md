@@ -396,23 +396,26 @@ Everything above is only true if the connections actually exist. A platform that
 explains data connectivity well but reaches four systems is not solving the problem
 this article describes.
 
-Supaboard connects to [12 databases and warehouses](/product/data-connections), queried read-only when a
-question is asked, and agents read 22 apps live through their MCP servers. Between
-them they cover the three categories most teams have to stitch together by hand. Objection.ai
-brings eleven systems into one place — product database, ads suite, Asana, Cloudflare,
+Supaboard is the one AI agent that does the whole analyst job on your own database. It
+connects to [12 databases and warehouses](/product/data-connections), queried live and
+read-only when a question is asked, and through MCP it reads any tool with an MCP server,
+live and never synced or copied: 22 are ready to add, and custom servers can be added by
+URL. Add the spreadsheets and documents people attach to a conversation, and they cover
+the three categories most teams have to stitch together by hand. Objection.ai brings
+eleven systems into one place — product database, ads suite, Asana, Cloudflare,
 PostHog, Stripe and Twilio. The three categories:
 
 -   **Databases and warehouses** — PostgreSQL, MySQL, Snowflake, BigQuery, Redshift.
     The systems your transactional and analytical data already lives in.
--   **Business apps** — CRM, billing, product analytics and docs tools such as
-    HubSpot, Stripe, PostHog and Notion, read live by an agent, where the context
-    behind the numbers sits.
+-   **Business apps** — CRM, billing, product analytics and docs tools: any tool
+    with an MCP server, such as HubSpot, Stripe, PostHog or Notion, read live by the
+    agent and never copied. This is where the context behind the numbers sits.
 -   **Files and spreadsheets** — the CSVs and Google Sheets that hold the last mile of
     almost every real reporting process.
 
 The point is not the count. It is that connectivity stops being a project. Once the
 sources are attached, questions that used to span three exports become one question,
-asked in plain language and answered against live data. That is the difference between
+answered against live data with the SQL shown. That is the difference between
 [a connected data stack](/blog/database-vs-data-warehouse-vs-data-lake) and a
 well-documented intention to build one.
 
@@ -470,6 +473,6 @@ Most businesses already have the data they need, the real advantage comes from *
 
 But data connectivity isn’t just about integrating tools. It’s about making data accessible and actionable for everyone — so teams can move from searching for information to actually using it. When data flows seamlessly, collaboration improves, bottlenecks disappear, and decisions become more confident and consistent.
 
-This is where modern platforms like [Supaboard](/product/ask-analysts) make a difference. By connecting your data and allowing teams to simply ask questions, you remove the complexity of dashboards and queries and unlock instant, contextual insights. If you’re looking to improve decision-making and get more value from your data, it starts with better connectivity.
+This is where Supaboard comes in. Its [AI Analyst](/product/ask-analysts) reads your database and your tools live and answers each question with the SQL shown. From the same connections come the [dashboards built from a prompt](/product/dashboards) and the [automated reports and alerts](/product/automations), so the people asking see what moved and why without waiting on anyone. If you’re looking to improve decision-making and get more value from your data, it starts with better connectivity.
 
-[**Book a demo**](https://calendly.com/aritra-ewq/supaboard-demo) **and experience connected data in action.**
+[**Book a 30-minute demo**](https://calendly.com/aritra-ewq/supaboard-demo) **to see it on connected data, or [Start Free](https://auth.supaboard.ai/onboard/register) with your own.**

@@ -138,13 +138,13 @@ It was a fair question. It was also, until recently, the kind of question that e
 
 This is the quiet tax on a revenue cycle management business. Jindal Healthcare runs RCM for a roster of healthcare clients, which is to say it lives in one of the most data-heavy corners of the industry. Every client arrives as its own world: its own claims data, its own payer mix, its own denial patterns, its own idea of what a good report looks like. Multiply that by a client list and the analytics workload stops being a task and becomes its own operations problem.
 
-**A revenue cycle management company, Jindal Healthcare, cut per-client analysis from four hours to two minutes and reduced analytics cost by 90 percent using [Supaboard's analyst agents](/product/agents) and its AI-native BI.**
+**A revenue cycle management company, Jindal Healthcare, cut per-client analysis from four hours to two minutes and reduced analytics cost by 90 percent using [Supaboard's agent](/product/agents).** Supaboard is the one AI agent that does the whole analyst job on your own database. At Jindal, that database is a warehouse of masked revenue-cycle data.
 
 <!-- section:content-2 -->
 
 ## At a glance
 
-<table><tbody><tr><th scope="row"><strong>Company</strong></th><td>Jindal Healthcare, a revenue cycle management (RCM) provider serving a roster of healthcare clients</td></tr><tr><th scope="row"><strong>Industry</strong></th><td>Healthcare, revenue cycle management</td></tr><tr><th scope="row"><strong>Before</strong></th><td>One client analysis took about four hours of senior-analyst time, spread across multiple SQL queries and manual reconciliation between disconnected systems</td></tr><tr><th scope="row"><strong>After</strong></th><td>The same analysis takes about two minutes, run on demand by any operator, with analytics cost down 90 percent</td></tr><tr><th scope="row"><strong>What they use it for</strong></th><td>Client reviews, denial root-cause analysis, and performance benchmarking, all run from one source of truth across every client</td></tr><tr><th scope="row"><strong>Data and compliance</strong></th><td>Jindal masks all PHI before it leaves its environment. Supaboard cleans the masked data into a warehouse and never touches PHI or the EHR</td></tr></tbody></table>
+<table><tbody><tr><th scope="row"><strong>Company</strong></th><td>Jindal Healthcare, a revenue cycle management (RCM) provider serving a roster of healthcare clients</td></tr><tr><th scope="row"><strong>Industry</strong></th><td>Healthcare, revenue cycle management</td></tr><tr><th scope="row"><strong>Before</strong></th><td>One client analysis took about four hours of senior-analyst time, spread across multiple SQL queries and manual reconciliation between disconnected systems</td></tr><tr><th scope="row"><strong>After</strong></th><td>The same analysis takes about two minutes, run on demand by any operator, with analytics cost down 90 percent</td></tr><tr><th scope="row"><strong>What they use it for</strong></th><td>Client reviews, denial root-cause analysis, and performance benchmarking, all run from one source of truth across every client</td></tr><tr><th scope="row"><strong>Data and compliance</strong></th><td>Jindal masks all PHI before it leaves its environment, and its pipeline lands the masked data in a warehouse. Supaboard queries that warehouse live and never touches PHI or the EHR</td></tr></tbody></table>
 
 <!-- section:content-3 -->
 
@@ -170,7 +170,7 @@ The pipeline was built with a hard boundary. Jindal collated the raw data from a
 
 Moving the data was the easy half. The harder half was teaching the tool what the data meant. RCM is full of numbers that look identical and mean opposite things. Aging is the classic trap: a claim sitting at sixty days can be a process failure your team needs to fix, or it can be nothing at all, just the unremarkable rhythm of a payer who always pays on that cadence. A naive dashboard flags both as red. An analyst who knows the account knows the difference. Jindal trained Supaboard's trainable agent on exactly that kind of judgment: claim lifecycles, denial categories, and the behavior of specific payers, including when aging signals a problem and when it is just how a payer pays.
 
-Once the agent understood the domain, the question stopped routing through a person. Anyone on the team could ask a question in plain language and get an answer back in the shape of the work, not in the shape of a SQL result set waiting to be interpreted.
+Once the agent understood the domain, the question stopped routing through a person. Anyone on the team could ask the [AI Analyst](/product/ask-analysts) a question in plain language and get an answer back in the shape of the work, not in the shape of a SQL result set waiting to be interpreted.
 
 <!-- section:content-5 -->
 

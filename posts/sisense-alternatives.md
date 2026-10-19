@@ -130,7 +130,7 @@ statsCount: 0
 
 <!-- section:content-1 -->
 
-> **TL;DR:** For most teams leaving Sisense, Supaboard is the strongest overall pick: faster setup, AI agents that learn your business rules, and pricing you can actually plan for. ThoughtSpot fits search-first AI teams, Power BI fits Microsoft shops, Looker fits BigQuery-native enterprises, and Metabase fits budget-conscious engineering teams.
+> **TL;DR:** For most teams leaving Sisense, Supaboard is the strongest overall pick: faster setup, one AI agent that learns your business rules from corrections, and per-editor prices published on its pricing page. ThoughtSpot fits search-first AI teams, Power BI fits Microsoft shops, Looker fits BigQuery-native enterprises, and Metabase fits budget-conscious engineering teams.
 
 <!-- section:content-2 -->
 
@@ -162,13 +162,13 @@ Match the tool to how your team actually works, not to a feature checklist. The 
 
 ### 1\. Supaboard: best overall pick
 
-Supaboard is an AI-native BI platform: you connect your data, then [trainable AI analyst agents](/product/agents) that learn your business rules answer questions in plain English, build dashboards, write and fix SQL, and run scheduled reports on their own. It queries 12 databases and warehouses live and reads 22 apps through MCP, and it launched in February 2026 to a #1 Product of the Day and Week finish on Product Hunt.
+Supaboard is the one AI agent that does the whole analyst job on your own database. You connect your data, and the agent answers questions on live data with the SQL shown, builds [AI-generated dashboards](/product/dashboards) and reports, writes and fixes SQL, and runs the [scheduled reports and alerts](/product/automations), such as the weekly report, on its own. Its [agents](/product/agents) hold your rules, knowledge, examples and memory, and they learn from corrections. A thumbs-down becomes a rule. Approved SQL becomes a verified example. It queries [12 databases and warehouses](/product/data-connections) live and read-only, reads any tool with an MCP server, such as HubSpot or Stripe, live without syncing or copying it, and was #1 Product of the Week on Product Hunt (February 2026).
 
 **Strength:** the AI agents get trained on your definitions rather than guessing at generic ones, which matters once more than one team asks questions with different assumptions about what "revenue" means.
 
 **Weakness:** it's newer to market than the legacy players here, so you won't find the decade of Stack Overflow threads and consultant ecosystem that Power BI or Qlik have built up.
 
-**Pricing shape:** a free plan, then Starter at $19 per editor per month, Individual at $99 and Business at $249 (or $16, $83 and $208 billed yearly), and a custom Enterprise plan, per [Supaboard's pricing page](/pricing) as of October 2026. Governance includes RBAC, audit logs, and SOC 2, with a HIPAA BAA as a paid add-on. See [Supaboard's roundup of the best AI BI tools](/blog/best-ai-bi-tools) for the full comparison.
+**Pricing shape:** a free plan, then Starter at $19 per editor per month, Individual at $99 and Business at $249 (or $16, $83 and $208 billed yearly), and a custom Enterprise plan, per [Supaboard's pricing page](/pricing) as of October 2026. Viewers are free. Each paid seat includes a weekly AI allowance. When it runs out, new AI requests pause until the reset, or you can add credits. Extra storage is billed separately. Governance includes RBAC on every plan, SSO and audit logs on Enterprise, and SOC 2 Type II; the HIPAA BAA is Enterprise only. See [Supaboard's roundup of the best AI BI tools](/blog/best-ai-bi-tools) for the full comparison.
 
 ### 2\. ThoughtSpot: best for search-driven AI analytics
 
@@ -250,7 +250,7 @@ One data point on the cost column before the table: Jindal Healthcare cut analyt
 
 | Tool | Setup time | AI & natural language | Embedding | Governance | Pricing model |
 | --- | --- | --- | --- | --- | --- |
-| Supaboard | Fast, connects live to 12 databases and warehouses | Trained AI agents on your rules | White-label embedded analytics | RBAC, audit logs, SOC 2, HIPAA BAA add-on | Per editor, published |
+| Supaboard | Fast, connects live to 12 databases and warehouses | One agent that learns your rules, SQL shown | White-label embedded analytics | RBAC on every plan; SSO, audit logs and HIPAA BAA on Enterprise; SOC 2 Type II | Per editor, published; viewers free |
 | ThoughtSpot | Moderate, modeling required | Strong search-based AI (Spotter) | Separate product, usage-based | RLS, RBAC | Per-user + usage-based embedding |
 | Power BI | Fast for Microsoft shops | Copilot features, improving | Requires Fabric capacity | Strong (Microsoft ecosystem) | Per-user, capacity add-on |
 | Looker | Slow, LookML build-out | Basic, semantic-layer dependent | Strong, mature | Strong, enterprise-grade | Custom quote only |
@@ -268,7 +268,7 @@ Sisense still makes sense when you're building deep, white-labeled embedded anal
 
 ## How do you switch from Sisense without breaking reporting?
 
-Migrating BI tools is more about sequencing than software. Start by exporting your data source connections and documenting which dashboards actually get used weekly (a surprising number don't). Rebuild your highest-traffic dashboards first and run them in parallel with Sisense for two to three weeks so stakeholders can sanity-check the numbers before you cut over. Keep Sisense live in read-only mode during the transition rather than shutting it off on day one, since someone will inevitably need a historical report you forgot to migrate. Train your power users on the new tool before the broader team, so they can field questions instead of routing everything back to you. For a side-by-side look at how the major platforms stack up, [Supaboard's comparison page](/compare) is a useful second reference.
+Migrating BI tools is more about sequencing than software. Start by exporting your data source connections and documenting which dashboards actually get used weekly (a surprising number don't). Rebuild your highest-traffic dashboards first and run them in parallel with Sisense for two to three weeks so stakeholders can sanity-check the numbers before you cut over. Keep Sisense live in read-only mode during the transition rather than shutting it off on day one, since someone will inevitably need a historical report you forgot to migrate. Train your power users on the new tool before the broader team, so they can field questions instead of routing everything back to you. For how the major platforms stack up, [AI BI tools compared side by side](/compare) is a useful second reference.
 
 <!-- section:content-8 -->
 

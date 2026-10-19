@@ -388,4 +388,6 @@ Understanding **what is a KPI** is essential for modern business leadership.
 
 **KPIs** connect strategy with execution, transform data into actionable direction, strengthen accountability, and support continuous improvement.By combining well-designed **KPIs** with reliable analytics systems, organizations can build a performance-driven culture that drives sustainable growth.
 
-**Unlock the power of KPIs and performance tracking for your business.** Start using modern KPI dashboards and analytics tools today with [**Supaboard's live dashboards**](/product/dashboards), [priced flat per seat](/pricing), and make data-driven decisions that drive growth.
+**Unlock the power of KPIs and performance tracking for your business.** Supaboard is the one AI agent that does the whole analyst job on your own database. It builds [**live KPI dashboards**](/product/dashboards), runs [automated reports and alerts](/product/automations) such as the weekly KPI report, and tells you what moved and why, priced per editor with [the price published](/pricing) and viewers free.
+
+[Start Free](https://auth.supaboard.ai/onboard/register) or [Book a 30-minute demo](https://calendly.com/aritra-ewq/supaboard-demo).

@@ -307,15 +307,15 @@ This hybrid approach allows organizations to maintain data accuracy while also i
 
 ## Best Self-Service BI Tools (2026)
 
-Modern self-service BI tools like Power BI, Tableau, and ThoughtSpot help teams explore data faster, but often still require setup or analyst support.
+Modern self-service BI tools like Power BI, Tableau, and ThoughtSpot help teams explore data faster, but often still require setup or analyst support. For a feature-by-feature view, see [AI BI tools compared side by side](/compare).
 
-New AI-native tools like Supaboard go further by enabling users to ask questions in plain English and get instant insights without dashboards or complex queries.
+Supaboard is the one AI agent that does the whole analyst job on your own database. It answers the unplanned question on live data with the SQL shown, builds an [AI-generated dashboard](/product/dashboards) when one is worth keeping, and runs the [scheduled reports and alerts](/product/automations) on its own.
 
-[Supaboard's AI analysts](/product/ask-analysts) combine the speed of self-service BI with structured data reliability, making it easier for teams to move from data to decisions. Legend EHR uses it to give every clinic manager an analyst scoped to their own location.
+[Supaboard's AI Analyst](/product/ask-analysts) also does the shared-definitions work this post keeps returning to, because it learns your definitions from corrections. A thumbs-down becomes a rule. Approved SQL becomes a verified example. Legend EHR uses it to give every clinic manager an analyst scoped to their own location.
 
-You can try it with your own data and experience how modern BI should work.
+You can try it on your own database and check its working against questions you already know the answers to.
 
-Start now on the [**Free plan**](https://auth.supaboard.ai/onboard/register). No credit card required.
+[**Start Free**](https://auth.supaboard.ai/onboard/register). No credit card required.
 
 <!-- section:content-11 -->
 

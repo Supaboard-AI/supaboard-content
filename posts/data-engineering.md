@@ -359,7 +359,7 @@ but the ones doing the **right kind of work**.
 | **Primary Role** | Build pipelines & move data | Design systems for real-time + AI decisions | Focus on system design, not just pipelines |
 | **Data Processing** | Batch (daily reports) | Real-time, event-driven systems | Learn streaming (Kafka, Flink basics) |
 | **AI Involvement** | No direct role | Core part of AI systems (data prep, context) | Understand how data feeds AI models |
-| **Data Modeling** | Static schemas for [dashboards](/product/dashboards), fed live from [12 databases and warehouses](/product/data-connections) | Semantic + flexible models for analytics & AI | Learn dbt + semantic layer thinking |
+| **Data Modeling** | Static schemas for dashboards | Semantic + flexible models for analytics & AI | Learn dbt + semantic layer thinking |
 | **Decision Making** | Follow requirements | Make trade-offs (cost, speed, scale) | Practice architecture thinking |
 | **Data Quality** | Fix after issues | Built-in validation, observability | Focus on data reliability systems |
 | **Career Growth** | Tool expertise = senior | System + business impact = senior | Think like a data product owner |
@@ -485,5 +485,7 @@ So, if you're preparing for the future, focus on three things:
     
 -   **Think like a product owner** (focus on business value, not just pipelines, understand what you're building and why it matters)
     
+
+Supaboard is the one AI agent that does the whole analyst job on your own database. The [AI-generated dashboards](/product/dashboards) and answers it builds, queried live from [12 databases and warehouses](/product/data-connections), still rest on the schemas and definitions a data engineer owns. Engineers who want to write the query themselves get Query Bench, its [AI SQL and Python editor](/product/query-builder), on the same sources.
 
 Because in the end, tools will keep changing. But strong engineering thinking will always stay relevant

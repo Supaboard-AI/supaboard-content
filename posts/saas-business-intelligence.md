@@ -371,11 +371,11 @@ Embedded dashboards allow customers to track efficiency, SLA performance, and sy
 
 ## Popular SaaS Business Intelligence Tools in 2026
 
-### [**Supaboard**](/product/ask-analysts)
+### **Supaboard**
 
-Flat per-seat pricing, [published rather than quoted](/pricing), and Objection.ai runs eleven sources on it with no data analyst on staff.
+Supaboard is the one AI agent that does the whole analyst job on your own database. Its [AI Analyst](/product/ask-analysts) answers MRR, churn and cohort questions on live data with the SQL shown. It also builds [AI-generated dashboards](/product/dashboards) and handles [automated reporting](/product/automations), from the weekly metrics report to the alerts. Objection.ai runs eleven sources on it with no data analyst on staff.
 
-Fast setup, strong support for SaaS metrics, built for **self-service and embedded dashboards**.
+It queries [12 databases and warehouses](/product/data-connections) live and read-only, embeds dashboards in your product with white-label, and is priced per editor, with the price [published rather than quoted](/pricing). Viewers are free.
 
 ### **Looker**
 
@@ -509,4 +509,6 @@ In 2026, SaaS business intelligence is not just a reporting tool. It’s a growt
 
 Companies that adopt scalable, real-time, and user-friendly BI gain faster insights, stronger team alignment, and a long-term competitive edge. Business intelligence in SaaS now powers products, people, and decisions.
 
-If you’re looking to turn SaaS metrics into real-time, actionable insights, without complex setup or heavy analytics overhead, [**Supaboard**](/product/datasites) helps teams build, share, and embed SaaS-ready dashboards in minutes.
+If your SaaS metrics live in your own database and you want to know what moved and why without waiting on anyone, [**Supaboard**](/product/datasites) answers on live data and builds the dashboards and Datasites your team shares or embeds.
+
+[Start Free](https://auth.supaboard.ai/onboard/register) or [Book a 30-minute demo](https://calendly.com/aritra-ewq/supaboard-demo).
