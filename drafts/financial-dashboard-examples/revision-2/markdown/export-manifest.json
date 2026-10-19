@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "images/01-profitability-dashboard.png",
+    "width": 1532,
+    "height": 1112,
+    "bytes": 129209,
+    "sha256": "9750e2e2c2b03e3df698b2fabc41ecb97e105dea7e9b151e8261d58fc473acf9",
+    "callouts": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "filename": "images/02-accounts-receivable-dashboard.png",
+    "width": 1532,
+    "height": 1220,
+    "bytes": 116601,
+    "sha256": "fb1b0acfc31c17473f158b5f4ce5c60b589601183ccaeee7fa5a2390a72a9a5b",
+    "callouts": [
+      "4"
+    ]
+  },
+  {
+    "filename": "images/03-collection-records.png",
+    "width": 1532,
+    "height": 1286,
+    "bytes": 141755,
+    "sha256": "cea7173ef5ca0fb444192d3a11284f873ac1456bac7589100cdaf6c812d8ce8e",
+    "callouts": [
+      "5"
+    ]
+  },
+  {
+    "filename": "images/04-combined-finance-dashboard.png",
+    "width": 1532,
+    "height": 1120,
+    "bytes": 128941,
+    "sha256": "d3c57893238874ac918d7e473e915feee7734a241beb5f4410faf001ae973dc7",
+    "callouts": [
+      "6"
+    ]
+  }
+]

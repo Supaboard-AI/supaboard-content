@@ -16,10 +16,10 @@ updatedAt: '2026-10-19'
 readMinutes: 4
 readLabel: 4 Min Read
 author:
-  name: Sriyanshu Mishra
-  title: Data Analyst
+  name: Subhrajyoti Modak
+  title: Co-Founder & CTO
   avatar: >-
-    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/926ad2ca51463a87.png
+    https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/authors/0b5807dfc3694948.jpeg
 cover:
   url: >-
     https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/financial-dashboard-examples/19a54afd62b49e40.webp

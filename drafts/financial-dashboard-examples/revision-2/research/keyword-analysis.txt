@@ -1,0 +1,62 @@
+KEYWORD AND SEARCH-INTENT ANALYSIS
+Financial dashboard examples — October 19, 2026
+
+Scope and evidence
+OpenRush was used for 11 substantive research calls plus capability discovery: broad and related financial-dashboard expansion, accounts-receivable suggestions, five focused keyword inspections, the existing article's indexed keyword footprint, a live SERP, and an AI citation-source sample. Market: United States; language: English. The initial brief did not specify geography, so the plugin's US default was retained and is stated here. Raw responses, timestamps, provenance, coverage and full returned rows are preserved in openrush-results.json.
+
+1. Primary keyword
+financial dashboard examples: 320 estimated monthly searches; $15.62 CPC; MEDIUM competition in focused keyword inspection. Intent is classified informational and confirmed by example/template-heavy search results. The 12 most recent reported monthly values ranged from 260 to 480; September and August 2026 were both 320. This is a useful specific target, not evidence of accelerating demand.
+
+Keep the phrase at the front of the title and naturally in the introduction. The existing article owns this intent on Supaboard, so the revised draft is a replacement candidate for the existing URL, not a second competing Supaboard article.
+
+2. Keyword map
+Keyword | US monthly volume | Evidence | Editorial role
+financial dashboard examples | 320 | Focused inspection | Primary title and opening phrase; worked example
+financial dashboard | 1,300 | Related expansion | Broad parent concept, used naturally
+finance dashboard examples | 320 | Existing-page indexed keyword data | Close variant; no forced duplicate wording
+sample finance dashboards | 320 | Existing-page indexed keyword data | Similar example intent; satisfied by worked table
+accounts receivable aging report | 720 | Focused inspection | Secondary explanation and definition inside collections section
+accounts receivable dashboard | 90 | Focused inspection | Secondary section heading, record requirements and worked example
+cash flow dashboard | 90 | Focused inspection | Supporting distinction: actual money movements, not a forecast
+financial kpi dashboard | 50 | Focused inspection | Supporting KPI-to-question worksheet
+financial reporting dashboard | 110 | Existing-page indexed keyword data | Adjacent vocabulary; not another heading target
+financial dashboard template | 90 | Related expansion | Optional worksheet utility; no claim to provide a downloadable Excel dashboard
+
+Competition labels are advertising-market signals, not organic SEO difficulty. OpenRush did not return a numeric SEO-difficulty score. Search estimates for close variants may overlap; do not sum these rows into a market-size estimate. Focused inspection reports financial KPI dashboard at 50/month while the indexed-page snapshot carries 70/month; the focused value is used here and the mismatch is preserved. Primary-keyword CPC similarly differs between focused inspection ($15.62) and the page snapshot ($10.11). Do not treat CPC as a forecast of conversion or link value.
+
+3. Existing-page opportunity
+inspect_page returned 22 indexed organic keywords. The snapshot placed financial dashboard examples at position 26, finance dashboard examples at 29, and sample finance dashboards at 23. Broader financial dashboard and finance dashboard were at 63 and 55. The page is already associated with the example cluster; improving its specificity is more coherent than changing its primary topic.
+
+These are search-index estimates, not a live rank check or Search Console measurements. The separate live SERP sample returned a different result order from inspect_keyword. Both observations are retained; this analysis does not merge them into one asserted ranking. The supplied 101 clicks and 22,160 impressions remain historical user-provided context with an unspecified period. No new GSC claim is made.
+
+4. Live SERP and intent
+The live query financial dashboard examples showed examples/templates from Qlik, dashboard design inspiration from Dribbble, a ZoomCharts Power BI template, Visbanking, a Power BI report, Embark and Klipfolio in the seven organic results returned. Result types included AI Overview, images, video, People Also Ask and related searches. People Also Ask included What is a financial dashboard? and Is there a free Excel template for creating a financial dashboard?
+
+This supports a concrete example and a reusable comparison table. It does not justify turning the article into an Excel tutorial, personal-finance guide or exhaustive vendor list. The revised article delivers profitability, receivables and actual-cash-flow distinctions through one coherent business problem.
+
+Qlik's and Klipfolio's primary pages were opened. Klipfolio organizes examples by CFO, revenue, cash flow, expense and P&L views and lists relevant KPIs. Our proposed distinction is editorial: connect a green performance view to the omitted overdue question, reconcile the change, and show the invoice-level action. This is a specific contribution, not a claim that no competitor has ever covered collections.
+
+5. AI result observations and choices
+The live AI Overview cited Qlik, Visbanking, Power BI, ThoughtSpot, Klipfolio, Geckoboard and others. OpenRush's separate sampled category citation map included sources such as Qlik, NetSuite, Tableau, Databox and ThoughtSpot. That map covers Google AI Overviews only and is broader than one live query; its counts are not citation probabilities, total market share, or evidence of ChatGPT/Claude/Perplexity visibility.
+
+The revision makes the central answer explicit near the opening, provides a self-contained profit-versus-cash explanation with an SEC citation, defines the receivables aging basis, uses semantic table headers, labels every example as fictional, and places product claims next to the relevant product link. These choices improve clarity and retrievability. No ranking, snippet or AI citation is promised. Google Search Central says ordinary SEO fundamentals apply to AI features; special AI markup is not required.
+Source: https://developers.google.com/search/docs/appearance/ai-features
+
+6. Exclusions
+The broad expansion returned financial brands and personal-finance terms. The accounts-receivable suggestion sample was dominated by definitions and jobs. These were excluded as irrelevant to the buyer's dashboard review. High volume alone did not determine the copy. The truncated accounts-receivable result contains 50 of 9,887 available terms; no claim of exhaustive keyword coverage is made.
+
+7. Backlink plan
+Four absolute Supaboard links are in the article:
+- https://supaboard.ai/ — branded Supaboard anchor in the product section.
+- https://supaboard.ai/product/dashboards — Supaboard Dashboards, supporting filters, follow-up questions and records.
+- https://supaboard.ai/product/data-connections — data connections, a prerequisite for the example.
+- https://supaboard.ai/blog/what-is-a-kpi — financial KPIs, supporting the worksheet.
+The list contains four unique destinations; no repeated footer or keyword-stuffed links are added. Standard HTML anchors preserve the destinations when pasted into another site's editor. The publishing website controls whether links remain in place and which rel attributes it applies.
+
+8. Publishing and format
+The reading copy is about 1,000 words. article-fragment.html provides the article body without review-page navigation or footer. The user explicitly requested HTML and no PDF, so no PDF was created for this revision. The existing PDF belongs to the previous rejected version and is unchanged.
+
+No fabricated human byline, datePublished, publisher identity or cross-domain canonical is embedded. Each publisher should supply its actual author, date, canonical policy and social-image URL. The preview's local hero.webp social image is a review asset, not a claim it has been hosted. Important text is static HTML; host crawlability, indexation and search eligibility cannot be verified before a publisher deploys it.
+
+Method changes from original draft
+Removed staged meeting dialogue, repeated narrative cues, procedural walkthrough headings, excess tables, the separate opening takeaways list and long implementation prompt. Kept the contradiction, overdue movement, invoice example, metric-to-decision worksheet and original final action. Product promotion follows the explanatory method, with absolute backlinks as requested.

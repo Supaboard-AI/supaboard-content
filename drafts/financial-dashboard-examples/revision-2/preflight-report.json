@@ -1,0 +1,17 @@
+{
+  "draft": "/Users/ani/Projects/fyipen-projects/supaboard/supaboard-content/drafts/financial-dashboard-examples/revision-2",
+  "strict": true,
+  "blocked": false,
+  "gates": [
+    {
+      "gate": 4,
+      "name": "Content Review",
+      "passed": true,
+      "violations": [],
+      "warnings": [],
+      "blocking": false,
+      "reason": "95/100 overall, no P0; clears independent editorial review for the requested HTML-only revision, with destination-specific publication metadata still to be configured",
+      "score": 95
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1180" viewBox="0 0 600 590">
+<rect width="600" height="590" rx="16" fill="#f6f7f9"/>
+<g font-family="Arial, sans-serif" fill="#152536">
+<text x="28" y="36" font-size="12" font-weight="700" fill="#536475">ILLUSTRATIVE FINANCE REVIEW · USD</text>
+<text x="28" y="68" font-size="23" font-weight="700">The missing collections question</text>
+<text x="28" y="94" font-size="13" fill="#536475">September performance · receivables as of September 30</text>
+<rect x="28" y="115" width="170" height="108" rx="10" fill="#e7f3ec"/>
+<rect x="214" y="115" width="170" height="108" rx="10" fill="#e7f3ec"/>
+<rect x="400" y="115" width="172" height="108" rx="10" fill="#fff0d9"/>
+<text x="42" y="141" font-size="12">Recognized revenue</text><text x="42" y="176" font-size="27" font-weight="700">$600,000</text><text x="42" y="203" font-size="12" fill="#24613c">Up 20% vs August</text>
+<text x="228" y="141" font-size="12">Gross margin</text><text x="228" y="176" font-size="27" font-weight="700">38%</text><text x="228" y="203" font-size="12" fill="#24613c">Up 3 percentage points</text>
+<text x="414" y="141" font-size="12">Overdue receivables</text><text x="414" y="176" font-size="27" font-weight="700">$160,000</text><text x="414" y="203" font-size="12" fill="#85520d">Up $80,000 · review</text>
+<text x="28" y="255" font-size="17" font-weight="700">What changed in overdue?</text>
+<rect x="28" y="271" width="544" height="65" rx="8" fill="#fff" stroke="#dce2e8"/>
+<text x="44" y="297" font-size="13">$80k opening + $110k newly overdue</text>
+<text x="44" y="320" font-size="13">− $25k receipts − $5k credits = $160k closing</text>
+<text x="28" y="368" font-size="17" font-weight="700">Open the records: Customer A · $45,000</text>
+<rect x="28" y="385" width="544" height="140" rx="8" fill="#fff" stroke="#dce2e8"/>
+<g font-size="12"><text x="44" y="408" font-weight="700">Invoice / unpaid</text><text x="212" y="408" font-weight="700">Recorded issue → next action</text>
+<path d="M44 418H555 M44 452H555 M44 486H555" stroke="#e2e6eb"/>
+<text x="44" y="440">A-104 · $20,000</text><text x="212" y="440">Missing PO → billing checks reference</text>
+<text x="44" y="474">A-117 · $15,000</text><text x="212" y="474">Delivery dispute → operations checks</text>
+<text x="44" y="508">A-123 · $10,000</text><text x="212" y="508">No confirmation → collections follows up</text></g>
+<text x="28" y="554" font-size="12" fill="#536475">Notes require verification. Owners and next review dates accompany records.</text>
+<text x="28" y="576" font-size="11" fill="#536475">Fictional teaching example · not a product screenshot · not a cash forecast</text>
+</g></svg>

@@ -1,0 +1,329 @@
+{
+  "format": "HTML only; PDF intentionally omitted by user request",
+  "checks": [
+    {
+      "viewport": 1280,
+      "theme": "light",
+      "pass": true,
+      "consoleErrors": [],
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": 1,
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Financial dashboard examples: green KPIs, tight cash"
+        },
+        {
+          "level": "H2",
+          "text": "1. Profitability dashboard: is sales growth more profitable?"
+        },
+        {
+          "level": "H2",
+          "text": "2. Accounts receivable dashboard: which payments need attention?"
+        },
+        {
+          "level": "H2",
+          "text": "3. Combined dashboard: what needs a decision?"
+        },
+        {
+          "level": "H2",
+          "text": "Take the review into Supaboard"
+        }
+      ],
+      "missingTargets": [],
+      "emptyLinks": 0,
+      "links": [
+        {
+          "href": "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+          "anchor": "SEC\u2019s financial statements guide"
+        },
+        {
+          "href": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html",
+          "anchor": "ACCA\u2019s receivables guidance"
+        },
+        {
+          "href": "https://supaboard.ai/blog/what-is-a-kpi",
+          "anchor": "financial KPIs"
+        },
+        {
+          "href": "https://supaboard.ai/",
+          "anchor": "Supaboard"
+        },
+        {
+          "href": "https://supaboard.ai/product/data-connections",
+          "anchor": "data connections"
+        },
+        {
+          "href": "https://supaboard.ai/product/dashboards",
+          "anchor": "Supaboard Dashboards"
+        }
+      ],
+      "tables": 1,
+      "tableHeaders": 4,
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Financial dashboard examples: green KPIs, tight cash",
+        "description": "Explore three financial dashboard examples with a receivables aging chart, invoice actions and a KPI worksheet that connects each metric to a review question.",
+        "inLanguage": "en",
+        "wordCount": 1130,
+        "keywords": [
+          "financial dashboard examples",
+          "accounts receivable dashboard",
+          "financial KPI dashboard",
+          "accounts receivable aging report"
+        ],
+        "citation": [
+          "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+          "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html"
+        ]
+      },
+      "bodyBackground": "rgb(247, 246, 242)",
+      "sourceHash": "7306e56bcc53deb060f32377b68f3019ad511a948770a3fc3bcc6072a347a2a5"
+    },
+    {
+      "viewport": 768,
+      "theme": "light",
+      "pass": true,
+      "consoleErrors": [],
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Financial dashboard examples: green KPIs, tight cash"
+        },
+        {
+          "level": "H2",
+          "text": "1. Profitability dashboard: is sales growth more profitable?"
+        },
+        {
+          "level": "H2",
+          "text": "2. Accounts receivable dashboard: which payments need attention?"
+        },
+        {
+          "level": "H2",
+          "text": "3. Combined dashboard: what needs a decision?"
+        },
+        {
+          "level": "H2",
+          "text": "Take the review into Supaboard"
+        }
+      ],
+      "missingTargets": [],
+      "emptyLinks": 0,
+      "links": [
+        {
+          "href": "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+          "anchor": "SEC\u2019s financial statements guide"
+        },
+        {
+          "href": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html",
+          "anchor": "ACCA\u2019s receivables guidance"
+        },
+        {
+          "href": "https://supaboard.ai/blog/what-is-a-kpi",
+          "anchor": "financial KPIs"
+        },
+        {
+          "href": "https://supaboard.ai/",
+          "anchor": "Supaboard"
+        },
+        {
+          "href": "https://supaboard.ai/product/data-connections",
+          "anchor": "data connections"
+        },
+        {
+          "href": "https://supaboard.ai/product/dashboards",
+          "anchor": "Supaboard Dashboards"
+        }
+      ],
+      "tables": 1,
+      "tableHeaders": 4,
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Financial dashboard examples: green KPIs, tight cash",
+        "description": "Explore three financial dashboard examples with a receivables aging chart, invoice actions and a KPI worksheet that connects each metric to a review question.",
+        "inLanguage": "en",
+        "wordCount": 1130,
+        "keywords": [
+          "financial dashboard examples",
+          "accounts receivable dashboard",
+          "financial KPI dashboard",
+          "accounts receivable aging report"
+        ],
+        "citation": [
+          "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+          "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html"
+        ]
+      },
+      "bodyBackground": "rgb(247, 246, 242)",
+      "sourceHash": "7306e56bcc53deb060f32377b68f3019ad511a948770a3fc3bcc6072a347a2a5"
+    },
+    {
+      "viewport": 375,
+      "theme": "light",
+      "pass": true,
+      "consoleErrors": [],
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Financial dashboard examples: green KPIs, tight cash"
+        },
+        {
+          "level": "H2",
+          "text": "1. Profitability dashboard: is sales growth more profitable?"
+        },
+        {
+          "level": "H2",
+          "text": "2. Accounts receivable dashboard: which payments need attention?"
+        },
+        {
+          "level": "H2",
+          "text": "3. Combined dashboard: what needs a decision?"
+        },
+        {
+          "level": "H2",
+          "text": "Take the review into Supaboard"
+        }
+      ],
+      "missingTargets": [],
+      "emptyLinks": 0,
+      "links": [
+        {
+          "href": "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+          "anchor": "SEC\u2019s financial statements guide"
+        },
+        {
+          "href": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html",
+          "anchor": "ACCA\u2019s receivables guidance"
+        },
+        {
+          "href": "https://supaboard.ai/blog/what-is-a-kpi",
+          "anchor": "financial KPIs"
+        },
+        {
+          "href": "https://supaboard.ai/",
+          "anchor": "Supaboard"
+        },
+        {
+          "href": "https://supaboard.ai/product/data-connections",
+          "anchor": "data connections"
+        },
+        {
+          "href": "https://supaboard.ai/product/dashboards",
+          "anchor": "Supaboard Dashboards"
+        }
+      ],
+      "tables": 1,
+      "tableHeaders": 4,
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Financial dashboard examples: green KPIs, tight cash",
+        "description": "Explore three financial dashboard examples with a receivables aging chart, invoice actions and a KPI worksheet that connects each metric to a review question.",
+        "inLanguage": "en",
+        "wordCount": 1130,
+        "keywords": [
+          "financial dashboard examples",
+          "accounts receivable dashboard",
+          "financial KPI dashboard",
+          "accounts receivable aging report"
+        ],
+        "citation": [
+          "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+          "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html"
+        ]
+      },
+      "bodyBackground": "rgb(247, 246, 242)",
+      "sourceHash": "7306e56bcc53deb060f32377b68f3019ad511a948770a3fc3bcc6072a347a2a5"
+    },
+    {
+      "viewport": 1280,
+      "theme": "dark",
+      "pass": true,
+      "consoleErrors": [],
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": 1,
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Financial dashboard examples: green KPIs, tight cash"
+        },
+        {
+          "level": "H2",
+          "text": "1. Profitability dashboard: is sales growth more profitable?"
+        },
+        {
+          "level": "H2",
+          "text": "2. Accounts receivable dashboard: which payments need attention?"
+        },
+        {
+          "level": "H2",
+          "text": "3. Combined dashboard: what needs a decision?"
+        },
+        {
+          "level": "H2",
+          "text": "Take the review into Supaboard"
+        }
+      ],
+      "missingTargets": [],
+      "emptyLinks": 0,
+      "links": [
+        {
+          "href": "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+          "anchor": "SEC\u2019s financial statements guide"
+        },
+        {
+          "href": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html",
+          "anchor": "ACCA\u2019s receivables guidance"
+        },
+        {
+          "href": "https://supaboard.ai/blog/what-is-a-kpi",
+          "anchor": "financial KPIs"
+        },
+        {
+          "href": "https://supaboard.ai/",
+          "anchor": "Supaboard"
+        },
+        {
+          "href": "https://supaboard.ai/product/data-connections",
+          "anchor": "data connections"
+        },
+        {
+          "href": "https://supaboard.ai/product/dashboards",
+          "anchor": "Supaboard Dashboards"
+        }
+      ],
+      "tables": 1,
+      "tableHeaders": 4,
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Financial dashboard examples: green KPIs, tight cash",
+        "description": "Explore three financial dashboard examples with a receivables aging chart, invoice actions and a KPI worksheet that connects each metric to a review question.",
+        "inLanguage": "en",
+        "wordCount": 1130,
+        "keywords": [
+          "financial dashboard examples",
+          "accounts receivable dashboard",
+          "financial KPI dashboard",
+          "accounts receivable aging report"
+        ],
+        "citation": [
+          "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+          "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html"
+        ]
+      },
+      "bodyBackground": "rgb(17, 26, 23)",
+      "sourceHash": "7306e56bcc53deb060f32377b68f3019ad511a948770a3fc3bcc6072a347a2a5"
+    }
+  ]
+}

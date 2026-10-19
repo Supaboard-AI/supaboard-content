@@ -149,7 +149,8 @@ description: 140–160 characters. Not 139, not 161.
 category:    company | data | product | engineering
 tags:        [ … ]   # SaaS not Saas; do not invent new tags casually
 publishedAt: YYYY-MM-DD
-updatedAt:   YYYY-MM-DD, >= publishedAt
+updatedAt:   YYYY-MM-DD, >= publishedAt. The /blog index sorts on it, newest first,
+             and the card reads "Updated <date>". Bump it only for a real revision.
 readMinutes: integer
 readLabel:   "9 Min Read"
 author:      { name, title, avatar }   # a real person with a real job title
@@ -234,6 +235,13 @@ text, still applies. Preserve the approved prose when adding rendering metadata.
   failure as an invented statistic.
 
 ## 8. Definition of done
+
+Run the `humanizer:humanizer` skill on every post-related piece before delivery,
+including drafts, newsletters, social posts and repurposed platform versions.
+Complete its identify, rewrite, review and finalize steps after substantive
+writing or SEO edits. Preserve supported claims, data, citations, link targets,
+metadata and image references; do not invent experience or promise detector
+results. Rebuild affected previews and bundles after this editorial pass.
 
 ```bash
 npm run toc -- --apply        # rebuild derived sections

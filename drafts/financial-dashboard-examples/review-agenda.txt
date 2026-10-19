@@ -1,0 +1,18 @@
+FINANCIAL DASHBOARD REVIEW AGENDA
+
+1. Confirm the basis: period, snapshot date, entity, currency, definitions and freshness.
+2. Review revenue and margin: what changed and which underlying records explain it?
+3. Review collections: reconcile opening overdue to closing overdue using newly overdue amounts, receipts, credits and other adjustments.
+4. Inspect priority records: verify notes and choose an action and owner for each.
+5. Close the loop: set the next review date and the evidence required to show progress.
+
+MEETING OUTPUT
+Metric / variance:
+Evidence checked:
+Unresolved question:
+Action:
+Owner:
+Next review date:
+Closure evidence:
+
+An overdue balance is not a cash forecast. A promise to pay is not a receipt.

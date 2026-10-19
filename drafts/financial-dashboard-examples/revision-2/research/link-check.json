@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://supaboard.ai/",
+    "status": 200
+  },
+  {
+    "url": "https://supaboard.ai/blog/what-is-a-kpi",
+    "status": 200
+  },
+  {
+    "url": "https://supaboard.ai/product/dashboards",
+    "status": 200
+  },
+  {
+    "url": "https://supaboard.ai/product/data-connections",
+    "status": 200
+  },
+  {
+    "url": "https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+    "status": 403,
+    "note": "Exact SEC source retrieved using web tools in the original drafting pass; automated direct requests blocked. Citation support preserved."
+  }
+]

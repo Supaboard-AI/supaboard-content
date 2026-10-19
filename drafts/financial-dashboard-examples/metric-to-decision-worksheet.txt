@@ -1,0 +1,22 @@
+METRIC-TO-DECISION WORKSHEET
+Copy this block once per dashboard measure.
+
+Metric:
+Definition and formula:
+Entity / currency / inclusions and exclusions:
+Reporting period or snapshot date:
+Review question:
+Decision this answer supports:
+Comparison period, budget or agreed threshold:
+Supporting breakdown:
+Records needed (and link or location):
+Data owner:
+Refresh time and known gaps:
+Action owner:
+Next review date:
+Evidence required to close the action:
+
+TEST
+Choose one changed number. Reconcile it to the supporting records.
+Check that the comparison uses the same scope and definition.
+Record what is unknown; do not treat missing records as zero.

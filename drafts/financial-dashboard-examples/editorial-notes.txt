@@ -1,0 +1,40 @@
+Editorial notes — 2026-10-19
+
+Purpose: Replacement draft for the existing /blog/financial-dashboard-examples URL. Existing posts/ source was not modified. Follow the supplied narrative arc; implementation comes after the method and reviewed example. Primary CTA is the user's metric-to-question mapping exercise.
+
+Search inputs supplied by user: financial dashboard examples, 320 searches/month; existing article 101 clicks and 22,160 impressions in the researched period. Period/geography were not supplied. These are brief inputs, not freshly verified measurements, and are not published in the article.
+
+Structure: Adapted how-to/worked-example narrative. No invented customer story. No public performance statistics or benchmark claims were added to satisfy a quota. No redundant FAQ or video; neither adds to this review task.
+
+Authorship: AI-assisted draft by Codex. Do not inherit the original article's human byline without review/authorization. Assign the approved human byline and production metadata before publishing. The preview renderer hardcodes Person schema for its author string; this draft identifier must not be published as a human author.
+
+Production handoff: This draft is not the repository's posts/ schema. That schema requires four public statistics, six to ten FAQs, a real human author, and hosted cover URLs. The supplied brief calls for illustrative data and a focused review narrative. No validation rule was modified and no unrelated evidence was padded into the article. Before publication, resolve those metadata/editorial requirements, upload assets, preserve existing anchor destinations where useful, and run repository publication checks. Skill preflight applies to this local editorial preview only.
+
+Evidence verified on 2026-10-19:
+1. SEC, Beginners' Guide to Financial Statements, January 12, 2014.
+https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+Observed support: income statements show profit; cash flow statements show whether cash was generated. Operating cash flow reconciles net income for noncash items and operating asset/liability changes. Only the distinction is used in the draft.
+2. ACCA, Accounts receivable management, undated; retrieved 2026-10-19.
+https://www.accaglobal.com/sg/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/arm.html
+Observed support: aged analysis shows customer balances and how long outstanding, indicating breaches of terms. Invoice inaccuracy and disputes can delay collection. The fictional invoice notes are our teaching example, not facts from ACCA.
+3. Supaboard, Dashboards product page, retrieved 2026-10-19.
+https://supaboard.ai/product/dashboards
+Observed support: filters map to widget columns; ask follow-up questions; open records or drill through breakdowns behind a metric. No claims of automatic collection, forecasting, or universal data availability.
+4. Current local AUTHORING-PROMPT.md provides the exact one-liner used once in the implementation section. Its product naming rules were followed. No pricing, security, customer outcome or connector-count claims used.
+
+Arithmetic and interpretation:
+Revenue 600000/500000-1 = 20%; margin 38%-35% = 3 percentage points.
+Gross profit 500000*0.35=175000; 600000*0.38=228000; difference 53000.
+August overdue 50000+20000+10000=80000; September 70000+55000+35000=160000.
+August total AR 180000+80000=260000; September 220000+160000=380000.
+Movement 80000+110000-25000-5000=160000. Ageing transfers do not change total overdue.
+Customer A invoices 20000+15000+10000=45000, a subset of the 110000 newly overdue.
+At 2026-09-30, due dates 09-08, 09-15, 09-22 are 22, 15, 8 days overdue.
+No claim that overdue movement equals the cash shortfall. No future receipts projected.
+
+Assets:
+review-dashboard.svg/png/webp: original deterministic conceptual layout, based only on illustrative figures. Not a product screenshot.
+hero.webp: built-in OpenAI image_gen illustration, generated 2026-10-19. Model ID not exposed by tool. No external stock media, no required third-party attribution. Prompt saved in hero-credit.txt.
+Separate copyable assets: metric-to-decision-worksheet.txt and review-agenda.txt; both are also represented in article prose.
+
+Validation environment: rendering and visual verification used the installed Chromium headless shell at revision 1228 via an explicit executable_path. Bundled helpers were unchanged. Temporary Python libraries were installed under /tmp/financial-blog-env. Desktop/mobile/tablet/dark-mode visual gate and asset/link integrity gate passed. SEC direct automated access returns 403; its exact source page was retrieved through web tools and documented in external-links.allowed.

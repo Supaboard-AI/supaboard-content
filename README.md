@@ -51,7 +51,7 @@ summary:        meta description + the hero paragraph
 industry:       shown in the hero kicker
 featured:       optional — position in the featured row on /case-study
 publishedAt:    YYYY-MM-DD
-updatedAt:      YYYY-MM-DD — drives dateModified and sitemap lastmod
+updatedAt:      YYYY-MM-DD — drives the /blog order, dateModified and sitemap lastmod
 art:            { bed, person?, logo } — layered square story art
 hero:           OG image + primaryImageOfPage
 logo:           dark wordmark, for the story tiles on light surfaces
@@ -106,8 +106,8 @@ title:       <h1> and the base of the <title> tag
 description: meta description + og:description
 category:    company | data | product | engineering
 tags:        [ … ]
-publishedAt: YYYY-MM-DD          # drives ordering and datePublished
-updatedAt:   YYYY-MM-DD          # drives dateModified
+publishedAt: YYYY-MM-DD          # drives datePublished
+updatedAt:   YYYY-MM-DD          # drives /blog order (newest first) and dateModified
 readMinutes: 9
 readLabel:   "9 mins"            # rendered verbatim in the byline pill
 author:      { name, title, avatar }
