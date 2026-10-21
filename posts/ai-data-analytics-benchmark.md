@@ -204,15 +204,11 @@ These charts use the vendor-reported scores reviewed on 21 October 2026. Scoring
 
 Supaboard received 35 of 39 available points; claude received 31. ([Reported leaderboard](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#data-analytics-index-1))
 
-[![Time versus Data Analytics Index for nine configurations. Supaboard: 192 seconds and 99.7; claude: 98 seconds and 89.5; Lightdash: 173 seconds and 81.8; Basedash: 68 seconds and 79.2; ChatGPT: 196 seconds and 76.7; Dot: 152 seconds and 66.4; Hex: 75 seconds and 58.7; Sigma: 225 seconds and 53.6; Metabase: 180 seconds and 10.0.](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/cae7bc768ec09e55.png?w=1680&h=1180)](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/cae7bc768ec09e55.png)
-
-[Open full-size chart](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/cae7bc768ec09e55.png)
+![Time versus Data Analytics Index for nine configurations. Supaboard: 192 seconds and 99.7; claude: 98 seconds and 89.5; Lightdash: 173 seconds and 81.8; Basedash: 68 seconds and 79.2; ChatGPT: 196 seconds and 76.7; Dot: 152 seconds and 66.4; Hex: 75 seconds and 58.7; Sigma: 225 seconds and 53.6; Metabase: 180 seconds and 10.0.](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/d33813332b970efd.png?w=1680&h=1180)
 
 Time is the reported mean in seconds. The Data Analytics Index is the percentage of available rubric points plus ten, on a scale with a maximum of 110. ([Scores](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#data-analytics-index-1), [timings](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#average-time-to-answer))
 
-[![Data Analytics Index by tool: Supaboard 99.7, claude 89.5, Lightdash 81.8, Basedash 79.2, ChatGPT 76.7, Dot 66.4, Hex 58.7, Sigma 53.6, Metabase 10.0. Maximum index: 110.](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/3a1fb653b1e574c5.png?w=1680&h=1120)](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/3a1fb653b1e574c5.png)
-
-[Open full-size chart](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/3a1fb653b1e574c5.png)
+![Data Analytics Index by tool: Supaboard 99.7, claude 89.5, Lightdash 81.8, Basedash 79.2, ChatGPT 76.7, Dot 66.4, Hex 58.7, Sigma 53.6, Metabase 10.0. Maximum index: 110.](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/42a4be4789330dce.png?w=1680&h=1120)
 
 Data Analytics Index for the nine configurations covered here. It includes partial credit and is an index, not a percentage of questions answered exactly. ([Scoring method](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring))
 
@@ -242,9 +238,7 @@ Across these nine configurations, annual recurring revenue (ARR) by industry had
 
 By comparison, the cancellation-spike and annual-billings questions each earned full credit for 8 of these 9 configurations, while net revenue retention earned full credit for 7. ([Question difficulty](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#which-questions-tripped-agents-up)) Success on retention or billings did not guarantee success on customer reconciliation.
 
-[![Selected Data Analytics Index tasks: eight of nine configurations earned full credit for cancellations and billings, seven for net retention, one for the CRM gap, and none for ARR by industry or enterprise support.](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/89ab6975bcf243db.png?w=1680&h=1140)](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/89ab6975bcf243db.png)
-
-[Open full-size chart](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/89ab6975bcf243db.png)
+![Selected Data Analytics Index tasks: eight of nine configurations earned full credit for cancellations and billings, seven for net retention, one for the CRM gap, and none for ARR by industry or enterprise support.](https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/89ab6975bcf243db.png?w=1680&h=1140)
 
 Selected tasks for the nine configurations in this article, recalculated from vendor-reported scores. Full credit follows the benchmark's rounding and alternative-answer rules. ([Data Analytics Index](https://github.com/Supaboard-AI/data-analytics-index#which-questions-tripped-agents-up))
 
