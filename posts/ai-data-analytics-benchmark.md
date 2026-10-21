@@ -32,7 +32,7 @@ sections:
   - id: content-1
     heading: 'The same customers, different answers'
   - id: content-2
-    heading: The reported leaderboard
+    heading: AI agent benchmark leaderboard
   - id: content-3
     heading: What's in the data?
   - id: content-4
@@ -77,7 +77,7 @@ tldr:
     The nine configurations have 123 recorded attempts; we use one
     attempt-selection rule for the regrade.
 faq:
-  - q: What does this comparison tell us?
+  - q: What does this AI data analysis benchmark measure?
     a: >-
       It compares answer quality under the reported setup. Building a live
       dashboard, producing the weekly report and delivering it on schedule are
@@ -178,7 +178,7 @@ readLabel: 11 Min Read
 
 ## The same customers, different answers
 
-The Data Analytics Index compares AI data agents on one messy SaaS database. Its most useful finding is the disagreement over customer identity: which records belong to the same business, which accounts count as paying, and how much revenue they represent. ([Benchmark report](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md))
+The Data Analytics Index is an AI data analytics benchmark comparing agents on one messy SaaS database. Its most useful finding is the disagreement over customer identity: which records belong to the same business, which accounts count as paying, and how much revenue they represent. ([Benchmark report](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md))
 
 Which paying customers are missing from the CRM?
 
@@ -196,7 +196,7 @@ Jump to [results](#content-2), [test setup](#content-3), [question difficulty](#
 
 <!-- section:content-2 -->
 
-## The reported leaderboard
+## AI agent benchmark leaderboard
 
 This article covers nine configurations from the broader Data Analytics Index; all comparisons and aggregate counts below use those nine. The claude entry uses the report's Sonnet 5.5 results; ChatGPT uses its GPT-6 results. ([claude source record](https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md), [ChatGPT source record](https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md))
 
@@ -304,7 +304,7 @@ We cannot carry Supaboard's Q11 grade across automatically. Its first conversati
 
 ## Questions to ask before using the benchmark
 
-### What does this comparison tell us?
+### What does this AI data analysis benchmark measure?
 
 It compares answer quality under the reported setup. Building a live dashboard, producing the weekly report and delivering it on schedule are separate jobs. The benchmark did not score those workflows. Evaluate them separately before treating similar answer scores as evidence that two products do the same work. ([Question list](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#the-questions))
 
