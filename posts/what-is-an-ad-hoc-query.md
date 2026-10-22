@@ -1,10 +1,11 @@
 ---
 slug: what-is-an-ad-hoc-query
 status: published
-title: 'What Is an Ad Hoc Query? Definition, Examples & Use'
+title: 'What Is an Ad Hoc Query? Meaning + SQL Examples'
 description: >-
-  An ad hoc query answers a specific unplanned question. What makes one ad hoc,
-  how teams use them, and how to cut the requests reaching your analysts.
+  An ad hoc query is a one-off question asked of your data, outside any
+  scheduled report. Its meaning, SQL examples, and how it differs from ad hoc
+  reporting.
 category: data
 tags:
   - SaaS

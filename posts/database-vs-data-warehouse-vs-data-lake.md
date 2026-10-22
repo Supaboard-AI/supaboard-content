@@ -1,10 +1,11 @@
 ---
 slug: database-vs-data-warehouse-vs-data-lake
 status: published
-title: Database vs Data Warehouse vs Data Lake
+title: 'Database vs Data Warehouse vs Data Lake: Differences'
 description: >-
-  Databases serve transactions, warehouses serve analysis, lakes store raw data.
-  How they differ and which one your question actually belongs in.
+  A database runs transactions, a data warehouse powers analysis, a data lake
+  stores raw data. Compare all three side by side, with examples and when to use
+  each.
 category: engineering
 tags:
   - Tech

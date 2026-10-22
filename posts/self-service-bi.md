@@ -1,10 +1,10 @@
 ---
 slug: self-service-bi
 status: published
-title: 'Self-Service Analytics vs Traditional BI: Complete 2026 Guide'
+title: 'Self-Service BI vs Traditional BI: Key Differences'
 description: >-
-  Self-service BI moves questions closer to the people asking them. What it
-  changes, what it costs in governance, and when traditional BI wins.
+  Self-service BI lets business users answer data questions without an analyst.
+  How it differs from traditional BI, with examples and governance trade-offs.
 category: data
 tags:
   - Business Intelligence

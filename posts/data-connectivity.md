@@ -1,10 +1,11 @@
 ---
 slug: data-connectivity
 status: published
-title: What Is Data Connectivity? How It Works + Real Examples
+title: 'Data Connectivity: What It Is and How It Works'
 description: >-
-  Data connectivity lets systems share data so questions can span them. How it
-  works, and how it differs from application and data integration.
+  Data connectivity links your databases, apps and BI tools so data flows
+  between them. How it works step by step, plus the hidden costs of poor
+  connectivity.
 category: engineering
 tags:
   - Tech

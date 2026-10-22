@@ -1,10 +1,11 @@
 ---
 slug: ai-dashboard-explained
 status: published
-title: What Is an AI Dashboard? How It Works and What It Changes
+title: 'What Is an AI Dashboard? How It Works vs Static BI'
 description: >-
-  An AI dashboard is built from a question rather than assembled by hand. How
-  that works, where it beats a static dashboard, and where it does not.
+  An AI dashboard builds charts from a plain-English question instead of manual
+  setup. How it works, where it beats static dashboards, and where it falls
+  short.
 category: product
 tags:
   - Dashboard

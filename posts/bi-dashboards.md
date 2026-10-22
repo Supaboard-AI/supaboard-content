@@ -1,10 +1,10 @@
 ---
 slug: bi-dashboards
 status: published
-title: 'BI Dashboard: What It Is, Why It Matters & How It Helps'
+title: 'BI Dashboard: Types, Examples & Key Features'
 description: >-
-  A dashboard exists to trigger a decision by a named person. How to build one
-  that does, which metrics belong on it, and when you should delete it again.
+  A BI dashboard shows the metrics behind a decision at a glance. Operational,
+  analytical and strategic examples, must-have features, and mistakes to avoid.
 category: data
 tags:
   - Dashboard

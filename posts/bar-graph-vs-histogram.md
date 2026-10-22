@@ -1,10 +1,11 @@
 ---
 slug: bar-graph-vs-histogram
 status: published
-title: 'Bar Graph vs Histogram: Differences and When to Use'
+title: 'Histogram vs Bar Graph: Key Differences + Examples'
 description: >-
-  Bar graphs compare categories, histograms show distribution. The differences,
-  worked examples, and the reorder test that settles which you need.
+  A bar graph compares categories; a histogram shows how numbers are
+  distributed. See side-by-side charts, a comparison table, and when to use
+  each.
 category: data
 tags:
   - Tech

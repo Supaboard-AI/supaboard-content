@@ -1,10 +1,11 @@
 ---
 slug: database-optimization
 status: published
-title: 'Database Optimization: Performance and Scaling'
+title: 'Database Optimization: 5 Layers to Faster Queries'
 description: >-
-  Most database performance problems are query plans, not hardware. How to find
-  them, what indexing really costs you, and when to scale up instead.
+  What database optimization is and how to do it without buying more hardware:
+  design, indexing, schema, infrastructure and concurrency, explained layer by
+  layer.
 category: engineering
 tags:
   - Tech

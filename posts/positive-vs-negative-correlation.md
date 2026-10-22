@@ -1,10 +1,11 @@
 ---
 slug: positive-vs-negative-correlation
 status: published
-title: 'Positive vs Negative Correlation, With Examples'
+title: 'Positive vs Negative Correlation: Meaning + Examples'
 description: >-
-  Positive correlation means variables move together, negative means apart. How
-  to read strength and direction, and how to avoid the dual-axis trap.
+  Positive correlation: variables rise together. Negative: one rises as the
+  other falls. Real examples, plus a table for reading the coefficient from -1
+  to +1.
 category: data
 tags:
   - Tech

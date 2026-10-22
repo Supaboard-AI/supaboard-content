@@ -1,10 +1,10 @@
 ---
 slug: ai-native-business-intelligence-tools
 status: published
-title: 'AI-Native Business Intelligence Tools: The 2026 Shortlist'
+title: 'AI Business Intelligence Tools: The AI-Native Shortlist'
 description: >-
-  Which BI tools are genuinely AI-native rather than a chat box bolted onto a
-  dashboard, how to tell the difference in a demo, and what each one is for.
+  Which AI BI tools are truly AI-native, not a chatbot bolted onto a dashboard:
+  ThoughtSpot, Hex, Omni, Supaboard and more, plus 3 demo questions to ask.
 category: product
 tags:
   - Business Intelligence

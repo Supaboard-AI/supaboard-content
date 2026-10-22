@@ -1,10 +1,10 @@
 ---
 slug: dbt
 status: published
-title: 'DBT Explained: What It Is, How It Works, and Why Teams Use It'
+title: 'What Is dbt? How It Works and When to Use It'
 description: >-
-  dbt brings version control, testing and documentation to SQL transformations.
-  What it does, where MetricFlow fits in, and when it is simply overkill.
+  dbt (data build tool) turns SQL into tested, version-controlled data models.
+  What it is, why it is not ETL, where MetricFlow fits, and when it is overkill.
 category: engineering
 tags:
   - Tech

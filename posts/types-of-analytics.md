@@ -1,10 +1,11 @@
 ---
 slug: types-of-analytics
 status: published
-title: 'The Four Types of Analytics, and Which to Build First'
+title: '4 Types of Analytics: Descriptive to Prescriptive'
 description: >-
-  Descriptive, diagnostic, predictive and prescriptive analytics explained, and
-  why building them out of order produces forecasts nobody trusts.
+  Descriptive, diagnostic, predictive and prescriptive analytics explained with
+  examples, a comparison table, and the order to build them in so forecasts hold
+  up.
 category: data
 tags:
   - Analytics

@@ -1,10 +1,10 @@
 ---
 slug: ecommerce-analytics
 status: published
-title: 'Ecommerce Analytics: Metrics That Change Decisions'
+title: 'Ecommerce Analytics: Dashboards, KPIs & Examples'
 description: >-
-  Cart abandonment is several problems, not one. How to instrument the funnel,
-  segment before concluding, and find failed payments hiding in it.
+  Which ecommerce metrics to track, what a good ecommerce dashboard contains,
+  real examples, and how to use analytics to find and fix cart abandonment.
 category: data
 tags:
   - SaaS

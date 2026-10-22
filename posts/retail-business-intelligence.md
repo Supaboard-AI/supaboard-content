@@ -1,10 +1,10 @@
 ---
 slug: retail-business-intelligence
 status: published
-title: 'Retail Business Intelligence: KPIs, Tools and Pitfalls'
+title: 'Retail Business Intelligence: KPIs, Dashboards & Tools'
 description: >-
-  Retail KPIs work in four layers: sales, inventory, customer, margin. How to
-  read them together so that a revenue drop always gets the right response.
+  Retail BI turns sales, inventory, customer and margin data into decisions. The
+  KPIs that matter, the dashboard each team needs, and the pitfalls to avoid.
 category: data
 tags:
   - Business Intelligence

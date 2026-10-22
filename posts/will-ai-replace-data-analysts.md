@@ -1,10 +1,11 @@
 ---
 slug: will-ai-replace-data-analysts
 status: published
-title: Will AI Replace Data Analysts? What the Job Becomes
+title: 'Will AI Replace Data Analysts? What the Job Becomes'
 description: >-
-  AI automates retrieval and recurring reports. It does not decide what a metric
-  means or what a movement implies. What the analyst role becomes instead.
+  Short answer: no, but the job is changing. What AI already automates in data
+  analysis, what it still cannot do, and the skills analysts need to stay
+  relevant.
 category: engineering
 tags:
   - Data

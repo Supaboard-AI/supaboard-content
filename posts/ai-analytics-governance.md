@@ -1,10 +1,10 @@
 ---
 slug: ai-analytics-governance
 status: published
-title: AI Contextual Governance for Analytics Teams
+title: 'AI Contextual Governance: A 4-Layer Framework'
 description: >-
-  Static AI rules either over-restrict or over-expose. How contextual governance
-  scores each request, and why fabricated insights fail silently.
+  AI contextual governance adapts data access rules to who is asking and why.
+  See the 4-layer framework, a real-world example, and why static AI rules fail.
 category: engineering
 tags:
   - Tech
