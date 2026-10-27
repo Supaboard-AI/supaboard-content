@@ -1,6 +1,6 @@
 ---
 slug: metric-definitions
-status: draft
+status: published
 title: 'Metric Definitions: Examples and a Practical Template'
 description: >-
   Two dashboards, two numbers for one KPI? Use this metric definition template
