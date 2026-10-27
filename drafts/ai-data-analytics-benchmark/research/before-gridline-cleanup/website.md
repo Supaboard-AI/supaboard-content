@@ -1,0 +1,197 @@
+---
+title: "AI data analytics benchmark: 9 agents, one messy database"
+description: "Compare 9 AI data agents on a messy SaaS database. See reported scores, CRM-matching failures, response times, and the limits of the Data Analytics Index."
+date: "2026-10-21"
+author: "Aritra Ghosh"
+canonical: "https://supaboard.ai/blog/ai-data-analytics-benchmark"
+slug: "ai-data-analytics-benchmark"
+site_name: "Supaboard"
+lang: "en"
+status: "draft"
+og_image_alt: "Original editorial illustration of business records being compared across billing and CRM systems"
+tags: ["AI", "Business Intelligence", "SaaS"]
+---
+
+<div class="benchmark-disclosure">
+<p><strong>Disclosure:</strong> We commissioned this benchmark at Supaboard, and we're a participant. Claude designed and ran it for us; a claude configuration is also included in this comparison. These are vendor-reported results from our own repository. We have not published an independent grading audit. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#notes">Benchmark notes</a>)</p>
+</div>
+
+<figure class="hero"><img src="hero.webp" width="1732" height="908" fetchpriority="high" alt="Data Analytics Index: nine agents compared on one messy business database."></figure>
+
+<!-- section:content-1 -->
+
+## The same customers, different answers
+
+The Data Analytics Index compares AI data agents on one messy SaaS database. Its most useful finding is the disagreement over customer identity: which records belong to the same business, which accounts count as paying, and how much revenue they represent. ([Benchmark report](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md))
+
+Which paying customers are missing from the CRM?
+
+An operations team could use the answer to check account coverage, assign owners or repair incomplete records. Before anyone acts, the agent has to match records across billing and CRM.
+
+The answer key identifies 214 customers representing $59,658.33 in monthly recurring revenue. Supaboard received full credit. Hex reported 191 customers, Basedash 263, and ChatGPT 305. An account-repair task would begin with a different work list depending on which answer the team accepted. ([CRM-gap results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q8-paying-customers-missing-from-the-crm))
+
+> **What stood out**
+>
+> - Customer matching and revenue segmentation exposed larger gaps than several headline metrics.
+> - Reported accuracy includes partial credit; a matching figure can appear in a sensitivity table rather than the headline.
+> - The nine configurations have 123 recorded attempts; we use one attempt-selection rule for the regrade.
+
+Jump to [results](#results), [test setup](#setup), [question difficulty](#difficulty), or [scoring and attempts](#scoring).
+
+<!-- section:content-2 -->
+
+<a id="results"></a>
+
+## The reported leaderboard
+
+This article covers nine configurations from the broader Data Analytics Index; all comparisons and aggregate counts below use those nine. The claude entry uses the report's Sonnet 5.5 results; ChatGPT uses its GPT-6 results. ([claude source record](https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md), [ChatGPT source record](https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md))
+
+These charts use the vendor-reported scores reviewed on 21 October 2026. Scoring and attempt selection remain under review; the charts show the published results.
+
+Supaboard received 35 of 39 available points; claude received 31. ([Reported leaderboard](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#data-analytics-index-1))
+
+<div class="benchmark-chart-group">
+<div class="chart-scroll" role="region" aria-label="Scrollable chart" tabindex="0"><figure class="chart-canvas"><a href="time-vs-accuracy.png" aria-label="Open full-size chart"><img src="time-vs-accuracy.png" width="840" height="590" loading="lazy" alt="Time versus Data Analytics Index for nine configurations. Supaboard: 192 seconds and 99.7; claude: 98 seconds and 89.5; Lightdash: 173 seconds and 81.8; Basedash: 68 seconds and 79.2; ChatGPT: 196 seconds and 76.7; Dot: 152 seconds and 66.4; Hex: 75 seconds and 58.7; Sigma: 225 seconds and 53.6; Metabase: 180 seconds and 10.0."></a></figure></div>
+<p class="chart-open"><a href="time-vs-accuracy.png">Open full-size chart</a></p>
+<p class="chart-caption">Time is the reported mean in seconds. The Data Analytics Index is the percentage of available rubric points plus ten, on a scale with a maximum of 110. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#data-analytics-index-1">Scores</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#average-time-to-answer">timings</a>)</p>
+</div>
+
+<div class="benchmark-chart-group">
+<div class="chart-scroll" role="region" aria-label="Scrollable chart" tabindex="0"><figure class="chart-canvas"><a href="accuracy-by-agent.png" aria-label="Open full-size chart"><img src="accuracy-by-agent.png" width="840" height="560" loading="lazy" alt="Data Analytics Index by tool: Supaboard 99.7, claude 89.5, Lightdash 81.8, Basedash 79.2, ChatGPT 76.7, Dot 66.4, Hex 58.7, Sigma 53.6, Metabase 10.0. Maximum index: 110."></a></figure></div>
+<p class="chart-open"><a href="accuracy-by-agent.png">Open full-size chart</a></p>
+<p class="chart-caption">Data Analytics Index for the nine configurations covered here. It includes partial credit and is an index, not a percentage of questions answered exactly. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring">Scoring method</a>)</p>
+</div>
+
+Metabase's zero-point result (an index of 10) reflects the rule requiring the agent to execute its queries: on many tasks, it returned SQL without running it. The transcript separately records results after Claude clicked Run; those evaluator-run results were excluded from Metabase's score. ([Metabase results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md))
+
+Both charts use the published scores and timing averages. ([Reported scores](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#data-analytics-index-1), [response times](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#average-time-to-answer))
+
+<!-- section:content-3 -->
+
+<a id="setup"></a>
+
+## What's in the data?
+
+Corvia Systems is a fictional company selling scheduling and dispatch software to clinics and field-service businesses. Its Postgres database contains roughly 20 tables covering billing, CRM, product usage, support, legacy billing and reference data. ([Database description](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#the-database))
+
+The records are deliberately messy. Systems lack clean shared keys, some records are duplicated or inconsistent, and definitions must be inferred from the data. Agents received database access without documentation, hints or a semantic layer. ([Database description](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#the-database))
+
+This tests how an agent investigates unfamiliar data. An evaluation with approved metric definitions and curated models would test a different workflow.
+
+Each agent answered the same 13 questions, with each question in a fresh chat and the same short company introduction. ([Question protocol](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#the-questions)) The questions covered recurring revenue, retention, receivables, sales, customer identity, usage and support. Some exchanges included a clarification instructing the agent to use its judgment and explain its assumptions. ([recorded Supaboard answers](https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md))
+
+Access was not identical. claude and ChatGPT used Neon connectors with owner access restricted to the benchmark project; the other agents shared a read-only database role. The report says no agent wrote to the database. ([Access notes](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#notes)) 
+
+<!-- section:content-4 -->
+
+<a id="difficulty"></a>
+
+## Customer identity was harder than several headline metrics
+
+Across these nine configurations, annual recurring revenue (ARR) by industry had the lowest average score: 0.33 out of 3, with none receiving full credit. The CRM-gap question averaged 0.78, with full credit for Supaboard alone. These averages are recalculated from the published question scores. ([Question difficulty](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#which-questions-tripped-agents-up))
+
+By comparison, the cancellation-spike and annual-billings questions each earned full credit for 8 of these 9 configurations, while net revenue retention earned full credit for 7. ([Question difficulty](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#which-questions-tripped-agents-up)) Success on retention or billings did not guarantee success on customer reconciliation.
+
+<div class="benchmark-chart-group">
+<div class="chart-scroll" role="region" aria-label="Scrollable chart" tabindex="0"><figure class="chart-canvas"><a href="question-difficulty.png" aria-label="Open full-size chart"><img src="question-difficulty.png" width="840" height="570" loading="lazy" alt="Selected Data Analytics Index tasks: eight of nine configurations earned full credit for cancellations and billings, seven for net retention, one for the CRM gap, and none for ARR by industry or enterprise support."></a></figure></div>
+<p class="chart-open"><a href="question-difficulty.png">Open full-size chart</a></p>
+<p class="chart-caption">Selected tasks for the nine configurations in this article, recalculated from vendor-reported scores. Full credit follows the benchmark's rounding and alternative-answer rules. (<a href="https://github.com/Supaboard-AI/data-analytics-index#which-questions-tripped-agents-up">Data Analytics Index</a>)</p>
+</div>
+
+For ARR by industry, the answer key puts Healthcare at 31.0%; the reported answers include 14.15% from Basedash, 29.16% from Supaboard, 36.5% from Lightdash and 47.2% from claude. ([ARR-by-industry results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q9-arr-by-industry)) Agreement on the industry label concealed substantial disagreement about its share of revenue. The published comparison does not isolate the cause of each mismatch, so the figures alone cannot tell us which join or definition went wrong.
+
+Even the simple-sounding customer-count question was difficult: Supaboard alone received full credit for the answer-key count of 863 paying customers. ([Customer-count results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q13-customer-count)) A buyer evaluating AI data analytics tools should include questions about who counts as a customer, alongside questions about how much revenue those customers generate.
+
+<!-- section:content-5 -->
+
+## Supaboard's strongest answers and its misses
+
+Supaboard matched the CRM-gap answer and received full credit on customer count. Its misses matter just as much when those questions are part of your weekly review. ([CRM-gap results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q8-paying-customers-missing-from-the-crm), [customer-count results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q13-customer-count))
+
+Its weakest result was ARR by industry: 29.16% against the answer key's 31.0%, earning 1 point for a reasonable, correctly calculated interpretation under the rubric. ([ARR-by-industry results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q9-arr-by-industry)) 
+
+For appointments, the original score table used Supaboard's rerun figure of 142,668 against the September all-appointments key of 139,943 and awarded 2 points. ([Appointments results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q11-appointments-trend)) It also received 2 points for enterprise support responsiveness, a question on which no agent received full credit. ([Support results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q12-enterprise-support-responsiveness))
+
+For seat utilization, Supaboard's headline was "0.57". Its full-credit figure of about 57.52% comes from the uncapped active-customer row dated 15 September in a sensitivity table. The rubric allows matching alternatives, which explains the credit for this sensitivity-table result. The month-end headline still does not exactly match the key. Before accepting that mid-month row in the regrade, we need to check the snapshot required by the full prompt. ([Supaboard Q10](https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md#q10-seat-utilization), [seat-utilization results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q10-seat-utilization))
+
+<!-- section:content-6 -->
+
+## Faster answers did not settle the comparison
+
+Basedash had the shortest reported mean response time at 68 seconds, compared with 98 seconds for claude and 192 seconds for Supaboard. ([Response-time results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#average-time-to-answer)) Basedash also received full credit on retention, the cancellation spike, recognized revenue, annual billings and sales performance. ([Question-level results](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#results-by-question)) Its speed deserves consideration alongside its misses on customer reconciliation and industry ARR.
+
+Those averages use the published mix of attempts. Supaboard Q6's timer is from its rerun, and Sigma Q7's 55 seconds is also explicitly a rerun timer. We will recalculate speed comparisons from the selected first conversations instead of carrying those averages into a regraded table. Platform timers and SQL-approval waits still need consistent treatment. ([Supaboard Q6](https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md#q6-overdue-receivables), [Sigma Q7](https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md#q7-sales-performance-h1-2026), [timing method](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#average-time-to-answer))
+
+<!-- section:content-7 -->
+
+<a id="scoring"></a>
+
+## How the scoring works?
+
+Each answer earns up to three points: three when the key figure appears, including in an alternative or sensitivity table; two for a figure within five percent; one for a reasonable stated method with a result checked against the database; and zero otherwise. Counts must match for full credit. Money and rates can be within 0.1% or match at the precision used in the answer. ([Scoring and precision rules](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring))
+
+The maximum is 39 points. Divide the total by 39 and multiply by 100 for the normalized score, then add ten for the Data Analytics Index, whose maximum is 110. A score of 89.7% therefore means 89.7% of available rubric points, not that 89.7% of questions were answered exactly. ([Index calculation](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring))
+
+We publish answer summaries and full agent responses. Full prompts, the database and the answer key are available to reviewers on request; repeated-run variability is not reported. This is a vendor-run evaluation on one synthetic database, with the conflicts of interest disclosed above. ([Protocol and access notes](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#notes))
+
+<a id="errata"></a>
+
+## One attempt-selection rule for every agent
+
+For the regrade, we select the first completed recorded conversation for each question. Standardized clarification turns stay within that attempt. The final response and its supporting tables determine the score; an explicitly superseded earlier recommendation cannot rescue the final answer. A completed interaction that returns unexecuted SQL still counts as an attempt. Later attempts stay visible but cannot replace the selected one because they score better.
+
+For these nine configurations, the published records contain 123 attempts across 117 agent-question pairs: six pairs have two attempts. These counts describe the published record, not a complete platform event log. ([Full answer records](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#notes))
+
+| Agent | Recorded attempts | Questions with a second attempt |
+|---|---:|---|
+| Supaboard | 16 | Q6, Q11, Q13 |
+| claude | 13 | None recorded |
+| Lightdash | 14 | Q10 |
+| Basedash | 13 | None recorded |
+| ChatGPT | 13 | None recorded |
+| Dot | 14 | Q1 |
+| Hex | 13 | None recorded |
+| Sigma | 14 | Q7 |
+| Metabase | 13 | None recorded |
+
+Supaboard has second attempts on Q6, Q11 and Q13. Under this rule, its first conversations are selected in all three cases, including Q13's 863-customer answer. Dot Q1, Lightdash Q10 and Sigma Q7 also select their first conversations. ([Supaboard records](https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md), [Dot records](https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md), [Lightdash records](https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md), [Sigma records](https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md))
+
+We cannot carry Supaboard's Q11 grade across automatically. Its first conversation states 80,467 human appointments and separately 10,459 Zapier appointments for September; the credited 142,668 total is explicit in the rerun. The first conversation references a chart whose full payload is absent from the README. We need that payload or a database check before assigning its replacement grade. We must also match timings to the selected attempts before publishing revised speed averages. ([Supaboard Q11](https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md#q11-appointments-trend))
+
+<!-- section:content-8 -->
+
+## Questions to ask before using the benchmark
+
+### What does this comparison tell us?
+
+It compares answer quality under the reported setup. Building a live dashboard, producing the weekly report and delivering it on schedule are separate jobs. The benchmark did not score those workflows. Evaluate them separately before treating similar answer scores as evidence that two products do the same work. ([Question list](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#the-questions))
+
+### Why compare general-purpose assistants with BI products?
+
+Both can answer business questions from a connected database. The useful comparison is the evidence each returns for the same question. When choosing a product, also test the work around that answer: configuration, collaboration, recurring reporting and the effort required to keep it useful as your data changes.
+
+### Does full credit mean the headline answer matched?
+
+Full credit can come from an alternative answer or a sensitivity table. For a team that reads only the summary, that distinction matters. Check where the matching result appears, which definition the agent recommends, and whether a reader can understand that recommendation without inspecting every table. ([Scoring rules](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring))
+
+### Can I reproduce the results?
+
+We make the full prompts, database and answer key available to reviewers on request. Our public repository contains the recorded responses and scores. For a reproducible regrade, we also need an explicit attempt ledger, complete grading criteria and timings tied to the selected conversations. ([Access notes](https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#notes))
+
+### What would make the Metabase result more informative?
+
+A follow-up should first verify that the agent can execute queries in the intended configuration, then rerun the same questions and record the setup. Report that result separately from this run. The existing zero scores the agent's completed answers; the evaluator's later query executions are recorded in the transcript but excluded from the score. ([Metabase responses](https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md))
+
+### Should I supply my business definitions?
+
+Use the configuration you intend to rely on. A test with no documentation measures investigation of unfamiliar data. A test with approved definitions measures whether the agent applies your rules consistently. Record the definitions, permissions and accepted answers before running either test, so a later correction does not quietly change the comparison.
+
+<!-- section:content-9 -->
+
+## Test the whole weekly review
+
+Supaboard is the one AI agent that does the whole analyst job on your own database. After an answer, the same agent can build a dashboard, prepare a report or deck, and run the recurring analysis on a schedule. Those capabilities are separate from the answer-quality results above. ([Dashboards](https://supaboard.ai/product/dashboards), [Automations](https://supaboard.ai/product/automations))
+
+Give it seven days with one weekly review you already run. Bring twenty questions whose answers you know, teach the agent your definitions, and score its answers with [evaluations](https://supaboard.ai/product/agents). Then check whether it can produce and deliver the review you need. That tests both the answers and the work that follows them.
+
+[Start Free](https://auth.supaboard.ai/onboard/register), or [book a 30-minute demo](https://calendly.com/aritra-ewq/supaboard-demo) to scope that evaluation. Seven days is the suggested evaluation window; access and AI allowances follow the [current plan](https://supaboard.ai/pricing).

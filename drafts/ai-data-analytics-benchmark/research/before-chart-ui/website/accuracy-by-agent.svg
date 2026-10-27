@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 800" role="img" aria-labelledby="accuracy-title accuracy-desc" style="font-family:Arial,sans-serif">
+<title id="accuracy-title">Accuracy by agent</title>
+<desc id="accuracy-desc">Accuracy is the share of available rubric points. Supaboard (Stella Pro): 89.7%; claude: 79.5%; Lightdash: 71.8%; Basedash: 69.2%; ChatGPT: 66.7%; Dot: 56.4%; Hex: 48.7%; Sigma: 43.6%; Metabase: 0.0%.</desc>
+<text x="32" y="42" font-size="32" text-anchor="start" font-weight="700" fill="currentColor">Accuracy by agent</text>
+<text x="32" y="76" font-size="21" text-anchor="start" font-weight="400" fill="currentColor">Share of available rubric points, including partial credit</text>
+<text x="32" y="126" font-size="23" text-anchor="start" font-weight="600" fill="currentColor">Supaboard (Stella Pro)</text>
+<text x="688" y="126" font-size="23" text-anchor="end" font-weight="600" fill="currentColor">89.7%</text>
+<rect x="32" y="138" width="656" height="20" rx="4" fill="currentColor" opacity="0.09"/>
+<rect x="32" y="138" width="588.432" height="20" rx="4" fill="#414dcf"/>
+<text x="32" y="192" font-size="23" text-anchor="start" font-weight="600" fill="currentColor">claude</text>
+<text x="688" y="192" font-size="23" text-anchor="end" font-weight="600" fill="currentColor">79.5%</text>
+<rect x="32" y="204" width="656" height="20" rx="4" fill="currentColor" opacity="0.09"/>
+<rect x="32" y="204" width="521.52" height="20" rx="4" fill="#414dcf"/>
+<text x="32" y="258" font-size="23" text-anchor="start" font-weight="600" fill="currentColor">Lightdash</text>
+<text x="688" y="258" font-size="23" text-anchor="end" font-weight="600" fill="currentColor">71.8%</text>
+<rect x="32" y="270" width="656" height="20" rx="4" fill="currentColor" opacity="0.09"/>
+<rect x="32" y="270" width="471.008" height="20" rx="4" fill="#414dcf"/>
+<text x="32" y="324" font-size="23" text-anchor="start" font-weight="600" fill="currentColor">Basedash</text>
+<text x="688" y="324" font-size="23" text-anchor="end" font-weight="600" fill="currentColor">69.2%</text>
+<rect x="32" y="336" width="656" height="20" rx="4" fill="currentColor" opacity="0.09"/>
+<rect x="32" y="336" width="453.95200000000006" height="20" rx="4" fill="#414dcf"/>
+<text x="32" y="390" font-size="23" text-anchor="start" font-weight="600" fill="currentColor">ChatGPT</text>
+<text x="688" y="390" font-size="23" text-anchor="end" font-weight="600" fill="currentColor">66.7%</text>
+<rect x="32" y="402" width="656" height="20" rx="4" fill="currentColor" opacity="0.09"/>
+<rect x="32" y="402" width="437.552" height="20" rx="4" fill="#414dcf"/>
+<text x="32" y="456" font-size="23" text-anchor="start" font-weight="600" fill="currentColor">Dot</text>
+<text x="688" y="456" font-size="23" text-anchor="end" font-weight="600" fill="currentColor">56.4%</text>
+<rect x="32" y="468" width="656" height="20" rx="4" fill="currentColor" opacity="0.09"/>
+<rect x="32" y="468" width="369.98400000000004" height="20" rx="4" fill="#414dcf"/>
+<text x="32" y="522" font-size="23" text-anchor="start" font-weight="600" fill="currentColor">Hex</text>
+<text x="688" y="522" font-size="23" text-anchor="end" font-weight="600" fill="currentColor">48.7%</text>
+<rect x="32" y="534" width="656" height="20" rx="4" fill="currentColor" opacity="0.09"/>
+<rect x="32" y="534" width="319.472" height="20" rx="4" fill="#414dcf"/>
+<text x="32" y="588" font-size="23" text-anchor="start" font-weight="600" fill="currentColor">Sigma</text>
+<text x="688" y="588" font-size="23" text-anchor="end" font-weight="600" fill="currentColor">43.6%</text>
+<rect x="32" y="600" width="656" height="20" rx="4" fill="currentColor" opacity="0.09"/>
+<rect x="32" y="600" width="286.016" height="20" rx="4" fill="#414dcf"/>
+<text x="32" y="654" font-size="23" text-anchor="start" font-weight="600" fill="currentColor">Metabase</text>
+<text x="688" y="654" font-size="23" text-anchor="end" font-weight="600" fill="currentColor">0.0%</text>
+<rect x="32" y="666" width="656" height="20" rx="4" fill="currentColor" opacity="0.09"/>
+<rect x="32" y="666" width="0.0" height="20" rx="4" fill="#414dcf"/>
+<text x="32.0" y="716" font-size="19" text-anchor="start" font-weight="400" fill="currentColor">0%</text>
+<text x="196.0" y="716" font-size="19" text-anchor="middle" font-weight="400" fill="currentColor">25%</text>
+<text x="360.0" y="716" font-size="19" text-anchor="middle" font-weight="400" fill="currentColor">50%</text>
+<text x="524.0" y="716" font-size="19" text-anchor="middle" font-weight="400" fill="currentColor">75%</text>
+<text x="688.0" y="716" font-size="19" text-anchor="end" font-weight="400" fill="currentColor">100%</text>
+<text x="32" y="770" font-size="18" text-anchor="start" font-weight="400" fill="currentColor">Source: Data Analytics Index · vendor-reported</text>
+</svg>

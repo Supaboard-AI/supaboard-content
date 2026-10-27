@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-21",
+  "source_readme_sha": "0792c550f8c9a0fb68339aba596d2af3e03707fd",
+  "checks": {
+    "sonnet": {
+      "reported": 31,
+      "scenario": 32,
+      "percent": 82.1,
+      "index": 92.1
+    },
+    "lightdash": {
+      "reported": 28,
+      "scenario": 29,
+      "percent": 74.4,
+      "index": 84.4,
+      "precise_seat_rerun_scenario": 28
+    },
+    "basedash": {
+      "reported": 27,
+      "scenario": 28,
+      "percent": 71.8,
+      "index": 81.8
+    },
+    "supaboard": {
+      "reported": 35,
+      "rerun_scenario": 34,
+      "percent": 87.2,
+      "index": 97.2,
+      "q6_rerun": 307535,
+      "key": 305557.25,
+      "relative_error_percent": 0.6472600470124767
+    }
+  },
+  "scope": "Conditional recalculation from published numeric rules; not a fresh run, full regrade or remote repository correction."
+}

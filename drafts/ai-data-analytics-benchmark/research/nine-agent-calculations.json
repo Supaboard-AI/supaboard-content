@@ -1,0 +1,17 @@
+{
+  "configurations": 9,
+  "full_credit": {
+    "Q3": 8,
+    "Q5": 8,
+    "Q2": 7,
+    "Q8": 1,
+    "Q9": 0,
+    "Q12": 0
+  },
+  "question_means": {
+    "Q8": 0.7777777777777778,
+    "Q9": 0.3333333333333333
+  },
+  "recorded_attempts": 123,
+  "question_pairs": 117
+}

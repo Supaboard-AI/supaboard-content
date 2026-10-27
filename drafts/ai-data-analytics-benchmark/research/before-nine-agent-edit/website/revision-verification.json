@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-21",
+  "source_sha256": "b0cba98459869ad47ac249a1b8610815a516ac823d40c8f5e8bd59b456d459f9",
+  "byline": "Aritra Ghosh",
+  "first_row": "Claude Opus 5.5",
+  "hero_dimensions": [
+    1732,
+    908
+  ],
+  "fetchpriority": "high",
+  "stale_shortlist_link_removed": true,
+  "views": [
+    {
+      "viewport": "mobile-375",
+      "disclosure_on_first_screen": true,
+      "images_loaded": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": "tablet-768",
+      "disclosure_on_first_screen": true,
+      "images_loaded": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": "desktop-1280",
+      "disclosure_on_first_screen": true,
+      "images_loaded": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": "desktop-1280-dark",
+      "disclosure_on_first_screen": true,
+      "images_loaded": true,
+      "no_horizontal_overflow": true
+    }
+  ]
+}

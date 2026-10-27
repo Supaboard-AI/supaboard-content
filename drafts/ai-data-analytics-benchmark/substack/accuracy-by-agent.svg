@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="560" viewBox="0 0 840 560" role="img" aria-label="Data Analytics Index by tool" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<title>Data Analytics Index by tool</title>
+<rect x="1" y="1" width="838" height="558" rx="18" fill="#FFFFFF" stroke="#E6E9EE"/>
+<text x="36" y="57" fill="#1C1C1E" font-size="23" font-weight="600" text-anchor="start">Data Analytics Index by tool</text>
+<text x="802" y="56" fill="#5C6370" font-size="13" font-weight="500" text-anchor="end">HIGHER IS BETTER</text>
+<line x1="80" y1="456.0" x2="802" y2="456.0" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="462.0" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">0</text>
+<line x1="80" y1="379.75" x2="802" y2="379.75" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="385.75" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">25</text>
+<line x1="80" y1="303.5" x2="802" y2="303.5" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="309.5" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">50</text>
+<line x1="80" y1="227.25" x2="802" y2="227.25" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="233.25" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">75</text>
+<line x1="80" y1="151.0" x2="802" y2="151.0" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="157.0" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">100</text>
+<rect x="89" y="151.91500000000002" width="64" height="304.085" rx="0" fill="#414DCF" stroke="none"/>
+<text x="121" y="136.91500000000002" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="middle">99.7</text>
+<text x="121" y="489" fill="#5C6370" font-size="15" font-weight="500" text-anchor="middle">Supaboard</text>
+<rect x="169" y="183.02500000000003" width="64" height="272.97499999999997" rx="0" fill="#1D6B69" stroke="none"/>
+<text x="201" y="168.02500000000003" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="middle">89.5</text>
+<text x="201" y="489" fill="#5C6370" font-size="15" font-weight="500" text-anchor="middle">claude</text>
+<rect x="249" y="206.51000000000002" width="64" height="249.48999999999998" rx="0" fill="#DB9D48" stroke="none"/>
+<text x="281" y="191.51000000000002" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="middle">81.8</text>
+<text x="281" y="489" fill="#5C6370" font-size="15" font-weight="500" text-anchor="middle">Lightdash</text>
+<rect x="329" y="214.44" width="64" height="241.56" rx="0" fill="#1C7A5B" stroke="none"/>
+<text x="361" y="199.44" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="middle">79.2</text>
+<text x="361" y="489" fill="#5C6370" font-size="15" font-weight="500" text-anchor="middle">Basedash</text>
+<rect x="409" y="222.065" width="64" height="233.935" rx="0" fill="#EA5640" stroke="none"/>
+<text x="441" y="207.065" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="middle">76.7</text>
+<text x="441" y="489" fill="#5C6370" font-size="15" font-weight="500" text-anchor="middle">ChatGPT</text>
+<rect x="489" y="253.48" width="64" height="202.52" rx="0" fill="#8B93A7" stroke="none"/>
+<text x="521" y="238.48" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="middle">66.4</text>
+<text x="521" y="489" fill="#5C6370" font-size="15" font-weight="500" text-anchor="middle">Dot</text>
+<rect x="569" y="276.96500000000003" width="64" height="179.035" rx="0" fill="#6BAC96" stroke="none"/>
+<text x="601" y="261.96500000000003" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="middle">58.7</text>
+<text x="601" y="489" fill="#5C6370" font-size="15" font-weight="500" text-anchor="middle">Hex</text>
+<rect x="649" y="292.52" width="64" height="163.48" rx="0" fill="#4088FD" stroke="none"/>
+<text x="681" y="277.52" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="middle">53.6</text>
+<text x="681" y="489" fill="#5C6370" font-size="15" font-weight="500" text-anchor="middle">Sigma</text>
+<rect x="729" y="425.5" width="64" height="30.5" rx="0" fill="#A7ACB6" stroke="none"/>
+<text x="761" y="410.5" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="middle">10.0</text>
+<text x="761" y="489" fill="#5C6370" font-size="15" font-weight="500" text-anchor="middle">Metabase</text>
+</svg>

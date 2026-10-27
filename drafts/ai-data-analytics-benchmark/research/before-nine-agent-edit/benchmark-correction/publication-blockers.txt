@@ -1,0 +1,4 @@
+The selection reason is now confirmed by the user and included.
+The missing facts for a full regrade are the full prompts and grading key, first Supaboard Q11 chart payload or database method verification, and attempt-aligned timings.
+A 33/35 table is supported only as a targeted comparison holding other grades fixed. It is not a completed uniform regrade.
+The README proposal and insertion patch are local, not committed or published. If applying the patch later, save README-correction-proposal.md as CORRECTION.md alongside it and include attempt-ledger.csv.

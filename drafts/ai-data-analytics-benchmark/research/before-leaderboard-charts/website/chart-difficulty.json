@@ -1,0 +1,36 @@
+{
+  "type": "horizontal_bar",
+  "id": "chart-question-difficulty",
+  "title": "Which questions earned full credit?",
+  "subtitle": "Selected tasks; full-credit answers, out of 9 configurations",
+  "source": {
+    "title": "Data Analytics Index",
+    "url": "https://github.com/Supaboard-AI/data-analytics-index#which-questions-tripped-agents-up"
+  },
+  "data": [
+    {
+      "label": "Cancellation spike",
+      "value": 8
+    },
+    {
+      "label": "Annual billings",
+      "value": 8
+    },
+    {
+      "label": "Net retention",
+      "value": 7
+    },
+    {
+      "label": "Missing from CRM",
+      "value": 1
+    },
+    {
+      "label": "ARR by industry",
+      "value": 0
+    },
+    {
+      "label": "Enterprise support",
+      "value": 0
+    }
+  ]
+}

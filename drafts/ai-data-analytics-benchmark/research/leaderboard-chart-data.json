@@ -1,0 +1,71 @@
+{
+  "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md",
+  "accuracy_definition": "Share of 39 rubric points, including partial credit; vendor-reported scores.",
+  "timing_definition": "Reported mean time in seconds; original mixed-attempt selection.",
+  "data": [
+    {
+      "agent": "Supaboard",
+      "points": 35,
+      "accuracy": 89.7,
+      "mean_seconds": 192,
+      "index": 99.7
+    },
+    {
+      "agent": "claude",
+      "points": 31,
+      "accuracy": 79.5,
+      "mean_seconds": 98,
+      "index": 89.5
+    },
+    {
+      "agent": "Lightdash",
+      "points": 28,
+      "accuracy": 71.8,
+      "mean_seconds": 173,
+      "index": 81.8
+    },
+    {
+      "agent": "Basedash",
+      "points": 27,
+      "accuracy": 69.2,
+      "mean_seconds": 68,
+      "index": 79.2
+    },
+    {
+      "agent": "ChatGPT",
+      "points": 26,
+      "accuracy": 66.7,
+      "mean_seconds": 196,
+      "index": 76.7
+    },
+    {
+      "agent": "Dot",
+      "points": 22,
+      "accuracy": 56.4,
+      "mean_seconds": 152,
+      "index": 66.4
+    },
+    {
+      "agent": "Hex",
+      "points": 19,
+      "accuracy": 48.7,
+      "mean_seconds": 75,
+      "index": 58.7
+    },
+    {
+      "agent": "Sigma",
+      "points": 17,
+      "accuracy": 43.6,
+      "mean_seconds": 225,
+      "index": 53.6
+    },
+    {
+      "agent": "Metabase",
+      "points": 0,
+      "accuracy": 0.0,
+      "mean_seconds": 180,
+      "index": 10.0
+    }
+  ],
+  "chart_metric": "Data Analytics Index = points / 39 * 100 + 10; maximum 110; not a percentage."
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="570" viewBox="0 0 840 570" role="img" aria-label="Which questions were hardest?" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<title>Which questions were hardest?</title>
+<rect x="1" y="1" width="838" height="568" rx="18" fill="#FFFFFF" stroke="#E6E9EE"/>
+<text x="36" y="57" fill="#1C1C1E" font-size="23" font-weight="600" text-anchor="start">Which questions were hardest?</text>
+<text x="802" y="56" fill="#5C6370" font-size="13" font-weight="500" text-anchor="end">FULL CREDIT · OUT OF 9</text>
+<text x="36" y="120" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="start">Cancellation spike</text>
+<text x="802" y="120" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="end">8 / 9</text>
+<rect x="36" y="135" width="766" height="12" rx="2" fill="#F2F4F6" stroke="none"/>
+<rect x="36" y="135" width="680.8888888888889" height="12" rx="2" fill="#414DCF" stroke="none"/>
+<text x="36" y="187" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="start">Annual billings</text>
+<text x="802" y="187" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="end">8 / 9</text>
+<rect x="36" y="202" width="766" height="12" rx="2" fill="#F2F4F6" stroke="none"/>
+<rect x="36" y="202" width="680.8888888888889" height="12" rx="2" fill="#1D6B69" stroke="none"/>
+<text x="36" y="254" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="start">Net retention</text>
+<text x="802" y="254" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="end">7 / 9</text>
+<rect x="36" y="269" width="766" height="12" rx="2" fill="#F2F4F6" stroke="none"/>
+<rect x="36" y="269" width="595.7777777777778" height="12" rx="2" fill="#DB9D48" stroke="none"/>
+<text x="36" y="321" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="start">Missing from CRM</text>
+<text x="802" y="321" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="end">1 / 9</text>
+<rect x="36" y="336" width="766" height="12" rx="2" fill="#F2F4F6" stroke="none"/>
+<rect x="36" y="336" width="85.11111111111111" height="12" rx="2" fill="#1C7A5B" stroke="none"/>
+<text x="36" y="388" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="start">ARR by industry</text>
+<text x="802" y="388" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="end">0 / 9</text>
+<rect x="36" y="403" width="766" height="12" rx="2" fill="#F2F4F6" stroke="none"/>
+<text x="36" y="455" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="start">Enterprise support</text>
+<text x="802" y="455" fill="#1C1C1E" font-size="21" font-weight="600" text-anchor="end">0 / 9</text>
+<rect x="36" y="470" width="766" height="12" rx="2" fill="#F2F4F6" stroke="none"/>
+</svg>

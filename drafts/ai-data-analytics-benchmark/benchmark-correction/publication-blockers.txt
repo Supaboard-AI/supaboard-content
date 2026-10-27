@@ -1,0 +1,5 @@
+The article covers nine selected configurations from the broader source benchmark.
+Final display names are claude and ChatGPT; source models are Sonnet 5.5 and GPT-6.
+A full regrade still requires full prompts/key, Supaboard Q11 first-attempt chart or database verification, and attempt-aligned timings.
+The 33-point calculation is a limited adjustment, not a completed regrade.
+The README proposal and insertion patch remain local. Applying the patch also requires saving the proposal as CORRECTION.md and including attempt-ledger.csv.

@@ -1,0 +1,51 @@
+DATA ANALYTICS INDEX: WEBSITE AND SUBSTACK
+Revised 21 October 2026
+
+Website: website/ai-data-analytics-benchmark.html
+Substack: substack/ten-ai-agents-one-database.html
+Each folder includes editable Markdown, PDF, cover and chart images.
+Byline: Aritra Ghosh. Opus precedes Supaboard, matching the public README.
+
+PUBLICATION HOLD
+The copy and technical corrections are complete. The full benchmark regrade is not.
+33/39 is only the effect of two Supaboard grade changes with all other grades held fixed.
+It must not be promoted as a uniformly corrected33 versus 35 leaderboard.
+Supaboard Q11 first-attempt evidence, prompt/key checks including Q10 and Opus Q12,
+and selected-attempt timings remain necessary. The articles state these limits.
+Outside grading has not been confirmed; the text says no independent audit has been published.
+
+THIS REVISION
+Confirmed selection rationale: limited resources and sales-led access prevented
+testing Omni, Snowflake CoWork and Databricks Genie.
+Vendor-reported replaces the internal V tag. Historical scores remain identified.
+The first completed recorded conversation is selected for every agent-question pair.
+The ledger contains 130 pairs and 136 recorded attempts. No claim is made about
+unrecorded attempts outside the published transcripts.
+Q4 rounding, Q6 final-answer completeness and Q10's September 15 sensitivity row
+are explained. Original mixed-attempt speed averages are labeled.
+Metabase's caveat distinguishes agent non-execution from evaluator Run clicks.
+The outdated shortlist link is removed; its live post has not been edited.
+Hero dimensions agree at 1732x908 and fetchpriority=high is preserved.
+Both final articles received the full humanizer pass before rendering.
+
+README CORRECTION MATERIALS
+benchmark-correction/README-correction-proposal.md: local proposal, not final regrade.
+benchmark-correction/attempt-ledger.csv: all 130 records, selected attempts and pending decisions.
+benchmark-correction/README-insertion.patch: proposed notice for the current README.
+Before applying that patch, save the proposal as CORRECTION.md beside README.md
+and include attempt-ledger.csv. Nothing has been committed or published remotely.
+
+PUBLICATION HANDOFF
+Keep the article on hold pending completion of the regrade. The current source
+metadata is a local review format, not the production posts/schema. At integration,
+set actual publication dates, the existing author profile and production asset URLs.
+Keep disclosure above the cover and results. Substack native layout has not been
+tested; upload supplied visuals and preserve alt text, captions and disclosure.
+The website canonical should be used once live. Assets are not uploaded.
+
+RESEARCH AND VISUALS
+The package preserves OpenRush keyword research and the public benchmark source
+snapshots. Unavailable keyword volume is unknown, not zero. Cover artwork is original;
+WebP and PNG master are included. The question chart depicts original published
+full-credit counts; refresh it if the full regrade changes those counts.
+Current reviews, verification and source hashes accompany the drafts.

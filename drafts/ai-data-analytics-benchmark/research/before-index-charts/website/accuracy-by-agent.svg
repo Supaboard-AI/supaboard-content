@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="850" viewBox="0 0 600 850" role="img" aria-label="Accuracy by agent" font-family="Arial, sans-serif">
+<title>Accuracy by agent</title>
+<rect x="1" y="1" width="598" height="848" rx="22" fill="#FFFFFF" stroke="#DCE5EA"/>
+<rect x="28" y="30" width="5" height="18" rx="2" fill="#087F75" stroke="none"/>
+<text x="45" y="45" fill="#566B7A" font-size="15" font-weight="700" text-anchor="start">DATA ANALYTICS INDEX</text>
+<text x="569" y="45" fill="#566B7A" font-size="15" font-weight="700" text-anchor="end">02 / 03</text>
+<text x="28" y="91" fill="#172B3A" font-size="30" font-weight="700" text-anchor="start">Accuracy by agent</text>
+<text x="28" y="124" fill="#566B7A" font-size="19" font-weight="400" text-anchor="start">Share of 39 rubric points, including partial credit</text>
+<text x="28" y="166" fill="#566B7A" font-size="14" font-weight="700" text-anchor="start">AGENT</text>
+<text x="572" y="166" fill="#566B7A" font-size="14" font-weight="700" text-anchor="end">ACCURACY</text>
+<rect x="16" y="178" width="568" height="60" rx="10" fill="#EDF8F5" stroke="none"/>
+<text x="28" y="204" fill="#087F75" font-size="23" font-weight="700" text-anchor="start">Supaboard</text>
+<text x="572" y="204" fill="#087F75" font-size="24" font-weight="700" text-anchor="end">89.7%</text>
+<rect x="28" y="216" width="544" height="9" rx="4.5" fill="#EDF1F4" stroke="none"/>
+<rect x="28" y="216" width="487.968" height="9" rx="4.5" fill="#087F75" stroke="none"/>
+<text x="28" y="266" fill="#172B3A" font-size="23" font-weight="500" text-anchor="start">claude</text>
+<text x="572" y="266" fill="#172B3A" font-size="24" font-weight="700" text-anchor="end">79.5%</text>
+<rect x="28" y="278" width="544" height="9" rx="4.5" fill="#EDF1F4" stroke="none"/>
+<rect x="28" y="278" width="432.48" height="9" rx="4.5" fill="#62839A" stroke="none"/>
+<text x="28" y="328" fill="#172B3A" font-size="23" font-weight="500" text-anchor="start">Lightdash</text>
+<text x="572" y="328" fill="#172B3A" font-size="24" font-weight="700" text-anchor="end">71.8%</text>
+<rect x="28" y="340" width="544" height="9" rx="4.5" fill="#EDF1F4" stroke="none"/>
+<rect x="28" y="340" width="390.592" height="9" rx="4.5" fill="#62839A" stroke="none"/>
+<text x="28" y="390" fill="#172B3A" font-size="23" font-weight="500" text-anchor="start">Basedash</text>
+<text x="572" y="390" fill="#172B3A" font-size="24" font-weight="700" text-anchor="end">69.2%</text>
+<rect x="28" y="402" width="544" height="9" rx="4.5" fill="#EDF1F4" stroke="none"/>
+<rect x="28" y="402" width="376.44800000000004" height="9" rx="4.5" fill="#62839A" stroke="none"/>
+<text x="28" y="452" fill="#172B3A" font-size="23" font-weight="500" text-anchor="start">ChatGPT</text>
+<text x="572" y="452" fill="#172B3A" font-size="24" font-weight="700" text-anchor="end">66.7%</text>
+<rect x="28" y="464" width="544" height="9" rx="4.5" fill="#EDF1F4" stroke="none"/>
+<rect x="28" y="464" width="362.848" height="9" rx="4.5" fill="#62839A" stroke="none"/>
+<text x="28" y="514" fill="#172B3A" font-size="23" font-weight="500" text-anchor="start">Dot</text>
+<text x="572" y="514" fill="#172B3A" font-size="24" font-weight="700" text-anchor="end">56.4%</text>
+<rect x="28" y="526" width="544" height="9" rx="4.5" fill="#EDF1F4" stroke="none"/>
+<rect x="28" y="526" width="306.816" height="9" rx="4.5" fill="#62839A" stroke="none"/>
+<text x="28" y="576" fill="#172B3A" font-size="23" font-weight="500" text-anchor="start">Hex</text>
+<text x="572" y="576" fill="#172B3A" font-size="24" font-weight="700" text-anchor="end">48.7%</text>
+<rect x="28" y="588" width="544" height="9" rx="4.5" fill="#EDF1F4" stroke="none"/>
+<rect x="28" y="588" width="264.92800000000005" height="9" rx="4.5" fill="#62839A" stroke="none"/>
+<text x="28" y="638" fill="#172B3A" font-size="23" font-weight="500" text-anchor="start">Sigma</text>
+<text x="572" y="638" fill="#172B3A" font-size="24" font-weight="700" text-anchor="end">43.6%</text>
+<rect x="28" y="650" width="544" height="9" rx="4.5" fill="#EDF1F4" stroke="none"/>
+<rect x="28" y="650" width="237.18400000000003" height="9" rx="4.5" fill="#62839A" stroke="none"/>
+<text x="28" y="700" fill="#172B3A" font-size="23" font-weight="500" text-anchor="start">Metabase</text>
+<text x="572" y="700" fill="#172B3A" font-size="24" font-weight="700" text-anchor="end">0.0%</text>
+<rect x="28" y="712" width="544" height="9" rx="4.5" fill="#EDF1F4" stroke="none"/>
+<line x1="28" y1="710" x2="28" y2="723" stroke="#62839A" stroke-width="1"/>
+<text x="28" y="750" fill="#566B7A" font-size="17" font-weight="400" text-anchor="start">0%</text>
+<text x="300" y="750" fill="#566B7A" font-size="17" font-weight="400" text-anchor="middle">50%</text>
+<text x="572" y="750" fill="#566B7A" font-size="17" font-weight="400" text-anchor="end">100%</text>
+<line x1="28" y1="776" x2="572" y2="776" stroke="#DFE7EC" stroke-width="1"/>
+<text x="28" y="810" fill="#566B7A" font-size="18" font-weight="400" text-anchor="start">Vendor-reported scores</text>
+<text x="572" y="810" fill="#566B7A" font-size="18" font-weight="400" text-anchor="end">Maximum: 39 points</text>
+</svg>

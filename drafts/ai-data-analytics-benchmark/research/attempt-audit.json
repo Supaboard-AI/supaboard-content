@@ -1,0 +1,1177 @@
+{
+  "scope": "Nine selected configurations; claude uses the Sonnet 5.5 source record, ChatGPT uses the GPT-6 source record.",
+  "recorded_attempts": 123,
+  "agent_question_pairs": 117,
+  "rows": [
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q1",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q2",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q3",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q4",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Targeted consistency adjustment proposes 2; full regrade pending",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q5",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q6",
+      "recorded_attempts": "2",
+      "selected_for_proposed_regrade": "first complete recorded conversation",
+      "published_score": "3",
+      "regrade_status": "Targeted consistency adjustment proposes 2; full regrade pending",
+      "timing_status": "Withhold: existing timer not verified for selected conversation",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q7",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q8",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q9",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "1",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q10",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "3 retained only for targeted scenario; 15 September uncapped alternative needs prompt eligibility check",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q11",
+      "recorded_attempts": "2",
+      "selected_for_proposed_regrade": "first complete recorded conversation",
+      "published_score": "2",
+      "regrade_status": "Unresolved: credited 142668 is explicit only in rerun; first-run chart payload or database method validation needed",
+      "timing_status": "Withhold: existing timer not verified for selected conversation",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q12",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "Supaboard (Stella Pro)",
+      "question": "Q13",
+      "recorded_attempts": "2",
+      "selected_for_proposed_regrade": "first complete recorded conversation",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q1",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q2",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q3",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q4",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q5",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q6",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q7",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q8",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q9",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q10",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q11",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q12",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "claude",
+      "question": "Q13",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "1",
+      "regrade_status": "Candidate 1 to 2 under numeric within-five-percent rule",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q1",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q2",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q3",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q4",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q5",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q6",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q7",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q8",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q9",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q10",
+      "recorded_attempts": "2",
+      "selected_for_proposed_regrade": "first complete recorded conversation",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Withhold: existing timer not verified for selected conversation",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q11",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q12",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Lightdash",
+      "question": "Q13",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "1",
+      "regrade_status": "Candidate 1 to 2 under numeric within-five-percent rule",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q1",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q2",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q3",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q4",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q5",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q6",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q7",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q8",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q9",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q10",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q11",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q12",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "Basedash",
+      "question": "Q13",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q1",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q2",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q3",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q4",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q5",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q6",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q7",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q8",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q9",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q10",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q11",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q12",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "ChatGPT",
+      "question": "Q13",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/chatgpt-gpt-6/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q1",
+      "recorded_attempts": "2",
+      "selected_for_proposed_regrade": "first complete recorded conversation",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Withhold: existing timer not verified for selected conversation",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q2",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q3",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q4",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q5",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q6",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q7",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q8",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q9",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q10",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q11",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q12",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Dot",
+      "question": "Q13",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/dot/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q1",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q2",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q3",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q4",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q5",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q6",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q7",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q8",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q9",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q10",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q11",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "1",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q12",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Hex",
+      "question": "Q13",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/hex/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q1",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q2",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q3",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q4",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q5",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "3",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q6",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q7",
+      "recorded_attempts": "2",
+      "selected_for_proposed_regrade": "first complete recorded conversation",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Withhold: existing timer not verified for selected conversation",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q8",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q9",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q10",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q11",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q12",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "2",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Sigma",
+      "question": "Q13",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "1",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/sigma/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q1",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q2",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q3",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q4",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q5",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q6",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q7",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q8",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q9",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q10",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q11",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q12",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    },
+    {
+      "agent": "Metabase",
+      "question": "Q13",
+      "recorded_attempts": "1",
+      "selected_for_proposed_regrade": "sole published conversation; earlier unrecorded attempts unknown",
+      "published_score": "0",
+      "regrade_status": "Published grade retained as historical evidence; not independently regraded",
+      "timing_status": "Published timing retained as historical only",
+      "source": "https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md"
+    }
+  ]
+}

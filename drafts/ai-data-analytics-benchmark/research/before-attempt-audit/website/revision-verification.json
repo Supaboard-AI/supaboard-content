@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "revision": "credibility and GTM revision",
+  "all_five_preflight_gates_passed": true,
+  "first_screen_disclosure_verified": true,
+  "author": "Aritra Ghosh",
+  "reported_leaderboard_first_row": "Supaboard (Stella Pro)",
+  "reported_scores_unchanged": true,
+  "conditional_score_scenarios": "research/score-scenarios.json",
+  "footer_removed": true,
+  "humanizer_completed": true,
+  "source_sha256": "ae5a0dfcf187a7ebc3bd7faf18364b9b60598842e7f5aaedd4723454a459066a"
+}

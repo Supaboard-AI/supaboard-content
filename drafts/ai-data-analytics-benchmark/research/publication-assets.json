@@ -1,0 +1,34 @@
+{
+  "hero.webp": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/4d990a8bd8caad2f.webp",
+    "key": "blog/ai-data-analytics-benchmark/4d990a8bd8caad2f.webp",
+    "skipped": true,
+    "sha256": "4d990a8bd8caad2f096af977619c16b2e8f3142763ad315562efdfa04e04f402",
+    "bytes": 97214,
+    "verified": true
+  },
+  "time-vs-accuracy.png": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/d33813332b970efd.png",
+    "key": "blog/ai-data-analytics-benchmark/d33813332b970efd.png",
+    "skipped": false,
+    "sha256": "d33813332b970efd84730713454fe61f6e43a131e6cd8d2510321b8c5d1699d0",
+    "bytes": 88483,
+    "verified": true
+  },
+  "accuracy-by-agent.png": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/42a4be4789330dce.png",
+    "key": "blog/ai-data-analytics-benchmark/42a4be4789330dce.png",
+    "skipped": false,
+    "sha256": "42a4be4789330dce33f5ede2624229a0ad330654f015e484d15dc0ef6c5286ca",
+    "bytes": 68481,
+    "verified": true
+  },
+  "question-difficulty.png": {
+    "url": "https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/ai-data-analytics-benchmark/89ab6975bcf243db.png",
+    "key": "blog/ai-data-analytics-benchmark/89ab6975bcf243db.png",
+    "skipped": true,
+    "sha256": "89ab6975bcf243dbb756b2d7db26318387251078ee3372098ca051ae7d0dc2e5",
+    "bytes": 77463,
+    "verified": true
+  }
+}

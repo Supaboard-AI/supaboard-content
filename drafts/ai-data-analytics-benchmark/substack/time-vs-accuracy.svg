@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="590" viewBox="0 0 840 590" role="img" aria-label="Time vs. Data Analytics Index" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<title>Time vs. Data Analytics Index</title>
+<rect x="1" y="1" width="838" height="588" rx="18" fill="#FFFFFF" stroke="#E6E9EE"/>
+<text x="36" y="57" fill="#1C1C1E" font-size="23" font-weight="600" text-anchor="start">Time vs. Data Analytics Index</text>
+<text x="802" y="56" fill="#5C6370" font-size="13" font-weight="500" text-anchor="end"></text>
+<line x1="80" y1="478.0" x2="770" y2="478.0" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="484.0" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">0</text>
+<line x1="80" y1="400.72727272727275" x2="770" y2="400.72727272727275" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="406.72727272727275" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">25</text>
+<line x1="80" y1="323.4545454545455" x2="770" y2="323.4545454545455" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="329.4545454545455" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">50</text>
+<line x1="80" y1="246.1818181818182" x2="770" y2="246.1818181818182" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="252.1818181818182" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">75</text>
+<line x1="80" y1="168.90909090909093" x2="770" y2="168.90909090909093" stroke="#E6E9EE" stroke-width="1"/>
+<text x="65" y="174.90909090909093" fill="#5C6370" font-size="17" font-weight="400" text-anchor="end">100</text>
+<text x="80.0" y="510" fill="#5C6370" font-size="17" font-weight="400" text-anchor="middle">0</text>
+<text x="218.0" y="510" fill="#5C6370" font-size="17" font-weight="400" text-anchor="middle">50</text>
+<text x="356.0" y="510" fill="#5C6370" font-size="17" font-weight="400" text-anchor="middle">100</text>
+<text x="494.0" y="510" fill="#5C6370" font-size="17" font-weight="400" text-anchor="middle">150</text>
+<text x="632.0" y="510" fill="#5C6370" font-size="17" font-weight="400" text-anchor="middle">200</text>
+<text x="770.0" y="510" fill="#5C6370" font-size="17" font-weight="400" text-anchor="middle">250</text>
+<text x="80" y="110" fill="#5C6370" font-size="17" font-weight="400" text-anchor="start">Data Analytics Index</text>
+<text x="425" y="554" fill="#5C6370" font-size="19" font-weight="400" text-anchor="middle">Mean response time (seconds)</text>
+<circle cx="609.92" cy="169.83636363636361" r="8" fill="#414DCF"/>
+<text x="591.92" y="149.83636363636361" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="end">Supaboard</text>
+<circle cx="350.48" cy="201.36363636363637" r="8" fill="#1D6B69"/>
+<text x="332.48" y="185.36363636363637" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="end">claude</text>
+<circle cx="557.48" cy="225.16363636363636" r="8" fill="#DB9D48"/>
+<text x="539.48" y="213.16363636363636" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="end">Lightdash</text>
+<circle cx="267.68" cy="233.20000000000002" r="8" fill="#1C7A5B"/>
+<text x="249.68" y="240.20000000000002" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="end">Basedash</text>
+<circle cx="620.96" cy="240.92727272727274" r="8" fill="#EA5640"/>
+<text x="638.96" y="265.92727272727274" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="start">ChatGPT</text>
+<circle cx="499.52" cy="272.76363636363635" r="8" fill="#8B93A7"/>
+<text x="517.52" y="279.76363636363635" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="start">Dot</text>
+<circle cx="287.0" cy="296.5636363636363" r="8" fill="#6BAC96"/>
+<text x="269.0" y="303.5636363636363" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="end">Hex</text>
+<circle cx="701.0" cy="312.3272727272727" r="8" fill="#4088FD"/>
+<text x="683.0" y="344.3272727272727" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="end">Sigma</text>
+<circle cx="576.8" cy="447.09090909090907" r="8" fill="#A7ACB6"/>
+<text x="594.8" y="454.09090909090907" fill="#1C1C1E" font-size="21" font-weight="500" text-anchor="start">Metabase</text>
+</svg>

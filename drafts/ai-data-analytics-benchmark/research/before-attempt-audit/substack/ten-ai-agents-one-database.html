@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d9488" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#18181b" media="(prefers-color-scheme: dark)">
+<title>We asked 10 AI agents about the same business. They disagreed.</title>
+<meta name="description" content="The Data Analytics Index compares ten agents on one messy SaaS database. Customer matching proved difficult, even when the answers looked close enough.">
+<link rel="canonical" href="https://supaboard.ai/blog/ai-data-analytics-benchmark">
+<meta name="author" content="Aritra Ghosh">
+<meta name="blog-source-sha256" content="457a46740f3d15f713064fac896da03556b02390bc70f587c5498ebc04d73fc4">
+<meta name="blog-body-sha256" content="d23929a243673d5a325ad4015629766105305d38851f8d97bc880d3ab7cdb4ed">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="We asked 10 AI agents about the same business. They disagreed.">
+<meta property="og:description" content="The Data Analytics Index compares ten agents on one messy SaaS database. Customer matching proved difficult, even when the answers looked close enough.">
+<meta property="og:url" content="https://supaboard.ai/blog/ai-data-analytics-benchmark">
+<meta property="og:image" content="https://supaboard.ai/blog/ai-data-analytics-benchmark/hero.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Data Analytics Index cover showing business records connected to a comparison table.">
+<meta property="og:site_name" content="Supaboard">
+<meta property="article:published_time" content="2026-10-21">
+<meta property="article:author" content="Aritra Ghosh">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="We asked 10 AI agents about the same business. They disagreed.">
+<meta name="twitter:description" content="The Data Analytics Index compares ten agents on one messy SaaS database. Customer matching proved difficult, even when the answers looked close enough.">
+<meta name="twitter:image" content="https://supaboard.ai/blog/ai-data-analytics-benchmark/hero.webp">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "We asked 10 AI agents about the same business. They disagreed.", "description": "The Data Analytics Index compares ten agents on one messy SaaS database. Customer matching proved difficult, even when the answers looked close enough.", "image": "https://supaboard.ai/blog/ai-data-analytics-benchmark/hero.webp", "datePublished": "2026-10-21", "dateModified": "2026-10-21", "author": {"@type": "Person", "name": "Aritra Ghosh"}, "wordCount": 1661, "keywords": ["AI analytics", "Business intelligence", "Benchmarks"], "inLanguage": "en", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://supaboard.ai/blog/ai-data-analytics-benchmark"}, "publisher": {"@type": "Organization", "name": "Supaboard", "url": "https://supaboard.ai"}}</script>
+<style>
+:root{--bg:#fafaf9;--surface:#fff;--text:#1c1917;--muted:#57534e;--soft:#78716c;--accent:#0f766e;--accent-soft:#ccfbf1;--accent-deep:#115e59;--border:#e7e5e4;--code-bg:#f5f5f4;--warn:#b91c1c;--shadow:0 1px 3px rgba(0,0,0,.06),0 4px 12px rgba(0,0,0,.04)}
+@media (prefers-color-scheme:dark){:root{--bg:#18181b;--surface:#27272a;--text:#fafafa;--muted:#a1a1aa;--soft:#92929c;--accent:#2dd4bf;--accent-soft:#134e4a;--accent-deep:#99f6e4;--border:#3f3f46;--code-bg:#1f1f23;--warn:#fca5a5;--shadow:0 1px 3px rgba(0,0,0,.4),0 4px 12px rgba(0,0,0,.3)}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.65;margin:0;font-size:17px;-webkit-font-smoothing:antialiased}
+article{max-width:740px;margin:0 auto;padding:3rem 1.5rem 5rem}
+.kicker{font-family:ui-monospace,"SF Mono",Monaco,monospace;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 .85rem;font-weight:600}
+h1{font-size:clamp(2rem,5vw,2.85rem);line-height:1.12;letter-spacing:-.025em;margin:0 0 1.1rem;font-weight:800}
+.dek{color:var(--muted);font-size:clamp(1.05rem,2.5vw,1.2rem);line-height:1.5;margin:0 0 1.75rem;max-width:60ch}
+.byline{color:var(--soft);font-size:.875rem;font-family:ui-monospace,monospace;margin:0 0 2.5rem}
+.updated{color:var(--soft);font-size:.875rem;font-family:ui-monospace,monospace;margin:0 0 2.5rem}
+.byline + .updated{margin-top:-2rem}
+.byline strong{color:var(--text);font-weight:600}
+.hero{margin:0 0 2.5rem;background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.hero img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover}
+h2{font-size:clamp(1.4rem,3vw,1.75rem);line-height:1.22;letter-spacing:-.015em;margin:3rem 0 1rem;font-weight:700;scroll-margin-top:1rem}
+h3{font-size:1.2rem;margin:2rem 0 .75rem;font-weight:700}
+p{margin:0 0 1.25rem}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent-deep)}
+code{font-family:ui-monospace,"SF Mono",Monaco,monospace;font-size:.9em;background:var(--code-bg);border:1px solid var(--border);padding:.1em .4em;border-radius:4px}
+pre{background:var(--code-bg);border:1px solid var(--border);border-radius:8px;padding:1rem;overflow-x:auto;font-size:.875rem}
+pre code{background:none;border:none;padding:0}
+blockquote{border-left:3px solid var(--accent);padding:.4rem 0 .4rem 1.25rem;margin:0 0 1.5rem;color:var(--muted)}
+ul,ol{margin:0 0 1.25rem;padding-left:1.5rem}
+li{margin:.35rem 0}
+strong{font-weight:700;color:var(--text)}
+img{max-width:100%;height:auto}
+svg{max-width:100%;height:auto}
+figure{margin:0 0 1.75rem}
+figure svg{display:block;margin:0 auto}
+figcaption{color:var(--muted);font-size:.875rem;margin-top:.5rem}
+.table-wrap{max-width:100%;overflow-x:auto;margin:0 0 1.5rem;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{border:1px solid var(--border);padding:.5rem .75rem;text-align:left;vertical-align:top}
+th{background:var(--code-bg);font-weight:700}
+.post-footer{margin-top:4rem;padding-top:2rem;border-top:1px solid var(--border);font-size:.875rem;color:var(--muted);font-family:ui-monospace,monospace;display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;justify-content:space-between}
+.post-footer a{color:var(--accent);text-decoration:none}
+::selection{background:var(--accent);color:var(--bg)}
+@media print{body{background:#fff;color:#000;font-size:11pt}article{max-width:none;padding:0 1rem}.hero{box-shadow:none}.table-wrap{overflow:visible}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.byline{margin-bottom:1rem}.benchmark-disclosure{font-size:.9rem;line-height:1.5;border-left:3px solid var(--accent);padding:.75rem 1rem;margin:0 0 1.5rem;background:var(--surface)}.benchmark-disclosure p{margin:0}@media(max-width:480px){article{padding-top:1.5rem}}
+</style>
+</head>
+<body>
+<article>
+<header>
+<p class="kicker">Data Analytics Index</p>
+<h1>We asked 10 AI agents about the same business. They disagreed.</h1>
+
+<p class="byline"><strong>By Aritra Ghosh</strong> &middot; 2026-10-21 &middot; 8 min read &middot; 1661 words</p>
+</header>
+
+<!--bs-body:start--><div class="benchmark-disclosure">
+<p><strong>Disclosure (V):</strong> We commissioned this benchmark at Supaboard, and we're a participant. Claude designed and ran it for us; its Opus and Sonnet models are participants too. These are vendor-reported results from our own repository. The public report does not document independent grading or an outside audit. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#notes">Benchmark notes</a>)</p>
+</div>
+
+<figure class="hero"><img src="hero.webp" width="1732" height="908" alt="Data Analytics Index: ten agents compared on one messy business database."></figure>
+
+<h2>The paying customers your CRM cannot see</h2>
+<p>Which customers are paying us but missing from the CRM?</p>
+<p>That's a useful question for an operations team. Someone needs to find those accounts, work out how much revenue they represent, and decide what to fix. An answer that looks plausible can still send the team after the wrong customers.</p>
+<p>In the Data Analytics Index, the answer key identified 214 customers representing $59,658.33 in monthly recurring revenue. Claude Opus 5.5 and Supaboard (Stella Pro) matched that result and received full credit. Hex reported 191 customers, Basedash 263, and ChatGPT 305, each with a different revenue total. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q8-paying-customers-missing-from-the-crm">CRM-gap results</a>)</p>
+<p>An operations team acting on those answers would begin with different account lists and different revenue priorities.</p>
+<blockquote>
+<p><strong>What stood out</strong></p>
+<ul>
+<li>Supaboard and Opus tie in the vendor-reported table; counting Supaboard's receivables rerun puts Opus ahead.</li>
+<li>Customer matching and revenue by industry separated the agents more than several revenue calculations did.</li>
+<li>The score scenarios below show what changes when the disputed grades are adjusted.</li>
+</ul>
+</blockquote>
+<h2>A database with enough mess to disagree about</h2>
+<p>This edition combines general-purpose assistants connected to the database with AI-enabled BI products. The report does not document how these ten configurations were chosen. Omni, Snowflake CoWork and Databricks Genie were not included; their absence is not a performance result. Treat this as a comparison of the tested configurations, not a complete market ranking. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#data-analytics-index-1">Tested configurations</a>)</p>
+<p>The test business, Corvia Systems, is fictional. It sells scheduling and dispatch software by the seat to clinics and field-service companies. Its Postgres database contains roughly twenty tables across billing, CRM, product usage, support, a legacy billing export and reference data. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#the-database">Benchmark setup</a>)</p>
+<p>Records are duplicated or inconsistent. Systems do not share clean keys. The agents received no documentation, hints or semantic layer to settle the definitions for them.</p>
+<p>Each task began in a fresh chat with the same short company introduction. The thirteen questions covered familiar work: recurring revenue, retention, overdue invoices, sales performance, usage and support. Some recorded exchanges include a clarification telling the agent to use its judgment and state its assumptions. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#the-questions">Question protocol</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md">Supaboard answers</a>)</p>
+<p>This setup tests investigation of unfamiliar data. An evaluation with approved definitions or a curated semantic model would test a different workflow.</p>
+<h2>The reported results</h2>
+<p>Supaboard (Stella Pro) and Claude Opus 5.5 each earned 35 of 39 available points. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#data-analytics-index-1">Published ranking</a>) The table reproduces the report reviewed on 21 October 2026, with "accuracy" labeled as the share of available points. All results are vendor-reported (V); the scenario below makes the grading sensitivity explicit.</p>
+<div class="table-wrap" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Agent</th>
+<th>Points / 39</th>
+<th>Share of available points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supaboard (Stella Pro)</td>
+<td>35</td>
+<td>89.7%</td>
+</tr>
+<tr>
+<td>Claude Opus 5.5</td>
+<td>35</td>
+<td>89.7%</td>
+</tr>
+<tr>
+<td>Claude Sonnet 5.5</td>
+<td>31</td>
+<td>79.5%</td>
+</tr>
+<tr>
+<td>Lightdash</td>
+<td>28</td>
+<td>71.8%</td>
+</tr>
+<tr>
+<td>Basedash</td>
+<td>27</td>
+<td>69.2%</td>
+</tr>
+<tr>
+<td>ChatGPT (GPT-6)</td>
+<td>26</td>
+<td>66.7%</td>
+</tr>
+<tr>
+<td>Dot</td>
+<td>22</td>
+<td>56.4%</td>
+</tr>
+<tr>
+<td>Hex</td>
+<td>19</td>
+<td>48.7%</td>
+</tr>
+<tr>
+<td>Sigma</td>
+<td>17</td>
+<td>43.6%</td>
+</tr>
+<tr>
+<td>Metabase</td>
+<td>0</td>
+<td>0.0%</td>
+</tr>
+</tbody>
+</table></div>
+<p>Metabase's zero reflects a workflow in which many answers contained SQL that the agent did not execute; those queries were not tested for correctness. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/metabase/README.md">Metabase results</a>)</p>
+<p>Each response earns up to three points, including partial credit. Divide total points by 39 and multiply by 100 for the normalized percentage; the Data Analytics Index adds ten, so its maximum is 110. The reported joint leaders have an index of 99.7. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring">Scoring formula</a>)</p>
+<h3>What the disputed grades change</h3>
+<p>Applying the published numeric rules to the flagged answers would add one point each to Basedash's receivables result and Sonnet's and Lightdash's customer counts. The table below shows that scenario separately from the vendor's reported totals. It is a recalculation from the published answers, not a fresh database test. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring">Scoring rules</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q6-overdue-receivables">receivables</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q13-customer-count">customer count</a>)</p>
+<div class="table-wrap" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Agent</th>
+<th>Reported points</th>
+<th>With those three grading changes</th>
+<th>If Supaboard's receivables rerun also counts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supaboard (Stella Pro)</td>
+<td>35</td>
+<td>35</td>
+<td>34</td>
+</tr>
+<tr>
+<td>Claude Opus 5.5</td>
+<td>35</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr>
+<td>Claude Sonnet 5.5</td>
+<td>31</td>
+<td>32</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Lightdash</td>
+<td>28</td>
+<td>29</td>
+<td>29</td>
+</tr>
+<tr>
+<td>Basedash</td>
+<td>27</td>
+<td>28</td>
+<td>28</td>
+</tr>
+</tbody>
+</table></div>
+<p>The three increases leave the order unchanged. Sonnet's normalized score becomes 82.1% (index 92.1), Lightdash's 74.4% (84.4), and Basedash's 71.8% (81.8), using the same calculation. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring">Scoring formula</a>)</p>
+<p><strong>The lead depends on which Supaboard run counts.</strong> The first run contains the key figure and retains three points, leaving Supaboard and Opus tied at 35. The rerun lists $307,535 against the $305,557.25 key, about 0.65% higher. Under the numeric rule it earns two points: Supaboard falls to 34/39, or 87.2% (index 97.2), and Opus leads alone at 35/39. The repository labels that rerun "counted" while its score table credits the first run. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md#q6-overdue-receivables">Supaboard's two attempts</a>)</p>
+<p>These scenarios hold every other grade fixed. The <a href="#errata">errata note</a> covers the remaining run-selection and rounding questions, including Lightdash's seat-utilization result.</p>
+<h2>Revenue by industry was harder than the cancellation spike</h2>
+<p>Nine agents received full credit for identifying the May cancellation spike as a Meridian Health consolidation involving sixteen clinics on 15 May; nine also received full credit for comparing annual billings. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#which-questions-tripped-agents-up">Question results</a>)</p>
+<p>The picture changed when the question was annual recurring revenue (ARR) by industry. The key put healthcare at 31.0%. Only Opus received full credit; the reported healthcare shares ranged from Basedash's 14.15% to Sonnet's 47.2%. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#q9-arr-by-industry">ARR results</a>)</p>
+<p>All the agents that returned a figure in that table named healthcare. A reader checking only the industry label would miss the disagreement over its share of revenue.</p>
+<p><img src="question-difficulty.png" width="560" height="650" loading="lazy" alt="Selected Data Analytics Index tasks: nine agents earned full credit for cancellations and billings, eight for net retention, two for the CRM gap, one for ARR by industry, and none for enterprise support."></p>
+<p><em>Selected tasks, vendor-reported (V). Full credit follows the benchmark's rounding and alternative-answer rules. (<a href="https://github.com/Supaboard-AI/data-analytics-index#which-questions-tripped-agents-up">Published full-credit counts</a>)</em></p>
+<p>The practical question is whether the result uses the customer population and revenue definition you intended. A percentage on its own cannot tell you that. You need the underlying records and the agent's assumptions to check it.</p>
+<h2>Where Supaboard fell short</h2>
+<p>Supaboard's joint-first total includes misses. It returned a healthcare share of 29.16% against the 31.0% key and received one point for a reasonable alternative method. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md#q9-arr-by-industry">Supaboard ARR result</a>)</p>
+<p>It also received two points on the appointments trend and enterprise support questions, rather than full credit. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md#scores">Supaboard scores</a>) Its full-credit seat-utilization figure appeared in a sensitivity table, which the rubric allows. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md#q10-seat-utilization">Supaboard seat utilization</a>)</p>
+<p>If your weekly review depends on revenue by industry, Supaboard's result on that question needs checking despite its high aggregate score.</p>
+<h2>Speed needs a careful comparison</h2>
+<p>Basedash had the fastest reported average at 68 seconds. Opus averaged 149 seconds and Supaboard 192 seconds. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#average-time-to-answer">Response times</a>)</p>
+<p>The report uses platform timestamps where available and platform timers otherwise. Lightdash's time includes SQL approval waits. Supaboard ran questions concurrently, while Basedash ran them sequentially. These are times from the recorded sessions, not a controlled latency comparison. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#average-time-to-answer">Timing method</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md">Lightdash setup</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md">Supaboard setup</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md">Basedash setup</a>)</p>
+<h2>Scoring notes and limits</h2>
+<p>The rubric accepts the key figure as a headline, alternative or sensitivity-table result. Counts must match for full credit; money and rates can fall within 0.1% or match at the written precision. Close answers within five percent earn two points. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring">Scoring rules</a>)</p>
+<p>This is one synthetic SaaS database. Full prompts, the answer key and the database are available to reviewers on request. Claude and ChatGPT used Neon project-owner access; the other agents used a shared read-only role. The report says no agent wrote to the database, and it does not report repeated-run variability. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#notes">Protocol and access notes</a>)</p>
+<p><a id="errata"></a></p>
+<h3>Errata and run-selection note</h3>
+<p>Basedash's receivables answer includes the exact open-invoice total, but its top-five list includes uncollectible debtors. The scenario above follows the rubric's allowance for exact alternatives; the report needs to explain whether a separate completeness criterion caused the lower grade. Sonnet's and Lightdash's customer-count answers include figures within the stated five-percent band. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/basedash/README.md#q6-overdue-receivables">Basedash Q6</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/claude-sonnet-5-5/README.md#q13-customer-count">Sonnet Q13</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md#q13-customer-count">Lightdash Q13</a>)</p>
+<p>Lightdash's seat-utilization score credits a first-run 57.5% figure, while its rerun is labeled counted. Grading the rerun's precise 57.7% at two points would subtract one point, taking Lightdash from the scenario's 29 to 28 and tying the adjusted Basedash total. Its coarser "about 58%" headline also makes the report's rounding rule relevant. Run selection and precision treatment need to be explicit before declaring a corrected score. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/lightdash/README.md#q10-seat-utilization">Lightdash Q10</a>, <a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/README.md#scoring">precision rule</a>)</p>
+<p>Supaboard's listed 312 seconds for receivables matches its rerun timer, although the score credits its first run. The timing table therefore also needs reconciliation. These calculations show the effects of the flagged issues; they do not replace an audit of every response. (<a href="https://github.com/Supaboard-AI/data-analytics-index/blob/main/supaboard-stella-pro/README.md#q6-overdue-receivables">Supaboard Q6</a>)</p>
+<h2>The work after the answer</h2>
+<p>The benchmark measures answers to business questions. It did not score building dashboards, preparing a weekly deck or sending the recurring report. Similar answer scores leave those parts of the product decision open.</p>
+<p>Supaboard is the one AI agent that does the whole analyst job on your own database. After an answer, the same agent can build a dashboard, prepare a report or deck, and run the recurring analysis on a schedule. (<a href="https://supaboard.ai/product/dashboards">Dashboards</a>, <a href="https://supaboard.ai/product/automations">Automations</a>)</p>
+<p>Give it seven days with one weekly review you already run. Bring twenty questions whose answers you know, teach the agent your definitions, and score its answers with <a href="https://supaboard.ai/product/agents">evaluations</a>. Then check whether it can produce and deliver the review you need. That tests both the answers and the work that follows them.</p>
+<p><a href="https://auth.supaboard.ai/onboard/register">Start Free</a>, or <a href="https://calendly.com/aritra-ewq/supaboard-demo">book a 30-minute demo</a> to scope that evaluation. Seven days is the suggested evaluation window; access and AI allowances follow the <a href="https://supaboard.ai/pricing">current plan</a>.</p><!--bs-body:end-->
+
+</article>
+</body>
+</html>

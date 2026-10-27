@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-21",
+  "source_sha256": "140b70850267af078fd3f3bf2ad8085904dafcab17843fdf4ab858ee26881315",
+  "byline": "Aritra Ghosh",
+  "first_row": "Supaboard",
+  "hero_dimensions": [
+    1732,
+    908
+  ],
+  "fetchpriority": "high",
+  "stale_shortlist_link_removed": true,
+  "views": [
+    {
+      "viewport": "mobile-375",
+      "disclosure_on_first_screen": true,
+      "images_loaded": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": "tablet-768",
+      "disclosure_on_first_screen": true,
+      "images_loaded": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": "desktop-1280",
+      "disclosure_on_first_screen": true,
+      "images_loaded": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": "desktop-1280-dark",
+      "disclosure_on_first_screen": true,
+      "images_loaded": true,
+      "no_horizontal_overflow": true
+    }
+  ]
+}

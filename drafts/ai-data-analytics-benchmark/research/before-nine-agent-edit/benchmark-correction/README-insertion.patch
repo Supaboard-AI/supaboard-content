@@ -1,0 +1,9 @@
+--- a/README.md
++++ b/README.md
+@@ -1,4 +1,6 @@
+ # Data Analytics Index
++
++> Correction review pending: the original scores below are retained as historical results. See CORRECTION.md for the proposed policy, recorded-attempt inventory and unresolved grading decisions.
+ 
+ A benchmark of AI data agents on one realistic SaaS database. 
+ 

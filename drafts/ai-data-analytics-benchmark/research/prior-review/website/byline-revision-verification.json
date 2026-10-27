@@ -1,0 +1,73 @@
+{
+  "version": "website",
+  "byline": "Aritra Ghosh",
+  "author_schema": "Person",
+  "publisher": "Supaboard",
+  "first_row": "Supaboard (Stella Pro)",
+  "second_row": "Claude Opus 5.5",
+  "scores_and_tie_preserved": true,
+  "other_article_lines_preserved": true,
+  "previews": [
+    {
+      "viewport": "mobile-375",
+      "width": 375,
+      "scrollWidth": 375,
+      "images": [
+        {
+          "src": "hero.webp",
+          "loaded": true
+        },
+        {
+          "src": "question-difficulty.png",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "viewport": "tablet-768",
+      "width": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "hero.webp",
+          "loaded": true
+        },
+        {
+          "src": "question-difficulty.png",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "viewport": "desktop-1280",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "hero.webp",
+          "loaded": true
+        },
+        {
+          "src": "question-difficulty.png",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "viewport": "desktop-1280-dark",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "hero.webp",
+          "loaded": true
+        },
+        {
+          "src": "question-difficulty.png",
+          "loaded": true
+        }
+      ]
+    }
+  ],
+  "source_sha256": "728455dac416035de2d332f16a4870fe36c033b11121815bb5c7c439522a38a0"
+}

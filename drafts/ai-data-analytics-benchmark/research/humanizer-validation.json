@@ -1,0 +1,17 @@
+{
+  "website/ai-data-analytics-benchmark.md": {
+    "sha256": "6c5a35c8b287bb7aed2d381455a96f4760b05b943752a98d7ff56fe50d1c9138",
+    "links_preserved_in_humanizer_pass": true,
+    "process": "mark patterns, rewrite, check full draft, finalize"
+  },
+  "substack/ten-ai-agents-one-database.md": {
+    "sha256": "140b70850267af078fd3f3bf2ad8085904dafcab17843fdf4ab858ee26881315",
+    "links_preserved_in_humanizer_pass": true,
+    "process": "mark patterns, rewrite, check full draft, finalize"
+  },
+  "benchmark-correction/README-correction-proposal.md": {
+    "sha256": "a892d9f8e20f8c22a67bc6daf22b504930b44c4f322618c93d8f1ea2c85d33f6",
+    "links_preserved_in_humanizer_pass": true,
+    "process": "mark patterns, rewrite, check full draft, finalize"
+  }
+}

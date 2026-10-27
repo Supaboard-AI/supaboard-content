@@ -1,0 +1,3 @@
+AI-generated using the built-in image tool; no attribution required.
+Edited the supplied cover subtitle to: 9 agents. One messy database.
+Prompt and source are recorded in research/nine-agent-revision-notes.md.

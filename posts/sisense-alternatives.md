@@ -26,8 +26,6 @@ cover:
 ogImage: >-
   https://supaboard-landing-content.fra1.digitaloceanspaces.com/blog/og/a18a8c0505be9be0.png
 sections:
-  - id: content-1
-    heading: 'TL;DR: The Best Sisense Alternatives at a Glance'
   - id: content-2
     heading: Why do teams look for a Sisense alternative?
   - id: content-3

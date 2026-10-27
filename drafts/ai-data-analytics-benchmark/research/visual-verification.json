@@ -1,0 +1,90 @@
+[
+  {
+    "version": "website",
+    "viewport": "mobile-375",
+    "disclosure_visible_without_scroll": true,
+    "disclosure_bottom": 499.765625,
+    "images_loaded": 2,
+    "footer_removed": true,
+    "byline_verified": true,
+    "reported_leaderboard_order_verified": true,
+    "horizontal_overflow": false
+  },
+  {
+    "version": "website",
+    "viewport": "tablet-768",
+    "disclosure_visible_without_scroll": true,
+    "disclosure_bottom": 335.3125,
+    "images_loaded": 2,
+    "footer_removed": true,
+    "byline_verified": true,
+    "reported_leaderboard_order_verified": true,
+    "horizontal_overflow": false
+  },
+  {
+    "version": "website",
+    "viewport": "desktop-1280",
+    "disclosure_visible_without_scroll": true,
+    "disclosure_bottom": 351.4375,
+    "images_loaded": 2,
+    "footer_removed": true,
+    "byline_verified": true,
+    "reported_leaderboard_order_verified": true,
+    "horizontal_overflow": false
+  },
+  {
+    "version": "website",
+    "viewport": "desktop-1280-dark",
+    "disclosure_visible_without_scroll": true,
+    "disclosure_bottom": 351.4375,
+    "images_loaded": 2,
+    "footer_removed": true,
+    "byline_verified": true,
+    "reported_leaderboard_order_verified": true,
+    "horizontal_overflow": false
+  },
+  {
+    "version": "substack",
+    "viewport": "mobile-375",
+    "disclosure_visible_without_scroll": true,
+    "disclosure_bottom": 499.765625,
+    "images_loaded": 2,
+    "footer_removed": true,
+    "byline_verified": true,
+    "reported_leaderboard_order_verified": true,
+    "horizontal_overflow": false
+  },
+  {
+    "version": "substack",
+    "viewport": "tablet-768",
+    "disclosure_visible_without_scroll": true,
+    "disclosure_bottom": 335.3125,
+    "images_loaded": 2,
+    "footer_removed": true,
+    "byline_verified": true,
+    "reported_leaderboard_order_verified": true,
+    "horizontal_overflow": false
+  },
+  {
+    "version": "substack",
+    "viewport": "desktop-1280",
+    "disclosure_visible_without_scroll": true,
+    "disclosure_bottom": 351.4375,
+    "images_loaded": 2,
+    "footer_removed": true,
+    "byline_verified": true,
+    "reported_leaderboard_order_verified": true,
+    "horizontal_overflow": false
+  },
+  {
+    "version": "substack",
+    "viewport": "desktop-1280-dark",
+    "disclosure_visible_without_scroll": true,
+    "disclosure_bottom": 351.4375,
+    "images_loaded": 2,
+    "footer_removed": true,
+    "byline_verified": true,
+    "reported_leaderboard_order_verified": true,
+    "horizontal_overflow": false
+  }
+]

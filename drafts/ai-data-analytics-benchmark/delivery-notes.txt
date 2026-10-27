@@ -1,0 +1,48 @@
+DATA ANALYTICS INDEX: WEBSITE AND SUBSTACK
+Revised 21 October 2026
+
+Website: website/ai-data-analytics-benchmark.html
+Substack: substack/ten-ai-agents-one-database.html
+Byline: Aritra Ghosh. Final display names: Supaboard, claude and ChatGPT.
+The Substack filename remains unchanged to preserve existing local links; its visible title covers nine agents.
+
+REQUESTED EDITS
+All three charts use white backgrounds and the live landing-page palette.
+The leaderboard uses the Data Analytics Index (0–110 axes), with vertical bars.
+The scatter footer and sample-size subtitle are removed.
+The article now covers nine configurations from the broader source benchmark.
+Removed the access/resource explanation; changed the data heading to What's in the data?
+Updated prose, metadata, charts, cover and attempt inventory to the selected scope.
+The leaderboard is now a time-versus-index scatter chart plus a vertical index bar chart.
+The 33-point adjustment section and its cross-references are removed from both articles.
+The scoring heading reads How the scoring works?
+The claude entry uses Sonnet 5.5 source results; ChatGPT uses GPT-6 source results.
+Individual scores were not changed by these naming edits.
+The selected records contain 117 question pairs and 123 attempts.
+Both final versions received the required humanizer pass before rendering.
+
+REVIEW STATUS
+The underlying full regrade remains unfinished. The 33-point Supaboard calculation
+is a limited adjustment, not a completed uniform regrade. Supaboard Q11 first-attempt
+evidence, full prompt/key checks and attempt-aligned timings remain necessary.
+Current articles retain the attempt, timing and scoring-review limits; the detailed adjustment remains in separate correction notes. Nothing has been published or changed remotely.
+
+CORRECTION MATERIALS
+The local README correction proposal and ledger now cover the nine selected configurations.
+They do not replace the full source benchmark. Applying the proposed README notice would
+require saving the proposal as CORRECTION.md and including attempt-ledger.csv.
+Original source snapshots remain unchanged; earlier drafts are retained locally.
+
+ASSETS AND HANDOFF
+Current cover master: assets/hero-nine-agents.png. Both article folders include
+optimized hero.webp, chart PNGs and editable SVGs, Markdown, HTML, PDF and checked previews.
+The SVG chart recalculates published full-credit counts for the nine entries.
+Before publication, resolve the regrade, set actual dates and production asset URLs,
+and verify the existing author profile and native Substack layout. The website
+canonical is count-neutral. Assets have not been uploaded.
+
+MOBILE CHARTS
+Local HTML previews offer swipeable chart canvases; full-size image links are removed.
+When moving to native Substack, upload the supplied PNGs and verify its native image enlargement; custom preview CSS may not transfer.
+
+Both leaderboard charts omit the 110 gridline and tick label; the metric definition and plotted values remain unchanged.

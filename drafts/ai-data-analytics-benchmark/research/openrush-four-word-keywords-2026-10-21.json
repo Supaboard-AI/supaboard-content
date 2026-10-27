@@ -1,0 +1,1572 @@
+{
+  "checked_at": "2026-10-21",
+  "market": "United States",
+  "language": "English",
+  "current_target": "AI data analytics benchmark",
+  "recommended_primary": "ai for data analysis",
+  "recommended_supporting": [
+    "ai data analysis tools",
+    "AI data analytics benchmark"
+  ],
+  "limitations": [
+    "Competition is advertiser competition, not organic ranking difficulty.",
+    "Close variants may share volume; do not sum.",
+    "Missing volume is unavailable, not zero.",
+    "Recommendations only; article metadata unchanged."
+  ],
+  "inspections": [
+    {
+      "data": {
+        "keyword": "AI data analytics benchmark",
+        "location": "United States",
+        "monthly_volume": null,
+        "cpc_usd": null,
+        "competition_level": null,
+        "intent": "informational",
+        "trend": [],
+        "serp_top": [
+          {
+            "position": 1,
+            "url": "https://focalx.ai/ai/ai-benchmarking/",
+            "domain": "focalx.ai",
+            "title": "AI Benchmarking: Evaluating AI Performance",
+            "description": "Feb 27, 2025 — AI benchmarking is the process of systematically testing and comparing AI models using standardized datasets, metrics, and methodologies."
+          },
+          {
+            "position": 2,
+            "url": "https://abtrainings.com/",
+            "domain": "abtrainings.com",
+            "title": "analytics benchmark",
+            "description": "AI is an all-in-one analytics solution that covers everything from data movement to data science … providing 100% Quality IT courses training"
+          },
+          {
+            "position": 3,
+            "url": "https://benchlm.ai/best/for/data-analysis",
+            "domain": "benchlm.ai",
+            "title": "Best AI model for data analysis (October 2026)",
+            "description": "Claude Sonnet 5.5 has the highest coding score estimate (84.0 ) Analyze data and write SQL or Python. Check the query, calculation, and conclusion separately."
+          },
+          {
+            "position": 4,
+            "url": "https://www.domo.com/learn/article/ai-data-analysis-tools",
+            "domain": "www.domo.com",
+            "title": "AI Data Analysis Tools That Connect Insights to Action",
+            "description": "Oct 5, 2026 — Compare 12 AI data analysis tools by use case—Domo, Power BI, Tableau, ThoughtSpot, Julius AI, Talend, ChatGPT—plus governance, pricing, ..."
+          },
+          {
+            "position": 5,
+            "url": "https://www.youtube.com/watch?v=LgOr3yTXpyk",
+            "domain": "www.youtube.com",
+            "title": "AI for Benchmarking and Positioning | Exclusive Lesson",
+            "description": null
+          },
+          {
+            "position": 6,
+            "url": "https://leni.co/help-articles/ai-data-analyst/",
+            "domain": "leni.co",
+            "title": "Top 9 AI Data Analytics Tools in 2025",
+            "description": "Jul 8, 2025 — Tools range from general-purpose platforms like Julius.ai and DataGPT to specialized options like Leni, Merative, Hypersonix, and Augury."
+          },
+          {
+            "position": 7,
+            "url": "https://www.qlik.com/us/augmented-analytics/ai-analytics",
+            "domain": "www.qlik.com",
+            "title": "AI Analytics: What It is, Why It Matters, & Use Cases",
+            "description": "AI data analytics can help you lower costs, reduce errors, improve accuracy, and free up human resources to focus on more strategic tasks."
+          }
+        ],
+        "serp_features": [
+          "ai_overview",
+          "video",
+          "perspectives",
+          "related_searches"
+        ]
+      },
+      "coverage": {
+        "returned": 7,
+        "total_available": null,
+        "truncated": false,
+        "as_of": "2026-10-21T10:43:22.327257Z",
+        "scope_note": null
+      },
+      "provenance": {
+        "source_class": "live_serp",
+        "method": "observed",
+        "observed_at": "2026-10-21T10:43:22.327257Z",
+        "confidence": 0.95,
+        "cache_hit": false
+      }
+    },
+    {
+      "data": {
+        "keyword": "ai for data analysis",
+        "location": "United States",
+        "monthly_volume": 2900,
+        "cpc_usd": 26.4,
+        "competition_level": "LOW",
+        "intent": "commercial",
+        "trend": [
+          {
+            "year": 2026,
+            "month": 9,
+            "search_volume": 2900
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 2900
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 2900
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 4400
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 5400
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 4400
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 5400
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 6600
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 8100
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 8100
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 5400
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 5400
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 5400
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 5400
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 5400
+          }
+        ],
+        "serp_top": [
+          {
+            "position": 1,
+            "url": "https://camelai.com/blog/10-best-free-ai-data-analytics-tools-for-businesse",
+            "domain": "camelai.com",
+            "title": "10 Best AI Tools for Data Analysis in 2026 — Free & Paid ...",
+            "description": "Mar 17, 2026 — The best AI tools for data analysis in 2026 are camelAI, Microsoft Power BI Desktop, Google Looker Studio, Apache Superset, KNIME, Metabase, ..."
+          },
+          {
+            "position": 2,
+            "url": "https://www.findanomaly.ai/best-ai-tools-data-analysis-visualization-2026",
+            "domain": "www.findanomaly.ai",
+            "title": "Best AI Tools for Data Analysis in 2026",
+            "description": "Top AI Tools for Data Analysis · 1. ChatGPT (OpenAI) — Best for Quick Data Exploration · 2. Claude (Anthropic) — Best for Complex Reasoning · 3. Google Gemini — ... Read more"
+          },
+          {
+            "position": 3,
+            "url": "https://www.tellius.com/resources/blog/best-ai-analytics-platforms-in-2026-12-tools-compared-by-capability-governance-and-depth-of-insight",
+            "domain": "www.tellius.com",
+            "title": "AI Analytics Platforms 2026: 12 Tools Compared",
+            "description": "Feb 17, 2026 — An AI analytics platform is a software system that uses artificial intelligence — including natural language processing, machine learning, and ..."
+          },
+          {
+            "position": 4,
+            "url": "https://www.codecademy.com/learn/prompt-engineering-for-analytics",
+            "domain": "www.codecademy.com",
+            "title": "Learn How to Use AI for Data Analysis",
+            "description": "AI models like ChatGPT or Gemini can help you generate everything from analytics strategies to Python code."
+          },
+          {
+            "position": 5,
+            "url": "https://www.forbes.com/sites/solrashidi/2024/10/16/how-to-use-ai-for-data-analysis-a-step-by-step-guide/",
+            "domain": "www.forbes.com",
+            "title": "How To Use AI For Data Analysis: A Step-By-Step Guide",
+            "description": "Oct 16, 2024 — Visualize and Interpret: Let the AI tool guide you in creating visual representations of your data. These could be charts, graphs, or ... Read more"
+          },
+          {
+            "position": 6,
+            "url": "https://www.youtube.com/watch?v=_7JyuA1nAKk",
+            "domain": "www.youtube.com",
+            "title": "Here are the Top AI Tools for Research Data Analysis",
+            "description": null
+          },
+          {
+            "position": 7,
+            "url": "https://www.turing.ac.uk/research/research-projects/artificial-intelligence-data-analytics",
+            "domain": "www.turing.ac.uk",
+            "title": "Artificial intelligence for data analytics",
+            "description": "Drawing on new advances in artificial intelligence and machine learning to produce technology that will help automate each stage of the data analytics process. Read more"
+          },
+          {
+            "position": 8,
+            "url": "https://www.splunk.com/en_us/blog/learn/data-analysis-tools.html",
+            "domain": "www.splunk.com",
+            "title": "12 Must-Have Data Analysis Tools for 2026 | Python, SQL ...",
+            "description": "Jul 17, 2025 — Discover the 12 must-have data analysis tools for 2026. Compare options for Python, SQL, and AI to boost productivity, insights, ..."
+          }
+        ],
+        "serp_features": [
+          "ai_overview",
+          "video",
+          "people_also_ask",
+          "paid",
+          "related_searches"
+        ]
+      },
+      "coverage": {
+        "returned": 8,
+        "total_available": null,
+        "truncated": false,
+        "as_of": "2026-10-21T10:43:22.664757Z",
+        "scope_note": null
+      },
+      "provenance": {
+        "source_class": "live_serp",
+        "method": "observed",
+        "observed_at": "2026-10-21T10:43:22.664757Z",
+        "confidence": 0.95,
+        "cache_hit": false
+      }
+    },
+    {
+      "data": {
+        "keyword": "ai for data analytics",
+        "location": "United States",
+        "monthly_volume": 2900,
+        "cpc_usd": 26.4,
+        "competition_level": "LOW",
+        "intent": "commercial",
+        "trend": [
+          {
+            "year": 2026,
+            "month": 9,
+            "search_volume": 2900
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 2900
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 2900
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 4400
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 5400
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 4400
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 5400
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 6600
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 8100
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 8100
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 5400
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 5400
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 5400
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 5400
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 5400
+          }
+        ],
+        "serp_top": [
+          {
+            "position": 1,
+            "url": "https://cloud.google.com/use-cases/ai-data-analytics",
+            "domain": "cloud.google.com",
+            "title": "AI for Data Analytics",
+            "description": "Learn how to write SQL, build predictive and forecasting models, run sentiment analysis, and visualize data with AI data analytics."
+          },
+          {
+            "position": 2,
+            "url": "https://www.databricks.com/blog/how-ai-transforming-data-analytics",
+            "domain": "www.databricks.com",
+            "title": "How AI Is Transforming Data Analytics",
+            "description": "Feb 11, 2026 — AI automates data preparation, enables natural language querying, and delivers real-time insights that replace static reporting across  ..."
+          },
+          {
+            "position": 3,
+            "url": "https://www.coursera.org/learn/google-ai-for-data-analysis",
+            "domain": "www.coursera.org",
+            "title": "AI for Data Analysis",
+            "description": "In this course, you'll learn to use AI as your analytical partner to transform unstructured data into clear, actionable insights."
+          },
+          {
+            "position": 4,
+            "url": "https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/ai-for-data-analysis",
+            "domain": "www.microsoft.com",
+            "title": "AI Data Analytics: Enhance Your Data Analysis",
+            "description": "AI data analytics is the use of machine learning and AI tools to automate data processing, identify trends, and generate insights. Read more"
+          },
+          {
+            "position": 5,
+            "url": "https://www.intuit.com/blog/innovative-thinking/using-ai-for-data-science-analysis/",
+            "domain": "www.intuit.com",
+            "title": "How to Use AI for Data Analysis - Intuit Blog",
+            "description": "Jan 14, 2026 — AI supports the full data analytics workflow, from data prep to modeling and communication. It speeds up routine tasks and gives analysts more ..."
+          },
+          {
+            "position": 6,
+            "url": "https://camelai.com/blog/10-best-free-ai-data-analytics-tools-for-businesse",
+            "domain": "camelai.com",
+            "title": "10 Best AI Tools for Data Analysis in 2026 — Free & Paid ...",
+            "description": "Mar 17, 2026 — The best AI tools for data analysis in 2026 are camelAI, Microsoft Power BI Desktop, Google Looker Studio, Apache Superset, KNIME, Metabase, ..."
+          },
+          {
+            "position": 7,
+            "url": "https://www.deeplearning.ai/specializations/data-analytics",
+            "domain": "www.deeplearning.ai",
+            "title": "Data Analytics",
+            "description": "Build a solid data analytics foundation using industry standard and AI tools to extract insights, make decisions, and solve real-world business problems."
+          }
+        ],
+        "serp_features": [
+          "ai_overview",
+          "people_also_ask",
+          "people_also_search",
+          "video",
+          "perspectives",
+          "related_searches"
+        ]
+      },
+      "coverage": {
+        "returned": 7,
+        "total_available": null,
+        "truncated": false,
+        "as_of": "2026-10-21T10:43:40.744603Z",
+        "scope_note": null
+      },
+      "provenance": {
+        "source_class": "live_serp",
+        "method": "observed",
+        "observed_at": "2026-10-21T10:43:40.744603Z",
+        "confidence": 0.95,
+        "cache_hit": false
+      }
+    },
+    {
+      "data": {
+        "keyword": "ai powered business intelligence",
+        "location": "United States",
+        "monthly_volume": 720,
+        "cpc_usd": 19.72,
+        "competition_level": "LOW",
+        "intent": "commercial",
+        "trend": [
+          {
+            "year": 2026,
+            "month": 9,
+            "search_volume": 110
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 480
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 390
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 260
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 260
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 170
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 260
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 260
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 320
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 210
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 140
+          }
+        ],
+        "serp_top": [
+          {
+            "position": 1,
+            "url": "https://www.rollstack.com/articles/business-intelligence-in-the-age-of-ai-tools-strategy",
+            "domain": "www.rollstack.com",
+            "title": "Business Intelligence in the Age of AI: Tools & Strategy for ...",
+            "description": "Dec 5, 2024 — AI-powered Business Intelligence (BI) tools are platforms that integrate artificial intelligence to enhance data analytics, visualization, and ... Read more"
+          },
+          {
+            "position": 2,
+            "url": "https://www.priority-software.com/resources/ai-in-business-intelligence/",
+            "domain": "www.priority-software.com",
+            "title": "AI In BI: AI's Role In Business Intelligence In 2026",
+            "description": "Feb 24, 2026 — AI's role in business intelligence is to automate, scale, and optimize the analytical lifecycle, from data ingestion and transformation to ... Read more"
+          },
+          {
+            "position": 3,
+            "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1od0363/ai_business_intelligence_tools/",
+            "domain": "www.reddit.com",
+            "title": "AI business intelligence tools : r/BusinessIntelligence",
+            "description": "AI can understand your business semantics and deliver insights you can actually trust. non-technical users arrive at insights faster"
+          },
+          {
+            "position": 4,
+            "url": "https://www.databricks.com/blog/business-intelligence-analytics-complete-guide-ai-era",
+            "domain": "www.databricks.com",
+            "title": "Business Intelligence Analytics: A Complete Guide for the ...",
+            "description": "Modern business intelligence has evolved from static dashboards to AI-driven, conversational insights. Learn how BI analytics works, what analysts do, and why ... Read more"
+          },
+          {
+            "position": 5,
+            "url": "https://www.secoda.co/glossary/what-is-ai-powered-business-intelligence",
+            "domain": "www.secoda.co",
+            "title": "What is AI-Powered Business Intelligence",
+            "description": "Mar 27, 2025 — AI-powered business intelligence enhances decision-making through advanced data analytics, improving forecasting and operational efficiency ..."
+          },
+          {
+            "position": 6,
+            "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1fc57wt/ai_in_business_intelligence/",
+            "domain": "www.reddit.com",
+            "title": "AI in Business Intelligence : r/BusinessIntelligence",
+            "description": "AI can optimize marketing strategies and boost engagement for example I used a tool integrated with AI help craft a response"
+          },
+          {
+            "position": 7,
+            "url": "https://www.holistics.io/bi-tools/ai-analytics/",
+            "domain": "www.holistics.io",
+            "title": "15 Best AI BI Tools: The Complete List + Comparison (2026)",
+            "description": "5 days ago — AI BI tools let people ask questions of company data in plain language and get back charts, numbers and explanations, but the fifteen tools ... Read more"
+          },
+          {
+            "position": 8,
+            "url": "https://www.ewsolutions.com/how-ai-increases-the-value-of-business-intelligence/",
+            "domain": "www.ewsolutions.com",
+            "title": "How AI Increases the Value of Business Intelligence",
+            "description": "Jul 2, 2026 — AI-powered BI systems can automatically generate insights and update visualization dashboards with data tailored to a user's unique needs. AI ... Read more"
+          },
+          {
+            "position": 9,
+            "url": "https://stellium.consulting/articles/news/business-intelligence-using-ai/",
+            "domain": "stellium.consulting",
+            "title": "Business Intelligence Using AI: The Definitive Guide 2026",
+            "description": "Feb 6, 2026 — This definitive guide explores the journey from traditional BI to modern AI-powered insights. You will discover the core technologies behind ... Read more"
+          }
+        ],
+        "serp_features": [
+          "ai_overview",
+          "people_also_ask",
+          "related_searches",
+          "knowledge_graph"
+        ]
+      },
+      "coverage": {
+        "returned": 9,
+        "total_available": null,
+        "truncated": false,
+        "as_of": "2026-10-21T10:43:25.234337Z",
+        "scope_note": null
+      },
+      "provenance": {
+        "source_class": "live_serp",
+        "method": "observed",
+        "observed_at": "2026-10-21T10:43:25.234337Z",
+        "confidence": 0.95,
+        "cache_hit": false
+      }
+    },
+    {
+      "data": {
+        "keyword": "ai data analysis tools",
+        "location": "United States",
+        "monthly_volume": 210,
+        "cpc_usd": 53.89,
+        "competition_level": "LOW",
+        "intent": "commercial",
+        "trend": [
+          {
+            "year": 2026,
+            "month": 9,
+            "search_volume": 210
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 110
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 260
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 170
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 210
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 320
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 210
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 170
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 260
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 320
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 320
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 260
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 260
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 260
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 210
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 210
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 170
+          }
+        ],
+        "serp_top": [
+          {
+            "position": 1,
+            "url": "https://infinisynapse.com/use-cases/best-ai-tools-for-data-analysis",
+            "domain": "infinisynapse.com",
+            "title": "AI Tools for Data Analysis: 10 Compared (2026)",
+            "description": "The 9 best AI tools for data analysis in 2026, compared by workload · 1. ChatGPT Advanced Data Analysis — best for ad-hoc CSV and Excel work · 2. Claude — best ... Read more"
+          },
+          {
+            "position": 2,
+            "url": "https://julius.ai/articles/best-ai-analytics-tools-collaborative-data-platforms",
+            "domain": "julius.ai",
+            "title": "18 Best AI Analytics Tools for Collaborative Data Platforms ...",
+            "description": "Nov 9, 2025 — Some tools, like Julius and Databricks, Julius: Best for collaborative AI data analysis ・ 4. Tableau: Best for visual AI insights ・ 5. Qlik ..."
+          },
+          {
+            "position": 3,
+            "url": "https://www.domo.com/learn/article/data-analytics-tools",
+            "domain": "www.domo.com",
+            "title": "15 Data Analytics Tools for 2026 and How to Choose",
+            "description": "Sep 10, 2026 — Tools like ThoughtSpot, Domo AI, Power BI Copilot, and Looker with Gemini allow users to type questions and receive instant answers."
+          },
+          {
+            "position": 4,
+            "url": "https://www.luzmo.com/blog/ai-analytics-tools",
+            "domain": "www.luzmo.com",
+            "title": "10 Best AI Analytics Tools for Data-Driven Decision Making",
+            "description": "Aug 5, 2024 — 10 Best AI Analytics Tools for Data-Driven Decision Making · Luzmo · Microsoft Power BI · Tableau · KNIME · Polymer · Coefficient · Brand24. Read more"
+          },
+          {
+            "position": 5,
+            "url": "https://www.youtube.com/watch?v=Vsc8Zus8dRY",
+            "domain": "www.youtube.com",
+            "title": "Top 3 Best AI Tools for Data Analysis",
+            "description": "Top 3 Best AI Tools for Data Analysis. Need one tool for Funnels, CRM, Email Marketing, Courses, and more? Check out GoHighLevel. Check out our ..."
+          },
+          {
+            "position": 6,
+            "url": "https://plotly.com/blog/ai-data-analytics-tools/",
+            "domain": "plotly.com",
+            "title": "10 AI Data Analytics Tools Compared: Features and Pricing",
+            "description": "7 days ago — Compare 10 AI data analytics tools by AI capabilities, code visibility, deployment, and pricing. Assess the tradeoffs for your team's ..."
+          },
+          {
+            "position": 7,
+            "url": "https://aidataanalytics.io/blog/free-ai-tools-for-data-analysis",
+            "domain": "aidataanalytics.io",
+            "title": "Top Free AI Tools for Data Analysis | AI Analytics Hub",
+            "description": "Jan 26, 2026 — A practical overview of how AI is used in data analysis today, with a focus on free and low-cost AI analytics tools for conversational and self ..."
+          },
+          {
+            "position": 8,
+            "url": "https://juma.ai/blog/ai-tools-for-data-analysis",
+            "domain": "juma.ai",
+            "title": "Best 10 AI Tools For Data Analysis In 2026 [Reviewed]",
+            "description": "Jan 19, 2025 — Speed · #2: Julius AI · #3: Tableau · #4: ChatGPT · #5: Databricks · #6: AnswerRocket · #7: RapidMiner · #8: Microsoft Azure Machine Learning. Read more"
+          },
+          {
+            "position": 9,
+            "url": "https://querio.ai/articles/ai-powered-data-analysis-tools-non-technical-users-easy",
+            "domain": "querio.ai",
+            "title": "6 Best AI-Powered Data Analysis Tools for Non-Technical ...",
+            "description": "Jun 7, 2026 — Compare six AI analytics tools that let non-technical users run live, governed queries with transparent logic."
+          }
+        ],
+        "serp_features": [
+          "ai_overview",
+          "people_also_ask",
+          "paid",
+          "related_searches"
+        ]
+      },
+      "coverage": {
+        "returned": 9,
+        "total_available": null,
+        "truncated": false,
+        "as_of": "2026-10-21T10:43:25.029662Z",
+        "scope_note": null
+      },
+      "provenance": {
+        "source_class": "live_serp",
+        "method": "observed",
+        "observed_at": "2026-10-21T10:43:25.029662Z",
+        "confidence": 0.95,
+        "cache_hit": false
+      }
+    },
+    {
+      "data": {
+        "keyword": "ai business intelligence tools",
+        "location": "United States",
+        "monthly_volume": 210,
+        "cpc_usd": 37.99,
+        "competition_level": "LOW",
+        "intent": "commercial",
+        "trend": [
+          {
+            "year": 2026,
+            "month": 9,
+            "search_volume": 260
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 260
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 260
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 260
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 170
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 210
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 260
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 140
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 170
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 110
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 110
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 260
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 140
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 260
+          }
+        ],
+        "serp_top": [
+          {
+            "position": 1,
+            "url": "https://peoplemanagingpeople.com/tools/best-business-intelligence-software/",
+            "domain": "peoplemanagingpeople.com",
+            "title": "10 Best Business Intelligence Tools of 2026",
+            "description": "Sep 30, 2026 — 1. Zoho Analytics — Augment your data and predict future trends 2. Signara — Best for automated, no-code dashboards 3. Klipfolio — Create ..."
+          },
+          {
+            "position": 2,
+            "url": "https://www.cloudzero.com/blog/bi-tools/",
+            "domain": "www.cloudzero.com",
+            "title": "50 BI Tools You NEED To Know In 2025",
+            "description": "Jul 24, 2026 — These tools include spreadsheets, reporting/query software, data visualization software, data mining tools, and online analytical processing ( ..."
+          },
+          {
+            "position": 3,
+            "url": "https://supaboard.ai/blog/ai-native-business-intelligence-tools",
+            "domain": "supaboard.ai",
+            "title": "AI-Native Business Intelligence Tools: The 2026 Shortlist",
+            "description": "Mar 30, 2026 — An AI-native tool has an answer that names a place — a semantic layer, a metrics store, a model your team edits. Power BI Copilot, Tableau Pulse"
+          },
+          {
+            "position": 4,
+            "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi/topics/business-intelligence/business-intelligence-tools",
+            "domain": "www.microsoft.com",
+            "title": "Business Intelligence Tools | Microsoft Power BI",
+            "description": "Power BI —a business intelligence tool that optimizes data to create analytical reports in insightful visual formats."
+          },
+          {
+            "position": 5,
+            "url": "https://technologyadvice.com/blog/business-intelligence/ai-business-intelligence-tools/",
+            "domain": "technologyadvice.com",
+            "title": "The Best AI-Powered BI Tools to Stay Ahead",
+            "description": "May 19, 2025 — AI BI tools use machine learning to deliver smarter insights fast. Explore the best options to drive better decisions and outpace ..."
+          },
+          {
+            "position": 6,
+            "url": "https://www.coursera.org/articles/business-intelligence-tools",
+            "domain": "www.coursera.org",
+            "title": "A Guide to Business Intelligence Tools",
+            "description": "Sep 25, 2024 — Types of BI tools · Dashboard software · Reporting software · Unified Modeling Language (UML) tools · Business continuity management (BCM) tools. Read more"
+          },
+          {
+            "position": 7,
+            "url": "https://monday.com/blog/project-management/bi-tools/",
+            "domain": "monday.com",
+            "title": "BI Tools Comparison 2026: Top Platforms Ranked And ...",
+            "description": "Mar 30, 2026 — BI tools help teams analyze data and make smarter decisions. Compare top platforms like Power BI, Tableau, and monday to find the best fit."
+          },
+          {
+            "position": 8,
+            "url": "https://querio.ai/articles/best-ai-business-intelligence-platforms",
+            "domain": "querio.ai",
+            "title": "Best AI business intelligence platforms",
+            "description": "Jun 8, 2025 — Querio: Simplifies data analysis with natural language queries. · Tableau AI: Advanced data visualization and AI-driven insights. · Looker AI: ... Read more"
+          },
+          {
+            "position": 9,
+            "url": "https://www.cdata.com/blog/top-10-bi-tools",
+            "domain": "www.cdata.com",
+            "title": "10 Best Business Intelligence (BI) Tools for 2024",
+            "description": "Jan 8, 2024 — 10 Business intelligence analysis tools · Microsoft Power BI · Tableau Desktop · SAS BI & Analytics · Oracle Business Intelligence (Oracle BI) · IBM ... Read more"
+          }
+        ],
+        "serp_features": [
+          "ai_overview",
+          "people_also_ask",
+          "related_searches"
+        ]
+      },
+      "coverage": {
+        "returned": 9,
+        "total_available": null,
+        "truncated": false,
+        "as_of": "2026-10-21T10:43:22.783731Z",
+        "scope_note": null
+      },
+      "provenance": {
+        "source_class": "live_serp",
+        "method": "observed",
+        "observed_at": "2026-10-21T10:43:22.783731Z",
+        "confidence": 0.95,
+        "cache_hit": false
+      }
+    },
+    {
+      "data": {
+        "keyword": "best ai analytics tools",
+        "location": "United States",
+        "monthly_volume": 20,
+        "cpc_usd": null,
+        "competition_level": "LOW",
+        "intent": "commercial",
+        "trend": [
+          {
+            "year": 2026,
+            "month": 9,
+            "search_volume": 30
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 30
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 30
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 10
+          }
+        ],
+        "serp_top": [
+          {
+            "position": 1,
+            "url": "https://www.tellius.com/resources/blog/best-ai-analytics-platforms-in-2026-12-tools-compared-by-capability-governance-and-depth-of-insight",
+            "domain": "www.tellius.com",
+            "title": "AI Analytics Platforms 2026: 12 Tools Compared",
+            "description": "Feb 17, 2026 — Tellius — Best for Automated Deep Insights and Proactive Insight Delivery. Julius AI — Best for Individual Analysts. ChatGPT Advanced Data  ..."
+          },
+          {
+            "position": 2,
+            "url": "https://www.zerve.ai/blog/ai-data-analysis-tools",
+            "domain": "www.zerve.ai",
+            "title": "10 Best AI Data Analysis Tools in 2026 (By Use Case)",
+            "description": "Jan 20, 2026 — 10 Best AI Data Analysis Tools in 2026 (For Every Use Case) · Microsoft Power BI · Tableau · Domo · Natural Language Analytics · ThoughtSpot. Read more"
+          },
+          {
+            "position": 3,
+            "url": "https://cloud.google.com/use-cases/ai-data-analytics",
+            "domain": "cloud.google.com",
+            "title": "AI for Data Analytics",
+            "description": "Learn how to write SQL, build predictive and forecasting models, run sentiment analysis, and visualize data with AI data analytics."
+          },
+          {
+            "position": 4,
+            "url": "https://www.reddit.com/r/analytics/comments/1hs5fp8/are_any_ai_analytics_tools_actually_good/",
+            "domain": "www.reddit.com",
+            "title": "Are any AI Analytics Tools Actually Good?",
+            "description": "Like are you using analytics tools with built in AI, or just giving ChatGPT, MS CoPilot, or some other model access to your data? If you are using an ..."
+          },
+          {
+            "position": 5,
+            "url": "https://www.kdnuggets.com/5-best-ai-tools-for-data-analysis-you-should-try-in-2026",
+            "domain": "www.kdnuggets.com",
+            "title": "5 Best AI Tools for Data Analysis You Should Try in 2026",
+            "description": "Jul 28, 2026 — 5 Best AI Tools for Data Analysis You Should Try in 2026 · # Introduction · # 1. Deepnote · # 2. ChatGPT · # 3. Claude Code · # 4. DataLab · # 5 ... Read more"
+          },
+          {
+            "position": 6,
+            "url": "https://www.holistics.io/blog/ai-analytics-platforms/",
+            "domain": "www.holistics.io",
+            "title": "Best AI Analytics Platforms: 13 Tools Reviewed (2026)",
+            "description": "Aug 25, 2026 — What Are The Best AI BI & Analytics Platforms? · 1. Holistics AI · 2. Power BI Copilot · 3. Tableau AI · 4. Looker Gemini · 5. ThoughtSpot ... Read more"
+          },
+          {
+            "position": 7,
+            "url": "https://www.forbes.com/sites/bernardmarr/2024/08/02/17-generative-ai-data-analytics-tools-everyone-should-know-about/",
+            "domain": "www.forbes.com",
+            "title": "17 Generative AI Data Analytics Tools Everyone Should ...",
+            "description": "Aug 2, 2024 — Explore the top 17 AI data analytics tools revolutionizing how we extract insights from vast data sets, making advanced data analysis ..."
+          },
+          {
+            "position": 8,
+            "url": "https://www.domo.com/learn/article/ai-data-analysis-tools",
+            "domain": "www.domo.com",
+            "title": "AI Data Analysis Tools That Connect Insights to Action",
+            "description": "Oct 5, 2026 — Compare 12 AI data analysis tools by use case—Domo, Power BI, Tableau, ThoughtSpot, Julius AI, Talend, ChatGPT—plus governance, pricing, ..."
+          },
+          {
+            "position": 9,
+            "url": "https://www.splunk.com/en_us/blog/learn/data-analysis-tools.html",
+            "domain": "www.splunk.com",
+            "title": "12 Must-Have Data Analysis Tools for 2026 | Python, SQL ...",
+            "description": "Jul 17, 2025 — The top data analysis tools in 2025 include Python, R, Excel, SQL, and Splunk, each serving different use cases from scripting to enterprise- ... Read more"
+          }
+        ],
+        "serp_features": [
+          "ai_overview",
+          "people_also_ask",
+          "related_searches"
+        ]
+      },
+      "coverage": {
+        "returned": 9,
+        "total_available": null,
+        "truncated": false,
+        "as_of": "2026-10-21T10:43:38.212298Z",
+        "scope_note": null
+      },
+      "provenance": {
+        "source_class": "live_serp",
+        "method": "observed",
+        "observed_at": "2026-10-21T10:43:38.212298Z",
+        "confidence": 0.95,
+        "cache_hit": false
+      }
+    },
+    {
+      "data": {
+        "keyword": "best ai bi tools",
+        "location": "United States",
+        "monthly_volume": null,
+        "cpc_usd": null,
+        "competition_level": null,
+        "intent": "commercial",
+        "trend": [],
+        "serp_top": [
+          {
+            "position": 1,
+            "url": "https://querio.ai/articles/best-ai-native-business-intelligence-tools-comparison",
+            "domain": "querio.ai",
+            "title": "Top 6 AI-native business intelligence tools for 2026",
+            "description": "Apr 24, 2026 — Top 6 AI-native business intelligence tools for 2026 · 1. Querio · 2. ThoughtSpot · 3. Fabi · 4. Basedash · 5. Databricks AI/BI Genie · 6. Read more"
+          },
+          {
+            "position": 2,
+            "url": "https://www.cloudzero.com/blog/bi-tools/",
+            "domain": "www.cloudzero.com",
+            "title": "50 BI Tools You NEED To Know In 2025",
+            "description": "Jul 24, 2026 — Discover 50 different business intelligence tools categorized into several sections — from reporting to dashboards, cost management, ..."
+          },
+          {
+            "position": 3,
+            "url": "https://www.snowflake.com/en/fundamentals/ai-for-business-intelligence/",
+            "domain": "www.snowflake.com",
+            "title": "AI in Business Intelligence: Benefits and Use Cases",
+            "description": "AI augments BI so any user can analyze data without needing to be proficient in writing SQL, the language of analytics and databases where data is stored."
+          },
+          {
+            "position": 4,
+            "url": "https://peoplemanagingpeople.com/tools/best-business-intelligence-software/",
+            "domain": "peoplemanagingpeople.com",
+            "title": "10 Best Business Intelligence Tools of 2026",
+            "description": "Sep 30, 2026 — Discover the best business intelligence software and find the right tool for you. Compare features, pricing, and more in my complete guide."
+          },
+          {
+            "position": 5,
+            "url": "https://supaboard.ai/blog/ai-native-business-intelligence-tools",
+            "domain": "supaboard.ai",
+            "title": "AI-Native Business Intelligence Tools: The 2026 Shortlist",
+            "description": "Mar 30, 2026 — Hex, Omni and Lightdash. Explore the top AI BI tools in 2026 with real comparisons, pricing, and insights. Find the right business intelligence ..."
+          },
+          {
+            "position": 6,
+            "url": "https://www.qlik.com/us/business-intelligence-tools",
+            "domain": "www.qlik.com",
+            "title": "The Complete 2026 Buyer's Guide to Business Intelligence ...",
+            "description": "Qlik helps teams get more out of AI with data they can rely on and control. a powerful analytics engine, and proactive AI agents."
+          },
+          {
+            "position": 7,
+            "url": "https://www.pro5.ai/blog/6-most-popular-bi-tools",
+            "domain": "www.pro5.ai",
+            "title": "6 Most Popular BI Tools - Pro5.ai",
+            "description": "1. Tableau · Tableau · Drag-and-drop interface. Real-time data analysis. Integration with numerous data sources ; 2. Power BI · Microsoft Power BI · Interactive ... Read more"
+          },
+          {
+            "position": 8,
+            "url": "https://www.tinybird.co/blog/business-intelligence-software",
+            "domain": "www.tinybird.co",
+            "title": "Business Intelligence Software: 10 Best Options Compared ...",
+            "description": "Jun 8, 2026 — Compare the 8 best business intelligence software solutions and find the perfect fit for real-time analytics in 2026."
+          },
+          {
+            "position": 9,
+            "url": "https://posthog.com/blog/best-open-source-business-intelligence-tools",
+            "domain": "posthog.com",
+            "title": "7 best free open source business intelligence tools right now",
+            "description": "Mar 24, 2026 — Metabase is a simpler alternative to BI tools like Tableau, Power BI, and Looker, but it misses some of the powerful data modeling that these ... Read more"
+          }
+        ],
+        "serp_features": [
+          "ai_overview",
+          "people_also_ask",
+          "related_searches"
+        ]
+      },
+      "coverage": {
+        "returned": 9,
+        "total_available": null,
+        "truncated": false,
+        "as_of": "2026-10-21T10:43:41.993174Z",
+        "scope_note": null
+      },
+      "provenance": {
+        "source_class": "live_serp",
+        "method": "observed",
+        "observed_at": "2026-10-21T10:43:41.993174Z",
+        "confidence": 0.95,
+        "cache_hit": false
+      }
+    },
+    {
+      "data": {
+        "keyword": "ai analytics tools comparison",
+        "location": "United States",
+        "monthly_volume": null,
+        "cpc_usd": null,
+        "competition_level": null,
+        "intent": "commercial",
+        "trend": [],
+        "serp_top": [
+          {
+            "position": 1,
+            "url": "https://julius.ai/articles/best-ai-analytics-tools-collaborative-data-platforms",
+            "domain": "julius.ai",
+            "title": "18 Best AI Analytics Tools for Collaborative Data Platforms ...",
+            "description": "Nov 9, 2025 — Best for no-code collaboration7. Looker Studio: Best for shared dashboards8. ThoughtSpot: Best for search-driven analytics9. Akkio: Best for ..."
+          },
+          {
+            "position": 2,
+            "url": "https://julius.ai/articles/ai-tools-for-data-analysis",
+            "domain": "julius.ai",
+            "title": "13 Essential AI Tools for Data Analysis: Features & Pricing ...",
+            "description": "Aug 26, 2026 — AI data analysis tools vary in capability, from basic charting to predictive modeling. I tested dozens, and here are the 13 best for ..."
+          },
+          {
+            "position": 3,
+            "url": "https://www.luzmo.com/blog/ai-analytics-tools",
+            "domain": "www.luzmo.com",
+            "title": "10 Best AI Analytics Tools for Data-Driven Decision Making",
+            "description": "Aug 5, 2024 — 10 Best AI Analytics Tools for Data-Driven Decision Making · Luzmo · Microsoft Power BI · Tableau · KNIME · Polymer · Coefficient · Brand24 · Medallia. Read more"
+          },
+          {
+            "position": 4,
+            "url": "https://diyai.io/ai-tools/data-analytics/best-ai-data-analytics-tools/",
+            "domain": "diyai.io",
+            "title": "Best AI Data Analysis Tools 2026: 10 Platforms Compared",
+            "description": "Jun 28, 2026 — Compare the best AI data analysis tools for CSVs, dashboards, SQL, AutoML and BI. See dataset scores, free options, trade-offs and verdicts."
+          },
+          {
+            "position": 5,
+            "url": "https://textql.com/blog/ai-analytics-tools-data-insights",
+            "domain": "textql.com",
+            "title": "Top 10 AI Analytics Tools for Data Insights in 2025",
+            "description": "Review and compare 10 leading AI analytics tools for data insights, including TextQL, Power BI, Tableau, and more, with features and use cases."
+          },
+          {
+            "position": 6,
+            "url": "https://tribemap.ai/blog/best-ai-analytics-tools",
+            "domain": "tribemap.ai",
+            "title": "The best AI analytics tools in 2026, and how to tell them apart",
+            "description": "Aug 1, 2026 — An honest comparison. GA4 with built-in insights, AI query layer, Plausible / Fathom, Enterprise CDP with scoring, TribeMap ... Read more"
+          },
+          {
+            "position": 7,
+            "url": "https://sproutsocial.com/insights/ai-analytics-tools/",
+            "domain": "sproutsocial.com",
+            "title": "7 AI tools for data analytics: A marketer's guide",
+            "description": "Sep 10, 2025 — Top 7 AI analytics tools ; Google Analytics, Web analytics, Automated insights, predictive analysis ; Tableau, Data visualization, Ask Data, ... Read more"
+          },
+          {
+            "position": 8,
+            "url": "https://www.designrush.com/agency/ai-companies/trends/ai-for-data-analytics",
+            "domain": "www.designrush.com",
+            "title": "Top 15 AI Data Analytics Tools for 2026",
+            "description": "Aug 25, 2025 — Find the best AI data analytics tools for your business. Compare features, pricing, and performance to drive smarter decisions."
+          },
+          {
+            "position": 9,
+            "url": "https://blog.temboo.com/the-great-ai-showdown-comparing-8-leading-models-for-data-analysis/",
+            "domain": "blog.temboo.com",
+            "title": "Comparing 8 Leading Models for Data Analysis",
+            "description": "Apr 14, 2025 — The analysis included eight leading AI models/tools: Claude by Anthropic; ChatGPT; Llama by Meta; Gemini by Google; DeepSeek; Le Chat by Mistral ... Read more"
+          }
+        ],
+        "serp_features": [
+          "ai_overview",
+          "related_searches"
+        ]
+      },
+      "coverage": {
+        "returned": 9,
+        "total_available": null,
+        "truncated": false,
+        "as_of": "2026-10-21T10:43:39.774267Z",
+        "scope_note": null
+      },
+      "provenance": {
+        "source_class": "live_serp",
+        "method": "observed",
+        "observed_at": "2026-10-21T10:43:39.774267Z",
+        "confidence": 0.95,
+        "cache_hit": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 660" role="img" aria-labelledby="scatter-title scatter-desc" style="font-family:Arial,sans-serif">
+<title id="scatter-title">Time vs accuracy</title>
+<desc id="scatter-desc">Reported mean time in seconds and accuracy as percentage of available rubric points: Supaboard (Stella Pro): 192 seconds, 89.7%; claude: 98 seconds, 79.5%; Lightdash: 173 seconds, 71.8%; Basedash: 68 seconds, 69.2%; ChatGPT: 196 seconds, 66.7%; Dot: 152 seconds, 56.4%; Hex: 75 seconds, 48.7%; Sigma: 225 seconds, 43.6%; Metabase: 180 seconds, 0.0%.</desc>
+<text x="32" y="42" font-size="32" text-anchor="start" font-weight="700" fill="currentColor">Time vs accuracy</text>
+<text x="32" y="74" font-size="21" text-anchor="start" font-weight="400" fill="currentColor">Nine configurations · reported results</text>
+<text x="32" y="111" font-size="21" text-anchor="start" font-weight="400" fill="currentColor">Accuracy (%)</text>
+<line x1="95" y1="520.0" x2="655" y2="520.0" stroke="currentColor" opacity="0.13"/>
+<text x="80" y="527.0" font-size="20" text-anchor="end" font-weight="400" fill="currentColor">0</text>
+<line x1="95" y1="444.0" x2="655" y2="444.0" stroke="currentColor" opacity="0.13"/>
+<text x="80" y="451.0" font-size="20" text-anchor="end" font-weight="400" fill="currentColor">20</text>
+<line x1="95" y1="368.0" x2="655" y2="368.0" stroke="currentColor" opacity="0.13"/>
+<text x="80" y="375.0" font-size="20" text-anchor="end" font-weight="400" fill="currentColor">40</text>
+<line x1="95" y1="292.0" x2="655" y2="292.0" stroke="currentColor" opacity="0.13"/>
+<text x="80" y="299.0" font-size="20" text-anchor="end" font-weight="400" fill="currentColor">60</text>
+<line x1="95" y1="216.0" x2="655" y2="216.0" stroke="currentColor" opacity="0.13"/>
+<text x="80" y="223.0" font-size="20" text-anchor="end" font-weight="400" fill="currentColor">80</text>
+<line x1="95" y1="140.0" x2="655" y2="140.0" stroke="currentColor" opacity="0.13"/>
+<text x="80" y="147.0" font-size="20" text-anchor="end" font-weight="400" fill="currentColor">100</text>
+<line x1="95.0" y1="140" x2="95.0" y2="520" stroke="currentColor" opacity="0.08"/>
+<text x="95.0" y="553" font-size="20" text-anchor="middle" font-weight="400" fill="currentColor">0</text>
+<line x1="207.0" y1="140" x2="207.0" y2="520" stroke="currentColor" opacity="0.08"/>
+<text x="207.0" y="553" font-size="20" text-anchor="middle" font-weight="400" fill="currentColor">50</text>
+<line x1="319.0" y1="140" x2="319.0" y2="520" stroke="currentColor" opacity="0.08"/>
+<text x="319.0" y="553" font-size="20" text-anchor="middle" font-weight="400" fill="currentColor">100</text>
+<line x1="431.0" y1="140" x2="431.0" y2="520" stroke="currentColor" opacity="0.08"/>
+<text x="431.0" y="553" font-size="20" text-anchor="middle" font-weight="400" fill="currentColor">150</text>
+<line x1="543.0" y1="140" x2="543.0" y2="520" stroke="currentColor" opacity="0.08"/>
+<text x="543.0" y="553" font-size="20" text-anchor="middle" font-weight="400" fill="currentColor">200</text>
+<line x1="655.0" y1="140" x2="655.0" y2="520" stroke="currentColor" opacity="0.08"/>
+<text x="655.0" y="553" font-size="20" text-anchor="middle" font-weight="400" fill="currentColor">250</text>
+<line x1="95" y1="140" x2="95" y2="520" stroke="currentColor" opacity="0.5"/>
+<line x1="95" y1="520" x2="655" y2="520" stroke="currentColor" opacity="0.5"/>
+<circle cx="525.0799999999999" cy="179.14" r="7.5" fill="#414dcf" stroke="#fff" stroke-width="2"/>
+<text x="525.0799999999999" y="156.14" font-size="22" text-anchor="middle" font-weight="600" fill="currentColor">Supaboard</text>
+<circle cx="314.52" cy="217.89999999999998" r="7.5" fill="#414dcf" stroke="#fff" stroke-width="2"/>
+<text x="314.52" y="195.89999999999998" font-size="22" text-anchor="middle" font-weight="600" fill="currentColor">claude</text>
+<circle cx="482.52" cy="247.16000000000003" r="7.5" fill="#414dcf" stroke="#fff" stroke-width="2"/>
+<text x="466.52" y="227.16000000000003" font-size="22" text-anchor="end" font-weight="600" fill="currentColor">Lightdash</text>
+<circle cx="247.32000000000002" cy="257.03999999999996" r="7.5" fill="#414dcf" stroke="#fff" stroke-width="2"/>
+<text x="231.32000000000002" y="245.03999999999996" font-size="22" text-anchor="end" font-weight="600" fill="currentColor">Basedash</text>
+<circle cx="534.04" cy="266.53999999999996" r="7.5" fill="#414dcf" stroke="#fff" stroke-width="2"/>
+<text x="550.04" y="287.53999999999996" font-size="22" text-anchor="start" font-weight="600" fill="currentColor">ChatGPT</text>
+<circle cx="435.48" cy="305.68" r="7.5" fill="#414dcf" stroke="#fff" stroke-width="2"/>
+<text x="419.48" y="305.68" font-size="22" text-anchor="end" font-weight="600" fill="currentColor">Dot</text>
+<circle cx="263.0" cy="334.93999999999994" r="7.5" fill="#414dcf" stroke="#fff" stroke-width="2"/>
+<text x="247.0" y="360.93999999999994" font-size="22" text-anchor="end" font-weight="600" fill="currentColor">Hex</text>
+<circle cx="599.0" cy="354.32" r="7.5" fill="#414dcf" stroke="#fff" stroke-width="2"/>
+<text x="583.0" y="382.32" font-size="22" text-anchor="end" font-weight="600" fill="currentColor">Sigma</text>
+<circle cx="498.2" cy="520.0" r="7.5" fill="#414dcf" stroke="#fff" stroke-width="2"/>
+<text x="498.2" y="497.0" font-size="22" text-anchor="middle" font-weight="600" fill="currentColor">Metabase</text>
+<text x="375" y="595" font-size="23" text-anchor="middle" font-weight="400" fill="currentColor">Mean time to answer (seconds)</text>
+<text x="32" y="638" font-size="18" text-anchor="start" font-weight="400" fill="currentColor">Source: Data Analytics Index · vendor-reported</text>
+</svg>
